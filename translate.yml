@@ -2,10 +2,10 @@ name: Translate GitBook Content
 
 inputs:
   source_language:
-    description: "The source language (e.g.: en)"
+    description: "The source language (e.g.: ru)"
     required: true
   target_language:
-    description: "The target language (e.g.: fr)"
+    description: "The target language (e.g.: en)"
     required: true
   translator_api_key:
     description: The Azure Translator API key
