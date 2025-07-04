@@ -1,0 +1,39 @@
+---
+hidden: true
+---
+
+# Paymatrix
+
+{% hint style="info" %}
+Если вам необходимо обновить модуль на сервере — воспользуйтесь [инструкцией](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/faq/kak-obnovit-faily-na-servere#moduli-merchantov)
+{% endhint %}
+
+## Настройки в личном кабинете мерчанта
+
+## Настройки модуля
+
+В панели администратора создайте нового мерчанта в разделе "**Мерчанты**" -> "**Добавить мерчант".**
+
+Выберите Paymatrix в выпадающем списке в поле "**Модуль**", укажите название для модуля и нажмите "**Сохранить**".
+
+<figure><img src="../../../.gitbook/assets/image (253).png" alt="" width="416"><figcaption></figcaption></figure>
+
+Заполните указанные авторизационные поля.
+
+<figure><img src="../../../.gitbook/assets/image (251).png" alt="" width="421"><figcaption></figcaption></figure>
+
+**API ключ** — ключ, переданный вам менеджером Paymatrix
+
+{% hint style="warning" %}
+Образаем ваше внимание, что для каждой валюты (AZN, RUB, TRY, UZS) необходимо выпускать отдельный API-ключ и создавать отдельную копию модуля мерчанта.
+{% endhint %}
+
+## Особые поля
+
+<figure><img src="../../../.gitbook/assets/image (252).png" alt="" width="418"><figcaption></figcaption></figure>
+
+**Способ оплаты** — выберите необходимый способ для приема средств от клиента
+
+## Продолжение настройки
+
+Далее произведите настройку мерчанта следуя [общей инструкции по настройке](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/obshie-nastroiki-merchantov).\
