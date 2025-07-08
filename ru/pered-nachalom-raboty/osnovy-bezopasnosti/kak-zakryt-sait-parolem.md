@@ -4,12 +4,12 @@
 
 Зайдите в Shell-клиент в ISP Manager под пользователем root.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 Выполните команду, в которой укажите имя пользователя (в данном случае, для примера будет пользователь sysadmin):\
 `sh -c "echo -n 'sysadmin:' >> /etc/nginx/.htpasswd"`
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Затем выполните команду, при помощи которой будет зашифрован пароль доступа:\
 `sh -c "openssl passwd -apr1 >> /etc/nginx/.htpasswd"`

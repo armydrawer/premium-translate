@@ -24,6 +24,16 @@ description: >-
     disable_functions = exec,system,passthru,shell_exec,proc_open,show_source
     ```
     {% endcode %}
+
+{% hint style="success" %}
+Если вы используете ISP Manager, выполните следующие шаги:
+
+1. Залогиньтесь под <mark style="color:red;">root-пользователем</mark>.
+2. Перейдите в раздел "PHP"и выберите версию PHP, которая используется для сайта\
+   ![](../../.gitbook/assets/image.png)
+3.
+{% endhint %}
+
 *   Запретите загрузку файлов через **`allow_url_include` и `allow_url_fopen`** —  это снизит риск удаленного выполнения кода:
 
     ```ini
