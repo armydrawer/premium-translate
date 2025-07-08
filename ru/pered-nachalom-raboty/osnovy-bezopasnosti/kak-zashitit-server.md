@@ -49,7 +49,7 @@ layout:
 
 <figure><img src="../../.gitbook/assets/image (2181).png" alt=""><figcaption></figcaption></figure>
 
-3. Поиском найдите директиву `disable_functions` , отметьте её галочкой и нажмите кнопку с карандашом ("**Изменить переменную**").
+3. Поиском найдите директиву `disable_functions`, отметьте её галочкой и нажмите кнопку с карандашом ("**Изменить переменную**").
 
 <figure><img src="../../.gitbook/assets/image (2182).png" alt=""><figcaption></figcaption></figure>
 
@@ -76,7 +76,7 @@ layout:
 
 <figure><img src="../../.gitbook/assets/image (2181).png" alt="" width="563"><figcaption></figcaption></figure>
 
-3. Поиском найдите директивы по тексту `allow_url` , отметьте их галочкой и нажмите кнопку с карандашом ("**Изменить переменную**").
+3. Поиском найдите директивы по тексту `allow_url`, отметьте их галочкой и нажмите кнопку с карандашом ("**Изменить переменную**").
 
 <figure><img src="../../.gitbook/assets/image (2185).png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -96,17 +96,17 @@ layout:
 
 <summary>Если вы используете ispmanager, выполните следующие шаги:</summary>
 
-1. Авторизуйтесь в ispmanager  под <mark style="color:red;">**root-пользователем**</mark>.
+1. Авторизуйтесь в ispmanager под <mark style="color:red;">**root-пользователем**</mark>.
 
 2) Перейдите в раздел "**PHP**", выберите версию PHP, [которая используется на вашем сайте](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-proverit-versiyu-php-ispolzuyushuyusya-dlya-saita) и нажмите кнопку "Расширения".
 
 <figure><img src="../../.gitbook/assets/image (2186).png" alt="" width="563"><figcaption></figcaption></figure>
 
-3. Поиском найдите директивы по тексту **`phar`** (пример), отметьте их галочкой и нажмите кнопку с карандашом ("**Изменить переменную**").
+3. Поиском найдите расширения по тексту **`phar`** (пример), отметьте их галочкой и нажмите кнопку с карандашом ("**Выключить расширение**").
 
 <figure><img src="../../.gitbook/assets/image (2187).png" alt="" width="531"><figcaption></figcaption></figure>
 
-4. Выключите расширение по кнопке и подтвердите выключение во всплывающем окн&#x435;**.**
+4. Нажмите кнопку и подтвердите выключение расширения во всплывающем окн&#x435;**.**
 
 </details>
 
@@ -125,7 +125,7 @@ layout:
 
 <summary>Если вы используете ispmanager, выполните следующие шаги:</summary>
 
-1. Авторизуйтесь в ispmanager  под <mark style="color:red;">**root-пользователем**</mark>.
+1. Авторизуйтесь в ispmanager под <mark style="color:yellow;">**любым пользователем**</mark>.
 
 2) Перейдите в раздел "**Сайты**", выберите ваш сайт и нажмите кнопку "**Файлы сайта**".
 
