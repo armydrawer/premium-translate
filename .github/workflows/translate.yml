@@ -3,7 +3,7 @@ name: Translate GitBook Content
 on:
   push:
     branches: [ main ]
-    paths: [ 'ru/SUMMARY.md' ]
+    paths: [ 'ru/**/*.md' ]
 
 jobs:
   translate:
