@@ -105,8 +105,7 @@ description: >-
 3.  Найдите файл `.htaccess` и перейдите в режим его редактирования двойным кликом.
 
     <figure><img src="../../.gitbook/assets/image (2190).png" alt="" width="479"><figcaption></figcaption></figure>
-4.  Укажите указнный выше текст в файле и сохраните изменения.\
-
+4.  Укажите указнный выше текст в файле и сохраните изменения.
 
     <figure><img src="../../.gitbook/assets/image (2191).png" alt="" width="543"><figcaption></figcaption></figure>
 {% endhint %}
