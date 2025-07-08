@@ -2,7 +2,7 @@
 
 ### Создание файла с логином и паролем
 
-Зайдите в Shell-клиент в ISP Manager под пользователем root.
+Зайдите в Shell-клиент в ispmanager под <mark style="color:red;">root-пользователем</mark>.
 
 <figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
