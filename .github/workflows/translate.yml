@@ -8,7 +8,7 @@ inputs:
     description: "The target language (e.g.: en)"
     required: true
   translator_api_key:
-    description: The Azure Translator API key
+    description: "8M4kbibYHUz5P6YSe4k97qbRBOHsTt8hUPzDFTEBR0h5oPD8SOonJQQJ99BGACqBBLyXJ3w3AAAbACOGA0lK"
     required: true
 
 runs:
@@ -32,15 +32,23 @@ runs:
       shell: bash
       if: steps.changed-gitbook-files.outputs.any_changed == 'true'
       run: |
+        echo "Copying .gitbook files from ${{ inputs.source_language }} to ${{ inputs.target_language }}"
         rm -rf ${{ inputs.target_language }}/.gitbook
         mkdir -p ${{ inputs.target_language }}/.gitbook
-        cp -r ${{ inputs.source_language }}/.gitbook/* ${{ inputs.target_language }}/.gitbook/
+        
+        # Check if source .gitbook directory exists
+        if [ -d "${{ inputs.source_language }}/.gitbook" ]; then
+          cp -r ${{ inputs.source_language }}/.gitbook/* ${{ inputs.target_language }}/.gitbook/
+          echo "Successfully copied .gitbook files"
+        else
+          echo "Source .gitbook directory not found"
+        fi
 
     - name: Setup Node.js
       if: steps.changed-markdown-files.outputs.any_changed == 'true'
       uses: actions/setup-node@v4
       with:
-        node-version: 23.6.0
+        node-version: '20.x'
 
     - name: Set up pnpm
       if: steps.changed-markdown-files.outputs.any_changed == 'true'
@@ -52,7 +60,9 @@ runs:
       shell: bash
       if: steps.changed-markdown-files.outputs.any_changed == 'true'
       working-directory: 365talents-actions/actions/gitbook-translator/translator-script
-      run: pnpm install
+      run: |
+        echo "Installing dependencies..."
+        pnpm install
 
     - name: Run translation script
       shell: bash
@@ -63,24 +73,73 @@ runs:
         TARGET_LANGUAGE: ${{ inputs.target_language }}
         NEW_FILES: ${{ steps.changed-markdown-files.outputs.all_changed_files }}
         TRANSLATOR_API_KEY: ${{ inputs.translator_api_key }}
-      run: node index.ts 
+      run: |
+        echo "Running translation script..."
+        echo "Source language: $SOURCE_LANGUAGE"
+        echo "Target language: $TARGET_LANGUAGE"
+        echo "Files to translate: $NEW_FILES"
+        
+        # Run TypeScript file with tsx or ts-node
+        if command -v tsx &> /dev/null; then
+          tsx index.ts
+        elif command -v ts-node &> /dev/null; then
+          ts-node index.ts
+        else
+          echo "Installing tsx for TypeScript execution..."
+          pnpm add --global tsx
+          tsx index.ts
+        fi
 
-    # Make sure that deleting a file in the source_language also deletes it in target_language
     - name: Cleanup deleted files
       shell: bash
       run: |
+        echo "Cleaning up deleted files in ${{ inputs.target_language }}"
+        
+        # Check if target language directory exists
+        if [ ! -d "${{ inputs.target_language }}" ]; then
+          echo "Target language directory does not exist, skipping cleanup"
+          exit 0
+        fi
+        
         cd ${{ inputs.target_language }}
+        deleted_count=0
+        
         find . -type f -name "*.md" | while read file; do
-          if [ ! -f "../${{ inputs.source_language }}/$file" ]; then
+          # Remove leading ./ from file path
+          clean_file=${file#./}
+          source_file="../${{ inputs.source_language }}/$clean_file"
+          
+          if [ ! -f "$source_file" ]; then
+            echo "Removing ${{ inputs.target_language }}/$clean_file (no longer exists in source)"
             rm "$file"
-            echo "Removed ${{ inputs.target_language }}/$file as it no longer exists in ${{ inputs.source_language }}/"
+            deleted_count=$((deleted_count + 1))
           fi
         done
+        
+        echo "Cleanup completed. Removed $deleted_count files."
 
-    # Commit translated content
+    - name: Check for changes
+      id: check-changes
+      shell: bash
+      run: |
+        if [ -d "${{ inputs.target_language }}" ]; then
+          cd ${{ inputs.target_language }}
+          if git diff --quiet && git diff --cached --quiet; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "No changes detected"
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "Changes detected"
+          fi
+        else
+          echo "has_changes=false" >> $GITHUB_OUTPUT
+          echo "Target directory does not exist"
+        fi
+
     - name: Commit changes
+      if: steps.check-changes.outputs.has_changes == 'true'
       uses: stefanzweifel/git-auto-commit-action@v5
       with:
-        commit_message: Translate files
+        commit_message: "Translate files from ${{ inputs.source_language }} to ${{ inputs.target_language }}"
         file_pattern: '${{ inputs.target_language }}/**'
-        add_options: --all
+        add_options: '--all'
