@@ -143,10 +143,23 @@ layout:
 
 ## Настройка прав на файлы
 
-<figure><img src="../../.gitbook/assets/image (2192).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
-Если в разделе "Консоль" в блоке "Проверка безопасности" в админ-панели сайта отображается предупреждение о некорректных правах на файлы — измените права указанных файлов на более безопасные (~~зачеркнутое значение~~ — <mark style="color:red;">текущие права</mark>, после ➔ <mark style="color:green;">рекомендуемые права</mark>).
+Если в админбаре отображается предупреждение об ошибках в виде анимированного <mark style="color:red;">красного круга</mark>, откройте раздел с ошибками.
 
+Если в разделе отображается ошибка о некорректных правах на файлы, измените права указанных файлов на более безопасные (~~зачеркнутое значение~~ — <mark style="color:red;">текущие права</mark>, после ➔ <mark style="color:green;">рекомендуемые права</mark>).
+
+{% hint style="success" %}
+[Официальная инструкция](https://developer.wordpress.org/advanced-administration/security/hardening/#file-permissions) от Wordpress по настройке прав на файлы
+{% endhint %}
+
+{% hint style="info" %}
+Предупреждения также отображаются в разделе "Консоль", блок "Проверка безопасности"
+
+<img src="../../.gitbook/assets/image (2).png" alt="" data-size="original">
+{% endhint %}
+
+\
 При использовании ispmanager перейдите в раздел "**Сайты**", выберите ваш сайт и нажмите кнопку "**Файлы сайта**".
 
 <figure><img src="../../.gitbook/assets/image (2188).png" alt=""><figcaption></figcaption></figure>
