@@ -8,7 +8,7 @@ inputs:
     description: "The target language (e.g.: en)"
     required: true
   translator_api_key:
-    description: '8M4kbibYHUz5P6YSe4k97qbRBOHsTt8hUPzDFTEBR0h5oPD8SOonJQQJ99BGACqBBLyXJ3w3AAAbACOGA0lK'
+    description: 'The Azure Translator API key'
     required: true
 
 runs:
