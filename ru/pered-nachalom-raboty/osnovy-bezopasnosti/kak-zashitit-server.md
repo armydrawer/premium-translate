@@ -17,6 +17,11 @@ description: >-
 * Измените стандартный порт к форме авторизации сервера. Для ISP Manager обычно используется порт 1500. Установить любое свободное значение порта;
 * Заблокируйте адрес доступа к phpmyadmin. Достаточно установить на сервере права 444 на папку с phpmyadmin;
 * Заблокируйте адрес доступа к почтовым клиентам. Например, `https://ip_адрес/webmail/`, `https://ip_адрес/roundcube/` и т.п. Достаточно установить на сервере права 444 на папку почтового клиента;
+* Для всех пользователей сервера, в том числе **root**, установите пароль длиной не менее 15-25 символов;
+* Не храните резервные копии файлов и базы данных на сервере, особенно в корневой папке сайта.
+
+**Настройка служб и опций**
+
 *   Закройте возможность работы [вебшеллов](https://encyclopedia.kaspersky.ru/glossary/web-shell/) через php.ini (отредактируйте существующую или добавьте новую директиву):
 
     {% code overflow="wrap" %}
@@ -37,7 +42,7 @@ description: >-
     <figure><img src="../../.gitbook/assets/image (2182).png" alt=""><figcaption></figcaption></figure>
 4.  Добавьте указанные функции (не удаляйте предыдущие значения — дополните строку указанными функиями): **`exec,system,passthru,shell_exec,proc_open,show_source`** и сохраните изменени&#x44F;**.**
 
-    <figure><img src="../../.gitbook/assets/image (2183).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (2183).png" alt="" width="544"><figcaption></figcaption></figure>
 {% endhint %}
 
 *   Запретите загрузку файлов через **`allow_url_include` и `allow_url_fopen`** —  это снизит риск удаленного выполнения кода:
@@ -53,21 +58,35 @@ description: >-
 1. Залогиньтесь в ISP Manager под <mark style="color:red;">**root-пользователем**</mark>.
 2.  Перейдите в раздел "**Сайты**", выберите ваш сайт и нажмите кнопку "**Настройки PHP для сайта**".
 
-    <figure><img src="../../.gitbook/assets/image (2181).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (2181).png" alt="" width="563"><figcaption></figcaption></figure>
 3.  Поиском найдите директивы по тексту `allow_url` , отметьте их галочкой и нажмите кнопку с карандашом ("**Изменить переменную**").
 
-    <figure><img src="../../.gitbook/assets/image (2185).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (2185).png" alt="" width="563"><figcaption></figcaption></figure>
 4.  Укажите `Off` для переменных и сохраните изменени&#x44F;**.**
 
-    <figure><img src="../../.gitbook/assets/image (2184).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (2184).png" alt="" width="563"><figcaption></figcaption></figure>
 {% endhint %}
 
-*   Отключите опасные расширения (если они не нужны). Например:
+*   Отключите некоторые расширения (если они не нужны). Например:
 
     ```ini
     extension = phar.so ; // если phar не используется
     ```
-*   Ограничьте доступ к `php.ini` и `wp-config.php` через `.htaccess`
+
+{% hint style="success" %}
+Если вы используете ISP Manager, выполните следующие шаги:
+
+1. Залогиньтесь в ISP Manager под <mark style="color:red;">**root-пользователем**</mark>.
+2.  Перейдите в раздел "**PHP**", выберите версию PHP, которая используется на вашем сайте и нажмите кнопку "Расширения".
+
+    <figure><img src="../../.gitbook/assets/image (2186).png" alt="" width="563"><figcaption></figcaption></figure>
+3.  Поиском найдите директивы по тексту **`phar`** (пример), отметьте их галочкой и нажмите кнопку с карандашом ("**Изменить переменную**").
+
+    <figure><img src="../../.gitbook/assets/image (2187).png" alt="" width="531"><figcaption></figcaption></figure>
+4. Выключите расширение по кнопке и подтвердите выключение в всплывающем окн&#x435;**.**
+{% endhint %}
+
+*   Ограничьте доступ к `php.ini` и `wp-config.php` через файл `.htaccess`
 
     ```ini
     <FilesMatch "^(php\.ini|wp-config\.php)$">
@@ -75,5 +94,19 @@ description: >-
         Deny from all
     </FilesMatch>
     ```
-* Для всех пользователей сервера, в том числе **root**, установите пароль длиной не менее 15-25 символов;
-* Не храните резервные копии файлов и базы данных на сервере, особенно в корневой папке сайта.
+
+{% hint style="success" %}
+Если вы используете ISP Manager, выполните следующие шаги:
+
+1. Залогиньтесь в ISP Manager под <mark style="color:red;">**root-пользователем**</mark>.
+2.  Перейдите в раздел "**Сайты**", выберите ваш сайт и нажмите кнопку "**Файлы сайта**".
+
+    <figure><img src="../../.gitbook/assets/image (2188).png" alt=""><figcaption></figcaption></figure>
+3.  Найдите файл `.htaccess` и перейдите в режим его редактирования двойным кликом.
+
+    <figure><img src="../../.gitbook/assets/image (2190).png" alt="" width="479"><figcaption></figcaption></figure>
+4.  Укажите указнный выше текст в файле и сохраните изменения.\
+
+
+    <figure><img src="../../.gitbook/assets/image (2191).png" alt="" width="543"><figcaption></figcaption></figure>
+{% endhint %}
