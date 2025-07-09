@@ -1,147 +1,165 @@
-# Script Installation Instructions
+# Script Installation Guide
 
 {% hint style="info" %}
-The images provided in the instructions may differ from those used in your personal system.
+The images shown in this guide may differ from those in your personal system.
 
-Here and throughout the text, replace "**your_domain**" with the direct address of your website (for example, if your website address is **premiumexchanger.com**, then you should replace "**your_domain**" with **premiumexchanger.com**).
+Throughout this guide, replace "**your_domain**" with the direct address of your website (for example, if your website address is **premiumexchanger.com**, replace "**your_domain**" with **premiumexchanger.com**).
 {% endhint %}
 
 {% hint style="danger" %}
-Please note that **all** files must be uploaded under a <mark style="color:green;">user created for the site</mark> (not <mark style="color:red;">root</mark>). Uploading files under the <mark style="color:red;">root user</mark> will lead to unstable site operation.
+Please note that **all** files must be uploaded by the <mark style="color:green;">user account created specifically for the website</mark> (not the <mark style="color:red;">root</mark> user). Uploading files as the <mark style="color:red;">root user</mark> will cause your website to function unstably.
 
-If you have already uploaded files under the root user, you need to take the following actions:
+If you have already uploaded files as the root user, please follow these steps:
 
-1. Backup all files on the server
-2. [Download from our website](https://premiumexchanger.com/uscripts/) the distribution for UPDATE for your script version (usually version 2.5) and your PHP version
+1. Back up all files on your server.
+2. [Download the update package](https://premiumexchanger.com/uscripts/) from our website that matches your script version (usually version 2.5) and your PHP version.
 
 <img src="../.gitbook/assets/image (1509).png" alt="" data-size="original">
 
-3. Upload it to the root folder of the site and unpack the archive, replacing the files
+3. Upload the package to your website’s root folder and extract the archive, overwriting existing files.
 {% endhint %}
 
-## Recommended Security Settings and Server System Requirements <a href="#chapter1" id="chapter1"></a>
+## Recommended Security Settings and Server Requirements <a href="#chapter1" id="chapter1"></a>
 
-We recommend implementing the following server settings to reduce the risks of server hacking where your site is located:
+We recommend applying the following server settings to reduce the risk of your server being compromised:
 
-* Update the [Ioncube Loader](https://www.ioncube.com/loaders.php) module to the latest version;
-* Install the [fail2ban](https://github.com/fail2ban/fail2ban) module on the server;
-* Install an antivirus on the server;
-* Block ports for FTP, SSH, and various Shell clients;
-* Block standard addresses to the server authorization form. For example, for ISP Manager it is:\
+* Update the [Ioncube Loader](https://www.ioncube.com/loaders.php) module to the latest version.
+* Install the [fail2ban](https://github.com/fail2ban/fail2ban) module on your server.
+* Install antivirus software on your server.
+* Block ports used for FTP, SSH, and various shell clients.
+* Block default URLs for server login forms. For example, with ISP Manager, block:\
   • `https://ip_address/manager/`\
   • `https://ip_address/manager/ispmngr/`\
   • `https://ip_address/ispmngr/`
-* Change the default port for the server authorization form. For ISP Manager, port 1500 is usually used. Set any available port value;
-* Block access to phpmyadmin address and port;
-* Block access to mail clients. For example,\
+* Change the default port for the server login form. ISP Manager typically uses port 1500; set it to any free port number.
+* Block access to phpMyAdmin URLs and ports.
+* Block access to webmail clients. For example:\
   • `https://ip_address/webmail/`\
   • `https://ip_address/roundcube/`\
-  • and similar
-* Set a password of at least 15-25 characters for all server users, including root.
+  • and similar addresses
+* Set strong passwords of at least 15–25 characters for all server users, including root.
 
-System requirements for the server:
 
-* PHP 8.1/8.2/8.3;
-* MySQL 5.0 and above;
-* IonCube Loader 13.0 and above;
+#### Server System Requirements:
+
+* PHP 8.1 / 8.2 / 8.3;
+* MySQL 5.0 or higher;
+* IonCube Loader 13.0 or higher;
 * Task scheduler (cron);
-* Required additional PHP functions, extensions, and libraries: iconv, mb, curl, gd, openssl, soap, gmpobject, ziparchive.
+* Required additional PHP functions, extensions, and libraries: iconv, mbstring, curl, gd, openssl, soap, gmp, ziparchive.
 
-## Installing the main product on the server <a href="#chapter2" id="chapter2"></a>
+## Installing the Main Product on the Server <a href="#chapter2" id="chapter2"></a>
 
-**1. Uploading files**
+**1. Uploading Files**
 
 {% hint style="danger" %}
-We would like to remind you again that site files should **always** be uploaded under the <mark style="color:green;">user created for the site</mark>, not under the <mark style="color:red;">root user</mark>.
+Please note again that website files **must always** be uploaded under the <mark style="color:green;">user account created specifically for the website</mark>, and **not** under the <mark style="color:red;">root user</mark>.
 {% endhint %}
 
-In your account in the "[**Your scripts**](https://premiumexchanger.com/uscripts/)" section, download the corresponding script build depending on the PHP version installed on your server. If you do not know which version is installed on your server, please contact your hosting technical support.
+In your personal account, go to the "[**Your Scripts**](https://premiumexchanger.com/uscripts/)" section and download the appropriate script package according to the PHP version installed on your server. If you are unsure which PHP version is installed, please contact your hosting provider’s technical support for assistance.
 
-<figure><img src="../.gitbook/assets/image (763).png" alt="" width="335"><figcaption><p>The script distribution already contains all available merchants and modules.<br>Separate installation of merchants and modules is not required.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (763).png" alt="" width="335"><figcaption><p>The script distribution already includes all available merchants and modules.<br>Separate installation of merchants and modules is not required.</p></figcaption></figure>
 
-The downloaded archive or its contents should be uploaded to the server. The upload should be done to the root folder of the site (usually the folders `public_html, www`, or `docs`). Use the built-in file manager in the control panel or use an FTP client for file upload: Total Commander, CuteFTP, and others. The FTP client should have binary file transfer mode enabled (usually this mode is set by default).
+Upload the downloaded archive or its contents to your server. The upload should be done to the website’s root directory (usually one of the folders: `public_html`, `www`, or `docs`). Use the file manager built into your hosting control panel, or an FTP client such as Total Commander, CuteFTP, or others. Make sure the FTP client is set to binary transfer mode (this is usually the default setting).
 
-**2. Generating a license**
+**2. Generating the License**
 
-In the "[**Your licenses**](https://premiumexchanger.com/ulicense/)" section, download the archive with the license files `license.zip`. To do this, specify the name of your domain (also specify the subdomain name if necessary) where the script will be installed and click the "**Save**" button. Then click on the "**Download for version X.X**" button. Upload the downloaded `license.zip` archive to the root folder of your site (usually the folders `public_html, www`, or `docs`) and extract the archive.
+In the "[**Your Licenses**](https://premiumexchanger.com/ulicense/)" section, download the license files archive `license.zip`. To do this, enter your domain name (and subdomain name if applicable) where the script will be installed, then click the "**Save**" button. After that, click "**Download for version X.X**". Upload the downloaded `license.zip` archive to your website’s root directory (usually `public_html`, `www`, or `docs`) and extract the archive.
+
+<figure><img src="../.gitbook/assets/image (764).png" alt="" width="563"><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
-<mark style="color:red;">If the domain name for the license is not specified and saved, you cannot download the archive with the license files.</mark> <mark style="color:red;"></mark><mark style="color:red;">**Be careful**</mark> <mark style="color:red;"></mark><mark style="color:red;">when specifying the domain name to avoid errors. It is impossible to change, redo, or replace the license for another domain. You will need an additional license for a second domain.</mark>
+<mark style="color:red;">If the domain name for the license is not specified and saved, you will not be able to download the license files archive.</mark> <mark style="color:red;"></mark><mark style="color:red;">**Please be careful**</mark> <mark style="color:red;"></mark><mark style="color:red;">when entering the domain name to avoid mistakes. It is impossible to change, redo, or transfer the license to another domain. You will need to purchase an additional license for a second domain.</mark>
 {% endhint %}
 
-License files are responsible for the script's functionality, so you need to follow these rules:
+License files are essential for the script to function properly, so please follow these rules:
 
-* License files cannot be renamed. Use them with the names you downloaded them with.
-* License files should be located in the root folder of the site (usually the folders `public_html`, `www`, or `docs`).
-* The permissions for the license files should be set to 644.
-* The content of the license files should remain unchanged.
+* Do not rename the license files. Use them exactly as you downloaded them.
+* License files must be placed in the website’s root folder (usually `public_html`, `www`, or `docs`).
+* File permissions for the license files should be set to 644.
+* The contents of the license files must remain unchanged.
 
-**3. Creating a Database**
+**3. Creating the Database**
 
-In the server control panel (for example, ISP Manager), find the "**Databases**" section and create a new database. Enter the database name, database user name, and generate a complex password:
+In your server’s web control panel (for example, ISP Manager), find the "**Databases**" section and create a new database. Enter the database name, database username, and generate a strong password:
 
 <figure><img src="../.gitbook/assets/image (1080).png" alt=""><figcaption></figcaption></figure>
 
-Remember or write down this information, as you will need it later.
+Make sure to remember or write down these details, as you will need them later.
 
 **4. Installation**
 
-Paste the following link into your browser's address bar:
+In your browser’s address bar, enter the following URL:
 
-`https://your_domain/installer/`, go to it, and follow the instructions:
+`https://your_domain/installer/`, then go to this link and follow the instructions:
 
 4.1. Select the installation language.
 
 <figure><img src="../.gitbook/assets/image (586).png" alt="" width="563"><figcaption></figcaption></figure>
 
-4.2. Check the basic system requirements of your server. If any of the parameters do not meet the requirements, you will see a warning about it. Click "**Skip**" if the check did not reveal any errors. If errors were found, correct them and restart the installation process.
+4.2. Check your server’s basic system requirements. If any parameter does not meet the requirements, you will see a warning. Click "**Skip**" if no errors are found. If errors are detected, fix them and restart the installation process.
 
 <figure><img src="../.gitbook/assets/image (587).png" alt="" width="563"><figcaption></figcaption></figure>
 
-4.3. Check the functions and PHP libraries of your server. If any of the parameters do not meet the requirements, you will see a warning about it. Click "**Skip**" if no errors are found. If errors are detected, correct them and restart the installation process.
+4.3. Check the PHP functions and libraries on your server. If any of the settings do not meet the requirements, you will see a warning. Click "**Skip**" if no errors are found. If errors are detected, fix them and restart the installation process.
 
-4.4. Check the write permission of certain files and folders. If any of the parameters do not meet the requirements, you will see a warning about it. Click "**Skip**" if no errors are found. If errors are detected, correct them and restart the installation process.
+<figure><img src="../.gitbook/assets/image (588).png" alt="" width="563"><figcaption></figcaption></figure>
 
-4.5. Fill in the database name, database username, and password that you specified in step 3. Click the "**Update Config**" button.
+4.4. Verify the write permissions for certain files and folders. If any of the settings do not meet the requirements, you will see a warning. Click "**Skip**" if no errors are found. If errors are detected, fix them and restart the installation process.
 
-4.6. Click the "**Choose File**" button and select the file `damp_db.sql`. The files are located in the root of the downloaded archive on your computer. Specify the [full address of the site](#user-content-fn-1)[^1]. Click the "**Import**" button.
+<figure><img src="../.gitbook/assets/image (589).png" alt=""><figcaption></figcaption></figure>
 
-If the system cannot import the database file and displays an error, manually import the database file through phpmyadmin, which is available on your server. Then in the database, in the `pr_options` table, specify the full name of your site for the `home` and `siteurl` values.
+4.5. Enter the database name, database username, and password that you specified in step 3. Then click the "**Update Config**" button.
 
-4.7. Enter the personal email of the site administrator, the site email (create a corresponding mailbox on the server), the sender's name (usually the site name), and set the login and password for the administrator to access the control panel. Click the "**Install**" button.
+<figure><img src="../.gitbook/assets/Screenshot_8 (2).png" alt="" width="563"><figcaption></figcaption></figure>
 
-4.8. Choose the language of the site and the control panel.
+4.6. Click the "**Choose File**" button and select the `damp_db.sql` file. The files are located in the root folder of the downloaded archive on your computer. Enter the [full website URL](#user-content-fn-1)[^1]. Then click "**Import**".
 
-4.9. **Be sure to delete the installer files!** On the final step of the installation, click on the link: "**Attention! Click here to delete the installer files**".
+<figure><img src="../.gitbook/assets/image (590).png" alt="" width="563"><figcaption></figcaption></figure>
 
-**Script installation completed.**
+If the system cannot import the database file and shows an error, import the database manually using phpMyAdmin on your server. Then, in the database table `pr_options`, update the values for `home` and `siteurl` to your full website URL.
 
-5. Site Control Panel
+4.7. Provide the site administrator’s personal email, the site’s email address (make sure to create the corresponding mailbox on your server), the sender name (usually the site name), and set the administrator login and password for accessing the control panel. Click the "**Install**" button.
 
-**Default control panel address:** `https://your_domain/prmmxchngr/`
+<figure><img src="../.gitbook/assets/Screenshot_10.png" alt="" width="563"><figcaption></figcaption></figure>
 
-Use the login and password provided during installation.
+4.8. Select the language for the website and the control panel.
 
-## Installing additional modules <a href="#chapter3" id="chapter3"></a>
+<figure><img src="../.gitbook/assets/image (591).png" alt="" width="563"><figcaption></figcaption></figure>
+
+4.9. **Be sure to delete the installer files!** On the final step of the installation, click the link: "**Attention! Click here to delete the installer files**".\
+\
+**Script installation is complete.**
+
+5. Website Control Panel\
+
+
+<figure><img src="../.gitbook/assets/image (1883).png" alt="" width="350"><figcaption></figcaption></figure>
+
+**Default control panel URL:** `https://your_domain/prmmxchngr/`
+
+Use the username and password you specified during installation.
+
+## Installing Additional Modules <a href="#chapter3" id="chapter3"></a>
 
 {% hint style="info" %}
-The script distribution already includes all available merchants and modules. Separate installation of merchants and modules is not required.
+The script distribution package includes all available merchants and modules out of the box. Separate installation of merchants and modules is not required.
 {% endhint %}
 
-**1. Merchant modules for receiving payments**
+**1. Merchant Modules for Receiving Payments**
 
-1.1. In your personal account in the section "[**Your scripts**](https://premiumexchanger.com/uscripts/)" in the "**Additional modules**" block, download the merchant module for receiving payments for the required payment system.
+1.1. In your personal account, go to the "[**Your Scripts**](https://premiumexchanger.com/uscripts/)" section and download the merchant module for the required payment system from the "**Additional Modules**" block.
 
-1.2. Upload the contents of the downloaded archive to the server in the directory `your_domain/wp-content/plugins/premiumbox/merchants.`
+1.2. Upload the contents of the downloaded archive to the server directory `your_domain/wp-content/plugins/premiumbox/merchants`.
 
-Then configure the module according to the instructions described in the [user manual](https://premium.gitbook.io/rukovodstvo-polzovatelya/navigaciya/merchanty-i-vyplaty).
+Then configure the module according to the instructions provided in the [User Guide](https://premium.gitbook.io/rukovodstvo-polzovatelya/navigaciya/merchanty-i-vyplaty).
 
-**2. Auto payment modules**
+**2. Auto-Payout Modules**
 
-2.1. In your personal account in the section "[**Your scripts**](https://premiumexchanger.com/uscripts/)" in the "**Additional modules**" block, download the auto payment module for the required payment system.
+2.1. In your personal account, go to the "[**Your Scripts**](https://premiumexchanger.com/uscripts/)" section and download the auto-payout module for the required payment system from the "**Additional Modules**" block.
 
-2.2. Upload the contents of the downloaded archive to the server in the directory `your_domain/wp-content/plugins/premiumbox/paymerchants`.
+2.2. Upload the contents of the downloaded archive to the server directory `your_domain/wp-content/plugins/premiumbox/paymerchants`.
 
-Then configure the module according to the instructions described in the [user manual](https://premium.gitbook.io/rukovodstvo-polzovatelya/navigaciya/merchanty-i-vyplaty/vyplaty).
+Then configure the module according to the instructions provided in the [User Guide](https://premium.gitbook.io/rukovodstvo-polzovatelya/navigaciya/merchanty-i-vyplaty/vyplaty).
 
-[^1]: Cyrillic domain should be specified in the format `xn--90aiufb.xn--p1ai`
+[^1]: Cyrillic domains must be entered in the format `xn--90aiufb.xn--p1ai`.
