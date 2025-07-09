@@ -3,180 +3,262 @@
 * [Premium Exchanger Administrator Guide](README.md)
   * [Changelog](mainpage/changelog.md)
 
-## Getting Started
+## Before You Start
 
 * [Recommendations](pered-nachalom-raboty/rekomendacii/README.md)
-  * [Choosing a Server](pered-nachalom-raboty/rekomendacii/vybor-servera.md)
+  * [Server Selection](pered-nachalom-raboty/rekomendacii/vybor-servera.md)
   * [Recommendations from BestChange](pered-nachalom-raboty/rekomendacii/rekomendacii-ot-bestshange.md)
 * [Security Basics](pered-nachalom-raboty/osnovy-bezopasnosti/README.md)
   * [General Security Measures](pered-nachalom-raboty/osnovy-bezopasnosti/obshie-mery-bezopasnosti.md)
-  * [How to Avoid Scammers](pered-nachalom-raboty/osnovy-bezopasnosti/kak-ne-stat-zhertvoi-moshennika.md)
-  * [Securing the Exchange Control Panel](pered-nachalom-raboty/osnovy-bezopasnosti/kak-obezopasit-panel-upravleniya-obmennikom.md)
-  * [How to Protect the Server](pered-nachalom-raboty/osnovy-bezopasnosti/kak-zashitit-server.md)
-  * [How to Secure Accounts in Payment Systems](pered-nachalom-raboty/osnovy-bezopasnosti/kak-zashitit-akkaunty-v-platezhnykh-sistemakh.md)
+  * [How to Avoid Becoming a Victim of Fraud](pered-nachalom-raboty/osnovy-bezopasnosti/kak-ne-stat-zhertvoi-moshennika.md)
+  * [How to Secure the Exchange Control Panel](pered-nachalom-raboty/osnovy-bezopasnosti/kak-obezopasit-panel-upravleniya-obmennikom.md)
+  * [How to Protect Your Server](pered-nachalom-raboty/osnovy-bezopasnosti/kak-zashitit-server.md)
+  * [How to Secure Payment System Accounts](pered-nachalom-raboty/osnovy-bezopasnosti/kak-zashitit-akkaunty-v-platezhnykh-sistemakh.md)
   * [Changing Passwords for Server Users](pered-nachalom-raboty/osnovy-bezopasnosti/smena-parolei-dlya-polzovatelei-servera.md)
-  * [How to Password Protect a Website](pered-nachalom-raboty/osnovy-bezopasnosti/kak-zakryt-sait-parolem.md)
-* [Script License](getting-started/script-license/README.md)
-  * [Purchasing a License](getting-started/script-license/purchasing-a-license.md)
-  * [Renewing a License](getting-started/script-license/renewing-a-license.md)
-* [Script Installation Instructions](getting-started/script-installation-instructions.md)
-* [Script Update Instructions](getting-started/script-update-instructions/README.md)
-  * [Updating from Version 2.6 to 2.7](getting-started/script-update-instructions/updating-from-version-2.6-to-2.7.md)
-  * [Updating from Version 2.5 to 2.6](getting-started/script-update-instructions/updating-from-version-2.5-to-2.6.md)
-  * [Updating from Version 2.4 to 2.5](getting-started/script-update-instructions/updating-from-version-2.4-to-2.5.md)
-  * [Updating from Version 2.3 to 2.4](getting-started/script-update-instructions/updating-from-version-2.3-to-2.4.md)
-  * [List of Updates](getting-started/script-update-instructions/list-of-updates.md)
+  * [How to Password-Protect Your Website](pered-nachalom-raboty/osnovy-bezopasnosti/kak-zakryt-sait-parolem.md)
+* [Script License](pered-nachalom-raboty/licenziya-na-skript/README.md)
+  * [License Purchase](pered-nachalom-raboty/licenziya-na-skript/priobretenie-licenzii.md)
+  * [License Renewal](pered-nachalom-raboty/licenziya-na-skript/prodlenie-licenzii.md)
+* [Script Installation Guide](pered-nachalom-raboty/instrukciya-po-ustanovke-skripta.md)
+* [Script Update Guide](pered-nachalom-raboty/instrukciya-po-obnovleniyu-skripta/README.md)
+  * [Updating from Version 2.6 to 2.7](pered-nachalom-raboty/instrukciya-po-obnovleniyu-skripta/obnovlenie-s-versii-2.6-do-2.7.md)
+  * [Updating from Version 2.5 to 2.6](pered-nachalom-raboty/instrukciya-po-obnovleniyu-skripta/obnovlenie-s-versii-2.5-do-2.6.md)
+  * [Updating from Version 2.4 to 2.5](pered-nachalom-raboty/instrukciya-po-obnovleniyu-skripta/obnovlenie-s-versii-2.4-do-2.5.md)
+  * [Updating from Version 2.3 to 2.4](pered-nachalom-raboty/instrukciya-po-obnovleniyu-skripta/obnovlenie-s-versii-2.3-do-2.4.md)
+  * [Update List](pered-nachalom-raboty/instrukciya-po-obnovleniyu-skripta/spisok-obnovlenii.md)
 
-## Main Settings
+## Basic Settings
 
-Currencies and Exchange Directions
-* Creating a New Currency
-* Creating a New Exchange Direction
-* Currency Exchange Rates
-   * Currency Rates from File
-   * Currency Rates Parser (Parsers 2.0)
-   * Bestchange Parser (old)
-   * Bestchange API Parser (new, starting from v2.6)
-* Currency Reserves
-   * Reserves from File
-   * Reserves from Another Currency
-      * Reserving Conversion when Using a Merchant
-      * Examples of Setting Up Complex Reserves Using Formulas
-   * Setting Manual Reserves for a New Currency
-* Additional Fields
-Verification
-* Identity Verification (KYC)
-* Payment Details Verification
-* Email Confirmation
-* Phone Number Confirmation
-Appearance
-* Exchange Directions Table Types
-* Main Page Customization
-* Client Dashboard
-* Website and Admin Panel Translation
-   * Adding a New Language
-   * Editing Translation and Text Changes
-* News on the Website
-* "Requests" Section
-* "Pages" Section
-* Request Statuses
-   * Text Templates in Requests
-* "Site Rules", "AML/KYC/KYT Verification Rules" Pages
-* "Giveaway" Page
-* Website Notifications
-Merchants and Auto Payouts
-* Internal Accounts
-   * Internal Account (Merchant Receiving Module)
-   * Internal Account (Auto Payout Module)
-   * Exchange Involving User's Internal Account
-* Merchants
-   * Merchant Diagnostics
-   * Adding or Creating a Merchant Copy
-   * General Merchant Settings
-   * Using Own Cards/Wallets/Accounts
-   * Various Merchant Platforms (ABCEx, Alfabit Crypto, ArchEx, etc.)
-* Auto Payouts
-   * Risk Warning!
-   * Adding or Creating an Auto Payout Copy
-   * General Auto Payout Settings
-   * Various Auto Payout Platforms (ABCEx, Alfabit Crypto, Binance, etc.)
-Trade Actions Module
-* Installing the Trade Actions Module
-   * General Module Settings
-* Error Diagnostics
-* Creating Trade Actions
-   * Trade Action Parameters
-   * Various Trade Actions Platforms (ABCEx, Beribit, Binance, etc.)
-Electrum Module
-* Installing and Configuring Electrum (2 Wallets)
-* Using on Computer (Wallet Synchronization)
-* Updating Electrum on Server (for version 4.3.3 and below)
-* Creating Additional Wallet (for Auto Payout)
-* Removing Electrum from Server
-* Replacing Wallet on Server after Installing Electrum
-* Installing and Configuring Electrum (old version)
-Affiliate Program
-* Partner Banners
-* Earnings and Affiliate Percentage
-AML Verification
-* Configuration in v.2.7
-* Configuration in v.2.6 and below
-   * AMLBot
-   * BitOK
-   * CoinKyt
-   * Getblock
-Settings
-* Request Archiving
-* Bank Card Validator
-* Cryptocurrency Wallet Validator
-* Displaying Confirmation Count in Request
-* Two-Factor Authentication (2FA) in Admin Panel
-* X19 Interface (Webmoney)
-* Nginx and PHP-FPM Configuration with ISP Manager
-* Logging
-   * Authorization Log
-   * Merchant and Auto Payout Log
-   * Parsers 2.0 Log
-   * Server Error Log
-   * Telegram Messages Log
-   * Request Status Log
-   * AML Log
-   * API Log
-   * Email Log
-   * Trade Actions Log
-   * Admin Actions Logging
-   * Logging Settings
-* Exchange Settings
-* Control Panel Screen Settings
-* General Settings
-* Module Descriptions
-   * Module Table
-* Card Type Determination
-* Security Passwords
-* Website Operation via HTTPS Connection
-* Unpaid Request Deletion Timer
-* Website Functionality during Non-Working Hours
-* Hooks
-* Hash and Transaction Link
-* Exchange Export and Exchange/Import of Exchange Directions and Currencies
-* SEO
-   * Google Tag Manager
-Telegram Bot for Exchanges
-* Bot Creation
-* Bot Settings
-* Diagnostics
-Notifications to Admins and Clients
-* Telegram Notifications
-* Email Notifications
-* SMS Notifications
-Financial Statistics
-FAQ
-* Diagnosing and Resolving Errors when Working with the Script
-* Adding IP Addresses to Cloudflare Whitelist
-* Replacing SSH Authorization Keys on Server
-* Changing Domain Name for License
-* Restoring Access to Exchange Control Panel
-* Changing Exchange Control Panel Address
-* Changing Admin Password
-* Finding Website Root Folder on Server
-* Finding "Developer News" Section
-* Transferring Website
-* Checking Installed IonCube Version on Server
-   * Updating ionCube Loader
-* Updating Files on Server
-* Updating WordPress
-* Updating OpenSSH on Server
-* Checking PHP Version Used for Website
-   * Updating PHP
-* Calculating Exchange Discount, Affiliate Reward
-* Clearing Cache in Cloudflare
-* Creating Website Backup
-* Creating Cron Job on Server
-* Installing Online Chat
-* Installing Plugin
-   * Working with Plugin Activation
-* Requirements for Exchanges from Monitoring Services
+* [Currencies and Exchange Directions](osnovnye-nastroiki/valyuty-i-napravleniya-obmena/README.md)
+  * [Creating a New Currency](osnovnye-nastroiki/valyuty-i-napravleniya-obmena/sozdanie-novoi-valyuty.md)
+  * [Creating a New Direction](osnovnye-nastroiki/valyuty-i-napravleniya-obmena/sozdanie-novogo-napravleniya.md)
+  * [Exchange Rates](osnovnye-nastroiki/valyuty-i-napravleniya-obmena/kursy-valyut/README.md)
+    * [Exchange Rates from File](osnovnye-nastroiki/valyuty-i-napravleniya-obmena/kursy-valyut/kursy-valyut-iz-faila.md)
+    * [Exchange Rate Parser (Parsers 2.0)](osnovnye-nastroiki/valyuty-i-napravleniya-obmena/kursy-valyut/parser-kursov-valyut-parsery-2.0.md)
+    * [Bestchange Parser (old)](osnovnye-nastroiki/valyuty-i-napravleniya-obmena/kursy-valyut/bestchange-parser-old.md)
+    * [Bestchange API Parser (new, starting from v2.6)](osnovnye-nastroiki/valyuty-i-napravleniya-obmena/kursy-valyut/bestchange-api-parser-new-nachinaya-s-v2.6.md)
+  * [Currency Reserves](osnovnye-nastroiki/valyuty-i-napravleniya-obmena/rezervy-valyut/README.md)
+    * [Reserve from File](osnovnye-nastroiki/valyuty-i-napravleniya-obmena/rezervy-valyut/rezerv-iz-faila.md)
+    * [Reserve from Another Currency](osnovnye-nastroiki/valyuty-i-napravleniya-obmena/rezervy-valyut/rezerv-ot-drugoi-valyuty/README.md)
+      * [Reserve Conversion When Using a Merchant](osnovnye-nastroiki/valyuty-i-napravleniya-obmena/rezervy-valyut/rezerv-ot-drugoi-valyuty/konvertaciya-rezerva-pri-ispolzovanii-merchanta.md)
+      * [Examples of Setting Up Complex Reserves Using Formulas](osnovnye-nastroiki/valyuty-i-napravleniya-obmena/rezervy-valyut/rezerv-ot-drugoi-valyuty/primery-nastroiki-slozhnogo-rezerva-s-ispolzovaniem-formul.md)
+    * [Setting Manual Reserve for a New Currency](osnovnye-nastroiki/valyuty-i-napravleniya-obmena/rezervy-valyut/ustanovka-ruchnogo-rezerva-dlya-novoi-valyuty.md)
+  * [Additional Fields](osnovnye-nastroiki/valyuty-i-napravleniya-obmena/dopolnitelnye-polya.md)
+* [Verification](osnovnye-nastroiki/verifikaciya/README.md)
+  * [Identity Verification (KYC)](osnovnye-nastroiki/verifikaciya/verifikaciya-lichnosti-kyc.md)
+  * [Payment Details Verification](osnovnye-nastroiki/verifikaciya/verifikaciya-platezhnykh-rekvizitov.md)
+  * [Email Confirmation](osnovnye-nastroiki/verifikaciya/podtverzhdenie-e-mail.md)
+  * [Phone Number Confirmation](osnovnye-nastroiki/verifikaciya/podtverzhdenie-nomera-telefona.md)
+* [Appearance](osnovnye-nastroiki/vneshnii-vid/README.md)
+  * [Types of Exchange Direction Tables](osnovnye-nastroiki/vneshnii-vid/vidy-tablic-napravlenii-obmena.md)
+  * [Homepage Customization](osnovnye-nastroiki/vneshnii-vid/kastomizaciya-glavnoi-stranicy.md)
+  * [Client Personal Account](osnovnye-nastroiki/vneshnii-vid/lichnyi-kabinet-klienta.md)
+  * [Website and Admin Panel Translation](osnovnye-nastroiki/vneshnii-vid/perevod-saita-i-paneli-administratora/README.md)
+    * [Adding a New Language](osnovnye-nastroiki/vneshnii-vid/perevod-saita-i-paneli-administratora/dobavlenie-novogo-yazyka.md)
+    * [Editing Translation and Changing Text](osnovnye-nastroiki/vneshnii-vid/perevod-saita-i-paneli-administratora/redaktirovanie-perevoda-i-izmenenie-teksta.md)
+  * [News on the Website](osnovnye-nastroiki/vneshnii-vid/novosti-na-saite.md)
+  * ["Orders" Section](osnovnye-nastroiki/vneshnii-vid/razdel-zayavki.md)
+  * ["Pages" Section](osnovnye-nastroiki/vneshnii-vid/razdel-stranicy.md)
+  * [Order Statuses](osnovnye-nastroiki/vneshnii-vid/statusy-zayavok/README.md)
+    * [Text Templates in Orders](osnovnye-nastroiki/vneshnii-vid/statusy-zayavok/shablony-tekstov-v-zayavkakh.md)
+  * [Pages "Site Rules", "AML/KYC/KYT Verification Rules"](osnovnye-nastroiki/vneshnii-vid/stranicy-pravila-saita-pravila-provedeniya-proverok-aml-kyc-kyt.md)
+  * ["Giveaway" Page](osnovnye-nastroiki/vneshnii-vid/stranica-rozygrysh.md)
+  * [Website Notifications](osnovnye-nastroiki/vneshnii-vid/uvedomleniya-na-saite.md)
+* [Merchants and Auto Payouts](osnovnye-nastroiki/merchanty-i-avtovyplaty/README.md)
+  * [Internal Accounts](osnovnye-nastroiki/merchanty-i-avtovyplaty/vnutrennie-scheta/README.md)
+    * [Internal Account (Merchant Module for Receiving)](osnovnye-nastroiki/merchanty-i-avtovyplaty/vnutrennie-scheta/vnutrennii-schet-modul-merchanta-na-priyom.md)
+    * [Internal Account (Auto Payout Module)](osnovnye-nastroiki/merchanty-i-avtovyplaty/vnutrennie-scheta/vnutrennii-schet-modul-avtovyplaty.md)
+    * [Exchange Involving User's Internal Account](osnovnye-nastroiki/merchanty-i-avtovyplaty/vnutrennie-scheta/obmen-s-uchastiem-vnutrennego-scheta-polzovatelya.md)
+  * [Merchants](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/README.md)
+    * [Merchant Diagnostics](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/diagnostika-merchanta.md)
+    * [Adding or Creating a Merchant Copy](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/dobavlenie-ili-sozdanie-kopii-merchanta.md)
+    * [General Merchant Settings](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/obshie-nastroiki-merchantov.md)
+    * [Using Your Own Cards/Wallets/Accounts](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/ispolzovanie-svoikh-kart-koshelkov-schetov.md)
+    * [ABCEx](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/abcex.md)
+    * [Alfabit Crypto](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/alfabit-crypto.md)
+    * [ArchEx](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/archex.md)
+    * [BimBo (Issuing Your Own Details)](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/bimbo-vydacha-svoikh-rekvizitov.md)
+    * [Bitbanker](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/bitbanker.md)
+    * [Bitconce Card/Link](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/bitconce-card-link.md)
+    * [DashPay](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/dashpay.md)
+    * [Diffpay](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/diffpay.md)
+    * [Electrum](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/electrum.md)
+    * [Evo Pay](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/evo-pay.md)
+    * [Exnode](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/exnode.md)
+    * [FireKassa Card/Link](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/firekassa.md)
+    * [Garantex Crypto](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/garantex-crypto.md)
+    * [Heleket](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/heleket.md)
+    * [Ivanpay](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/ivanpay.md)
+    * [Koshelek](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/koshelek.md)
+    * [Luckypay](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/luckypay.md)
+    * [Merchant001](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/merchant001.md)
+    * [MoneyGo](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/moneygo.md)
+    * [Nicepay](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/nicepay.md)
+    * [OnlyPays](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/onlypays.md)
+    * [PandaPay](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/pandapay.md)
+    * [Payeer](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/payeer.md)
+    * [Payin-Payout (inactive)](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/payin-payout-neaktivno.md)
+    * [PayKassa](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/paykassa.md)
+    * [Paylama (inactive)](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/paylama-neaktivno.md)
+    * [Paymatrix](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/paymatrix.md)
+    * [Payscrow](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/payscrow/README.md)
+      * [Payscrow Cascade](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/payscrow/payscrow-cascade.md)
+    * [Perfect Money](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/perfect-money.md)
+    * [Premium Wallet (in development)](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/premium-wallet-v-razrabotke.md)
+    * [PSPWare](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/pspware.md)
+    * [Quickex](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/quickex.md)
+    * [Rapira](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/rapira.md)
+    * [Super Money](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/super-money.md)
+    * [Utopia](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/utopia.md)
+    * [XPay](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/xpay.md)
+    * [Volet (ex-Advcash)](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/volet-ex-advcash.md)
+    * [Wata (in development)](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/wata-v-razrabotke.md)
+    * [WebMoney](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/webmoney/README.md)
+      * [X19](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/webmoney/x19.md)
+    * [WestWallet](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/westwallet.md)
+    * [Yobit](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/yobit.md)
+  * [Auto Payouts](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/README.md)
+    * [Risk Warning!](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/preduprezhdenie-o-riskakh.md)
+    * [Adding or Creating an Auto Payout Copy](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/dobavlenie-ili-sozdanie-kopii-avtovyplaty.md)
+    * [General Auto Payout Settings](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/obshie-nastroiki-avtovyplat.md)
+    * [ABCEx](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/abcex.md)
+    * [Alfabit Crypto](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/alfabit-crypto.md)
+    * [Binance](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/binance.md)
+    * [Bitconce](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/bitconce.md)
+    * [Electrum](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/electrum.md)
+    * [Exnode](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/exnode.md)
+    * [Firekassa](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/firekassa.md)
+    * [Garantex Crypto](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/garantex-crypto.md)
+    * [GoldEx](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/goldex.md)
+    * [Heleket](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/heleket.md)
+    * [Ivanpay](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/ivanpay.md)
+    * [Koshelek](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/koshelek.md)
+    * [Luckypay](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/luckypay.md)
+    * [Merchant001](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/merchant001.md)
+    * [MoneyGo](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/moneygo.md)
+    * [Nicepay](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/nicepay.md)
+    * [OnlyPays](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/onlypays.md)
+    * [OTC](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/otc.md)
+    * [Payscrow](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/payscrow/README.md)
+      * [Payscrow Cascade](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/payscrow/payscrow-cascade.md)
+    * [Payeer](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/payeer.md)
+    * [Payin-Payout (inactive)](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/payin-payout-neaktivno.md)
+    * [PayKassa](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/paykassa.md)
+    * [PerfectMoney](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/perfectmoney.md)
+    * [Premium Wallet (in development)](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/premium-wallet-v-razrabotke.md)
+    * [Quickex](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/quickex.md)
+    * [Rapira Crypto](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/rapira-crypto.md)
+    * [Utopia](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/utopia.md)
+    * [Volet (ex-Advcash)](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/volet-ex-advcash.md)
+    * [Webmoney](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/webmoney.md)
+    * [WestWallet](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/westwallet.md)
+    * [Yobit](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/yobit.md)
+* ["Trade Actions" Module](osnovnye-nastroiki/modul-torgovye-deistviya/README.md)
+  * [Installing the "Trade Actions" Module](osnovnye-nastroiki/modul-torgovye-deistviya/ustanovka-modulya-torgovye-deistviya/README.md)
+    * [General Module Settings](osnovnye-nastroiki/modul-torgovye-deistviya/ustanovka-modulya-torgovye-deistviya/obshie-nastroiki-modulya.md)
+  * [Error Diagnostics](osnovnye-nastroiki/modul-torgovye-deistviya/diagnostika-oshibok.md)
+  * [Creating a Trade Action](osnovnye-nastroiki/modul-torgovye-deistviya/sozdanie-torgovogo-deistviya/README.md)
+    * [Trade Action Parameters](osnovnye-nastroiki/modul-torgovye-deistviya/sozdanie-torgovogo-deistviya/parametry-torgovykh-deistvii.md)
+    * [ABCEx (in development)](osnovnye-nastroiki/modul-torgovye-deistviya/sozdanie-torgovogo-deistviya/abcex-v-razrabotke.md)
+    * [Beribit](osnovnye-nastroiki/modul-torgovye-deistviya/sozdanie-torgovogo-deistviya/beribit.md)
+    * [Binance](osnovnye-nastroiki/modul-torgovye-deistviya/sozdanie-torgovogo-deistviya/binance.md)
+    * [Garantex (coming soon)](osnovnye-nastroiki/modul-torgovye-deistviya/sozdanie-torgovogo-deistviya/garantex-skoro.md)
+    * [Yobit](osnovnye-nastroiki/modul-torgovye-deistviya/sozdanie-torgovogo-deistviya/yobit.md)
+* [Electrum Module](osnovnye-nastroiki/modul-electrum/README.md)
+  * [Installing and Configuring Electrum (2 Wallets)](osnovnye-nastroiki/modul-electrum/ustanovka-i-nastroika-electrum-2-koshelka.md)
+  * [Using on a Computer (Wallet Synchronization)](osnovnye-nastroiki/modul-electrum/ispolzovanie-na-kompyutere-sinkhronizaciya-koshelkov.md)
+  * [Updating Electrum on the Server (for version 4.3.3 and below)](osnovnye-nastroiki/modul-electrum/obnovlenie-electrum-na-servere-dlya-versii-4.3.3-i-nizhe.md)
+  * [Creating an Additional Wallet (for Auto Payout)](osnovnye-nastroiki/modul-electrum/sozdanie-dopolnitelnogo-koshelka-dlya-avtovyplaty.md)
+  * [Removing Electrum from the Server](osnovnye-nastroiki/modul-electrum/udalenie-electrum-s-servera.md)
+  * [Replacing a Wallet on the Server After Installing Electrum](osnovnye-nastroiki/modul-electrum/zamena-koshelka-na-servere-posle-ustanovki-electrum.md)
+  * [Installing and Configuring Electrum (old version)](osnovnye-nastroiki/modul-electrum/ustanovka-i-nastroika-electrum-old-version.md)
+* [Affiliate Program](osnovnye-nastroiki/partnerskaya-programma/README.md)
+  * [Affiliate Banners](osnovnye-nastroiki/partnerskaya-programma/bannery-partnerov.md)
+  * [Profit and Affiliate Percentage](osnovnye-nastroiki/partnerskaya-programma/pribyl-i-partnerskii-procent.md)
+* [AML Check](osnovnye-nastroiki/proverka-aml/README.md)
+  * [Settings in v.2.7](osnovnye-nastroiki/proverka-aml/nastroika-v-v.2.7.md)
+  * [Settings in v.2.6 and below](osnovnye-nastroiki/proverka-aml/nastroika-v-v.2.6-i-nizhe/README.md)
+    * [AMLBot](osnovnye-nastroiki/proverka-aml/nastroika-v-v.2.6-i-nizhe/amlbot.md)
+    * [BitOK](osnovnye-nastroiki/proverka-aml/nastroika-v-v.2.6-i-nizhe/bitok.md)
+    * [CoinKyt](osnovnye-nastroiki/proverka-aml/nastroika-v-v.2.6-i-nizhe/coinkyt.md)
+    * [Getblock](osnovnye-nastroiki/proverka-aml/nastroika-v-v.2.6-i-nizhe/getblock.md)
+* [Settings](osnovnye-nastroiki/nastroiki/README.md)
+  * [Order Archiving](osnovnye-nastroiki/nastroiki/arkhivaciya-zayavok.md)
+  * [Bank Card Validator](osnovnye-nastroiki/nastroiki/validator-bankovskoi-karty.md)
+  * [Crypto Wallet Validator](osnovnye-nastroiki/nastroiki/validator-kriptokoshelka.md)
+  * [Displaying Confirmation Count in Order](osnovnye-nastroiki/nastroiki/vyvod-kol-va-podtverzhdenii-v-zayavke.md)
+  * [Two-Factor Authentication (2FA) in Website Control Panel](osnovnye-nastroiki/nastroiki/dvukhfaktornaya-avtorizaciya-2fa-v-paneli-upravleniya-saitom.md)
+  * [X19 Interface (Webmoney)](osnovnye-nastroiki/nastroiki/interfeis-kh19-webmoney.md)
+  * [Nginx and PHP-FPM Configuration When Using ISP Manager Panel](osnovnye-nastroiki/nastroiki/konfiguraciya-nginx-i-php-fpm-pri-ispolzovanii-paneli-isp-manager.md)
+  * [Logging](osnovnye-nastroiki/nastroiki/logirovanie/README.md)
+    * [Authorization Log](osnovnye-nastroiki/nastroiki/logirovanie/log-avtorizacii.md)
+    * [Merchants and Auto Payouts Log](osnovnye-nastroiki/nastroiki/logirovanie/log-merchantov-i-avtovyplat.md)
+    * [Parsers 2.0 Log](osnovnye-nastroiki/nastroiki/logirovanie/log-parserov-2.0.md)
+    * [Server Error Log](osnovnye-nastroiki/nastroiki/logirovanie/log-oshibok-servera.md)
+    * [Telegram Messages Log](osnovnye-nastroiki/nastroiki/logirovanie/log-soobshenii-telegram.md)
+    * [Order Statuses Log](osnovnye-nastroiki/nastroiki/logirovanie/log-statusov-zayavok.md)
+    * [AML Log](osnovnye-nastroiki/nastroiki/logirovanie/log-aml.md)
+    * [API Log](osnovnye-nastroiki/nastroiki/logirovanie/log-api.md)
+    * [E-mail Log](osnovnye-nastroiki/nastroiki/logirovanie/log-e-mail.md)
+    * [Trade Actions Log](osnovnye-nastroiki/nastroiki/logirovanie/log-trade-actions.md)
+    * [Admin Actions Logging](osnovnye-nastroiki/nastroiki/logirovanie/logirovanie-deistvii-administratora.md)
+    * [Logging Settings](osnovnye-nastroiki/nastroiki/logirovanie/nastroiki-logirovaniya.md)
+  * [Exchange Settings](osnovnye-nastroiki/nastroiki/nastroiki-obmennika.md)
+  * [Control Panel Screen Settings](osnovnye-nastroiki/nastroiki/nastroiki-ekrana-v-paneli-upravleniya.md)
+  * [General Settings](osnovnye-nastroiki/nastroiki/obshie-nastroiki.md)
+  * [Modules Description](osnovnye-nastroiki/nastroiki/opisanie-modulei/README.md)
+    * [Modules Table](osnovnye-nastroiki/nastroiki/opisanie-modulei/tablica-modulei.md)
+  * [Card Type Detection](osnovnye-nastroiki/nastroiki/opredelenie-tipa-karty.md)
+  * [Security Passwords](osnovnye-nastroiki/nastroiki/paroli-bezopasnosti.md)
+  * [Website Operation via HTTPS Connection](osnovnye-nastroiki/nastroiki/rabota-saita-po-https-soedineniyu.md)
+  * [Unpaid Order Deletion Timer](osnovnye-nastroiki/nastroiki/taimer-udaleniya-neoplachennoi-zayavki.md)
+  * [Website Functionality During Non-Working Hours](osnovnye-nastroiki/nastroiki/funkcional-saita-v-nerabochee-vremya.md)
+  * [Hooks](osnovnye-nastroiki/nastroiki/khuki.md)
+  * [Hash and Transaction Link](osnovnye-nastroiki/nastroiki/khesh-i-ssylka-na-tranzakciyu.md)
+  * [Exchange Export and Export/Import of Exchange Directions and Currencies](osnovnye-nastroiki/nastroiki/eksport-obmenov-i-eksport-import-napravlenii-obmena-i-valyut.md)
+  * [SEO](osnovnye-nastroiki/nastroiki/seo/README.md)
+    * [Google Tag Manager](osnovnye-nastroiki/nastroiki/seo/google-tag-manager.md)
+* [Telegram Bot for Exchanges](osnovnye-nastroiki/telegram-bot-dlya-obmenov/README.md)
+  * [Creating a Bot](osnovnye-nastroiki/telegram-bot-dlya-obmenov/sozdanie-bota.md)
+  * [Bot Settings](osnovnye-nastroiki/telegram-bot-dlya-obmenov/nastroiki-bota.md)
+  * [Diagnostics](osnovnye-nastroiki/telegram-bot-dlya-obmenov/diagnostika.md)
+* [Notifications to Admins and Clients](osnovnye-nastroiki/uvedomleniya-administratoram-i-klientam/README.md)
+  * [Telegram Notifications](osnovnye-nastroiki/uvedomleniya-administratoram-i-klientam/uvedomleniya-v-telegram.md)
+  * [Email Notifications](osnovnye-nastroiki/uvedomleniya-administratoram-i-klientam/uvedomleniya-po-e-mail.md)
+  * [SMS Notifications](osnovnye-nastroiki/uvedomleniya-administratoram-i-klientam/uvedomleniya-po-sms.md)
+* [Financial Statistics](osnovnye-nastroiki/finansovaya-statistika.md)
+* [FAQ](osnovnye-nastroiki/faq/README.md)
+  * [Diagnostics and Troubleshooting When Working with the Script](osnovnye-nastroiki/faq/diagnostika-i-reshenie-oshibok-pri-rabote-so-skriptom.md)
+  * [Adding IP Addresses to Whitelist in Cloudflare](osnovnye-nastroiki/faq/dobavlenie-ip-adresov-v-whitelist-v-cloudflare.md)
+  * [Replacing SSH Authorization Keys on the Server](osnovnye-nastroiki/faq/zamena-ssh-klyuchei-avtorizacii-na-servere.md)
+  * [Changing Domain Name for License](osnovnye-nastroiki/faq/zamena-imeni-domena-dlya-licenzii.md)
+  * [How to Restore Access to the Exchange Control Panel?](osnovnye-nastroiki/faq/kak-vosstanovit-dostup-v-panel-upravleniya-obmennikom.md)
+  * [How to Change the Exchange Control Panel Address?](osnovnye-nastroiki/faq/kak-izmenit-adres-paneli-upravleniya-obmennikom.md)
+  * [How to Change Admin Password?](osnovnye-nastroiki/faq/kak-izmenit-parol-administratora.md)
+  * [How to Find the Website Root Folder on the Server?](osnovnye-nastroiki/faq/kak-naiti-kornevuyu-papku-saita-na-servere.md)
+  * [How to Find the "Developer News" Section](osnovnye-nastroiki/faq/kak-naiti-razdel-novosti-razrabotchika.md)
+  * [How to Transfer a Website](osnovnye-nastroiki/faq/kak-perenesti-sait.md)
+  * [How to Check the IonCube Version Installed on the Server?](osnovnye-nastroiki/faq/kak-proverit-versiyu-ioncube-ustanovlennuyu-na-servere/README.md)
+    * [How to Update ionCube Loader](osnovnye-nastroiki/faq/kak-proverit-versiyu-ioncube-ustanovlennuyu-na-servere/kak-obnovit-ioncube-loader.md)
+  * [How to Update Files on the Server?](osnovnye-nastroiki/faq/kak-obnovit-faily-na-servere.md)
+  * [How to Update WordPress?](osnovnye-nastroiki/faq/kak-obnovit-wordpress.md)
+  * [How to Update OpenSSH on the Server?](osnovnye-nastroiki/faq/kak-obnovit-openssh-na-servere.md)
+  * [How to Check the PHP Version Used for the Website?](osnovnye-nastroiki/faq/kak-proverit-versiyu-php-ispolzuyushuyusya-dlya-saita/README.md)
+    * [How to Update PHP](osnovnye-nastroiki/faq/kak-proverit-versiyu-php-ispolzuyushuyusya-dlya-saita/kak-obnovit-php.md)
+  * [How is the Exchange Discount and Affiliate Reward Calculated?](osnovnye-nastroiki/faq/kak-rasschityvaetsya-skidka-na-obmen-partnerskoe-voznagrazhdenie.md)
+  * [How to Clear Cache in Cloudflare](osnovnye-nastroiki/faq/kak-sbrosit-kesh-v-cloudflare.md)
+  * [How to Make a Website Backup?](osnovnye-nastroiki/faq/kak-sdelat-bekap-saita.md)
+  * [How to Create a Cron Job on the Server?](osnovnye-nastroiki/faq/kak-sozdat-zadanie-cron-na-servere.md)
+  * [How to Install Online Chat?](osnovnye-nastroiki/faq/kak-ustanovit-onlain-chat.md)
+  * [How to Install a Plugin?](osnovnye-nastroiki/faq/kak-ustanovit-plagin/README.md)
+    * [Working with the Plugin During Activation](osnovnye-nastroiki/faq/kak-ustanovit-plagin/rabota-s-plaginom-pri-aktivacii.md)
+  * [What Requirements Do Monitoring Services Have for Exchanges?](osnovnye-nastroiki/faq/kakie-trebovaniya-predyavlyayutsya-k-obmennikam-ot-monitoringov.md)
+  * [Updating Script Files on the Server](osnovnye-nastroiki/faq/obnovlenie-failov-skripta-na-servere.md)
+  * [Request for Client to Write a Review About Successful Exchange](osnovnye-nastroiki/faq/prosba-dlya-klienta-napisat-otzyv-ob-uspeshnom-obmene.md)
+  * [What is Non-Standard Commission in Exchange Direction Settings and How Does It Work?](osnovnye-nastroiki/faq/chto-takoe-nestandartnaya-komissiya-v-nastroikakh-napravlenii-obmena-i-kak-ona-rabotaet.md)
+
+***
 
 * [Premium Exchanger API](api-premium-exchanger/README.md)
   * [API v1](api-premium-exchanger/api-v1.md)
-  * [Affiliate Program API (old version of API)](api-premium-exchanger/api-partnerskoi-programmy-staraya-versiya-api.md)
+  * [Affiliate Program API (old API version)](api-premium-exchanger/api-partnerskoi-programmy-staraya-versiya-api.md)
