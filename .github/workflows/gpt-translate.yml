@@ -19,4 +19,4 @@ jobs:
         with:
           apikey: ${{ secrets.OPENAI_API_KEY }}
           provider: 'openai'
-          model: 'sonar-pro'
+          model: 'o3-mini'
