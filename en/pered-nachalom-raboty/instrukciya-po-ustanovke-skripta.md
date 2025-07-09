@@ -16,27 +16,27 @@ If you have already uploaded files as the root user, please follow these steps:
 
 <img src="../.gitbook/assets/image (1509).png" alt="" data-size="original">
 
-3. Upload the package to your website’s root folder and extract the archive, overwriting existing files.
+3. Upload the package to your website’s root directory and extract the archive, overwriting existing files.
 {% endhint %}
 
 ## Recommended Security Settings and Server Requirements <a href="#chapter1" id="chapter1"></a>
 
-We recommend applying the following server settings to reduce the risk of your server being compromised:
+We recommend applying the following server settings to reduce the risk of your website being compromised:
 
 * Update the [Ioncube Loader](https://www.ioncube.com/loaders.php) module to the latest version.
 * Install the [fail2ban](https://github.com/fail2ban/fail2ban) module on your server.
 * Install antivirus software on your server.
 * Block ports used for FTP, SSH, and various shell clients.
-* Block default URLs for server login forms. For example, with ISP Manager, block:\
+* Block default URLs for server login pages. For example, in ISP Manager, block:\
   • `https://ip_address/manager/`\
   • `https://ip_address/manager/ispmngr/`\
   • `https://ip_address/ispmngr/`
-* Change the default port for the server login form. ISP Manager typically uses port 1500; set it to any free port number.
+* Change the default port for the server login page. ISP Manager typically uses port 1500; set it to any available port.
 * Block access to phpMyAdmin URLs and ports.
-* Block access to webmail clients. For example:\
+* Block access to webmail clients, such as:\
   • `https://ip_address/webmail/`\
   • `https://ip_address/roundcube/`\
-  • and similar addresses
+  • and similar addresses.
 * Set strong passwords of at least 15–25 characters for all server users, including root.
 
 
@@ -60,11 +60,11 @@ In your personal account, go to the "[**Your Scripts**](https://premiumexchanger
 
 <figure><img src="../.gitbook/assets/image (763).png" alt="" width="335"><figcaption><p>The script distribution already includes all available merchants and modules.<br>Separate installation of merchants and modules is not required.</p></figcaption></figure>
 
-Upload the downloaded archive or its contents to your server. The upload should be done to the website’s root directory (usually one of the folders: `public_html`, `www`, or `docs`). Use the file manager built into your hosting control panel, or an FTP client such as Total Commander, CuteFTP, or others. Make sure the FTP client is set to binary transfer mode (this is usually the default setting).
+Upload the downloaded archive or its contents to your server. The upload should be done to the website’s root directory (usually `public_html`, `www`, or `docs`). Use the file manager built into your control panel, or an FTP client such as Total Commander, CuteFTP, or others. Make sure your FTP client is set to binary transfer mode (this is usually the default setting).
 
 **2. Generating the License**
 
-In the "[**Your Licenses**](https://premiumexchanger.com/ulicense/)" section, download the license files archive `license.zip`. To do this, enter your domain name (and subdomain name if applicable) where the script will be installed, then click the "**Save**" button. After that, click "**Download for version X.X**". Upload the downloaded `license.zip` archive to your website’s root directory (usually `public_html`, `www`, or `docs`) and extract the archive.
+In the "[**Your Licenses**](https://premiumexchanger.com/ulicense/)" section, download the license files archive `license.zip`. To do this, enter your domain name (and subdomain name if applicable) where the script will be installed, then click the "**Save**" button. After that, click "**Download for version X.X**". Upload the downloaded `license.zip` archive to your website’s root directory (usually `public_html`, `www`, or `docs`) and extract its contents.
 
 <figure><img src="../.gitbook/assets/image (764).png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -72,16 +72,16 @@ In the "[**Your Licenses**](https://premiumexchanger.com/ulicense/)" section, do
 <mark style="color:red;">If the domain name for the license is not specified and saved, you will not be able to download the license files archive.</mark> <mark style="color:red;"></mark><mark style="color:red;">**Please be careful**</mark> <mark style="color:red;"></mark><mark style="color:red;">when entering the domain name to avoid mistakes. It is impossible to change, redo, or transfer the license to another domain. You will need to purchase an additional license for a second domain.</mark>
 {% endhint %}
 
-License files are essential for the script to function properly, so please follow these rules:
+License files are essential for the script to function properly, so please follow these rules carefully:
 
 * Do not rename the license files. Use them exactly as you downloaded them.
-* License files must be placed in the website’s root folder (usually `public_html`, `www`, or `docs`).
-* File permissions for the license files should be set to 644.
+* License files must be placed in the website’s root directory (usually `public_html`, `www`, or `docs`).
+* The file permissions for the license files should be set to 644.
 * The contents of the license files must remain unchanged.
 
 **3. Creating the Database**
 
-In your server’s web control panel (for example, ISP Manager), find the "**Databases**" section and create a new database. Enter the database name, database username, and generate a strong password:
+In your server’s web control panel (for example, ISP Manager), locate the "**Databases**" section and create a new database. Enter the database name, database username, and generate a strong password:
 
 <figure><img src="../.gitbook/assets/image (1080).png" alt=""><figcaption></figcaption></figure>
 
@@ -101,11 +101,11 @@ In your browser’s address bar, enter the following URL:
 
 <figure><img src="../.gitbook/assets/image (587).png" alt="" width="563"><figcaption></figcaption></figure>
 
-4.3. Check the PHP functions and libraries on your server. If any of the settings do not meet the requirements, you will see a warning. Click "**Skip**" if no errors are found. If errors are detected, fix them and restart the installation process.
+4.3. Check your server’s PHP functions and libraries. If any of the settings don’t meet the requirements, you will see a warning. Click "**Skip**" if no errors are found. If errors are detected, fix them and restart the installation process.
 
 <figure><img src="../.gitbook/assets/image (588).png" alt="" width="563"><figcaption></figcaption></figure>
 
-4.4. Verify the write permissions for certain files and folders. If any of the settings do not meet the requirements, you will see a warning. Click "**Skip**" if no errors are found. If errors are detected, fix them and restart the installation process.
+4.4. Verify the write permissions for certain files and folders. If any of the settings don’t meet the requirements, you will see a warning. Click "**Skip**" if no errors are found. If errors are detected, fix them and restart the installation process.
 
 <figure><img src="../.gitbook/assets/image (589).png" alt=""><figcaption></figcaption></figure>
 
@@ -113,13 +113,13 @@ In your browser’s address bar, enter the following URL:
 
 <figure><img src="../.gitbook/assets/Screenshot_8 (2).png" alt="" width="563"><figcaption></figcaption></figure>
 
-4.6. Click the "**Choose File**" button and select the `damp_db.sql` file. The files are located in the root folder of the downloaded archive on your computer. Enter the [full website URL](#user-content-fn-1)[^1]. Then click "**Import**".
+4.6. Click the "**Choose File**" button and select the `damp_db.sql` file. These files are located in the root folder of the archive you downloaded to your computer. Enter the [full website URL](#user-content-fn-1)[^1]. Then click "**Import**".
 
 <figure><img src="../.gitbook/assets/image (590).png" alt="" width="563"><figcaption></figcaption></figure>
 
-If the system cannot import the database file and shows an error, import the database manually using phpMyAdmin on your server. Then, in the database table `pr_options`, update the values for `home` and `siteurl` to your full website URL.
+If the system cannot import the database file and shows an error, import the database manually using phpMyAdmin on your server. Then, in the database table `pr_options`, update the values for `home` and `siteurl` to your site’s full URL.
 
-4.7. Provide the site administrator’s personal email, the site’s email address (make sure to create the corresponding mailbox on your server), the sender name (usually the site name), and set the administrator login and password for accessing the control panel. Click the "**Install**" button.
+4.7. Enter the site administrator’s personal email, the site’s email address (make sure to create the corresponding mailbox on your server), the sender name (usually the site name), and set the administrator login and password for accessing the control panel. Click the "**Install**" button.
 
 <figure><img src="../.gitbook/assets/Screenshot_10.png" alt="" width="563"><figcaption></figcaption></figure>
 
