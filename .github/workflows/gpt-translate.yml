@@ -18,3 +18,5 @@ jobs:
         uses: 3ru/gpt-translate@master
         with:
           apikey: ${{ secrets.OPENAI_API_KEY }}
+          provider: 'openai'
+          model: 'gpt-4o-mini'
