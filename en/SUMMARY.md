@@ -6,7 +6,7 @@
 ## Getting Started
 
 * [Recommendations](getting-started/recommendations/README.md)
-  * [Choosing a Server](getting-started/recommendations/choosing-a-server.md)
+  * [Choosing a Server](pered-nachalom-raboty/rekomendacii/vybor-servera.md)
   * [Recommendations from BestChange](getting-started/recommendations/recommendations-from-bestchange.md)
 * [Security Basics](getting-started/security-basics/README.md)
   * [General Security Measures](getting-started/security-basics/general-security-measures.md)
