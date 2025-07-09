@@ -19,4 +19,4 @@ jobs:
         with:
           apikey: ${{ secrets.OPENAI_API_KEY }}
           provider: 'openai'
-          model: 'llama-3.3-70b-versatile'
+          model: 'gpt-3.5-turbo'
