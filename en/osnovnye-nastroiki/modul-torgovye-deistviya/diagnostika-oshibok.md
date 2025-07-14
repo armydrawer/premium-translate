@@ -1,12 +1,12 @@
-# Error Diagnostics
+# Error Diagnosis
 
-All executed trading actions are recorded in the "**Trading Actions** -> **Orders**" section. If the action name is highlighted in <mark style="color:green;">green</mark>, it means the action was completed successfully. If it is highlighted in <mark style="color:red;">red</mark>, this indicates an error occurred and the action was not completed.
+All completed trading actions are recorded in the "**Trading Actions** -> **Orders**" section. If the action name is highlighted in <mark style="color:green;">green</mark>, it means the action was successful. If it is highlighted in <mark style="color:red;">red</mark>, this indicates an error occurred and the action was not completed.
 
 <figure><img src="../../.gitbook/assets/image (612).png" alt=""><figcaption></figcaption></figure>
 
 If a trading action is marked in <mark style="color:red;">red</mark>, you can click the "**action link**" to retry the action. If the retry is successful, the color will change to <mark style="color:green;">green</mark>. Otherwise, the text will remain <mark style="color:red;">red</mark>. Clicking the link when the action is already <mark style="color:green;">successfully completed</mark> will have no effect.
 
-If the error persists, check the log in the "**Trading Actions** -> **Script Logs**" section for specific error messages returned by the exchange API. Most errors are related to insufficient account funds or a non-existent currency pair on the exchange.
+If the error persists, check the logs in the "**Trading Actions** -> **Script Logs**" section for specific error messages returned by the exchange API. Most errors are related to insufficient account funds or a non-existent currency pair on the exchange.
 
 <figure><img src="../../.gitbook/assets/Логи скриптов ‹ 2 Premium Exchanger 2 — WordPress - Google Chrome_230512172527.png" alt=""><figcaption><p>Trading Action Logs</p></figcaption></figure>
 
@@ -20,5 +20,5 @@ When contacting technical support for help diagnosing trading actions, please pr
 ![](<../../.gitbook/assets/image (613).png>)
 
 * Screenshots of the auto-payout module settings used in the exchange direction  
-* What type of amount is considered the payout amount? (as specified in the auto-payout settings)  
+* Which amount type is considered the payout amount? (as specified in the auto-payout settings)  
 {% endhint %}
