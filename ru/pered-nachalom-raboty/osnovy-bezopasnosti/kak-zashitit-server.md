@@ -143,7 +143,7 @@ layout:
 
 ## Настройка прав на файлы
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Если в админбаре отображается предупреждение об ошибках в виде анимированного <mark style="color:red;">красного круга</mark>, откройте раздел с ошибками.
 
@@ -156,7 +156,7 @@ layout:
 {% hint style="info" %}
 Предупреждения также отображаются в разделе "Консоль", блок "Проверка безопасности"
 
-<img src="../../.gitbook/assets/image (2).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (2) (1).png" alt="" data-size="original">
 {% endhint %}
 
 \

@@ -80,12 +80,12 @@ sudo update-alternatives --config php
 
 **Файлы для обновления** — при обновлении установленного скрипта
 
-<figure><img src="../../../.gitbook/assets/image (74).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (74).png" alt=""><figcaption></figcaption></figure>
 
 Загрузите архив на сервер в корневую папку и распакуйте его с заменой существующих файлов
 
-<figure><img src="../../../.gitbook/assets/image (75).png" alt="" width="491"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (75).png" alt="" width="491"><figcaption></figcaption></figure>
 
 В ISP Manager смените версию PHP для вашего сайта на новую и сохраните изменения.
 
-<figure><img src="../../../.gitbook/assets/image (76).png" alt="" width="467"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (76).png" alt="" width="467"><figcaption></figcaption></figure>
