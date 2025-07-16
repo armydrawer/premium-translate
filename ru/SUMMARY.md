@@ -253,7 +253,8 @@
   * [Как установить плагин?](osnovnye-nastroiki/faq/kak-ustanovit-plagin/README.md)
     * [Работа с плагином при активации](osnovnye-nastroiki/faq/kak-ustanovit-plagin/rabota-s-plaginom-pri-aktivacii.md)
   * [Какие требования предъявляются к обменникам от мониторингов?](osnovnye-nastroiki/faq/kakie-trebovaniya-predyavlyayutsya-k-obmennikam-ot-monitoringov.md)
-  * [Обновление файлов скрипта на сервере](osnovnye-nastroiki/faq/obnovlenie-failov-skripta-na-servere.md)
+  * [Обновление файлов скрипта на сервере](osnovnye-nastroiki/faq/obnovlenie-failov-skripta-na-servere/README.md)
+    * [Обновление системных папок (только для версии 2.6 и выше)](osnovnye-nastroiki/faq/obnovlenie-failov-skripta-na-servere/obnovlenie-sistemnykh-papok-tolko-dlya-versii-2.6-i-vyshe.md)
   * [Просьба для клиента написать отзыв об успешном обмене](osnovnye-nastroiki/faq/prosba-dlya-klienta-napisat-otzyv-ob-uspeshnom-obmene.md)
   * [Что такое нестандартная комиссия в настройках направлений обмена и как она работает?](osnovnye-nastroiki/faq/chto-takoe-nestandartnaya-komissiya-v-nastroikakh-napravlenii-obmena-i-kak-ona-rabotaet.md)
 
