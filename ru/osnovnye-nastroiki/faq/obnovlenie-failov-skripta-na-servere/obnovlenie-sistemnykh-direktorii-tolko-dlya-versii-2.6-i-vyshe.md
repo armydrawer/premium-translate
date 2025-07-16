@@ -19,6 +19,15 @@ layout:
 
 Файлы скрипта всегда должны загружаться и быть распакованы на сервере из-под <mark style="color:green;">**пользователя, созданного для сайта**</mark> **(**&#x43D;е <mark style="color:red;">**root**</mark>**)**!
 
+{% hint style="info" %}
+Ниже дана инструкци по обновления файлов всего скрипта, но вы можете обновить только следующие папки:\
+`\wp-content\plugins\premiumbox\default\admin`\
+&#x20;`\wp-content\plugins\premiumbox\default\users`\
+&#x20;`\wp-content\plugins\premiumbox\premium\includes`
+
+Учитывайте, что если у вас есть собственные доработки в коде модуля, они будут затерты файлами из официального дистрибутива при обновлении файлов (в этом случае замените  их модифицированными файлами файлы после обновления скрипта из сделанного бэкапа)&#x20;
+{% endhint %}
+
 Вам необходимо:
 
 * Сделать [бэкап всех файлов сайта на сервере](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-sdelat-bekap-saita)
