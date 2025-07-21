@@ -21,4 +21,4 @@ description: >-
 
 Данные настройки необходимо включить для всех пользователей, у которых есть доступ в панель управления. Каждый раз, при авторизации в панели управления, администратор/оператор будет получать на свой e-mail pin-код для входа в панель управления.
 
-Отправку pin-кода можно также настроить через [SMS](https://premium.gitbook.io/rukovodstvo-polzovatelya/navigaciya/uvedomleniya/opovesheniya-po-sms) или [Telegram](https://premium.gitbook.io/rukovodstvo-polzovatelya/navigaciya/uvedomleniya/opovesheniya-v-telegram). В этом случае в разделе "**Сообщения**" требуется настройка SMS или Telegram шаблонов, а в профиле пользователя подключение соответствующих параметров.
+Отправку pin-кода можно также настроить через [SMS](https://premium.gitbook.io/rukovodstvo-polzovatelya/navigaciya/uvedomleniya/opovesheniya-po-sms) или [Telegram](https://premium.gitbook.io/main/osnovnye-nastroiki/uvedomleniya-administratoram-i-klientam/uvedomleniya-v-telegram). В этом случае в разделе "**Сообщения**" требуется настройка SMS или Telegram шаблонов, а в профиле пользователя подключение соответствующих параметров.
