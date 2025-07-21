@@ -37,10 +37,10 @@ layout:
 Порядок действий:
 
 * Войти в настройки профиля администратора (раздел "**Пользователи**").
-*   Нажать **"выйти со всех устройств"** (включая текущее).\
+*   Нажать кнопку **"выйти со всех устройств"** (включая текущее).\
 
 
     <figure><img src="../../../.gitbook/assets/image (2198).png" alt="" width="430"><figcaption></figcaption></figure>
-* Немедленно сменить пароль на новый, сложный (не использовавшийся ранее).
-* Активировать [**двухфакторную аутентификацию (2FA)**](https://premium.gitbook.io/main/osnovnye-nastroiki/nastroiki/administratory-i-polzovateli/dvukhfaktornaya-avtorizaciya-2fa-v-paneli-upravleniya-saitom), если она не включена.
+* Немедленно сменить пароль для этого аккаунта на новый, более сложный (не использовавшийся ранее).
+* Активировать [**двухфакторную аутентификацию (2FA)**](https://premium.gitbook.io/main/osnovnye-nastroiki/nastroiki/administratory-i-polzovateli/dvukhfaktornaya-avtorizaciya-2fa-v-paneli-upravleniya-saitom), если она не была включена.
 * Сообщить команде безопасности или старшему администратору.
