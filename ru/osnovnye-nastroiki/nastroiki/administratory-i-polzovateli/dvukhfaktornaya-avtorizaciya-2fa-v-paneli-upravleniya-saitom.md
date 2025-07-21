@@ -11,13 +11,13 @@ description: >-
 
 Далее в панели управления сайтом в разделе "**Сообщения" → "E-mail шаблоны" →** для шаблонов "**Авторизация по пин-коду**" и “**Уведомить о входе пользователя в ЛК**” разрешите отправку сообщений.
 
-<figure><img src="../../.gitbook/assets/image (1063).png" alt=""><figcaption><p>Шаблон "<strong>Авторизация по пин-коду</strong>" </p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1063).png" alt=""><figcaption><p>Шаблон "<strong>Авторизация по пин-коду</strong>" </p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1163).png" alt=""><figcaption><p>Шаблон “<strong>Уведомить о входе пользователя в ЛК</strong>”</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1163).png" alt=""><figcaption><p>Шаблон “<strong>Уведомить о входе пользователя в ЛК</strong>”</p></figcaption></figure>
 
 Затем в панели управления сайтом в разделе "**Пользователи" (выбрать пользователя) →** установите "**Да**" для параметров "**Уведомление при авторизации (E-mail)**" и "**Авторизация по пин-коду (E-mail)**".&#x20;
 
-<figure><img src="../../.gitbook/assets/изображение (57).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (57).png" alt=""><figcaption></figcaption></figure>
 
 Данные настройки необходимо включить для всех пользователей, у которых есть доступ в панель управления. Каждый раз, при авторизации в панели управления, администратор/оператор будет получать на свой e-mail pin-код для входа в панель управления.
 
