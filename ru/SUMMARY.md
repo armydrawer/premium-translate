@@ -186,7 +186,7 @@
   * [SEO](osnovnye-nastroiki/nastroiki/seo/README.md)
     * [Google Tag Manager](osnovnye-nastroiki/nastroiki/seo/google-tag-manager.md)
   * [Администраторы и пользователи](osnovnye-nastroiki/nastroiki/administratory-i-polzovateli/README.md)
-    * [Двухфакторная авторизация (2FA) в панели управления сайтом](osnovnye-nastroiki/nastroiki/dvukhfaktornaya-avtorizaciya-2fa-v-paneli-upravleniya-saitom.md)
+    * [Двухфакторная аутентификация (2FA) в панели управления сайтом](osnovnye-nastroiki/nastroiki/dvukhfaktornaya-avtorizaciya-2fa-v-paneli-upravleniya-saitom.md)
     * [Изменение пароля администратора](osnovnye-nastroiki/nastroiki/administratory-i-polzovateli/kak-izmenit-parol-administratora.md)
     * [Пароли безопасности](osnovnye-nastroiki/nastroiki/paroli-bezopasnosti.md)
     * [Роли пользователей](osnovnye-nastroiki/nastroiki/administratory-i-polzovateli/rabota-saita-po-https-soedineniyu.md)

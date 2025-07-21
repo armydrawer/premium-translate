@@ -5,7 +5,7 @@ description: >-
   уменьшает вероятность взлома.
 ---
 
-# Двухфакторная авторизация (2FA) в панели управления сайтом
+# Двухфакторная аутентификация (2FA) в панели управления сайтом
 
 ## 2FA через E-mail или Telegram
 
@@ -28,3 +28,19 @@ description: >-
 Отправку pin-кода можно также настроить через [SMS](https://premium.gitbook.io/rukovodstvo-polzovatelya/navigaciya/uvedomleniya/opovesheniya-po-sms) или [Telegram](https://premium.gitbook.io/main/osnovnye-nastroiki/uvedomleniya-administratoram-i-klientam/uvedomleniya-v-telegram). В этом случае в разделе "**Сообщения**" требуется настройка SMS или Telegram шаблонов, а в профиле пользователя подключение соответствующих параметров.
 
 ## 2FA с использованием приложения
+
+В личном кабинете на сайте в разделе "**Настройки безопасности**" активируйте опцию 2FA и отсканируйте QR-код [подходящим приложением](https://trashexpert.ru/mobile/apps/best-two-factor-authentication-apps).&#x20;
+
+<figure><img src="../../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
+
+В поле "**2FA-код**" введите указанный в приложение код и нажмите кнопку "**Сохранить**".
+
+Для проверки активации 2FA выйдите из своего аккаунта и попробуйте авторизоваться без указания кода.
+
+Если вы получили ошибку, а при повторном входе (с указанием кода) авторизовались — опция настроена корректно.
+
+<div><figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Вход в админ-панель</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (4).png" alt="" width="563"><figcaption><p>Вход в личный кабинет на сайте обменника</p></figcaption></figure></div>
+
+При необходимости вы можете отключить 2FA для любого пользователя в настройках его профиля (раздел "**Пользователи**").
+
+<div><figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Выключение 2FA в админ-панели</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (3).png" alt="" width="563"><figcaption><p>Выключение 2FA в личном кабинете</p></figcaption></figure></div>
