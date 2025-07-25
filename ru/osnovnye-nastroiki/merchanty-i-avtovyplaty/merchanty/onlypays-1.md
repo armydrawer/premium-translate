@@ -50,6 +50,22 @@
 
 <figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
+Создайте и добавьте [дополнительное поле](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya-obmena/dopolnitelnye-polya) к соответствующим валютам для приёма средств через Ivanpay. Обязательно укажите значение в поле "**Уникальный ID**" (указывайте название в нижнем регистре) и сделайте поле обязательным к заполнению.
+
+![](https://premium.gitbook.io/main/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FyBUMmdMiMlEvL4OlAoxr%252Fimage.png%3Falt%3Dmedia%26token%3D9669cfff-79cc-49fb-a222-50ecccb3fa5e\&width=300\&dpr=4\&quality=100\&sign=50a9f19f\&sv=2)
+
+После этого поле будет отображаться в форме обмена, а также будет обязательным к заполнению клиентов при создании заявки.
+
+![](https://premium.gitbook.io/main/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FcoBFe70zmN1JtepEFM68%252Fimage.png%3Falt%3Dmedia%26token%3Da5a19b16-bc6f-425d-89ed-bb07c7065e00\&width=300\&dpr=4\&quality=100\&sign=d8ed43c6\&sv=2)
+
+Пример заполнения для валюты T-Банк RUB (выделены названия из полей "Уникальный ID"):
+
+<figure><img src="../../../.gitbook/assets/image (2200).png" alt=""><figcaption></figcaption></figure>
+
+Пример заполнения для валюты Bank transfer GEL (грузинский лари):
+
+<figure><img src="../../../.gitbook/assets/image (2203).png" alt=""><figcaption></figcaption></figure>
+
 ## Продолжение настройки
 
 Далее произведите настройку мерчанта следуя [общей инструкции по настройке](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/obshie-nastroiki-merchantov).\
