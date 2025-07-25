@@ -95,6 +95,7 @@
     * [MoneyGo](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/moneygo.md)
     * [Nicepay](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/nicepay.md)
     * [OnlyPays](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/onlypays.md)
+    * [Quixfer](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/onlypays-1.md)
     * [PandaPay](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/pandapay.md)
     * [Payeer](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/payeer.md)
     * [Payin-Payout (неактивно)](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/payin-payout-neaktivno.md)
