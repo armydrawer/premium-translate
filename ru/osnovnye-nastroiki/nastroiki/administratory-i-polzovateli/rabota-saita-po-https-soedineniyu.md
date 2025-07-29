@@ -24,7 +24,7 @@ layout:
 *   Назначать роли пользователям в их профилях.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="339"><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt="" width="339"><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 - Роль **Администратор** является системной. У неё полный доступ ко всем функциям платформы, включая управление ролями, но **сама роль не может быть изменена или удалена**.
@@ -42,7 +42,7 @@ layout:
 
 ## Полный список возможностей для ролей
 
-<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Роли могут иметь следующие права (можно активировать или отключить при редактировании):
 
