@@ -1,0 +1,13 @@
+# This is a basic workflow to help you get started with Actions
+name: GitHub Actions
+
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
