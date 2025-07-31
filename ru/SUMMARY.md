@@ -9,6 +9,7 @@
   * [Выбор сервера](pered-nachalom-raboty/rekomendacii/vybor-servera.md)
   * [Рекомендации от BestСhange](pered-nachalom-raboty/rekomendacii/rekomendacii-ot-bestshange.md)
 * [Основы безопасности](pered-nachalom-raboty/osnovy-bezopasnosti/README.md)
+  * [Руководство по безопасности для криптовалютных обменников](pered-nachalom-raboty/osnovy-bezopasnosti/rukovodstvo-po-bezopasnosti-dlya-kriptovalyutnykh-obmennikov.md)
   * [Общие меры безопасности](pered-nachalom-raboty/osnovy-bezopasnosti/obshie-mery-bezopasnosti.md)
   * [Как не стать жертвой мошенника](pered-nachalom-raboty/osnovy-bezopasnosti/kak-ne-stat-zhertvoi-moshennika.md)
   * [Как обезопасить панель управления обменником](pered-nachalom-raboty/osnovy-bezopasnosti/kak-obezopasit-panel-upravleniya-obmennikom.md)
