@@ -32,15 +32,15 @@
 
 2) Перейдите в раздел "**Сайты**", выберите ваш сайт и нажмите кнопку "Настройки **PHP для сайта**".
 
-<figure><img src="../../.gitbook/assets/image (2181).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2181).png" alt=""><figcaption></figcaption></figure>
 
 3. Поиском найдите директиву `disable_functions`, отметьте её галочкой и нажмите кнопку с карандашом ("**Изменить переменную**").
 
-<figure><img src="../../.gitbook/assets/image (2182).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2182).png" alt=""><figcaption></figcaption></figure>
 
 4.  Добавьте указанные функции (не удаляйте предыдущие значения — дополните строку указанными функциями): **`exec,system,passthru,shell_exec,proc_open,show_source`** и сохраните изменени&#x44F;**.**
 
-    <figure><img src="../../.gitbook/assets/image (2183).png" alt="" width="544"><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (2183).png" alt="" width="544"><figcaption></figcaption></figure>
 
 </details>
 
@@ -59,15 +59,15 @@
 
 2) Перейдите в раздел "**Сайты**", выберите ваш сайт и нажмите кнопку "**Настройки PHP для сайта**".
 
-<figure><img src="../../.gitbook/assets/image (2181).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2181).png" alt="" width="563"><figcaption></figcaption></figure>
 
 3. Поиском найдите директивы по тексту `allow_url`, отметьте их галочкой и нажмите кнопку с карандашом ("**Изменить переменную**").
 
-<figure><img src="../../.gitbook/assets/image (2185).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2185).png" alt="" width="563"><figcaption></figcaption></figure>
 
 4. Укажите `Off` для переменных и сохраните изменени&#x44F;**.**
 
-<figure><img src="../../.gitbook/assets/image (2184).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2184).png" alt="" width="563"><figcaption></figcaption></figure>
 
 </details>
 
@@ -85,11 +85,11 @@
 
 2) Перейдите в раздел "**PHP**", выберите версию PHP, [которая используется на вашем сайте](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-proverit-versiyu-php-ispolzuyushuyusya-dlya-saita) и нажмите кнопку "Расширения".
 
-<figure><img src="../../.gitbook/assets/image (2186).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2186).png" alt="" width="563"><figcaption></figcaption></figure>
 
 3. Поиском найдите расширения по тексту **`phar`** (пример), отметьте их галочкой и нажмите кнопку с карандашом ("**Выключить расширение**").
 
-<figure><img src="../../.gitbook/assets/image (2187).png" alt="" width="531"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2187).png" alt="" width="531"><figcaption></figcaption></figure>
 
 4. Нажмите кнопку и подтвердите выключение расширения во всплывающем окн&#x435;**.**
 
@@ -114,21 +114,21 @@
 
 2) Перейдите в раздел "**Сайты**", выберите ваш сайт и нажмите кнопку "**Файлы сайта**".
 
-<figure><img src="../../.gitbook/assets/image (2188).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2188).png" alt=""><figcaption></figcaption></figure>
 
 3. Найдите файл `.htaccess` и перейдите в режим его редактирования двойным кликом.
 
-<figure><img src="../../.gitbook/assets/image (2190).png" alt="" width="479"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2190).png" alt="" width="479"><figcaption></figcaption></figure>
 
 4. Укажите указанный выше текст в файле и сохраните изменения.
 
-<figure><img src="../../.gitbook/assets/image (2191).png" alt="" width="543"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2191).png" alt="" width="543"><figcaption></figcaption></figure>
 
 </details>
 
 ## Настройка прав на файлы
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Если в админбаре отображается предупреждение об ошибках в виде анимированного <mark style="color:red;">красного круга</mark>, откройте раздел с ошибками.
 
@@ -141,20 +141,20 @@
 {% hint style="info" %}
 Предупреждения также отображаются в разделе "Консоль", блок "Проверка безопасности"
 
-<img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt="" data-size="original">
+<img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt="" data-size="original">
 {% endhint %}
 
 \
 При использовании ispmanager перейдите в раздел "**Сайты**", выберите ваш сайт и нажмите кнопку "**Файлы сайта**".
 
-<figure><img src="../../.gitbook/assets/image (2188).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2188).png" alt=""><figcaption></figcaption></figure>
 
 Выберите файл с некорректными правами и нажмите кнопку "Атрибуты".
 
-<figure><img src="../../.gitbook/assets/image (2193).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2193).png" alt=""><figcaption></figcaption></figure>
 
 Укажите рекомендуемые права в строке "Права доступа" и сохраните изменения.
 
-<figure><img src="../../.gitbook/assets/image (2197).png" alt="" width="248"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2197).png" alt="" width="248"><figcaption></figcaption></figure>
 
 После изменения прав предупреждение пропадёт в админ-панели.
