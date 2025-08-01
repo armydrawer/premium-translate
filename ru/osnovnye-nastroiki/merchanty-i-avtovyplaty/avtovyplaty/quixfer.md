@@ -34,7 +34,7 @@
 
 Заполните указанные авторизационные поля.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="460"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt="" width="460"><figcaption></figcaption></figure>
 
 **Домен** — оставьте поле пустым
 
@@ -64,11 +64,11 @@
 
 Пример заполнения для валюты T-Банк RUB (выделены названия из полей "Уникальный ID"):
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Пример заполнения для валюты Bank transfer GEL (грузинский лари):
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Продолжение настройки
 

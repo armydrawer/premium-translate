@@ -39,7 +39,7 @@ description: >-
 
 Если вы получили ошибку, а при повторном входе (с указанием кода) авторизовались — опция настроена корректно.
 
-<div><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Вход в админ-панель</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt="" width="563"><figcaption><p>Вход в личный кабинет на сайте обменника</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Вход в админ-панель</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt="" width="563"><figcaption><p>Вход в личный кабинет на сайте обменника</p></figcaption></figure></div>
 
 При необходимости вы можете отключить 2FA для любого пользователя в настройках его профиля (раздел "**Пользователи**").
 
