@@ -26,11 +26,11 @@
 
 Выберите Quixfer в выпадающем списке в поле "**Модуль**", укажите название для модуля и нажмите "**Сохранить**".
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt="" width="486"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1).png" alt="" width="486"><figcaption></figcaption></figure>
 
 Заполните указанные авторизационные поля.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt="" width="460"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt="" width="460"><figcaption></figcaption></figure>
 
 **Домен** — оставьте поле пустым
 
@@ -40,7 +40,7 @@
 
 ## Особые поля
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 **Способ оплаты** — выберите необходимый способ оплаты для приема средств или пункт "**Автоматически**" — в этом случае реквизиты будут запрашиваться согласно xml-коду валюты из направления обмена, где подключен модуль (список методов будет отображаться только после указания корректных API-ключей для авторизации в модуле).
 
@@ -64,7 +64,7 @@
 
 Пример заполнения для валюты Bank transfer GEL (грузинский лари):
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Продолжение настройки
 
