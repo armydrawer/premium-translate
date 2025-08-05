@@ -47,7 +47,7 @@
 
 4. Перейдите в раздел "[**Ваши лицензии**](https://premiumexchanger.com/ulicense/)" и скачайте архив с файлами лицензии `license.zip`. Для этого нажмите на ссылку "**Скачать для версии 2.4**".
 
-<figure><img src="../../.gitbook/assets/image (1726).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1726).png" alt="" width="491"><figcaption></figcaption></figure>
 
 Скачанный архив загрузите в [корневую папку вашего сайта](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-naiti-kornevuyu-papku-saita-na-servere) под <mark style="color:green;">**пользователем, созданным для сайта**</mark> (не <mark style="color:red;">**root**</mark>!) и **обязательно** распакуйте архив.
 
@@ -64,7 +64,7 @@
 [**Инструкция по проверке версии PHP, установленной на сервере**](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-proverit-versiyu-php-ustanovlennuyu-na-servere)
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (431).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (431).png" alt="" width="563"><figcaption></figcaption></figure>
 
 6. Загрузите содержимое архива с обновлением в корневую папку вашего сайта под <mark style="color:green;">**пользователем, созданным для сайта**</mark> (не <mark style="color:red;">**root**</mark>!). Используйте FTP-клиент, либо файловый менеджер. Распакуйте архив с заменой файлов.
 7. Перейдите в раздел "**Плагины**" и активируйте плагины "**Premium Exchanger"** и "**Premium Exchanger hooks**".

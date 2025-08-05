@@ -99,7 +99,7 @@
 ![](<../../.gitbook/assets/image (2015).png>)
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (2213).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2214).png" alt="" width="362"><figcaption></figcaption></figure>
 
 При запуске каждого шага система определит общее количество запросов, которые нужно выполнить. У вас есть возможность задать количество запросов, которое будет обработано за один цикл.
 
