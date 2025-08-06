@@ -1,1 +1,0 @@
-# Garantex (Coming Soon)
