@@ -49,16 +49,21 @@ jobs:
           # IMPORTANT: Set your target languages here (REQUIRED CONFIGURATION)
           # =====================================================================
           # Example: Translate to Spanish, French, German. Add -y to auto-confirm.
-          translate -l "en fr" -y  # <--- MODIFY THIS LINE with your desired languages
+          # --max-items 100 limits translation to only 100 entities per run
+          translate -l "en fr" -y --max-items 100  # <--- MODIFIED: Added --max-items 100
 
       - name: Create Pull Request with translations
         uses: peter-evans/create-pull-request@v5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "🌐 Update translations via Co-op Translator"
-          title: "🌐 Update translations via Co-op Translator"
+          commit-message: "🌐 Update translations via Co-op Translator (max 100 items)"
+          title: "🌐 Update translations via Co-op Translator (max 100 items)"
           body: |
             This PR updates translations for recent changes to the main branch.
+            
+            ### ⚙️ Configuration
+            - **Translation limit**: 100 entities per run
+            - **Target languages**: Check the workflow file for configured languages
 
             ### 📋 Changes included
             - Translated contents are available in the `translations/` directory
