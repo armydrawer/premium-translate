@@ -29,24 +29,28 @@ jobs:
           python -m pip install --upgrade pip
           pip install co-op-translator
 
-      - name: Prepare limited file set for translation
+      - name: Create source directory and limit files
         run: |
-          # Create a list of files to translate (limited to 100)
-          echo "Preparing file list for translation (max 100 files)..."
+          # Создаем временную директорию для перевода
+          mkdir -p temp-translate-source
           
-          # Find markdown files, exclude already translated directories, limit to 100
+          # Находим все файлы .md (исключая уже переведенные) и ограничиваем до 100
           find . -name "*.md" \
-               -not -path "./translations/*" \
-               -not -path "./translated_images/*" \
-               -not -path "./.git/*" \
-               | head -100 > files_to_translate.txt
+            -not -path "./premium-translate/*" \
+            -not -path "./translations/*" \
+            -not -path "./temp-translate-source/*" \
+            -not -path "./.git/*" \
+            | head -100 \
+            | while read file; do
+              # Создаем структуру директорий в temp-translate-source
+              target_dir="temp-translate-source/$(dirname "$file" | sed 's|^\./||')"
+              mkdir -p "$target_dir"
+              # Копируем файл
+              cp "$file" "$target_dir/"
+            done
           
-          echo "Files selected for translation:"
-          wc -l files_to_translate.txt
-          
-          # Show first few files that will be translated
-          echo "First 10 files to be translated:"
-          head -10 files_to_translate.txt
+          echo "Количество файлов для перевода:"
+          find temp-translate-source -name "*.md" | wc -l
 
       - name: Run Co-op Translator
         env:
@@ -64,80 +68,56 @@ jobs:
           OPENAI_CHAT_MODEL_ID: ${{ secrets.OPENAI_CHAT_MODEL_ID }}
           OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
         run: |
-          # =====================================================================
-          # TRANSLATION WITH FILE LIMITATION
-          # =====================================================================
-          # Method 1: Create temporary directory with limited files
-          mkdir -p temp_translation_workspace
-          
-          # Copy selected files to temporary workspace
-          while IFS= read -r file; do
-            if [ -f "$file" ]; then
-              # Create directory structure
-              target_dir="temp_translation_workspace/$(dirname "$file")"
-              mkdir -p "$target_dir"
-              # Copy file
-              cp "$file" "temp_translation_workspace/$file"
-            fi
-          done < files_to_translate.txt
-          
-          # Change to temporary workspace
-          cd temp_translation_workspace
-          
-          # Run translation on limited file set
-          translate -l "en fr" -y
-          
-          # Return to original directory
-          cd ..
+          # Переводим только с русского на английский, используя временную директорию как источник
+          translate -l "en" -r temp-translate-source -y
 
-      - name: Move translations to main directory
+      - name: Move translations to target directory
         run: |
-          # Move translated files back to main directory structure
-          if [ -d "temp_translation_workspace/translations" ]; then
-            echo "Moving translated files..."
-            cp -r temp_translation_workspace/translations/ ./
+          # Создаем целевую директорию если её нет
+          mkdir -p premium-translate/en
+          
+          # Перемещаем переведенные файлы из translations/en в premium-translate/en
+          if [ -d "temp-translate-source/translations/en" ]; then
+            cp -r temp-translate-source/translations/en/* premium-translate/en/
           fi
           
-          if [ -d "temp_translation_workspace/translated_images" ]; then
-            echo "Moving translated images..."
-            cp -r temp_translation_workspace/translated_images/ ./
+          # Также проверяем, если переводы создались в корневой директории translations
+          if [ -d "translations/en" ]; then
+            cp -r translations/en/* premium-translate/en/
           fi
           
-          # Clean up temporary workspace
-          rm -rf temp_translation_workspace
-          rm -f files_to_translate.txt
+          # Удаляем временные директории
+          rm -rf temp-translate-source translations translated_images
           
-          # Show what was created
-          echo "Translation results:"
-          if [ -d "translations" ]; then
-            find translations -name "*.md" | wc -l
-            echo "translated markdown files created"
-          fi
+          echo "Переводы перемещены в premium-translate/en"
+          echo "Количество переведенных файлов:"
+          find premium-translate/en -name "*.md" | wc -l
 
       - name: Create Pull Request with translations
         uses: peter-evans/create-pull-request@v5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "🌐 Update translations via Co-op Translator (limited to 100 files)"
-          title: "🌐 Update translations via Co-op Translator (limited to 100 files)"
+          commit-message: "🌐 Update Russian to English translations (100 files limit)"
+          title: "🌐 Russian to English translations via Co-op Translator"
           body: |
-            This PR updates translations for recent changes to the main branch.
-            
+            This PR adds English translations for Russian content (limited to 100 files per run).
+
             ### 📋 Changes included
-            - Translated contents are available in the `translations/` directory
-            - Translated images are available in the `translated_images/` directory
-            - **Limited to maximum 100 markdown files** to control translation scope and costs
-            
-            ### 🔧 Translation Details
-            - Only the first 100 `.md` files found in the repository were processed
-            - Excluded files in `translations/` and `translated_images/` directories
-            - Excluded `.git/` directory files
+            - Translated Russian markdown files to English
+            - Translations are available in the `premium-translate/en/` directory
+            - Maximum 100 files processed in this batch
+
+            ### 📊 Translation Details
+            - Source language: Russian (ru)
+            - Target language: English (en)
+            - Files limit: 100 per run
+            - Target directory: premium-translate/en/
 
             ---
             🌐 Automatically generated by the [Co-op Translator](https://github.com/Azure/co-op-translator) GitHub Action.
-          branch: update-translations
+          branch: russian-to-english-translations
           base: main
+          labels: translation, automated-pr, russian-to-english
           delete-branch: true
           add-paths: |
-            translations/
-            translated_images/
+            premium-translate/
