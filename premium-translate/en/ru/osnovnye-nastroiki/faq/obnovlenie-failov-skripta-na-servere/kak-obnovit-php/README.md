@@ -1,0 +1,11 @@
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "7fcbafdab51a9d2a97c3b75b96d18c86",
+  "translation_date": "2025-08-08T11:35:22+00:00",
+  "source_file": "ru/osnovnye-nastroiki/faq/obnovlenie-failov-skripta-na-servere/kak-obnovit-php/README.md",
+  "language_code": "en"
+}
+-->
+
+
