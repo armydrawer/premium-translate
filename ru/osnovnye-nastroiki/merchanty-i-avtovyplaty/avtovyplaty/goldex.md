@@ -55,17 +55,19 @@
 {% hint style="info" %}
 Названия полей:
 
-* `get_cardholder` или `cardholder`
-* `get_bankname` или `bankname`
-* `get_iban` или `iban`
-* `get_phone` или `phone`
+* `get_cardholder` или `cardholder` — ФИО держателя карты
+* `get_bankname` или `bankname` — название банка
+* `get_iban` или `iban` — IBAN банка
+* `get_phone` или `phone` — номер телефона
+* `get_inn` или `inn` — ИНН
+* `get_revTagWiseTag` или `revTagWiseTag` — идентификаторы [Revolut](https://help.revolut.com/ru-EE/help/transfers/internal-transfers/username-payments/revtags/)/[Wise](https://wise.com/ru/help/articles/6DtiR7Ugdp7hfoKJHfRfvJ/%D1%87%D1%82%D0%BE-%D1%82%D0%B0%D0%BA%D0%BE%D0%B5-wisetag-%D0%B8-%D0%BA%D0%B0%D0%BA-%D0%B5%D0%B3%D0%BE-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D1%8C)
 
 Указывайте название из списка выше в поле "**Уникальный ID**" (остальные поля заполняются по вашему усмотрению)
 
 ![](<../../../.gitbook/assets/image (2004).png>)
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (244).png" alt=""><figcaption><p>Настройки доп. полей (в скобках указан уникальный ID из одноименного поля из настроек каждого доп. поля)</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (244).png" alt="" width="563"><figcaption><p>Настройки доп. полей (в скобках указан уникальный ID из одноименного поля из настроек каждого доп. поля)</p></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (246).png" alt="" width="533"><figcaption><p>Форма обмена</p></figcaption></figure>
 
