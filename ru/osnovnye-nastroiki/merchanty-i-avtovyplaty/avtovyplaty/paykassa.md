@@ -1,7 +1,7 @@
 # PayKassa
 
 {% hint style="danger" %}
-<mark style="color:red;">Перед настройкой автовыплат обязательно прочитайте</mark> [предупреждение о рисках](https://premiumexchanger.com/wiki/preduprezhdenie-auto/)!
+<mark style="color:red;">Перед настройкой автовыплат обязательно прочитайте</mark> [предупреждение о рисках](https://premium.gitbook.io/main/osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/preduprezhdenie-o-riskakh)!
 {% endhint %}
 
 {% hint style="info" %}
