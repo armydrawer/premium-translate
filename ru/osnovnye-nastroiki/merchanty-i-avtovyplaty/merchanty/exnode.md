@@ -1,7 +1,7 @@
 # Exnode
 
 {% hint style="info" %}
-Если вам необходимо обновить модуль на сервере - воспользуйтесь [инструкцией](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/faq/kak-obnovit-faily-na-servere#moduli-merchantov)
+Если вам необходимо обновить модуль на сервере - воспользуйтесь [инструкцией](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/obnovlenie-failov-skripta-na-servere/kak-obnovit-faily-na-servere#moduli-merchantov-i-avtovyplat)
 {% endhint %}
 
 {% hint style="warning" %}
@@ -11,7 +11,7 @@
 ## Настройки в личном кабинете мерчанта
 
 {% hint style="warning" %}
-Для обсуждения условий и подключения, свяжитесь с [представитлем сервиса](https://t.me/exnode_crypto).
+Для обсуждения условий и подключения, свяжитесь с [представителем сервиса](https://t.me/exnode_crypto).
 
 **Дисклеймер**: при подключении вашего сайта к тому или иному сервису, самостоятельно пожалуйста оценивайте возможные риски сотрудничества.
 {% endhint %}

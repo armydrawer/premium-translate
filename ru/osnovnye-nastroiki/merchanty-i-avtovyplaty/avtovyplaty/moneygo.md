@@ -7,14 +7,14 @@
 {% endhint %}
 
 {% hint style="info" %}
-Если вам необходимо обновить модуль на сервере — воспользуйтесь [инструкцией](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/faq/kak-obnovit-faily-na-servere#moduli-avtovyplat)
+Если вам необходимо обновить модуль на сервере — воспользуйтесь [инструкцией](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/obnovlenie-failov-skripta-na-servere/kak-obnovit-faily-na-servere#moduli-merchantov-i-avtovyplat)
 {% endhint %}
 
 ## Настройки в личном кабинете мерчанта <a href="#nastroiki-v-lichnom-kabinete-merchanta" id="nastroiki-v-lichnom-kabinete-merchanta"></a>
 
 Пройдите регистрацию на сервисе [MoneyGo](https://money-go.com/ru/register). После регистрации запросите доступ к API у вашего MoneyGo менеджера или оставьте заявку на получения доступа к API для работы с модулем через [форму обратной связи](https://money-go.com/ru/helpdesk) (раздел "**Контакты**" на сайте), выбрав пункт "**Сотрудничество**" и заполнив обязательные поля.
 
-<figure><img src="../../../.gitbook/assets/image (2010).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2010).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Настройки модуля <a href="#nastroiki-modulya" id="nastroiki-modulya"></a>
 

@@ -6,10 +6,10 @@
 
 2\. Заполните открывшуюся форму:
 
-<figure><img src="../../../.gitbook/assets/image (890).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (890).png" alt="" width="563"><figcaption></figcaption></figure>
 
 * **Заголовок** — укажите название мерчанта автовыплаты, которое будет отображаться в панели управления сайтом
 * **Модуль** — выберите название платежной системы, для которой вы создаете модуль
 * **Статус** — выберите "**активная автовыплата**"
 
-3\. Дальнейшие настройки автовыплаты выполните в соответствии с [инструкциями](https://premium.gitbook.io/rukovodstvo-polzovatelya/navigaciya/merchanty-i-avtovyplaty/avtovyplaty) для каждой платежной системы.
+3\. Дальнейшие настройки автовыплаты выполните в соответствии с [инструкциями](https://premium.gitbook.io/main/osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty) для каждой платежной системы.
