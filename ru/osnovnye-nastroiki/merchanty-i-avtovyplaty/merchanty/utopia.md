@@ -1,7 +1,7 @@
 # Utopia
 
 {% hint style="info" %}
-Если вам необходимо обновить модуль на сервере — воспользуйтесь [инструкцией](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/faq/kak-obnovit-faily-na-servere#moduli-merchantov)
+Если вам необходимо обновить модуль на сервере — воспользуйтесь [инструкцией](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/obnovlenie-failov-skripta-na-servere/kak-obnovit-faily-na-servere#moduli-merchantov-i-avtovyplat)
 {% endhint %}
 
 ## Настройки на стороне мерчанта
@@ -19,15 +19,15 @@
 
 <figure><img src="../../../.gitbook/assets/utopia_GuMWxeYqQj.png" alt="" width="375"><figcaption><p>Создание аккаунта</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/utopia_6KVpKP7MqV.png" alt=""><figcaption><p>Заполните указанные поля</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/utopia_6KVpKP7MqV.png" alt="" width="563"><figcaption><p>Заполните указанные поля</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/utopia_1dTGinQV89.png" alt=""><figcaption><p>Укажите путь до папки, где будет храниться приватный ключ и придумайте пароль для кошелька </p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/utopia_1dTGinQV89.png" alt="" width="563"><figcaption><p>Укажите путь до папки, где будет храниться приватный ключ и придумайте пароль для кошелька </p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/utopia_HDeIfnYgkC.png" alt=""><figcaption><p>Генерация приватного ключа</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/utopia_HDeIfnYgkC.png" alt="" width="563"><figcaption><p>Генерация приватного ключа</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/utopia_G9GdSU4r7V.png" alt=""><figcaption><p>Публичный ключ — это адрес вашего кошелька</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/utopia_G9GdSU4r7V.png" alt="" width="563"><figcaption><p>Публичный ключ — это адрес вашего кошелька</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/utopia_mRDQ9jaNO5.png" alt=""><figcaption><p>Главная страница приложения</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/utopia_mRDQ9jaNO5.png" alt="" width="563"><figcaption><p>Главная страница приложения</p></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/utopia_N9Et2UDpXJ.png" alt="" width="326"><figcaption><p>Доступные валюты</p></figcaption></figure>
 

@@ -1,14 +1,14 @@
 # Yobit
 
 {% hint style="info" %}
-Если вам необходимо обновить модуль на сервере - воспользуйтесь [инструкцией](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/faq/kak-obnovit-faily-na-servere#moduli-merchantov)
+Если вам необходимо обновить модуль на сервере - воспользуйтесь [инструкцией](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/obnovlenie-failov-skripta-na-servere/kak-obnovit-faily-na-servere#moduli-merchantov-i-avtovyplat)
 {% endhint %}
 
 ## Настройки в личном кабинете мерчанта
 
 Отправьте заявку на регистрацию на сайте [Yobit](https://yobit.net/). После подтверждения регистрации сервисом, авторизуйтесь в личном кабинете.
 
-Перейдите в [раздел "**API ключи**"](https://yobit.net/ru/api/keys/) и выпустите новый ключ в правами в зависимости от способа работы с мерчантом:
+Перейдите в [раздел "**API ключи**"](https://yobit.net/ru/api/keys/) и выпустите новый ключ с правами в зависимости от способа работы с мерчантом:
 
 <figure><img src="../../../.gitbook/assets/image (1407).png" alt="" width="563"><figcaption></figcaption></figure>
 
