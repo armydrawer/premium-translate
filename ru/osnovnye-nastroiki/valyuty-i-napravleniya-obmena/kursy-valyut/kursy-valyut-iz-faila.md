@@ -19,7 +19,7 @@
 
 5\. Настроить [планировщик задач (cron)](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-sozdat-zadanie-cron-na-servere), который будет получать значение курса обмена из файла и обновлять его на сайте. Скрипт можно запускать каждую минуту. Пример команды для планировщика задач в Unix-формате для панели управления ISP Manager:
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 `/usr/bin/wget -t 1 -O - --no-check-certificate "https://premiumexchanger.com/cron-fcourse_request_cron.html"`
 
