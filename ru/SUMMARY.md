@@ -98,6 +98,7 @@
     * [Nicepay](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/nicepay.md)
     * [OnlyPays](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/onlypays.md)
     * [PandaPay](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/pandapay.md)
+    * [PayCrown](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/paycrown.md)
     * [Payeer](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/payeer.md)
     * [Payin-Payout (неактивно)](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/payin-payout-neaktivno.md)
     * [PayKassa](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/paykassa.md)
