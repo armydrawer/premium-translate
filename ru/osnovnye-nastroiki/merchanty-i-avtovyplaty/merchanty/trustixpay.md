@@ -12,7 +12,9 @@
 **Дисклеймер**: при подключении вашего сайта к тому или иному сервису, пожалуйста, самостоятельно оценивайте возможные риски сотрудничества.
 {% endhint %}
 
-Зарегистрируйтесь на сервисе TrustixPay с помощью представителю сервиса и запросите API-ключи для подключения к Premium Exchanger.
+Зарегистрируйтесь на сервисе TrustixPay с помощью представителю сервиса и запросите API-ключи для подключения к Premium Exchanger. Авторизуйтесь в личном кабинете, перейдите в раздел" **Документация API**" ➔ "**Настройки Callback**". Укажите в поле "**URL для Callback**" **Webhook URL** из настроек модуля и сохраните настройки.
+
+<figure><img src="../../../.gitbook/assets/image.png" alt="" width="468"><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (2).png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -22,11 +24,11 @@
 
 Выберите TrustixPay в выпадающем списке в поле "**Модуль**", укажите название для модуля и нажмите "**Сохранить**".
 
-<figure><img src="../../../.gitbook/assets/image.png" alt="" width="424"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt="" width="424"><figcaption></figcaption></figure>
 
 Заполните указанные авторизационные поля.
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt="" width="423"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt="" width="423"><figcaption></figcaption></figure>
 
 **Домен** — оставьте поле пустым
 
