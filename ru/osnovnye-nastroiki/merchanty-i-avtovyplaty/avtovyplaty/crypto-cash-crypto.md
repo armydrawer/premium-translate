@@ -16,7 +16,13 @@
 **Дисклеймер**: при подключении вашего сайта к тому или иному сервису, пожалуйста, самостоятельно оценивайте возможные риски сотрудничества.
 {% endhint %}
 
-[Зарегистрируйтесь на сервисе Crypto-Cash](https://account.crypto-cash.world/registration), напишите представителю сервиса и запросите API-ключи для подключения к Premium Exchanger.
+[Зарегистрируйтесь на сервисе Crypto-Cash](https://account.crypto-cash.world/registration), авторизуйтесь в личном кабинете и перейдите в [раздел "**Merchant Settings**"](https://account.crypto-cash.world/settings).
+
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+Выпустите приватный API-ключ по кнопке "**Generate API Key**". Скопируйте оба ключа в буфер обмена или текстовый файл.
+
+<figure><img src="../../../.gitbook/assets/image (3).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Настройки модуля
 
@@ -24,17 +30,17 @@
 
 Выберите Crypto-Cash Crypto в выпадающем списке в поле "**Модуль**", укажите название для модуля и нажмите "**Сохранить**".
 
-<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt="" width="490"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1).png" alt="" width="490"><figcaption></figcaption></figure>
 
 Заполните указанные авторизационные поля.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="437"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="437"><figcaption></figcaption></figure>
 
 **Домен** — оставьте поле пустым
 
-**Публичный ключ** — публичный ключ, переданный вам ранее представителем Crypto-Cash
+**Публичный ключ** — публичный ключ, скопированный ранее в ЛК
 
-**Секретный ключ** — секретный ключ, переданный вам ранее представителем Crypto-Cash
+**Секретный ключ** — секретный ключ, скопированный ранее в ЛК
 
 ## Особые поля
 
