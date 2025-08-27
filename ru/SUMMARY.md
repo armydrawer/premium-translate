@@ -82,6 +82,7 @@
     * [Bitbanker](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/bitbanker.md)
     * [Bitconce Card/Link](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/bitconce-card-link.md)
     * [Crypto-Cash Crypto](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/crypto-cash-crypto.md)
+    * [Bankoro](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/bankoro.md)
     * [DashPay](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/dashpay.md)
     * [Diffpay](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/diffpay.md)
     * [Electrum](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/electrum.md)

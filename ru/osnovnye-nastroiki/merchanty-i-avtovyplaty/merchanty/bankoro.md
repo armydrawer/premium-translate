@@ -1,4 +1,4 @@
-# Crypto-Cash Crypto
+# Bankoro
 
 {% hint style="info" %}
 Если вам необходимо обновить модуль на сервере — воспользуйтесь [инструкцией](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/obnovlenie-failov-skripta-na-servere/kak-obnovit-faily-na-servere#moduli-merchantov-i-avtovyplat)
@@ -7,36 +7,36 @@
 ## Настройки в личном кабинете мерчанта
 
 {% hint style="warning" %}
-Для обсуждения условий работы свяжитесь с [представителем сервиса](https://t.me/CCW_Admin).
+Для обсуждения условий работы свяжитесь с представителем сервиса.
 
 **Дисклеймер**: при подключении вашего сайта к тому или иному сервису, пожалуйста, самостоятельно оценивайте возможные риски сотрудничества.
 {% endhint %}
 
-[Зарегистрируйтесь на сервисе Crypto-Cash](https://account.crypto-cash.world/registration), авторизуйтесь в личном кабинете и перейдите в [раздел "**Merchant Settings**"](https://account.crypto-cash.world/settings).
+[Зарегистрируйтесь на сервисе Bankoro](https://bankoro.io/registration), авторизуйтесь в личном кабинете, перейдите в раздел "**API подключение**" и добавьте новую пару API-ключей.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-Выпустите приватный API-ключ по кнопке "**Generate API Key**". Скопируйте оба ключа в буфер обмена или текстовый файл.
+Заполните поля на своё усмотрение (главное предоставьте доступ к приему средств и/или выплате) и выпустите API-ключи по кнопке "**Создать**". Скопируйте оба ключа в буфер обмена или текстовый файл.
 
-<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Настройки модуля
 
 В панели администратора создайте нового мерчанта в разделе "**Мерчанты**" ➔ "**Добавить мерчант".**
 
-Выберите Crypto-Cash Crypto в выпадающем списке в поле "**Модуль**", укажите название для модуля и нажмите "**Сохранить**".
+Выберите Bankoro в выпадающем списке в поле "**Модуль**", укажите название для модуля и нажмите "**Сохранить**".
 
-<figure><img src="../../../.gitbook/assets/image (2216).png" alt="" width="482"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 Заполните указанные авторизационные поля.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt="" width="437"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 **Домен** — оставьте поле пустым
 
-**Публичный ключ** — публичный ключ, скопированный ранее в ЛК
+**API ключ** — публичный ключ, скопированный ранее в ЛК Bankoro
 
-**Секретный ключ** — секретный ключ, скопированный ранее в ЛК
+**Секретный ключ** — секретный ключ, скопированный ранее в ЛК Bankoro
 
 ## Особые поля
 
