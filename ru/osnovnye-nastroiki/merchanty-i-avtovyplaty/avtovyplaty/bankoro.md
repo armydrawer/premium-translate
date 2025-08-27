@@ -1,5 +1,9 @@
 # Bankoro
 
+{% hint style="danger" %}
+<mark style="color:red;">Перед настройкой автовыплат обязательно прочитайте</mark> [<mark style="color:blue;">предупреждение о рисках!</mark>](https://premium.gitbook.io/main/osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/preduprezhdenie-o-riskakh)
+{% endhint %}
+
 {% hint style="info" %}
 Если вам необходимо обновить модуль на сервере — воспользуйтесь [инструкцией](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/obnovlenie-failov-skripta-na-servere/kak-obnovit-faily-na-servere#moduli-merchantov-i-avtovyplat)
 {% endhint %}
@@ -22,11 +26,11 @@
 
 ## Настройки модуля
 
-В панели администратора создайте нового мерчанта в разделе "**Мерчанты**" ➔ "**Добавить мерчант".**
+В панели администратора создайте нового мерчанта в разделе "**Мерчанты**" ➔ "**Добавить автовыплату".**
 
 Выберите Bankoro в выпадающем списке в поле "**Модуль**", укажите название для модуля и нажмите "**Сохранить**".
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2223).png" alt=""><figcaption></figcaption></figure>
 
 Заполните указанные авторизационные поля.
 
@@ -42,7 +46,7 @@
 
 <figure><img src="../../../.gitbook/assets/image (2221).png" alt=""><figcaption></figcaption></figure>
 
-**Способ оплаты** — выбор валюты для выдачи адреса кошелька (при выборе пункта "**Автоматически**" будет использоваться код валюты "**Отдаю**")
+**Способ оплаты** — выбор валюты для автовыплаты (при выборе пункта "**Автоматически**" будет использоваться код валюты "**Получаю**")
 
 * **добавить** — добавление своего кода валюты
 
