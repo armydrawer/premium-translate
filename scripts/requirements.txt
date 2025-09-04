@@ -6,3 +6,4 @@ opencv-python>=4.7.0
 python-multipart>=0.0.6
 accelerate>=0.21.0
 sentencepiece>=0.2.1
+sacremoses>=0.0.53
