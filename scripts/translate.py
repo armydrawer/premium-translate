@@ -103,8 +103,7 @@ def main(source_dir, target_dir, glossary_path=None):
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     model = AutoModelForCausalLM.from_pretrained(
         model_name,
-        device_map="auto",
-        torch_dtype="auto"
+        torch_dtype=torch.float32
     )
     
     # Рекурсивный обход исходной директории
