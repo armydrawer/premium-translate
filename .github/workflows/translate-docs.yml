@@ -1,23 +1,16 @@
-# Имя рабочего процесса, которое будет отображаться в GitHub Actions
 name: Translate Russian Docs to English
 
-# Триггеры для запуска:
-# 1. workflow_dispatch - позволяет запускать вручную со страницы Actions.
-# 2. push - запускается автоматически при коммитах в папку /ru в ветке main.
 on:
   workflow_dispatch:
   push:
     branches:
-      - main  # Укажите вашу основную ветку (например, master)
+      - main
     paths:
       - 'ru/**'
 
 jobs:
   translate:
-    # Запускаем на последней версии Ubuntu
     runs-on: ubuntu-latest
-    
-    # Даем рабочему процессу права на запись в репозиторий (для коммита) и создание issues
     permissions:
       contents: write
       issues: write
@@ -27,9 +20,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          # Загружаем всю историю коммитов. Это нужно, чтобы скрипт мог сравнить 
-          # последнее и предпоследнее состояние и найти измененные файлы.
-          fetch-depth: 0 
+          fetch-depth: 0
+
+      # --- НОВЫЙ ШАГ ДЛЯ ОТЛАДКИ ---
+      # Этот шаг покажет нам точную структуру файлов, которую видит GitHub Actions
+      - name: List files in the repository
+        run: ls -R
 
       # Шаг 2: Настраиваем окружение Python
       - name: Set up Python
@@ -37,7 +33,7 @@ jobs:
         with:
           python-version: '3.10'
 
-      # Шаг 3: Устанавливаем Python-библиотеки, необходимые для скрипта
+      # Шаг 3: Устанавливаем зависимости
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
@@ -46,20 +42,17 @@ jobs:
       # Шаг 4: Запускаем основной скрипт перевода
       - name: Find and translate changed files
         env:
-          # Передаем секреты и переменные окружения в Python-скрипт
           DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}      # Стандартный токен для аутентификации в API GitHub
-          GITHUB_REPOSITORY: ${{ github.repository }}  # Передаем имя репозитория (например, "user/repo")
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
         run: |
           python .github/workflows/scripts/translate.py
 
-      # Шаг 5: Делаем коммит с переведенными файлами обратно в репозиторий
+      # Шаг 5: Делаем коммит с переведенными файлами
       - name: Commit translated files
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "docs(en): automatic translation of updated files"
-          # Указываем, какие файлы и папки нужно включить в коммит.
-          # Отслеживаем все файлы .md и .png в папке /en и ее подпапках.
           file_pattern: "en/**/*.md en/**/*.png"
           commit_user_name: "GitHub Actions Bot"
           commit_user_email: "actions@github.com"
