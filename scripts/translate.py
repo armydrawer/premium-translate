@@ -8,78 +8,93 @@ import os
 import argparse
 import json
 import re
+import torch
 from pathlib import Path
-from transformers import AutoModelForCausalLM, AutoTokenizer
+from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
 from PIL import Image
 import pytesseract
-import torch  # Добавлен импорт torch
+from shutil import copyfile
 
 def load_glossary(glossary_path):
     """Загрузка глоссария для специальных терминов"""
-    if glossary_path and os.path.exists(glossary_path):
+    if not glossary_path or not os.path.exists(glossary_path):
+        return {}
+    
+    try:
         with open(glossary_path, 'r', encoding='utf-8') as f:
             return json.load(f)
-    return {}
+    except (json.JSONDecodeError, IOError) as e:
+        print(f"Ошибка загрузки глоссария: {e}")
+        return {}
 
-def translate_text(text, model, tokenizer, glossary=None):
+def translate_text(text, model, tokenizer, glossary=None, max_length=4096):
     """Перевод текста с учетом глоссария и сохранением форматирования"""
+    if not text.strip():
+        return text
+    
+    # Применяем глоссарий
     if glossary:
         for term, translation in glossary.items():
             text = re.sub(r'\b' + re.escape(term) + r'\b', translation, text, flags=re.IGNORECASE)
     
-    # Сохраняем блоки кода и ссылки от перевода
+    # Сохраняем блоки кода, ссылки и специальные форматы от перевода
     placeholders = {}
-    parts = re.split(r'(```.*?```|`.*?`|\[.*?\]\(.*?\))', text, flags=re.DOTALL)
+    patterns = [
+        r'(```.*?```)',  # Блоки кода
+        r'(`.*?`)',      # Встроенный код
+        r'(\[.*?\]\(.*?\))',  # Ссылки
+        r'(<!--.*?-->)',  # HTML комментарии
+        r'(<[^>]+>)',     # HTML теги
+    ]
+    
+    combined_pattern = '|'.join(patterns)
+    parts = re.split(combined_pattern, text, flags=re.DOTALL)
     
     for i, part in enumerate(parts):
-        if re.match(r'(```.*?```|`.*?`|\[.*?\]\(.*?\))', part, flags=re.DOTALL):
+        if part and re.match(combined_pattern, part, flags=re.DOTALL):
             placeholder = f'__PLACEHOLDER_{i}__'
             placeholders[placeholder] = part
             parts[i] = placeholder
     
     text_to_translate = ''.join(parts)
     
-    # Подготовка промпта для перевода
-    messages = [
-        {
-            "role": "system", 
-            "content": "You are a professional technical translator. Translate Russian to English while preserving all Markdown formatting, code blocks, and links."
-        },
-        {
-            "role": "user", 
-            "content": f"Translate this technical documentation to English:\n\n{text_to_translate}"
-        }
-    ]
+    # Пропускаем перевод, если нечего переводить
+    if not text_to_translate.strip():
+        return text
     
-    inputs = tokenizer.apply_chat_template(
-        messages, 
-        return_tensors="pt"
-    ).to(model.device)
+    try:
+        # Для моделей перевода используем прямое кодирование текста
+        inputs = tokenizer(
+            text_to_translate, 
+            return_tensors="pt", 
+            padding=True, 
+            truncation=True,
+            max_length=max_length
+        ).to(model.device)
+        
+        # Генерация перевода
+        outputs = model.generate(
+            **inputs,
+            max_new_tokens=max_length,
+            num_beams=5,
+            early_stopping=True
+        )
+        
+        translated_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
+        
+        # Восстанавливаем сохраненные элементы
+        for placeholder, original in placeholders.items():
+            translated_text = translated_text.replace(placeholder, original)
+        
+        return translated_text
     
-    outputs = model.generate(
-        inputs, 
-        max_new_tokens=4096,
-        temperature=0.3,
-        do_sample=True
-    )
-    
-    translated_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
-    
-    # Восстанавливаем блоки кода и ссылки
-    for placeholder, original in placeholders.items():
-        translated_text = translated_text.replace(placeholder, original)
-    
-    return translated_text
+    except Exception as e:
+        print(f"Ошибка перевода: {e}")
+        return text  # Возвращаем оригинальный текст в случае ошибки
 
-def process_file(src_path, dest_path, model, tokenizer, glossary):
-    """Обработка одного файла"""
-    print(f"Processing: {src_path} -> {dest_path}")
-    
-    # Создаем целевую директорию, если не существует
-    os.makedirs(os.path.dirname(dest_path), exist_ok=True)
-    
-    if src_path.endswith('.md'):
-        # Обработка Markdown файлов
+def process_markdown_file(src_path, dest_path, model, tokenizer, glossary):
+    """Обработка Markdown файла"""
+    try:
         with open(src_path, 'r', encoding='utf-8') as f:
             content = f.read()
         
@@ -87,47 +102,93 @@ def process_file(src_path, dest_path, model, tokenizer, glossary):
         
         with open(dest_path, 'w', encoding='utf-8') as f:
             f.write(translated_content)
-            
-    elif src_path.endswith('.png') and '.gitbook/assets' in src_path:
-        # Обработка скриншотов
-        # Для простоты просто копируем изображение без перевода
-        # В реальной реализации здесь должен быть код обработки изображений
-        from shutil import copyfile
+        
+        print(f"✓ Переведен: {src_path} -> {dest_path}")
+        return True
+        
+    except Exception as e:
+        print(f"✗ Ошибка обработки файла {src_path}: {e}")
+        return False
+
+def process_image_file(src_path, dest_path):
+    """Обработка изображения (пока просто копирование)"""
+    try:
+        os.makedirs(os.path.dirname(dest_path), exist_ok=True)
         copyfile(src_path, dest_path)
-        print(f"Copied image: {src_path} -> {dest_path}")
+        print(f"✓ Скопировано изображение: {src_path} -> {dest_path}")
+        return True
+        
+    except Exception as e:
+        print(f"✗ Ошибка копирования изображения {src_path}: {e}")
+        return False
+
+def should_process_file(src_path, dest_path):
+    """Проверка, нужно ли обрабатывать файл"""
+    if not os.path.exists(dest_path):
+        return True
+    
+    # Обрабатываем, если исходный файл новее целевого
+    return os.path.getmtime(src_path) > os.path.getmtime(dest_path)
 
 def main(source_dir, target_dir, glossary_path=None):
     """Основная функция"""
+    # Проверяем существование исходной директории
+    if not os.path.exists(source_dir):
+        print(f"✗ Исходная директория не существует: {source_dir}")
+        return False
+    
     glossary = load_glossary(glossary_path)
     
     # Инициализация модели перевода
-    model_name = "Helsinki-NLP/opus-mt-ru-en"  # Легкая модель для демонстрации
-    print(f"Loading model {model_name}...")
+    model_name = "Helsinki-NLP/opus-mt-ru-en"
+    print(f"Загрузка модели {model_name}...")
     
-    tokenizer = AutoTokenizer.from_pretrained(model_name)
-    model = AutoModelForCausalLM.from_pretrained(
-        model_name,
-        dtype=torch.float32  # Исправлено: использование dtype вместо torch_dtype
-    )
+    try:
+        tokenizer = AutoTokenizer.from_pretrained(model_name)
+        model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
+        
+        # Перемещаем модель на GPU, если доступен
+        if torch.cuda.is_available():
+            model = model.to("cuda")
+            print("Модель загружена на GPU")
+        else:
+            print("Модель загружена на CPU")
+            
+    except Exception as e:
+        print(f"✗ Ошибка загрузки модели: {e}")
+        return False
+    
+    processed_count = 0
+    error_count = 0
     
     # Рекурсивный обход исходной директории
     for root, dirs, files in os.walk(source_dir):
         for file in files:
-            if not (file.endswith('.md') or (file.endswith('.png') and '.gitbook/assets' in root)):
-                continue
-                
             src_path = os.path.join(root, file)
             rel_path = os.path.relpath(src_path, source_dir)
             dest_path = os.path.join(target_dir, rel_path)
             
-            # Пропускаем, если целевой файл новее исходного
-            if (os.path.exists(dest_path) and 
-                os.path.getmtime(dest_path) >= os.path.getmtime(src_path)):
+            # Пропускаем скрытые файлы и системные файлы
+            if file.startswith('.') or file in ['Thumbs.db', '.DS_Store']:
                 continue
-                
-            process_file(src_path, dest_path, model, tokenizer, glossary)
+            
+            # Обрабатываем только нужные файлы
+            if file.endswith('.md'):
+                if should_process_file(src_path, dest_path):
+                    if process_markdown_file(src_path, dest_path, model, tokenizer, glossary):
+                        processed_count += 1
+                    else:
+                        error_count += 1
+            
+            elif file.endswith('.png') and '.gitbook/assets' in root:
+                if should_process_file(src_path, dest_path):
+                    if process_image_file(src_path, dest_path):
+                        processed_count += 1
+                    else:
+                        error_count += 1
     
-    print("Translation completed!")
+    print(f"Обработка завершена. Успешно: {processed_count}, Ошибок: {error_count}")
+    return error_count == 0
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Translate documentation from Russian to English')
@@ -136,4 +197,6 @@ if __name__ == "__main__":
     parser.add_argument('--glossary', help='Path to glossary JSON file')
     
     args = parser.parse_args()
-    main(args.source_dir, args.target_dir, args.glossary)
+    
+    success = main(args.source_dir, args.target_dir, args.glossary)
+    exit(0 if success else 1)
