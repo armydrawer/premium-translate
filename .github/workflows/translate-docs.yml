@@ -1,170 +1,44 @@
-name: 📖 Translate Documentation (RU → EN)
+name: Translate Russian Docs to English
 
 on:
   push:
     branches:
-      - main
-      - develop
+      - main  # Или ваша основная ветка
     paths:
-      - 'ru/**/*.md'
-      - 'translations/**'
-  
-  workflow_dispatch:
-    inputs:
-      force_translate:
-        description: 'Force retranslation of all files'
-        required: false
-        default: false
-        type: boolean
-
-permissions:
-  contents: read
-  pull-requests: write
+      - 'ru/**'
 
 jobs:
-  prepare-translations:
-    name: 🔄 Prepare translation files
+  translate:
     runs-on: ubuntu-latest
-    
     steps:
-      - name: 📥 Checkout repository
+      - name: Checkout repository
         uses: actions/checkout@v4
-        
-      - name: 🐍 Set up Python
+        with:
+          fetch-depth: 0 # Нужен для получения информации о предыдущих коммитах
+
+      - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.11'
-          
-      - name: 📦 Install dependencies
-        run: |
-          pip install pyyaml frontmatter markdown
-          
-      - name: 🔍 Extract translatable content from Markdown
-        run: |
-          mkdir -p translations/ru translations/en
-          python scripts/extract-content.py
-          
-      - name: 📤 Upload translation files
-        run: |
-          # Здесь SimpleLocalize GitHub App автоматически подхватит файлы
-          # согласно конфигурации в simplelocalize.yml
-          echo "Translation files prepared for SimpleLocalize"
-          ls -la translations/
-          
-      - name: 💾 Commit extracted content
-        if: github.event.inputs.force_translate == 'true'
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add translations/
-          git diff --staged --quiet || git commit -m "🔄 Extract translatable content from Russian docs"
-          git push
+          python-version: '3.10'
 
-  process-translations:
-    name: 🌐 Process translated content
-    runs-on: ubuntu-latest
-    needs: prepare-translations
-    # Этот job запустится после того, как SimpleLocalize создаст PR с переводами
-    if: github.event_name == 'pull_request' && contains(github.event.pull_request.labels.*.name, 'auto-generated')
-    
-    steps:
-      - name: 📥 Checkout PR
-        uses: actions/checkout@v4
-        with:
-          ref: ${{ github.event.pull_request.head.ref }}
-          
-      - name: 🐍 Set up Python  
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.11'
-          
-      - name: 📦 Install dependencies
+      - name: Install dependencies
         run: |
-          pip install pyyaml frontmatter markdown
-          
-      - name: 🔨 Build English markdown files
-        run: |
-          mkdir -p en
-          python scripts/build-markdown.py
-          
-      - name: 🖼️ Copy and process images
-        run: |
-          # Копируем изображения из ru/ в en/
-          find ru -name "*.png" -o -name "*.jpg" -o -name "*.jpeg" -o -name "*.gif" -o -name "*.svg" | while read img; do
-            en_img=$(echo "$img" | sed 's|^ru/|en/|')
-            mkdir -p "$(dirname "$en_img")"
-            cp "$img" "$en_img"
-            echo "Copied: $img → $en_img"
-          done
-          
-      - name: ✨ Update image references in English docs
-        run: |
-          # Обновляем пути к изображениям в английских файлах
-          find en -name "*.md" -exec sed -i 's|/ru/|/en/|g; s|(ru/|(en/|g' {} \;
-          
-      - name: 📝 Generate translation report
-        run: |
-          python scripts/generate-report.py > translation-report.md
-          
-      - name: 💾 Commit processed files
-        run: |
-          git config --local user.email "action@github.com" 
-          git config --local user.name "GitHub Action"
-          git add en/ translation-report.md
-          git diff --staged --quiet || git commit -m "🌐 Build English documentation from translations
-          
-          - Generated English markdown files from JSON translations
-          - Copied and updated image references  
-          - Created translation report"
-          git push
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4 markdown
 
-  validate-translations:
-    name: ✅ Validate translations
-    runs-on: ubuntu-latest
-    needs: process-translations
-    if: always()
-    
-    steps:
-      - name: 📥 Checkout repository
-        uses: actions/checkout@v4
-        
-      - name: 🔍 Check file structure
+      - name: Find and translate changed files
+        id: translate_script
+        env:
+          DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
         run: |
-          echo "📋 Checking English documentation structure..."
-          
-          # Проверяем, что структура en/ соответствует ru/
-          find ru -name "*.md" | while read ru_file; do
-            en_file=$(echo "$ru_file" | sed 's|^ru/|en/|')
-            if [ ! -f "$en_file" ]; then
-              echo "❌ Missing: $en_file"
-              exit 1
-            else
-              echo "✅ Found: $en_file"
-            fi
-          done
-          
-      - name: 🖼️ Validate images
-        run: |
-          echo "🖼️ Checking image references..."
-          
-          # Проверяем, что все изображения скопированы
-          find ru -name "*.png" -o -name "*.jpg" -o -name "*.jpeg" -o -name "*.gif" -o -name "*.svg" | while read ru_img; do
-            en_img=$(echo "$ru_img" | sed 's|^ru/|en/|')
-            if [ ! -f "$en_img" ]; then
-              echo "❌ Missing image: $en_img"
-              exit 1
-            else
-              echo "✅ Found image: $en_img"
-            fi
-          done
-          
-      - name: 📊 Generate summary
-        if: always()
-        run: |
-          echo "## 📊 Translation Summary" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "- **Russian files**: $(find ru -name "*.md" | wc -l)" >> $GITHUB_STEP_SUMMARY  
-          echo "- **English files**: $(find en -name "*.md" 2>/dev/null | wc -l || echo 0)" >> $GITHUB_STEP_SUMMARY
-          echo "- **Images copied**: $(find en -name "*.png" -o -name "*.jpg" -o -name "*.jpeg" -o -name "*.gif" -o -name "*.svg" 2>/dev/null | wc -l || echo 0)" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "🎯 **Status**: $([ -d "en" ] && echo "✅ Complete" || echo "⏳ In Progress")" >> $GITHUB_STEP_SUMMARY
+          # Скрипт для определения измененных файлов и их перевода
+          python .github/workflows/scripts/translate.py
+
+      - name: Commit translated files
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "docs(en): automatic translation of updated files"
+          file_pattern: "en/**/*.md en/**/*.png" # Какие файлы включать в коммит
+          commit_user_name: "GitHub Actions Bot"
+          commit_user_email: "actions@github.com"
+          commit_author: "GitHub Actions Bot <actions@github.com>"
