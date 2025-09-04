@@ -29,6 +29,7 @@ jobs:
       - name: Install Python dependencies
         run: |
           pip install -r scripts/requirements.txt
+          pip install sentencepiece
 
       - name: Run translation
         env:
