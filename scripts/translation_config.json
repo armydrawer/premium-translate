@@ -1,0 +1,50 @@
+{
+  "limits": {
+    "max_chars_per_chunk": 10000,
+    "max_tokens_per_input": 512,
+    "max_file_size_bytes": 1048576,
+    "max_image_size_bytes": 10485760,
+    "max_text_length_on_image": 5000,
+    "max_display_text_length": 500,
+    "max_translation_chunks": 50,
+    "max_sentences_per_chunk": 20
+  },
+  "translation": {
+    "model_name": "Helsinki-NLP/opus-mt-ru-en",
+    "source_lang": "rus",
+    "target_lang": "eng",
+    "beam_size": 3,
+    "temperature": 0.8,
+    "early_stopping": true,
+    "do_sample": false
+  },
+  "ocr": {
+    "languages": ["rus", "eng"],
+    "config": "--oem 3 --psm 6",
+    "char_whitelist": "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюяABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,!?;:()[]{}\"'-+= ",
+    "min_confidence": 30,
+    "max_text_lines_on_image": 5
+  },
+  "file_processing": {
+    "supported_text_formats": [".md", ".txt", ".rst"],
+    "supported_image_formats": [".png", ".jpg", ".jpeg", ".gif", ".bmp"],
+    "skip_patterns": [
+      ".*\\.git.*",
+      ".*node_modules.*",
+      ".*__pycache__.*",
+      ".*\\.DS_Store",
+      ".*Thumbs.db"
+    ]
+  },
+  "performance": {
+    "batch_size": 1,
+    "max_concurrent_files": 3,
+    "memory_limit_mb": 2048,
+    "timeout_per_file_seconds": 300
+  },
+  "logging": {
+    "level": "INFO",
+    "format": "%(asctime)s - %(levelname)s - %(message)s",
+    "max_log_size_mb": 10
+  }
+}
