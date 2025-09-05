@@ -391,6 +391,9 @@ def main():
     parser.add_argument('--force', action='store_true', help='Force reprocessing of all files')
     parser.add_argument('--no-ai', action='store_true', help='Disable AI translation')
     parser.add_argument('--verbose', '-v', action='store_true', help='Verbose output')
+    parser.add_argument('--max-chars', type=int, default=10000, help='Maximum characters per translation chunk')
+    parser.add_argument('--max-tokens', type=int, default=512, help='Maximum tokens per model input')
+    parser.add_argument('--max-file-size', type=int, default=1024*1024, help='Maximum file size in bytes (1MB default)')
     
     args = parser.parse_args()
     
@@ -409,10 +412,13 @@ def main():
     model, tokenizer = None, None
     if not args.no_ai:
         model, tokenizer = load_translation_model()
+        if model and tokenizer:
+            logger.info(f"Настройки перевода: макс. {args.max_chars} символов, {args.max_tokens} токенов на кусок")
     
     processed_count = 0
     error_count = 0
     skipped_count = 0
+    oversized_count = 0
     
     # Рекурсивный обход исходной директории
     for root, dirs, files in os.walk(args.source_dir):
@@ -425,8 +431,20 @@ def main():
             if file.startswith('.') or file in ['Thumbs.db', '.DS_Store']:
                 continue
             
+            # Проверяем размер файла
+            try:
+                file_size = os.path.getsize(src_path)
+                if file_size > args.max_file_size:
+                    logger.warning(f"Файл {src_path} превышает лимит размера ({file_size} > {args.max_file_size} байт)")
+                    oversized_count += 1
+                    continue
+            except OSError:
+                logger.error(f"Не удалось получить размер файла {src_path}")
+                error_count += 1
+                continue
+            
             # Проверяем, нужно ли обрабатывать файл
-            if not should_process_file(src_path, dest_path, args.force):
+            if not should_process_file(src_path, dest_path, args.force, args.max_file_size):
                 skipped_count += 1
                 continue
             
@@ -452,7 +470,16 @@ def main():
             else:
                 error_count += 1
     
-    logger.info(f"Обработка завершена. Успешно: {processed_count}, Ошибок: {error_count}, Пропущено: {skipped_count}")
+    # Детальная статистика
+    logger.info("="*50)
+    logger.info("ИТОГОВАЯ СТАТИСТИКА:")
+    logger.info(f"✓ Успешно обработано: {processed_count}")
+    logger.info(f"✗ Ошибок: {error_count}")
+    logger.info(f"⏭ Пропущено (не изменились): {skipped_count}")
+    logger.info(f"📏 Пропущено (превышен размер): {oversized_count}")
+    logger.info(f"📊 Лимиты: {args.max_chars} символов, {args.max_tokens} токенов, {args.max_file_size//1024}KB файл")
+    logger.info("="*50)
+    
     return error_count == 0
 
 
