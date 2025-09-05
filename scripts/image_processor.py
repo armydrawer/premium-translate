@@ -138,7 +138,65 @@ class ImageTextProcessor:
         else:
             return self._overlay_translation(original_image, translated_text)
     
-    def _overlay_translation(self, image: Image.Image, translated_text: str) -> Image.Image:
+    def _overlay_translation(self, image: Image.Image, translated_text: str, max_lines: int = 5) -> Image.Image:
+        """Наложение перевода снизу изображения с ограничениями"""
+        if not translated_text.strip():
+            return image
+        
+        try:
+            # Ограничиваем текст для отображения
+            if len(translated_text) > 500:  # Максимум 500 символов для отображения
+                translated_text = translated_text[:497] + "..."
+            
+            # Рассчитываем размеры для текста
+            lines = self._wrap_text(translated_text, image.width - 40)
+            
+            # Ограничиваем количество строк
+            if len(lines) > max_lines:
+                lines = lines[:max_lines-1] + [lines[max_lines-1][:50] + "..."]
+            
+            line_height = 25
+            text_height = len(lines) * line_height + 20
+            
+            # Ограничиваем максимальную высоту добавляемого текста
+            max_text_height = min(text_height, 150)  # Максимум 150 пикселей для текста
+            
+            # Создаем новое изображение с дополнительным местом для текста
+            new_height = image.height + max_text_height
+            new_image = Image.new('RGB', (image.width, new_height), 'white')
+            
+            # Вставляем оригинальное изображение
+            new_image.paste(image, (0, 0))
+            
+            # Рисуем полупрозрачный фон для текста
+            overlay = Image.new('RGBA', (image.width, max_text_height), (255, 255, 255, 240))
+            new_image.paste(overlay, (0, image.height), overlay)
+            
+            # Рисуем текст
+            draw = ImageDraw.Draw(new_image)
+            
+            # Пытаемся загрузить системный шрифт
+            try:
+                if self.font_path:
+                    font = ImageFont.truetype(self.font_path, 14)  # Чуть меньший размер
+                else:
+                    font = ImageFont.load_default()
+            except:
+                font = ImageFont.load_default()
+            
+            # Рисуем каждую строку
+            y_offset = image.height + 10
+            for line in lines:
+                if y_offset + line_height > new_height - 5:  # Проверяем, помещается ли строка
+                    break
+                draw.text((20, y_offset), line, fill='black', font=font)
+                y_offset += line_height
+            
+            return new_image
+            
+        except Exception as e:
+            logger.error(f"Ошибка создания изображения с переводом: {e}")
+            return imagetext: str) -> Image.Image:
         """Наложение перевода снизу изображения"""
         if not translated_text.strip():
             return image
