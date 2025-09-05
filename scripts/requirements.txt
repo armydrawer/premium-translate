@@ -1,9 +1,23 @@
-transformers>=4.30.0
-torch>=2.0.0
-Pillow>=9.5.0
+# Основные зависимости для AI перевода
+torch>=1.13.0,<3.0.0
+transformers>=4.21.0,<5.0.0
+sentencepiece>=0.1.97
+accelerate>=0.20.0
+tokenizers>=0.13.0
+
+# Обработка изображений и OCR
+Pillow>=9.0.0,<11.0.0
+opencv-python>=4.7.0,<5.0.0
 pytesseract>=0.3.10
-opencv-python>=4.7.0
-python-multipart>=0.0.6
-accelerate>=0.21.0
-sentencepiece>=0.2.1
-sacremoses>=0.0.53
+numpy>=1.21.0,<2.0.0
+
+# Дополнительные утилиты
+packaging>=21.0
+tqdm>=4.64.0
+requests>=2.28.0
+
+# Опциональные зависимости для разработки
+pytest>=7.0.0
+pytest-cov>=4.0.0
+black>=22.0.0
+flake8>=5.0.0
