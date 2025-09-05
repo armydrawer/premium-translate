@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
+
 """
 Основной скрипт для перевода документации.
 Обрабатывает .md файлы и .png изображения.
 """
+
 import os
 import argparse
 import json
@@ -65,8 +67,8 @@ def preserve_markdown_elements(text: str) -> Tuple[str, Dict[str, str]]:
     placeholders = {}
     counter = 0
     patterns = [
-        (r'``````', 'CODE_BLOCK'), 
-        (r'`[^`\n]+`', 'INLINE_CODE'), 
+        (r'``````', 'CODE_BLOCK'),
+        (r'`[^`\n]+`', 'INLINE_CODE'),
         (r'\[([^\]]*)\]\(([^)]*)\)', 'LINK'),
         (r'<!--[\s\S]*?-->', 'COMMENT'),
         (r'<[^>]+>', 'HTML_TAG'),
@@ -86,7 +88,7 @@ def preserve_markdown_elements(text: str) -> Tuple[str, Dict[str, str]]:
     return text, placeholders
 
 def restore_preserved_elements(text: str, placeholders: Dict[str, str]) -> str:
-    """Восстановление сохраненных элементов"""
+    """Восстановление сохранённых элементов"""
     for placeholder, original in placeholders.items():
         text = text.replace(placeholder, original)
     return text
@@ -185,7 +187,7 @@ def extract_text_from_image(image_path: str, lang: str = 'rus') -> Tuple[str, Op
         return "", None
 
 def overlay_text_on_image(image: 'Image.Image', translated_text: str) -> Optional['Image.Image']:
-    """Наложение переведенного текста на изображение"""
+    """Наложение переведённого текста на изображение"""
     if not HAS_OCR:
         return image
     try:
@@ -195,7 +197,6 @@ def overlay_text_on_image(image: 'Image.Image', translated_text: str) -> Optiona
         new_height = height + text_height
         new_image = np.ones((new_height, width, 3), dtype=np.uint8) * 255
         new_image[:height, :] = image_cv
-
         words = translated_text.split()
         lines = []
         current_line = ""
@@ -203,7 +204,6 @@ def overlay_text_on_image(image: 'Image.Image', translated_text: str) -> Optiona
         font_scale = 0.6
         thickness = 1
         max_width = width - 20
-
         for word in words:
             test_line = current_line + " " + word if current_line else word
             text_size = cv2.getTextSize(test_line, font, font_scale, thickness)[0]
@@ -217,7 +217,6 @@ def overlay_text_on_image(image: 'Image.Image', translated_text: str) -> Optiona
                     lines.append(word)
         if current_line:
             lines.append(current_line)
-
         line_height = 20
         start_y = height + 25
         for i, line in enumerate(lines[:3]):
