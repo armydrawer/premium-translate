@@ -205,18 +205,25 @@ jobs:
           echo "Force retranslation: ${{ github.event.inputs.force_retranslate }}"
           echo "Translation method: $TRANSLATION_METHOD"
           
-          # Запускаем перевод с обработкой ошибок
+          # Запускаем перевод с ограничениями и обработкой ошибок
           python scripts/translate.py \
             --source_dir ./ru \
             --target_dir ./en \
             --glossary scripts/glossary.json \
             --verbose \
+            --max-chars 10000 \
+            --max-tokens 512 \
+            --max-file-size 1048576 \
             $FORCE_FLAG \
             $AI_FLAG || {
               echo "Translation failed, but continuing with available results"
               exit_code=$?
               echo "::warning::Translation completed with errors (exit code: $exit_code)"
             }
+          
+          # Показываем статистику использования памяти и времени
+          echo "Memory usage after translation:"
+          free -h || echo "Memory info not available"
 
       - name: Check translation results
         run: |
