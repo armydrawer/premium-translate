@@ -1,15 +1,1 @@
-# Баннеры партнеров
-
-{% embed url="https://www.youtube.com/watch?v=8Y6-iyQ-TJQ" %}
-
-Чтобы включить партнерский баннер, зайдите в раздел "**Партнеры" -> "Партнеры"** и найдите необходимого партнера. Поставьте напротив него галочку и выберите опцию "**Одобрить**".
-
-<figure><img src="../../.gitbook/assets/Screenshot_5 (4).png" alt=""><figcaption></figcaption></figure>
-
-После этого партнёрский баннер будет отображаться на сайте в разделе "Партнеры".
-
-<figure><img src="../../.gitbook/assets/image (1084).png" alt=""><figcaption></figcaption></figure>
-
-Если в списке нет нужного партнера, нажмите "**Добавить**", укажите название, ссылку на сайт, логотип и сохраните данные, после чего партнёр появится в общем списке.
-
-<figure><img src="../../.gitbook/assets/Screenshot_7 (3).png" alt=""><figcaption></figcaption></figure>
+To include the partnership banner, go to the "**Partners" section** "Partners"** and find the required partner. Check against it and select an option "**Arrange"**. _ PLACEHOLDER_HTMEL_TAG_TAG_5_PLACEHOLDER_HTMEL_TAG_6_<figcaption>_PLACEHOLDER_HTML_TAG_8___PLACEHOLDER_HTML_9__ If there is no appropriate partner in the list, press "** Add**" to indicate the name, link to website, logo and save data, and the partner will appear on the general list.

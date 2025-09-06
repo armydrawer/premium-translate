@@ -1,11 +1,1 @@
-# Руководство администратора Premium Exchanger
-
-Данная инструкция содержит подробные описания процедур по управлению криптообменником, которые помогут вам эффективно управлять и обслуживать систему. В ней вы найдете информацию о настройке и обновлении программного обеспечения, безопасности и конфиденциальности и прочих настройках
-
-Правильное использование инструкции поможет вам снизить риски ошибок и потерь данных, а также обеспечит безопасность и надежность операций, связанных с обменом криптовалют.
-
-Поэтому, если вы ответственны за управление криптообменником, рекомендуем ознакомиться с инструкцией и применять ее в своей работе. Это необходимый документ, который поможет вам эффективно выполнять свои обязанности и гарантировать качество работы криптообменника.
-
-Выберите интересующий вас раздел в меню слева или воспользуйтесь строкой поиска по всему тексту инструкции справа вверху, если вы не знаете, какой конкретно раздел вам нужен.
-
-<figure><img src=".gitbook/assets/image (2120).png" alt="" width="563"><figcaption></figcaption></figure>
+This introduction contains detailed descriptions of the procedures for the management of the crypt exchanger that will help you manage and maintain the system effectively. It provides information on the setting and updating of software, security and confidentiality and other settings. The correct use of the instruction will help you to reduce the risks of errors and data loss, as well as to ensure the security and reliability of the operations associated with the exchange of cryptation. Therefore, if you are responsible for managing the crypto exchanger, you should consult the instruction and apply it to your work. This is a necessary document that will help you to perform your duties effectively and guarantee the quality of the crypto exchanger &apos; s work. Select the section you are interested in on the left menu or use the search line on the entire text of the instruction on the right upstairs if you do not know which specific section you need. _PLACEHOLDER_HTML_TAG_0___PLACEHOLDER_HTML_TAG_1_PLACEHOLDER_HTML_TAG_2_PLACEHOLDER_TMTER_TAG_TAG_3_</figure>

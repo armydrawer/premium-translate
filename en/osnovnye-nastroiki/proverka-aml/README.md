@@ -1,13 +1,1 @@
-# Проверка AML
-
-AML (Anti-Money Laundering) — это сервис, который позволяет обменнику криптовалют обнаруживать и предотвращать возможные случаи отмывания денег и других преступных действий, связанных с использованием криптовалют.
-
-С помощью AML обменник может проводить проверку клиентов на предмет связи с преступными группировками, терроризмом, финансированием экстремистских организаций и другими нежелательными операциями. Сервис предоставляет возможность проверки транзакций на соответствие установленным правилам и нормам, что позволяет своевременно обнаруживать и предотвращать незаконные действия.
-
-AML обладает высокой точностью определения подозрительных операций благодаря использованию современных технологий и алгоритмов машинного обучения. Сервис также позволяет создавать отчеты и вести аудит операций, что помогает обменнику соблюдать требования регуляторов и снижать риски для своего бизнеса.
-
-Использование AML для обменника криптовалют — это гарантия безопасности для клиентов и бизнеса, а также соблюдения законодательства и требований регуляторов.
-
-## [Настройка AML в версии скрипта 2.7](https://premium.gitbook.io/main/osnovnye-nastroiki/proverka-aml/nastroika-v-v.2.7)
-
-## [Настройка AML в версии скрипта 2.6 и ниже](https://premium.gitbook.io/main/osnovnye-nastroiki/proverka-aml/nastroika-v-v.2.6-i-nizhe)
+.PLACEHOLDER_HEADER_2__ AML (Anti-Money Laundering) is a service that allows the exchanger to identify and prevent possible money-laundering and other criminal activities involving the use of cryptically. With the help of AML, the exchanger can conduct customer checks for links with criminal groups, terrorism, the financing of extremist organizations and other undesirable operations. Service provides the ability to check transactions against established rules and regulations to detect and prevent illegal actions in a timely manner. AML has a high degree of accuracy in the definition of suspicious transactions through the use of modern machine learning technologies and algorithms. Service also allows the creation of reports and the auditing of transactions, which helps the exchanger to comply with regulations of regulators and reduce risks to his business. The use of AML for the exchanger is a security guarantee for customers and businesses, as well as compliance with legislation and regulatory requirements.
