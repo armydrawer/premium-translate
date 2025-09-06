@@ -1,0 +1,6 @@
+---
+hidden: true
+---
+
+# Garantex (скоро)
+
