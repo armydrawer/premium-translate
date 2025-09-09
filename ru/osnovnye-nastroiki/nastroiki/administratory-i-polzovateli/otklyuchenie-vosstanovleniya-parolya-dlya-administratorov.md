@@ -23,7 +23,7 @@ layout:
 
 #### Как отключить восстановление пароля
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="432"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="432"><figcaption></figcaption></figure>
 
 1. Перейдите в раздел управления пользователями (раздел "Пользователи").
 2. Найдите всех пользователей, у которых роль:
