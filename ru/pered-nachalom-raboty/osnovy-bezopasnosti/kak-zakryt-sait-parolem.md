@@ -4,17 +4,17 @@
 
 Зайдите в Shell-клиент в ispmanager под <mark style="color:red;">root-пользователем</mark>.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Выполните команду, в которой укажите имя пользователя (в данном случае, для примера будет пользователь sysadmin):\
 `sh -c "echo -n 'sysadmin:' >> /etc/nginx/.htpasswd"`
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Затем выполните команду, при помощи которой будет зашифрован пароль доступа:\
 `sh -c "openssl passwd -apr1 >> /etc/nginx/.htpasswd"`
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **После этого действия система запросит пароль и подтверждение пароля — укажите их.**&#x20;
 
@@ -24,7 +24,7 @@
 
 Под пользователем root зайдите во вкладку "Sites" и выберите в меню "Configuration files"
 
-<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 В файле конфигурации найдите блок location, который расположен в блоке server ssl (в конце файла), вставьте следующие строки:
 
