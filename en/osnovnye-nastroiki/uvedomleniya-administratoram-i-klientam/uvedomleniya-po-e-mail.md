@@ -1,1 +1,102 @@
-*** PLACEHOLDER_HEADER_56__website may send letters using a standard phpmailer function that is integrated into CMS WordPress.{% hint style="warning" %} Free accounts on mail.ru and yandex.ru may not work correctly or at all send letters to recipients. For reliable mail, it is recommended to use paid mail accounts on services such as . . . . . . . . . . . . This should be an existing box within your domain. For example, support@your domain.ru. Otherwise, letters may not be sent or placed in spam. You can create such a mailbox in your server's control panel. * ** The sender's name** is the name of the site on which the letter is sent. If you do not complete this field, letters may not be sent or placed in the spam box. * **E-mail of the administrator** — Mailbox on behalf of the administrator of _ PLACEHOLDER_HEADER_58__ __ PLACEHOLDER_TEMPLATE_47__ It is highly recommended that SMTP be used for sending letters, since without its use the recipient will know your server's IP address, which could lead to DoS/DDOS attacks on his part if the recipient is an intruder.{% endhint %} One such service may be Yandex. Mail or other mail service that provides SMTP. Set the SMTEP for the module: . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . * **SMTP Host** is the address of the server's SMTP. Each mail service has this unique address. For Yandex. Mail address is _PLACEHOLDER_INLINE_CODE_0__, for Mail.ru - _PLACEHOLDER_INLINE_CODE_1__. * **SMTP port** - SMTP server port. Each mail service has its own port. For Yandex. Mail and Mail.ru use port 465. * **SMTP username** is the address of a registered electronic box, e.g. , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,        , , , , , , , , , , , ,     , , , , , , , , , , , , , , , , , , , , ,             , , ,   , , , , ,    , , On the page, you will find a form for sending a test letter to check the correct response of the mailbox settings. ♪ It's gonna be a letter to ♪ ♪ A letter to ♪ ♪ a letter to ♪ ♪ a letter to ♪ ♪ a letter to ♪ ♪ to ♪ ♪ to ♪ ♪ to ♪ ♪ to ♪ ♪ to ♪ ♪ to ♪ ♪ to ♪ ♪ to ♪ ♪ to ♪ ♪ to ♪ ♪ to ♪ ♪ to ♪ ♪ to ♪ ♪ to ♪ ♪ to ♪ ♪ to ♪ ♪ to ♪ ♪ to ♪ ♪ to ♪ ♪ to ♪ ♪ to ♪ ♪ to ♪ ♪ to ♪ ♪ to ♪ ♪ to ♪ ♪ to ♪ ♪ to ♪ ♪ to ♪ to ♪ to ♪ to ♪ ♪ to ♪ ♪ ♪ to ♪ ♪ to ♪ ♪ ♪ to ♪ ♪ to ♪ to ♪ ♪ ♪ to ♪ ♪ to ♪ to ♪ to ♪ to ♪ to ♪ to ♪ to ♪ to ♪ ♪ to ♪ to ♪ ♪ to ♪ to ♪ to ♪ to ♪ to ♪ to ♪ to ♪ to ♪ to ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ to ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ to ♪ to ♪ to ♪ to ♪ to ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ * **E-mail from the sender** is the mailbox on whose behalf the mail is being sent. * **The name of the sender** is the name of the website on whose behalf the mail is being sent. **E-mail from the administrator** is the mail address of the administrator to which he wishes to receive the letter. Several addresses can be indicated in a comma. * **text letters** are the text itself. Over the text field you will find a panel with \[sortcodes]. Use them in the letter template to display data from the applications in the mail. If you suspect an incorrect job, go to the section "**E-mail log**" and see what may be the cause of incorrect work. If you have a problem with the delivery of messages and there is no clear reason to do so, it is recommended that the following measures be taken: * Contact your hosting provider and clarify whether it is blocking the dispatch of letters. There may be restrictions on the server (e.g., HOLDER_Link_14__) that prevent the delivery of e-mail. * Change the subject of the letter sent for "New Application" status to a less formal one. Perhaps when sending the letter, the filter on the SMTP server that blocks delivery will be activated. Try using a less formal topic to avoid filtering. If the letters come only to some of the website's users or enter the Spam folder, check the availability of [SPF и/или DKIM записей](https://neuropassenger.ru/dostavlyaemost-pisem/) for your domain and deconfiscate them if necessary.
+# Уведомления по e-mail
+
+Сайт может отправлять письма с помощью стандартной функции phpmailer, которая встроена в CMS WordPress.
+
+{% hint style="warning" %}
+Бесплатные аккаунты на mail.ru и yandex.ru могут работать некорректно или вовсе не отправлять письма получателям.
+
+Для надежной отправки писем рекомендуем использовать платные почтовые аккаунты на сервисах, таких как [360.yandex.ru](https://360.yandex.ru/), [biz.mail.ru](https://biz.mail.ru/), [Postmark](https://postmarkapp.com/) или [Zeptomail](https://www.zoho.com/zeptomail/)
+{% endhint %}
+
+{% hint style="danger" %}
+Обратите внимание, что шаблоны для **администраторов** и **пользователей** в выпадающем списке являются отдельными сущностями и настраиваются независимо друг от друга (пункты в выпадающем списке)
+
+![](<../../.gitbook/assets/image (785).png>)![](<../../.gitbook/assets/image (786).png>)
+{% endhint %}
+
+## Основные настройки
+
+В панели управления сайтом зайдите в раздел "**Сообщения"  → "E-mail шаблоны"** и настройте модуль:
+
+<figure><img src="../../.gitbook/assets/image (1226).png" alt="" width="489"><figcaption></figcaption></figure>
+
+* **E-mail отправителя** — почтовый ящик, от имени которого идет отправка письма. Это должен быть существующий ящик в рамках вашего домена. Например, support@ваш\_домен.ru. В противном случае письма могут не отправляться, либо попадать в спам. Создать такой почтовый ящик вы можете в панели управления вашего сервера.
+* **Имя отправителя** — название сайта, от имени которого идет отправка письма. Если не заполнить данное поле, письма могут не отправляться или попадать в спам в ящике пользователей.
+* **E-mail администратора** — почтовый ящик, от имени которого идет отправка письма от имени администратора
+
+## Настройка SMTP
+
+{% hint style="warning" %}
+Крайне рекомендуем использовать SMTP для отправки писем, т.к. без его использования получателю будет известен IP-адрес вашего сервера, что может привести к DoS/DDoS-атакам с его стороны, если получателем окажется злоумышленник.
+{% endhint %}
+
+Настройте отправку писем через SMTP внешнего почтового сервиса. Одним из таких сервисов может выступать Яндекс.Почта или другой почтовый сервис, который предоставляет услугу SMTP.
+
+Настройте SMTP для работы модуля:
+
+<figure><img src="../../.gitbook/assets/image (1183).png" alt="" width="490"><figcaption></figcaption></figure>
+
+{% hint style="warning" %}
+Не указывайте настройки SMTP вашего сервера — используйте именно SMTP почтовых сервисов типа Яндекс, Mail.ru или Google
+{% endhint %}
+
+В разделе "**Сообщения" → "E-mail шаблоны"** вы найдете следующие настройки:
+
+* **Включить SMTP:**\
+  • "**Да**" — активация SMTP (вся почта с сайта будет отправляться с использованием SMTP).\
+  • "**Нет**" — SMTP будет отключен
+* **Тип соединения SMTP** — обычно используется тип соединения "**SSL**".
+* **SMTP хост** — адрес SMTP сервера. У каждого почтового сервиса этот адрес уникальный. Для Яндекс.Почты адрес - `smtp.yandex.ru`, для Mail.ru - `smtp.mail.ru`.
+* **SMTP порт** — порт SMTP сервера. У каждого почтового сервиса этот порт свой. Для Яндекс.Почты и Mail.ru используйте порт 465.
+* **SMTP имя пользователя** — адрес зарегистрированного электронного ящика, например, `premiumexchanger@yandex.ru`
+* **SMTP пароль** — специальный пароль от электронного ящика
+
+{% hint style="warning" %}
+Для использования опции "**SMTP пароль**", необходимо создать пароль для внешних приложений, если вы используете популярные почтовые сервисы:
+
+* [инструкция для Mail.ru](https://help.mail.ru/mail/security/protection/external)
+* [инструкция для Яндекс.Почты](https://yandex.ru/support/id/authorization/app-passwords.html)
+* [инструкция для Zoho](https://www.zoho.com/mail/help/adminconsole/two-factor-authentication.html#alink5)
+{% endhint %}
+
+После ввода настроек нажмите кнопку "**Сохранить**". На странице вы найдете форму для отправки тестового письма, чтобы проверить корректность работы настроек отправки почты.
+
+<figure><img src="../../.gitbook/assets/image (1098).png" alt="" width="499"><figcaption></figcaption></figure>
+
+## Настройка шаблонов писем
+
+{% embed url="https://youtu.be/g_YcR3FqPi0" %}
+
+{% hint style="warning" %}
+Еще раз обращаем ваше внимание, что шаблоны для **администраторов** и **пользователей** в выпадающем списке являются отдельными сущностями и настраиваются независимо друг от друга (пункты в выпадающем списке)\
+![](<../../.gitbook/assets/image (785).png>)![](<../../.gitbook/assets/image (786).png>)
+{% endhint %}
+
+После того, как вы настроили отправку писем, настройте необходимые шаблоны для различных статусов заявок и других опций для отправления сообщений от имени сайта администраторам и пользователям:
+
+<figure><img src="../../.gitbook/assets/image (1095).png" alt=""><figcaption></figcaption></figure>
+
+* **Отправлять письмо:**\
+  • "**Да**" — письмо будет отправляться\
+  • "**Нет**" — письмо не будет отправляться
+* **Тема письма** — укажите тему письма.
+* **E-mail отправителя** — почтовый ящик, от имени которого идет отправка письма.
+* **Имя отправителя** — название сайта, от имени которого идет отправка письма.
+* **E-mail администратора** — почтовый адрес администратора, на который он хочет получить данное письмо. Через запятую можно указать несколько адресов.
+* **Текст письма** — сам текст письма. Над полем для ввода текста вы найдете панель с \[шорткодами]. Используйте их в шаблоне письма, чтобы в отправляемых письмах отображались данные из заявок.
+
+## Диагностика неисправностей
+
+При подозрениях на некорректную работу опции, зайдите в раздел "**E-mail логи**" и посмотрите, что может являться причиной некорректной работы.
+
+<figure><img src="../../.gitbook/assets/image (941).png" alt=""><figcaption></figcaption></figure>
+
+Если у вас возникают проблемы с доставкой сообщений и нет явных причин для этого, рекомендуется принять следующие меры:
+
+* Свяжитесь с вашим хостинг-провайдером и уточните, не блокирует ли он отправку писем. Возможно, существуют ограничения на сервере (к примеру, [релей](https://korporativnaya-pochta.com/articles/smart-relay-zaschita-ot-spama-dlya-korporativnoy-pochty)), которые мешают доставке электронной почты.
+* Измените тему отправляемого письма для статуса "Новая заявка" на менее формальную. Возможно, при отправке письма активируется фильтр на SMTP-сервере, который блокирует доставку. Попробуйте использовать менее официальную тему, чтобы избежать фильтрации.
+
+Если письма приходят только некоторым пользователям сайта или попадают в папку "Спам" - проверьте наличие [SPF и/или DKIM записей](https://neuropassenger.ru/dostavlyaemost-pisem/) для вашего домена и сконфигурируйте их при необходимости.
+
+* [Проверка SPF записи](https://mxtoolbox.com/spf.aspx)
+* [Проверка DKIM-записи](https://mxtoolbox.com/dkim.aspx)
