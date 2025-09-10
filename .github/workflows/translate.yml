@@ -4,200 +4,105 @@ on:
   push:
     paths:
       - 'ru/**'
-      - 'scripts/**'
-    branches:
-      - main
-      - master
+    branches: [main, master]
   pull_request:
     paths:
       - 'ru/**'
-      - 'scripts/**'
   workflow_dispatch:
     inputs:
-      force_retranslate:
-        description: 'Force retranslation of all files'
-        required: false
-        default: 'false'
+      force:
+        description: 'Force retranslation'
         type: boolean
-      translation_method:
+        default: false
+      method:
         description: 'Translation method'
-        required: false
-        default: 'ai'
         type: choice
-        options:
-        - 'ai'
-        - 'simple'
+        options: ['ai', 'simple']
+        default: 'ai'
       max_files:
-        description: 'Maximum files to process (1-20)'
-        required: false
-        default: '20'
+        description: 'Max files (1-20)'
         type: string
+        default: '10'
 
 env:
   PYTHON_VERSION: '3.11'
-  CACHE_VERSION: 'v2'
-  MAX_FILES_PER_RUN: 20
 
 jobs:
-  detect-changes:
-    runs-on: ubuntu-latest
-    outputs:
-      has_changes: ${{ steps.changes.outputs.ru }}
-      file_count: ${{ steps.count.outputs.count }}
-      should_process: ${{ steps.count.outputs.should_process }}
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Detect changes
-        uses: dorny/paths-filter@v2
-        id: changes
-        with:
-          filters: |
-            ru:
-              - 'ru/**'
-            scripts:
-              - 'scripts/**'
-
-      - name: Count files to process
-        id: count
-        run: |
-          max_files="${{ github.event.inputs.max_files || env.MAX_FILES_PER_RUN }}"
-          
-          # Валидация max_files
-          if ! [[ "$max_files" =~ ^[0-9]+$ ]] || [ "$max_files" -lt 1 ] || [ "$max_files" -gt 20 ]; then
-            echo "Invalid max_files value: $max_files. Using default: 20"
-            max_files=20
-          fi
-          
-          if [[ "${{ github.event.inputs.force_retranslate }}" == "true" ]]; then
-            echo "Force retranslation enabled"
-            total_files=$(find ru -name "*.md" -o -name "*.png" -o -name "*.jpg" -o -name "*.jpeg" | wc -l)
-            echo "Found $total_files files in ru/ directory"
-            
-            if [ "$total_files" -gt "$max_files" ]; then
-              echo "Limiting to first $max_files files due to batch limit"
-              echo "count=$max_files" >> $GITHUB_OUTPUT
-              echo "should_process=true" >> $GITHUB_OUTPUT
-              echo "::warning::Processing only $max_files out of $total_files files. Run workflow again to process remaining files."
-            else
-              echo "count=$total_files" >> $GITHUB_OUTPUT
-              echo "should_process=true" >> $GITHUB_OUTPUT
-            fi
-          else
-            # Получаем измененные файлы
-            changed_files=$(git diff --name-only HEAD~1 HEAD | grep -E '^ru/.*\.(md|png|jpg|jpeg)$' | wc -l)
-            echo "Found $changed_files changed files"
-            
-            if [ "$changed_files" -eq 0 ]; then
-              echo "count=0" >> $GITHUB_OUTPUT
-              echo "should_process=false" >> $GITHUB_OUTPUT
-            elif [ "$changed_files" -gt "$max_files" ]; then
-              echo "Limiting to first $max_files changed files"
-              echo "count=$max_files" >> $GITHUB_OUTPUT  
-              echo "should_process=true" >> $GITHUB_OUTPUT
-              echo "::warning::Processing only $max_files out of $changed_files changed files."
-            else
-              echo "count=$changed_files" >> $GITHUB_OUTPUT
-              echo "should_process=true" >> $GITHUB_OUTPUT
-            fi
-          fi
-
   translate:
     runs-on: ubuntu-latest
-    needs: detect-changes
-    if: needs.detect-changes.outputs.should_process == 'true'
-    timeout-minutes: 30
+    timeout-minutes: 20
     
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
 
-      - name: Set up Python
+      - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: ${{ env.PYTHON_VERSION }}
           cache: 'pip'
 
-      - name: Cache system dependencies
-        uses: actions/cache@v3
-        id: cache-deps
-        with:
-          path: |
-            /usr/share/tesseract-ocr
-            /var/cache/apt
-          key: system-deps-${{ env.CACHE_VERSION }}-${{ runner.os }}
-
-      - name: Install system dependencies
-        if: steps.cache-deps.outputs.cache-hit != 'true'
+      - name: Install dependencies
         run: |
-          sudo apt-get update
-          sudo apt-get install -y \
-            tesseract-ocr \
-            tesseract-ocr-rus \
-            tesseract-ocr-eng \
-            libtesseract-dev \
-            libopencv-dev \
-            python3-opencv
-
-      - name: Cache Python dependencies
-        uses: actions/cache@v3
-        with:
-          path: ~/.cache/pip
-          key: pip-${{ env.CACHE_VERSION }}-${{ hashFiles('scripts/requirements.txt') }}
-          restore-keys: |
-            pip-${{ env.CACHE_VERSION }}-
-
-      - name: Create requirements.txt if not exists
-        run: |
-          if [ ! -f scripts/requirements.txt ]; then
-            mkdir -p scripts
-            cat > scripts/requirements.txt << EOF
-          torch>=1.13.0,<3.0.0
-          transformers>=4.21.0,<5.0.0
-          sentencepiece>=0.1.97
-          accelerate>=0.20.0
-          tokenizers>=0.13.0
-          Pillow>=9.0.0,<11.0.0
-          opencv-python>=4.7.0,<5.0.0
-          pytesseract>=0.3.10
-          numpy>=1.21.0,<2.0.0
-          psutil>=5.9.0
-          packaging>=21.0
-          tqdm>=4.64.0
-          EOF
-          fi
-
-      - name: Install Python dependencies
-        run: |
-          pip install --upgrade pip wheel setuptools
+          pip install --upgrade pip wheel
           pip install -r scripts/requirements.txt
 
-      - name: Cache Hugging Face models
+      - name: Cache HuggingFace models
         uses: actions/cache@v3
         with:
           path: ~/.cache/huggingface
-          key: hf-models-${{ env.CACHE_VERSION }}-${{ hashFiles('scripts/translate.py') }}
-          restore-keys: |
-            hf-models-${{ env.CACHE_VERSION }}-
+          key: hf-models-${{ hashFiles('scripts/translate.py') }}
+          restore-keys: hf-models-
 
-      - name: Validate scripts
+      - name: Validate max_files input
         run: |
-          python -m py_compile scripts/translate.py
-          if [ -f scripts/image_processor.py ]; then
-            python -m py_compile scripts/image_processor.py
+          max_files="${{ github.event.inputs.max_files || '10' }}"
+          if ! [[ "$max_files" =~ ^[0-9]+$ ]] || [ "$max_files" -lt 1 ] || [ "$max_files" -gt 20 ]; then
+            echo "Invalid max_files: $max_files, using default: 10"
+            echo "MAX_FILES=10" >> $GITHUB_ENV
+          else
+            echo "MAX_FILES=$max_files" >> $GITHUB_ENV
           fi
 
-      - name: Create configuration files
+      - name: Check for changes
+        id: changes
         run: |
-          # Создаем glossary.json если не существует
+          if [[ "${{ github.event.inputs.force }}" == "true" ]]; then
+            echo "Force mode enabled"
+            echo "should_run=true" >> $GITHUB_OUTPUT
+          else
+            changed_files=$(git diff --name-only HEAD~1 HEAD | grep -E '^ru/.*\.(md|png|jpg|jpeg)$' | wc -l)
+            if [ "$changed_files" -gt 0 ]; then
+              echo "Found $changed_files changed files"
+              echo "should_run=true" >> $GITHUB_OUTPUT
+            else
+              echo "No relevant changes found"
+              echo "should_run=false" >> $GITHUB_OUTPUT
+            fi
+          fi
+
+      - name: Run translation
+        if: steps.changes.outputs.should_run == 'true'
+        env:
+          TRANSLATION_METHOD: ${{ github.event.inputs.method || 'ai' }}
+        run: |
+          # Создаем необходимые файлы если их нет
+          mkdir -p scripts
+          
+          if [ ! -f scripts/translation_config.json ]; then
+            cat > scripts/translation_config.json << 'EOF'
+          {
+            "max_files_per_run": 20,
+            "max_tokens": 512,
+            "max_file_size": 1048576,
+            "timeout_seconds": 300
+          }
+          EOF
+          fi
+          
           if [ ! -f scripts/glossary.json ]; then
-            mkdir -p scripts
             cat > scripts/glossary.json << 'EOF'
           {
             "API": "API",
@@ -207,197 +112,78 @@ jobs:
             "контейнер": "container",
             "развертывание": "deployment",
             "мониторинг": "monitoring",
-            "логирование": "logging",
-            "балансировщик нагрузки": "load balancer",
-            "база данных": "database"
+            "документация": "documentation",
+            "конфигурация": "configuration"
           }
           EOF
           fi
           
-          # Создаем translation_config.json если не существует
-          if [ ! -f scripts/translation_config.json ]; then
-            cat > scripts/translation_config.json << 'EOF'
-          {
-            "limits": {
-              "max_files_per_run": 20,
-              "max_chars_per_chunk": 10000,
-              "max_tokens_per_input": 512,
-              "max_file_size_bytes": 1048576,
-              "timeout_per_file_seconds": 300
-            }
-          }
-          EOF
-          fi
-
-      - name: Check system resources
-        run: |
-          echo "System resources before translation:"
-          free -h
-          df -h
-          echo "Available CPU cores: $(nproc)"
-
-      - name: Run translation
-        env:
-          HF_TOKEN: ${{ secrets.HF_TOKEN }}
-          TRANSLATION_METHOD: ${{ github.event.inputs.translation_method || 'ai' }}
-          MAX_FILES: ${{ needs.detect-changes.outputs.file_count }}
-        run: |
-          set -e
-          
-          echo "Starting translation process..."
-          echo "Files to process: $MAX_FILES"
-          echo "Force retranslation: ${{ github.event.inputs.force_retranslate }}"
-          echo "Translation method: $TRANSLATION_METHOD"
-          
-          # Определяем параметры запуска
+          # Определяем флаги
           FORCE_FLAG=""
-          if [[ "${{ github.event.inputs.force_retranslate }}" == "true" ]]; then
+          AI_FLAG=""
+          
+          if [[ "${{ github.event.inputs.force }}" == "true" ]]; then
             FORCE_FLAG="--force"
           fi
           
-          AI_FLAG=""
           if [[ "$TRANSLATION_METHOD" == "simple" ]]; then
             AI_FLAG="--no-ai"
           fi
           
-          # Запускаем перевод с ограничениями
-          timeout 25m python scripts/translate.py \
+          # Запускаем перевод
+          timeout 15m python scripts/translate.py \
             --source_dir ./ru \
             --target_dir ./en \
             --glossary scripts/glossary.json \
             --config scripts/translation_config.json \
-            --verbose \
             --max-files "$MAX_FILES" \
+            --verbose \
             $FORCE_FLAG \
-            $AI_FLAG || {
-              exit_code=$?
-              echo "Translation completed with exit code: $exit_code"
-              if [ $exit_code -eq 124 ]; then
-                echo "::error::Translation timed out after 25 minutes"
-                exit 1
-              elif [ $exit_code -ne 0 ]; then
-                echo "::warning::Translation completed with errors (exit code: $exit_code)"
-              fi
-            }
+            $AI_FLAG
 
-      - name: Check translation results
+      - name: Check results
+        if: steps.changes.outputs.should_run == 'true'
         run: |
-          echo "Translation results:"
           if [ -d ./en ]; then
-            echo "Files created:"
-            find ./en -name "*.md" -o -name "*.png" -o -name "*.jpg" | head -20
+            echo "Translation completed successfully"
             total_files=$(find ./en -type f | wc -l)
-            echo "Total files created: $total_files"
+            md_files=$(find ./en -name "*.md" | wc -l)
+            echo "Created $total_files files ($md_files markdown)"
           else
-            echo "No translation output directory found"
+            echo "No output directory found"
           fi
-          
-          echo "System resources after translation:"
-          free -h
 
-      - name: Setup Git configuration
+      - name: Setup Git
+        if: steps.changes.outputs.should_run == 'true'
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Check for changes
-        id: check-changes
+      - name: Commit changes
+        if: steps.changes.outputs.should_run == 'true'
         run: |
           git add en/
+          
           if git diff --staged --quiet; then
-            echo "has_changes=false" >> $GITHUB_OUTPUT
             echo "No changes to commit"
           else
-            echo "has_changes=true" >> $GITHUB_OUTPUT
-            echo "Changes detected:"
-            git diff --staged --name-only | head -10
             changed_files=$(git diff --staged --name-only | wc -l)
-            echo "Total changed files: $changed_files"
-          fi
-
-      - name: Commit and push changes
-        if: steps.check-changes.outputs.has_changes == 'true'
-        run: |
-          changed_files=$(git diff --staged --name-only | wc -l)
-          commit_msg="docs: auto-translate $changed_files files"
-          
-          if [[ "${{ github.event.inputs.force_retranslate }}" == "true" ]]; then
-            commit_msg="$commit_msg (forced retranslation)"
-          fi
-          
-          if [[ "${{ github.event.inputs.translation_method }}" == "simple" ]]; then
-            commit_msg="$commit_msg [simple mode]"
-          fi
-          
-          commit_msg="$commit_msg [skip ci]"
-          
-          git commit -m "$commit_msg"
-          git push
-
-      - name: Create summary
-        if: always()
-        run: |
-          echo "## Translation Summary" >> $GITHUB_STEP_SUMMARY
-          echo "- **Source directory**: ru/" >> $GITHUB_STEP_SUMMARY
-          echo "- **Target directory**: en/" >> $GITHUB_STEP_SUMMARY
-          echo "- **Translation method**: ${{ github.event.inputs.translation_method || 'ai' }}" >> $GITHUB_STEP_SUMMARY
-          echo "- **Force retranslation**: ${{ github.event.inputs.force_retranslate || 'false' }}" >> $GITHUB_STEP_SUMMARY
-          echo "- **Max files per run**: ${{ env.MAX_FILES_PER_RUN }}" >> $GITHUB_STEP_SUMMARY
-          echo "- **Files processed**: ${{ needs.detect-changes.outputs.file_count }}" >> $GITHUB_STEP_SUMMARY
-          
-          if [ -d ./en ]; then
-            total_files=$(find ./en -type f | wc -l)
-            md_files=$(find ./en -name "*.md" | wc -l)
-            img_files=$(find ./en -name "*.png" -o -name "*.jpg" -o -name "*.jpeg" | wc -l)
             
-            echo "- **Total files in output**: $total_files" >> $GITHUB_STEP_SUMMARY
-            echo "- **Markdown files**: $md_files" >> $GITHUB_STEP_SUMMARY
-            echo "- **Image files**: $img_files" >> $GITHUB_STEP_SUMMARY
-          fi
-          
-          if [[ "${{ steps.check-changes.outputs.has_changes }}" == "true" ]]; then
-            echo "- **Status**: ✅ Changes committed and pushed" >> $GITHUB_STEP_SUMMARY
-          else
-            echo "- **Status**: ℹ️ No changes detected" >> $GITHUB_STEP_SUMMARY
-          fi
-
-  quality-check:
-    runs-on: ubuntu-latest
-    needs: [translate, detect-changes]
-    if: always() && needs.translate.result == 'success'
-    
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Check translation quality
-        run: |
-          echo "## Quality Check Results" >> $GITHUB_STEP_SUMMARY
-          
-          if [ -d ./en ]; then
-            ru_md_count=$(find ./ru -name "*.md" | wc -l)
-            en_md_count=$(find ./en -name "*.md" | wc -l)
-            
-            echo "- **Russian MD files**: $ru_md_count" >> $GITHUB_STEP_SUMMARY
-            echo "- **English MD files**: $en_md_count" >> $GITHUB_STEP_SUMMARY
-            
-            # Проверяем пустые файлы
-            empty_files=$(find ./en -name "*.md" -empty | wc -l)
-            if [ $empty_files -eq 0 ]; then
-              echo "- **Empty files**: ✅ None" >> $GITHUB_STEP_SUMMARY
-            else
-              echo "- **Empty files**: ⚠️ Found $empty_files empty files" >> $GITHUB_STEP_SUMMARY
+            commit_msg="docs: auto-translate $changed_files files"
+            if [[ "${{ github.event.inputs.force }}" == "true" ]]; then
+              commit_msg="$commit_msg (forced)"
             fi
-            
-            # Проверяем очень маленькие файлы (возможно, ошибки перевода)
-            small_files=$(find ./en -name "*.md" -size -10c | wc -l)
-            if [ $small_files -eq 0 ]; then
-              echo "- **Suspiciously small files**: ✅ None" >> $GITHUB_STEP_SUMMARY
-            else
-              echo "- **Suspiciously small files**: ⚠️ Found $small_files files < 10 bytes" >> $GITHUB_STEP_SUMMARY
+            if [[ "$TRANSLATION_METHOD" == "simple" ]]; then
+              commit_msg="$commit_msg [simple]"
             fi
+            commit_msg="$commit_msg [skip ci]"
             
-            echo "- **Batch limit**: ${{ env.MAX_FILES_PER_RUN }} files per run" >> $GITHUB_STEP_SUMMARY
-          else
-            echo "- **Status**: ❌ Translation directory not found" >> $GITHUB_STEP_SUMMARY
+            git commit -m "$commit_msg"
+            git push
+            
+            echo "## Translation Summary" >> $GITHUB_STEP_SUMMARY
+            echo "- **Files processed**: $changed_files" >> $GITHUB_STEP_SUMMARY
+            echo "- **Method**: $TRANSLATION_METHOD" >> $GITHUB_STEP_SUMMARY
+            echo "- **Max files**: $MAX_FILES" >> $GITHUB_STEP_SUMMARY
+            echo "- **Status**: ✅ Changes committed" >> $GITHUB_STEP_SUMMARY
           fi
