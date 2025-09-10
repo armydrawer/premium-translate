@@ -1,7 +1,5 @@
 {
   "max_files_per_run": 20,
   "max_tokens": 512,
-  "max_file_size": 1048576,
-  "timeout_seconds": 300,
-  "model_name": "Helsinki-NLP/opus-mt-ru-en"
+  "max_file_size": 1048576
 }
