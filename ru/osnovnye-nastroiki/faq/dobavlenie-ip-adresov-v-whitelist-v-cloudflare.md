@@ -1,4 +1,4 @@
-# Добавление IP-адресов в Whitelist в Cloudflare
+# Добавление IP-адресов в whitelist в Cloudflare
 
 1. Зайдите в личный кабинет [Cloudflare](https://dash.cloudflare.com/).
 2. В разделе "**Account Home**" кликните по названию домена, для которого хотите создать белый список (whitelist) IP-адресов.
