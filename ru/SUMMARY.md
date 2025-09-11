@@ -248,6 +248,7 @@
 * [FAQ](osnovnye-nastroiki/faq/README.md)
   * [Диагностика и решение ошибок при работе со скриптом](osnovnye-nastroiki/faq/diagnostika-i-reshenie-oshibok-pri-rabote-so-skriptom.md)
   * [Добавление IP-адресов в Whitelist в Cloudflare](osnovnye-nastroiki/faq/dobavlenie-ip-adresov-v-whitelist-v-cloudflare.md)
+  * [Добавление IP-адресов в whitelist в Cloudflare](osnovnye-nastroiki/faq/dobavlenie-ip-adresov-v-whitelist-v-cloudflare-1.md)
   * [Замена имени домена для лицензии](osnovnye-nastroiki/faq/zamena-imeni-domena-dlya-licenzii.md)
   * [Как восстановить доступ в панель управления обменником?](osnovnye-nastroiki/faq/kak-vosstanovit-dostup-v-panel-upravleniya-obmennikom.md)
   * [Как изменить адрес панели управления обменником?](osnovnye-nastroiki/faq/kak-izmenit-adres-paneli-upravleniya-obmennikom.md)
