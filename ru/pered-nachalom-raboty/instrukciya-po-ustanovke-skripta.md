@@ -139,6 +139,10 @@
 
 Используйте логин и пароль, которые были указаны при установке.
 
+{% hint style="success" %}
+Для использования двухфакторной аутентификации (2FA) при авторизации в админ-панели [настройте отправку кодов по удобному вам каналу связи](https://premium.gitbook.io/main/osnovnye-nastroiki/nastroiki/administratory-i-polzovateli/dvukhfaktornaya-avtorizaciya-2fa-v-paneli-upravleniya-saitom) (на e-mail, в Телеграм, через SMS или [через приложение для работы с 2FA](https://premium.gitbook.io/main/osnovnye-nastroiki/nastroiki/administratory-i-polzovateli/dvukhfaktornaya-avtorizaciya-2fa-v-paneli-upravleniya-saitom#id-2fa-s-ispolzovaniem-prilozheniya)).
+{% endhint %}
+
 ## Установка дополнительных модулей <a href="#chapter3" id="chapter3"></a>
 
 {% hint style="info" %}

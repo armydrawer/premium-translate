@@ -7,25 +7,25 @@ description: >-
 
 # Двухфакторная аутентификация (2FA) в панели управления сайтом
 
-## 2FA через E-mail или Telegram
+## 2FA через e-mail
 
-Настройте оповещения по E-mail согласно [инструкции](https://premium.gitbook.io/rukovodstvo-polzovatelya/navigaciya/uvedomleniya/opovesheniya-po-e-mail).
+Настройте отправку писем из скрипта по E-mail согласно [инструкции](https://premium.gitbook.io/main/osnovnye-nastroiki/uvedomleniya-administratoram-i-klientam/uvedomleniya-po-e-mail#nastroika-smtp).
 
-Далее в панели управления сайтом в разделе "**Сообщения" → "E-mail шаблоны" →** для шаблонов "**Авторизация по пин-коду**" и “**Уведомить о входе пользователя в ЛК**” разрешите отправку сообщений.
+В панели управления сайтом в разделе "**Сообщения" → "E-mail шаблоны" →** для шаблонов "**Авторизация по пин-коду**" и “**Уведомить о входе пользователя в ЛК**” активируйте отправку сообщений и добавьте соответствующие шорткоды из панели над полем для ввода текста.
 
-<figure><img src="../../.gitbook/assets/image (1063).png" alt=""><figcaption><p>Шаблон "<strong>Авторизация по пин-коду</strong>" </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt="" width="563"><figcaption><p>Шаблон "<strong>Авторизация по пин-коду</strong>" </p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1163).png" alt=""><figcaption><p>Шаблон “<strong>Уведомить о входе пользователя в ЛК</strong>”</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="563"><figcaption><p>Шаблон “<strong>Уведомить о входе пользователя в ЛК</strong>”</p></figcaption></figure>
 
-Затем в панели управления сайтом в разделе "**Пользователи" (выбрать пользователя) →** установите "**Да**" для параметров "**Уведомление при авторизации (E-mail)**" и "**Авторизация по пин-коду (E-mail)**".&#x20;
+В разделе "**Пользователи" (выбрать пользователя) →** установите "**Да**" для параметров "**Уведомление при авторизации (E-mail)**" и "**Авторизация по пин-коду (E-mail)**".&#x20;
 
 <figure><img src="../../.gitbook/assets/изображение (57).png" alt=""><figcaption></figcaption></figure>
 
-Данные настройки необходимо включить для всех пользователей, у которых есть доступ в панель управления. Каждый раз, при авторизации в панели управления, администратор/оператор будет получать на свой e-mail pin-код для входа в панель управления.
+Данные настройки необходимо включить для всех пользователей, у которых есть доступ в панель управления. Каждый раз при авторизации в панели управления администратор/оператор будет получать на свой e-mail pin-код для входа в панель управления.
 
 Если вы хотите использовать Telegram для получения сообщений при авторизации, настройте аналогичные опции в разделе "**Сообщения**" ➔ "**Telegram шаблоны**"
 
-Отправку pin-кода можно также настроить через [SMS](https://premium.gitbook.io/rukovodstvo-polzovatelya/navigaciya/uvedomleniya/opovesheniya-po-sms) или [Telegram](https://premium.gitbook.io/main/osnovnye-nastroiki/uvedomleniya-administratoram-i-klientam/uvedomleniya-v-telegram). В этом случае в разделе "**Сообщения**" требуется настройка SMS или Telegram шаблонов, а в профиле пользователя подключение соответствующих параметров.
+Отправку pin-кодов можно также настроить через [SMS](https://premium.gitbook.io/rukovodstvo-polzovatelya/navigaciya/uvedomleniya/opovesheniya-po-sms) или [Telegram](https://premium.gitbook.io/main/osnovnye-nastroiki/uvedomleniya-administratoram-i-klientam/uvedomleniya-v-telegram). В этом случае в разделе "**Сообщения**" требуется настройка SMS или Telegram шаблонов, а в профиле пользователя подключение соответствующих параметров.
 
 ## 2FA с использованием приложения
 
@@ -39,8 +39,8 @@ description: >-
 
 Если вы получили ошибку, а при повторном входе (с указанием кода) авторизовались — опция настроена корректно.
 
-<div><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Вход в админ-панель</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption><p>Вход в личный кабинет на сайте обменника</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Вход в админ-панель</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption><p>Вход в личный кабинет на сайте обменника</p></figcaption></figure></div>
 
 При необходимости вы можете отключить 2FA для любого пользователя в настройках его профиля (раздел "**Пользователи**").
 
-<div><figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Выключение 2FA в админ-панели</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption><p>Выключение 2FA в личном кабинете</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Выключение 2FA в админ-панели</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption><p>Выключение 2FA в личном кабинете</p></figcaption></figure></div>
