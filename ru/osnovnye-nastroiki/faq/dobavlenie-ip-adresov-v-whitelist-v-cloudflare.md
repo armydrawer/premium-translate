@@ -3,11 +3,11 @@
 1. Зайдите в личный кабинет [Cloudflare](https://dash.cloudflare.com/).
 2. В разделе "**Account Home**" кликните по названию домена, для которого хотите создать белый список (whitelist) IP-адресов.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 3. Перейдите в раздел "**Security"** ➔ **"Security rules"** ➔ кнопка **"Create rule"** ➔ "**IP access rules**".
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 4. Укажите конкретный IP-адрес/диапазон адресов/страну, к которой относятся IP-адреса или [ASN (**autonomous system number**)](https://blog.browserscan.net/ru/docs/what-is-an-asn) (когда речь идет о конкретной организации) и выберите действие, которое будет применяться к объекту - блокировать/разрешать доступ или создавать капчу, которая будет отображаться при доступе с IP-адреса из диапазона. Далее выберите ваш сайт в поле "**Zone**" и сохраните правило по кнопке "**Create**".
 

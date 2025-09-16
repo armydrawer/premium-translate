@@ -13,9 +13,9 @@ description: >-
 
 В панели управления сайтом в разделе "**Сообщения" → "E-mail шаблоны" →** для шаблонов "**Авторизация по пин-коду**" и “**Уведомить о входе пользователя в ЛК**” активируйте отправку сообщений и добавьте соответствующие шорткоды из панели над полем для ввода текста.
 
-<figure><img src="../../.gitbook/assets/image.png" alt="" width="563"><figcaption><p>Шаблон "<strong>Авторизация по пин-коду</strong>" </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="563"><figcaption><p>Шаблон "<strong>Авторизация по пин-коду</strong>" </p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="563"><figcaption><p>Шаблон “<strong>Уведомить о входе пользователя в ЛК</strong>”</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="563"><figcaption><p>Шаблон “<strong>Уведомить о входе пользователя в ЛК</strong>”</p></figcaption></figure>
 
 В разделе "**Пользователи" (выбрать пользователя) →** установите "**Да**" для параметров "**Уведомление при авторизации (E-mail)**" и "**Авторизация по пин-коду (E-mail)**".&#x20;
 
@@ -39,8 +39,8 @@ description: >-
 
 Если вы получили ошибку, а при повторном входе (с указанием кода) авторизовались — опция настроена корректно.
 
-<div><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Вход в админ-панель</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption><p>Вход в личный кабинет на сайте обменника</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Вход в админ-панель</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption><p>Вход в личный кабинет на сайте обменника</p></figcaption></figure></div>
 
 При необходимости вы можете отключить 2FA для любого пользователя в настройках его профиля (раздел "**Пользователи**").
 
-<div><figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Выключение 2FA в админ-панели</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption><p>Выключение 2FA в личном кабинете</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Выключение 2FA в админ-панели</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption><p>Выключение 2FA в личном кабинете</p></figcaption></figure></div>
