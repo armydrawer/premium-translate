@@ -18,4 +18,4 @@ jobs:
         with:
           apikey: ${{ secrets.OPENAI_API_KEY }}
           provider: 'openai'
-          model: 'llama-3-sonar-large-32k-chat'
+          model: 'llama3-8b-8192'
