@@ -18,4 +18,4 @@ jobs:
         with:
           apikey: ${{ secrets.OPENAI_API_KEY }}
           provider: 'openai'
-          model: 'gpt-4o'
+          model: 'o4-mini'
