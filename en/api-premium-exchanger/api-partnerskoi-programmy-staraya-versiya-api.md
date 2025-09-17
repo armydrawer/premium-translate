@@ -8,7 +8,7 @@ The Affiliate Program API only works when the "**API**" and "**Affiliate Program
 
 <figure><img src="../.gitbook/assets/изображение (173).png" alt=""><figcaption></figcaption></figure>
 
-Once the module is activated, go to the "**Users**" section, select a user ("**Edit**") for whom API access will be enabled, and activate the following parameters:
+After activating the module, go to the "**Users**" section -> select a user ("**Edit**") for whom API access will be enabled, and activate the following parameters:
 
 <figure><img src="../.gitbook/assets/изображение (151).png" alt=""><figcaption></figcaption></figure>
 
@@ -20,7 +20,7 @@ Next, navigate to the "**Affiliate Program**" -> "**Settings**" section and enab
 
 ## How to Check if the Module is Active and Where to Find the Key?
 
-If the module is active, you will see a "Rest API Key" field in the information block on the affiliate dashboard page (usually located at `https://your_domain/paccount/`). This field displays your personal API key (**api_key**).
+If the module is active, the **Rest API Key** field will appear in the information block on the affiliate dashboard page (usually located at `https://your_domain/paccount/`). This field displays your personal key (**api_key**).
 
 <figure><img src="../.gitbook/assets/image (982).png" alt=""><figcaption></figcaption></figure>
 
@@ -30,13 +30,13 @@ If needed, you can generate a new key by clicking the "**Change REST API Key**" 
 
 ---
 
-## Data Transmitted via GET Parameters:
+## Data Passed via GET Parameters:
 
 - **api_action** – `pp` (this action is used by the `ppapi` module)  
-- **api_key** – the issued API key  
+- **api_key** – the issued key  
 - **method** – the API module method  
 
-You can also obtain the API link by clicking the "Rest API Key" link in the affiliate dashboard. The link will already include your key and look like this:
+You can also get the API link by clicking the **Rest API Key** link in the affiliate dashboard. The link will already include your key and look like this:
 
 **`https://siteurl/api.html?api_action=pp&api_key={api_key}&method={method}`**
 
@@ -70,7 +70,7 @@ Provides information about affiliate link clicks.
 
 ```
 start_time - Unix timestamp from which to display data (optional filter)
-end_time - Unix timestamp up to which to display data (optional filter)
+end_time - Unix timestamp until which to display data (optional filter)
 ip - IP address (optional filter)
 ```
 
@@ -98,7 +98,7 @@ Provides information about affiliate exchanges.
 
 ```
 start_time - Unix timestamp from which to display requests (optional filter)
-end_time - Unix timestamp up to which to display requests (optional filter)
+end_time - Unix timestamp until which to display requests (optional filter)
 ```
 
 **Response:**
@@ -108,8 +108,8 @@ items — available items
 id — exchange ID
 time — Unix timestamp
 date — date and time
-currency_code_give — currency code of the given amount
-currency_code_get — currency code of the received amount
+currency_code_give — currency code for the given amount
+currency_code_get — currency code for the received amount
 course_give — exchange rate for the given amount
 course_get — exchange rate for the received amount
 amount_give — amount given
@@ -118,20 +118,20 @@ exchange_success — exchange status (0 - not completed, 1 - completed)
 accrued — affiliate reward status (0 - not accrued, 1 - accrued)
 partner_reward — affiliate reward amount
 user_hash — unique hash of the site visitor
-statuses — status change history of the request (if the status logging module is enabled). Displays statuses such as: new request, marked as paid, paid, completed.
+statuses — status change history of the exchange request (if the status logging module is enabled). Displays statuses such as: new request, marked as paid, paid, completed.
 ```
 
 ---
 
 ### <mark style="color:blue;">get_payouts</mark>
 
-Lists user requests for fund withdrawals.
+Provides a list of user requests for fund withdrawals.
 
 **Request Parameters:**
 
 ```
 start_time - Unix timestamp from which to display data (optional filter)
-end_time - Unix timestamp up to which to display data (optional filter)
+end_time - Unix timestamp until which to display data (optional filter)
 ```
 
 **Response:**
