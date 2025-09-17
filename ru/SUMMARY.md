@@ -2,7 +2,6 @@
 
 * [Руководство администратора Premium Exchanger](README.md)
   * [Changelog](mainpage/changelog.md)
-  * [test3](readme/test.md)
 
 ## Перед началом работы
 
