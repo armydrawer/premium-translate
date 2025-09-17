@@ -15,12 +15,12 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v6
         with:
           python-version: '3.10'
 
@@ -33,9 +33,8 @@ jobs:
         env:
           PYTHONIOENCODING: utf-8
           # Azure AI Service Credentials
-          AZURE_SUBSCRIPTION_KEY: ${{ secrets.AZURE_SUBSCRIPTION_KEY }}
-          AZURE_AI_SERVICE_ENDPOINT: ${{ secrets.AZURE_AI_SERVICE_ENDPOINT }}
           AZURE_AI_SERVICE_API_KEY: ${{ secrets.AZURE_AI_SERVICE_API_KEY }}
+          AZURE_AI_SERVICE_ENDPOINT: ${{ secrets.AZURE_AI_SERVICE_ENDPOINT }}
 
           # Azure OpenAI Credentials
           AZURE_OPENAI_API_KEY: ${{ secrets.AZURE_OPENAI_API_KEY }}
@@ -55,7 +54,7 @@ jobs:
           # =====================================================================
           # Example: Translate to Spanish, French, German. Add -y to auto-confirm.
           translate -l "all" -y  # <--- MODIFY THIS LINE with your desired languages
-          # Recommendation for large batches over 29 files run them in batches maximum github runner time is 6 hours
+          # Recommendations for large file change spit the translation into batches
           # translate -l "en fr" -y
 
       - name: Authenticate GitHub App
@@ -66,7 +65,7 @@ jobs:
           private_key: ${{ secrets.GH_APP_PRIVATE_KEY }}
 
       - name: Create Pull Request with translations
-        uses: peter-evans/create-pull-request@v5
+        uses: peter-evans/create-pull-request@v7
         with:
           token: ${{ steps.generate_token.outputs.token }}
           commit-message: "🌐 Update translations via Co-op Translator"
@@ -89,7 +88,3 @@ jobs:
           add-paths: |
             translations/
             translated_images/
-
-
-
-
