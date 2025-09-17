@@ -29,95 +29,67 @@ jobs:
           python -m pip install --upgrade pip
           pip install co-op-translator
 
-      - name: Create source directory and limit files
-        run: |
-          # Создаем временную директорию для перевода
-          mkdir -p temp-translate-source
-          
-          # Находим все файлы .md (исключая уже переведенные) и ограничиваем до 100
-          find . -name "*.md" \
-            -not -path "./premium-translate/*" \
-            -not -path "./translations/*" \
-            -not -path "./temp-translate-source/*" \
-            -not -path "./.git/*" \
-            | head -100 \
-            | while read file; do
-              # Создаем структуру директорий в temp-translate-source
-              target_dir="temp-translate-source/$(dirname "$file" | sed 's|^\./||')"
-              mkdir -p "$target_dir"
-              # Копируем файл
-              cp "$file" "$target_dir/"
-            done
-          
-          echo "Количество файлов для перевода:"
-          find temp-translate-source -name "*.md" | wc -l
-
       - name: Run Co-op Translator
         env:
           PYTHONIOENCODING: utf-8
-          # === AI Service Credentials ===
+          # Azure AI Service Credentials
           AZURE_SUBSCRIPTION_KEY: ${{ secrets.AZURE_SUBSCRIPTION_KEY }}
           AZURE_AI_SERVICE_ENDPOINT: ${{ secrets.AZURE_AI_SERVICE_ENDPOINT }}
+          AZURE_AI_SERVICE_API_KEY: ${{ secrets.AZURE_AI_SERVICE_API_KEY }}
+
+          # Azure OpenAI Credentials
           AZURE_OPENAI_API_KEY: ${{ secrets.AZURE_OPENAI_API_KEY }}
           AZURE_OPENAI_ENDPOINT: ${{ secrets.AZURE_OPENAI_ENDPOINT }}
           AZURE_OPENAI_MODEL_NAME: ${{ secrets.AZURE_OPENAI_MODEL_NAME }}
           AZURE_OPENAI_CHAT_DEPLOYMENT_NAME: ${{ secrets.AZURE_OPENAI_CHAT_DEPLOYMENT_NAME }}
           AZURE_OPENAI_API_VERSION: ${{ secrets.AZURE_OPENAI_API_VERSION }}
+
+          # OpenAI Credentials
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_ORG_ID: ${{ secrets.OPENAI_ORG_ID }}
           OPENAI_CHAT_MODEL_ID: ${{ secrets.OPENAI_CHAT_MODEL_ID }}
           OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
         run: |
-          # Переводим только с русского на английский, используя временную директорию как источник
-          translate -l "en" -r temp-translate-source -y
+          # =====================================================================
+          # IMPORTANT: Set your target languages here (REQUIRED CONFIGURATION)
+          # =====================================================================
+          # Example: Translate to Spanish, French, German. Add -y to auto-confirm.
+          translate -l "all" -y  # <--- MODIFY THIS LINE with your desired languages
+          # Recommendation for large batches over 29 files run them in batches maximum github runner time is 6 hours
+          # translate -l "en fr" -y
 
-      - name: Move translations to target directory
-        run: |
-          # Создаем целевую директорию если её нет
-          mkdir -p premium-translate/en
-          
-          # Перемещаем переведенные файлы из translations/en в premium-translate/en
-          if [ -d "temp-translate-source/translations/en" ]; then
-            cp -r temp-translate-source/translations/en/* premium-translate/en/
-          fi
-          
-          # Также проверяем, если переводы создались в корневой директории translations
-          if [ -d "translations/en" ]; then
-            cp -r translations/en/* premium-translate/en/
-          fi
-          
-          # Удаляем временные директории
-          rm -rf temp-translate-source translations translated_images
-          
-          echo "Переводы перемещены в premium-translate/en"
-          echo "Количество переведенных файлов:"
-          find premium-translate/en -name "*.md" | wc -l
+      - name: Authenticate GitHub App
+        id: generate_token
+        uses: tibdex/github-app-token@v1
+        with:
+          app_id: ${{ secrets.GH_APP_ID }}
+          private_key: ${{ secrets.GH_APP_PRIVATE_KEY }}
 
       - name: Create Pull Request with translations
         uses: peter-evans/create-pull-request@v5
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "🌐 Update Russian to English translations (100 files limit)"
-          title: "🌐 Russian to English translations via Co-op Translator"
+          token: ${{ steps.generate_token.outputs.token }}
+          commit-message: "🌐 Update translations via Co-op Translator"
+          title: "🌐 Update translations via Co-op Translator"
           body: |
-            This PR adds English translations for Russian content (limited to 100 files per run).
+            This PR updates translations for recent changes merged into the `main` branch.
 
-            ### 📋 Changes included
-            - Translated Russian markdown files to English
-            - Translations are available in the `premium-translate/en/` directory
-            - Maximum 100 files processed in this batch
+            ### 📋 Summary of Changes
+            - Translated markdown content has been added under the `translations/` directory
+            - Translated images (if applicable) have been generated in the `translated_images/` directory
 
-            ### 📊 Translation Details
-            - Source language: Russian (ru)
-            - Target language: English (en)
-            - Files limit: 100 per run
-            - Target directory: premium-translate/en/
+            🔁 Co-op Translator ensures that changes in links, structure, or inline elements in the original content are automatically reflected in all translated files.
 
             ---
-            🌐 Automatically generated by the [Co-op Translator](https://github.com/Azure/co-op-translator) GitHub Action.
-          branch: russian-to-english-translations
+            🌐 This pull request was automatically generated by [Co-op Translator](https://github.com/Azure/co-op-translator), powered by Azure AI.
+
+          branch: update-translations
           base: main
-          labels: translation, automated-pr, russian-to-english
           delete-branch: true
           add-paths: |
-            premium-translate/
+            translations/
+            translated_images/
+
+
+
+
