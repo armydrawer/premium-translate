@@ -1,15 +1,15 @@
-# Notifications on the Website
+# Website Notifications
 
-The website allows you to display three types of notifications, which can be configured in the "**Notifications**" section:
+The website can display three types of notifications, which can be configured in the "**Notifications**" section:
 
-## Display Options on the Website
+## Display Options
 
 {% tabs %}
-{% tab title="Website Header" %}
+{% tab title="Header Notification" %}
 <figure><img src="../../.gitbook/assets/изображение (109).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
-{% tab title="Popup Window" %}
+{% tab title="Popup Notification" %}
 <figure><img src="../../.gitbook/assets/изображение (83).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
@@ -28,47 +28,47 @@ All created notifications are displayed in the "Notifications" section.
 
 **Notification Type** — choose the intervals for displaying the notification.
 
-| By Time Period                                                                                   | By Schedule                                      |
-| ------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
+| By Time Period                                                                                 | By Schedule                                      |
+| ---------------------------------------------------------------------------------------------- | ------------------------------------------------ |
 | <p></p><p><img src="../../.gitbook/assets/изображение (187).png" alt="" data-size="original"></p> | ![](<../../.gitbook/assets/изображение (64).png>) |
 
-**Operator Status** — the status under which the notification will be displayed:  
-• **Any status**  
-• **Offline**  
-• **Online**
+**Operator Status** — the status under which the notification will be displayed\
+• **Any Status**\
+• **offline**\
+• **online**
 
-**Link** — a link that will be displayed below the notification text.
+**Link** — the link that will be displayed in the notification below the text.
 
-**Duration (days)** — the period for which the notification will be active.
+**Duration (days)** - the period for which the notification will be active.
 
 **Text** — the text displayed in the notification.
 
-**Status:**  
-• **Published** — the notification is active and will be displayed during the selected time interval.  
-• **Under Moderation** — the notification is inactive.
+**Status:**\
+• **Published** — the notification is active and will be displayed during the selected time interval.\
+• **Under Review** — the notification is inactive.
 
 ## Additional Options for Notifications
 
-### **Website Header**
+### **Header Notification**
 
-**CSS Class** — specify any class (without the dot) that has a defined `background` parameter in the `style.css` file of your theme. The background color of the selected class will be applied to the notification.
+**CSS Class** — specify any class (without a dot) that has a filled `background` parameter in the `style.css` file of your theme — the background color of the selected class will be applied to the notification.
 
 ![](<../../.gitbook/assets/image (2099).png>)![](<../../.gitbook/assets/image (2100).png>)
 
 {% hint style="info" %}
-Alternatively, you can specify the desired [RGB code](https://colorscheme.ru/) for the background in the `wp-content/themes/your_theme_name/style.css` file for an **existing** class `.wclosearea` (find the class using Ctrl+F). Then, [clear the cache in the Cloudflare dashboard](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-sbrosit-kesh-v-cloudflare) (no server restart is required) to see the changes immediately.
+An alternative option is to specify the desired [RGB code](https://colorscheme.ru/) for the background in the `wp-content/themes/your_theme_name/style.css` file for the **existing** class `.wclosearea` (find the class using Ctrl+F) and [clear the cache in Cloudflare](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-sbrosit-kesh-v-cloudflare) (no server restart is required) to see the changes immediately.
 
-In this case, the "**CSS Class**" field in the admin panel does not need to be filled out.
+In this case, you do not need to fill in the "**CSS Class**" field in the admin panel.
 
 <img src="../../.gitbook/assets/image (1631).png" alt="" data-size="original">
 {% endhint %}
 
-### **Popup Window, Notification Window**
+### **Popup Notification, Notification Window**
 
-**Button Text** — the text for the button that hides the notification.
+**Button Text** — the text for the button to hide the notification.
 
-## Notification Sorting
+## Sorting Notifications
 
-Notifications can be sorted by priority for display on the website.
+Notifications can be sorted by their display priority on the website.
 
 <figure><img src="../../.gitbook/assets/изображение (130).png" alt=""><figcaption></figcaption></figure>
