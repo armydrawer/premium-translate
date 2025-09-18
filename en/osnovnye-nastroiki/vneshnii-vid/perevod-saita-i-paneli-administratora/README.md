@@ -1,1 +1,1 @@
-Translation of the website and admin panel
+# Translation of the website and admin panel

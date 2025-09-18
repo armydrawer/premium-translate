@@ -8,16 +8,16 @@ You can add news to your website in the "**Posts**" section of the admin panel.
 
 <figure><img src="../../.gitbook/assets/image (73).png" alt=""><figcaption></figcaption></figure>
 
-The news will be displayed on a dedicated page on your website.
+The news will be displayed on a separate page on the website.
 
 <figure><img src="../../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
 
 ## Comments on News
 
-You can enable visitors to leave comments on your news posts. To do this, configure the options in the "**Settings**" ➔ "**Discussion**" section as desired.
+You can enable the option for your website visitors to comment on news articles. To do this, adjust the settings in the "**Settings**" ➔ "**Discussion**" section according to your preferences.
 
 <figure><img src="../../.gitbook/assets/image (71).png" alt=""><figcaption></figcaption></figure>
 
-Enable the "**Comment Form for Posts**" option in the "**Settings**" ➔ "**General Settings**" section. Once this is done, a comment field will appear for news posts on your website.
+Enable the "**Posts Comment Form**" option in the "**Settings**" ➔ "**General Settings**" section. After that, the comment field will appear for news articles on the website.
 
 <figure><img src="../../.gitbook/assets/image (2133).png" alt="" width="518"><figcaption></figcaption></figure>

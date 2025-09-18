@@ -1,20 +1,20 @@
 # Client Dashboard
 
-You can selectively remove or replace items in the user dashboard menu if the default "out-of-the-box" structure does not suit your needs.
+You can selectively remove or replace items in the user menu if the default structure doesn't suit your needs.
 
 <details>
 
-<summary>You can replace links to default pages with your own custom pages created after installing the script.</summary>
+<summary>You can replace links to basic pages with your own pages created after installing the script</summary>
 
-Using a technical page to link to a custom page (the link name is taken from the title of the page being edited):
+Using a technical page for a suitable page (the link name is taken from the title of the edited page)
 
 <img src="../../.gitbook/assets/image (571).png" alt="" data-size="original">
 
-Using a technical page for your custom page:
+Using a technical page for your page
 
 ![](<../../.gitbook/assets/image (1598).png>)
 
-When a technical page is not used:
+Technical page not in use
 
 ![](<../../.gitbook/assets/image (574).png>)
 
@@ -26,7 +26,7 @@ The display of the user's verification status and current discount can be config
 
 <figure><img src="../../.gitbook/assets/image (1602).png" alt="" width="563"><figcaption></figcaption></figure>
 
-The visibility of the link to the internal account depends on the status of the "**Internal Account**" module in the "**Modules**" section.
+The display of the link to the internal account depends on the status of the "**Internal Account**" module in the "**Modules**" section.
 
 <figure><img src="../../.gitbook/assets/image (1604).png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -34,10 +34,10 @@ The display of links to TXT/XML/JSON files can be configured in the "**Exchange 
 
 <figure><img src="../../.gitbook/assets/image (559).png" alt="" width="456"><figcaption></figcaption></figure>
 
-The visibility of affiliate program items can be configured in the "**Affiliate Program**" -> "**Settings**" section.
+The display of affiliate program items can be configured in the "**Affiliate Program**" -> "**Settings**" section.
 
 <figure><img src="../../.gitbook/assets/image (1601).png" alt="" width="563"><figcaption></figcaption></figure>
 
-The visibility of the API link can be configured in the "**API**" -> "**Settings**" section.
+The display of the API link can be configured in the "**API**" -> "**Settings**" section.
 
 <figure><img src="../../.gitbook/assets/image (1603).png" alt="" width="457"><figcaption></figcaption></figure>
