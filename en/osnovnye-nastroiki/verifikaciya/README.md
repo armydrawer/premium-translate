@@ -1,0 +1,1 @@
+The translation of "Верификация" into naturalistic English is "Verification."
