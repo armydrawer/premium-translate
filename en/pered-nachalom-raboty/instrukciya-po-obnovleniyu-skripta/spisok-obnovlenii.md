@@ -2,191 +2,165 @@
 
 ## Version 2.7
 
-*   **Uploading Receipts by Clients in Applications** (module "**Payment Receipts**" (**paychecks**))  
+* **Client Upload of Receipts in Requests (Module "Payment Receipts")**
 
-    <figure><img src="../../.gitbook/assets/image (1957).png" alt="" width="563"><figcaption></figcaption></figure>
+    This module allows clients to upload receipts or other data through images in their created requests.
 
-    This module allows clients to upload receipts or other data as images within an application.
+    ![Settings for the specified block in the request (section "Modules" -> "Payment Receipts")](../../.gitbook/assets/image%20(1988).png)
 
-    <figure><img src="../../.gitbook/assets/image (1988).png" alt="" width="474"><figcaption><p>Text settings for the specified block in the application (section "<strong>Modules</strong>" -> "<strong>Payment Receipts</strong>")</p></figcaption></figure>
+    ![Module settings (tab "Payment Receipts" in exchange direction settings)](../../.gitbook/assets/image%20(1956).png)
 
-    <figure><img src="../../.gitbook/assets/image (1956).png" alt="" width="327"><figcaption><p>Module settings (the "Payment Receipts" tab in the exchange direction settings)</p></figcaption></figure>
+    ![In the request, click the "Choose file" button](../../.gitbook/assets/image%20(1954).png)
 
-    <figure><img src="../../.gitbook/assets/image (1954).png" alt="" width="563"><figcaption><p>In the application, click the "<strong>Choose file</strong>" button</p></figcaption></figure>
+    ![Select the desired file and upload it](../../.gitbook/assets/image%20(1952).png)
 
-    <figure><img src="../../.gitbook/assets/image (1952).png" alt="" width="563"><figcaption><p>Select the desired file and upload it</p></figcaption></figure>
+    ![After the client uploads the image, it will be displayed in the request under the "Requests" section](../../.gitbook/assets/image%20(1955).png)
 
-    <figure><img src="../../.gitbook/assets/image (1955).png" alt="" width="563"><figcaption><p>Once the client uploads the image, it will be displayed in the application under the "<strong>Applications</strong>" section</p></figcaption></figure>
+* **Grouping Exchange Directions for Quick Filtering (Module "Direction Groups")**
 
-*   **Grouping Exchange Directions for Quick Filtering** (module "**Direction Groups**" (**direction_groups**))  
+    ![Add the desired number of groups in the "Direction Groups" section](../../.gitbook/assets/image%20(1959).png)
 
-    <figure><img src="../../.gitbook/assets/image (1958).png" alt="" width="563"><figcaption></figcaption></figure>
+    ![In the direction settings, assign the necessary group on the "Main Settings" tab](../../.gitbook/assets/image%20(1960).png)
 
-    <figure><img src="../../.gitbook/assets/image (1959).png" alt="" width="464"><figcaption><p>Add the required number of groups in the "<strong>Direction Groups</strong>" section</p></figcaption></figure>
+    ![In the table of all directions, select the desired group and, for example, make all directions from this group inactive.](../../.gitbook/assets/image%20(1961).png)
 
-    <figure><img src="../../.gitbook/assets/image (1960).png" alt="" width="563"><figcaption><p>Assign a group to a direction in the "<strong>General Settings</strong>" tab of the direction settings</p></figcaption></figure>
+* **Setting Individual Profit Percentage for Each City for Cash Exchange Directions**
 
-    <div data-full-width="true"><figure><img src="../../.gitbook/assets/image (1961).png" alt=""><figcaption><p>In the table of all directions, select the desired group and, for example, deactivate all directions within that group.</p></figcaption></figure></div>
+    ![Tab "Cities" in the exchange direction settings](../../.gitbook/assets/image%20(1962).png)
 
-*   **Setting Individual Profit Percentages for Each City** for cash exchange directions, similar to the [general profit percentage for exchange directions](https://premium.gitbook.io/main/osnovnye-nastroiki/partnerskaya-programma/pribyl-i-partnerskii-procent#nastroika-pribyli-dlya-napravleniya-obmena).  
+* **Ability to Set "Completed Request" Status via API (Method `success_bid`)**
 
-    <figure><img src="../../.gitbook/assets/image (1962).png" alt="" width="563"><figcaption><p>The "<strong>Cities</strong>" tab in the exchange direction settings</p></figcaption></figure>
+    This method applies only to requests created directly via the API.
 
-*   **Ability to Set the "Completed Application" Status via API** (method `success_bid`). Like other API methods for changing application statuses, this method applies only to applications created via the API.  
+    ![To identify the request, you need to pass its hash (displayed in the response for the method `create_bid` when creating a request via API)](../../.gitbook/assets/image%20(1963).png)
 
-    <figure><img src="../../.gitbook/assets/image (1963).png" alt=""><figcaption><p>To identify the application, its hash must be passed (displayed in the response of the <code>create_bid</code> method when creating an application via API)</p></figcaption></figure>
+    ![Changing request statuses via API](../../.gitbook/assets/image%20(1964).png)
 
-    <figure><img src="../../.gitbook/assets/image (1964).png" alt=""><figcaption><p>Changing application statuses via API</p></figcaption></figure>
+* **Mass Information Editor — Added Filter by Direction Group**
 
-*   **Bulk Information Editor** — added a filter by direction group  
+    ![Filter by direction group](../../.gitbook/assets/image%20(1965).png)
 
-    <figure><img src="../../.gitbook/assets/image (1965).png" alt="" width="445"><figcaption><p>Filter by direction group</p></figcaption></figure>
+    Additionally, you can specify commissions and exchange amounts in one window for selected directions.
 
-    Additionally, you can specify fees and exchange amounts in a single window for selected directions.  
+    ![Selecting an entity for editing](../../.gitbook/assets/image%20(1966).png)
 
-    <figure><img src="../../.gitbook/assets/image (1966).png" alt="" width="445"><figcaption><p>Selecting an entity for editing</p></figcaption></figure>
+    ![Editing payment system commissions](../../.gitbook/assets/image%20(1967).png) 
+    ![Editing exchange amounts](../../.gitbook/assets/image%20(1970).png)
 
-    <div><figure><img src="../../.gitbook/assets/image (1967).png" alt="" width="563"><figcaption><p>Editing payment system fees</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (1970).png" alt="" width="563"><figcaption><p>Editing exchange amounts</p></figcaption></figure></div>
+* **Option to Completely Disable Merchant Logs and Auto-Payments**
 
-*   **Option to Completely Disable Merchant Logs and Auto-Payouts**  
+    ![The option is located in the settings of each merchant and auto-payment module](../../.gitbook/assets/image%20(283).png)
 
-    <figure><img src="../../.gitbook/assets/image (283).png" alt=""><figcaption><p>This option is located in the settings of each merchant and auto-payout module</p></figcaption></figure>
+* **Prohibition on Creating Requests with the Same Amount for Exchange Direction**
 
-*   **Restriction on Creating Applications with the Same Amount for an Exchange Direction**  
+    ![Tab "Restrictions and Checks" in the exchange direction settings](../../.gitbook/assets/image%20(285).png)
 
-    <figure><img src="../../.gitbook/assets/image (285).png" alt="" width="422"><figcaption><p>The "<strong>Restrictions and Checks</strong>" tab in the exchange direction settings</p></figcaption></figure>
+    ![When creating a second request with an unpaid first request for the same amount, the client will receive an error](../../.gitbook/assets/image%20(286).png)
 
-    <figure><img src="../../.gitbook/assets/image (286).png" alt="" width="532"><figcaption><p>If a second application is created while the first one with the same amount remains unpaid, the client will receive an error</p></figcaption></figure>
+* **Direction and Currency Sorting Module — Only Active Currencies Will Be Displayed**
 
-*   **Sorting Module for Directions and Currencies** — only active currencies will now be displayed in the section (previously, all currencies were shown).  
+    ![Only active currencies will be displayed](../../.gitbook/assets/image%20(274).png)
 
-    <figure><img src="../../.gitbook/assets/image (274).png" alt="" width="477"><figcaption></figcaption></figure>
+* **"Live Operator" Module (`many_operators`)**
 
-*   **"Live Operator" Module** (`many_operators`)  
+    This module now allows displaying only requests from specific exchange directions, as well as requests from specific merchants for each user with access to the admin panel.
 
-    <figure><img src="../../.gitbook/assets/image (275).png" alt="" width="563"><figcaption></figcaption></figure>
+    ![With this setting, the operator will only see requests that used the Advcash merchant](../../.gitbook/assets/image%20(276).png)
 
-    Added the ability to display only applications from specific exchange directions or applications with specific merchants for each user with admin panel access.  
+    ![With this setting, the operator will only see requests from specified exchange directions](../../.gitbook/assets/image%20(277).png)
 
-    <figure><img src="../../.gitbook/assets/image (276).png" alt=""><figcaption><p>With this setting, the operator will only see applications where the Advcash merchant was used</p></figcaption></figure>
+    ![With this setting, the operator will see requests from specified exchange directions, as well as requests from all exchange directions that used the Advcash merchant](../../.gitbook/assets/image%20(278).png)
 
-    <figure><img src="../../.gitbook/assets/image (277).png" alt=""><figcaption><p>With this setting, the operator will only see applications from the specified exchange directions</p></figcaption></figure>
+    You can also use a reverse filter:
 
-    <figure><img src="../../.gitbook/assets/image (278).png" alt=""><figcaption><p>With this setting, the operator will see applications from the specified exchange directions, as well as all applications from directions where the Advcash merchant was used</p></figcaption></figure>
+    ![With this setting, the operator will see requests from all exchange directions except the specified ones](../../.gitbook/assets/image%20(279).png)
 
-    Reverse filtering is also available:  
+    **Warning:** Do not use positive and negative values in filters simultaneously — filtering operates on an OR basis, so negative filters will not be considered if specified alongside positive ones.
 
-    <figure><img src="../../.gitbook/assets/image (279).png" alt=""><figcaption><p>With this setting, the operator will see applications from <strong>all</strong> exchange directions except the specified ones</p></figcaption></figure>
+    ![With this setting, the operator will see all requests from exchange direction 1340 (even if the Bova merchant was used), as well as requests from all exchange directions where the Bova merchant was not used.](../../.gitbook/assets/image%20(281).png)
 
-    {% hint style="warning" %}
-    Do not use both positive and negative values in filters simultaneously — filtering works on an OR basis, so negative filters will not be applied if positive ones are also specified.
-    {% endhint %}
+    ![With this setting, the operator will see requests from all exchange directions (even if the Bova merchant was not used), as well as requests from all exchange directions where the Bova merchant was used (even if it is direction 1340).](../../.gitbook/assets/image%20(282).png)
 
-    <figure><img src="../../.gitbook/assets/image (281).png" alt=""><figcaption><p>With this setting, the operator will see <strong>all</strong> applications from exchange direction 1340 (even if the Bova merchant was used), as well as applications from <strong>all</strong> exchange directions where the Bova merchant was <strong>not</strong> used.<br>In this case, the negative filter for the Bova merchant will not be applied if it was used in direction 1340.</p></figcaption></figure>
+* **Transfer of User Coefficients for Parsers 2.0 to a Separate Section**
 
-    <figure><img src="../../.gitbook/assets/image (282).png" alt=""><figcaption><p>With this setting, the operator will see applications from all exchange directions (even if the Bova merchant was <strong>not</strong> used), as well as applications from <strong>all</strong> exchange directions where the Bova merchant was used (even if it was direction 1340).<br>In this case, the negative filter for direction 1340 will not be applied if there were applications in this direction with the Bova merchant.</p></figcaption></figure>
+    ![Section in the sidebar](../../.gitbook/assets/image%20(1971).png)
 
-*   **User Coefficients for Parsers 2.0 Moved to a Separate Section**  
+    ![Coefficient settings](../../.gitbook/assets/image%20(1972).png)
 
-    <figure><img src="../../.gitbook/assets/image (1971).png" alt=""><figcaption><p>Sidebar section</p></figcaption></figure>
+    - **Index Name** — the desired name to be used in formulas as a shortcode
+    - **Formula Value** — enter a number or mathematical formula in the field
+    - **Index Value** — value for the formula specified above (if a formula is provided)
+    - **Index Type:**
+        - **Substituting Formula into Rate**: The formula will be directly substituted into the rate without parentheses, and then the rate value will be calculated.
+        - **Index Value**: The coefficient value will be calculated first, and then it will be substituted into the rate.
+    - **Comment** — a field for your notes
 
-    <figure><img src="../../.gitbook/assets/image (1972).png" alt="" width="449"><figcaption><p>Coefficient settings</p></figcaption></figure>
+* **Removed the Setting for Creating a Task to Update Rates for the "On the Site" Option**
 
-    - **Index Name** — desired name to be used in formulas as a shortcode  
-    - **Formula Value** — a number or mathematical formula can be entered here  
-    - **Index Value** — the value for the formula specified above (if a formula is provided)  
-    - **Index Type:**  
-        • **Formula Substitution in Rate**  
+    This option was causing the server to overload with unnecessary requests.
 
-        <figure><img src="../../.gitbook/assets/image (1974).png" alt=""><figcaption><p>The formula will be directly substituted into the rate without brackets, and the rate value will then be calculated</p></figcaption></figure>
+    ![Version 2.6](../../.gitbook/assets/image%20(1976).png) 
+    ![Version 2.7](../../.gitbook/assets/image%20(1975).png)
 
-        • **Index Value**  
+* **Results of Recalculations for Requests Moved to a Separate Section "Recalculation Log"**
 
-        <figure><img src="../../.gitbook/assets/image (1973).png" alt=""><figcaption><p>The coefficient value will first be calculated, and then it will be substituted into the rate</p></figcaption></figure>
+    ![Recalculation log](../../.gitbook/assets/image%20(1977).png)
 
-    - **Comment** — a field for your notes  
+* **"Blacklist" Module — Added the Ability to Check the Real Account from Which the Payment Came**
 
-*   **Removed the Task Creation Setting for Rate Updates** for the "**On the Website**" option (using this option caused unnecessary server load).  
+    ![Checking the real account](../../.gitbook/assets/image%20(265).png)
 
-    <div><figure><img src="../../.gitbook/assets/image (1976).png" alt=""><figcaption><p>Version 2.6</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (1975).png" alt=""><figcaption><p>Version 2.7</p></figcaption></figure></div>
+    Added the ability to customize blacklist elements individually.
 
-*   **Results of Application Recalculations Moved to a Separate Section** ("**Recalculation Log**")  
+    ![Individual settings for blacklist elements](../../.gitbook/assets/image%20(266).png)
 
-    <figure><img src="../../.gitbook/assets/image (1977).png" alt="" width="563"><figcaption></figcaption></figure>
+    - **Method:**
+        - **From General Settings** — the method selected in the general settings of the module will be applied.
+        - **Show Error** — if this element is in the blacklist, an error will be displayed when creating a request, even if "Stop Auto-Payment" is selected in the general settings.
+        - **Stop Auto-Payment** — if this element is in the blacklist, the request will be created (and checked at the auto-payment stage), even if "Show Error" is selected in the general settings.
 
-*   **"Blacklist" Module** — added the ability to verify the actual account from which the client’s payment was made.  
+* **"AML" Module - All AML Modules and Logs Now Located in One Section**
 
-    <figure><img src="../../.gitbook/assets/image (265).png" alt="" width="404"><figcaption></figcaption></figure>
+    ![AML module section](../../.gitbook/assets/image%20(268).png)
 
-    Added the ability to customize blacklist elements individually.  
+    Added the ability to quickly replace the module in the exchange direction settings.
 
-    <figure><img src="../../.gitbook/assets/image (266).png" alt="" width="418"><figcaption></figcaption></figure>
+    ![Quick module replacement](../../.gitbook/assets/image%20(269).png)
 
-    Methods:  
-    - **From General Settings** — the method selected in the module’s general settings will be applied.  
-    - **Display Error** — if this blacklist element is present in the exchange form, an error will be displayed when creating an application, even if the general settings specify the "**Stop Auto-Payout**" method.  
-    - **Stop Auto-Payout** — if this blacklist element is present in the exchange form, the application will be created (and checked during the auto-payout stage), even if the general settings specify the "**Display Error**" method.  
+    New statuses for requests added when there is a long response from the AML service.
 
-*   **AML Module** — all AML modules and logs are now consolidated into one section.  
+    ![New request statuses](../../.gitbook/assets/image%20(270).png)
 
-    <figure><img src="../../.gitbook/assets/image (268).png" alt=""><figcaption></figcaption></figure>
+    If no response is received from the service within the time specified in the module settings,
 
-    <figure><img src="../../.gitbook/assets/image (267).png" alt=""><figcaption></figcaption></figure>
+    ![Response time settings](../../.gitbook/assets/image%20(271).png)
 
-    Added the ability to quickly replace the module in the exchange direction settings.  
-
-    <figure><img src="../../.gitbook/assets/image (269).png" alt="" width="241"><figcaption></figcaption></figure>
-
-    Added new statuses for applications in case of delayed responses from the AML service.  
-
-    <figure><img src="../../.gitbook/assets/image (270).png" alt="" width="287"><figcaption></figcaption></figure>
-
-    If no response is received from the service within the time specified in the module settings:  
-
-    <figure><img src="../../.gitbook/assets/image (271).png" alt="" width="314"><figcaption></figcaption></figure>
-
-Here’s the provided text translated into natural, fluent English:
-
----
-
-If the application changes its status to "**Pending**," it will either return to its previous status (if the client’s details are successfully verified) or switch to "**AML Check Failed**" (if the risk level is exceeded) after receiving a response from the AML service. To enable this feature, you need to add a [cron job](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-sozdat-zadanie-cron-na-servere) on the server (the link for the job can be found in the "AML" section).
-
-<figure><img src="../../.gitbook/assets/image (273).png" alt="" width="528"><figcaption></figcaption></figure>
+The application will change its status to "**Pending**" and revert to the previous status (if the client's details are successfully verified) or to "**AML Check Failed**" (if the risk threshold is exceeded) after receiving a response from the AML service. To enable this feature, you need to set up a [cron job](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-sozdat-zadanie-cron-na-servere) on the server (the link for the job can be found in the "AML" section).
 
 {% hint style="warning" %}
-The above feature applies only to already created applications (if the verification for this exchange direction is enabled as "**Upon Payment**" or "**Before Auto-Payout**").
-
-![](<../../.gitbook/assets/image (249).png>)
+The above option applies only to applications that have already been created (if the verification for this exchange direction is enabled as "**Upon Payment**" or "**Before Auto-Payment**").
 {% endhint %}
 
-* **Operator/Manager Action Logging Added**: The following details will now be logged:  
-  • Date and time of changes  
-  • User who made the changes  
-  • Data that was modified (old data will be displayed in red, new data in black)  
+* Logging of operator/manager actions has been added. The following will be displayed:
+    • Date and time of changes made
+    • User who made the changes
+    • Data that was changed (old data will be shown in red, new data in black)
 
-  <figure><img src="../../.gitbook/assets/image (1978).png" alt="" width="511"><figcaption></figcaption></figure>
+    The following sections are logged:
+    • Exchange direction settings
+    • Currency settings
+    • Currency rates in the "**Parsers 2.0**" -> "**Rates**" section
+    • Settings for **Bestchange parsers** and **Bestchange API**
 
-  The following sections will be logged:  
-  • Exchange direction settings  
-  • Currency settings  
-  • Currency rates in the "**Parsers 2.0**" -> "**Rates**" section  
-  • Settings for **Bestchange parsers** and **Bestchange API**
+* The ability to wait for details from the merchant has been added (only for fiat merchants that provide details in the API response and support repeated requests for details).
 
-* **Added Option to Wait for Merchant Details**: This feature is available only for fiat merchants that provide details in their API response and support repeated requests for details.  
-
-  <figure><img src="../../.gitbook/assets/image (1980).png" alt="" width="433"><figcaption><p>Option in the merchant module settings</p></figcaption></figure>
-
-  To enable this feature, the "**Mark Application as Merchant Error**" option must also be activated in the "**Exchange Settings**" -> "**General Settings**" section. Only in this case will details be re-requested, or the application will switch to the "**Merchant Error**" status.  
-
-  <figure><img src="../../.gitbook/assets/image (1981).png" alt="" width="467"><figcaption></figcaption></figure>
+    To use this option, the "**Move Application to Merchant Error**" setting must also be enabled in the "**Exchange Settings**" -> "**General Settings**" section (only in this case will the details be requested again, or the application will switch to the "**Merchant Error**" status).
 
 {% hint style="warning" %}
-Please note that repeated requests to the merchant within a short interval (if details were not received during the first request) may cause the merchant to treat such requests as spam, potentially leading to your exchange being flagged by the merchant’s spam filter.
+Please note that repeated requests to the merchant within a short time frame (if the details were not received on the first request) may cause the merchant to treat such requests as spam, and your exchange may end up in the merchant's spam filter.
 
-To avoid such situations, we recommend informing the merchant in advance that your exchange may send repeated requests for the same application if details are not received during the initial request. In this case, the merchant can whitelist your exchange in their spam filter.
+To avoid such situations, we recommend informing the representatives of the specific merchant in advance that your exchange may send repeated requests for the same application if the details were not received on the first request. In this case, the merchant may add your exchange to the spam filter exceptions.
 {% endhint %}
-
----
 
 ## Version 2.6
 
@@ -194,214 +168,160 @@ To avoid such situations, we recommend informing the merchant in advance that yo
 
 <summary>Update List</summary>
 
-* **"Bestchange Blacklist" Module (blacklist_bestchange)**: Added the ability to stop payouts for an application if one or more client details are found in the Bestchange blacklist when using this module. The module settings can be found in the "**Modules**" -> "**Bestchange Blacklist**" section.  
+* **Bestchange Blacklist Module (blacklist_bestchange)**: Added the ability to stop payment on an application if one or more of the client's details are on the Bestchange blacklist when using the module. Module settings can be found in the "**Modules**" -> "**Bestchange Blacklist**" section.
 
-  ![](https://premium.gitbook.io/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FIYShnbIVsQtdyzn1bKip%252Fimage.png%3Falt%3Dmedia%26token%3D69302b5b-7f4f-4847-b874-c928ea29ae01\&width=768\&dpr=4\&quality=100\&sign=52626c56\&sv=1)
+* **Blacklist**: Changes similar to the **blacklist_bestchange** module have been made, allowing the acceptance of funds and stopping payment if the user is on the blacklist. Module settings can be found in the "**Blacklist**" -> "**Settings**" section.
 
-* **Blacklist Module**: Similar updates were made to the **Blacklist** module, allowing funds to be received but payouts to be stopped if the user is in the blacklist. The settings can be found in the "**Blacklist**" -> "**Settings**" section.  
+- **AML Check**: Added the ability to conduct a check right before sending currency to the client's wallet, with the application moving to an error status if the risk level is exceeded. The risk level setting is done in the "**Modules**" -> "**AML Bot**" or "**Getblock**" section (depending on which service you have connected).
 
-  ![](https://premium.gitbook.io/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252F18OpRTbt1jzLD5l2HMZ4%252Fimage.png%3Falt%3Dmedia%26token%3Dcd4f10d7-7da0-49f2-b46a-ebf0e58efe1e\&width=768\&dpr=4\&quality=100\&sign=3df31e7f\&sv=1)
+* **Getblock AML Service, Sleep Function**: Added the ability to set a wait time for a response from the service in case the check result is not provided immediately. The setting can be found in the "**Modules**" -> "**Getblock**" section.
 
-* **AML Check**: Added the ability to perform AML checks right before sending funds to the client’s wallet, with the application being marked as an error if the risk level is exceeded. Risk level settings can be configured in the "**Modules**" -> "**AML Bot**" or "**Getblock**" section, depending on the connected service.  
+* **Email Confirmation**: Added the ability to request email confirmation from the client before creating an application. The "**Email Confirmation Before Application Creation**" module (**confirmexchmail**) must be activated in the "**Modules**" section. Module settings can be found in the "**Modules**" -> "**Email Confirmation Before Application Creation**" section.
 
-  AML check logic can be configured in the exchange direction settings under the "**AML Bot**" or "**Getblock**" tab.  
+* **Archiving**: The module structure has been changed, and filtering by **application status/details received from the merchant/transaction hash for receiving and sending funds** has been added in the "**Applications**" -> "**Archived Applications**" section.
 
-  ![](https://premium.gitbook.io/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FwkCrPNGRW8VjYjVzWBrM%252Fimage.png%3Falt%3Dmedia%26token%3D7df1e4b9-62ea-43c1-b715-55ae021fe80e\&width=768\&dpr=4\&quality=100\&sign=8ab4efdd\&sv=1)
+Adding comments to an application in the "Applications" section.
 
-* **Getblock AML Service, Sleep Function**: Added the ability to set a waiting time for a response from the service in case the check result is not immediately available. This setting can be found in the "**Modules**" -> "**Getblock**" section.  
+Searching by specified filters and viewing comments on applications will only work for applications archived in version 2.6.
 
-  ![](https://premium.gitbook.io/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FUCwqQIbUxlfFgP0SyEdU%252Fimage.png%3Falt%3Dmedia%26token%3D1a328e43-5f40-46f9-a44f-687546201bdb\&width=768\&dpr=4\&quality=100\&sign=fdf901cd\&sv=1)
+* **Bestchange API Parser (bestchangeapi)**: A module for working with the API has been added. Module settings can be found in the "**BestChange API Parser**" -> "**Settings**" section and on the **"BestChange API Parser"** tab in the exchange direction settings.
 
-* **Email Confirmation**: Added the ability to request email confirmation from the client before creating an application. The "**Email Confirmation Before Application Creation**" module (**confirmexchmail**) must be activated in the "**Modules**" section. The module settings can be found in "**Modules**" -> "**Email Confirmation Before Application Creation**."  
+* **Filtering Exchange Directions**: A filter by payment systems has been added in the "**Exchange Directions**" section.
 
-  ![](https://premium.gitbook.io/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FNqMA0JHfsAhhn1AdvZ01%252Fimage.png%3Falt%3Dmedia%26token%3D6a490aa4-14e5-45e7-a3fa-2642afb47054\&width=768\&dpr=4\&quality=100\&sign=320c412\&sv=1)
+- **Profit Values in Notifications**: The ability to specify **set (not calculated!) values in the exchange direction settings (in the "Rate" tab)** through shortcodes for displaying values in emails and Telegram messages for administrators has been added.
 
-* **Archiving**: The module structure has been updated, and filtering by **application status/merchant-provided details/transaction hash for receiving and sending funds** has been added in the "**Applications**" -> "**Archived Applications**" section.  
 
-  ![](https://premium.gitbook.io/~gitbook/image...)
-
----
-
-Let me know if you'd like me to continue or clarify anything!
-
-Here’s the naturalistic English translation of the provided text:
+Here’s a naturalistic English translation of the provided text:
 
 ---
 
-### **Email Confirmation Module Replacement**
-After updating, you need to deactivate and remove the **rconfirm** module from the server. Instead, use the **confirmregmail** module. For more details, refer to the [**update instructions**](https://premium.gitbook.io/main/pered-nachalom-raboty/instrukciya-po-obnovleniyu-skripta/obnovlenie-s-versii-2.5-do-2.6#izmeneniya-v-paneli-administratora). If you’re installing version 2.6 from scratch, the **rconfirm** module will not be included by default.
+- **Email Confirmation Module Replacement**: After the update, you need to deactivate and then remove the **rconfirm** module from the server and replace it with the **confirmregmail** module. For more details, refer to the [**update instructions**](https://premium.gitbook.io/main/pered-nachalom-raboty/instrukciya-po-obnovleniyu-skripta/obnovlenie-s-versii-2.5-do-2.6#izmeneniya-v-paneli-administratora). If you install version 2.6 of the script from scratch, the **rconfirm** module will not be included by default.
 
----
+- **Template Text Separation**: A new feature has been added that allows you to separate the text in the exchange direction template, which will be displayed when working with requests via the API and the website using shortcodes.
 
-### **Template Text Splitting**
-You can now split the text from the exchange direction template. This text will be displayed when working with requests via API or the website using shortcodes.
+- **Financial Statistics Section**: The financial statistics module now includes overall statistics on the number of exchanges and the total amount exchanged in USD for the selected period.
 
----
+- **"Proceed to Payment" Button**: You can now hide the button in the merchant settings if the payment details are displayed in the text for the "New Request" status using the shortcode `[to_account]`.
 
-### **Financial Statistics Section**
-The financial statistics module now includes an overview of the total number of exchanges and the total exchange amount in USD for a selected period.
+- **Country List in Exchange Direction Restrictions**: Countries marked with a checkbox will now appear first in the list.
 
----
+- **Merchant Copying**: A new feature allows you to create a copy of a merchant with all settings at the click of a button. To use this option, activate the "**Merchant Copying and Auto-Payments**" module in the "Modules" section after updating the script.
 
-### **"Proceed to Payment" Button**
-A new option allows you to hide the "Proceed to Payment" button in the merchant module settings. This is useful if payment details are displayed in the text for the "**New Request**" status using the `[to_account]` shortcode.
+- **Bulk Merchant Addition**: A new option has been added for bulk adding merchants to exchange directions in the merchant settings.
 
----
+- **Currency ID**: You can now search by currency ID when creating an exchange direction.
 
-### **Country List in Exchange Direction Restrictions**
-Countries marked with a checkmark are now displayed at the top of the list.
+- **Module Access**: Access to modules is available to all users with access to the admin panel, but activation and deactivation of modules are restricted to administrators.
 
----
+- **Creating Requests Without Authorization**: You can now create a request without authorization in directions that require verification of details, provided that the account/card number has been previously verified.
 
-### **Merchant Duplication**
-You can now create a copy of a merchant along with all its settings with a single button. To use this feature, activate the "**Merchant Duplication and Auto-Payouts**" module in the "Modules" section after updating the script.
+- **Coupons**: A new module called **"Discount Coupons"** has been added to provide personalized discounts to clients in the form of promo codes. The module settings can be found in the "**Discount Coupons**" section. When the module is activated, an optional "**Discount Coupon**" field will appear in the exchange form (this field can be activated for each exchange direction in the "**Restrictions and Checks**" tab).
 
----
+- **Using Multiple Merchants for Payment**: An option has been added to utilize other merchants (if multiple merchants are used in the settings) in exchange directions if the primary merchant does not provide payment details for any reason. For more information on how this option works, refer to the [**instructions**](https://premium.gitbook.io/main/osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/obshie-nastroiki-merchantov#podklyuchenie-neskolkikh-merchantov).
 
-### **Bulk Merchant Addition**
-A new feature allows you to add merchants in bulk to exchange directions in the merchant settings.
+- **Payment Systems**: You can now sort payment systems by name in the "**Currencies**" -> "**Payment Systems**" section.
 
----
+- **Parser Search**: A search field has been added for finding parsers by text in the exchange direction settings (under the "**Auto-Correction of Rates**" tab). The search will include the entire string, including the rate itself.
 
-### **Currency ID**
-You can now search by currency ID when creating an exchange direction.
+- **Country Sorting**: The sorting of countries by code has been replaced with sorting by country name in the "**Restrictions and Checks**" tab of the exchange direction settings.
 
-- **View Currency ID**
-- **Search by ID**
+- **List of Recalculated Rates**: When recalculating exchange rates, the list of old rates in the request under the "**Requests**" section can take up a lot of vertical space. To address this, the "**Old Rates**" block has been fixed in size, and the rates can now be scrolled vertically within the block.
 
----
+- **Request Deletion Timer**: The timer now includes seconds.
 
-### **Module Access**
-All users with access to the admin panel can view modules, but only administrators can activate or deactivate them.
+- **Shortcode for Timer in Template Settings**: A shortcode for the timer can now be used in the template settings.
 
----
+- **Displaying Timer with Seconds in Requests**: The timer will now display seconds in requests.
 
-### **Creating Requests Without Authorization**
-It is now possible to create a request without authorization for directions that require account verification, provided the account/card number has already been verified.
-
----
-
-### **Coupons**
-A new **"Discount Coupons" (coupons)** module has been added, allowing you to offer personalized discounts to clients via promo codes. The module settings can be found in the "**Discount Coupons**" section.
-
-When the module is activated, an optional "**Discount Coupon**" field will appear in the exchange form. This field can be enabled for each exchange direction in the "**Restrictions and Checks**" tab.
-
-- **Adding a New Coupon**
-- **Coupon List in the Admin Panel**
-- **Enabling the Option for an Exchange Direction**
-- **Coupon Input Field in the Exchange Form**
-
----
-
-### **Using Multiple Merchants for Payments**
-If multiple merchants are configured, you can now enable the use of alternative merchants for exchange directions. This ensures that if the primary merchant fails to provide payment details, another merchant will be used. For more details, refer to the [**instructions**](https://premium.gitbook.io/main/osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/obshie-nastroiki-merchantov#podklyuchenie-neskolkikh-merchantov).
-
----
-
-### **Payment Systems**
-You can now sort payment systems by name in the "**Currencies**" -> "**Payment Systems**" section.
-
----
-
-### **Parser Search**
-A search field has been added to the exchange direction settings (in the "**Auto Rate Adjustment**" tab). You can now search for parsers by text, including the rate itself.
-
----
-
-### **Country Sorting**
-Country sorting by code has been replaced with sorting by country name in the "**Restrictions and Checks**" tab of the exchange direction settings.
-
----
-
-### **List of Recalculated Rates**
-When rate recalculation is enabled, the list of old rates in the "**Requests**" section could take up a lot of vertical space. To address this, the "**Old Rates**" block now has a fixed size, and the rates can be scrolled vertically within the block.
-
----
-
-### **Request Deletion Timer**
-The timer now includes seconds.
-
-- **Shortcode for Timer in Template Settings**
-- **Displaying the Timer with Seconds in Requests**
-
----
-
-### **"Captcha for Website (Image Selection)" Module**
-The **sitecaptcha_img** module has been upgraded to enhance security. It now generates captcha options automatically. The ability to create custom captcha options has been removed.
+- **"Captcha for Website (Image Selection)" Module**: This module has been upgraded for improved security and now generates captcha options automatically. The ability to create custom captcha options has been removed.
 
 --- 
 
-This translation aims to maintain the original meaning while ensuring clarity and natural flow in English. Let me know if you need further adjustments!
+This translation aims to maintain clarity and natural flow while conveying the original content's meaning.
 
-### Translation into Naturalistic English:
-
----
-
-### Version 2.6 Updates
-
-#### **Captcha Display in the Exchange Form**
-- Captcha is now displayed directly in the exchange form.
-
-#### **Telegram Bot for Notifications**
-- Added the ability to send messages to users via their Telegram ID, even if they don’t have a username. You can find your Telegram ID using the bot [@getMyID](https://t.me/getmyid_bot). Note: Sending messages to groups is not supported.
-
-  ![Example of Telegram Bot Notification](https://premium.gitbook.io/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FsgS66ZwqNQwLSXqyzGoT%252Fimage.png%3Falt%3Dmedia%26token%3D5b4428e2-0c66-4c7b-ab9f-abb012f51eb5\&width=768\&dpr=4\&quality=100\&sign=d11ad25\&sv=1)
-
-- You can view your Telegram ID using the bot [@getMyID](https://t.me/getmyid_bot).
-
-#### **Adding Message Recipients in Template Settings**
-- Added the ability to configure message recipients in template settings.
-- New settings have been introduced to block bots. These settings can be found under "**Telegram**" -> "**Settings**."
-
-  ![Telegram Settings Example](https://premium.gitbook.io/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FPCQLTFYN6dONk7Vi3NLg%252Fimage.png%3Falt%3Dmedia%26token%3Dcf7e1e61-86c5-460a-92df-963e3d480f6b\&width=768\&dpr=4\&quality=100\&sign=3ded5c2b\&sv=1)
-
-#### **Client Notifications**
-- The "**Exchange Direction Template**" tab has been renamed to "**Notification Settings**" in the exchange direction settings. This allows you to configure notifications for specific exchange directions.
-- Added the ability to specify individual **email addresses, Telegram accounts, or phone numbers** for administrators/operators to receive notifications about specific exchange requests. If any of these fields are filled, notifications will only be sent to the specified contacts, ignoring the general recipient list in the template.
-
-  ![Notification Settings Example](https://premium.gitbook.io/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252F6OENVKlwLssqKLCDuHfN%252Fimage.png%3Falt%3Dmedia%26token%3D03ad39ae-43cc-451d-9aeb-027df01143c4\&width=768\&dpr=4\&quality=100\&sign=d7bdd293\&sv=1)
-
-#### **Requesting Payment Details**
-- The option to choose when to request payment details has been removed. Starting from version 2.6, payment details will always be requested from the merchant at the time of creating the request.
-
-#### **Custom Error Messages for Merchant Issues**
-1. **Error Text for Payment Details in Requests**: Added an option to replace the text displayed in place of the `[to_account]` shortcode if the merchant fails to provide payment details. This setting can be found under "**Exchange Settings**" -> "**General Settings**."
-
-   ![Error Text Example](https://premium.gitbook.io/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FYwxmczrmSFykCqiHOKN7%252Fimage.png%3Falt%3Dmedia%26token%3Dbb68e6c0-7ad1-4863-bdaa-3c60319899a7\&width=768\&dpr=4\&quality=100\&sign=c5c7c199\&sv=1)
-
-2. **Error Text for Payment Page Links**: Added an option to customize the button text for payment page links if the merchant (e.g., Bitconce Link, Firekassa Link) fails to provide payment details. This setting is available in the merchant module settings.
-
-   ![Payment Page Error Example](https://premium.gitbook.io/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FjppuhwSeQph8BijExiVZ%252Fimage.png%3Falt%3Dmedia%26token%3D7341c172-60fa-4001-9060-6943e90a97f4\&width=768\&dpr=4\&quality=100\&sign=cf12dc0c\&sv=1)
-
-#### **Verification of Payment Details**
-- In the general table for verifying cards/accounts/wallet numbers, administrators and operators can now specify the reason for rejecting a verification request. This option is available under "**User Accounts**" -> "**Account Verification**."
-
-  ![Verification Example](https://premium.gitbook.io/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FPN2GX1l8AmJZvGy3xdsr%252Fimage.png%3Falt%3Dmedia%26token%3Dce4d42fc-1038-4a2e-9623-23d1e0611e55\&width=768\&dpr=4\&quality=100\&sign=d0e7014b\&sv=1)
-
-#### **Internal Accounts**
-- A new version of the internal account module (**iac**) has been released, including a merchant and auto-payout feature for internal accounts with API support. The old module (**domacc**) has been removed starting from version 2.6. Instructions for migrating existing accounts to the new module can be found in the [**update guide**](https://premium.gitbook.io/main/pered-nachalom-raboty/instrukciya-po-obnovleniyu-skripta/obnovlenie-s-versii-2.5-do-2.6#izmeneniya-v-paneli-administratora).
+Here’s a naturalistic English translation of the provided text:
 
 ---
 
-### Version 2.5 Updates
+* Displaying CAPTCHA in the exchange form.
+* **Telegram Bot for Notifications:** Added the ability to send messages using user ID without requiring a login (you can find your ID through the bot [@getMyID](https://t.me/getmyid_bot)). Sending messages from the bot to groups is not supported.
 
-#### **Verification Image Example**
-- Added the ability to insert an example image for card verification in currency settings using the `img` shortcode.
+* View your ID through the bot [@getMyID](https://t.me/getmyid_bot).
 
-#### **Merchant Status Updates**
-- Merchants can now work with specific request statuses when receiving payment notifications. If no statuses are selected, the merchant will operate as configured in version 2.4. If specific statuses are selected, the merchant will only process those.
+---
 
-#### **API Interface**
-- Introduced an API interface for the exchange system. [API Documentation](https://premium.gitbook.io/main/api-premium-exchanger/api-v1).
+Adding message recipients in template settings.
 
-#### **Additional Updates**
-- Support for PHP 8.1.
-- Added new statuses for merchants and auto-payouts: "**Partial Payment**," "**Merchant Error**," and "**Partial Payout**."
-- Improved currency account settings, including unique account visibility rules.
-- Added individual partner commission limits.
-- Enhanced AML/KYC compliance settings.
-- Added support for Moex parser and Telegram notifications for parsing errors.
+Settings for blocking bots have also been added. The module settings can be found under "**Telegram**" -> "**Settings**."
 
---- 
+---
 
-This translation provides a clear and natural explanation of the updates and features in versions 2.6 and 2.5. Let me know if you need further clarification!
+* **Client Notifications:** The tab "**Exchange Direction Template**" has been renamed to "**Notification Settings**" in the exchange direction settings (with a template for sending in an email or Telegram message using the shortcode `[dirtemp]`). You can now specify personal **email/Telegram account/phone number** to receive notifications about requests in this direction for the administrator/operator (if one or more contact fields are filled, data from the template above will be sent **only to the specified contacts**, ignoring the recipient list in the general template). The option settings can be found in the exchange direction settings under the tab "**Notification Settings**."
+
+---
+
+* **Requesting Payment Details Timing:** The option to choose when to request payment details has been removed — starting from version 2.6, the request for details from the merchant will always occur at the time of application creation.
+* **Button Text Replacement on Merchant Error (Payment Details Displayed in Application):** An option has been added to replace the text displayed instead of the shortcode \[to_account] if, for any reason, the merchant is unable to provide payment details (this option can be found in the "**Exchange Settings**" -> "**General Settings**").
+
+---
+
+* **Button Text Replacement on Merchant Error (Link to Payment Page):** An option has been added to change the text on the button that leads to the merchant's payment page if, for any reason, the merchant (such as Bitconce Link, Firekassa Link, etc.) cannot provide payment details (this option can be found in the merchant module settings that link to the payment details).
+
+---
+
+Text error display on the button in the application.
+
+* **Verification of Payment Details:** In the general table with applications for verifying cards/accounts/wallet numbers, the ability to specify a reason for verification denial has been added (this view is only available to administrators and operators working with the module). This option can be found under "**User Accounts**" -> "**Account Verification**."
+
+---
+
+* **Internal Accounts:** A new version of the internal account module (**iac**) has been released, allowing for merchant and auto-payment functionality with the option to pay to an internal account via API. The old version of the modules (**domacc**) has been removed from the script starting from version 2.6. More details on transferring already added accounts to the new module can be found in the [**update instructions**](https://premium.gitbook.io/main/pered-nachalom-raboty/instrukciya-po-obnovleniyu-skripta/obnovlenie-s-versii-2.5-do-2.6#izmeneniya-v-paneli-administratora).
+
+---
+
+## Version 2.5
+
+<details>
+
+<summary>Update List</summary>
+
+* Insert an image as an example for card verification in currency settings using the shortcode img.
+
+```
+<img src="https://premiumexchanger.com/images.jpg" alt="" />, 
+where src is the full path to your image
+```
+
+* A list of application statuses that the merchant will work with upon receiving a payment notification from the payment system. If no items are selected, the merchant will operate with the statuses as configured in version 2.4.
+
+If one or more items are selected from the list, the merchant will work **only** with the selected statuses!
+
+Why is this necessary? For example, if you select the status "**Deleted Application**," if the application has already been deleted but the merchant receives a notification of payment for it, the merchant will process the application with that status and mark it as paid.
+
+* API interface for the exchanger. [API interface documentation](https://premium.gitbook.io/main/api-premium-exchanger/api-v1).
+* All merchants and auto-payments have been updated.
+* Code refactoring and bug fixes have been performed.
+* Added support for PHP 8.1.
+* Three new statuses for merchants and auto-payments: "**Partial Payment**," "**Merchant Error**," "**Partial Payout**."
+* Categories have been added for currencies.
+* Contact form settings have been added: stop words, blacklisted emails, prohibited email domains, prohibited IP addresses.
+* Hreflang has been added to pages if automatic language detection for users is disabled.
+* The link to the agreement during registration can now be set in the settings.
+* A separate checkbox for AML/KYC rules has been added.
+* Restrictions settings for reviews have been added.
+* In the currency account module, a uniqueness value has been added: do not display the account number for payment in the application while there are active applications for that account.
+* Merchant limit based on minimum amount.
+* In the automatic registration module, a setting has been added to prohibit auto-registration.
+* Moex parser has been added.
+* The ability to send notifications to Telegram about parsing errors.
+* Old rates have been added to the recalculation module.
+* The internal account now has the option for adjustments.
+* Individual maximum affiliate percentage.
+* Account verification can now be done on the application creation page via a pop-up window, and you can upload an example image in the instructions.
+* Priority for connecting merchants and payouts in the direction has been added if multiple are connected to one direction.
+* New fields txid_in, txid_out, agent have been added to applications.
+* For merchants, you can choose at which step of the application creation the API request will occur.
+* Email templates for crypto merchants have become common.
+* For currency accounts, a mode has been added where the account does not display until an active application has been created for it.
+
+</details>
