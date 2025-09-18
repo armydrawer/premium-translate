@@ -8,7 +8,7 @@ On the opened page, fill in the necessary fields to create the exchange directio
 
 ## Tab "**Basic Settings**"
 
-<figure><img src="../../.gitbook/assets/image (1205).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(1205).png" alt=""><figcaption></figcaption></figure>
 
 **Direction** — specify the currency values for "**I Give**" and "**I Receive**".
 
@@ -24,7 +24,7 @@ The permanent link is automatically generated based on the selected currencies f
 
 ## Tab "Rate"
 
-<figure><img src="../../.gitbook/assets/image (1152).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(1152).png" alt=""><figcaption></figcaption></figure>
 
 **Exchange Rate** — specify the current exchange rate.
 
@@ -32,22 +32,22 @@ The permanent link is automatically generated based on the selected currencies f
 
 There is also a settings block for this option in the "**Modules**" ➔ "**Rate Depending on Exchange Amount**" section.
 
-<figure><img src="../../.gitbook/assets/image (2149).png" alt="" width="411"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(2149).png" alt="" width="411"><figcaption></figcaption></figure>
 
 **Rate Formation Method:**\
 • **Set Rate Directly** — display rates for different amounts considering the specified percentages.
 
-<figure><img src="../../.gitbook/assets/image (2152).png" alt="" width="357"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(2152).png" alt="" width="357"><figcaption></figcaption></figure>
 
 • **Add Percentage to Rate** — display the percentage that will be applied to the base exchange rate for different amounts.
 
-<figure><img src="../../.gitbook/assets/image (2151).png" alt="" width="355"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(2151).png" alt="" width="355"><figcaption></figcaption></figure>
 
 **Use in XML 2.0 File with Rates** — add tiered rates from the exchange direction settings to a new export XML file:\
 • **Yes**\
 • **No**
 
-<figure><img src="../../.gitbook/assets/image (2150).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(2150).png" alt="" width="375"><figcaption></figcaption></figure>
 
 <details>
 
@@ -57,7 +57,7 @@ For instance, you can create a tiered structure such that a user making a small 
 
 Setting a dependency for the "**I Receive**" side in the exchange rate (applicable when 1 in the "**I Give**" currency — for example, the BTC-USDT rate):
 
-#### ![](<../../.gitbook/assets/64fc192780700472f4cff803 (1).png>)
+![](../../.gitbook/assets/64fc192780700472f4cff803%20\(1\).png)
 
 Similarly, you can set a dependency for the "**I Give**" side in the exchange rate (applicable when 1 in the "**I Receive**" currency — for example, the USDT-BTC rate).
 
@@ -69,7 +69,7 @@ Similarly, you can set a dependency for the "**I Give**" side in the exchange ra
 
 There is also a settings block for this option in the "**Modules**" ➔ "**Rate Depending on Reserve**" section.
 
-<figure><img src="../../.gitbook/assets/image (2153).png" alt="" width="458"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(2153).png" alt="" width="458"><figcaption></figcaption></figure>
 
 **Rate Formation Method:**\
 • **Set Rate Directly** — display rates for different amounts considering the specified percentages.\
@@ -85,7 +85,7 @@ There is also a settings block for this option in the "**Modules**" ➔ "**Rate 
 
 For instance, you can create a tiered structure such that as the currency reserve decreases, the currency becomes increasingly expensive for users. The reserve is always set for the "**I Receive**" currency.
 
-![](<../../.gitbook/assets/image (784).png>)
+![](../../.gitbook/assets/image%20\(784\).png)
 
 <mark style="color:red;">It is not recommended to set a percentage for the rate side where 1 is used</mark> — <mark style="color:red;">this will lead to displaying a rate of 0.98 to XXX or 1.32 to XXX in the exchange form</mark>
 
@@ -94,14 +94,14 @@ For instance, you can create a tiered structure such that as the currency reserv
 {% hint style="danger" %}
 If you use the option "**Rate Dependency on Amount or Reserve**," the "**I Receive**" field in the exchange form will be unavailable for filling (technical limitations of the calculation calculator).
 
-![](<../../.gitbook/assets/image (1773).png>)
+<img src="../../.gitbook/assets/image%20(1773).png" alt="" data-size="original">
 {% endhint %}
 
 **Exchange Rate from File** — more detailed information can be found [here](https://premium.gitbook.io/rukovodstvo-polzovatelya/navigaciya/kursy/kurs-iz-faila).
 
 **Exchange Amount Multiplicity** — if this option is enabled, the value selected from the dropdown will be rounded:
 
-<figure><img src="../../.gitbook/assets/image (855).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(855).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 For example, if the amount "You Give" is selected and the multiplicity is 100 — when the user enters the amount 12345 in the exchange form in the "You Give" field, the value will be rounded down to 12300.
@@ -116,18 +116,18 @@ If zero profit is set, the partner will not be able to receive a partner reward.
 {% hint style="warning" %}
 If the "**Profit**" block is not displayed on the tab — disable the "**Automatic Profit Calculation**" module in the "**Modules**" section.
 
-![](<../../.gitbook/assets/image (604).png>)
+<img src="../../.gitbook/assets/image%20(604).png" alt="" data-size="original">
 {% endhint %}
 
 ## Tab "Cities"
 
 To select a city for the exchange direction, you must first create a city with the correct code (according to [BestChange rules](https://www.bestchange.ru/wiki/rates.html)) in the "**Cities**" section:
 
-<figure><img src="../../.gitbook/assets/image (837).png" alt="" width="504"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(837).png" alt="" width="504"><figcaption></figcaption></figure>
 
 Then, in the exchange direction settings, select the city in the "**Cities**" tab and, if necessary, specify additional parameters for the city:
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 * **Add to Rate (I Give/I Receive)** — specify the absolute value that will be added to or subtracted from the base rate set in the exchange direction.\
   To add a percentage, specify in the field, for example, `*0.9` (≈ -10%) to decrease the rate or `/0.9` (≈ +11%) to increase the rate relative to the base exchange rate.
@@ -135,17 +135,17 @@ Then, in the exchange direction settings, select the city in the "**Cities**" ta
 * **Profit (from Amount I Give/I Receive)** — individual profit values that may differ from the overall profit values on the "**Rate**" tab.
 * **Tags for param parameter** — specify parameters according to [BestChange requirements](https://www.bestchange.ru/wiki/rates.html).
 
-<figure><img src="../../.gitbook/assets/image (159).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(159).png" alt=""><figcaption></figcaption></figure>
 
 ## Tab "BestChange API Parser" and "BestChange Parser"
 
-<figure><img src="../../.gitbook/assets/image (856).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(856).png" alt=""><figcaption></figcaption></figure>
 
 Detailed descriptions of the options can be found in the articles "[**BestChange API Parser**](https://premium.gitbook.io/main/osnovnye-nastroiki/kursy-valyut/bestchange-api-parser-new-nachinaya-s-v2.6)" and "[**BestChange Parser**](https://premium.gitbook.io/main/osnovnye-nastroiki/kursy-valyut/bestchange-parser-old)".
 
 ## Tab "Auto-Rate Adjustment"
 
-<figure><img src="../../.gitbook/assets/image (883).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(883).png" alt=""><figcaption></figcaption></figure>
 
 **Auto-Rate Adjustment** — select the source and direction for automatic rate changes on the site.
 
@@ -159,7 +159,7 @@ Please note that authorized users automatically participate in a loyalty program
 
 ## "Exchange Rate Restrictions" Tab
 
-<figure><img src="../../.gitbook/assets/image (1068).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(1068).png" alt=""><figcaption></figcaption></figure>
 
 **Min. Rate/Max. Rate** — If necessary, you can set a minimum/maximum rate within which the connected rate parser will operate. If the rate exceeds the minimum/maximum limit, it can be reset to the standard rate; otherwise, the last received value will be retained until the rate returns to the specified range.
 
@@ -167,7 +167,7 @@ Please note that authorized users automatically participate in a loyalty program
 
 ## "Reserve" Tab
 
-<figure><img src="../../.gitbook/assets/image (1217).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(1217).png" alt=""><figcaption></figcaption></figure>
 
 **Reserve** — If needed, you can set a personal reserve value for the exchange direction. The selected option will take precedence over the reserve value set in the "**Receiving**" currency settings in the "**Currencies**" section. You can also set a [reserve from a file](https://premium.gitbook.io/rukovodstvo-polzovatelya/navigaciya/rezervy/rezerv-iz-faila), connect an auto-reserve, or specify a reserve from the field located below.
 
@@ -177,7 +177,7 @@ Please note that authorized users automatically participate in a loyalty program
 
 ## "Payment System Fees" Tab
 
-<figure><img src="../../.gitbook/assets/image (1087).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(1087).png" alt=""><figcaption></figcaption></figure>
 
 **Payment System Fees** — Specify the standard percentage or amount charged by the payment system for making a transfer. This amount will be taken into account when calculating exchanges for users.
 
@@ -191,7 +191,7 @@ Please note that authorized users automatically participate in a loyalty program
 
 ## "Exchange Point Fees" Tab
 
-<figure><img src="../../.gitbook/assets/image (959).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(959).png" alt=""><figcaption></figcaption></figure>
 
 **Additional Fee from Sender** — Specify the additional fee (fromfee) that will be added to the payment amount if such a fee is provided by the exchange service's regulations. This value will be displayed in the XML file with rates for monitoring in the \<fromfee> parameter.
 
@@ -202,13 +202,13 @@ Please note that authorized users automatically participate in a loyalty program
 {% hint style="danger" %}
 Please note that when using this option, the values specified below will apply — the data entered in the "**Additional Fee from Sender/Recipient**" fields will not be considered in the calculations.
 
-![](<../../.gitbook/assets/image (149).png>)
+<img src="../../.gitbook/assets/image%20(149).png" alt="" data-size="original">
 {% endhint %}
 
 {% hint style="info" %}
 If you use the "**Additional Fee Based on Exchange Amount**" option, the "**Receiving**" field in the exchange form will be unavailable for input (technical limitations of the calculation calculator).
 
-![](<../../.gitbook/assets/image (398).png)>
+!\[]\(<../../.gitbook/assets/image (398).png)>
 {% endhint %}
 
 <details>
@@ -219,10 +219,10 @@ You can create an unlimited number of fee rules.
 
 In the "**Amount**" field, specify the value of the currency "**Giving**," above which the fee will be applied. Fee values can be set in % or directly in exchange currencies:
 
-<img src="../../.gitbook/assets/image (1301).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image%20(1301).png" alt="" data-size="original">
 
 Please note — after setting up the fee based on the exchange amount, specifying the exchange amount will only be possible in the "**Giving**" field:\
-![](<../../.gitbook/assets/image (1302).png>)<img src="../../.gitbook/assets/image (1303).png" alt="" data-size="original">
+![](../../.gitbook/assets/image%20\(1302\).png)<img src="../../.gitbook/assets/image%20(1303).png" alt="" data-size="original">
 
 </details>
 
@@ -238,26 +238,26 @@ Please note — after setting up the fee based on the exchange amount, specifyin
 
 ## "Exchange Amount" Tab
 
-<figure><img src="../../.gitbook/assets/image (2146).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(2146).png" alt="" width="563"><figcaption></figcaption></figure>
 
 **Min/Max Amounts** — Specify the limits for amounts for applications for the currencies in the exchange direction.
 
-<figure><img src="../../.gitbook/assets/image (2141).png" alt="" width="563"><figcaption><p>Setting the option in the admin panel</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(2141).png" alt="" width="563"><figcaption><p>Setting the option in the admin panel</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (2140).png" alt="" width="563"><figcaption><p>Displaying limits on the website</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(2140).png" alt="" width="563"><figcaption><p>Displaying limits on the website</p></figcaption></figure>
 
 {% hint style="warning" %}
 You can also specify min/max amounts for just one currency and enable recalculation of limits for another currency based on the exchange rate in the "Exchange Service Settings" ➔ "Basic Settings" section.\
-![](<../../.gitbook/assets/image (2143).png>)\
+![](../../.gitbook/assets/image%20\(2143\).png)\
 In this case, automatic limits will be set for the second currency.\
-![](<../../.gitbook/assets/image (2142).png>)
+![](../../.gitbook/assets/image%20\(2142\).png)
 
-![](<../../.gitbook/assets/image (2145).png>)
+<img src="../../.gitbook/assets/image%20(2145).png" alt="" data-size="original">
 {% endhint %}
 
 ## "User Information" Tab
 
-<figure><img src="../../.gitbook/assets/image (858).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(858).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Use exchange direction templates to simplify the process of creating new exchange directions. You can add templates in the site management panel under "**Exchange Directions**" → "**Exchange Direction Templates**." For each parameter, add a template that will automatically populate the corresponding field when a new exchange direction is created.
@@ -298,7 +298,7 @@ You can fill in the following request statuses at your discretion, keeping in mi
 
 ## "Restrictions and Checks" Tab
 
-<figure><img src="../../.gitbook/assets/image (161).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(161).png" alt=""><figcaption></figcaption></figure>
 
 **Visibility of Exchange Directions for Guests** — You can set privacy settings for exchange directions for users who are not registered on the site. Additional settings can also be found in the "**Exchange Settings**" → "**Exchange Filters**" section.
 
@@ -328,7 +328,7 @@ You can fill in the following request statuses at your discretion, keeping in mi
 
 **Prohibited IP Addresses and Masks (one per line)** — You can specify IP addresses and masks for which access to the exchange direction will be denied. Each value must be entered on a new line.
 
-<figure><img src="../../.gitbook/assets/image (160).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(160).png" alt="" width="563"><figcaption></figcaption></figure>
 
 **Max. Number of Exchange Requests from One IP per Day** — You can limit the number of requests that can be created from one IP address per day.
 
@@ -342,7 +342,7 @@ You can fill in the following request statuses at your discretion, keeping in mi
 
 Here’s a naturalistic English translation of the provided text:
 
----
+***
 
 **Maximum Number of Active Requests per User** — the highest number of open requests allowed for a single user.
 
@@ -354,7 +354,7 @@ Here’s a naturalistic English translation of the provided text:
 
 ## "Notification Settings" Tab
 
-<figure><img src="../../.gitbook/assets/image (162).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(162).png" alt="" width="563"><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 In version 2.7, the tab "**Exchange Direction Template**" has been renamed to "**Notification Settings**."
@@ -362,25 +362,25 @@ In version 2.7, the tab "**Exchange Direction Template**" has been renamed to "*
 
 **Template** — a text template for sending via the shortcode `[dirtemp]` in emails regarding requests for a specific exchange direction.
 
-<figure><img src="../../.gitbook/assets/image (2215).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(2215).png" alt=""><figcaption></figcaption></figure>
 
 **Administrator's E-mail/Phone/Telegram** — contact information for the administrator/operator for request emails (if one or more contact fields are filled out, data from the template above will be sent **only to the specified contacts**, ignoring the recipient list in the general template).
 
 ## "Additional Fields" Tab
 
-<figure><img src="../../.gitbook/assets/image (1075).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(1075).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Select the fields that the user must fill out when completing the exchange form. If you have enabled the "**Cash in Office ↔ WM**" check in H19, the "**Passport Number**" field is mandatory.
 
 ## "AML" Tab
 
-<figure><img src="../../.gitbook/assets/image (163).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(163).png" alt="" width="563"><figcaption></figcaption></figure>
 
 AML settings for the exchange direction are described in a [separate guide](https://premium.gitbook.io/main/osnovnye-nastroiki/proverka-aml/nastroika-v-v.2.7#nastroika-modulya-v-napravlenii-obmena).
 
 ## "Delete Unpaid Requests" Tab
 
-<figure><img src="../../.gitbook/assets/image (1223).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(1223).png" alt="" width="563"><figcaption></figcaption></figure>
 
 **Delete Requests with Status** — if necessary, select the status(es) of requests that will be automatically deleted after a specified time. It is generally recommended to delete requests with the status "**New Request**."
 
@@ -388,7 +388,7 @@ AML settings for the exchange direction are described in a [separate guide](http
 
 ## "Verification" Tab
 
-<figure><img src="../../.gitbook/assets/image (164).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(164).png" alt="" width="563"><figcaption></figcaption></figure>
 
 **Only for Verified Accounts on the Site** — the exchange direction can be made available only for verified accounts/wallets, meaning the user must complete a specific verification process on your site to access the direction. In the control panel, under "**User Accounts**" and in the "**Currencies**" section (when creating/editing a currency), you can make the appropriate [settings](https://premium.gitbook.io/rukovodstvo-polzovatelya/navigaciya/verifikaciya/verifikaciya-scheta) for this option.
 
@@ -424,7 +424,7 @@ Require a verified wallet in the payment system
 
 ## "Currency Accounts" Tab
 
-<figure><img src="../../.gitbook/assets/image (884).png" alt="" width="458"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(884).png" alt="" width="458"><figcaption></figcaption></figure>
 
 Method:
 
@@ -436,7 +436,7 @@ Accounts — check the boxes for the accounts that will be used in this exchange
 
 ## "TXT and XML Export Settings" Tab
 
-<figure><img src="../../.gitbook/assets/image (949).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(949).png" alt="" width="563"><figcaption></figcaption></figure>
 
 **Show in File:**\
 • **Yes** — include the exchange direction in XML and TXT files with rates\
@@ -447,7 +447,7 @@ Accounts — check the boxes for the accounts that will be used in this exchange
 
 **City Where Cash Exchange is Available** — if the exchange direction involves cash, you must specify the city code where cash is accepted or issued for this direction. You can find city codes [here](https://www.bestchange.ru/wiki/rates.html).
 
-**Tags for the param Parameter** — [additional tags](https://www.bestchange.ru/wiki/rates.html) that will be displayed in the <param></param> field in the XML file with rates.
+**Tags for the param Parameter** — [additional tags](https://www.bestchange.ru/wiki/rates.html) that will be displayed in the field in the XML file with rates.
 
 **Other Options:**
 
@@ -461,7 +461,7 @@ Accounts — check the boxes for the accounts that will be used in this exchange
 
 ## "Payment Receipts" Tab
 
-<figure><img src="../../.gitbook/assets/image (165).png" alt="" width="308"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(165).png" alt="" width="308"><figcaption></figcaption></figure>
 
 **Order Status for Enabling Upload** — check the statuses that will display the field for uploading receipts.
 
@@ -469,10 +469,9 @@ Accounts — check the boxes for the accounts that will be used in this exchange
 
 ## "Request Recalculation" Tab
 
-{% hint style="danger" %}
 The Electrum module for receiving funds allows for canceling transactions and replacing them, which can lead to losses for the exchanger if the settings below are not configured in your exchanger. No such cases have been found for other merchants, but we recommend using the settings below for complete protection of your funds.
 
---- 
+***
 
 Feel free to ask if you need any further assistance!
 
@@ -507,13 +506,13 @@ If the option is enabled, the payout amount will be recalculated based on the co
 • **Yes, if the payment amount has changed** — recalculation will occur with any change in the amount
 
 _If the actual amount paid by the user has changed to 990 USD, and the rate has not changed_ — _the amount to receive will be 77.024 DOGE_\
-_If the actual amount paid by the user has changed to 1010 USD, and the rate has not changed_ — _the amount to receive will be 78.58 DOGE_\
+&#xNAN;_&#x49;f the actual amount paid by the user has changed to 1010 USD, and the rate has not changed_ — _the amount to receive will be 78.58 DOGE_\
 • **Yes, if the payment amount has increased** — recalculation will occur only if the rate increases\
-_If the actual amount paid by the user has changed to 990 USD, and the rate has not changed_ — _the amount to receive will remain unchanged_\
-_If the actual amount paid by the user has changed to 1010 USD, and the rate has not changed_ — _the amount to receive will be 78.58 DOGE_\
+&#xNAN;_&#x49;f the actual amount paid by the user has changed to 990 USD, and the rate has not changed_ — _the amount to receive will remain unchanged_\
+&#xNAN;_&#x49;f the actual amount paid by the user has changed to 1010 USD, and the rate has not changed_ — _the amount to receive will be 78.58 DOGE_\
 • **Yes, if the payment amount has decreased** — recalculation will occur only if the rate decreases\
-_If the actual amount paid by the user has changed to 990 USD, and the rate has not changed_ — _the amount to receive will be 77.024 DOGE_\
-_If the actual amount paid by the user has changed to 1010 USD, and the rate has not changed_ — _the amount to receive will remain unchanged_
+&#xNAN;_&#x49;f the actual amount paid by the user has changed to 990 USD, and the rate has not changed_ — _the amount to receive will be 77.024 DOGE_\
+&#xNAN;_&#x49;f the actual amount paid by the user has changed to 1010 USD, and the rate has not changed_ — _the amount to receive will remain unchanged_
 
 ### **Recalculation Based on Exchange Rate**
 
@@ -542,14 +541,14 @@ The exchange rate constantly changes — if the option is enabled, the rate will
 • **Yes, if the rate has changed** — recalculation will occur with any change in the rate
 
 _If the rate changes from 12.853 to 12.85, the amount to pay will change_ — _the amount to receive will be 77.821 DOGE_\
-_If the rate changes from 12.853 to 12.9, the amount to pay will change_ — _the amount to receive will be 77.519 DOGE_\
+&#xNAN;_&#x49;f the rate changes from 12.853 to 12.9, the amount to pay will change_ — _the amount to receive will be 77.519 DOGE_\
 • **Yes, if the rate increases** — recalculation will occur only if the rate increases\
-_If the rate changes from 12.853:1 to 12.8:1, the amounts to pay and receive will remain unchanged_\
-_If the rate changes from 12.853:1 to 12.9:1, the amount to pay will change_ — _the amount to receive will be 77.519 DOGE_\
+&#xNAN;_&#x49;f the rate changes from 12.853:1 to 12.8:1, the amounts to pay and receive will remain unchanged_\
+&#xNAN;_&#x49;f the rate changes from 12.853:1 to 12.9:1, the amount to pay will change_ — _the amount to receive will be 77.519 DOGE_\
 • **Yes, if the rate decreases** — recalculation will occur only if the rate decreases
 
 _If the rate changes from 12.853:1 to 12.8:1, the amount to pay will change_ — _the amount to receive will be 78.125 DOGE_\
-_If the rate changes from 12.853:1 to 12.9:1, the amounts to pay and receive will remain unchanged_
+&#xNAN;_&#x49;f the rate changes from 12.853:1 to 12.9:1, the amounts to pay and receive will remain unchanged_
 
 In the admin panel, click on the line "**Time for Rate Recalculation**".
 
@@ -607,7 +606,7 @@ For example, if set to 5 minutes, there will be no recalculation during this tim
 
 ## Affiliate Program Tab
 
-<figure><img src="../../.gitbook/assets/image (166).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(166).png" alt="" width="563"><figcaption></figcaption></figure>
 
 **Affiliate Commissions** — Enable or disable commissions for the affiliate program for the selected exchange direction.
 

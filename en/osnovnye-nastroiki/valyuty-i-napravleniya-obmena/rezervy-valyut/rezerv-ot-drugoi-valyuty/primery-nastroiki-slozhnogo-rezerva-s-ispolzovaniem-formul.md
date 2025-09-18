@@ -9,19 +9,19 @@ Go to **"Modules" → "Modules"** and enable the **"Reserve Formula"** module if
 ### List of Available Shortcodes
 
 * **corresXX** — the amount of currency reserve adjustments.
-* **excursum_giveXX** — the total reserve of requests for the currency "Giving."
-* **excursum_getXX** — the total reserve of requests for the currency "Receiving."
-* **excursum_autoXX** — the total reserve of requests for the currency "Receiving" with statuses from the settings in the **"Exchange Settings" → "Reserve Settings"** section.
-* **cfilereserve_ZZ** — the reserve value for currency in row ZZ from the parsing reserve file.
-* **dfilereserve_ZZ** — the exchange direction reserve value for row ZZ from the parsing reserve file.
+* **excursum\_giveXX** — the total reserve of requests for the currency "Giving."
+* **excursum\_getXX** — the total reserve of requests for the currency "Receiving."
+* **excursum\_autoXX** — the total reserve of requests for the currency "Receiving" with statuses from the settings in the **"Exchange Settings" → "Reserve Settings"** section.
+* **cfilereserve\_ZZ** — the reserve value for currency in row ZZ from the parsing reserve file.
+* **dfilereserve\_ZZ** — the exchange direction reserve value for row ZZ from the parsing reserve file.
 * **payoutsXX** — the total of partner payouts for the currency.
 
 {% hint style="warning" %}
 If the partner program for the exchange direction is turned off, the **payoutsXX** parameter will have zero values.
 {% endhint %}
 
-* **\[parser_binance_btcusdt]** — the rate from the **"Parsers 2.0" → "Source Rates"** section.\
-  In this section, the shortcode appears as **\[binance_btcusdt]**, but when used in the reserve formula, you need to add the prefix **parser_**, making it look like **\[parser_binance_btcusdt]**.\
+* **\[parser\_binance\_btcusdt]** — the rate from the **"Parsers 2.0" → "Source Rates"** section.\
+  In this section, the shortcode appears as **\[binance\_btcusdt]**, but when used in the reserve formula, you need to add the prefix **parser\_**, making it look like **\[parser\_binance\_btcusdt]**.\
   The same rule applies to shortcodes for custom coefficients.
 
 **XX** — the currency ID displayed in the site management panel under the **"Currencies"** section. You can specify multiple IDs separated by commas.
@@ -33,14 +33,12 @@ If the partner program for the exchange direction is turned off, the **payoutsXX
 Let's consider an example that demonstrates how to link the reserve of the "Monobank" currency to the reserve of "Privat24."
 
 1. In the management panel under the **"Currencies"** section, find the currency IDs for "Privat24" (ID 5) and "Monobank" (ID 47).
-
 2. Proceed to edit the currencies "Privat24" and "Monobank." In the settings for both currencies, select the option **"Reserve Currency"** as **"By Formula."**
 3. In the field **"Reserve Formula"** that appears below, enter the following formula in the settings for both currencies:
 
 Now, let's complicate the example: we will link the reserves of "Monobank" (ID 47) and "Oschadbank" (ID 23) to the reserve of "Privat24" (ID 5). For all three currencies, we need to set the following formula:
 
 4. In the site management panel under **"Modules" → "Modules,"** activate the module **"Link to Update Currency Reserve (by Cron)"** if it has been deactivated. In the **"Currencies"** section for "Monobank," "Oschadbank," and "Privat24," a **"Link"** button will appear. For each currency in the example, click this button and copy the address of the opened page.
-
 5. Add each copied link to the task scheduler (cron) on the server. The link can be run every minute. Here’s an example command for the task scheduler in Unix format for the ISP Manager control panel:
 
 where **XX** — is the currency ID.
@@ -61,7 +59,7 @@ The formula will be as follows:
 
 Thus, for the primary currency (**ID 47**), we create the formula:
 
-**\[corres5,42,47,61] + \[excursum_give5,42,47,61] – \[excursum_get5,42,47,61] – \[payouts5,42,47,61]**
+**\[corres5,42,47,61] + \[excursum\_give5,42,47,61] – \[excursum\_get5,42,47,61] – \[payouts5,42,47,61]**
 
 This formula will yield the correct value. The only issue is that the currency reserve changes only when actions occur with our currency.
 
@@ -92,7 +90,7 @@ The formula will be as follows:
 
 Thus, for the primary currency with **ID 47**, we create the formula:
 
-**\[auto payout shortcode] – \[excursum_auto5,42,47,61] – \[payouts5,42,47,61]**
+**\[auto payout shortcode] – \[excursum\_auto5,42,47,61] – \[payouts5,42,47,61]**
 
 This formula will yield the correct value. The only issue is that the currency reserve changes only when actions occur with our currency.
 
@@ -130,13 +128,13 @@ Currencies for receiving the reserve value of the primary currency:\
 Reserve Settings:\
 **USDT TRC (368)**\
 **Reserve**: according to the formula\
-**Reserve Formula**: \[usdttrc\_westwallet] - \[excursum\_auto368] - (\[excursum\_auto348] * \[parser\_usdtbtc]) - (\[excursum\_auto362] * \[parser\_usdtdoge]) - (\[excursum\_auto355] * \[parser\_usdteth]) - (\[excursum\_auto404] * \[parser\_usdtsol])
+**Reserve Formula**: \[usdttrc\_westwallet] - \[excursum\_auto368] - (\[excursum\_auto348] \* \[parser\_usdtbtc]) - (\[excursum\_auto362] \* \[parser\_usdtdoge]) - (\[excursum\_auto355] \* \[parser\_usdteth]) - (\[excursum\_auto404] \* \[parser\_usdtsol])
 
 {% hint style="info" %}
 Let's break down the formula:\
-**\[usdttrc\_westwallet]** - the reserve obtained from the merchant (shortcode in the merchant settings)
+&#xNAN;**\[usdttrc\_westwallet]** - the reserve obtained from the merchant (shortcode in the merchant settings)
 
-<img src="../../../../.gitbook/assets/image (1103).png" alt="" data-size="original">
+<img src="../../../../.gitbook/assets/image%20(1103).png" alt="" data-size="original">
 
 **\[excursum\_auto368], \[excursum\_auto348], \[excursum\_auto362], \[excursum\_auto355], \[excursum\_auto404]** - shortcodes that sum the values "Received for Reserve" from all exchanges where the specified currencies are listed as "Received."
 
@@ -145,32 +143,32 @@ Let's break down the formula:\
 
 **Link to Reserve**: 348, 362, 355, 404
 
-<figure><img src="../../../../.gitbook/assets/image (314).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image%20(314).png" alt=""><figcaption></figcaption></figure>
 
 BTC (348)\
 **Reserve**: according to the formula\
-**Reserve Formula**: (\[usdttrc\_westwallet] - \[excursum\_auto368] - (\[excursum\_auto348] * \[parser\_usdtbtc]) - (\[excursum\_auto362] * \[parser\_usdtdoge]) - (\[excursum\_auto355] * \[parser\_usdteth]) - (\[excursum\_auto404] * \[parser\_usdtsol])) / \[parser\_usdtbtc]\
+**Reserve Formula**: (\[usdttrc\_westwallet] - \[excursum\_auto368] - (\[excursum\_auto348] \* \[parser\_usdtbtc]) - (\[excursum\_auto362] \* \[parser\_usdtdoge]) - (\[excursum\_auto355] \* \[parser\_usdteth]) - (\[excursum\_auto404] \* \[parser\_usdtsol])) / \[parser\_usdtbtc]\
 **Link to Reserve**: rc368
 
-<figure><img src="../../../../.gitbook/assets/image (831).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image%20(831).png" alt=""><figcaption></figcaption></figure>
 
 DOGE (362)\
 **Reserve**: according to the formula\
-**Reserve Formula**: (\[usdttrc\_westwallet] - \[excursum\_auto368] - (\[excursum\_auto348] * \[parser\_usdtbtc]) - (\[excursum\_auto362] * \[parser\_usdtdoge]) - (\[excursum\_auto355] * \[parser\_usdteth]) - (\[excursum\_auto404] * \[parser\_usdtsol])) / \[parser\_usdtdoge]\
+**Reserve Formula**: (\[usdttrc\_westwallet] - \[excursum\_auto368] - (\[excursum\_auto348] \* \[parser\_usdtbtc]) - (\[excursum\_auto362] \* \[parser\_usdtdoge]) - (\[excursum\_auto355] \* \[parser\_usdteth]) - (\[excursum\_auto404] \* \[parser\_usdtsol])) / \[parser\_usdtdoge]\
 **Link to Reserve**: rc368
 
-<figure><img src="../../../../.gitbook/assets/image (983).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image%20(983).png" alt=""><figcaption></figcaption></figure>
 
 ETH (355)\
 **Reserve**: according to the formula\
-**Reserve Formula**: (\[usdttrc\_westwallet] - \[excursum\_auto368] - (\[excursum\_auto348] * \[parser\_usdtbtc]) - (\[excursum\_auto362] * \[parser\_usdtdoge]) - (\[excursum\_auto355] * \[parser\_usdteth]) - (\[excursum\_auto404] * \[parser\_usdtsol])) / \[parser\_usdteth]\
+**Reserve Formula**: (\[usdttrc\_westwallet] - \[excursum\_auto368] - (\[excursum\_auto348] \* \[parser\_usdtbtc]) - (\[excursum\_auto362] \* \[parser\_usdtdoge]) - (\[excursum\_auto355] \* \[parser\_usdteth]) - (\[excursum\_auto404] \* \[parser\_usdtsol])) / \[parser\_usdteth]\
 **Link to Reserve**: rc368
 
-<figure><img src="../../../../.gitbook/assets/image (1190).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image%20(1190).png" alt=""><figcaption></figcaption></figure>
 
 SOL (404)\
 **Reserve**: according to the formula\
-**Reserve Formula**: (\[usdttrc\_westwallet] - \[excursum\_auto368] - (\[excursum\_auto348] * \[parser\_usdtbtc]) - (\[excursum\_auto362] * \[parser\_usdtdoge]) - (\[excursum\_auto355] * \[parser\_usdteth]) - (\[excursum\_auto404] * \[parser\_usdtsol])) / \[parser\_usdtsol]\
+**Reserve Formula**: (\[usdttrc\_westwallet] - \[excursum\_auto368] - (\[excursum\_auto348] \* \[parser\_usdtbtc]) - (\[excursum\_auto362] \* \[parser\_usdtdoge]) - (\[excursum\_auto355] \* \[parser\_usdteth]) - (\[excursum\_auto404] \* \[parser\_usdtsol])) / \[parser\_usdtsol]\
 **Link to Reserve**: rc368
 
-<figure><img src="../../../../.gitbook/assets/image (944).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image%20(944).png" alt=""><figcaption></figcaption></figure>

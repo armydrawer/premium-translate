@@ -5,7 +5,7 @@ Make sure to specify the actual internal exchange rate to USD for currencies use
 
 To do this, go to the "**Currencies**" → "**Currency Codes**" section, manually set the exchange rate to USD for the selected currencies, or use the auto-correction feature (add the necessary rates following the [instructions](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya-obmena/kursy-valyut/parser-kursov-valyut-parsery-2.0)).
 
-<h2 align="center"><img src="../../.gitbook/assets/image (2206).png" alt="" data-size="original"></h2>
+<h3 align="center"><img src="../../.gitbook/assets/image%20(2206).png" alt="" data-size="original"></h3>
 {% endhint %}
 
 {% hint style="success" %}
@@ -20,17 +20,17 @@ When this module is activated, the "**Profit**" block will disappear from the "*
 
 Go to the "**Exchange Directions**" → "**Exchange Directions**" section, select the desired exchange direction from the list, and click on the "**Edit**" link.
 
-<figure><img src="../../.gitbook/assets/image (848).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(848).png" alt=""><figcaption></figcaption></figure>
 
 Open the "**Rate**" tab and find the "**Profit**" parameter.
 
 {% hint style="warning" %}
 If the "**Profit**" block does not appear on the tab, disable the "**Automatic Profit Calculation**" module in the "**Modules**" section.
 
-![](<../../.gitbook/assets/image (604).png>)
+<img src="../../.gitbook/assets/image%20(604).png" alt="" data-size="original">
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (931).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(931).png" alt=""><figcaption></figcaption></figure>
 
 In the "**Profit**" section, for each of the "**From Amount Giving/Receiving**" parameters, you will find two fields for "**Giving**" and two fields for "**Receiving**." The first field is a fixed amount for the partner exchange - _"_**S**_"_, and the second is a percentage of the amount "**Giving**" or "**Receiving**" - _"_**%**_"_.
 
@@ -42,7 +42,7 @@ The profit value in the settings of each direction on the "**Rate**" tab in the 
 • If the profit size is set to **100%**, the partner program will operate on the principle of "a percentage of the exchange amount."\
 • If the profit size is set to **3%**, the partner program will operate on the principle of "a percentage of the exchanger's profit."
 
-<figure><img src="../../.gitbook/assets/image (1022).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(1022).png" alt=""><figcaption></figcaption></figure>
 
 ## **Setting Up Partner Deductions**
 
@@ -59,10 +59,10 @@ You can specify the profit value for both "Giving" and "Receiving" fields simult
 {% hint style="info" %}
 Example Calculation:\
 Exchanging 50 USD for 40 EUR.\
-Profit percentage for the currency "**Giving**" = 100%. \
+Profit percentage for the currency "**Giving**" = 100%.\
 Partner percentage = 0.5%.\
 \
-Since the profit = 100%, the 50 USD is the amount from which we take 0.5%, resulting in 0.25 USD. \
+Since the profit = 100%, the 50 USD is the amount from which we take 0.5%, resulting in 0.25 USD.\
 This 0.25 USD will be received by the partner as their reward.
 {% endhint %}
 
@@ -82,7 +82,7 @@ You can also specify the profit value for both "Giving" and "Receiving" fields, 
 Example Calculation:\
 Exchanging 50 USD for 40 EUR.\
 Profit = 3% set for the currency "**Giving**".\
-Partner percentage = 50%. \
+Partner percentage = 50%.\
 \
 We calculate the exchanger's profit for this direction and get [1.5 USD](#user-content-fn-1)[^1].\
 We calculate the partner's reward and get [0.75 USD](#user-content-fn-2)[^2].\
@@ -109,15 +109,15 @@ Starting from version 2.6, the script allows for using deductions from the amoun
 
 To do this, set up the partner program according to the instructions above, selecting the "basic" model in the "**Partner Program**" ➔ "**Settings**" section.
 
-<figure><img src="../../.gitbook/assets/image (97).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(97).png" alt=""><figcaption></figcaption></figure>
 
 After that, in the partner settings (in the "**Users**" section), for those partners whose rewards should be calculated using a different model, select an alternative option (if the "**Default**" option is selected, the model from the "**Partner Program**" ➔ "**Settings**" section will apply).
 
-<figure><img src="../../.gitbook/assets/image (98).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(98).png" alt=""><figcaption></figcaption></figure>
 
 ## Setting Up the Partner Program in the Exchange Direction
 
-<figure><img src="../../.gitbook/assets/image (929).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(929).png" alt=""><figcaption></figcaption></figure>
 
 **Partner Deductions** _—_ you can limit payouts under the partner program in the direction.
 
@@ -139,13 +139,13 @@ The next step is to specify how much the partner will earn from the profits of t
 
 Go to the "**Users**" section, find the desired user, and proceed to edit their profile.
 
-<figure><img src="../../.gitbook/assets/Screenshot_31 (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_31%20(3).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Screenshot_32 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_32%20(2).png" alt=""><figcaption></figcaption></figure>
 
 In the user settings, locate the "**Personal Partner Percentage**" option and enter the desired percentage in that field.
 
-<figure><img src="../../.gitbook/assets/Screenshot_33 (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_33%20(3).png" alt=""><figcaption></figcaption></figure>
 
 When an exchange is made through the partner link, a percentage of the transaction amount in dollars is calculated, and 30% of that amount is given to the partner.
 
@@ -153,18 +153,18 @@ When an exchange is made through the partner link, a percentage of the transacti
 
 If you want to set a percentage for all users and establish a general value, you need to go to the "**Affiliate Program" -> "Payouts"** section.
 
-<figure><img src="../../.gitbook/assets/Screenshot_34 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_34%20(2).png" alt=""><figcaption></figcaption></figure>
 
 Navigate to the table where some default partner percentage settings have already been created based on the total amount of exchanges.
 
 The table will indicate what percentage a user receives from the exchange amount. This amount is cumulative—the percentage will change depending on the total amount of exchanges made through a specific link.
 
-<figure><img src="../../.gitbook/assets/Screenshot_35 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_35%20(1).png" alt=""><figcaption></figcaption></figure>
 
 This percentage is adjusted for all users who have registered and created a partner account.
 
-[^1]: (50*0.03)
+[^1]: (50\*0.03)
 
-[^2]: 1.5 USD * 0.5 (50%)
+[^2]: 1.5 USD \* 0.5 (50%)
 
 [^3]: at the specified exchange rate for the currency in the "**Currencies**" -> "**Currency Codes**" section.

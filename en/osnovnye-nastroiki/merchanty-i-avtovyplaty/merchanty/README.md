@@ -1,1 +1,2 @@
-The term "мерчанты" translates to "merchants" in English. If you need a more contextual translation or additional information, please provide more details!
+# Merchants
+
