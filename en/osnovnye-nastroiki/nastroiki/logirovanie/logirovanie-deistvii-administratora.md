@@ -14,7 +14,7 @@ You can view the changes made to a request by the administrator/operator. To do 
 
 <figure><img src="../../../.gitbook/assets/image (976).png" alt=""><figcaption></figcaption></figure>
 
-In the window that opens, below the "**Edit**" button, all changes made to this request will be displayed (old data will be shown in red, and new data in black). Additionally, the following information will be displayed:
+In the window that opens, under the "**Edit**" button, all changes made to the request will be displayed, if any (old data will be shown in red, and new data in black). Additionally, the following information will be displayed:
 - Date and time of the changes
 - User who made the changes
 
@@ -22,7 +22,7 @@ In the window that opens, below the "**Edit**" button, all changes made to this 
 
 ## Version 2.7 and Above
 
-In addition to logging changes made to requests, the logging of administrator/operator actions will also be recorded in the following sections (if multiple changes are made at once, they will be displayed in a single entry):
+In addition to logging changes made to requests, administrator/operator actions (changes made) will also be recorded in the following sections (if multiple changes are made at once, they will be displayed in a single entry):
 
 *   Exchange Direction Settings
 

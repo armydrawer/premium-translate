@@ -7,7 +7,7 @@ To ensure that some or all user sections are disabled during non-working hours a
 ## Operational Status Section
 
 {% hint style="warning" %}
-Settings in this section only affect the display of the operator's status on the website pages; automatic exchanges (receiving and paying out with merchant involvement) will function regardless of the settings.
+Settings in this section only affect the display of the operator's status on the website pages; automatic exchanges (involving merchant transactions) will function regardless of these settings.
 {% endhint %}
 
 ### Settings
@@ -19,7 +19,7 @@ In the "**Settings**" subsection, you can configure the operational modes of the
 **Status Determination Principle:**\
 • **Manual** — the status must be switched manually in the "**Manual Mode Settings**" block.\
 • **Automatic** —\
-• **Schedule** — the status will automatically change according to a pre-established schedule.
+• **Schedule** — the status will automatically change according to a pre-set schedule.
 
 **Operator Button:**
 
@@ -37,7 +37,7 @@ In the "**Settings**" subsection, you can configure the operational modes of the
 
 **"Online" Link** — the link to the page that will be accessed when the button is clicked while the operator is online.
 
-**Status** — manual status switching (works in conjunction with the **"Status Determination Principle"** option — "**Manual**")\
+**Status** — manual status switching (works in conjunction with the **"Status Determination Principle"** — "**Manual**")\
 • **Offline**\
 • **Online**
 
@@ -62,7 +62,7 @@ If necessary, you can create multiple schedules for the website for different st
 ## Maintenance Mode
 
 {% hint style="warning" %}
-When maintenance mode is activated, creating new requests on the website will be prohibited.
+When maintenance mode is enabled, creating new requests on the website will be prohibited.
 {% endhint %}
 
 ### Settings
@@ -71,7 +71,7 @@ When maintenance mode is activated, creating new requests on the website will be
 
 **How to Switch Maintenance Mode:**\
 • **Manually** — the mode must be switched manually.\
-• **Based on Operator Status** — the mode will switch depending on the operator's status.
+• **Based on Operator Status** — the mode will switch according to the operator's status.
 
 **Maintenance Mode** — previously created modes will be displayed in the dropdown list.
 
@@ -81,7 +81,7 @@ When maintenance mode is activated, creating new requests on the website will be
 
 **Name for the Website** — the name of the mode that will be displayed in the dropdown list in the "**Maintenance Mode**" settings.
 
-**Text for Clients** — the text that will be displayed on the exchange service pages when the option "**Do not hide and display text**" is selected for the blocks listed below.
+**Text for Clients** — the text that will be displayed on the exchange service pages when the option "**Do not hide and display text**" is selected for the blocks below.
 
 For the parameters:\
 • **Exchange Direction Selection Table on the Main Page**\
@@ -97,13 +97,13 @@ the following options are available:\
 • **Do not hide and display text** — the block will be displayed on the page when the selected mode is active, and the text from the "**Text for Clients**" field will be shown above the block.\
 • **Hide** — the block will not be displayed on the page when the selected mode is active.
 
-**Activate Mode When Operator Status is** — select the operator status that will activate this mode.\
+**Activate Mode When Operator Status Is** — select the operator status that will activate this mode.\
 • **Offline** \
 • **Online**
 
 **Apply Mode:**\
 • **For Users and Administrators** — the mode will apply to all users, regardless of role and status.\
-• **For Users** — the mode will apply only to users of the exchange service.
+• **For Users Only** — the mode will apply only to exchange service users.
 
 ### **Maintenance Mode**
 

@@ -4,7 +4,7 @@
 
 <figure><img src="../../.gitbook/assets/image (84).png" alt=""><figcaption></figcaption></figure>
 
-**Site Icon** — This is the icon you see in browser tabs, bookmarks, and within mobile WordPress applications. It should be square and have a resolution of at least 512 x 512 pixels.
+**Site Icon** — This is the icon you see in browser tabs, bookmarks, and within mobile WordPress applications. It should be square with a resolution of at least 512 x 512 pixels.
 
 **WordPress Address (URL)** — Your domain.
 
@@ -14,11 +14,11 @@
 
 **New User Role** — The role assigned to users registering on the exchange (select the role "**User**").
 
-**Time Zone** — Choose a city in your time zone or a UTC offset (Coordinated Universal Time).
+**Time Zone** — Choose a city in your time zone or a UTC (Coordinated Universal Time) offset.
 
-**Date Format** — Select the date format **d.m.Y** (1 point).
+**Date Format** — Select the date format **d.m.Y** (1 option).
 
-**Time Format** — Select the time format **H:i** (1 point).
+**Time Format** — Select the time format **H:i** (1 option).
 
 **First Day of the Week** — Choose Monday.
 
@@ -26,7 +26,7 @@
 
 <figure><img src="../../.gitbook/assets/image (1276).png" alt=""><figcaption></figcaption></figure>
 
-**Permalink Structure** — Choose "**Post Name**" (5 points).
+**Permalink Structure** — Select "**Post Name**" (5 option).
 
 **Category Prefix** — Leave this field empty.
 
@@ -42,18 +42,18 @@
 
 **Administrator Email** — The email address of the administrator, where emails from the script will be sent.
 
-**Link to Terms of Service Page** — The link to the exchange rules page (default URL — `/tos/`).
+**Link to Terms Page** — A link to the terms of exchange page (default URL — `/tos/`).
 
-**Checkboxes in Forms (Personal Data Processing)** — Mark the checkbox for personal data processing in the exchange form.
+**Checkbox for Personal Data Processing** — Mark the checkbox for personal data processing in the exchange form.
 
 * **Check by default**
 * **Do not check by default**
 
 **Maintenance Text** — The text that will be displayed on the site when it is in maintenance mode.
 
-**Admin Panel URL** — The URL for logging into the site's admin panel (default URL — `/prmmxchngr/`). If you forget the login URL, you can recover it using the [instructions](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-vosstanovit-dostup-v-panel-upravleniya-obmennikom#uteryan-url-dlya-vkhoda-v-panel-upravleniya).
+**Admin Panel URL** — The URL for logging into the site's admin panel (default URL — `/prmmxchngr/`). If you forget the login URL, you can recover it by following the [instructions](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-vosstanovit-dostup-v-panel-upravleniya-obmennikom#uteryan-url-dlya-vkhoda-v-panel-upravleniya).
 
-**Jivosite.ru ID** — The ID for installing [online chat on the site](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-ustanovit-onlain-chat).
+**Jivosite.ru ID** — The ID for setting up [online chat on the site](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-ustanovit-onlain-chat).
 
 **Jivosite.ru ID (Yandex)** — The ID for tracking statistics with [Yandex.Metrica](https://yandex.ru/support/metrica/integrated-goal/jivo-goal.html).
 
@@ -85,13 +85,13 @@
 
 <figure><img src="../../.gitbook/assets/image (1281).png" alt=""><figcaption></figcaption></figure>
 
-**AJAX Checker for Admin Panel** — Enable the checker to update application data without reloading the page for the "**Applications**" and "**Applications**" ➔ "**LIVE Applications**" sections.
+**AJAX Checker for Admin Panel** — Enable a checker to update application data without reloading the page for the "**Applications**" and "**Applications**" ➔ "**LIVE Applications**" sections.
 
 **Request Frequency from Admin Panel (seconds)** — The frequency of requests from the admin panel for new applications.
 
-**AJAX Checker for Site** — Enable the checker to update application data from the site.
+**AJAX Checker for Site** — Enable a checker to update application data from the site.
 
-**Request Frequency from Site (seconds)** — The frequency of requests from the site for new applications (this option may create additional server load).
+**Request Frequency from Site (seconds)** — The frequency of requests from the site for new applications (this option may create additional load on the server).
 
 ## Cron
 
@@ -103,7 +103,7 @@ In this section, you choose how often data will be updated for the specified opt
 
 **"On Site" Option (pseudo-cron)**:
 
-For the task to execute for the "On Site" option, a user must visit the site. You can set an interval for the task to run if users have been on the site during that interval. If you choose the "On Request" option, the task will execute with each visit to the site by a unique user.
+For the task to execute for the "On Site" option, a user must visit the site. You can set an interval for the task to run if there have been users on the site during that interval. If you choose the "On Request" option, the task will execute with each visit to the site by a unique user.
 
 If your site has low traffic, we recommend always using the "On Server" option.
 
@@ -111,7 +111,7 @@ If your site has low traffic, we recommend always using the "On Server" option.
 
 **"On Server" Option**:
 
-For example, if an interval of 5 minutes is set for the "On Server" option, a task will run every 5 minutes to check the cron task on the server (but if the [cron task](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-sozdat-zadanie-cron-na-servere) for the specified task is **not created** on the server (link for the task is in the "**Cron File**" button), then the option will not work).
+For example, if an interval of 5 minutes is set for the "On Server" option, a task will run every 5 minutes to check the cron task on the server (but if the [cron task](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-sozdat-zadanie-cron-na-servere) for the specified task has **not been created** on the server (link for the task is on the "**Cron File**" button), then the option will not work).
 
 **Optimal Settings for the Section:**
 

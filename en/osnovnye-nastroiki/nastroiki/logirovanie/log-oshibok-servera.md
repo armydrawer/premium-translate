@@ -24,18 +24,18 @@ The log directory may be located in a different path on your server.
 If you can't find the logs at the specified path, use the search function:\
 \
 In the root folder, click "Search"\
-![](<../../../.gitbook/assets/image (54).png>)
+![](<../../../.gitbook/assets/изображение (54).png>)
 
 In the window that opens, enter **logs** in the "Name Mask" field, check the box for "**Search in subdirectories**," and click "**Find**":\
-![](<../../../.gitbook/assets/image (79).png>)
+![](<../../../.gitbook/assets/изображение (79).png>)
 
 In the search results window, open the folder containing the logs:\
-![](<../../../.gitbook/assets/image (154).png>)
+![](<../../../.gitbook/assets/изображение (154).png>)
 {% endhint %}
 
-## Configuring Log Recording
+## Configuring Log Output
 
-If the log file is missing or the file is empty, enable error reporting in the PHP settings (select the version your site is running on):
+If the log file is missing or the file is empty, enable error reporting in your PHP settings (select the version your site is running on):
 
 <figure><img src="../../../.gitbook/assets/image (799).png" alt=""><figcaption></figcaption></figure>
 
@@ -43,7 +43,7 @@ It is also recommended to enable error reporting in the `wp-config.php` file loc
 
 <figure><img src="../../../.gitbook/assets/image (800).png" alt=""><figcaption></figcaption></figure>
 
-Open the file, [replace **false** with **true**](#user-content-fn-1)[^1] in the specified location, and save the changes.
+Open the file, [replace **false** with **true**](#user-content-fn-1)[^1] in the specified location, and save your changes.
 
 <figure><img src="../../../.gitbook/assets/image (801).png" alt=""><figcaption></figcaption></figure>
 

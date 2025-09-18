@@ -6,5 +6,5 @@ In this section ("**Modules**" -> "**AML Logs**"), you can view the logs generat
 
 To make it easier to find specific data, you can use filters based on two criteria:
 
-* **Start Date** — exclude logs that were generated before the specified date
-* **End Date** — exclude logs that were generated after the specified date
+* **Start Date** — do not display logs received before the specified date
+* **End Date** — do not display logs received after the specified date

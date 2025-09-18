@@ -6,11 +6,11 @@ This section displays the main settings for the exchange service, applicable to 
 
 <figure><img src="../../.gitbook/assets/image (1776).png" alt="" width="292"><figcaption></figcaption></figure>
 
-**Update Mode** — The update mode is automatically activated when the exchange service is switched to maintenance mode or when the Premium Exchanger plugin is reactivated in the "**Plugins**" section. After switching the exchange service back to normal operation, this option must be deactivated.
+**Update Mode** — The update mode is automatically activated after the exchange service is switched to maintenance mode or after reactivating the Premium Exchanger plugin in the "**Plugins**" section. To return the exchange service to normal operation, this option must be deactivated.
 
 **Remember Successful Security Password Entry** — When this option is enabled, after the first entry of [each set password](https://premium.gitbook.io/main/osnovnye-nastroiki/nastroiki/paroli-bezopasnosti) (such as saving settings in the merchant module, attempting auto-payment, etc.), the password will not be requested again, and the action will be executed immediately.
 
-**Remove Copy Button in Requests** — When this option is activated, the quick copy button for details will be removed from the "Requests" section.
+**Remove Copy Button in Requests** — When this option is activated, the quick copy button for account details will be removed from the "Requests" section.
 
 <figure><img src="../../.gitbook/assets/image (1782).png" alt=""><figcaption></figcaption></figure>
 
@@ -20,13 +20,13 @@ This section displays the main settings for the exchange service, applicable to 
 
 <figure><img src="../../.gitbook/assets/image (1777).png" alt="" width="466"><figcaption></figcaption></figure>
 
-**Type of Currency Exchange Direction Table** — Choose the [table](https://premium.gitbook.io/main/osnovnye-nastroiki/vneshnii-vid/vidy-tablic-napravlenii-obmena) to display on the main page of the site.
+**Type of Currency Exchange Direction Table** — Choose the [table](https://premium.gitbook.io/main/osnovnye-nastroiki/vneshnii-vid/vidy-tablic-napravlenii-obmena) to display on the main page of the website.
 
-**Default Exchange Direction in the Selection Table** — Select the exchange direction that will be displayed by default when navigating to the main page of the site.
+**Default Exchange Direction in the Selection Table** — Select the exchange direction that will be displayed by default when navigating to the main page of the website.
 
-**If a Nonexistent Direction is Selected:**
+**If a Non-existent Direction is Selected:**
 
-* **Show Error** — An error will be displayed if a nonexistent exchange direction is selected.
+* **Show Error** — An error will be displayed if a non-existent exchange direction is selected.
 * **Show Nearest** — The nearest active exchange direction will be displayed.
 
 **Show in Exchange Form:**
@@ -34,7 +34,7 @@ This section displays the main settings for the exchange service, applicable to 
 * **All Currencies** — All currencies created in the exchange service will be displayed.
 * **Only Available Currencies for Exchange** — Only currencies available for exchange will be displayed.
 
-**Hide Currency Codes Above the Exchange Direction Selection Table** — When this option is activated, the filter panel for currency type/code will be hidden on the main page of the site.
+**Hide Currency Codes Above the Exchange Direction Selection Table** — When this option is activated, the filter panel for currency type/code will be hidden on the main page of the website.
 
 <figure><img src="../../.gitbook/assets/image (1783).png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -43,7 +43,7 @@ This section displays the main settings for the exchange service, applicable to 
 * **On the Main Page** — The exchange form will open on the main page without changing the URL.
 * **On a New Page** — The exchange form will open on a new page.
 
-**Hide Min and Max Amount Errors in the Selection Table** — When this option is activated, errors will not be displayed if the amount entered by the client is outside the min/max range; the request will not be created in this case.
+**Hide Min and Max Amount Errors in the Selection Table** — When this option is activated, errors will not be displayed if the amount entered by the client is outside the min/max range; however, the request will not be created.
 
 ## Exchange Form Settings
 
@@ -54,14 +54,14 @@ This section displays the main settings for the exchange service, applicable to 
 * **All Currencies** — All currencies created in the exchange service will be displayed.
 * **Only Available Currencies for Exchange** — Only currencies available for exchange will be displayed.
 
-**If a Nonexistent Direction is Selected:**
+**If a Non-existent Direction is Selected:**
 
-* **Show Error** — An error will be displayed if a nonexistent exchange direction is selected.
+* **Show Error** — An error will be displayed if a non-existent exchange direction is selected.
 * **Show Nearest** — The nearest active exchange direction will be displayed.
 
-**Hide Min and Max Amount Errors in the Selection Table** — When this option is activated, errors will not be displayed if the amount entered by the client is outside the min/max range; the request will not be created in this case.
+**Hide Min and Max Amount Errors in the Selection Table** — When this option is activated, errors will not be displayed if the amount entered by the client is outside the min/max range; however, the request will not be created.
 
-**Prohibit Saving Request Data** — When this option is activated, the checkbox for saving the data entered in the exchange form will be disabled, and the data will not be saved (if the client creates a new request in the same direction, they will need to re-enter all data).
+**Prevent Saving Request Data** — When this option is activated, the checkbox for saving the data entered in the exchange form will be disabled, and the data will not be saved (if the client creates a new request in the same direction, they will need to re-enter all data).
 
 <figure><img src="../../.gitbook/assets/image (1784).png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -69,11 +69,11 @@ This section displays the main settings for the exchange service, applicable to 
 
 <figure><img src="../../.gitbook/assets/image (1779).png" alt="" width="563"><figcaption></figcaption></figure>
 
-**Use Step 2 of the Exchange, Where the User Confirms Their Details** — When this option is activated, the agreement to the exchange terms will be moved to the next step after clicking the "**Continue**" button.
+**Use Step 2 of the Exchange, Where the User Confirms Their Details** — When this option is activated, agreement to the exchange terms will be moved to the next step after clicking the "**Continue**" button.
 
 <figure><img src="../../.gitbook/assets/image (1798).png" alt="" width="375"><figcaption></figcaption></figure>
 
-**Text for the Checkbox Accepting Rules Before Creating a Request** — Text for the line accepting the [exchange rules](https://premium.gitbook.io/main/osnovnye-nastroiki/nastroiki/stranicy-pravila-saita-pravila-provedeniya-proverok-aml-kyc-kyt).
+**Text for Acceptance Checkbox Before Creating a Request** — Text for the line accepting the [exchange rules](https://premium.gitbook.io/main/osnovnye-nastroiki/nastroiki/stranicy-pravila-saita-pravila-provedeniya-proverok-aml-kyc-kyt).
 
 **Exchange Amount is** — Choose the type of amount that will be used as the main amount for exchange statistics calculations.
 
@@ -92,23 +92,23 @@ This section displays the main settings for the exchange service, applicable to 
 
 **Dependency of Minimum and Maximum Amount:**
 
-* **No** — Only the specified min/max limits set in the "**Exchange Amount**" tab in the exchange direction settings will be indicated in the exchange form.
+* **No** — The exchange form will only show the min/max limits specified in the "**Exchange Amount**" tab in the exchange direction settings.
 
 <figure><img src="../../.gitbook/assets/image (1803).png" alt=""><figcaption></figcaption></figure>
 
-* **Yes, Across the Entire Site** — The exchange form (as well as in the [export XML file](https://premium.gitbook.io/main/osnovnye-nastroiki/nastroiki/opisanie-modulei#nastroika-vyvoda-napravlenii-obmena-v-xml-txt-faile)) will display amount limits for both currencies, even if the min or max amount is not filled in for one of the two currencies in the "**Exchange Amount**" tab in the exchange direction settings. Amounts that are not specified will be recalculated according to the exchange rate in this exchange direction.
+* **Yes, Site-wide** — The exchange form (as well as in the [export XML file](https://premium.gitbook.io/main/osnovnye-nastroiki/nastroiki/opisanie-modulei#nastroika-vyvoda-napravlenii-obmena-v-xml-txt-faile)) will display amount limits for both currencies, even if the min or max amount is not filled for one of the two currencies in the "**Exchange Amount**" tab in the exchange direction settings. Amounts that are not specified will be recalculated according to the exchange rate for that exchange direction.
 
 <figure><img src="../../.gitbook/assets/image (1804).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 In the XML file, min/max amounts are always displayed **only** for the currency in "**Giving**" from the exchange direction. \
 ![](<../../.gitbook/assets/image (1805).png>)\
-If the option for "**Dependency of Minimum and Maximum Amount**" is set to "**No**" and min/max amounts are specified only for the currency in "**Receiving**," there will be no exchange amount limits in the XML file for this exchange direction.
+If the option for "**Dependency of Minimum and Maximum Amount**" is set to "**No**" and min/max amounts are specified only for the currency in "**Receiving**," there will be no exchange amount limits in the XML file for that exchange direction.
 {% endhint %}
 
-* **Yes, in the Export File** — Min/max amounts will be recalculated for the currency in "**Giving**" if no limits were set for that currency in the exchange direction settings; the recalculated values will apply **only** to the XML file, while the values displayed in the exchange form on the site will be only those specified in the "**Exchange Amount**" tab in the exchange direction settings.
+* **Yes, in Export File** — Min/max amounts will be recalculated for the currency in "**Giving**" if no limits were set for that currency in the exchange direction settings; the recalculated values will apply **only** to the XML file, while the exchange form on the website will display only the values specified in the "**Exchange Amount**" tab in the exchange direction settings.
 
-**Send Email to Admin if Admin Changes Request Status Themselves** — Disable sending emails to the administrator specified in the "**Messages**" -> "**Email Templates**" section for active [admin templates](https://premium.gitbook.io/main/osnovnye-nastroiki/uvedomleniya-administratoram-i-klientam/uvedomleniya-po-e-mail#nastroika-shablonov-pisem) for request statuses if the administrator manually changes the request status in the "**Requests**" section.
+**Send Email to Admin if Admin Changes Request Status** — Disable sending emails to the administrator specified in the "**Messages**" -> "**Email Templates**" section for active [admin templates](https://premium.gitbook.io/main/osnovnye-nastroiki/uvedomleniya-administratoram-i-klientam/uvedomleniya-po-e-mail#nastroika-shablonov-pisem) for request statuses if the administrator manually changes the request status in the "**Requests**" section.
 
 **Calculate Limits "On the Fly"** — Calculate limit amounts for exchange directions.
 
@@ -123,9 +123,9 @@ If the option for "**Dependency of Minimum and Maximum Amount**" is set to "**No
 * **Do Not Hide Last 4 Characters**
 * **Do Not Hide First 4 and Last 4 Characters**
 
-**Merchant's Place of Work (Recommended Option for Selection — **"When Creating a Request"):**
+**Merchant's Place of Work (Recommended Option for Selection — **"Upon Request Creation"):**
 
-* **When Creating a Request** — Request for details from the merchant will be made during the creation of the request.
+* **Upon Request Creation** — Request for details from the merchant will be made during the request creation.
 * **On the Request Page** — Request for details from the merchant will be made for an already created request.
 * **On the Merchant Module Page** — Request for details from the merchant will be made when opening the merchant's payment page (relevant only if all used merchants employ this format).
 
@@ -150,11 +150,11 @@ Here’s a naturalistic English translation of the provided text:
 
 **Enable auto-payment if the received amount exceeds the required amount** — the option to enable automatic payment if the amount actually paid by the client exceeds the original amount from the application.
 
-**Number of applications processed during the payment timeout cron** — the number of delayed/frozen applications using auto-payments for which payment attempts will be made.
+**Number of applications processed within the payment timeout cron** — the number of pending/frozen applications using auto-payments for which payment attempts will be made.
 
 <figure><img src="../../.gitbook/assets/image (1780).png" alt="" width="519"><figcaption></figcaption></figure>
 
-**Select application statuses for notifications in the top bar** — notifications with a counter of applications in the selected statuses in the top bar under the "**Applications**" section.
+**Select application statuses for notifications in the top bar** — notifications with a counter of applications in the selected statuses in the "**Applications**" section of the top bar.
 
 <figure><img src="../../.gitbook/assets/image (347).png" alt=""><figcaption></figcaption></figure>
 
@@ -164,15 +164,15 @@ Here’s a naturalistic English translation of the provided text:
 
 <figure><img src="../../.gitbook/assets/image (345).png" alt="" width="441"><figcaption><p>Displaying the rate without zeros</p></figcaption></figure>
 
-**Separate numbers in the exchange rate with spaces** — separating large numbers by digits for easier readability.
+**Separate numbers in the exchange rate with spaces** — separating large numbers by thousands for easier readability.
 
 **Max. number of decimal places in calculations on the site** — the number of decimal places used in calculations (applies only to the recording of values in the database).
 
 **Max. number of decimal places in calculations for currency reserves** — the number of decimal places used for currency reserves (applies only to the recording of values in the database).
 
-**Max. number of decimal places in calculations for currency exchange rates** — the number of decimal places used in currency exchange rate calculations (applies only to the recording of values in the database).
+**Max. number of decimal places in calculations for currency exchange rates** — the number of decimal places used in calculations for currency rates (applies only to the recording of values in the database).
 
-**Blocked email domains** — email domains from which users will not be able to create applications (relevant when applications are created by bots with the aim of disrupting the stable operation of the exchange service).
+**Blocked email domains** — email domains from which users will not be able to create applications (relevant when applications are created by bots aiming to disrupt the stable operation of the exchange service).
 
 <figure><img src="../../.gitbook/assets/image (1781).png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -180,7 +180,7 @@ Here’s a naturalistic English translation of the provided text:
 
 **Newbie check** — 
 
-**Method for determining a newbie** — 
+**Method for determining newbies** — 
 
 **Warning text before creating an application for newbies** — 
 
@@ -194,4 +194,4 @@ Here’s a naturalistic English translation of the provided text:
 
 --- 
 
-Let me know if you need any further assistance!
+Feel free to ask if you need any further modifications or additional translations!

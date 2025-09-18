@@ -25,9 +25,9 @@ For easier searching of specific data, you can use filters based on five criteri
 
 <figure><img src="../../../.gitbook/assets/image (1065).png" alt=""><figcaption></figcaption></figure>
 
-* **API Login** — display only logs received while using this login
-* **API Key** — display only logs received while using this key
-* **Source** — display only logs received from this address
+* **API Login** — display only logs associated with this login
+* **API Key** — display only logs associated with this key
+* **Source** — display only logs from this address
 * **Start Date** — do not display logs received before the specified date
 * **End Date** — do not display logs received after the specified date
 

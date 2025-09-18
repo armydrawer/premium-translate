@@ -1,6 +1,6 @@
 # Hooks
 
-Through the hooks file, you can add some options that are not available in the default script.
+Through the hooks file, you can add some options that are not available in the script "out of the box."
 
 To do this, place the necessary hooks in the file **`wp-content/plugins/premiumhook/premiumhook.php`**.
 
@@ -11,17 +11,17 @@ Insert the hooks after the lines indicated below on new lines (after the red lin
 }
 ```
 
-<figure><img src="../../.gitbook/assets/image (22).png" alt="" width="555"><figcaption></figcaption></figure>
+![Screenshot](../../.gitbook/assets/image (22).png)
 
 Then, in the "**Plugins**" section, activate the "**Premium Exchanger hooks**" plugin.
 
-<figure><img src="../../.gitbook/assets/image (1365).png" alt=""><figcaption></figcaption></figure>
+![Screenshot](../../.gitbook/assets/image (1365).png)
 
 ## Available Hooks:
 
 <details>
 
-<summary>Affiliate Program Banners</summary>
+<summary>Banners in the Affiliate Program</summary>
 
 The affiliate program includes promotional materials.
 
@@ -95,7 +95,7 @@ function my_pp_banners($banners){
 
 <details>
 
-<summary>Dropdown for Application Status in the "Applications" Section</summary>
+<summary>Dropdown List for Application Status in the "Applications" Section</summary>
 
 ```php
 add_filter('change_bids_filter_list', 'my_change_bids_filter_list');
@@ -121,9 +121,9 @@ function my_change_bids_filter_list($lists) {
 ```
 
 Before:\
-![](<../../.gitbook/assets/image (1571).png>)\
+![Before Screenshot](../../.gitbook/assets/image (1571).png)\
 After:\
-![](<../../.gitbook/assets/image (577).png>)
+![After Screenshot](../../.gitbook/assets/image (577).png)
 
 </details>
 
@@ -144,7 +144,7 @@ function myparser_premium_action_export_direction(){
 
 <details>
 
-<summary>Using a Proxy When Facing Issues with Parsers 2.0</summary>
+<summary>Using a Proxy When There Are Issues with Parsers 2.0</summary>
 
 In quotes for the fields "**ip**", "**port**", "**login**", "**password**", specify your proxy details.
 
@@ -181,9 +181,9 @@ function _proxy_curl_options_parser($options) {
 
 <details>
 
-<summary>Exchange Description in the Main Widget</summary>
+<summary>Exchange Description in the Main Page Widget</summary>
 
-The main page widget does not have an exchange description. If you need to add it, simply use the hook:
+The main page widget does not include an exchange description. If you need to add it, simply use the hook:
 
 ```php
 add_filter('exchange_html_ajax', 'my_exchange_html_ajax');
@@ -199,7 +199,7 @@ function my_exchange_html_ajax($html){
 
 <summary>Determining the IP Address</summary>
 
-The function **pn_real_ip** is responsible for determining the IP address. Its task is to return a single real IP address. If, for some reason, you are not satisfied with the function's operation, you can use the filter:
+The function **pn_real_ip** is responsible for determining the IP address. The purpose of this function is to return one real IP address. If, for some reason, you are not satisfied with the function's operation, you can use the filter:
 
 ```php
 add_filter('pn_real_ip', 'myhook_pn_real_ip', 10, 2);
@@ -217,7 +217,7 @@ return $new_ip;
 
 <summary>Main Currency of the Site</summary>
 
-To calculate discounts, total amounts, and more, all sums are converted to a specific currency type. By default, the script considers USD as the main currency, but this value can be changed:
+To calculate discounts, total amounts, and more, all sums are converted into a specific currency type. By default, the script considers USD as the main currency, but this value can be changed:
 
 1. Create the necessary currency code, for example, WMZ.
 
@@ -235,7 +235,7 @@ return $type;
 
 Now the internal currency of our site is WMZ.
 
-It is worth noting that the exchange of internal currency will be carried out through double exchange (via USD).
+Note that the exchange of internal currency will be conducted through double exchange (via USD).
 
 </details>
 
@@ -317,6 +317,8 @@ return $text;
 
 By default, Table No. 5 on the main exchange page displays reserves for exchange directions instead of rates. If you want the rate to be displayed when the page is opened, set this hook:
 
+![Screenshot](../../.gitbook/assets/image (388).png)
+
 ```php
 add_filter('table5_current_select', 'rate_table5_current_select');
 function rate_table5_current_select ($select) {
@@ -331,7 +333,7 @@ function rate_table5_current_select ($select) {
 
 <details>
 
-<summary>When Facing Issues with Applications from Mobile Devices</summary>
+<summary>When There Are Issues with Applications from Mobile Devices</summary>
 
 ```php
 add_filter('merchant_payed_button','del_iam_pay_merchant_pay_button', 10000);
@@ -406,7 +408,8 @@ function curl_bestchangeapi_proxy($ch) {
 }
 ```
 
-The hook works on module version 2.6.2/2.7.2 and above (**ability to change the BC domain (mirror) in the general module settings**):
+The hook works on module version 2.6.2/2.7.2 and above (**ability to change the BC domain (mirror) in the module's general settings**):\
+![Screenshot](../../.gitbook/assets/image (28).png)
 
 ```php
 add_filter('curl_bestchangeapi_domain', 'curl_bestchangeapi_domain');
@@ -477,7 +480,7 @@ function my_bids_datablock($data_blocks){
 
 <summary>Hiding Exchange Directions on the Site Based on a Specified Schedule for the XML File</summary>
 
-The direction will remain active but will display a 404 error when accessed via a direct link on the site and will be hidden in the selection table of exchange directions in the admin panel.
+The direction will remain active but will display a 404 error when accessed via a direct link on the site and will be hidden in the exchange direction selection table in the admin panel.
 
 ```php
 remove_filter('get_direction_output', 'txtxml_get_direction_output', 10, 3);
@@ -485,8 +488,10 @@ remove_filter('get_direction_output', 'txtxml_get_direction_output', 10, 3);
 add_filter('get_direction_output', 'my_txtxml_get_direction_output', 10, 3);
 function my_txtxml_get_direction_output($ind, $item, $place){
     if($ind == 1 and function_exists('get_dirxml_show')){
-    return get_dirxml_show($ind, $item); }
-    return $ind; }
+        return get_dirxml_show($ind, $item); 
+    }
+    return $ind; 
+}
 ```
 
 </details>
@@ -496,10 +501,6 @@ function my_txtxml_get_direction_output($ind, $item, $place){
 <summary>Your Custom Site Header</summary>
 
 
-
-Here’s a naturalistic English translation of the provided text:
-
----
 
 By default, the title for any topic based on Premium Exchanger is formatted as `[title] — [description]`, where:
 
@@ -521,7 +522,7 @@ function myhook_premium_wp_title($title){
 
 <details>
 
-<summary>Custom Redirect Link After Login</summary>
+<summary>Custom redirect link after login</summary>
 
 After logging in, the script automatically redirects the user to their personal account page. If you need to change the redirect link, you can use the following hook:
 
@@ -537,7 +538,7 @@ function my_login_auth_redirect($url){
 
 <details>
 
-<summary>Affiliate Program "Tail"</summary>
+<summary>Affiliate program "tail"</summary>
 
 By default, the "tail" of the affiliate program is set to the value "rid". The link looks like this: `https://your_domain/?rid=[id]`
 
@@ -557,9 +558,9 @@ This way, the "tail" will be the word "**skidka**".
 
 <details>
 
-<summary>URL for Multilingual Icons</summary>
+<summary>URL for multilingual icons</summary>
 
-Premium Exchanger uses a unified framework called Premium. The script that was activated earlier is responsible for the core functions, including multilingual support. If we want to add additional languages, we need to upload multilingual icons to all plugins, which can sometimes be inconvenient. For this purpose, we can use a special filter that specifies which plugin to source the flags from.
+Premium Exchanger uses a unified framework called Premium. The script that was activated earlier is responsible for the core functions, including multilingual support. If we want to add additional languages, we need to upload multilingual icons to all plugins, which can be inconvenient. For this purpose, we can use a special filter that specifies which plugin to source the flags from.
 
 For example, if we want the flags to always come from premiumbox, we can write our own filter:
 
@@ -572,6 +573,6 @@ function my_ml_flag_url($plugin_folder){
 
 </details>
 
-[^1]: Access to course sources is denied, HTTP error 451
+[^1]: No access to course sources, HTTP error 451
 
 [^2]: Notification and popup blocking

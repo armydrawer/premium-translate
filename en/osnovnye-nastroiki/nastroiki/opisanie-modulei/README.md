@@ -32,11 +32,11 @@ The link for the task scheduler can be found in the "**Currencies"** section und
 
 <details>
 
-<summary>Automatic Deletion of Unpaid Requests</summary>
+<summary>Auto-Deletion of Unpaid Requests</summary>
 
 This module allows you to set a time for the automatic deletion of requests with the statuses: "**new request**", "**when the user navigated to the payment page**", "**the user marked the request as paid**".
 
-Module settings can be found in the "**Exchange Directions" → "Automatic Deletion of Unpaid Requests"** section. Additionally, each exchange direction has its own settings for the automatic deletion of unpaid requests, located in the direction settings under the "**Deletion of Unpaid Requests"** tab.
+Module settings can be found in the "**Exchange Directions" → "Automatic Deletion of Unpaid Requests"** section. Additionally, each exchange direction has its own settings for auto-deleting unpaid requests, located in the direction settings under the "**Deletion of Unpaid Requests"** tab.
 
 </details>
 
@@ -84,7 +84,7 @@ Module settings can be found in the "**Merchants" → "Account Number Validator"
 
 This module allows users to undergo identity verification with the option to upload images.
 
-For more details about the module's capabilities, read [here](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/verifikaciya/verifikaciya-lichnosti).
+For more details about the module's capabilities, please refer to [this link](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/verifikaciya/verifikaciya-lichnosti).
 
 </details>
 
@@ -94,7 +94,7 @@ For more details about the module's capabilities, read [here](https://premium.gi
 
 This module allows all registered users to verify their accounts by uploading images/photos.
 
-For example, a user can upload a photo of the front side of their bank card. There is also an option to restrict request creation for unverified accounts on the site. For more details about the module's settings, read [here](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/verifikaciya/verifikaciya-scheta).
+For example, a user can upload a photo of the front side of their bank card. There is also an option to restrict request creation for unverified accounts on the site. For more details about the module's settings, please refer to [this link](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/verifikaciya/verifikaciya-scheta).
 
 </details>
 
@@ -102,7 +102,7 @@ For example, a user can upload a photo of the front side of their bank card. The
 
 <summary>Request Status Check Widget</summary>
 
-This module allows users to check the status of their requests on the site. The form for checking request status is available in a sidebar widget and as a separate page.
+This module allows users to check the status of their requests on the site. The request status check form is available as a widget in the sidebar and as a separate page.
 
 Module settings can be found in the "**Appearance" → "Widgets" → "Request Status Check"** section.
 
@@ -114,7 +114,7 @@ Module settings can be found in the "**Appearance" → "Widgets" → "Request St
 
 This module allows users to make exchanges on the site using their internal account, which is accessible in their personal dashboard.
 
-For more details about the module's capabilities, read [here](https://premium.gitbook.io/main/osnovnye-nastroiki/nastroiki/vnutrennie-scheta/obmen-s-uchastiem-vnutrennego-scheta-polzovatelya).
+For more details about the module's capabilities, please refer to [this link](https://premium.gitbook.io/main/osnovnye-nastroiki/nastroiki/vnutrennie-scheta/obmen-s-uchastiem-vnutrennego-scheta-polzovatelya).
 
 </details>
 
@@ -150,7 +150,7 @@ This module allows you to display the parameters "**Additional Commission from S
 
 This module allows you to set the exchange point's commission based on the amount being exchanged.
 
-Module settings can be found in the settings of any exchange direction under the "**Exchange Point Commissions**" tab with the parameter "**Additional Commission Based on Exchange Amount**".
+Module settings can be found in the settings of any exchange direction under the "**Exchange Point Commissions**" tab, specifically the parameter "**Additional Commission Based on Exchange Amount**".
 
 </details>
 
@@ -176,9 +176,9 @@ Module settings can be found in the "**Users" → "Time-Based Access to the Cont
 
 <details>
 
-<summary>Bookmarks for Admin Bar</summary>
+<summary>Bookmarks for the Admin Bar</summary>
 
-This module allows you to save sections of the site as bookmarks for quick access. At the top of the screen, you will see a red heart icon and the text "**Add to Bookmarks**". Navigate to the section you want to bookmark and click on "**Add to Bookmarks**". Hover over the heart icon to see a list of bookmarks for quick access to sections.
+This module allows you to save sections of the site as bookmarks for quick access. At the top of the screen, you will see a red heart icon and the text "**Add to Bookmarks"**. Navigate to the section you want to bookmark and click on "**Add to Bookmarks"**. Hover over the heart icon to see a list of bookmarks for quick access to sections.
 
 Module settings can be found in the "**Modules" → "Bookmark Sorting"** section.
 
@@ -188,7 +188,7 @@ Module settings can be found in the "**Modules" → "Bookmark Sorting"** section
 
 <summary>Reserve Request</summary>
 
-This module allows users to submit a request for reserve in an exchange direction.
+This module allows users to submit a request for reserve in the exchange direction.
 
 ![](<../../../.gitbook/assets/image (1947).png>)
 
@@ -208,7 +208,7 @@ When the necessary reserve becomes available in the exchange direction, the user
 
 <summary>Captcha for Admin Panel</summary>
 
-Captcha with mathematical operations: multiplication, addition, subtraction.
+A captcha with mathematical operations: multiplication, addition, subtraction.
 
 Module settings can be found in the "**Exchange Settings" → "General Settings"** section.
 
@@ -218,7 +218,7 @@ Module settings can be found in the "**Exchange Settings" → "General Settings"
 
 <summary>Captcha for the Site</summary>
 
-Captcha with mathematical operations: multiplication, addition, subtraction.
+A captcha with mathematical operations: multiplication, addition, subtraction.
 
 Module settings can be found in the "**Modules" → "Captcha"** section.
 
@@ -240,7 +240,7 @@ Module settings can be found in the "**Image Selection Captcha"** section.
 
 <summary>Coupon Code for Auto-Payment (do not activate unless necessary)</summary>
 
-This module allows you to display a coupon code in the site management panel in the "**Requests"** section within the request card, as well as for the user in their personal dashboard in the "**Your Operations"** section and via shortcode in the request itself. It is not advisable to activate this module, as if a malicious actor gains access to a user's personal account, they could misuse an unredeemed coupon.
+This module allows you to display a coupon code in the site management panel in the "**Requests"** section within the request card, as well as for the user in their personal dashboard in the "**Your Operations"** section and via shortcode in the request itself. It is not advisable to activate this module, as if a malicious actor gains access to a user's personal account, they could exploit an unredeemed coupon.
 
 </details>
 
@@ -272,7 +272,9 @@ In the "**Exchange Directions**" section, there is a button for copying an excha
 
 <summary>Rate Based on Reserve</summary>
 
-This module allows you to set exchange rates that depend on the available reserves.
+This module allows you to set exchange rates based on the available reserves. 
+
+</details>
 
 Here’s a naturalistic English translation of the provided text:
 
@@ -300,7 +302,7 @@ You can find the settings for this option in the exchange direction settings und
 
 <details>
 
-<summary>Currency Reserve Limit</summary>
+<summary>Currency Reserve Limits</summary>
 
 This module allows you to set daily and monthly limits for receiving and disbursing funds in the settings for each currency.
 
@@ -310,7 +312,7 @@ This module allows you to set daily and monthly limits for receiving and disburs
 
 <summary>Currency Reserve Limit by Exchange Direction</summary>
 
-This module allows you to limit the currency reserve for a specific exchange direction. The limit can be set in the settings for each exchange direction under the "**Reserve**" tab.
+This module allows you to restrict the currency reserve for a specific exchange direction. The limits can be set in the exchange direction settings under the "**Reserve**" tab.
 
 </details>
 
@@ -320,7 +322,7 @@ This module allows you to limit the currency reserve for a specific exchange dir
 
 This module allows you to track changes in the status of applications.
 
-The module settings can be found in the "**Applications**" → "**Application Status Log**" section.
+You can find the module settings in the "**Applications**" → "**Application Status Log**" section.
 
 </details>
 
@@ -330,7 +332,7 @@ The module settings can be found in the "**Applications**" → "**Application St
 
 This module allows you to log errors that occur during automatic payments. It should only be used for diagnostic purposes, so activating this module without necessity is not recommended.
 
-The module settings can be found in the "**Merchants**" → "**Auto-Payment Log**" section.
+You can find the module settings in the "**Merchants**" → "**Auto-Payment Log**" section.
 
 </details>
 
@@ -338,9 +340,9 @@ The module settings can be found in the "**Merchants**" → "**Auto-Payment Log*
 
 <summary>Merchant Logs (Do not activate unless necessary)</summary>
 
-This module allows you to log responses from payment systems when processing payments through a merchant. It should only be used for diagnostic purposes, so activating this module without necessity is not recommended.
+This module allows you to log responses from payment systems when processing payments through merchants. It should only be used for diagnostic purposes, so activating this module without necessity is not recommended.
 
-The module settings can be found in the "**Merchants**" → "**Merchant Log**" section.
+You can find the module settings in the "**Merchants**" → "**Merchant Log**" section.
 
 </details>
 
@@ -348,7 +350,7 @@ The module settings can be found in the "**Merchants**" → "**Merchant Log**" s
 
 <summary>User Login in Application</summary>
 
-This module displays the user's login in the application card.
+This module displays the user's login in the application details.
 
 </details>
 
@@ -356,7 +358,7 @@ This module displays the user's login in the application card.
 
 <summary>Admin Action Logging</summary>
 
-This module logs all actions taken by users in the site management panel.
+This module logs all actions taken by users in the website management panel.
 
 </details>
 
@@ -390,7 +392,7 @@ This module allows you to limit the current reserve value in the currency settin
 
 This module allows you to limit the maximum number of decimal places stored in the database for exchange rates, reserves, etc.
 
-The module settings can be found in the "**Exchange Settings**" → "**Exchange Settings**" → "**Max Number of Decimal Places in Site Calculations / Max Number of Decimal Places in Reserve Calculations / Max Number of Decimal Places in Currency Exchange Rate Calculations**" section.
+You can find the module settings in the "**Exchange Settings**" → "**Exchange Settings**" → "**Max. Number of Decimal Places in Site Calculations / Max. Number of Decimal Places for Currency Reserves / Max. Number of Decimal Places for Currency Exchange Rates**" section.
 
 </details>
 
@@ -398,9 +400,9 @@ The module settings can be found in the "**Exchange Settings**" → "**Exchange 
 
 <summary>Mass Reserve Adjustment</summary>
 
-This module allows you to perform mass adjustments of reserves for currencies (for those currencies where the reserve is calculated based on applications).
+This module allows you to perform mass adjustments to currency reserves (for those currencies where the reserve is calculated based on applications).
 
-The module settings can be found in the "**Reserve Adjustment**" → "**Group Reserve Adjustment**" section.
+You can find the module settings in the "**Reserve Adjustment**" → "**Group Reserve Adjustment**" section.
 
 </details>
 
@@ -408,15 +410,15 @@ The module settings can be found in the "**Reserve Adjustment**" → "**Group Re
 
 <summary>Mobile Version</summary>
 
-This module enables the mobile version of the site.
+This module enables the mobile version of the website.
 
-The module settings can be found in the "**Theme Settings**" → "**Mobile Version and Homepage (Mobile Version)**" and "**Exchange Settings**" → "**Mobile Version Settings**" sections.
+You can find the module settings in the "**Theme Settings**" → "**Mobile Version and Homepage (Mobile Version)**" and "**Exchange Settings**" → "**Mobile Version Settings**" sections.
 
 </details>
 
 <details>
 
-<summary>Exchange Direction Output Settings</summary>
+<summary>Exchange Direction Display Settings</summary>
 
 This module adds the options listed below to the "**Exchange Settings**" ➔ "**Basic Settings**".
 
@@ -430,7 +432,7 @@ This module adds the options listed below to the "**Exchange Settings**" ➔ "**
 
 This module allows you to configure the XML/TXT file with exchange rates for monitoring exchange points.
 
-The module settings can be found in the "**Exchange Settings**" → "**TXT and XML Export Settings**" section.
+You can find the module settings in the "**Exchange Settings**" → "**TXT and XML Export Settings**" section.
 
 </details>
 
@@ -438,7 +440,7 @@ The module settings can be found in the "**Exchange Settings**" → "**TXT and X
 
 <summary>Reserve Settings for Exchange Directions</summary>
 
-This module allows you to set the reserve value in various ways for a specific exchange direction. The limits are set in the settings for each exchange direction under the "**Reserve**" tab.
+This module allows you to set reserve values in various ways for specific exchange directions. The limits can be set in the exchange direction settings under the "**Reserve**" tab.
 
 </details>
 
@@ -446,9 +448,9 @@ This module allows you to set the reserve value in various ways for a specific e
 
 <summary>Language Settings for Exchange Directions</summary>
 
-This module allows you to restrict access to an exchange direction based on the language selected by the user on the site.
+This module allows you to restrict access to an exchange direction based on the language selected by the user on the website.
 
-The settings for this option can be found in the settings for each exchange direction under the "**Restrictions and Checks**" tab, parameter "**Language**".
+You can find the settings for this option in the exchange direction settings under the "**Restrictions and Checks**" tab, in the "**Language**" parameter.
 
 </details>
 
@@ -456,9 +458,9 @@ The settings for this option can be found in the settings for each exchange dire
 
 <summary>Money Transfer Number</summary>
 
-This module allows you to request the user to enter the money transfer number when creating an application. The entered number will be displayed in the application card.
+This module allows you to request the user to enter the money transfer number when creating an application. The entered number will be displayed in the application details.
 
-The module settings can be found in the "**Modules**" → "**Money Transfer Number**" section.
+You can find the module settings in the "**Modules**" → "**Money Transfer Number**" section.
 
 </details>
 
@@ -492,7 +494,7 @@ This module displays a checkbox for accepting the agreement for personal data pr
 
 This module allows you to limit the number of applications a user can create from a single IP address.
 
-The module settings can be found in the "**Modules**" → "**User Restrictions**" section. Additionally, the settings for this option can be found in the settings for each exchange direction under the "**Restrictions and Checks**" tab.
+You can find the module settings in the "**Modules**" → "**User Restrictions**" section. Additionally, settings for this option can be found in the exchange direction settings under the "**Restrictions and Checks**" tab.
 
 </details>
 
@@ -500,7 +502,7 @@ The module settings can be found in the "**Modules**" → "**User Restrictions**
 
 <summary>Live Operator</summary>
 
-This module allows you to "highlight" an application to other operators if it is already being handled by another operator.
+This module allows you to "highlight" an application for other operators if it is already being handled by one operator.
 
 </details>
 
@@ -508,9 +510,9 @@ This module allows you to "highlight" an application to other operators if it is
 
 <summary>Feedback</summary>
 
-This module allows users to publish reviews about the site.
+This module allows users to publish reviews about the website.
 
-The module settings can be found in the "**Feedback**" section.
+You can find the module settings in the "**Feedback**" section.
 
 </details>
 
@@ -528,9 +530,9 @@ For more details about the module's capabilities, read [this link](https://premi
 
 <summary>Exchange Rate Parser 2.0</summary>
 
-This module allows you to "link" the exchange rate on the site to specific sources of rates: Central Bank, cryptocurrency exchanges, etc.
+This module allows you to "link" the exchange rate on the website to specific sources of rates: Central Bank, cryptocurrency exchanges, etc.
 
-The module settings can be found in the "**Parsers 2.0**" section.
+You can find the module settings in the "**Parsers 2.0**" section.
 
 </details>
 
@@ -548,7 +550,7 @@ For more details about the module's capabilities, read [this link](https://premi
 
 <summary>Affiliate Program</summary>
 
-This module allows you to organize an affiliate program on the site.
+This module allows you to set up an affiliate program on the website.
 
 For more details about the module's capabilities, read [this link](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/partnerskaya-programma).
 
@@ -560,15 +562,15 @@ For more details about the module's capabilities, read [this link](https://premi
 
 This module allows you to automatically recalculate the exchange amount of an application after a specified time based on its status.
 
-The settings for this option can be found in the settings for each exchange direction under the "**Exchange Amount Recalculation**" tab.
+You can find the settings for this option in the exchange direction settings under the "**Exchange Amount Recalculation**" tab.
 
 </details>
 
 <details>
 
-<summary>Email Registration Confirmation</summary>
+<summary>Email Confirmation for Registration</summary>
 
-This module allows you to send a confirmation link to the user's email upon registration on the site.
+This module allows you to send a confirmation link to the user's email upon registration on the website.
 
 </details>
 
@@ -578,7 +580,7 @@ This module allows you to send a confirmation link to the user's email upon regi
 
 This module allows you to create custom application statuses. The created statuses can only be assigned to applications manually.
 
-The module settings can be found in the "**Application Statuses**" and "**Exchange Direction**" → "**Exchange Direction Templates**" sections.
+You can find the module settings in the "**Application Statuses**" and "**Exchange Direction**" → "**Exchange Direction Templates**" sections.
 
 </details>
 
@@ -586,7 +588,7 @@ The module settings can be found in the "**Application Statuses**" and "**Exchan
 
 <summary>Number Formatting</summary>
 
-This module allows you to set the maximum number of decimal places on the site and display the reserve value in a format like 100,000.
+This module allows you to set the maximum number of decimal places on the website and display the reserve value in a format like 100,000.
 
 </details>
 
@@ -594,9 +596,9 @@ This module allows you to set the maximum number of decimal places on the site a
 
 <summary>New User Check During Exchange</summary>
 
---- 
+---
 
-Let me know if you need any further assistance!
+Let me know if you need further assistance!
 
 Here’s a naturalistic English translation of the provided text:
 
@@ -606,7 +608,7 @@ Here’s a naturalistic English translation of the provided text:
 
 This module allows you to identify users who are making their first exchange at the exchange point. For these users, you can set up a freeze on automatic payouts.
 
-You can find the module settings in the section "**Exchange Settings" → "Exchange Configuration" → "New User Check."**
+You can find the module settings under "**Exchange Settings" → "Exchange Configuration" → "New User Check."**
 
 ---
 
@@ -616,7 +618,7 @@ You can find the module settings in the section "**Exchange Settings" → "Excha
 
 This module enables you to edit the parameters of a created exchange request.
 
-You can find the edit button for the request in the "**Requests"** section under each individual request.
+You can find the edit button for the request in the "**Requests"** section, located under each request.
 
 </details>
 
@@ -624,7 +626,7 @@ You can find the edit button for the request in the "**Requests"** section under
 
 <summary>Redirect to Exchange Directions</summary>
 
-This module allows you to redirect users to a selected exchange direction when they navigate from the monitoring page to the exchange point, passing the parameters cur_from and cur_to.
+This module allows you to redirect users (passing the parameters cur_from and cur_to) to a selected exchange direction when they navigate from the monitoring page to the exchange point.
 
 </details>
 
@@ -632,9 +634,9 @@ This module allows you to redirect users to a selected exchange direction when t
 
 <summary>Maintenance Mode</summary>
 
-This module allows you to disable the website for technical maintenance.
+This module allows you to disable the site for technical maintenance.
 
-You can find the module settings in the "**Maintenance Mode"** section.
+You can find the module settings under "**Maintenance Mode."**
 
 </details>
 
@@ -644,7 +646,7 @@ You can find the module settings in the "**Maintenance Mode"** section.
 
 This module allows you to set a fixed discount for individual users of the exchange. The discount applies to the exchange rate.
 
-Once the module is activated, a field for "**Personal Discount**" will appear in the user's profile, where you can specify the percentage of the discount. This discount takes precedence over cumulative discounts.
+Once the module is activated, a field labeled "**Personal Discount**" will appear in the user's profile, where you can specify the discount percentage. This discount takes precedence over cumulative discounts.
 
 </details>
 
@@ -652,7 +654,7 @@ Once the module is activated, a field for "**Personal Discount**" will appear in
 
 <summary>Direction Sorting</summary>
 
-This module allows you to sort exchange directions by the columns "**I Give**" and "**I Receive**."
+This module allows you to sort exchange directions by the "**I Give**" and "**I Receive**" columns.
 
 </details>
 
@@ -660,9 +662,9 @@ This module allows you to sort exchange directions by the columns "**I Give**" a
 
 <summary>Operator Status</summary>
 
-This module allows you to configure the widget for "**Operator Online/Offline**," which is displayed on the website.
+This module allows you to configure the widget for "**Operator Online/Offline**," which is displayed on the site.
 
-You can find the module settings in the "**Operational Status**" section.
+You can find the module settings under "**Operational Status."**
 
 </details>
 
@@ -680,9 +682,9 @@ For more information about the module's capabilities, read [here](https://premiu
 
 <summary>User Accounts</summary>
 
-This module allows you to view the accounts that users add in their personal accounts.
+This module allows you to view the accounts that users add in their personal cabinet.
 
-You can find the module settings in the "**User Accounts"** section.
+You can find the module settings under "**User Accounts."**
 
 </details>
 
@@ -690,9 +692,9 @@ You can find the module settings in the "**User Accounts"** section.
 
 <summary>Transaction Confirmation Counter (Crypto)</summary>
 
-This module allows you to record the confirmations received for transactions when paying through the relevant merchants (such as Blockchain.info, Block.io, etc.). You can also display the number of confirmations received for a paid request.
+This module allows you to record the confirmations received for transactions when paying through relevant merchants (such as Blockchain.info, Block.io, etc.). You can also display the number of confirmations received for a paid request.
 
-You can find the module settings in the "**Requests" → "Confirmation Log"** section.
+You can find the module settings under "**Requests" → "Confirmation Log."**
 
 </details>
 
@@ -700,7 +702,7 @@ You can find the module settings in the "**Requests" → "Confirmation Log"** se
 
 <summary>Countdown Timer</summary>
 
-This module allows you to display a countdown timer on the website for users, indicating when an unpaid request will be deleted.
+This module allows you to display a countdown timer on the site for users, indicating when an unpaid request will be deleted.
 
 </details>
 
@@ -708,7 +710,7 @@ This module allows you to display a countdown timer on the website for users, in
 
 <summary>Rates</summary>
 
-This module allows you to display all exchange directions and their rates in a table format on the website.
+This module allows you to display all exchange directions and their rates in a table format on the site.
 
 </details>
 
@@ -718,7 +720,7 @@ This module allows you to display all exchange directions and their rates in a t
 
 This module allows you to set the notification text that appears when the Premium Exchanger plugin is deactivated.
 
-You can find the module settings in the "**Modules" → "Maintenance Notification Text"** section.
+You can find the module settings under "**Modules" → "Maintenance Notification Text."**
 
 </details>
 
@@ -726,9 +728,9 @@ You can find the module settings in the "**Modules" → "Maintenance Notificatio
 
 <summary>Header Notification</summary>
 
-This module allows you to display a warning notification on a red background in the website header according to a schedule and based on the operator's status.
+This module allows you to display a warning notification on a red background in the site header according to a schedule and based on the operator's status.
 
-You can find the module settings in the "**Notifications"** section.
+You can find the module settings under "**Notifications."**
 
 </details>
 
@@ -736,9 +738,9 @@ You can find the module settings in the "**Notifications"** section.
 
 <summary>Initial Request ID Setup</summary>
 
-This module allows you to set the initial request number on the website. Numbers can only be set to increase.
+This module allows you to set the initial request number on the site. Numbers can only be set to increase.
 
-You can find the module settings in the "**Modules" → "Current Request ID"** section.
+You can find the module settings under "**Modules" → "Current Request ID."**
 
 </details>
 
@@ -746,9 +748,9 @@ You can find the module settings in the "**Modules" → "Current Request ID"** s
 
 <summary>Exchange Filter for Guests</summary>
 
-This module activates the ability to set various restrictions on the website for users.
+This module activates the ability to set various restrictions on the site for users.
 
-You can find the module settings in the "**Exchange Settings" → "Exchange Filters"** section.
+You can find the module settings under "**Exchange Settings" → "Exchange Filters."**
 
 </details>
 
@@ -758,7 +760,7 @@ You can find the module settings in the "**Exchange Settings" → "Exchange Filt
 
 This module allows you to filter registered users on the site by parameters: verified, unverified, and discount size.
 
-You can find the module settings in the "**Users" → "User Filters"** section.
+You can find the module settings under "**Users" → "User Filters."**
 
 </details>
 
@@ -768,7 +770,7 @@ You can find the module settings in the "**Users" → "User Filters"** section.
 
 This module allows you to calculate the profit of the exchange point.
 
-You can find the module settings in the "**Financial Statistics"** section.
+You can find the module settings under "**Financial Statistics."**
 
 </details>
 
@@ -778,7 +780,7 @@ You can find the module settings in the "**Financial Statistics"** section.
 
 This module allows you to check the verification status of a wallet in the payment system.
 
-You can find the module settings in the "**Modules" → "Wallet Verification Checker"** section and in the direction settings under the "**Restrictions and Checks**" tab, with parameters for "**Check Wallet Verification in PS**" and "**Require Verified Wallet in PS**," as well as in the currency settings.
+You can find the module settings under "**Modules" → "Wallet Verification Checker"** and in the direction settings under the "**Restrictions and Checks**" tab, with parameters for "**Check Wallet Verification in PS**" and "**Require Verified Wallet in PS**," as well as in the currency settings.
 
 </details>
 
@@ -788,7 +790,7 @@ You can find the module settings in the "**Modules" → "Wallet Verification Che
 
 This module allows you to add a client's personal data to a blacklist to prevent requests from being created on the site with that data.
 
-You can find the module settings in the "**Blacklist"** section.
+You can find the module settings under "**Blacklist."**
 
 </details>
 
@@ -798,13 +800,11 @@ You can find the module settings in the "**Blacklist"** section.
 
 This module allows you to check the client's details against the BestChange blacklist and prohibit exchanges if the data is found in the monitoring blacklist.
 
-You can find the module settings in the "**Modules" → "**BestChange Blacklist"** section (the module must be activated in the "Modules" section). Your site must be listed on BestChange.ru to use this check.
+You can find the module settings under "**Modules" → "**BestChange Blacklist**" (the module must be activated in the "Modules" section). Your site must be listed on Bestchange.ru to use this check.
 
-To use the module, generate an API key in your BestChange account.
+To use the module, generate an API key in your BestChange account and enter it in the "**Key**" field in the module settings.
 
 ![](<../../../.gitbook/assets/image (169).png>) \
-
-And enter it in the "**Key**" field in the module settings.
 
 ![](<../../../.gitbook/assets/image (168).png>)
 
@@ -816,7 +816,7 @@ And enter it in the "**Key**" field in the module settings.
 
 This module allows you to set the same sender name and email address for all email templates at once.
 
-You can find the module settings in the "**Messages" → "Email Templates"** section.
+You can find the module settings under "**Messages" → "Email Templates."**
 
 </details>
 
@@ -826,7 +826,7 @@ You can find the module settings in the "**Messages" → "Email Templates"** sec
 
 This module allows you to export the contacts of users who have made exchanges on the site to an xls file.
 
-You can find the module settings in the "**Contact Export"** section.
+You can find the module settings under "**Contact Export."**
 
 </details>
 
@@ -836,7 +836,7 @@ You can find the module settings in the "**Contact Export"** section.
 
 This module allows you to export and import currencies and exchange directions to an Excel file (CSV format). It also allows you to export requests created on the site to an Excel file (CSV format).
 
-You can find the module settings in the sections "**Modules" → "Exchange Export," "Export/Import Exchange Directions," "Export/Import Currencies."**
+You can find the module settings under "**Modules" → "Exchange Export," "Export/Import Exchange Directions," "Export/Import Currencies."**
 
 </details>
 
@@ -852,9 +852,9 @@ For more information about the module's capabilities, read [here](https://premiu
 
 <summary>GEO IP</summary>
 
-This module allows you to create a list of allowed and prohibited countries, restrict access to exchange directions based on the user's country, and completely block access to the site based on the user's country, maintaining black and white lists of IP addresses.
+This module allows you to create a list of allowed and prohibited countries, restrict access to exchange directions based on the user's country, and completely block access to the site based on the user's country. It also allows you to maintain black and white lists of IP addresses.
 
-You can find the module settings in the "**GEO IP"** section.
+You can find the module settings under "**GEO IP."**
 
 </details>
 
@@ -864,7 +864,7 @@ You can find the module settings in the "**GEO IP"** section.
 
 This module allows you to create an HTML sitemap.
 
-You can find the module settings in the "**Exchange Settings" → "HTML Sitemap Settings"** section.
+You can find the module settings under "**Exchange Settings" → "HTML Sitemap Settings."**
 
 </details>
 
@@ -872,9 +872,9 @@ You can find the module settings in the "**Exchange Settings" → "HTML Sitemap 
 
 <summary>Email Verification</summary>
 
-This module allows you to request a one-time code that is sent to the user's email during the creation of a request.
+This module allows you to request a one-time code sent to the user's email during the creation of a request.
 
-You can find the module settings in the "**Modules" → "Email Verification Settings"** section.
+You can find the module settings under "**Modules" → "Email Verification Settings."**
 
 </details>
 
@@ -882,9 +882,9 @@ You can find the module settings in the "**Modules" → "Email Verification Sett
 
 <summary>LIVE Requests</summary>
 
-This module allows you to display information about incoming requests and notify about requests with a sound alert without reloading the page.
+This module allows you to display information about incoming requests and notify about requests with an audible alert without reloading the page.
 
-You can find the module settings in the "**Requests" → "LIVE Requests"** section.
+You can find the module settings under "**Requests" → "LIVE Requests."**
 
 </details>
 
@@ -900,9 +900,9 @@ This module allows you to display a QR code on the payment page when paying thro
 
 <summary>SEO</summary>
 
-This module allows you to perform SEO settings for the website.
+This module allows you to perform SEO settings for the site.
 
-You can find the module settings in the "**SEO"** section.
+You can find the module settings under "**SEO."**
 
 </details>
 
@@ -922,7 +922,7 @@ For more information about the module's capabilities, read [here](https://premiu
 
 ---
 
-Feel free to ask if you need further assistance!
+If you need further assistance or specific sections translated, feel free to ask!
 
 The module allows users to request a one-time code, which is sent to their mobile phone during the application process.
 
