@@ -1,73 +1,90 @@
-# Cryptocurrency Exchange Security Guide
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+---
+
+# Security Guide for Cryptocurrency Exchanges
 
 {% hint style="warning" %}
 ### ⚠️ IMPORTANT: Security is Priority #1
 
-**Golden Rule**: Security must be fully set up and all systems thoroughly checked before launching the exchange. **Security takes precedence over convenience.**
+**The main rule**: Set up all security measures first, check all systems, and only then start operating the exchange. **Security is more important than convenience.**
 
-_Security in the cryptocurrency space is not paranoia—it's a necessity. Follow all recommendations strictly._  
+_Security is not paranoia; it is a necessity in the cryptocurrency space. Follow all recommendations strictly._\
 \
-The guidelines below are based on 10 years of experience from an exchange administrator who also leads our training program.
+The recommendations in this article are based on 10 years of experience as an exchange administrator, who also leads our training program.
 {% endhint %}
 
----
+***
 
 ### 1. 🖥️ Computer/Laptop Security
 
-#### Key Principles for Using Your Computer:
+#### Basic Principles for Working with a Computer:
 
-* ❌ **DO NOT visit** suspicious websites  
-* ❌ **DO NOT download** unknown software  
-* ✅ Use your computer **exclusively for work**  
-* ✅ It is recommended to use **macOS** (a more secure operating system)  
+* ❌ **DO NOT visit** suspicious websites
+* ❌ **DO NOT download** unknown software
+* ✅ Use the computer **only for work**
+* ✅ It is recommended to use **macOS** (a more secure system)
 
 #### Antivirus Protection:
 
-**Recommended Antivirus:** Use a paid antivirus with **data encryption features**, such as ESET NOD32, Kaspersky Internet Security, or Dr. Web. The key is ensuring the antivirus has the necessary tools to protect your information.
+**Recommended Antivirus:** It is advisable to use a paid antivirus with **data encryption features**. Examples include ESET NOD32, Kaspersky Internet Security, or Dr. Web. The key is to have **the necessary features for information protection**.
 
-* ⚠️ **Important**: Purchase the license only via VPN/proxy (avoid using a Russian IP address).  
-* When buying NOD32, avoid the Russian PRO32 version (it is less reliable).  
+* ⚠️ **Important**: Purchase the license only through VPN/proxy (not from a Russian IP)
+* When buying NOD32, avoid the Russian version PRO32 (less reliable)
 
 **Disk Encryption:**
 
-1. **Create an encrypted disk** using your antivirus software.  
-2. Store **ALL work-related data** exclusively on the encrypted disk.  
-3. **DO NOT store** data on regular Windows drives.  
-4. Create **backup copies** on encrypted USB drives.  
+1. **Create an encrypted disk** using the antivirus
+2. **Store ALL work data** only on the encrypted disk
+3. **DO NOT store** data on regular Windows disks
+4. Create **backup copies** on encrypted USB drives
 
-#### Handling USB Drives:
+#### Working with USB Drives:
 
-1. **Always format** new USB drives before use.  
-2. Format them on a **separate computer** (not your work device).  
-3. **Encrypt** USB drives using the same antivirus software.  
-4. ⚠️ **Warning**: Even brand-new USB drives can carry viruses.  
+1. **Always format** new flash drives before use
+2. Format on a **separate computer** (not the work one)
+3. **Encrypt** the flash drives with the same antivirus
+4. ⚠️ **Danger**: Even new flash drives can contain viruses
 
----
+***
 
 ### 2. 🌐 Browser Configuration
 
 #### Mandatory Security Settings:
 
-**Disable the following:**
+**Disable:**
 
-* ❌ Password manager  
-* ❌ Password auto-save  
-* ❌ Payment methods  
-* ❌ Automatic login  
-* ❌ ALL extensions (except those essential for work)  
+* ❌ Password manager
+* ❌ Auto-save passwords
+* ❌ Payment methods
+* ❌ Automatic login
+* ❌ ALL extensions (except those necessary for work)
 
-**Enable the following:**
+**Enable:**
 
-* ✅ **Enhanced protection** in the "Security" section.  
-* ✅ All available privacy features.  
+* ✅ **Enhanced protection** in the "Security" section
+* ✅ All available privacy features
 
 **Extensions:**
 
-* Use **minimal extensions** (only a VPN for work, if necessary).  
-* **DO NOT install** even official extensions unless absolutely required.  
-* The only exception: tools for document handling (e.g., PDF readers).  
+* **Minimum extensions** (only VPN for work, if necessary)
+* **DO NOT install** even official extensions without extreme necessity
+* The only exception: programs for working with documents (PDF)
 
----
+***
 
 ### 3. 🔐 Payment System Security
 
@@ -75,23 +92,23 @@ The guidelines below are based on 10 years of experience from an exchange admini
 
 **Mandatory for all services:**
 
-* **Crypto exchanges and wallets:** Enable the highest level of protection for all services, including two-factor authentication (2FA) via an app (e.g., Google Authenticator) and linking to an email address or phone number.  
-* **Email accounts:** Use 2FA via phone or an authenticator app.  
+* **Exchanges and wallets:** Maximum security levels must be set for all used services, including two-factor authentication (2FA) via an app (e.g., Google Authenticator) and linking to an email/phone number.
+* **Email**: 2FA via phone or authenticator
 
-**"Lock and Key Separate" Rule:**
+**"Lock separately, key separately" rule:**
 
-* **DO NOT use** 2FA on the same device where your wallet is accessed.  
-* Use **different devices** for different security functions.  
-* Have **dedicated work phones** exclusively for 2FA.  
+* **DO NOT use** 2FA on the same device where the wallet is open
+* **Different devices** for different security functions
+* **Separate work phones** only for 2FA
 
 #### Work Phones:
 
-* Use **at least 1–2 dedicated** work phones.  
-* **DO NOT use** them for personal calls or messages.  
-* **Never share** work phone numbers with others.  
-* Consider **replacing your phone number** in existing services with a work number.  
+* **At least 1-2 separate** work phones
+* **DO NOT use** for personal calls/messages
+* **Do not share** work phone numbers with anyone
+* You can **replace the number** in existing services with the work number
 
----
+***
 
 ### 4. 🖥️ Server and Admin Panel Security
 
@@ -99,63 +116,63 @@ The guidelines below are based on 10 years of experience from an exchange admini
 
 **SSH Keys:**
 
-* **DO NOT store** access keys on your desktop.  
-* Store keys on an **encrypted disk** or **separate USB drive**.  
-* **DO NOT share** keys with anyone (except trusted technical specialists).  
-* If sharing keys via Telegram, **delete messages immediately** after the recipient confirms receipt.  
+* **DO NOT store** access keys on the desktop
+* Store keys on a **encrypted disk** or **separate flash drive**
+* **DO NOT share** keys with anyone (except trusted technical specialists)
+* When sending keys via Telegram: **immediately delete** messages after the recipient has read them
 
-**2FA Setup for the Server:**
+**Setting up 2FA for the server:**
 
-1. **Enable 2FA** for ROOT access.  
-2. **Enable 2FA** for user access.  
-3. **Save QR codes** and keys on an encrypted storage device.  
-4. **Change passwords** after completing setup.  
+1. **Enable 2FA** for ROOT access
+2. **Enable 2FA** for user access
+3. **Save QR codes** and keys on an encrypted medium
+4. **Change passwords** after training is completed
 
 #### Password Requirements:
 
-* **At least 15 characters long**  
-* Include **uppercase and lowercase Latin letters**  
-* Include **numbers**  
-* Include **1–2 special characters** (e.g., `@, #, !`)  
+* **Minimum 15 characters**
+* **Uppercase and lowercase Latin letters**
+* **Numbers**
+* **At least 1-2 special characters** (`@, #, !`, etc.)
 
----
+***
 
 ### 5. 📧 Telegram and Email Security
 
-#### Setting Up a Work Telegram Account:
+#### Setting Up Work Telegram:
 
-* **Install Telegram separately** for work purposes only.  
-* **Enable 2FA.**  
-* Set up **code words** for added security.  
-* Install Telegram on both your work phone and laptop.  
+* **Separate installation** only for work
+* **2FA enabled**
+* **Code words** configured
+* **Installed on work phone and laptop**
 
-#### Sharing Confidential Information:
+#### Transmitting Confidential Information:
 
-1. **Only share information** with trusted technical specialists.  
-2. **Immediately delete** files after the recipient confirms receipt.  
-3. **Delete messages** from both your and the recipient's chat history.  
-4. **DO NOT leave passwords** in message history.  
+1. **Transmit information only** to trusted technical specialists
+2. **Immediately delete** files after the recipient has read the message
+3. **Delete messages from both your and the recipient's accounts**
+4. **DO NOT leave** passwords in message history
 
 #### Work Email:
 
-* Use a **dedicated email address** for work only.  
-* Choose a **reliable email provider** for work purposes (this email will be used for **server notifications**). Suitable options include Gmail, ProtonMail, or Yandex.Mail.  
-* **2FA via phone** is mandatory.  
+* **Separate email** only for work
+* **Use a reliable email service for work** (the email will be used for **sending notifications from the server**). Suitable options include Gmail, ProtonMail, or Yandex.Mail.
+* **2FA via phone** is mandatory
 
----
+***
 
 ### 6. 📋 Data Storage Structure
 
-#### Recommended File Organization:
+#### Recommended File Structure:
 
 ```
-📁 Work (on an encrypted disk)
+📁 Work (on encrypted disk)
 ├── 📁 Server
 │   ├── 📁 Server Access
 │   │   ├── SSH Keys
 │   │   ├── 2FA QR Codes
 │   │   └── Passwords
-│   └── 📁 Admin Panel Settings
+│   └── 📁 Panel Settings
 ├── 📁 Payment Systems
 │   ├── 📁 Exchanges
 │   ├── 📁 Wallets
@@ -163,71 +180,71 @@ The guidelines below are based on 10 years of experience from an exchange admini
 └── 📁 Backups
 ```
 
----
+***
 
 ### 7. ✅ Security Checklist
 
-#### Verify Before Starting Work:
+#### Before Starting Work, Check:
 
 **Computer:**
 
-* ✅ Antivirus is installed and updated.  
-* ✅ An encrypted disk has been created.  
-* ✅ All work data is stored on the encrypted disk.  
-* ✅ Browser is configured (password saving disabled, protection enabled).  
-* ✅ Minimal extensions are installed.  
+* ✅ Antivirus is installed and updated
+* ✅ An encrypted disk has been created
+* ✅ All work data is on the encrypted disk
+* ✅ Browser is configured (password saving disabled, protection enabled)
+* ✅ Minimum extensions
 
 **Accounts and Services:**
 
-* ✅ 2FA is enabled everywhere possible.  
-* ✅ Dedicated work phones are set up.  
-* ✅ A work-specific Telegram account is created.  
-* ✅ Strong passwords are set for all accounts.  
+* ✅ 2FA is enabled everywhere possible
+* ✅ Separate work phones are set up
+* ✅ Work Telegram is created
+* ✅ Strong passwords are set everywhere
 
 **Server:**
 
-* ✅ 2FA is enabled for ROOT access.  
-* ✅ 2FA is enabled for user access.  
-* ✅ SSH keys are stored securely.  
-* ✅ Passwords have been changed after setup.  
+* ✅ 2FA for ROOT access
+* ✅ 2FA for user access
+* ✅ SSH keys are stored in a secure location
+* ✅ Passwords changed after training
 
 **General Rules:**
 
-* ✅ Backups of the website and database are created.  
-* ✅ All confidential data has been deleted from chats.  
-* ✅ The "lock and key separate" rule is followed.  
+* ✅ Backups of the site and database are created
+* ✅ All confidential data is deleted from chats
+* ✅ The "lock separately, key separately" rule is followed
 
----
+***
 
 ### ⚠️ Common Mistakes and How to Avoid Them
 
-#### Beginner Mistakes:
+#### Novice Mistakes:
 
-1. **Neglecting basic security** due to "inconvenience."  
-2. **Using one device** for all functions.  
-3. **Storing passwords in browsers** or unencrypted files.  
-4. **Installing unnecessary extensions** for "convenience."  
+1. **Neglecting basic security** due to "inconvenience"
+2. **Using one device** for all functions
+3. **Storing passwords in the browser** or unencrypted files
+4. **Installing unnecessary extensions** "for convenience"
 
 #### Experienced User Mistakes:
 
-1. **Overconfidence** leading to skipped security checks.  
-2. **Occasional protocol violations.**  
-3. **Using personal devices** for work tasks.  
+1. **Overconfidence** and skipping checks
+2. **One-time violations** of security protocols
+3. **Using personal devices** for work tasks
 
----
+***
 
-### 🚨 In Case of a Security Breach
+### 🚨 In Case of an Incident
 
-#### If Data is Compromised:
+#### If a Data Breach Occurs:
 
-1. **Immediately change** all passwords.  
-2. **Revoke access** to all services.  
-3. **Check balances** on all wallets.  
-4. **Create new wallets** if necessary.  
-5. **Reinstall systems** from scratch.  
+1. **Immediately change** all passwords
+2. **Revoke access** to all services
+3. **Check balances** of all wallets
+4. **Create new wallets** if necessary
+5. **Reinstall** systems from scratch
 
 #### Remember:
 
-* **Recovering stolen cryptocurrency is nearly impossible.**  
-* **Investing time in security is better than losing funds.**  
-* **Every protocol violation** is a potential risk of total loss.  
+* **Recovering stolen cryptocurrency is nearly impossible**
+* **It's better to spend time on security than to lose funds**
+* **Every protocol violation** is a risk of total loss

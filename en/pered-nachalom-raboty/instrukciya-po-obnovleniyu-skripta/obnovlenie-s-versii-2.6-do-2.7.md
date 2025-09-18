@@ -1,155 +1,140 @@
-# Updating from Version 2.6 to 2.7
+# Update from Version 2.6 to 2.7
 
 {% hint style="success" %}
-The list of script updates for version 2.7 is available via [**this link**](https://premium.gitbook.io/main/pered-nachalom-raboty/instrukciya-po-obnovleniyu-skripta/spisok-obnovlenii#versiya-2.7).
+A list of updates for the script version 2.7 is available at [**this link**](https://premium.gitbook.io/main/pered-nachalom-raboty/instrukciya-po-obnovleniyu-skripta/spisok-obnovlenii#versiya-2.7).
 {% endhint %}
-
----
 
 {% hint style="warning" %}
-Before starting the script update, ensure that **Ioncube Loader** on your server is updated to version 14.0 or higher. If your current version is below 14, refer to the [**guide on checking your installed version**](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-proverit-versiyu-ioncube-ustanovlennuyu-na-servere) and the [**update instructions**](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-obnovit-ioncube-loader). Your hosting provider's technical support team can assist with this process.
+Before starting the script update, please update the Ioncube Loader on your server to version 14.0 or higher (if your current version is below 14 — refer to the [**instructions for checking the installed version**](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-proverit-versiyu-ioncube-ustanovlennuyu-na-servere)** and the [**update instructions**](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-obnovit-ioncube-loader)). Your hosting provider's technical support can assist you with the update.
 {% endhint %}
-
----
 
 {% hint style="warning" %}
-If you are using merchant and auto-payout modules developed specifically for you by us, **please request updated versions of these modules** in your Telegram group (**do not contact technical support via the bot**).
+If you are using merchant and auto-payment modules developed specifically for you, please request updated modules in your Telegram group (**not through technical support via the bot**).
 
-If you are using merchant and auto-payout modules or other types of modules from third-party developers, they will not work with version 2.7 unless updated by their respective developers.
+If you are using merchant and auto-payment modules, as well as other types of modules from third-party developers, they will not work on version 2.7 without updates from the developers.
 {% endhint %}
-
----
 
 {% hint style="warning" %}
-If you were using the **Electrum** modules and/or the **"Trading Actions"** feature in version 2.6, **please request updated modules for version 2.7** in your Telegram group (**do not contact technical support via the bot**).
+If you used the Electrum modules and/or "Trading Actions" in version 2.6, please request the modules for version 2.7 in your Telegram group (**not through technical support via the bot**).
 {% endhint %}
-
----
 
 {% hint style="warning" %}
-**Important:** If you are updating the script from version 2.6 to 2.7, you will need to update (free of charge) any custom-designed themes developed by us for your website.
+**Please note — when updating the script from version 2.6 to 2.7, a free update is required for those with a custom design developed by us for the site!**
 
-If you are using such a theme, please send us the theme archive for adaptation to version 2.7. To do this:
-1. Navigate to the folder on your server located at `www/<site_name>/wp-content/themes/`.
-2. Find the folder containing your theme, compress it into an archive, and download it to your computer.
-3. Send the archive to your Telegram group.
+If you are using such a design, please send an archive of the theme for adaptation to version 2.7.\
+To do this, navigate to the folder on your server at `www/<site_name>/wp-content/themes/`, find the folder with your theme, compress it into an archive, download it to your computer, and then send the archive to your Telegram group.
 {% endhint %}
-
----
 
 {% hint style="danger" %}
-<mark style="color:red;">**Before updating, make sure to create a backup of your website and database!**</mark>
+<mark style="color:red;">**Before updating, make sure to back up your website and database!**</mark>
 
-If something goes wrong during the update, you will be able to restore your website from the backup. Backup methods may vary depending on your hosting provider, so contact your hosting provider's technical support team for assistance.
+If something goes wrong during the update, you can always restore your site from the backup. Backup methods may vary depending on your hosting, so it's advisable to contact your hosting provider's technical support for assistance.
 
-The simplest way to [**create a website backup**](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-sdelat-bekap-saita) is through your server's control panel (e.g., ISP Manager or other software) using the built-in file manager or an FTP client. Download the website files to your computer, and also export the database via the database management section or PhpMyAdmin.
+The simplest way to [**back up your site**](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-sdelat-bekap-saita) is through the server control panel (ISP Manager or other software) using the built-in file manager or via an FTP client (download the site files to your computer, and also download the site's database from the database management section or through PhpMyAdmin).
 {% endhint %}
-
----
 
 ## Update Process
 
-1. In the exchanger's admin panel, go to the "**Console**" section and enable **technical mode** to prevent users from making transactions on the website during the update.
+1. In the exchange panel, go to the "**Console**" section and enable technical mode to prevent users from making requests on the site during the script update.
 
     <figure><img src="../../.gitbook/assets/image (879).png" alt=""><figcaption></figcaption></figure>
-
-2. In the "**Plugins**" section, deactivate the "**Premium Exchanger**" and "**Premium Exchanger hooks**" plugins.
+2. In the "**Plugins**" section, deactivate the "**Premium Exchanger**" and "**Premium Exchanger hooks**" plugins.\
 
     <figure><img src="../../.gitbook/assets/image (254).png" alt=""><figcaption></figcaption></figure>
+3. Using an FTP client or file manager, delete the contents of the **`/wp-content/plugins/premiumbox/`** folder on the server, <mark style="color:green;">**except for**</mark> the following files and folders inside it:
 
-3. Using an FTP client or file manager, delete the contents of the **`/wp-content/plugins/premiumbox/`** folder on your server, <mark style="color:green;">**except**</mark> for the following files and folders:
+* **`/flags/`**
+* **`/languages/`**
+* **`/moduls/`** (but first, read the text in the block below)
 
-   - **`/flags/`**
-   - **`/languages/`**
-   - **`/moduls/`** (but first, read the note below)
-   - **`/sms/`**
-   - **`/userdata.php`**
+{% hint style="info" %}
+- If you **are using** the Webmoney module — do not delete the **`x19`** folder inside the **`moduls`** folder.
+- If you **are not using** the Webmoney module — you can delete the **`moduls`** folder entirely.
+{% endhint %}
 
-   {% hint style="info" %}
-   - If you **use** the Webmoney module, do not delete the **`x19`** folder inside the **`moduls`** folder.
-   - If you **do not use** the Webmoney module, you can delete the **`moduls`** folder entirely.
-   {% endhint %}
+* **`/sms/`**
+* **`/userdata.php`**
 
-    <figure><img src="../../.gitbook/assets/image (1775).png" alt="" width="563"><figcaption><p><strong>Delete all files and folders marked with checkmarks on your server.</strong></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1775).png" alt="" width="563"><figcaption><p><strong>Delete all checked files and folders on your server</strong></p></figcaption></figure>
 
-4. Delete all files related to the previous license from the root folder of your website.
+4. Delete all files from the previous license in the root folder of your site.\
 
     <figure><img src="../../.gitbook/assets/image (1774).png" alt="" width="432"><figcaption></figcaption></figure>
 
-    Then, go to the "[**Your Licenses**](https://premiumexchanger.com/ulicense/)" section and download the `license.zip` archive for version 2.7 by clicking the "**Download for version 2.7**" link.
+Go to the "[**Your Licenses**](https://premiumexchanger.com/ulicense/)" section and download the archive with the license files `license.zip`. To do this, click on the "**Download for version 2.7**" link.\
 
-    <figure><img src="../../.gitbook/assets/image (255).png" alt="" width="430"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (255).png" alt="" width="430"><figcaption></figcaption></figure>
 
-    Upload the downloaded archive to the [root folder of your website](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-naiti-kornevuyu-papku-saita-na-servere) using the <mark style="color:green;">**user created for the website**</mark> (not <mark style="color:red;">**root**</mark>!), and **make sure to extract the archive**.
+Upload the downloaded archive to the [root folder of your site](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-naiti-kornevuyu-papku-saita-na-servere) using the <mark style="color:green;">**user created for the site**</mark> (not <mark style="color:red;">**root**</mark>!) and **make sure to extract the archive**.
 
-    {% hint style="danger" %}
-    **Step 4 is mandatory, even if the license files were previously uploaded to the server. Otherwise, the website will not function!**
-    {% endhint %}
+{% hint style="danger" %}
+**Make sure to complete step 4, even if the license files were previously uploaded to the server — otherwise, the site will not function!**
+{% endhint %}
 
-5. Go to the "[**Your Scripts**](https://premiumexchanger.com/uscripts/)" section and download the archive with **update files for version 2.7** corresponding to your PHP version.
+5. Go to the "[**Your Scripts**](https://premiumexchanger.com/uscripts/)" section and download the archive with **update files for version 2.7** that matches your PHP version.
 
-    {% hint style="danger" %}
-    Make sure you know the exact PHP version installed on your server to select the correct archive.\
-    [**Guide to checking your server's PHP version**](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-proverit-versiyu-php-ustanovlennuyu-na-servere)
-    {% endhint %}
+{% hint style="danger" %}
+You need to know the exact PHP version installed on your server to select the appropriate archive.\
+[**Instructions for checking the PHP version installed on the server**](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-proverit-versiyu-php-ustanovlennuyu-na-servere).
+{% endhint %}
 
-    <figure><img src="../../.gitbook/assets/image (257).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (257).png" alt="" width="563"><figcaption></figcaption></figure>
 
-6. Upload the contents of the update archive to the root folder of your website using the <mark style="color:green;">**user created for the website**</mark> (not <mark style="color:red;">**root**</mark>!), and extract the archive, replacing the existing files.
+6. Upload the contents of the update archive to the root folder of your site using the <mark style="color:green;">**user created for the site**</mark> (not <mark style="color:red;">**root**</mark>!). Use an FTP client or file manager. Extract the archive, replacing the files.
+7. Go to the "**Plugins**" section and activate the "**Premium Exchanger**" and "**Premium Exchanger hooks**" plugins.
+8. Go to the "**Exchange Settings** → "Migration"** section and sequentially complete each step in the "**Migration (if version is less than 2.7)**" block.
 
-7. In the "**Plugins**" section, activate the "**Premium Exchanger**" and "**Premium Exchanger hooks**" plugins.
+{% hint style="danger" %}
+If you used AML modules in version 2.6 — you need to enable the AML module in the "**Modules**" section <mark style="color:red;">**after**</mark> updating the script and <mark style="color:red;">**before**</mark> performing the migration for the correct transfer of settings from version 2.6.
 
-8. Go to **"Exchanger Settings" → "Migration"** and, in the "**Migration (if version is below 2.7)**" block, complete each step sequentially.
+![](<../../.gitbook/assets/image (2009).png>)
 
-    {% hint style="danger" %}
-    If you used the AML module in version 2.6, enable the AML module in the "**Modules**" section <mark style="color:red;">**after**</mark> updating the script and <mark style="color:red;">**before**</mark> performing the migration to ensure proper settings transfer.
+The same applies if you used coefficients (in the "**Parsers 2.0**" section ➔ "**Custom Coefficients**") — if you used coefficients in version 2.6, you need to enable the module of the same name in the "**Modules**" section <mark style="color:red;">**after**</mark> updating the script and <mark style="color:red;">**before**</mark> performing the migration for the correct transfer of coefficients from version 2.6.
 
-    Similarly, if you used coefficients (in the "**Parsers 2.0**" → "**Custom Coefficients**" section), enable the corresponding module in the "**Modules**" section <mark style="color:red;">**after**</mark> updating the script and <mark style="color:red;">**before**</mark> performing the migration to ensure proper transfer of coefficients from version 2.6.
-    {% endhint %}
+![](<../../.gitbook/assets/image (2015).png>)
+{% endhint %}
 
-    <figure><img src="../../.gitbook/assets/image (2214).png" alt="" width="362"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2214).png" alt="" width="362"><figcaption></figcaption></figure>
 
-    When running each step, the system will calculate the total number of requests to be processed. You can specify the number of requests to be processed per cycle.
+When you start each step, the system will determine the total number of requests that need to be executed. You can specify the number of requests to be processed in one cycle.
 
-    {% hint style="warning" %}
-    By default, the number of requests is set to 50. If you're unsure about your server's capacity, we recommend leaving the default value.
+<figure><img src="../../.gitbook/assets/image (500).png" alt="" width="345"><figcaption></figcaption></figure>
 
-    If necessary, you can specify a different value, but if the cycle with the chosen value is too resource-intensive for the server, it may result in an error.
-    {% endhint %}
+{% hint style="warning" %}
+By default, the number of requests = 50. If you are unsure about your server's capacity, we recommend not changing the default value.
 
-    {% hint style="info" %}
-    You may see "**Technical Step X**" buttons next to the "**Step X**" buttons. In some cases, the number of requests may be too large for the server to calculate. In such cases, use the "**Technical Step X**" button, which allows you to manually specify the number of requests without server-side calculations.
+If necessary, you can specify any other value, but if the execution cycle with the specified value is too resource-intensive for the server, it will cause an error.
+{% endhint %}
 
-    If using a **technical step**, set a large number, such as 100,000.
-    {% endhint %}
+{% hint style="info" %}
+You will see "**Technical Step X**" buttons next to the "**Step X**" buttons. Before executing each step, the system determines the number of requests that need to be executed. In some cases, the number of requests may be too large, and the server may struggle to count them. In this case, instead of the "**Step X**" button, you should use the "**Technical Step X**" button, which allows you to manually specify an arbitrary number of requests without the server counting them.
 
-9. Go to the "**Settings → Permalinks**" section and click "**Save Changes**" without making any modifications to the page.
+If you use the **technical step**, you need to manually specify the number of requests. We recommend setting a deliberately large number, such as 100,000.
+{% endhint %}
+
+9. Go to the "**Settings** → "Permalinks"** section and click the "**Save Changes**" button without making any changes on the page.\
 
     <figure><img src="../../.gitbook/assets/image (259).png" alt="" width="563"><figcaption></figcaption></figure>
-
-10. Go to the "**Requests**" section and disable the update mode.
+10. Go to the "**Requests**" section and disable the update mode.\
 
     <figure><img src="../../.gitbook/assets/image (260).png" alt=""><figcaption></figcaption></figure>
 
-    {% hint style="warning" %}
-    Update mode is automatically enabled every time the main plugin is deactivated and reactivated, so it must always be disabled manually.
-    {% endhint %}
+{% hint style="warning" %}
+The update mode is activated each time the main plugin is deactivated and reactivated, so it must always be manually disabled.
+{% endhint %}
 
-11. If you use the "**Parsers 2.0**" or "**BestChange Parser**" modules, restart the parsers manually by following the Cron link in the respective sections.
-
-    For Parsers 2.0:
+11. If you are using the "**Parsers 2.0**" or "**Bestchange Parser**" modules — after disabling the update mode, you need to start the parsers in the corresponding sections by manually following the Cron link.\
+    For the operation of Parsers 2.0:
 
     <figure><img src="../../.gitbook/assets/image (394).png" alt=""><figcaption></figcaption></figure>
 
-    For the BestChange Parser:
+    For the operation of the BestChange parser:
 
     <figure><img src="../../.gitbook/assets/image (392).png" alt="" width="563"><figcaption></figcaption></figure>
-
-12. [Clear your browser cache](https://www.unisender.com/ru/blog/kak-ochistit-kehsh-v-brauzerah/).
+12. [Clear your browser cache](https://www.unisender.com/ru/blog/kak-ochistit-kehsh-v-brauzerah/).\
 
     <figure><img src="../../.gitbook/assets/image (395).png" alt="" width="563"><figcaption></figcaption></figure>
+13. <mark style="color:red;">**Make sure to delete all uploaded zip archives of the script and site backups from the root folder on the server.**</mark>\
 
-13. <mark style="color:red;">**Be sure to delete all uploaded script zip archives and website backups from the root folder on your server.**</mark>
-
-14. Turn off the maintenance mode in the "**Console**" section.  
-15. <mark style="color:green;">**The update was successfully completed!**</mark>
+14. Disable maintenance mode in the "**Console**" section.  
+15. <mark style="color:green;">**Update completed successfully!**</mark>
