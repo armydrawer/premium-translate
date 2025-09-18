@@ -1,4 +1,4 @@
-# Log Parsers 2.0
+# Log of Parsers 2.0
 
 In this section ("**Parsers 2.0**" -> "**Logs**"), you can view the history and errors related to data parsing from various sources.
 

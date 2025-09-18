@@ -4,9 +4,9 @@ Log in to the ISP Manager panel as the <mark style="color:red;">**root user**</m
 
 <figure><img src="../../.gitbook/assets/image (707).png" alt=""><figcaption></figcaption></figure>
 
-In the "**PHP Handler**" block, select the handler and the PHP version you want to use for your website.
+In the "**PHP Handler**" block, select the handler and the version of PHP you want to use for your website.
 
-PHP handlers in Apache, CGI, and FastCGI have different characteristics and efficiencies, which can impact the performance and security of web applications.
+PHP handlers in Apache, CGI, and FastCGI have different characteristics and efficiencies, which can affect the performance and security of web applications.
 
 **Apache Module (mod_php):**
 
@@ -15,7 +15,7 @@ PHP handlers in Apache, CGI, and FastCGI have different characteristics and effi
 
 **CGI (Common Gateway Interface):**
 
-* CGI is an older and less efficient way to process PHP scripts. It starts the PHP interpreter for each request, which can be very resource-intensive, especially on high-traffic sites.
+* CGI is an older and less efficient way of processing PHP scripts. It starts the PHP interpreter for each request, which can be very resource-intensive, especially on high-traffic sites.
 * The advantage of CGI is that it provides isolation between the PHP code and the web server, which can enhance security. However, due to the high system load, this method is rarely used today [1](https://blog.layershift.com/which-php-mode-apache-vs-cgi-vs-fastcgi/).
 
 **FastCGI:**

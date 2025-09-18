@@ -19,13 +19,13 @@ Logs received from merchants and auto-payments can vary significantly in content
 **Data**:
 
 * **url** — the address from which the log was received from the merchant
-* **headers** — the log headers, which contain information about the transaction
-* **post_data** — the body of the log, which contains information about the transaction and is sent to the merchant
+* **headers** — the log headers, containing information about the transaction
+* **post_data** — the body of the log, containing transaction information sent to the merchant
 * **result** — contains information about the actions performed, their results, and any errors received from the merchant
 
 **Merchant/Auto-Payment** — the name of the merchant/auto-payment module that sent the log
 
-**IP Address** — the IP address from which the specified log entry was received
+**IP Address** — the IP address from which the log entry was received
 
 **Request ID** — the ID of the client's request
 

@@ -6,7 +6,7 @@ In the website control panel, under the "**SEO" → "Settings"** section, you wi
 
 <figure><img src="../../../.gitbook/assets/image (1130).png" alt=""><figcaption></figcaption></figure>
 
-OGP (Open Graph Protocol) is a set of meta tags used to define how content will appear on social media platforms like Facebook, Twitter, LinkedIn, and others. OGP allows you to specify the title, description, image, and other attributes that will be displayed when a link to your page is shared on social media. This helps enhance the visual representation of your content and makes it more appealing to users, which can, in turn, increase the number of clicks on links and drive traffic to your site.
+OGP (Open Graph Protocol) is a set of meta tags used to define how content will appear on social media platforms like Facebook, Twitter, LinkedIn, and others. OGP allows you to set the title, description, image, and other attributes that will be displayed when a link to your page is shared on social media. This helps enhance the visual representation of your content and makes it more appealing to users, which can, in turn, increase the number of clicks on links and drive traffic to your site.
 
 {% tabs %}
 {% tab title="General Settings" %}
@@ -30,43 +30,43 @@ OGP (Open Graph Protocol) is a set of meta tags used to define how content will 
 {% endtab %}
 {% endtabs %}
 
-Here are explanations for some of the parameters:
+Explanations for some parameters:
 
 * **Title** — the page title for search engines;
 * **Keywords** — keywords for search engines;
 * **Description** — the page description for search engines;
 * **OGP title** — the page title for social media when published;
 * **OGP description** — the page description for social media when published;
-* **OGP image** — the image for social media when published;
-* **News Title Template** — the title template for news articles published on the site;
-* **Page Title Template** — the title template for pages created on the site;
-* **Exchange Title Template** — the title template for pages that open after selecting an exchange direction;
+* **OGP image** — the image for social media when published.
+* **News Title Template** — the title template for news articles published on the site.
+* **Page Title Template** — the title template for pages created on the site.
+* **Exchange Title Template** — the title template for pages that open after selecting an exchange direction.
 * **Exchange Title Template (H1)** — the H1 title template for the exchange direction that appears on the exchange direction page.
 
 ## Meta Tags and Metrics
 
-Meta tags are HTML tags that contain information about a webpage that users cannot see. These tags help search engine crawlers better understand the content of the page and determine its relevance to user search queries. Some examples of meta tags include the page title, page description, keywords, and other metadata.
+Meta tags are HTML tags that contain information about a webpage that users do not see. These tags help search engine bots better understand the content of the page and determine its relevance to user search queries. Some examples of meta tags include the page title, page description, keywords, and other metadata.
 
-Metrics are numerical indicators used to measure the effectiveness of a website and its interaction with users. These indicators include the number of website visitors, time spent on the site, user return rates, bounce rates, and other metrics. Metrics help webmasters and marketers analyze user behavior on the site and optimize it to improve user experience and conversion rates.
+Metrics are numerical indicators used to measure the effectiveness of a website and its interaction with users. These indicators include the number of visitors to the site, time spent on the site, user return rates, bounce rates, and other metrics. Metrics help webmasters and marketers analyze user behavior on the site and optimize it to improve user experience and conversion rates.
 
 This section specifies tags, goals, and counters for subsequent data analytics in third-party services.
 
 <figure><img src="../../../.gitbook/assets/изображение (2).png" alt=""><figcaption></figcaption></figure>
 
 1. To create a Yandex.Metrica counter code, log in or register in the [system](https://metrika.yandex.ru).
-2. On the counters list page, [add a counter](https://metrika.yandex.ru/add). A settings page will open.
+2. On the counter list page, [add a counter](https://metrika.yandex.ru/add). The settings page will open.
 3. Specify the main settings for the counter. Fill in the fields:
-   * **Counter Name**. The name you provide will be displayed on the "My Counters" page and in the top menu for switching between counters. If no name is given, the value from the "Website Address" field will be used.
+   * **Counter Name**. The name you provide will be displayed on the "My Counters" page and in the top menu for switching between counters. If no name is specified, the value of the "Website Address" field will be used.
    * **Website Address (main domain of the site)**. This field is mandatory. Do not include the scheme/protocol prefix (`http://`, `https://`).
 
-       In this field, you can specify the path of the site (path in the URL structure). For example, example.com/category/. Do not specify the address up to a specific file or page fragment (the "#" symbol) — these indications will cause an error in the input field. Additionally, parameters passed in the URL (the part of the address after the "?" symbol) will not be considered.
+       In this field, you can specify the path of the site (path in the URL structure). For example, example.com/category/. Do not specify the address to a specific file or page fragment (the "#" symbol) — these indications will cause an error in the input field. Additionally, URL parameters (the part of the address after the "?" symbol) will not be considered.
 4. Accept the terms of the [User Agreement](https://yandex.ru/legal/metrica_termsofuse/).
 5. Click the "Create Counter" button.
 6. On the opened page, in the "**Counter Code**" block, copy the **counter ID** and enter it in the **"Yandex.Metrica Counter ID"** field in the admin panel under the **SEO** section.
 
-<figure><img src="../../../.gitbook/assets/изображение (18).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/изображение (18).png" alt=""><figcaption></figcaption></figure>
 
-To set goals in Yandex.Metrica, enter the goal name in the corresponding field.
+    To set goals in Yandex.Metrica, specify the goal name in the corresponding field.
 
 <figure><img src="../../../.gitbook/assets/image (2122).png" alt=""><figcaption></figcaption></figure>
 
@@ -74,7 +74,7 @@ To set goals in Yandex.Metrica, enter the goal name in the corresponding field.
 
 ## XML Sitemap Settings
 
-An XML sitemap is a file that contains information about the structure and content of a website in XML format. It is designed for search engine crawlers to simplify the indexing of the site's pages and the collection of information about them. The XML sitemap contains a list of all the site's pages, as well as additional information such as update frequency, page priority, and the date of the last update. It helps search engine crawlers understand which pages of the site should be indexed, increasing the chances of the site achieving high rankings in search results.
+An XML sitemap is a file that contains information about the structure and content of a website in XML format. It is designed for search engine bots to simplify the indexing of the site's pages and the collection of information about them. The XML sitemap contains a list of all the site's pages, as well as additional information such as update frequency, page priority, and the date of the last update. It helps search engine bots understand which pages of the site should be indexed, increasing the site's chances of achieving high positions in search results.
 
 <figure><img src="../../../.gitbook/assets/изображение (49).png" alt=""><figcaption></figcaption></figure>
 
@@ -90,7 +90,7 @@ An XML sitemap is a file that contains information about the structure and conte
 
 ## robots.txt Settings
 
-The robots.txt file is a text file placed on the website to inform search engine crawlers which pages of the site should be indexed and which should not. In this file, you can specify which directories and files should be excluded from indexing, as well as provide links to sitemaps and other useful resources for search engine crawlers. The robots.txt file is an important tool for SEO and can help improve the site's rankings in search results.
+The robots.txt file is a text file placed on the website to inform search engine bots which pages of the site should be indexed and which should not. In this file, you can specify which directories and files should be excluded from indexing, as well as provide links to sitemaps and other useful resources for search engine bots. The robots.txt file is an important tool for SEO and can help improve the site's positions in search results.
 
 <figure><img src="../../../.gitbook/assets/изображение (161).png" alt=""><figcaption></figcaption></figure>
 
@@ -116,11 +116,11 @@ In this section, you create the appearance of the exchange direction window that
 
 ## Example of Filling Out
 
-Here’s an example of how to fill out the SEO parameters for a website:
+An example of filling out SEO parameters for a website:
 
 <figure><img src="../../../.gitbook/assets/image (1913).png" alt=""><figcaption></figcaption></figure>
 
-1. Log into the admin panel.
+1. Log in to the admin panel.
 2. Go to the "**SEO**" -> "**Settings**" section.
 
 <figure><img src="../../../.gitbook/assets/image (1914).png" alt=""><figcaption></figcaption></figure>

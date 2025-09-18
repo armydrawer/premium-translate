@@ -6,7 +6,7 @@
 
 <figure><img src="../../.gitbook/assets/Screenshot_19.png" alt=""><figcaption></figcaption></figure>
 
-2. Navigate to the "**Currencies -> Currencies**" section, search for the desired payment system, and proceed to edit it. Go to the "**Field Settings**" tab. Locate the "**Account Number Validator**" field. Select the appropriate currency and save the settings.
+2. Navigate to the "**Currencies -> Currencies**" section, search for the required payment system, and proceed to edit it. Go to the "**Field Settings**" tab. Locate the "**Account Number Validator**" field. Select the appropriate currency and save the settings.
 
 <figure><img src="../../.gitbook/assets/Screenshot_20 (4).png" alt=""><figcaption></figcaption></figure>
 

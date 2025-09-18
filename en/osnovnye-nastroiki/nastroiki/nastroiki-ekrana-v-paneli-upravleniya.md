@@ -4,7 +4,7 @@ If the content of some tables in the control panel is not displaying correctly, 
 
 <figure><img src="../../.gitbook/assets/Screenshot_54.png" alt=""><figcaption></figcaption></figure>
 
-Expand this section and adjust the screen settings. Disable some table columns to make the information more readable.
+Expand this section and adjust the screen settings. Disable some columns in the table to make the information more readable.
 
 {% hint style="warning" %}
 Different sections of the control panel have various options available for disabling columns.

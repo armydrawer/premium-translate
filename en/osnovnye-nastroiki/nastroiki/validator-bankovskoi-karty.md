@@ -15,19 +15,19 @@ After activating the module, navigate to "**Modules**" -> "**Determine Card Type
 
 <figure><img src="../../.gitbook/assets/image (1861).png" alt="" width="563"><figcaption></figcaption></figure>
 
-**Remember already checked cards:**\
+**Remember previously checked cards:**\
 • **Yes** — previously entered card numbers will not be checked again\
 • **No** — data for checked cards will not be saved by the module
 
 **If the API does not provide data:**\
 • **Nothing** — the request will be created without validation\
-• **Error** — the request will not be created, and an error message "**account number did not pass validation ()**" will be displayed under the card number input field in the exchange form.
+• **Error** — the request will not be created, and an error message stating "**account number did not pass validation ()**" will appear below the card number input field in the exchange form.
 
 <figure><img src="../../.gitbook/assets/image (1862).png" alt="" width="305"><figcaption></figcaption></figure>
 
-**Source for determining card type** — select one of the sources for checking the bank card numbers entered by clients:
+**Source for determining card type** — select one of the sources to check the bank card numbers entered by clients:
 
-**Only checks the payment system affiliation (Visa, MasterCard, Mir), no API key needed:**\
+**Only checks affiliation with the payment system (Visa, MasterCard, Mir), no API key needed:**\
 • based on the first digits of the card number\
 **Checks affiliation with a specific bank (a separate API key is required for each service):**\
 • [bincodes.com](https://www.bincodes.com/users/register/)\
@@ -36,7 +36,7 @@ After activating the module, navigate to "**Modules**" -> "**Determine Card Type
 
 **API key for services** — enter the API key from the selected service in the "**Source for determining card type**" field.
 
-**Timeout (sec.)** — the time the site waits for a response from the external service. If a response is not received within the specified time, the site will continue to operate without a response. If no time is specified or it is set to 0, the default timeout of 20 seconds will apply. There is no universal timeout value, as it depends on the speed of the specific service.
+**Timeout (sec.)** — the time the site waits for a response from the external service. If a response is not received within the specified time, the site will continue to operate without an answer. If no time is set or it is set to 0, the standard timeout of 20 seconds will apply. There is no universal timeout value, as it depends on the speed of the specific service.
 
 **Check selected currencies** — select the currencies for which the option will be activated.
 
@@ -49,7 +49,7 @@ On the "**Field Settings**" tab, in the "**Bank Names**" fields for the currency
 {% hint style="info" %}
 If you want to allow requests with specific banks — list the names of those banks (one name per line). **With this setting, only cards from the specified banks will be allowed for request creation.**
 
-If you want to prohibit requests with cards from specific banks — specify the name of that bank with a "**-**"
+If you want to prohibit requests with cards from specific banks — list the name of that bank with a "**-**"
 
 (example: **-tinkoff bank**)
 

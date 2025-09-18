@@ -3,7 +3,7 @@
 To set security passwords, you need to open the file `wp-content/plugins/premiumbox/userdata.php` on the server and enter the corresponding passwords in the lines specified below. Without entering the designated password in the admin panel, you will not be able to perform any action that is password-protected.
 
 {% hint style="warning" %}
-Use numbers and Latin letters in both uppercase and lowercase. A recommended length for the password is at least 8 characters.
+Use numbers and Latin letters in both uppercase and lowercase. A minimum length of 8 characters is recommended.
 {% endhint %}
 
 1. Security passwords for saving API keys for merchants and auto payouts. If the password is not entered, you will not be able to change the authorization details in the module.
