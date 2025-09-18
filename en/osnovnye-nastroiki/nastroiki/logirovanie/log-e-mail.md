@@ -1,0 +1,11 @@
+# Email Log
+
+In this section ("**Messages**" -> "**Email Logs**"), you can view all the emails sent from the [previously configured email account](https://premium.gitbook.io/rukovodstvo-polzovatelya/navigaciya/uvedomleniya/opovesheniya-po-e-mail).
+
+{% hint style="info" %}
+If the section does not appear in the sidebar, please enable the module in the "**Modules**" section:
+
+![](<../../../.gitbook/assets/image (1074).png>)
+{% endhint %}
+
+<figure><img src="../../../.gitbook/assets/image (861).png" alt=""><figcaption></figcaption></figure>
