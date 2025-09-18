@@ -1,25 +1,25 @@
 # Setting a Manual Reserve for a New Currency
 
 {% hint style="info" %}
-If you are using the auto-payout module, you can retrieve the reserve for this payment system directly from the wallet in real time. In this case, when creating the currency, select the corresponding wallet for the "**Currency Reserve**" parameter. If you do this, the steps described below are not necessary.
+If you are using the auto-payment module, you can receive a real-time reserve from your wallet for this payment system. In this case, when creating the currency, select the appropriate wallet for the "**Currency Reserve**" parameter. You do not need to perform the actions described below.
 {% endhint %}
 
-If you want to set the currency reserve manually, navigate to the "**Reserve Adjustment**" section in the sidebar. Click the "**Add**" button located above the table of existing currencies.
+If you want to set the currency reserve manually, go to the "**Reserve Adjustment**" section in the sidebar. Click the "**Add**" button located above the table of established currencies.
 
 <figure><img src="../../../.gitbook/assets/image (1027).png" alt=""><figcaption></figcaption></figure>
 
-In the pop-up window, you will need to fill in the fields "**Comment**," "**Amount**," and "**Currency**":
+In the window that opens, you need to fill in the fields for "**Comment**," "**Amount**," and "**Currency**":
 
 <figure><img src="../../../.gitbook/assets/image (1010).png" alt=""><figcaption></figcaption></figure>
 
-* **Comment -** Add a note or description for this transaction (optional).
+* **Comment -** Enter a note or hint for this transaction (optional).
 * **Amount -** Specify the amount by which you want to increase the reserve for this currency.
-* **Currency -** Select the currency name from the dropdown list for which you are setting the reserve.
+* **Currency -** Select the currency name from the dropdown list for which you are specifying the reserve.
 
-Click the "**Save**" button to apply the changes.
+Click the "**Save**" button to save your changes.
 
-Please note: If, for any reason unrelated to exchange operations on the website, the currency reserve increases or decreases, you will need to manually update the data for that currency. Repeat the steps above to adjust the currency reserve, and in the "Amount" field, enter the amount by which the reserve has changed. Use a negative sign ("-") if the reserve has decreased. For example, if the reserve has decreased by 500 units, enter "-500" in the "Amount" field. Click the "**Save**" button to save the changes.
+Please note that if, for any reason unrelated to exchange operations on the site, the currency reserve has increased or decreased, you will need to manually update the data for that currency. Repeat the steps described above to specify the currency reserve, entering the amount by which the reserve has increased or decreased (with a negative sign for decreases). For example, if the reserve decreased by 500 units, you should enter "-500" in the amount field. Click the "**Save**" button to save your changes.
 
 {% hint style="info" %}
-The currency reserve amount is automatically updated after an exchange is completed. The manual reserve adjustment feature is intended for cases where you need to add or withdraw funds from the balance used by your exchange service.
+The currency reserve amount is automatically adjusted after an exchange is made. The manual adjustment feature is provided for cases where you need to add or withdraw funds from the balance used by your exchange service.
 {% endhint %}

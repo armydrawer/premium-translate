@@ -1,47 +1,32 @@
-# Exchange Rates from a File
+# Currency Exchange Rates from a File
 
-The script includes functionality to retrieve exchange rate values from a text file. You can create a file to store exchange rate values, which will then be displayed on the website as the exchange rate for a specific direction. To set this up, follow these steps:
+The script allows you to obtain exchange rate values from a text file. You can create a file that will store the exchange rates, which will then be displayed on the website as the exchange rate for a specific direction. Please follow these steps:
 
----
+1. In the website control panel, go to the "**Modules" → "Modules"** section and activate the "**Exchange Rate Parser from File**" module.
 
-### 1. Activate the Exchange Rate Parser Module
-In the website's admin panel, go to **"Modules" → "Modules"** and activate the module called **"Exchange Rate Parser from File"**.
+2. Create a TXT file and specify the exchange rates in it. List each exchange rate on a new line. Upload the TXT file to the server. Here’s an example of how the file should look:
 
----
+| <p><code>USDRUB : 1 = 55.7</code></p><p><code>RUBUSD : 57.5 = 1</code></p><p><code>BTCUSD : 1 = 15777</code></p> |
+| ---------------------------------------------------------------------------------------------------------------- |
 
-### 2. Create a TXT File with Exchange Rates
-Create a TXT file and specify the exchange rates in it. Each exchange rate should be written on a new line. Upload this TXT file to the server. Below is an example of how the file should look:
+3. In the website control panel, navigate to "**Modules"** → **"Exchange Rate from File**" and enter the URL of the uploaded TXT file.
 
-```
-USDRUB : 1 = 55.7
-RUBUSD : 57.5 = 1
-BTCUSD : 1 = 15777
-```
+<figure><img src="../../../.gitbook/assets/image (1168).png" alt="" width="563"><figcaption></figcaption></figure>
 
----
+4. In the website control panel, go to the "**Exchange Directions**" section. In the settings for the exchange direction, under the "**Rate**" tab, select the corresponding line number from the file for the "**Exchange Rate from File**" parameter and save the changes.
 
-### 3. Specify the File URL in the Admin Panel
-In the admin panel, navigate to **"Modules" → "Exchange Rate from File"** and enter the URL of the uploaded TXT file.
+<figure><img src="../../../.gitbook/assets/image (1064).png" alt="" width="563"><figcaption></figcaption></figure>
 
----
+5. Set up a [cron job](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-sozdat-zadanie-cron-na-servere) that will retrieve the exchange rate from the file and update it on the website. The script can be run every minute. Here’s an example command for a cron job in Unix format for the ISP Manager control panel:
 
-### 4. Configure Exchange Directions
-In the admin panel, go to **"Exchange Directions"**. In the settings for a specific exchange direction, open the **"Rate"** tab. For the parameter **"Exchange Rate from File"**, select the corresponding line number from the TXT file and save the changes.
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
----
+`/usr/bin/wget -t 1 -O - --no-check-certificate "https://premiumexchanger.com/cron-fcourse_request_cron.html"`
 
-### 5. Set Up a Cron Job
-Set up a [cron job](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-sozdat-zadanie-cron-na-servere) to regularly fetch the exchange rate value from the file and update it on the website. The script can be scheduled to run every minute. Below is an example of a cron job command in Unix format for the ISP Manager control panel:
+<figure><img src="../../../.gitbook/assets/image (1052).png" alt="" width="563"><figcaption></figcaption></figure>
 
-```
-/usr/bin/wget -t 1 -O - --no-check-certificate "https://premiumexchanger.com/cron-fcourse_request_cron.html"
-```
+{% hint style="info" %}
+The command provided in the example may vary for each server. The changes pertain to this part of the command: **`/usr/bin/wget -t 1 -O - --no-check-certificate "your_URL"`**. You can confirm the correct command with your hosting provider's technical support.
+{% endhint %}
 
----
-
-### Important Note:
-The exact command may vary depending on your server. Specifically, the part of the command **`/usr/bin/wget -t 1 -O - --no-check-certificate "your_URL"`** might differ. Contact your hosting provider's technical support to confirm the correct command for your server.
-
----
-
-Once everything is set up, the exchange rate for the specified direction on the website will always be retrieved from the TXT file.
+Now, the exchange rate for the specified direction on the website will be continuously sourced from the TXT file.

@@ -1,21 +1,19 @@
-### Bestchange API Parser (New, Starting from v2.6)
-
-#### Description: The module is available starting from version 2.6!
-
+---
+description: The module is available starting from version 2.6!
 ---
 
-#### Important Notes:
+# Bestchange API Parser (new, starting from v2.6)
 
 {% hint style="warning" %}
-Due to technical reasons, settings from the previous Bestchange Parser module cannot be transferred. Therefore, you will need to reconfigure all exchange rates from scratch to use the new module.
+Due to technical reasons, it is not possible to transfer settings from the Bestchange parser module. Therefore, you will need to set up all exchange rates from scratch for the new module.
 {% endhint %}
 
 {% hint style="danger" %}
-To enable automatic currency rate updates, it is **mandatory** to create a [Cron job](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/faq/kak-sozdat-zadanie-cron-na-servere) on your server. Use the link provided in the "**BestChange API Parser**" -> "**Settings**" section.
+To automatically update exchange rates, **it is essential** to create a [Cron job](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/faq/kak-sozdat-zadanie-cron-na-servere) on your server using the link from the "**BestChange API Parser**" -> "**Settings**" section.
 
 ![](<../../../.gitbook/assets/image (415).png>)
 
-The hash for the Cron job link is specified in the file **`wp-content/plugins/premiumbox/userdata.php`**.
+The hash for the Cron job link is specified in the **`wp-content/plugins/premiumbox/userdata.php`** file.
 
 ![](<../../../.gitbook/assets/image (416).png>)
 
@@ -23,185 +21,186 @@ The hash for the Cron job link is specified in the file **`wp-content/plugins/pr
 {% endhint %}
 
 {% hint style="warning" %}
-Please note that using the Bestchange API Parser does not guarantee a spot in the Bestchange exchanger list for the position you specify in the parser settings.
+Please note that using the Bestchange API parser does not guarantee you a spot in the list of exchangers on Bestchange, as specified in the parser settings.
 
-The module is available to all exchangers using the Premium Exchanger script. This means your competitors can configure the parser just like you, leading to competition for the specified position (most often the 1st position) in the selected exchange direction.
+The module is available for all exchangers using the Premium Exchanger script—your competitors can set up the parser just like you, so all exchangers using the parser will compete for the specified position (usually the top spot) in the chosen exchange direction.
 
-The only guaranteed way to secure the top spot is through **constant undercutting** (price dumping).
+The only way to guarantee a top position is through **constant undercutting**.
 
-Additionally, you can configure minimum and maximum rates using the provided instructions to avoid accidentally incurring losses if another exchanger also decides to undercut prices. Without setting min/max rates, the system will follow the competition, potentially pulling your rates down as well.
+You can also further configure the minimum and maximum rates according to this guide to avoid going into the negative if another exchanger decides to undercut as well (this will pull you along if you have selected the first position binding and have not set the min/max rates).
 {% endhint %}
 
 {% hint style="danger" %}
-The Bestchange API Parser will only work for active exchange directions. When configuring the parser, make sure to activate the exchange direction before starting the setup.
+The Bestchange API parser will only work in an active exchange direction—make sure to set the direction to active before starting the configuration of the parser.
 
 <img src="../../../.gitbook/assets/image (733).png" alt="" data-size="original">
 {% endhint %}
 
----
-
-### General Module Settings
+## General Module Settings
 
 <figure><img src="../../../.gitbook/assets/image (2148).png" alt=""><figcaption></figcaption></figure>
 
-- **Domain**: Enter one of the domains listed below the field. If the field is left empty (when the parser uses the main BC domain) and the parser does not work (currencies and cities are not displayed in the list below on the same page), specify a domain from the list.
+**Domain** — Enter one of the domains from the list below the field. If the field is empty (when the parser uses the main BC domain), the parser will not work (currencies and cities will not be displayed in the list below on this page).
 
-- **API Key**: The API key from your [Bestchange account](https://www.bestchange.ru/partner/profile.html).
+**API Key** — The API key from your [personal account on the Bestchange website](https://www.bestchange.ru/partner/profile.html).
 
 <figure><img src="../../../.gitbook/assets/image (419).png" alt="" width="563"><figcaption></figcaption></figure>
 
-- **Timeout (sec.)**: The waiting time for a response from Bestchange. The recommended value is 20 seconds. If set to 0, the default value of 20 seconds will also apply.
+**Timeout (sec.)** — The time to wait for a response from Bestchange (recommended value is 20 seconds. If set to 0, it will also default to 20 seconds).
 
-- **Site Version**: The language version of the Bestchange website (either `en` or `ru`).
+**Site version** — The language version of the Bestchange website (en or ru).
 
-- **Position**:  
-  - **Rate**: The base exchange rate (calculated as `rate = from_amount / to_amount`).  
-  - **Rankrate**: The rate with additional fees applied, calculated for an exchange amount of $300. This is the default rate displayed on Bestchange. If you want to get a ranking of exchangers sorted by the exchange rate as shown on Bestchange, it’s better to use `rankrate`.
+**Position:**\
+&#xNAN;**• Rate** — The base exchange rate (calculation formula: rate = from_amount / to_amount)\
+&#xNAN;**• Rankrate** — The rate with additional fees applied, calculated for an exchange amount of $300. This rate is displayed by default on Bestchange. If you want to get a ranking of exchangers sorted by exchange rate as on Bestchange, it is better to use rankrate.
 
-- **Blacklist of Exchanger IDs (comma-separated)**: IDs of exchangers whose rates will be ignored during parsing.
+**Blacklist of exchanger IDs (comma-separated)** — IDs of exchangers whose rates will be ignored during parsing.
 
 <details>
-<summary>How to find an exchanger's ID?</summary>
-Click the image below to see how to locate an exchanger's ID on the Bestchange website.
+
+<summary>How to find the exchanger ID?</summary>
+
+Click on the image below to see how to find the exchanger ID on the Bestchange website.
 
 <img src="../../../.gitbook/assets/Clip2net_230726151417.png" alt="" data-size="original">
+
 </details>
 
-- **Whitelist of Exchanger IDs (comma-separated)**: IDs of exchangers whose rates will be used during parsing. If at least one ID is specified, the parser will only use rates from these sources, ignoring all others.
+**Whitelist of exchanger IDs (comma-separated)** — IDs of exchangers whose rates will be used during parsing (if at least one ID is specified, the parser will only use the rate from this source, ignoring other exchangers).
 
-- **Delete Old Data**:  
-  - **Yes**: Data retrieved by the parser will be deleted before each new rate update. If the rate is not updated for any reason, it will display as `0 = 0` until the next successful update.  
-  - **No**: Data retrieved by the parser will not be deleted before each new rate update. If the rate is not updated for any reason, the previous value will remain displayed until the next successful update.
+**Delete old data:**\
+&#xNAN;**• Yes** — Data obtained from the parser will be deleted before each new rate update (if the rate is not updated for any reason, it will display as 0 = 0 until the next successful rate update)\
+&#xNAN;**• No** — Data obtained from the parser will not be deleted before each new rate update (if the rate is not updated for any reason, it will display the previous value until the next successful rate update).
 
-- **Disable Protection**:  
-  - **Yes**: Disables protection against rate fluctuations.  
-  - **No**: Enables protection against rate fluctuations. The protection uses data from the top 5 positions in the Bestchange listing to calculate the difference between rates. The rate cannot exceed this difference.
+**Disable protection:**\
+&#xNAN;**• Yes** — Protection against rate fluctuations is disabled.\
+&#xNAN;**• No** — Protection against rate fluctuations is enabled. The protection uses data from the top 5 positions in the Bestchange listing to calculate the difference between rates—the rate cannot exceed this difference.
 
 {% hint style="info" %}
-**Protection Mechanism Description**
+**Description of the protection mechanism**
 
-To prevent abnormal rate fluctuations, we use data from the top five exchangers (highlighted in the table accessible via the "**Show Rating**" button in the Bestchange parser settings for the exchange direction). We analyze the differences between these rates and set a limit: the rate cannot exceed the maximum difference calculated from this data.
+To prevent abnormal fluctuations, we use data obtained from five exchangers (highlighted in the table that opens by clicking the "**Show ranking**" button in the Bestchange parser settings for the exchange direction). We analyze the difference between these rates and set a limit: the rate cannot exceed the maximum difference determined based on this data.
 
-**Key Terms:**
+**Key terms:**
 
 <img src="../../../.gitbook/assets/image (323).png" alt="" data-size="original">
 
-The screenshot shows an email sent to the administrator if protection is enabled and the "**Bestchange Security Error**" email template is activated.
+In the screenshot, you can see the email sent to the administrator if protection is enabled and the email template "**Bestchange Security Error**" is activated.
 
-- **First Rate**: The rate of the first position among the five sources.  
-- **Your Rate**: Your current rate.  
-- **Min Security Rate**: The minimum rate considered safe based on our calculations.
+• **First rate** — the rate of the first position among the five sources.
+
+• **Your rate** — your current rate.
+
+• **Min security rate** — the minimum rate considered safe according to our calculations.
 
 ![](<../../../.gitbook/assets/image (324).png>)
 
-**Why Protection Was Introduced**
+**Reasons for implementing protection**
 
-In the past, we encountered situations where Bestchange experienced sudden rate spikes due to changes in the rate format (e.g., from `1 to XXX` to `XXX to 1`). This protection was developed to monitor such anomalies.
+In the past, we encountered situations where there were sharp fluctuations in rates on Bestchange due to changes in the format of rate representation (for example, from 1 to XXX to XXX to 1). This protection was developed to track such anomalies.
 
-**Protection Conditions**
+**Conditions for the protection to work**
 
-This protection works effectively if you add small step values, such as `0.0001`. If you add larger values, such as `0.5%` or more, the rate will already be considered abnormal.
+This protection will work effectively if you add small values to the step, for example, 0.0001. If you add more significant values, such as 0.5% or higher, the rate will already be considered abnormal.
 {% endhint %}
 
-- **Select Currencies**: A list of available currencies from Bestchange for parsing (this list will only appear after entering a valid API key in the parser settings).
+**Select currencies** — A list of available currencies from Bestchange for parsing (the list will only be displayed after entering a valid API key in the parser settings).
 
 <figure><img src="../../../.gitbook/assets/image (420).png" alt="" width="395"><figcaption></figcaption></figure>
 
-- **Select Cities**: A list of cities from Bestchange for parsing (this list will only appear after entering a valid API key in the parser settings).
+**Select cities** — A list of cities from Bestchange for parsing (the list will only be displayed after entering a valid API key in the parser settings).
 
 <figure><img src="../../../.gitbook/assets/image (421).png" alt="" width="363"><figcaption></figcaption></figure>
 
----
+## Parser Settings for Exchange Direction
 
-### Parser Settings for Exchange Directions
+In the control panel, go to "**Exchange Directions" → "Exchange Directions"** to edit the exchange direction.
 
-In the admin panel, go to "**Exchange Directions**" -> "**Exchange Directions**" and edit the desired exchange direction.
-
-On the "**Auto Rate Adjustment**" and "**Bestchange Parser**" tabs, disable any active auto rate adjustments before configuring the BestChange API Parser.
+On the "**Auto Rate Adjustment**" and "**Bestchange Parser**" tabs, before starting the configuration of the BestChange API parser, disable any active rate auto-adjustments if such settings are in use.
 
 <div><figure><img src="../../../.gitbook/assets/image (423).png" alt="" width="359"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (422).png" alt="" width="443"><figcaption></figcaption></figure></div>
 
-On the "**BestChange API Parser**" tab, you will see the settings block. Configure the necessary options:
+On the "**BestChange API Parser**" tab, you will see a settings block. Make the necessary configurations:
 
 <figure><img src="../../../.gitbook/assets/image (424).png" alt="" width="563"><figcaption></figcaption></figure>
 
-- **Enable Parser**:  
-  - **Yes**: The parser is enabled for this exchange direction.  
-  - **No**: The parser is not used.
+**Enable parser:**\
+&#xNAN;**• Yes** — The parser is enabled for the exchange direction.\
+&#xNAN;**• No** — The parser is not in use.
 
 {% hint style="warning" %}
-To activate the parser, you must select two currencies in the "**Currencies (You Give)**" and "**Currencies (You Receive)**" fields.
+To activate the parser, you must select 2 currencies in the "**Currencies (You Give)**" and "**Currencies (You Receive)**" fields.
 {% endhint %}
 
-- **Blacklist of Exchanger IDs (comma-separated)**: IDs of exchangers whose rates will be ignored during parsing.
+**Blacklist of exchanger IDs (comma-separated)** — IDs of exchangers whose rates will be ignored during parsing.
 
-- **Whitelist of Exchanger IDs (comma-separated)**: IDs of exchangers whose rates will be used during parsing. If at least one ID is specified, the parser will only use rates from these sources, ignoring all others.
+**Whitelist of exchanger IDs (comma-separated)** — IDs of exchangers whose rates will be used during parsing (if at least one ID is specified, the parser will only use the rate from this source, ignoring other exchangers).
 
 {% hint style="warning" %}
-If similar fields are filled in the general parser settings, they will be ignored for this exchange direction. Settings in the exchange direction take higher priority.
+If similar fields are filled in the general parser settings, they will be ignored for the settings of this exchange direction—the settings for the exchange direction take precedence.
 
-If the fields in the exchange direction settings are empty but the general settings are filled, the general settings will apply to the exchange direction.
+If the fields in the exchange direction settings are not filled, but the general settings are, the general settings will apply to the exchange direction.
 {% endhint %}
 
-- **City**: A list of cities selected in the general parser settings (used for cash exchange directions).
+**City** — A list of cities that are checked in the general parser settings (the city is selected for the exchange direction with cash).
 
-- **Currencies (You Give)**: Select the currency for the "**You Give**" side.
+**Currencies (You Give)** — Select the currency for the "**You Give**" side.
 
-- **Currencies (You Receive)**: Select the currency for the "**You Receive**" side.
+**Currencies (You Receive)** — Select the currency for the "**You Receive**" side.
 
-- **Rate Side**:  
-  - **Auto**: Automatically selects the rate side for the values in the "**Min Rate**" and "**Max Rate**" fields.  
-  - **1 = XXX**: Forces the rate to be set as `1 to XXX`.  
-  - **XXX = 1**: Forces the rate to be set as `XXX to 1`.
+**Rate Side:**\
+&#xNAN;**• Auto** — Automatic selection of the rate side for values in the "**Min. Rate**" and "**Max. Rate**" fields.\
+&#xNAN;**• 1 = XXX** — Forced setting of the rate 1 to XXX.\
+&#xNAN;**• XXX = 1** — Forced setting of the rate XXX to 1.
 
-- **Position**: The position in the Bestchange ranking for the selected exchange direction (if left empty, the 1st position is used).
+**Position** — The position from the Bestchange ranking for the selected exchange direction (if the field is not filled, the 1st position is used).
 
-- **Step**: Adjusts the rate obtained from the parser (e.g., `0.001`). By default, the system always makes your rate more favorable than the rate of the specified position. The step can also be set as a percentage (e.g., `3%`).
+**Step** — Adjustment of the rate obtained from the parser (for example, 0.001). The system by default always makes your rate more favorable than the rate specified in the "**Position**" field. The step can also be set as a percentage (for example, 3%).
 
-Here’s the text translated into naturalistic English:
+Here’s a naturalistic English translation of the provided text:
 
 ---
 
-The value of a step with the "**-**" sign will make your rate worse than the rate of the specified position (e.g., -0.001 or -3%). You can also use multiplication and division (\*2 or /2, \*3% or /3%).
+The value of a step with a negative sign ("**-**") will decrease your rate compared to the specified position (by -0.001 or -3%). You can also use multiplication and division (e.g., *2 or /2, *3% or /3%).
 
-**Min. Reserve for Position** — This is the minimum reserve value for the position (for the "**Receive**" currency). Exchangers with reserves below the specified value will be ignored by the module.
+**Minimum Reserve for Position** — the minimum reserve value for the position (for the currency "**You Receive**"). Exchange services with reserves below this specified value will be ignored by the module.
 
-**Show Rating** — A page displaying currency rates from Bestchange along with the recommended step.
+**Show Rating** — a page displaying currency rates from Bestchange along with the recommended step.
 
 <figure><img src="../../../.gitbook/assets/image (1763).png" alt="" width="563"><figcaption></figcaption></figure>
 
-**Min. Rate** — The lower limit of the rate at which the position will remain active. If a competitor for the specified position goes below the minimum rate, the module will reset your rate to the standard one (if the option is enabled).
+**Minimum Rate** — the lowest threshold for the rate, below which the binding to the position will not function. If a competitor for the specified position goes below this minimum rate, the module will reset your rate to the standard one (if this option is enabled).
 
 {% hint style="warning" %}
-If rates for one or all options ("**Minimum Rate**", "**Maximum Rate**", "**Standard Rate**") are specified both manually and through the "**Auto-Adjust Rate**" option,  
-![](<../../../.gitbook/assets/image (1785).png>)  
-then the rate from the "**Auto-Adjust Rate**" field will always take priority and will be used by the parser.
+If one or all options ("**Minimum Rate**", "**Maximum Rate**", "**Standard Rate**") are specified both manually and through the "**Auto Rate Adjustment**" option, \
+![](<../../../.gitbook/assets/image (1785).png>)\
+the rate from the "**Auto Rate Adjustment**" field will always take precedence and will be used by the parser.
 {% endhint %}
 
-**Auto-Adjust Min. Rate** — Links the minimum rate to the selected source from the "**Parsers 2.0**" -> "**Rates**" section.  
-&#xNAN;**• Add to Rate** — Adjusts the minimum rate obtained from the source (e.g., adding 3% or subtracting -3%).
+**Auto Adjustment of Minimum Rate** — binding the minimum rate to a selected source from the "**Parsers 2.0**" -> "**Rates**" section.\
+**• Add to Rate** — adjustment of the minimum rate obtained from the source (for example, adding 3% or subtracting -3%).
 
-**Max. Rate** — The upper limit of the rate at which the position will remain active. If a competitor for the specified position exceeds the maximum rate, the module will reset your rate to the standard one (if the option is enabled).
+**Maximum Rate** — the highest threshold for the rate, above which the binding to the position will not function. If a competitor for the specified position exceeds this maximum rate, the module will reset your rate to the standard one (if this option is enabled).
 
-**Auto-Adjust Max. Rate** — Links the maximum rate to the selected source from the "**Parsers 2.0**" -> "**Rates**" section.  
-&#xNAN;**• Add to Rate** — Adjusts the maximum rate obtained from the source (e.g., adding 3% or subtracting -3%).
+**Auto Adjustment of Maximum Rate** — binding the maximum rate to a selected source from the "**Parsers 2.0**" -> "**Rates**" section.\
+**• Add to Rate** — adjustment of the maximum rate obtained from the source (for example, adding 3% or subtracting -3%).
 
-**Reset to Standard Rate:**  
-&#xNAN;**• Yes** — Enables the option to reset to the standard rate when the rate goes outside the min/max range.  
-&#xNAN;**• No** — The option is not used.
+**Reset to Standard Rate:**\
+**• Yes** — enables the option to reset to the standard rate when exceeding the min/max range.\
+**• No** — the option is not used.
 
-**Standard Rate (Give)** — Manually specify the standard rate for the "**Give**" side.
+**Standard Rate (You Give)** — manual specification of the standard rate for the "**You Give**" side.
 
-**Standard Rate (Receive)** — Manually specify the standard rate for the "**Receive**" side.
+**Standard Rate (You Receive)** — manual specification of the standard rate for the "**You Receive**" side.
 
-**Auto-Adjust Rate** — Links the standard rate to the selected source from the "**Parsers 2.0**" -> "**Rates**" section.  
-&#xNAN;**• Add to Rate (Give)** — Adjusts the maximum rate obtained from the source (e.g., adding 3% or subtracting -3%) for the "**Give**" side.  
-&#xNAN;**• Add to Rate (Receive)** — Adjusts the maximum rate obtained from the source (e.g., adding 3% or subtracting -3%) for the "**Receive**" side.
+**Auto Adjustment of Rate** — binding the standard rate to a selected source from the "**Parsers 2.0**" -> "**Rates**" section.\
+**• Add to Rate (You Give)** — adjustment of the maximum rate obtained from the source (for example, adding 3% or subtracting -3%) for the "**You Give**" side.\
+**• Add to Rate (You Receive)** — adjustment of the maximum rate obtained from the source (for example, adding 3% or subtracting -3%) for the "**You Receive**" side.
 
-**Convert Rate:**  
-&#xNAN;**• Yes** — Forces the exchange rate to be converted into the format 1 to XXX.  
-&#xNAN;**• No** — The option is not used.
+**Convert Rate:**\
+**• Yes** — forces the exchange rate to be converted to a format of 1 to XXX.\
+**• No** — the option is not used.
 
 --- 
 
-Let me know if you need further clarification or adjustments!
+Let me know if you need any further assistance!
