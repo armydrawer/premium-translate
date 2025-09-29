@@ -1,4 +1,4 @@
-# Paymatrix
+# Finora
 
 {% hint style="info" %}
 Если вам необходимо обновить модуль на сервере — воспользуйтесь [инструкцией](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/faq/kak-obnovit-faily-na-servere#moduli-merchantov)
@@ -14,15 +14,15 @@
 
 В панели администратора создайте нового мерчанта в разделе "**Мерчанты**" ➔ "**Добавить мерчант".**
 
-Выберите Paymatrix в выпадающем списке в поле "**Модуль**", укажите название для модуля и нажмите "**Сохранить**".
+Выберите Finora в выпадающем списке в поле "**Модуль**", укажите название для модуля и нажмите "**Сохранить**".
 
-<figure><img src="../../../.gitbook/assets/image (2224).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt="" width="345"><figcaption></figcaption></figure>
 
 Заполните указанные авторизационные поля.
 
 <figure><img src="../../../.gitbook/assets/image (251).png" alt="" width="421"><figcaption></figcaption></figure>
 
-**API ключ** — ключ, переданный вам менеджером Paymatrix
+**API ключ** — ключ, переданный вам менеджером Finora
 
 {% hint style="warning" %}
 Образаем ваше внимание, что для каждой валюты (AZN, RUB, TRY, UZS) необходимо выпускать отдельный API-ключ и создавать отдельную копию модуля мерчанта.

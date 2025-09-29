@@ -8,4 +8,4 @@
 
 Выберите интересующий вас раздел в меню слева или воспользуйтесь строкой поиска по всему тексту инструкции справа вверху, если вы не знаете, какой конкретно раздел вам нужен.
 
-<figure><img src=".gitbook/assets/image (2061).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2061).png" alt=""><figcaption></figcaption></figure>
