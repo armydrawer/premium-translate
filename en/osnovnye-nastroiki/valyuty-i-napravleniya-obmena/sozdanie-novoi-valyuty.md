@@ -6,7 +6,7 @@ Below is a description of all possible parameters that can be presented in the c
 
 Navigate to the "**Currencies**" → "**Currencies**" section located in the sidebar of the admin panel.
 
-<figure><img src="../../en/.gitbook/assets/image%20(1432).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(1432).png" alt=""><figcaption></figcaption></figure>
 
 Here, you will see a table listing all the currencies created by default in your exchange. On this page, you can also add a new currency to be used in your exchange. To do this, click the "**Add**" button located above the table.
 
