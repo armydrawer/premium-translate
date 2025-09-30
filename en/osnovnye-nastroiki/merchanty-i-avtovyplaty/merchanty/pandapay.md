@@ -14,21 +14,21 @@ To discuss terms and connection, please contact a [service representative](https
 
 After receiving your login credentials from the service representative, log in to your [PandaPay](https://pandapay24.com/) account. Navigate to the "**Settings**" section.
 
-<figure><img src="../../../.gitbook/assets/image (122).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (122)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Add the Callback URL in the appropriate field.
 
-<figure><img src="../../../.gitbook/assets/image (120).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (120)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 To update the status of requests, specify the current Callback URL in the merchant account — you can find the URL in the module settings (the "**Webhook**" line).
 
-![](<../../../.gitbook/assets/image (121).png>)
+![](<../../../.gitbook/assets/image (121)_eng.png>)
 {% endhint %}
 
 Create new access keys and copy them to your clipboard or a text file.
 
-<figure><img src="../../../.gitbook/assets/image (119).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (119)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Module Settings
 
@@ -36,11 +36,11 @@ In the admin panel, create a new merchant in the "**Merchants**" ➔ "**Add Merc
 
 Select PandaPay from the dropdown list in the "**Module**" field, enter a name for the module, and click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/image (2092).png" alt="" width="445"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2092)_eng.png" alt="" width="445"><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../.gitbook/assets/image (2093).png" alt="" width="458"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2093)_eng.png" alt="" width="458"><figcaption></figcaption></figure>
 
 **API Key** — the copied API key from the merchant account.
 
@@ -48,7 +48,7 @@ Fill in the required authorization fields.
 
 ## Special Fields
 
-<figure><img src="../../../.gitbook/assets/image (2094).png" alt="" width="456"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2094)_eng.png" alt="" width="456"><figcaption></figcaption></figure>
 
 **Allowed Countries** — a list of countries for which account details will be searched.
 
@@ -58,7 +58,7 @@ Fill in the required authorization fields.
 
 **Payment Method** — the method for searching account details:
 
-<figure><img src="../../../.gitbook/assets/image (2097).png" alt="" width="354"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2097)_eng.png" alt="" width="354"><figcaption></figcaption></figure>
 
 * **accountNumber** — bank account number
 * **card** — bank card number

@@ -8,29 +8,29 @@ If you need to update the module on the server, please refer to the [instruction
 
 Register on the [Garantex](https://garantex.org/) website. After your registration is confirmed by the service, log into your personal account. Enable 2FA for your account.
 
-<figure><img src="../../../.gitbook/assets/image (641).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (641)_eng.png" alt=""><figcaption></figcaption></figure>
 
 Once you are logged into your personal account, submit a request to customer support to enable the API for your account.
 
-<figure><img src="../../../.gitbook/assets/image (640).png" alt="" width="516"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (640)_eng.png" alt="" width="516"><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (636).png" alt="" width="325"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (636)_eng.png" alt="" width="325"><figcaption></figcaption></figure>
 
 After API access is granted, go to the "Settings" section and create a new access key.
 
-<figure><img src="../../../.gitbook/assets/image (637).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (637)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Save the data highlighted in the frame to a text file.
 
-<figure><img src="../../../.gitbook/assets/image (643).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (643)_eng.png" alt=""><figcaption></figcaption></figure>
 
 Navigate to the created key by clicking the "**View / Edit**" button.
 
-<figure><img src="../../../.gitbook/assets/image (644).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (644)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 For working with the merchant to accept funds, the "**Readonly**" method is sufficient; do not check other methods. It is advisable to specify your server's IP address in the "IPs" field for enhanced security when working with the merchant.
 
-<figure><img src="../../../.gitbook/assets/image (645).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (645)_eng.png" alt=""><figcaption></figcaption></figure>
 
 ## Module Settings
 
@@ -38,11 +38,11 @@ In the admin panel, create a new merchant in the "**Merchants**" -> "**Add Merch
 
 Select the Garantex module from the dropdown list in the "**Module**" field, provide a name for the module, and click "**Save**".
 
-<figure><img src="../../../.gitbook/assets/image (638).png" alt="" width="494"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (638)_eng.png" alt="" width="494"><figcaption></figcaption></figure>
 
 Fill in the required authorization fields. You can choose any domain as the host.
 
-<figure><img src="../../../.gitbook/assets/image (639).png" alt="" width="414"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (639)_eng.png" alt="" width="414"><figcaption></figcaption></figure>
 
 **Private Key** — the private key generated in Garantex when creating API access (field "**Private Key**").
 
@@ -50,7 +50,7 @@ Fill in the required authorization fields. You can choose any domain as the host
 
 ## Special Fields
 
-<figure><img src="../../../.gitbook/assets/image (646).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (646)_eng.png" alt=""><figcaption></figcaption></figure>
 
 * "**Required Number of Transaction Confirmations**" — a confirmed transaction means it has been included in a block and, therefore, in the blockchain. It has been verified and recorded, the payment has been processed, and it cannot be changed or canceled. To be considered legitimate, the operation must receive a certain number of confirmations. Each new confirmation exponentially reduces the risk of the transaction being canceled.
 

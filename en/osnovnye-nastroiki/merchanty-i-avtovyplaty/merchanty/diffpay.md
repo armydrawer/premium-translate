@@ -16,7 +16,7 @@ Register and log in to the [Diffpay](https://diffpay.pro/login) service.
 
 Go to the "**Profile**" section and copy the generated API key to your clipboard or a text file.
 
-<figure><img src="../../../.gitbook/assets/image (1857).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1857)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Module Settings
 
@@ -24,11 +24,11 @@ In the admin panel, create a new merchant in the "**Merchants**" -> "**Add Merch
 
 Select Diffpay from the dropdown menu in the "**Module**" field, enter a name for the module, and click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/image (1856).png" alt="" width="374"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1856)_eng.png" alt="" width="374"><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../.gitbook/assets/image (1897).png" alt="" width="455"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1897)_eng.png" alt="" width="455"><figcaption></figcaption></figure>
 
 **Domain** — the merchant's domain (enter [https://diffpay.pro](https://diffpay.pro) in this field)
 
@@ -36,7 +36,7 @@ Fill in the required authorization fields.
 
 ## Special Fields
 
-<figure><img src="../../../.gitbook/assets/image (1854).png" alt="" width="353"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1854)_eng.png" alt="" width="353"><figcaption></figcaption></figure>
 
 **Payment Method** — select the required method for receiving funds (the list of methods will only appear after entering the correct API key for module authorization)
 

@@ -40,7 +40,7 @@ Below are some potential errors that may occur when working with scripts, along 
 
 If you encounter an infinite redirect loop, adjust the server control panel settings (e.g., ISP Manager or similar). Enable the option "**Redirect HTTP requests to HTTPS**" (example for ISP Manager).
 
-![Example Image](../../.gitbook/assets/image%20(313).png)
+![Example Image](../../.gitbook/assets/image%20(313)_eng.png)
 
 ---
 
@@ -51,7 +51,7 @@ If requests take too long to create or fail altogether:
 1. Disable the SMTP server in the "**Messages -> Email Templates**" section if you are using outgoing mail. Then, check the request creation speed.
 2. If the request creation speed improves, switch to one of the [recommended SMTP servers](https://premium.gitbook.io/main/osnovnye-nastroiki/uvedomleniya-administratoram-i-polzovatelyam/uvedomleniya-po-e-mail#nastroika-smtp).
 
-![Example Image](../../.gitbook/assets/image%20(1515).png)
+![Example Image](../../.gitbook/assets/image%20(1515)_eng.png)
 
 ---
 
@@ -62,7 +62,7 @@ To resolve freezing issues when selecting currencies:
 1. Go to the Cloudflare dashboard.
 2. Under "**Caching**" -> "**Configuration**," set the caching option to "**No query string**."
 
-![Example Image](../../.gitbook/assets/image%20(767).png)
+![Example Image](../../.gitbook/assets/image%20(767)_eng.png)
 
 ---
 
@@ -82,7 +82,7 @@ If the exported XML file fails validation, it’s often due to empty lines at th
 
 Additionally, ensure the first line of the XML file includes encoding and version information (prolog). If missing, re-upload the [script files](https://premiumexchanger.com/uscripts/) to update them.
 
-![Example Image](../../.gitbook/assets/image%20(1567).png)
+![Example Image](../../.gitbook/assets/image%20(1567)_eng.png)
 
 ---
 
@@ -94,7 +94,7 @@ Additionally, ensure the first line of the XML file includes encoding and versio
 4. If using a self-signed certificate, select "**Full (Encrypts end-to-end, using a self-signed certificate on the server)**."
 5. Disable the permanent redirect to HTTPS in the site settings within ISP Manager.
 
-![Example Image](../../.gitbook/assets/image%20(1368).png)
+![Example Image](../../.gitbook/assets/image%20(1368)_eng.png)
 
 ---
 
@@ -106,7 +106,7 @@ If activating a theme results in an error like `Unclosed '{' on line ...`:
 2. Access ISP Manager as **root**, navigate to PHP settings, or manually edit the `php.ini` file.
 3. Search for `short` and enable the displayed option.
 
-![Example Image](../../.gitbook/assets/image%20(1828).png)
+![Example Image](../../.gitbook/assets/image%20(1828)_eng.png)
 
 ---
 
@@ -119,7 +119,7 @@ If the site doesn’t load on some devices or networks:
    - Edit the A-record and disable proxying in the "**Proxy status**" column.
 2. **Note:** Disabling proxying exposes your server’s real IP address and removes DDoS protection. Only disable proxying as a last resort.
 
-![Example Image](../../.gitbook/assets/image%20(43).png)
+![Example Image](../../.gitbook/assets/image%20(43)_eng.png)
 
 ---
 
@@ -139,7 +139,7 @@ To disable Encrypted Client Hello (ECH) for your domain on Cloudflare:
 
 **Note:** Disabling ECH does not guarantee site accessibility but often resolves the issue.
 
-![Example Image](../../.gitbook/assets/image%20(2107).png)
+![Example Image](../../.gitbook/assets/image%20(2107)_eng.png)
 
 ---
 
@@ -162,14 +162,14 @@ You will need the following:
 #### Step 1: **Global API Key**
 Go to the Cloudflare dashboard via the following link and copy your Global API Key: [https://dash.cloudflare.com/profile/api-tokens](https://dash.cloudflare.com/profile/api-tokens)
 
-![](<../../.gitbook/assets/image (109).png>)
+![](<../../.gitbook/assets/image (109)_eng.png>)
 
-![](<../../.gitbook/assets/image (110).png>)
+![](<../../.gitbook/assets/image (110)_eng.png>)
 
 #### Step 2: **Zone ID**
 Navigate to the management page for your domain in Cloudflare and scroll down. Locate the **Zone ID** field and copy it.
 
-![](<../../.gitbook/assets/image (108).png>)
+![](<../../.gitbook/assets/image (108)_eng.png>)
 
 ---
 
@@ -262,7 +262,7 @@ In the `Headers` tab, add the following keys:
 - `X-Auth-Key` — your Global API Key.
 - `Content-Type` — set the value to `application/json`.
 
-![](<../../.gitbook/assets/image (112).png>)
+![](<../../.gitbook/assets/image (112)_eng.png>)
 
 In the **Body** tab, select **raw** and enter the following JSON:
 ```json
@@ -271,7 +271,7 @@ In the **Body** tab, select **raw** and enter the following JSON:
 
 Then click the `Send` button.
 
-![](<../../.gitbook/assets/image (114).png>)
+![](<../../.gitbook/assets/image (114)_eng.png>)
 
 ---
 
@@ -284,7 +284,7 @@ Then click the `Send` button.
 5. Locate the **Encrypted Client Hello (ECH)** option.
 6. Simply toggle it to the **Off** position.
 
-![](<../../.gitbook/assets/image (111).png>)
+![](<../../.gitbook/assets/image (111)_eng.png>)
 
 ---
 
@@ -293,7 +293,7 @@ Then click the `Send` button.
 
 Set write permissions (e.g., 777) for the folder `/wp-content/pn_uploads/captcha/` or `/wp-content/uploads/captcha/`.
 
-![](https://2722984412-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fm9kqZXsNykrN6VyxxXBO%2Fuploads%2FyUtYC77gja8gTCQ5Qa1y%2Fimage.png?alt=media\&token=e0f8b816-5622-42f8-ac21-ebf06d9654ee)
+![](https://2722984412-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fm9kqZXsNykrN6VyxxXBO%2Fuploads%2FyUtYC77gja8gTCQ5Qa1y%2Fimage_eng.png?alt=media\&token=e0f8b816-5622-42f8-ac21-ebf06d9654ee)
 
 If you’re unsure how to do this, contact your hosting provider’s support team for assistance.
 
@@ -312,11 +312,11 @@ Here’s the translated text in natural English:
 
 Reactivate the main plugin (Premium Exchanger) in the "**Plugins**" section.
 
-![](<../../.gitbook/assets/image (513).png>)![](<../../.gitbook/assets/image (514).png>)
+![](<../../.gitbook/assets/image (513)_eng.png>)![](<../../.gitbook/assets/image (514)_eng.png>)
 
 Then, disable the update mode in the "**Exchanger Settings**" → "**General Settings**" section.
 
-![](<../../.gitbook/assets/image (515).png>)
+![](<../../.gitbook/assets/image (515)_eng.png>)
 
 After this, the missing columns will be created in the table.
 
@@ -327,7 +327,7 @@ After this, the missing columns will be created in the table.
 <details>
 <summary>Site access unavailable</summary>
 
-![](<../../.gitbook/assets/image (1261).png>)
+![](<../../.gitbook/assets/image (1261)_eng.png>)
 
 You need to locate the XXXX\_options table in your database using PhpMyAdmin or Adminer and check the **home** and **siteurl** fields (they should contain your current domain).  
 <mark style="color:blue;">PhpMyAdmin can be installed in ISP Manager via the "Settings — Software Configuration" section. Check the box for "MySQL Administration Web Interface" and click "Install" above the table.</mark>
@@ -344,20 +344,20 @@ Over time, the "Merchant Logs" and "Auto-Payout Logs" modules can accumulate a l
 <mark style="color:red;">We recommend enabling logging only during the setup of merchant modules. Once the system is stable for receiving payments and auto-payouts, logging can be disabled.</mark>
 
 You can configure automatic log cleanup in the "Settings - Logging Settings" section:  
-![](<../../.gitbook/assets/image (1371).png>)
+![](<../../.gitbook/assets/image (1371)_eng.png>)
 
 In the "**Settings**" → "**Cron**" section, copy the cron job link and create a cron job on your server following [this guide](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/faq/kak-sozdat-zadanie-cron-na-servere) (set the execution time to once every 24 hours or less frequently).
 
-![](<../../.gitbook/assets/image (672).png>)![](<../../.gitbook/assets/image (673).png>)  
+![](<../../.gitbook/assets/image (672)_eng.png>)![](<../../.gitbook/assets/image (673)_eng.png>)  
 
 If logs are not cleared via the "Delete Logs" button in the corresponding section, you will need to clear them directly from the database.  
-![](<../../.gitbook/assets/image (1372).png>)
+![](<../../.gitbook/assets/image (1372)_eng.png>)
 
 Access the database via PhpMyAdmin[^1]/Adminer and open the [`xxxx_merch_logs`](#user-content-fn-2)[^2] table (make sure to back up your database before clearing the table).
 
 Go to the database web interface.  
 
-<img src="../../.gitbook/assets/image (775).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (775)_eng.png" alt="" data-size="original">
 
 _If the web interface is unavailable_ — _enable access to it by following these steps:_
 
@@ -367,19 +367,19 @@ _If the command **`Command 'ufw' not found`** is displayed, the rules are config
 
 Locate the `xxxx_merch_logs` table (where xxxx is your table prefix).
 
-![](<../../.gitbook/assets/image (776).png>)
+![](<../../.gitbook/assets/image (776)_eng.png>)
 
 Go to the "Operations" tab.
 
-![](<../../.gitbook/assets/image (774).png>)
+![](<../../.gitbook/assets/image (774)_eng.png>)
 
 Clear the table by clicking "TRUNCATE."
 
-![](<../../.gitbook/assets/image (773).png>)
+![](<../../.gitbook/assets/image (773)_eng.png>)
 
 Confirm the data deletion.
 
-![](<../../.gitbook/assets/image (777).png>)
+![](<../../.gitbook/assets/image (777)_eng.png>)
 
 Repeat these steps for the [`xxxx_ap_logs`](#user-content-fn-3)[^3] table.
 
@@ -392,11 +392,11 @@ Repeat these steps for the [`xxxx_ap_logs`](#user-content-fn-3)[^3] table.
 
 Most likely, the "**Hyphen in Exchange Direction**" module is enabled in the "**Modules**" section, but the settings have not been saved to apply the changes. You can either disable it or leave it enabled (your choice).
 
-![](<../../.gitbook/assets/image (605).png>)
+![](<../../.gitbook/assets/image (605)_eng.png>)
 
 Go to the "**Settings → Permalinks**" section and click the "**Save Changes**" button without making any changes on the page.
 
-![](<../../.gitbook/assets/image (606).png>)
+![](<../../.gitbook/assets/image (606)_eng.png>)
 
 After this, check the display of exchange directions. If the changes are not immediately visible, [clear the cache in Cloudflare](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-sbrosit-kesh-v-cloudflare) (if you are using it).
 
@@ -411,7 +411,7 @@ The "SSL handshake failed" error indicates an issue establishing a secure connec
 
 In your Cloudflare account settings, go to the "SSL/TLS" section and set the "Your SSL/TLS encryption mode" to "Flexible."
 
-<img src="../../.gitbook/assets/image (779).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (779)_eng.png" alt="" data-size="original">
 
 </details>
 
@@ -431,11 +431,11 @@ Check the contents of the `userdata.php` file by following [this guide](https://
 
 If you encounter this error, disable `js` file caching in the site settings in ISP Manager.
 
-![](<../../.gitbook/assets/image (101).png>)
+![](<../../.gitbook/assets/image (101)_eng.png>)
 
 In the "File Extensions for Caching" list, <mark style="color:red;">**there should not be**</mark> the `js` format (if it is present, remove it and save the settings).
 
-![](<../../.gitbook/assets/image (102).png>)
+![](<../../.gitbook/assets/image (102)_eng.png>)
 
 </details>
 
@@ -450,19 +450,19 @@ To view the largest tables for subsequent cleanup, follow these steps:
 
 In ISP Manager, go to the "**Databases**" section, select your database (copy the database name to a text file), and go to the "**Users**" section:
 
-<img src="../../.gitbook/assets/image (1530).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (1530)_eng.png" alt="" data-size="original">
 
 On the page, select the database owner and click "**Edit**."
 
-![](<../../.gitbook/assets/image (1531).png>)
+![](<../../.gitbook/assets/image (1531)_eng.png>)
 
 Click the eye icon to view the user password. Save the username and password in a text file.
 
-![](<../../.gitbook/assets/image (1532).png>)
+![](<../../.gitbook/assets/image (1532)_eng.png>)
 
 Go to the "**Shell Client**" section and enter the command `mysql -u`` `**`username`**` ``-p`, replacing **username** with the database username from the previous step. Execute the command, then enter the user password (characters will not be displayed as you type) and press Enter. Upon successful login, you will see the message "**Welcome to the MySQL monitor.**"
 
-![](<../../.gitbook/assets/image (1533).png>)
+![](<../../.gitbook/assets/image (1533)_eng.png>)
 
 Next, enter the command `SELECT table_name AS "Table", round(((data_length + index_length) / 1024 / 1024), 2) "Size in MB" FROM information_schema.TABLES WHERE table_schema = "`**`database_name`**`" ORDER BY (data_length + index_length) DESC;`, replacing **`database_name`** with your database name. Press Enter.
 
@@ -504,20 +504,20 @@ The above example is for nginx; this configuration will not work in Apache.
 <details>
 <summary>System error (code: anticsfr)</summary>
 
-![](<../../.gitbook/assets/image (1259).png>)![](<../../.gitbook/assets/image (1304).png>)
+![](<../../.gitbook/assets/image (1259)_eng.png>)![](<../../.gitbook/assets/image (1304)_eng.png>)
 
-<img src="../../.gitbook/assets/image (1307).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (1307)_eng.png" alt="" data-size="original">
 
 As a quick temporary solution, simply refresh the page in your browser.
 
 This error indicates an issue with session recording on the server or a change in the user's IP address. It’s likely that the session storage configuration is incorrect.
 
 If sessions are being reset, you’ll need to adjust your PHP settings.  
-![](<../../.gitbook/assets/image (1336).png>)
+![](<../../.gitbook/assets/image (1336)_eng.png>)
 
 To resolve the issue, configure the session settings as shown in the screenshot below.
 
-![](<../../.gitbook/assets/image (721).png>)
+![](<../../.gitbook/assets/image (721)_eng.png>)
 
 **`session.gc_probability`** and **`session.gc_divisor`**: These two parameters together determine the probability of triggering the garbage collection process on each request. The probability is calculated as **`gc_probability/gc_divisor`**. For example, if **`gc_probability`** is 1 and **`gc_divisor`** is 1000, garbage collection will be triggered on approximately 0.1% of requests.
 
@@ -526,7 +526,7 @@ To resolve the issue, configure the session settings as shown in the screenshot 
 <mark style="color:red;">**After changing the PHP configuration, you must restart the web server for the changes to take effect.**</mark>
 
 To automate session cleanup, you can add two CRON jobs to run once a day:  
-![](../../.gitbook/assets/4515576096913_28022022_vozmozhnyye-prichiny-nekhvatki-mesta-na-vps-i-ikh-ustraneniye_2.png)
+![](../../.gitbook/assets/4515576096913_28022022_vozmozhnyye-prichiny-nekhvatki-mesta-na-vps-i-ikh-ustraneniye_2_eng.png)
 
 {% code title="Job 1:" %}
 ```
@@ -587,15 +587,15 @@ Check the [**Settings** -> **Cron**](https://premium.gitbook.io/main/osnovnye-na
 
 1. Log in to the ISP Manager control panel as the **root user** and verify the PHP version used by your website.
 
-   ![PHP Version Check](../../.gitbook/assets/image%20(715).png)
+   ![PHP Version Check](../../.gitbook/assets/image%20(715)_eng.png)
 
 2. Open the settings for the required PHP version.
 
-   ![PHP Settings](../../.gitbook/assets/image%20(718).png)
+   ![PHP Settings](../../.gitbook/assets/image%20(718)_eng.png)
 
 3. Ensure the following parameters are set as shown in the screenshot. If they differ, update them accordingly.
 
-   ![PHP Parameters](../../.gitbook/assets/image%20(719).png)
+   ![PHP Parameters](../../.gitbook/assets/image%20(719)_eng.png)
 
 4. To fully clear temporary files, run:
    ```bash
@@ -624,7 +624,7 @@ If the script processes large amounts of data, it may require more memory than c
    MEMORY_LIMIT = 512M
    ```
 
-   ![Memory Limit](../../.gitbook/assets/image%20(1609).png)
+   ![Memory Limit](../../.gitbook/assets/image%20(1609)_eng.png)
 
 ---
 
@@ -636,7 +636,7 @@ To improve IP-based country detection:
 2. Change the source to **sypexgeo.net**.
 3. Set the timeout to 7 seconds and save the changes.
 
-   ![Geo IP Settings](../../.gitbook/assets/image%20(13).png)
+   ![Geo IP Settings](../../.gitbook/assets/image%20(13)_eng.png)
 
 ---
 
@@ -658,7 +658,7 @@ To allow users to upload larger files (e.g., for account or identity verificatio
    - If using ISP Manager, log in as the root user and navigate to **PHP Settings**.
    - Select the PHP version used by your website and adjust the **Max File Size** option.
 
-     ![PHP File Size Settings](../../.gitbook/assets/image%20(1517).png)
+     ![PHP File Size Settings](../../.gitbook/assets/image%20(1517)_eng.png)
 
 2. Alternatively, edit the `php.ini` file directly and update the following directives:
    ```ini
@@ -684,11 +684,11 @@ If you encounter errors after increasing the file size limit, refer to the [offi
 
 1. In the settings for all merchant modules, locate the **Request Status Handling** section. Select **Under Review** for all options and save the changes.
 
-   ![Merchant Status Settings](../../.gitbook/assets/Добавить%20мерчант%20‹%20Обменник%20—%20WordPress%20-%20Google%20Chrome_240501160623.png)
+   ![Merchant Status Settings](../../.gitbook/assets/Добавить%20мерчант%20‹%20Обменник%20—%20WordPress%20-%20Google%20Chrome_240501160623_eng.png)
 
 2. In the settings for all auto-payout modules, disable payouts for requests with the **Under Review** status by selecting **No** for the relevant option.
 
-   ![Auto-Payout Settings](../../.gitbook/assets/Добавить%20автовыплату%20‹%20Обменник%20—%20WordPress%20-%20Google%20Chrome_240501160808.png)
+   ![Auto-Payout Settings](../../.gitbook/assets/Добавить%20автовыплату%20‹%20Обменник%20—%20WordPress%20-%20Google%20Chrome_240501160808_eng.png)
 
 ---
 

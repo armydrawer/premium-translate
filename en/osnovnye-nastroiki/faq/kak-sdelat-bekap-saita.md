@@ -10,8 +10,8 @@ There are several ways to create a complete backup of your website:
 
    — In the "**Main** → **Databases**" section, select your website's database and click the "**Dump**" or "**Export**" button.  
 
-   <figure><img src="../../.gitbook/assets/изображение (23).png" alt=""><figcaption></figcaption></figure>  
+   <figure><img src="../../.gitbook/assets/изображение (23)_eng.png" alt=""><figcaption></figcaption></figure>  
 
    — In the "**Main** → **File Manager**" section, navigate to the root folder of your website. Select all the files and folders of your site and click the "**Download**" button.  
 
-   <figure><img src="../../.gitbook/assets/изображение (113).png" alt=""><figcaption></figcaption></figure>  
+   <figure><img src="../../.gitbook/assets/изображение (113)_eng.png" alt=""><figcaption></figcaption></figure>  

@@ -32,15 +32,15 @@ Often, standard hosting services have limited options for fine-tuning security, 
 
 2. Go to the "**Websites**" section, select your website, and click the "PHP Settings for the Site" button.
 
-<figure><img src="../../../.gitbook/assets/image (2181).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2181)_eng.png" alt=""><figcaption></figcaption></figure>
 
 3. Search for the `disable_functions` directive, check it, and click the pencil button ("**Edit Variable**").
 
-<figure><img src="../../../.gitbook/assets/image (2182).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2182)_eng.png" alt=""><figcaption></figcaption></figure>
 
 4. Add the specified functions (do not remove the previous values — just append the specified functions): **`exec,system,passthru,shell_exec,proc_open,show_source`** and save the changes.
 
-    <figure><img src="../../../.gitbook/assets/image (2183).png" alt="" width="544"><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (2183)_eng.png" alt="" width="544"><figcaption></figcaption></figure>
 
 </details>
 
@@ -59,15 +59,15 @@ Often, standard hosting services have limited options for fine-tuning security, 
 
 2. Go to the "**Websites**" section, select your website, and click the "**PHP Settings for the Site**" button.
 
-<figure><img src="../../../.gitbook/assets/image (2181).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2181)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 3. Search for the directives containing `allow_url`, check them, and click the pencil button ("**Edit Variable**").
 
-<figure><img src="../../../.gitbook/assets/image (2185).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2185)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 4. Set `Off` for the variables and save the changes.
 
-<figure><img src="../../../.gitbook/assets/image (2184).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2184)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 </details>
 
@@ -85,11 +85,11 @@ Often, standard hosting services have limited options for fine-tuning security, 
 
 2. Go to the "**PHP**" section, select the PHP version [that your website is using](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-proverit-versiyu-php-ispolzuyushuyusya-dlya-saita) and click the "Extensions" button.
 
-<figure><img src="../../../.gitbook/assets/image (2186).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2186)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 3. Search for the extension **`phar`** (for example), check it, and click the pencil button ("**Disable Extension**").
 
-<figure><img src="../../../.gitbook/assets/image (2187).png" alt="" width="531"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2187)_eng.png" alt="" width="531"><figcaption></figcaption></figure>
 
 4. Click the button and confirm the disabling of the extension in the pop-up window.
 
@@ -112,21 +112,21 @@ Often, standard hosting services have limited options for fine-tuning security, 
 
 2. Go to the "**Websites**" section, select your website, and click the "**Website Files**" button.
 
-<figure><img src="../../../.gitbook/assets/image (2188).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2188)_eng.png" alt=""><figcaption></figcaption></figure>
 
 3. Find the `.htaccess` file and enter edit mode by double-clicking it.
 
-<figure><img src="../../../.gitbook/assets/image (2190).png" alt="" width="479"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2190)_eng.png" alt="" width="479"><figcaption></figcaption></figure>
 
 4. Add the text specified above to the file and save the changes.
 
-<figure><img src="../../../.gitbook/assets/image (2191).png" alt="" width="543"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2191)_eng.png" alt="" width="543"><figcaption></figcaption></figure>
 
 </details>
 
 ## File Permissions Configuration
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 If a warning about file permission errors appears in the admin panel as an animated <mark style="color:red;">red circle</mark>, open the section with errors.
 
@@ -139,20 +139,20 @@ If the section displays an error about incorrect file permissions, change the pe
 {% hint style="info" %}
 Warnings are also displayed in the "Console" section, under the "Security Check" block.
 
-<img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" data-size="original">
+<img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1)_eng.png" alt="" data-size="original">
 {% endhint %}
 
 \
 When using Ispmanager, go to the "**Websites**" section, select your website, and click the "**Website Files**" button.
 
-<figure><img src="../../../.gitbook/assets/image (2188).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2188)_eng.png" alt=""><figcaption></figcaption></figure>
 
 Select the file with incorrect permissions and click the "Attributes" button.
 
-<figure><img src="../../../.gitbook/assets/image (2193).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2193)_eng.png" alt=""><figcaption></figcaption></figure>
 
 Set the recommended permissions in the "Access Rights" field and save the changes.
 
-<figure><img src="../../../.gitbook/assets/image (2197).png" alt="" width="248"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2197)_eng.png" alt="" width="248"><figcaption></figcaption></figure>
 
 After changing the permissions, the warning will disappear from the admin panel.

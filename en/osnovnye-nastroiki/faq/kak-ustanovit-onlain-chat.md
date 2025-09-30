@@ -4,11 +4,11 @@
 
 1. Log in to your [Jivo.ru](https://www.jivo.ru/) account and copy the ID (without quotation marks) from the chat installation code.
 
-<figure><img src="../../.gitbook/assets/image (1015).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1015)_eng.png" alt=""><figcaption></figcaption></figure>
 
 2. Paste the copied ID into the website control panel under the section "**Settings → General Settings**" in the field labeled "**Jivosite.ru ID**," and save the changes.
 
-<figure><img src="../../.gitbook/assets/Screenshot_28 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_28 (1)_eng.png" alt=""><figcaption></figcaption></figure>
 
 ## **Installation Using a Hook (Any Online Chat)**
 
@@ -18,4 +18,4 @@
 
 2. Go to the "**Plugins**" section and activate the plugin called "**Premium Exchanger hooks**."
 
-<figure><img src="../../.gitbook/assets/Screenshot_29.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_29_eng.png" alt=""><figcaption></figcaption></figure>

@@ -2,7 +2,7 @@
 
 ## General Settings
 
-<figure><img src="../../.gitbook/assets/image (84).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (84)_eng.png" alt=""><figcaption></figcaption></figure>
 
 **Site Icon** — This is the icon you see in browser tabs, bookmarks, and within mobile WordPress applications. It should be square with a resolution of at least 512 x 512 pixels.
 
@@ -24,7 +24,7 @@
 
 ## Permalinks
 
-<figure><img src="../../.gitbook/assets/image (1276).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1276)_eng.png" alt=""><figcaption></figcaption></figure>
 
 **Permalink Structure** — Select "**Post Name**" (5 option).
 
@@ -34,7 +34,7 @@
 
 ## Main Settings
 
-<figure><img src="../../.gitbook/assets/image (1277).png" alt="" width="498"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1277)_eng.png" alt="" width="498"><figcaption></figcaption></figure>
 
 **Page Title** — The title of the page for the admin panel.
 
@@ -61,7 +61,7 @@
 
 ## Language Settings
 
-<figure><img src="../../.gitbook/assets/image (1278).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1278)_eng.png" alt=""><figcaption></figcaption></figure>
 
 **Auto-detect User Language** — Automatically detect the user's language based on their IP address.
 
@@ -73,7 +73,7 @@
 
 ## Admin Panel
 
-<figure><img src="../../.gitbook/assets/image (1280).png" alt="" width="267"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1280)_eng.png" alt="" width="267"><figcaption></figcaption></figure>
 
 **Widgets on the Homepage** — Hide specified widgets on the site's homepage.
 
@@ -83,7 +83,7 @@
 
 ## AJAX Settings
 
-<figure><img src="../../.gitbook/assets/image (1281).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1281)_eng.png" alt=""><figcaption></figcaption></figure>
 
 **AJAX Checker for Admin Panel** — Enable a checker to update application data without reloading the page for the "**Applications**" and "**Applications**" ➔ "**LIVE Applications**" sections.
 
@@ -107,7 +107,7 @@ For the task to execute for the "On Site" option, a user must visit the site. Yo
 
 If your site has low traffic, we recommend always using the "On Server" option.
 
-<figure><img src="../../.gitbook/assets/image (1559).png" alt="" width="143"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1559)_eng.png" alt="" width="143"><figcaption></figcaption></figure>
 
 **"On Server" Option**:
 
@@ -115,23 +115,23 @@ For example, if an interval of 5 minutes is set for the "On Server" option, a ta
 
 **Optimal Settings for the Section:**
 
-<div><figure><img src="../../.gitbook/assets/image (2066).png" alt="" width="392"><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (2065).png" alt="" width="371"><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (2064).png" alt="" width="386"><figcaption></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/image (2066)_eng.png" alt="" width="392"><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (2065)_eng.png" alt="" width="371"><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (2064)_eng.png" alt="" width="386"><figcaption></figcaption></figure></div>
 
 ## CAPTCHA
 
-<figure><img src="../../.gitbook/assets/image (1287).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1287)_eng.png" alt=""><figcaption></figcaption></figure>
 
 Select the options for which CAPTCHA will be required when clients submit data.
 
 ## Logging Settings
 
-<figure><img src="../../.gitbook/assets/image (1288).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1288)_eng.png" alt=""><figcaption></figcaption></figure>
 
 **Logging Settings** — Set the frequency of archiving and deleting data for the specified options (the optimal settings are shown in the screenshot ("out of the box")).
 
 ## Contact Form
 
-<figure><img src="../../.gitbook/assets/image (1289).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1289)_eng.png" alt=""><figcaption></figcaption></figure>
 
 **Stop Words** — A list of stop words; if found in a client's/spammer's message, the message will not be processed.
 
@@ -143,13 +143,13 @@ Select the options for which CAPTCHA will be required when clients submit data.
 
 ## Personal Data Processing
 
-<figure><img src="../../.gitbook/assets/image (1290).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1290)_eng.png" alt=""><figcaption></figcaption></figure>
 
 **Display "Consent to Personal Data Processing" Checkbox in Forms** — Select the items for which the consent checkbox will be displayed on the site.
 
 ## HTML Sitemap Settings
 
-<figure><img src="../../.gitbook/assets/image (1294).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1294)_eng.png" alt=""><figcaption></figcaption></figure>
 
 **Section Title for "Posts"** — The title for the section on the HTML sitemap page (`your_domain + /sitemap/`).
 
@@ -167,8 +167,8 @@ Select the options for which CAPTCHA will be required when clients submit data.
 
 ## Notification Icons
 
-<figure><img src="../../.gitbook/assets/image (1295).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1295)_eng.png" alt=""><figcaption></figcaption></figure>
 
 **Notification Icons** — Disable specific notification icons for the admin panel.
 
-<figure><img src="../../.gitbook/assets/image (85).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (85)_eng.png" alt=""><figcaption></figcaption></figure>

@@ -8,11 +8,11 @@ If you need to update the module on the server, please refer to the [instruction
 
 Register on the [WestWallet](https://westwallet.io/) website. After your registration is confirmed by the service, log in to your personal account and navigate to the "**Settings**" section.
 
-<figure><img src="../../../.gitbook/assets/image (1412).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1412)_eng.png" alt=""><figcaption></figcaption></figure>
 
 In the "**API Keys**" section, click the "**Add API Key**" button.
 
-<figure><img src="../../../.gitbook/assets/image (1414).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1414)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 In the window that opens, select the necessary permissions based on how you will work with the merchant (to receive funds, it is sufficient to choose "**Generate Addresses**" and "**Check Transaction Status**").
 
@@ -20,7 +20,7 @@ It is also advisable to specify the IP address of your server for enhanced secur
 
 Save the public and private key data in a text file. Click the "**Save**" button.
 
-<figure><img src="../../../.gitbook/assets/image (1413).png" alt="" width="438"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1413)_eng.png" alt="" width="438"><figcaption></figcaption></figure>
 
 ## Module Settings
 
@@ -28,11 +28,11 @@ In the admin panel, create a new merchant in the "**Merchants**" -> "**Add Merch
 
 Select WestWallet from the dropdown list in the "**Module**" field, enter a name for the module, and click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/image (1415).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1415)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../.gitbook/assets/image (1416).png" alt="" width="461"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1416)_eng.png" alt="" width="461"><figcaption></figcaption></figure>
 
 **Number of confirmations required for a payment to be considered completed** — a confirmed payment means that it has been included in a block and, consequently, in the blockchain. The payment has been verified and recorded, and it cannot be altered or canceled. To be legitimate, the transaction must receive a certain number of confirmations. Each new confirmation exponentially reduces the risk of the transaction being reversed.
 

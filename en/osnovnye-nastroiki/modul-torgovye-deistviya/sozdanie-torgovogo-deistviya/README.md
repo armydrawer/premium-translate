@@ -33,12 +33,12 @@ Please note that the configured trading action will be triggered **only** if the
    * **Module** — Select the exchange where you want to perform trading operations.
    * **Status** — Indicate whether this action is active or not, i.e., whether it will be triggered.
 
-<figure><img src="../../../.gitbook/assets/image%20(2062).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20(2062)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 2. Click the "**Save**" button to save the trading action you’ve created.
 3. Fill in the fields with the API keys for the connected exchange. Ensure that the keys you use have permissions to perform trading operations on the selected exchange.
 
-<figure><img src="../../../.gitbook/assets/%D0%94%D0%BE%D0%B1%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D0%B5%20%E2%80%B9%202%20Premium%20Exchanger%202%20%E2%80%94%20WordPress%20-%20Google%20Chrome_230512161400.png" alt="" width="563"><figcaption><p>API Key Settings</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/%D0%94%D0%BE%D0%B1%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D0%B5%20%E2%80%B9%202%20Premium%20Exchanger%202%20%E2%80%94%20WordPress%20-%20Google%20Chrome_230512161400_eng.png" alt="" width="563"><figcaption><p>API Key Settings</p></figcaption></figure>
 
 4. Next, configure the general parameters of the trading action:
 
@@ -47,7 +47,7 @@ If multiple steps are activated within a trading action, they will be executed s
 
 If multiple trading actions are used simultaneously, all active steps in the highest-priority trading action will be executed first, followed by the second-priority action (with its own active steps).
 
-<img src="../../../.gitbook/assets/image%20(1516).png" alt="" data-size="original">
+<img src="../../../.gitbook/assets/image%20(1516)_eng.png" alt="" data-size="original">
 {% endhint %}
 
 * **Execution Order** — If multiple trading actions can be triggered in one exchange direction, **set their execution order**. If there’s only one trading action in the direction, this field can be left blank. Actions are executed in descending order of priority (e.g., if there are several actions, the one with priority 3 will execute first, followed by priority 2, and then priority 1).\
@@ -56,7 +56,7 @@ If multiple trading actions are used simultaneously, all active steps in the hig
 * **Exchange Directions** — Choose the exchange directions where the trading action will be triggered.
 * **Error Margin (%)** — This setting is relevant **only** for Binance and applies to **buying** operations. The recommended value is 0.15%.
 
-<figure><img src="../../../.gitbook/assets/%D0%94%D0%BE%D0%B1%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D0%B5%20%E2%80%B9%202%20Premium%20Exchanger%202%20%E2%80%94%20WordPress%20-%20Google%20Chrome_230512164107.png" alt="" width="563"><figcaption><p>General Trading Action Settings</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/%D0%94%D0%BE%D0%B1%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D0%B5%20%E2%80%B9%202%20Premium%20Exchanger%202%20%E2%80%94%20WordPress%20-%20Google%20Chrome_230512164107_eng.png" alt="" width="563"><figcaption><p>General Trading Action Settings</p></figcaption></figure>
 
 5. Next, go to the settings of the corresponding exchange and complete the necessary configurations. Below are instructions for setting up some popular exchanges:
    * [Garantex](broken-reference)

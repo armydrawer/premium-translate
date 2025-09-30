@@ -4,7 +4,7 @@
 
 The IonCube version will be displayed at the very bottom of any page in the admin panel:
 
-<figure><img src="../../../../.gitbook/assets/изображение (87).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/изображение (87)_eng.png" alt=""><figcaption></figcaption></figure>
 
 ## Method #2
 
@@ -14,11 +14,11 @@ In the root directory of your website on the server, create a temporary file wit
 <?php phpinfo(); ?>
 ```
 
-<figure><img src="../../../../.gitbook/assets/изображение (102).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/изображение (102)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Open the page `https://your_domain/test.php` in a browser and locate the ionCube Loader section:
 
-<figure><img src="../../../../.gitbook/assets/изображение (29).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/изображение (29)_eng.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 Make sure to delete the file from the server after checking!

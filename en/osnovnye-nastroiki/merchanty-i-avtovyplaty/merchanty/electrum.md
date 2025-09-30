@@ -9,11 +9,11 @@ Electrum allows for the cancellation and substitution of transactions, which can
 
 When using merchants to receive funds, it is necessary to [recalculate the payment amount](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya/sozdanie-novogo-napravleniya-obmena#pereschet-po-summe-oplaty) at least for the status "**Paid Request**" in the exchange direction settings.
 
-![](<../../../.gitbook/assets/image (329).png>)
+![](<../../../.gitbook/assets/image (329)_eng.png>)
 
 You must also configure the automatic transition of requests to the status "**Under Review**" if the actual payment amount is less than the original (this option is found in the merchant module settings for receiving funds under the "**Merchants**" section).
 
-<img src="../../../.gitbook/assets/image (328).png" alt="" data-size="original">
+<img src="../../../.gitbook/assets/image (328)_eng.png" alt="" data-size="original">
 {% endhint %}
 
 {% hint style="warning" %}
@@ -28,7 +28,7 @@ Install Electrum on the server following the [instructions](https://premium.gitb
 
 Make sure to save the port number for connection, server address (optional), username, and password for wallet access in a text file.
 
-<figure><img src="../../../.gitbook/assets/image (1443).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1443)_eng.png" alt=""><figcaption></figcaption></figure>
 
 ## Module Settings
 
@@ -36,11 +36,11 @@ In the admin panel, create a new merchant in the "**Merchants**" -> "**Add Merch
 
 Select Electrum from the dropdown list in the "**Module**" field, provide a name for the module, and click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/image (1444).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1444)_eng.png" alt=""><figcaption></figcaption></figure>
 
 Fill in the specified authorization fields.
 
-<figure><img src="../../../.gitbook/assets/image (1446).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1446)_eng.png" alt=""><figcaption></figcaption></figure>
 
 * **Number of confirmations for a payment to be considered completed** — leave this field empty to use the default value that Electrum employs.
 * **Login** — enter the information from the "**User for Connection**" line.

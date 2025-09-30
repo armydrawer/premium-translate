@@ -4,29 +4,29 @@
 
 In the website control panel, under the "**SEO" → "Settings"** section, you will find the available SEO settings for your site.
 
-<figure><img src="../../../.gitbook/assets/image (1130).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1130)_eng.png" alt=""><figcaption></figcaption></figure>
 
 OGP (Open Graph Protocol) is a set of meta tags used to define how content will appear on social media platforms like Facebook, Twitter, LinkedIn, and others. OGP allows you to set the title, description, image, and other attributes that will be displayed when a link to your page is shared on social media. This helps enhance the visual representation of your content and makes it more appealing to users, which can, in turn, increase the number of clicks on links and drive traffic to your site.
 
 {% tabs %}
 {% tab title="General Settings" %}
-<figure><img src="../../../.gitbook/assets/image (915).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (915)_eng.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Homepage" %}
-<figure><img src="../../../.gitbook/assets/image (1236).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1236)_eng.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Posts" %}
-<figure><img src="../../../.gitbook/assets/image (859).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (859)_eng.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Pages" %}
-<figure><img src="../../../.gitbook/assets/image (1033).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1033)_eng.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Exchange Form" %}
-<figure><img src="../../../.gitbook/assets/image (930).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (930)_eng.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -51,7 +51,7 @@ Metrics are numerical indicators used to measure the effectiveness of a website 
 
 This section specifies tags, goals, and counters for subsequent data analytics in third-party services.
 
-<figure><img src="../../../.gitbook/assets/изображение (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (2)_eng.png" alt=""><figcaption></figcaption></figure>
 
 1. To create a Yandex.Metrica counter code, log in or register in the [system](https://metrika.yandex.ru).
 2. On the counter list page, [add a counter](https://metrika.yandex.ru/add). The settings page will open.
@@ -64,19 +64,19 @@ This section specifies tags, goals, and counters for subsequent data analytics i
 5. Click the "Create Counter" button.
 6. On the opened page, in the "**Counter Code**" block, copy the **counter ID** and enter it in the **"Yandex.Metrica Counter ID"** field in the admin panel under the **SEO** section.
 
-    <figure><img src="../../../.gitbook/assets/изображение (18).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/изображение (18)_eng.png" alt=""><figcaption></figcaption></figure>
 
     To set goals in Yandex.Metrica, specify the goal name in the corresponding field.
 
-<figure><img src="../../../.gitbook/assets/image (2122).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2122)_eng.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (2123).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2123)_eng.png" alt=""><figcaption></figcaption></figure>
 
 ## XML Sitemap Settings
 
 An XML sitemap is a file that contains information about the structure and content of a website in XML format. It is designed for search engine bots to simplify the indexing of the site's pages and the collection of information about them. The XML sitemap contains a list of all the site's pages, as well as additional information such as update frequency, page priority, and the date of the last update. It helps search engine bots understand which pages of the site should be indexed, increasing the site's chances of achieving high positions in search results.
 
-<figure><img src="../../../.gitbook/assets/изображение (49).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (49)_eng.png" alt=""><figcaption></figcaption></figure>
 
 **Show "Posts" in the sitemap** — option to display news in the XML sitemap created in the "**Posts**" section.
 
@@ -92,7 +92,7 @@ An XML sitemap is a file that contains information about the structure and conte
 
 The robots.txt file is a text file placed on the website to inform search engine bots which pages of the site should be indexed and which should not. In this file, you can specify which directories and files should be excluded from indexing, as well as provide links to sitemaps and other useful resources for search engine bots. The robots.txt file is an important tool for SEO and can help improve the site's positions in search results.
 
-<figure><img src="../../../.gitbook/assets/изображение (161).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (161)_eng.png" alt=""><figcaption></figcaption></figure>
 
 **Text** — specify the necessary rules for indexing the site, following [Google's instructions](https://developers.google.com/search/docs/crawling-indexing/robots/create-robots-txt?hl=ru).
 
@@ -100,7 +100,7 @@ The robots.txt file is a text file placed on the website to inform search engine
 
 In this section, you create the appearance of the exchange direction window that will be displayed on social media.
 
-<figure><img src="../../../.gitbook/assets/изображение (37).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (37)_eng.png" alt=""><figcaption></figcaption></figure>
 
 **Exchange Description** — the description that will be displayed in the window on social media.
 
@@ -118,45 +118,45 @@ In this section, you create the appearance of the exchange direction window that
 
 An example of filling out SEO parameters for a website:
 
-<figure><img src="../../../.gitbook/assets/image (1913).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1913)_eng.png" alt=""><figcaption></figcaption></figure>
 
 1. Log in to the admin panel.
 2. Go to the "**SEO**" -> "**Settings**" section.
 
-<figure><img src="../../../.gitbook/assets/image (1914).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1914)_eng.png" alt=""><figcaption></figcaption></figure>
 
 3. Select the settings for the homepage:
 
-<figure><img src="../../../.gitbook/assets/image (1918).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1918)_eng.png" alt=""><figcaption></figcaption></figure>
 
 4. On the opened page:
 
-<figure><img src="../../../.gitbook/assets/image (1919).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1919)_eng.png" alt=""><figcaption></figcaption></figure>
 
 5. Fill in the data from the **Title** field:
 
-<figure><img src="../../../.gitbook/assets/image (1920).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1920)_eng.png" alt=""><figcaption></figcaption></figure>
 
 6. Fill in the data from the **Description** field:
 
-<figure><img src="../../../.gitbook/assets/image (1921).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1921)_eng.png" alt=""><figcaption></figcaption></figure>
 
 7. Fill in the data from the **Keywords** field:
 
-<figure><img src="../../../.gitbook/assets/image (1922).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1922)_eng.png" alt=""><figcaption></figcaption></figure>
 
 8. After filling in the data, click the "**Save**" button.
 
-<figure><img src="../../../.gitbook/assets/image (1923).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1923)_eng.png" alt=""><figcaption></figcaption></figure>
 
 9. Go to the "**Appearance**" -> "**Homepage**" section and fill in the "**Title**" field in the "**Welcome Message**" block.
 
-<figure><img src="../../../.gitbook/assets/image (1927).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1927)_eng.png" alt=""><figcaption></figcaption></figure>
 
 10. Fill in the data from the "**H1 for Homepage**" field:
 
-<figure><img src="../../../.gitbook/assets/image (1924).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1924)_eng.png" alt=""><figcaption></figcaption></figure>
 
 11. Fill in the information from the line "**Description text for the main page**": 
 
-<figure><img src="../../../.gitbook/assets/image (1926).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1926)_eng.png" alt=""><figcaption></figcaption></figure>

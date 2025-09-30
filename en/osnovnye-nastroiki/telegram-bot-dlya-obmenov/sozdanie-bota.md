@@ -6,13 +6,13 @@
 
 In Telegram, send a message **/newbot** to [@BotFather](https://t.me/BotFather) and follow the instructions to create your bot. Once the bot is successfully created, a token will be displayed—copy it to your clipboard, as you will need it for further setup. You do not need to change any other bot settings.
 
-<figure><img src="../../.gitbook/assets/BotFather @ Premium Exchanger (38886)_230731152938.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/BotFather @ Premium Exchanger (38886)_230731152938_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Adding a New Bot in the Admin Panel
 
 1. Activate the "**T-bots**" and "**API**" modules in the "**Modules**" section.
 
-<figure><img src="../../.gitbook/assets/image (1213).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1213)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 2. Go to the **T-API-bots -> Add** section and create a new bot by filling out all the options listed below:
 
@@ -35,11 +35,11 @@ Instructions on how to create an "**API login**" and "**API key**" can be found 
 {% hint style="warning" %}
 Please note that you **must** enable methods in the "**API**" ➔ "**Settings**" section,
 
-![](<../../.gitbook/assets/image (87).png>)
+![](<../../.gitbook/assets/image (87)_eng.png>)
 
 in addition to the methods in the settings of the specific API key for the bot.
 
-![](<../../.gitbook/assets/image (88).png>)\
+![](<../../.gitbook/assets/image (88)_eng.png>)\
 {% endhint %}
 
 * **Version** — the version of the bot (currently only v1 is available)\
@@ -56,17 +56,17 @@ Array ( [error] => 0 [error_text] => [data] => Array ( [ip] => 000.000.000.0000 
 ```
 {% endcode %}
 
-<figure><img src="../../.gitbook/assets/Добавить ‹ Premium Exchanger — WordPress - Google Chrome_230727183928.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Добавить ‹ Premium Exchanger — WordPress - Google Chrome_230727183928_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 3. Click the "**Save**" button.
 4. Then fill in the "**Token**" field with the token you copied earlier from the created Telegram bot via [@BotFather](https://t.me/BotFather).
 
-<figure><img src="../../.gitbook/assets/Добавить ‹ Premium Exchanger — WordPress - Google Chrome_230727184111.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Добавить ‹ Premium Exchanger — WordPress - Google Chrome_230727184111_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 5. Click the "**Save**" button again.
 6. After filling in all the connection details, register the webhook by following the link on the settings page.
 
-<figure><img src="../../.gitbook/assets/Добавить ‹ Premium Exchanger — WordPress - Google Chrome_230727184233.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Добавить ‹ Premium Exchanger — WordPress - Google Chrome_230727184233_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 If the bot is not functioning correctly or stops responding to commands, re-register the webhook—first delete the existing one and then register a new one.
@@ -77,7 +77,7 @@ If the bot is not functioning correctly or stops responding to commands, re-regi
 {% hint style="warning" %}
 You may need to reactivate the **Premium Exchanger** plugin in the "**Plugins**" section if the bot does not respond after starting.
 
-![](<../../.gitbook/assets/image (1249).png>)
+![](<../../.gitbook/assets/image (1249)_eng.png>)
 {% endhint %}
 
 8. Optionally, perform additional [bot settings](nastroiki-bota.md).

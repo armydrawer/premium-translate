@@ -11,13 +11,13 @@ Due to technical reasons, it is not possible to transfer settings from the Bestc
 {% hint style="danger" %}
 To automatically update exchange rates, **it is essential** to create a [Cron job](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/faq/kak-sozdat-zadanie-cron-na-servere) on your server using the link from the "**BestChange API Parser**" -> "**Settings**" section.
 
-<img src="../../../.gitbook/assets/image%20(415).png" alt="" data-size="original">
+<img src="../../../.gitbook/assets/image%20(415)_eng.png" alt="" data-size="original">
 
 The hash for the Cron job link is specified in the **`wp-content/plugins/premiumbox/userdata.php`** file.
 
-<img src="../../../.gitbook/assets/image%20(416).png" alt="" data-size="original">
+<img src="../../../.gitbook/assets/image%20(416)_eng.png" alt="" data-size="original">
 
-<img src="../../../.gitbook/assets/image%20(1520).png" alt="" data-size="original">
+<img src="../../../.gitbook/assets/image%20(1520)_eng.png" alt="" data-size="original">
 {% endhint %}
 
 {% hint style="warning" %}
@@ -33,18 +33,18 @@ You can also further configure the minimum and maximum rates according to this g
 {% hint style="danger" %}
 The Bestchange API parser will only work in an active exchange direction—make sure to set the direction to active before starting the configuration of the parser.
 
-<img src="../../../.gitbook/assets/image%20(733).png" alt="" data-size="original">
+<img src="../../../.gitbook/assets/image%20(733)_eng.png" alt="" data-size="original">
 {% endhint %}
 
 ## General Module Settings
 
-<figure><img src="../../../.gitbook/assets/image%20(2148).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20(2148)_eng.png" alt=""><figcaption></figcaption></figure>
 
 **Domain** — Enter one of the domains from the list below the field. If the field is empty (when the parser uses the main BC domain), the parser will not work (currencies and cities will not be displayed in the list below on this page).
 
 **API Key** — The API key from your [personal account on the Bestchange website](https://www.bestchange.ru/partner/profile.html).
 
-<figure><img src="../../../.gitbook/assets/image%20(419).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20(419)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 **Timeout (sec.)** — The time to wait for a response from Bestchange (recommended value is 20 seconds. If set to 0, it will also default to 20 seconds).
 
@@ -62,7 +62,7 @@ The Bestchange API parser will only work in an active exchange direction—make 
 
 Click on the image below to see how to find the exchanger ID on the Bestchange website.
 
-<img src="../../../.gitbook/assets/Clip2net_230726151417.png" alt="" data-size="original">
+<img src="../../../.gitbook/assets/Clip2net_230726151417_eng.png" alt="" data-size="original">
 
 </details>
 
@@ -83,7 +83,7 @@ To prevent abnormal fluctuations, we use data obtained from five exchangers (hig
 
 **Key terms:**
 
-<img src="../../../.gitbook/assets/image%20(323).png" alt="" data-size="original">
+<img src="../../../.gitbook/assets/image%20(323)_eng.png" alt="" data-size="original">
 
 In the screenshot, you can see the email sent to the administrator if protection is enabled and the email template "**Bestchange Security Error**" is activated.
 
@@ -93,7 +93,7 @@ In the screenshot, you can see the email sent to the administrator if protection
 
 • **Min security rate** — the minimum rate considered safe according to our calculations.
 
-<img src="../../../.gitbook/assets/image%20(324).png" alt="" data-size="original">
+<img src="../../../.gitbook/assets/image%20(324)_eng.png" alt="" data-size="original">
 
 **Reasons for implementing protection**
 
@@ -106,11 +106,11 @@ This protection will work effectively if you add small values to the step, for e
 
 **Select currencies** — A list of available currencies from Bestchange for parsing (the list will only be displayed after entering a valid API key in the parser settings).
 
-<figure><img src="../../../.gitbook/assets/image%20(420).png" alt="" width="395"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20(420)_eng.png" alt="" width="395"><figcaption></figcaption></figure>
 
 **Select cities** — A list of cities from Bestchange for parsing (the list will only be displayed after entering a valid API key in the parser settings).
 
-<figure><img src="../../../.gitbook/assets/image%20(421).png" alt="" width="363"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20(421)_eng.png" alt="" width="363"><figcaption></figcaption></figure>
 
 ## Parser Settings for Exchange Direction
 
@@ -118,11 +118,11 @@ In the control panel, go to "**Exchange Directions" → "Exchange Directions"** 
 
 On the "**Auto Rate Adjustment**" and "**Bestchange Parser**" tabs, before starting the configuration of the BestChange API parser, disable any active rate auto-adjustments if such settings are in use.
 
-<div><figure><img src="../../../.gitbook/assets/image%20(423).png" alt="" width="359"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image%20(422).png" alt="" width="443"><figcaption></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/image%20(423)_eng.png" alt="" width="359"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image%20(422)_eng.png" alt="" width="443"><figcaption></figcaption></figure></div>
 
 On the "**BestChange API Parser**" tab, you will see a settings block. Make the necessary configurations:
 
-<figure><img src="../../../.gitbook/assets/image%20(424).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20(424)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 **Enable parser:**\
 \&#xNAN;**• Yes** — The parser is enabled for the exchange direction.\
@@ -167,13 +167,13 @@ The value of a step with a negative sign ("**-**") will decrease your rate compa
 
 **Show Rating** — a page displaying currency rates from Bestchange along with the recommended step.
 
-<figure><img src="../../../.gitbook/assets/image%20(1763).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20(1763)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 **Minimum Rate** — the lowest threshold for the rate, below which the binding to the position will not function. If a competitor for the specified position goes below this minimum rate, the module will reset your rate to the standard one (if this option is enabled).
 
 {% hint style="warning" %}
 If one or all options ("**Minimum Rate**", "**Maximum Rate**", "**Standard Rate**") are specified both manually and through the "**Auto Rate Adjustment**" option,\
-![](../../../.gitbook/assets/image%20\(1785\).png)\
+![](../../../.gitbook/assets/image%20\(1785\)_eng.png)\
 the rate from the "**Auto Rate Adjustment**" field will always take precedence and will be used by the parser.
 {% endhint %}
 

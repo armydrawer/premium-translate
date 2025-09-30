@@ -12,11 +12,11 @@ To discuss terms and set up a connection, please contact a [service representati
 
 Go to the "**Trade Actions**" section ➔ "**Add Action**," enter a name for the trade action in the "**Title**" field, select ABCEx from the dropdown menu in the "**Module**" field, leave the status as "**Active Action**," and click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/image (48).png" alt="" width="422"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (48)_eng.png" alt="" width="422"><figcaption></figcaption></figure>
 
 Enter the API key provided by the exchange representative (leave the "**Domain**" field empty) and save the changes.
 
-<figure><img src="../../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (45)_eng.png" alt=""><figcaption></figcaption></figure>
 
 In the module, you can create one of two actions — "**Sell**" or "**Buy**."
 
@@ -33,7 +33,7 @@ If you want to <mark style="color:green;">**buy**</mark> the equivalent of the a
 The exchange will execute a <mark style="color:green;">**buy**</mark> order for BTC from your balance and a <mark style="color:red;">**sell**</mark> order for USDT at the market rate.
 {% endhint %}
 
-<div><figure><img src="../../../.gitbook/assets/image (50).png" alt="" width="486"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (610).png" alt="" width="472"><figcaption></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/image (50)_eng.png" alt="" width="486"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (610)_eng.png" alt="" width="472"><figcaption></figcaption></figure></div>
 
 {% hint style="success" %}
 Examples of Trade Actions:
@@ -41,13 +41,13 @@ Examples of Trade Actions:
 Example 1:\
 Action "<mark style="color:red;">**Sell**</mark>", exchange direction **USDT TRC20 to BTC**, with currencies selected in the trade action as "**Currency Code**" for buying — **USDT** and selling — **RUB**, amount from the request "**Give**".\
 The client creates a request to receive 0.0012 BTC (~100 USDT) and pays for it. At this point (if the trade action is set to execute after the "**Awaiting Merchant Confirmation**" status), the exchange will execute a <mark style="color:red;">**sell**</mark> order for **USDT** to **RUB** for the request amount (provided there is sufficient balance to complete the action).\
-![](<../../../.gitbook/assets/image (46).png>)
+![](<../../../.gitbook/assets/image (46)_eng.png>)
 
 \
 Example 2:\
 Action "<mark style="color:red;">**Sell**</mark>", exchange direction **USDT TRC20 to BTC**, with currencies set to "**Auto**" for both buying and selling, amount "**Give**".\
 The client creates a request to receive 0.0012 BTC (~100 USDT) and pays for it. At this point, the exchange will execute a <mark style="color:green;">**buy**</mark> order for **BTC** using **USDT** for the request amount.\
-![](<../../../.gitbook/assets/image (47).png>)
+![](<../../../.gitbook/assets/image (47)_eng.png>)
 
 \
 Example 3:\
@@ -73,7 +73,7 @@ To ensure the trade action executes correctly, it is also important to select a 
 
 Currently available pairs are **USDT/RUB** and **BTC/USDT** (and their reverse pairs).
 
-<figure><img src="../../../.gitbook/assets/image (2121).png" alt="" width="339"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2121)_eng.png" alt="" width="339"><figcaption></figcaption></figure>
 
 {% hint style="danger" %}
 If you select currencies that do not form a pair, the trade action will fail with an error during execution.

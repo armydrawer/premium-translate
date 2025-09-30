@@ -6,15 +6,15 @@ Below is a description of all possible parameters that can be presented in the c
 
 Navigate to the "**Currencies**" → "**Currencies**" section located in the sidebar of the admin panel.
 
-<figure><img src="../../.gitbook/assets/image%20(1432).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(1432)_eng.png" alt=""><figcaption></figcaption></figure>
 
 Here, you will see a table listing all the currencies created by default in your exchange. On this page, you can also add a new currency to be used in your exchange. To do this, click the "**Add**" button located above the table.
 
-<figure><img src="../../.gitbook/assets/image%20(1115).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(1115)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## "Basic Settings" Tab
 
-<figure><img src="../../.gitbook/assets/image%20(1156).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(1156)_eng.png" alt=""><figcaption></figcaption></figure>
 
 In the window that opens, you need to fill in the fields describing the new currency:
 
@@ -68,7 +68,7 @@ Example: For the currency **Tether(USDT) ERC20**, the XML code should be set to 
 
 ## "Reserve and Limits" Tab
 
-<figure><img src="../../.gitbook/assets/image%20(854).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(854)_eng.png" alt=""><figcaption></figcaption></figure>
 
 **Currency Reserve** — allows you to calculate the current currency reserve based on completed requests — for this, select the option "**--calculate by requests--**." You can also obtain the current reserve from the wallet in real-time, but for this, you need to set up the corresponding [auto-payment module](https://premium.gitbook.io/rukovodstvo-polzovatelya/navigaciya/merchanty-i-vyplaty/vyplaty), and then select the corresponding wallet from the list. Additionally, you can obtain [reserve from a file](https://premium.gitbook.io/rukovodstvo-polzovatelya/navigaciya/rezervy/rezerv-iz-faila) and calculate it [using a formula](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/rezervy-valyut/rezerv-ot-drugoi-valyuty/primery-nastroiki-slozhnogo-rezerva-s-ispolzovaniem-formul).
 
@@ -86,7 +86,7 @@ Example: For the currency **Tether(USDT) ERC20**, the XML code should be set to 
 
 ## "Field Settings" Tab
 
-<figure><img src="../../.gitbook/assets/image%20(2063).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(2063)_eng.png" alt=""><figcaption></figcaption></figure>
 
 **Allow users to add account numbers in their profiles** — allows clients to save their payment system details in their user account and later select the necessary details in the exchange form.
 
@@ -110,13 +110,13 @@ Example: For the currency **Tether(USDT) ERC20**, the XML code should be set to 
 
 ## "Additional Fields" Tab
 
-<figure><img src="../../.gitbook/assets/image%20(1198).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(1198)_eng.png" alt=""><figcaption></figcaption></figure>
 
 In this section, you can select previously created additional fields from the "**Additional Currency Fields**" section that will be displayed in the exchange directions for this currency.
 
 ## "Verification" Tab
 
-<figure><img src="../../.gitbook/assets/image%20(1091).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(1091)_eng.png" alt=""><figcaption></figcaption></figure>
 
 **Account Verification Option** — allows the activation of user account verification for the created currency.
 
@@ -130,7 +130,7 @@ In this section, you can select previously created additional fields from the "*
 
 ## "Affiliate Program" Tab
 
-<figure><img src="../../.gitbook/assets/image%20(964).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(964)_eng.png" alt=""><figcaption></figcaption></figure>
 
 **Allow Withdrawal of Affiliate Funds** — option to permit or restrict the withdrawal of affiliate funds in this currency within users' affiliate accounts.
 

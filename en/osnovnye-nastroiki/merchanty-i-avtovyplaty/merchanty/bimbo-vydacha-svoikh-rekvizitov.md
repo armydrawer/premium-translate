@@ -13,19 +13,19 @@ Choose either "**BimBo Link**" or "**BimBo Invoice**" from the dropdown menu in 
 * **BimBo Link** — generates a link that the client will use to make a payment.
 * **BimBo Invoice** — provides payment details directly in the application.
 
-<figure><img src="../../../.gitbook/assets/image (2110).png" alt="" width="501"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2110)_eng.png" alt="" width="501"><figcaption></figcaption></figure>
 
 ## Special Fields
 
 {% tabs %}
 {% tab title="BimBo Invoice" %}
-<figure><img src="../../../.gitbook/assets/image (2111).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2111)_eng.png" alt=""><figcaption></figcaption></figure>
 
 **Invoice Number** — enter the payment details that will be provided in the application for receiving funds from the client (these details will always be issued in the application when using this merchant).
 {% endtab %}
 
 {% tab title="BimBo Link" %}
-<figure><img src="../../../.gitbook/assets/image (2112).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2112)_eng.png" alt=""><figcaption></figcaption></figure>
 
 **Link** — specify the URL of the page where the client should make the payment or view the payment details.
 

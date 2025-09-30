@@ -16,12 +16,12 @@ After receiving your login credentials from the service representative, log in t
 
 In your account, fill in the "**Webhook URL**" field and copy the data from the "**Client ID**" and "**API Secret**" fields to your clipboard or a text file.
 
-<figure><img src="../../../.gitbook/assets/image (2106).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2106)_eng.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 In the "**Webhook URL**" field, enter the URL from the "**Status URL**" field in the merchant module settings.
 
-![](<../../../.gitbook/assets/image (2105).png>)
+![](<../../../.gitbook/assets/image (2105)_eng.png>)
 {% endhint %}
 
 ## Module Settings
@@ -30,11 +30,11 @@ In the admin panel, create a new merchant in the "**Merchants**" ➔ "**Add Merc
 
 Select Premium Wallet from the dropdown list in the "**Module**" field, provide a name for the module, and click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/image (2104).png" alt="" width="446"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2104)_eng.png" alt="" width="446"><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../.gitbook/assets/image (2103).png" alt="" width="430"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2103)_eng.png" alt="" width="430"><figcaption></figcaption></figure>
 
 **Domain** — the link provided to you by the Premium Wallet service representative.
 

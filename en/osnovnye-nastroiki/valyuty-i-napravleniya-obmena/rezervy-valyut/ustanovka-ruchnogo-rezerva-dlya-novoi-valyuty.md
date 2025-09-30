@@ -6,11 +6,11 @@ If you are using the auto-payment module, you can receive a real-time reserve fr
 
 If you want to set the currency reserve manually, go to the "**Reserve Adjustment**" section in the sidebar. Click the "**Add**" button located above the table of established currencies.
 
-<figure><img src="../../../.gitbook/assets/image (1027).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1027)_eng.png" alt=""><figcaption></figcaption></figure>
 
 In the window that opens, you need to fill in the fields for "**Comment**," "**Amount**," and "**Currency**":
 
-<figure><img src="../../../.gitbook/assets/image (1010).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1010)_eng.png" alt=""><figcaption></figcaption></figure>
 
 * **Comment -** Enter a note or hint for this transaction (optional).
 * **Amount -** Specify the amount by which you want to increase the reserve for this currency.

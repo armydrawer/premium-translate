@@ -6,14 +6,14 @@ With this feature, you can display a timer on the application page that counts d
 
 2. In the website control panel, navigate to "**Exchange Directions" → "Automatic Deletion of Unpaid Applications**" and enable the automatic deletion feature for unpaid applications. The settings you configure will apply to all exchange directions on the site.
 
-<figure><img src="../../.gitbook/assets/image (1053).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1053)_eng.png" alt=""><figcaption></figcaption></figure>
 
 You can also activate this option with personalized settings for each exchange direction in the settings of each direction under the "**Deletion of Unpaid Applications**" tab.
 
-<figure><img src="../../.gitbook/assets/image (1113).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1113)_eng.png" alt=""><figcaption></figcaption></figure>
 
 3. Go to the settings of the direction for which you want to display the timer. In the "**User Information**" tab, in the "**Application Status: New Application**" field, insert the code: An unpaid application will be deleted in **\[js\_timer]\[bid\_delete\_time]\[/js\_timer]**.
 
-<figure><img src="../../.gitbook/assets/Screenshot_46.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_46_eng.png" alt=""><figcaption></figcaption></figure>
 
 4. Save the changes in the settings.

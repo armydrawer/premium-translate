@@ -14,25 +14,25 @@ Register or log in to the [Binance](https://www.binance.com/) platform.
 
 Go to the "**Account**" section and then to "**API Management**."
 
-<figure><img src="../../../.gitbook/assets/image (1451).png" alt="" width="462"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1451)_eng.png" alt="" width="462"><figcaption></figcaption></figure>
 
 Click on the "**Create API**" button and select the key type "**System Generated**."
 
-<figure><img src="../../../.gitbook/assets/image (1452).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1452)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (1454).png" alt="" width="371"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1454)_eng.png" alt="" width="371"><figcaption></figcaption></figure>
 
 Enter a name for the key and click "**Next**."
 
-<figure><img src="../../../.gitbook/assets/image (1455).png" alt="" width="419"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1455)_eng.png" alt="" width="419"><figcaption></figcaption></figure>
 
 Confirm the key generation using two-factor authentication.
 
-<figure><img src="../../../.gitbook/assets/image (1457).png" alt="" width="337"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1457)_eng.png" alt="" width="337"><figcaption></figcaption></figure>
 
 After confirming the key generation, you will be taken to the key page. Save the **API Key** and **Secret Key** in a text file.
 
-<figure><img src="../../../.gitbook/assets/image (1458).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1458)_eng.png" alt=""><figcaption></figcaption></figure>
 
 Click on the "**Edit Restrictions**" button to modify the key's operational methods in the "**API Restrictions**" section.
 
@@ -50,11 +50,11 @@ In the admin panel, create a new merchant in the "**Auto Payouts**" -> "**Add Au
 
 Select Binance from the dropdown list in the "**Module**" field, enter a name for the module, and click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/image (1460).png" alt="" width="502"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1460)_eng.png" alt="" width="502"><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../.gitbook/assets/image (1461).png" alt="" width="440"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1461)_eng.png" alt="" width="440"><figcaption></figcaption></figure>
 
 **API Key** — the public key generated in your Binance account (field "**API Key**")
 
@@ -62,11 +62,11 @@ Fill in the required authorization fields.
 
 ## Special Fields
 
-<figure><img src="../../../.gitbook/assets/image (1462).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1462)_eng.png" alt=""><figcaption></figcaption></figure>
 
 * **Network** — specify the network for the payout currency according to [Binance requirements](https://www.binance.com/en/network)
 
-<figure><img src="../../../.gitbook/assets/image (1463).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1463)_eng.png" alt=""><figcaption></figcaption></figure>
 
 * **Purchase the missing amount of crypto for payout** — options for auto-purchasing currency for payouts:\
   • **No** — do not purchase currency for payout, pay directly from the wallet (the wallet must have sufficient reserves of the payout currency)\

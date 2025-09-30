@@ -20,11 +20,11 @@ In the admin panel, create a new merchant in the "**Merchants**" section by sele
 
 Choose PayCrown from the dropdown menu in the "**Module**" field, enter a name for the module, and click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="422"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1)_eng.png" alt="" width="422"><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt="" width="439"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1)_eng.png" alt="" width="439"><figcaption></figcaption></figure>
 
 **Domain** — leave this field empty.
 
@@ -36,7 +36,7 @@ Fill in the required authorization fields.
 
 ## Special Fields
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="439"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1)_eng.png" alt="" width="439"><figcaption></figcaption></figure>
 
 **Payment Method** — the method for issuing payment details:
 

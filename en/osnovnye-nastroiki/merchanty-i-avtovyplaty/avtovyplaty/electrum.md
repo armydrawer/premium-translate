@@ -18,7 +18,7 @@ Install Electrum on the server following the [instructions](https://premium.gitb
 
 Make sure to save the wallet password, the port number for connection, the server address (optional), and the login and password for wallet access in a text file.
 
-<figure><img src="../../../.gitbook/assets/image%20(1443).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20(1443)_eng.png" alt=""><figcaption></figcaption></figure>
 
 ## **Module Settings**
 
@@ -26,11 +26,11 @@ In the admin panel, create a new merchant in the "**Auto Payouts**" section by c
 
 Select Electrum from the dropdown menu in the "**Module**" field, provide a name for the module, and click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/image%20(1447).png" alt="" width="509"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20(1447)_eng.png" alt="" width="509"><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../.gitbook/assets/image%20(1448).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20(1448)_eng.png" alt=""><figcaption></figcaption></figure>
 
 * **Number of confirmations for a payment to be considered completed** — leave this field empty to use the default value set by Electrum.
 * **Login** — enter the information from the "**User for connection**" field.
@@ -50,7 +50,7 @@ If the Electrum module is installed on the same server as the Premium Exchanger 
 
 In the auto payout module settings, you will find the following options:
 
-<figure><img src="../../../.gitbook/assets/image%20(768).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20(768)_eng.png" alt=""><figcaption></figcaption></figure>
 
 1. Mass payouts:
 
@@ -82,7 +82,7 @@ The current fee for sending a payment is automatically requested from the [Mempo
 
 ### Recommended Settings for the Above Parameters:
 
-<figure><img src="../../../.gitbook/assets/image%20(1449).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20(1449)_eng.png" alt=""><figcaption></figcaption></figure>
 
 With these settings, mass payouts will occur after 5 minutes if 20 paid requests are accumulated. If 5 minutes pass and there are not 20 requests, the mass payout will still occur, but with the number of requests currently in the queue.
 

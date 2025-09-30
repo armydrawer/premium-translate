@@ -10,7 +10,7 @@ Submit a registration request on the [Yobit](https://yobit.net/) website. After 
 
 Go to the [“API Keys” section](https://yobit.net/ru/api/keys/) and generate a new key with permissions based on how you plan to work with the merchant:
 
-<figure><img src="../../../.gitbook/assets/image (1407).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1407)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 * **info only** - view transaction history only (not used)
 * **info & trade & deposits** - view transaction history and accept funds into merchant accounts (accepting funds only)
@@ -18,7 +18,7 @@ Go to the [“API Keys” section](https://yobit.net/ru/api/keys/) and generate 
 
 After selecting the permissions and clicking the “**Create New Key**” button, the key will appear in the block below but will be inactive. To activate it, follow the instructions sent to your email.
 
-<figure><img src="../../../.gitbook/assets/image (1408).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1408)_eng.png" alt=""><figcaption></figcaption></figure>
 
 Confirm the activation of the key and save the key and secret data in a text file.
 
@@ -28,11 +28,11 @@ In the admin panel, create a new merchant in the “**Merchants**” -> “**Add
 
 Select Yobit from the dropdown list in the “**Module**” field, enter a name for the module, and click “**Save**.”
 
-<figure><img src="../../../.gitbook/assets/image (1409).png" alt="" width="533"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1409)_eng.png" alt="" width="533"><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../.gitbook/assets/image (1410).png" alt="" width="453"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1410)_eng.png" alt="" width="453"><figcaption></figcaption></figure>
 
 **API Key** - the public key generated in your Yobit account (field “**Key**”)
 
@@ -40,7 +40,7 @@ Fill in the required authorization fields.
 
 ## Special Fields
 
-<figure><img src="../../../.gitbook/assets/image (1350).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1350)_eng.png" alt=""><figcaption></figcaption></figure>
 
 **Required Number of Transaction Confirmations** - a confirmed transaction means it has been included in a block and, therefore, in the blockchain. It has been verified and recorded, the payment has been processed, and it cannot be changed or canceled. To be considered legitimate, the operation must receive a certain number of confirmations. Each new confirmation exponentially reduces the risk of the transaction being canceled.
 

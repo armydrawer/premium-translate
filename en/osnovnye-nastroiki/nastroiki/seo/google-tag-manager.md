@@ -4,4 +4,4 @@ Google Tag Manager (GTM) is a free tool from Google that allows you to manage tr
 
 You can insert the code provided by Google using a hook, following the [instructions here](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-ustanovit-onlain-chat#ustanovka-s-pomoshyu-khuka-lyuboi-onlain-chat), or directly in your theme's file at `/wp-content/themes/your_theme_name/header.php` (within the <head> or <body> sections). 
 
-<figure><img src="../../../.gitbook/assets/изображение (72).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (72)_eng.png" alt=""><figcaption></figcaption></figure>

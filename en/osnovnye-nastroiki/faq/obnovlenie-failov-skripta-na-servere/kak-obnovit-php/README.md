@@ -84,8 +84,8 @@ Download and upload the appropriate distribution files for **the installed scrip
 
 1. Upload the archive to the root folder of your server and extract it, replacing the existing files.
 
-   <figure><img src="../../../../.gitbook/assets/image (74).png" alt=""><figcaption></figcaption></figure>
+   <figure><img src="../../../../.gitbook/assets/image (74)_eng.png" alt=""><figcaption></figcaption></figure>
 
 2. In ISP Manager, change the PHP version for your website to the new version and save the changes.
 
-   <figure><img src="../../../../.gitbook/assets/image (76).png" alt="" width="467"><figcaption></figcaption></figure>
+   <figure><img src="../../../../.gitbook/assets/image (76)_eng.png" alt="" width="467"><figcaption></figcaption></figure>

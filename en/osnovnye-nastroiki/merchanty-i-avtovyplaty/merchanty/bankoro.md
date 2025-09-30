@@ -14,11 +14,11 @@ To discuss the terms of service, please contact a [service representative](https
 
 [Register on the Bankoro service](https://bankoro.io/registration), log into your personal account, go to the "**API Connection**" section, and add a new pair of API keys.
 
-<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1)_eng.png" alt=""><figcaption></figcaption></figure>
 
 Fill in the fields as you see fit (just make sure to provide access for receiving funds and/or making payouts) and generate the API keys by clicking the "**Create**" button. Copy both keys to your clipboard or a text file.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1)_eng.png" alt=""><figcaption></figcaption></figure>
 
 ## Module Settings
 
@@ -26,11 +26,11 @@ In the admin panel, create a new merchant in the "**Merchants**" ➔ "**Add Merc
 
 Select Bankoro from the dropdown menu in the "**Module**" field, enter a name for the module, and click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1)_eng.png" alt=""><figcaption></figcaption></figure>
 
 Fill in the specified authorization fields.
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1)_eng.png" alt=""><figcaption></figcaption></figure>
 
 **Domain** — leave this field empty.
 
@@ -40,7 +40,7 @@ Fill in the specified authorization fields.
 
 ## Special Fields
 
-<figure><img src="../../../.gitbook/assets/image (2221).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2221)_eng.png" alt=""><figcaption></figcaption></figure>
 
 **Payment Method** — select the currency for issuing the wallet address (if you choose "**Automatically**," the currency code for "**Giving**" will be used).
 

@@ -4,11 +4,11 @@
 
 1. If you have wallet addresses or card details and want to provide these details to users manually, go to the "**Modules -> Modules**" section and ensure that the "**Currency Accounts for Directions (curraccaunts)**" module is activated.
 
-<figure><img src="../../../.gitbook/assets/image (650).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (650)_eng.png" alt=""><figcaption></figcaption></figure>
 
 2. Next, navigate to the "**Currency Accounts -> Currency Accounts**" section and select the "**Add**" function to input the card numbers that will be provided to users when they create a request.
 
-<figure><img src="../../../.gitbook/assets/Screenshot_21 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot_21 (1)_eng.png" alt=""><figcaption></figcaption></figure>
 
 **Account Name** — enter a name for easier future reference.
 
@@ -26,7 +26,7 @@ If limits are not specified, there will be no restrictions.
 
 **Status** — select "**active account**" to make it available.
 
-<figure><img src="../../../.gitbook/assets/image (1239).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1239)_eng.png" alt=""><figcaption></figcaption></figure>
 
 Click "**Save**," then "**Back to List**."
 
@@ -36,10 +36,10 @@ Click "**Save**," then "**Back to List**."
    • **None** — accounts will not be displayed\
    • **Random** — the system will select according to the specified settings and limits (the most popular option)
 
-<figure><img src="../../../.gitbook/assets/Screenshot_23 (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot_23 (3)_eng.png" alt=""><figcaption></figcaption></figure>
 
 4. Go to the "**User Information**" section and find the field with the status "**New Request**" - in this section, you will connect the created accounts.\
    \
    Select "**Amount You Give**" (the amount for the transfer) and "**Merchant Account**," where the account number will be specified. Click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/Screenshot_24 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot_24 (1)_eng.png" alt=""><figcaption></figcaption></figure>

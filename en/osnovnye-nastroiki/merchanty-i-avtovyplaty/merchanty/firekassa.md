@@ -10,19 +10,19 @@ Register on the [Vanilapay](https://web.vanilapay.com/) website (for transaction
 
 Log into your personal account, go to the "**Sites**" section -> "**List of Sites**" and add a new site.
 
-<figure><img src="../../../.gitbook/assets/image (749).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (749)_eng.png" alt=""><figcaption></figcaption></figure>
 
 Fill in the required fields, except for "**Notification URL**" and "**Payout Notification URL**," then click "**Add**."
 
-<figure><img src="../../../.gitbook/assets/image (750).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (750)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 In the window that opens, go to the "**API**" tab.
 
-<figure><img src="../../../.gitbook/assets/image (751).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (751)_eng.png" alt=""><figcaption></figcaption></figure>
 
 Update the **API Bearer Token** and **API Sign Token** by clicking **"Edit"** on each line one by one.
 
-<figure><img src="../../../.gitbook/assets/image (752).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (752)_eng.png" alt=""><figcaption></figcaption></figure>
 
 Copy the keys and save them in a text file.
 
@@ -32,10 +32,10 @@ In the admin panel, create a new merchant in the "**Merchants**" -> "**Add Merch
 
 *   **FireKassa Card** — if you want the wallet/card number to be displayed directly on your website.
 
-    <figure><img src="../../../.gitbook/assets/image (753).png" alt=""><figcaption><p>FireKassa Card</p></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (753)_eng.png" alt=""><figcaption><p>FireKassa Card</p></figcaption></figure>
 *   **FireKassa Link** — if you want the user to be redirected to the payment system's website for payment.
 
-    <figure><img src="../../../.gitbook/assets/image (754).png" alt=""><figcaption><p>FireKassa Link</p></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (754)_eng.png" alt=""><figcaption><p>FireKassa Link</p></figcaption></figure>
 
 {% hint style="info" %}
 Both payment format options have limits set by the merchant, which should be confirmed with FireKassa's technical support.
@@ -45,7 +45,7 @@ Select the appropriate module from the dropdown list in the "**Module**" field, 
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../.gitbook/assets/image (1421).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1421)_eng.png" alt=""><figcaption></figcaption></figure>
 
 **API URL** — specify the URL of the service you will be working with:\
 • **https://admin.gampay.cc** — for transactions in UAH (alternative URL - **https://web.gampay.cc)**\
@@ -63,7 +63,7 @@ Next, configure the merchant by following the [general setup instructions](https
 
 **Type (FireKassa Card):**
 
-<figure><img src="../../../.gitbook/assets/image (649).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (649)_eng.png" alt=""><figcaption></figcaption></figure>
 
 * **Type** — select the bank for receiving funds (RUB, UAH)
 
@@ -75,8 +75,8 @@ The list of banks and payment systems for this option is loaded via API from the
 
 The merchant's requirement is to collect the customer's phone number, which they must enter in the exchange form. To do this, in the settings for the direction (under the "**Additional Fields**" tab), check the box next to the "**Phone**" field (make sure this field is marked as required — a <mark style="color:red;">red asterisk</mark> should appear next to it in the exchange form).
 
-<figure><img src="../../../.gitbook/assets/изображение (43).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (43)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 After this, the phone number input field will be displayed in the exchange form for this direction.
 
-<figure><img src="../../../.gitbook/assets/image (63).png" alt="" width="349"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (63)_eng.png" alt="" width="349"><figcaption></figcaption></figure>

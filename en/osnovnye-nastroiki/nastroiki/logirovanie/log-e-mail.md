@@ -5,7 +5,7 @@ In this section ("**Messages**" -> "**Email Logs**"), you can view all the email
 {% hint style="info" %}
 If this section is not visible in the sidebar, please enable the module in the "**Modules**" section:
 
-![](<../../../.gitbook/assets/image (1074).png>)
+![](<../../../.gitbook/assets/image (1074)_eng.png>)
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (861).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (861)_eng.png" alt=""><figcaption></figcaption></figure>

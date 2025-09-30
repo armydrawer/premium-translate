@@ -6,13 +6,13 @@ This section is designed to display statistics for completed requests.
 
 Available types of statistics:
 
-<figure><img src="../.gitbook/assets/image (1771).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1771)_eng.png" alt=""><figcaption></figcaption></figure>
 
 #### • By Exchange Amount:
 
-<figure><img src="../.gitbook/assets/image (1764).png" alt="" width="477"><figcaption><p>Section Settings</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1764)_eng.png" alt="" width="477"><figcaption><p>Section Settings</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (409).png" alt="" width="260"><figcaption><p>Example Result</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (409)_eng.png" alt="" width="260"><figcaption><p>Example Result</p></figcaption></figure>
 
 **Start Date** — the initial date for the filter
 
@@ -34,9 +34,9 @@ Available types of statistics:
 
 #### • By Exchange Direction:
 
-<figure><img src="../.gitbook/assets/image (1765).png" alt="" width="441"><figcaption><p>Section Settings</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1765)_eng.png" alt="" width="441"><figcaption><p>Section Settings</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (411).png" alt=""><figcaption><p>Example Result</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (411)_eng.png" alt=""><figcaption><p>Example Result</p></figcaption></figure>
 
 **Start Date** — the initial date for the filter
 
@@ -46,13 +46,13 @@ Available types of statistics:
 
 **Amount** — select the type of amount for calculating statistics
 
-<figure><img src="../.gitbook/assets/image (412).png" alt="" width="191"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (412)_eng.png" alt="" width="191"><figcaption></figcaption></figure>
 
 #### • By Profit:
 
-<figure><img src="../.gitbook/assets/image (1766).png" alt="" width="441"><figcaption><p>Section Settings</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1766)_eng.png" alt="" width="441"><figcaption><p>Section Settings</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (413).png" alt=""><figcaption><p>Example Result</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (413)_eng.png" alt=""><figcaption><p>Example Result</p></figcaption></figure>
 
 **Start Date** — the initial date for the filter
 
@@ -68,9 +68,9 @@ Available types of statistics:
 
 #### • Overall Statistics:
 
-<figure><img src="../.gitbook/assets/image (1767).png" alt="" width="402"><figcaption><p>Section Settings</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1767)_eng.png" alt="" width="402"><figcaption><p>Section Settings</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (414).png" alt=""><figcaption><p>Example Result</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (414)_eng.png" alt=""><figcaption><p>Example Result</p></figcaption></figure>
 
 **Start Date** — the initial date for the filter
 
@@ -80,13 +80,13 @@ Available types of statistics:
 
 Available types of statistics:
 
-<figure><img src="../.gitbook/assets/image (1772).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1772)_eng.png" alt=""><figcaption></figcaption></figure>
 
 #### • By Exchange Amount:
 
-<figure><img src="../.gitbook/assets/image (1768).png" alt="" width="451"><figcaption><p>Section Settings</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1768)_eng.png" alt="" width="451"><figcaption><p>Section Settings</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (409).png" alt="" width="260"><figcaption><p>Example Result</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (409)_eng.png" alt="" width="260"><figcaption><p>Example Result</p></figcaption></figure>
 
 **Start Date** — the initial date for the filter
 
@@ -108,9 +108,9 @@ Available types of statistics:
 
 #### • By Exchange Direction:
 
-<figure><img src="../.gitbook/assets/image (1769).png" alt="" width="442"><figcaption><p>Section Settings</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1769)_eng.png" alt="" width="442"><figcaption><p>Section Settings</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (411).png" alt=""><figcaption><p>Example Result</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (411)_eng.png" alt=""><figcaption><p>Example Result</p></figcaption></figure>
 
 **Start Date** — the initial date for the filter
 
@@ -120,13 +120,13 @@ Available types of statistics:
 
 **Amount** — select the type of amount for calculating statistics
 
-<figure><img src="../.gitbook/assets/image (412).png" alt="" width="191"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (412)_eng.png" alt="" width="191"><figcaption></figcaption></figure>
 
 #### • By Profit:
 
-<figure><img src="../.gitbook/assets/image (1770).png" alt="" width="449"><figcaption><p>Section Settings</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1770)_eng.png" alt="" width="449"><figcaption><p>Section Settings</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (413).png" alt=""><figcaption><p>Example Result</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (413)_eng.png" alt=""><figcaption><p>Example Result</p></figcaption></figure>
 
 **Start Date** — the initial date for the filter
 

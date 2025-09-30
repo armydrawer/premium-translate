@@ -134,7 +134,7 @@ Reserve Settings:\
 Let's break down the formula:\
 &#xNAN;**\[usdttrc\_westwallet]** - the reserve obtained from the merchant (shortcode in the merchant settings)
 
-<img src="../../../../.gitbook/assets/image%20(1103).png" alt="" data-size="original">
+<img src="../../../../.gitbook/assets/image%20(1103)_eng.png" alt="" data-size="original">
 
 **\[excursum\_auto368], \[excursum\_auto348], \[excursum\_auto362], \[excursum\_auto355], \[excursum\_auto404]** - shortcodes that sum the values "Received for Reserve" from all exchanges where the specified currencies are listed as "Received."
 
@@ -143,32 +143,32 @@ Let's break down the formula:\
 
 **Link to Reserve**: 348, 362, 355, 404
 
-<figure><img src="../../../../.gitbook/assets/image%20(314).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image%20(314)_eng.png" alt=""><figcaption></figcaption></figure>
 
 BTC (348)\
 **Reserve**: according to the formula\
 **Reserve Formula**: (\[usdttrc\_westwallet] - \[excursum\_auto368] - (\[excursum\_auto348] \* \[parser\_usdtbtc]) - (\[excursum\_auto362] \* \[parser\_usdtdoge]) - (\[excursum\_auto355] \* \[parser\_usdteth]) - (\[excursum\_auto404] \* \[parser\_usdtsol])) / \[parser\_usdtbtc]\
 **Link to Reserve**: rc368
 
-<figure><img src="../../../../.gitbook/assets/image%20(831).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image%20(831)_eng.png" alt=""><figcaption></figcaption></figure>
 
 DOGE (362)\
 **Reserve**: according to the formula\
 **Reserve Formula**: (\[usdttrc\_westwallet] - \[excursum\_auto368] - (\[excursum\_auto348] \* \[parser\_usdtbtc]) - (\[excursum\_auto362] \* \[parser\_usdtdoge]) - (\[excursum\_auto355] \* \[parser\_usdteth]) - (\[excursum\_auto404] \* \[parser\_usdtsol])) / \[parser\_usdtdoge]\
 **Link to Reserve**: rc368
 
-<figure><img src="../../../../.gitbook/assets/image%20(983).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image%20(983)_eng.png" alt=""><figcaption></figcaption></figure>
 
 ETH (355)\
 **Reserve**: according to the formula\
 **Reserve Formula**: (\[usdttrc\_westwallet] - \[excursum\_auto368] - (\[excursum\_auto348] \* \[parser\_usdtbtc]) - (\[excursum\_auto362] \* \[parser\_usdtdoge]) - (\[excursum\_auto355] \* \[parser\_usdteth]) - (\[excursum\_auto404] \* \[parser\_usdtsol])) / \[parser\_usdteth]\
 **Link to Reserve**: rc368
 
-<figure><img src="../../../../.gitbook/assets/image%20(1190).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image%20(1190)_eng.png" alt=""><figcaption></figcaption></figure>
 
 SOL (404)\
 **Reserve**: according to the formula\
 **Reserve Formula**: (\[usdttrc\_westwallet] - \[excursum\_auto368] - (\[excursum\_auto348] \* \[parser\_usdtbtc]) - (\[excursum\_auto362] \* \[parser\_usdtdoge]) - (\[excursum\_auto355] \* \[parser\_usdteth]) - (\[excursum\_auto404] \* \[parser\_usdtsol])) / \[parser\_usdtsol]\
 **Link to Reserve**: rc368
 
-<figure><img src="../../../../.gitbook/assets/image%20(944).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image%20(944)_eng.png" alt=""><figcaption></figcaption></figure>

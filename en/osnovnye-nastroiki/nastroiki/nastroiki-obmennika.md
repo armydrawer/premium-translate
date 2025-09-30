@@ -4,7 +4,7 @@ This section displays the main settings for the exchange service, applicable to 
 
 ## General Settings
 
-<figure><img src="../../.gitbook/assets/image (1776).png" alt="" width="292"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1776)_eng.png" alt="" width="292"><figcaption></figcaption></figure>
 
 **Update Mode** — The update mode is automatically activated after the exchange service is switched to maintenance mode or after reactivating the Premium Exchanger plugin in the "**Plugins**" section. To return the exchange service to normal operation, this option must be deactivated.
 
@@ -12,13 +12,13 @@ This section displays the main settings for the exchange service, applicable to 
 
 **Remove Copy Button in Requests** — When this option is activated, the quick copy button for account details will be removed from the "Requests" section.
 
-<figure><img src="../../.gitbook/assets/image (1782).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1782)_eng.png" alt=""><figcaption></figcaption></figure>
 
 **Store Request Data in a File** — When this option is activated, a file containing data from requests will be generated on the server.
 
 ## Exchange Settings
 
-<figure><img src="../../.gitbook/assets/image (1777).png" alt="" width="466"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1777)_eng.png" alt="" width="466"><figcaption></figcaption></figure>
 
 **Type of Currency Exchange Direction Table** — Choose the [table](https://premium.gitbook.io/main/osnovnye-nastroiki/vneshnii-vid/vidy-tablic-napravlenii-obmena) to display on the main page of the website.
 
@@ -36,7 +36,7 @@ This section displays the main settings for the exchange service, applicable to 
 
 **Hide Currency Codes Above the Exchange Direction Selection Table** — When this option is activated, the filter panel for currency type/code will be hidden on the main page of the website.
 
-<figure><img src="../../.gitbook/assets/image (1783).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1783)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 **Exchange Form (**≥ v**2.6)** — Choose how the exchange direction will open.
 
@@ -47,7 +47,7 @@ This section displays the main settings for the exchange service, applicable to 
 
 ## Exchange Form Settings
 
-<figure><img src="../../.gitbook/assets/image (1778).png" alt="" width="465"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1778)_eng.png" alt="" width="465"><figcaption></figcaption></figure>
 
 **Show in Exchange Form:**
 
@@ -63,28 +63,28 @@ This section displays the main settings for the exchange service, applicable to 
 
 **Prevent Saving Request Data** — When this option is activated, the checkbox for saving the data entered in the exchange form will be disabled, and the data will not be saved (if the client creates a new request in the same direction, they will need to re-enter all data).
 
-<figure><img src="../../.gitbook/assets/image (1784).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1784)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Other Settings
 
-<figure><img src="../../.gitbook/assets/image (1779).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1779)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 **Use Step 2 of the Exchange, Where the User Confirms Their Details** — When this option is activated, agreement to the exchange terms will be moved to the next step after clicking the "**Continue**" button.
 
-<figure><img src="../../.gitbook/assets/image (1798).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1798)_eng.png" alt="" width="375"><figcaption></figcaption></figure>
 
 **Text for Acceptance Checkbox Before Creating a Request** — Text for the line accepting the [exchange rules](https://premium.gitbook.io/main/osnovnye-nastroiki/nastroiki/stranicy-pravila-saita-pravila-provedeniya-proverok-aml-kyc-kyt).
 
 **Exchange Amount is** — Choose the type of amount that will be used as the main amount for exchange statistics calculations.
 
-<figure><img src="../../.gitbook/assets/image (1799).png" alt="" width="340"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1799)_eng.png" alt="" width="340"><figcaption></figcaption></figure>
 
 **Show Block of Other Directions:**
 
 * **No** — The block of other directions will not be displayed under the exchange form.
 * **By Currency "Giving"** — A block of other exchange directions with the same currency in "**Giving**" will be displayed under the exchange form.
   
-<figure><img src="../../.gitbook/assets/image (1800).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1800)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 * **By Currency "Receiving"** — A block of other exchange directions with the same currency in "**Receiving**" will be displayed under the exchange form.
 
@@ -94,15 +94,15 @@ This section displays the main settings for the exchange service, applicable to 
 
 * **No** — The exchange form will only show the min/max limits specified in the "**Exchange Amount**" tab in the exchange direction settings.
 
-<figure><img src="../../.gitbook/assets/image (1803).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1803)_eng.png" alt=""><figcaption></figcaption></figure>
 
 * **Yes, Site-wide** — The exchange form (as well as in the [export XML file](https://premium.gitbook.io/main/osnovnye-nastroiki/nastroiki/opisanie-modulei#nastroika-vyvoda-napravlenii-obmena-v-xml-txt-faile)) will display amount limits for both currencies, even if the min or max amount is not filled for one of the two currencies in the "**Exchange Amount**" tab in the exchange direction settings. Amounts that are not specified will be recalculated according to the exchange rate for that exchange direction.
 
-<figure><img src="../../.gitbook/assets/image (1804).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1804)_eng.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 In the XML file, min/max amounts are always displayed **only** for the currency in "**Giving**" from the exchange direction. \
-![](<../../.gitbook/assets/image (1805).png>)\
+![](<../../.gitbook/assets/image (1805)_eng.png>)\
 If the option for "**Dependency of Minimum and Maximum Amount**" is set to "**No**" and min/max amounts are specified only for the currency in "**Receiving**," there will be no exchange amount limits in the XML file for that exchange direction.
 {% endhint %}
 
@@ -114,7 +114,7 @@ If the option for "**Dependency of Minimum and Maximum Amount**" is set to "**No
 
 **Allow Managing Requests from Another Browser** — Enable the ability to open a request in another browser. If this option is deactivated, the client will not be able to open the request in another browser.
 
-<figure><img src="../../.gitbook/assets/image (1806).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1806)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 **Visibility of Personal Data in Requests** — Display sensitive client data in requests.
 
@@ -152,17 +152,17 @@ Here’s a naturalistic English translation of the provided text:
 
 **Number of applications processed within the payment timeout cron** — the number of pending/frozen applications using auto-payments for which payment attempts will be made.
 
-<figure><img src="../../.gitbook/assets/image (1780).png" alt="" width="519"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1780)_eng.png" alt="" width="519"><figcaption></figcaption></figure>
 
 **Select application statuses for notifications in the top bar** — notifications with a counter of applications in the selected statuses in the "**Applications**" section of the top bar.
 
-<figure><img src="../../.gitbook/assets/image (347).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (347)_eng.png" alt=""><figcaption></figcaption></figure>
 
 **Show all zeros in the exchange rate** — hiding zeros that do not affect the formation of the exchange rate in the exchange form.
 
-<figure><img src="../../.gitbook/assets/image (346).png" alt="" width="455"><figcaption><p>Displaying the rate with zeros</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (346)_eng.png" alt="" width="455"><figcaption><p>Displaying the rate with zeros</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (345).png" alt="" width="441"><figcaption><p>Displaying the rate without zeros</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (345)_eng.png" alt="" width="441"><figcaption><p>Displaying the rate without zeros</p></figcaption></figure>
 
 **Separate numbers in the exchange rate with spaces** — separating large numbers by thousands for easier readability.
 
@@ -174,7 +174,7 @@ Here’s a naturalistic English translation of the provided text:
 
 **Blocked email domains** — email domains from which users will not be able to create applications (relevant when applications are created by bots aiming to disrupt the stable operation of the exchange service).
 
-<figure><img src="../../.gitbook/assets/image (1781).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1781)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 **Hide exchange directions from guests** — 
 

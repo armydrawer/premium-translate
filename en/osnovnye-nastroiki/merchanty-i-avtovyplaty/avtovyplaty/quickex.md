@@ -24,11 +24,11 @@ In the admin panel, create a new merchant in the "**Auto Payouts**" section by c
 
 Select Quickex from the dropdown menu in the "**Module**" field, enter a name for the module, and click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/image (29).png" alt="" width="389"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (29)_eng.png" alt="" width="389"><figcaption></figcaption></figure>
 
 You do not need to fill in the authorization fields.
 
-<figure><img src="https://premium.gitbook.io/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252Fhcpgo0esYP63gs8hEYlt%252Fimage.png%3Falt%3Dmedia%26token%3D601c0074-951c-408a-b11c-7856129e1e3d&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=1fde9588&#x26;sv=2" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="https://premium.gitbook.io/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252Fhcpgo0esYP63gs8hEYlt%252Fimage_eng.png%3Falt%3Dmedia%26token%3D601c0074-951c-408a-b11c-7856129e1e3d&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=1fde9588&#x26;sv=2" alt="" width="563"><figcaption></figcaption></figure>
 
 **Domain —** This field should only be filled out if your Quickex manager has specifically instructed you to do so (in all other cases, leave this field blank).
 

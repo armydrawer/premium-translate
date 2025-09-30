@@ -20,11 +20,11 @@ Register in the [Exnode](https://pay.exnode.ru/) system.
 
 Log into your account, go to the "**Settings**" section, and generate your API keys.
 
-<figure><img src="../../../.gitbook/assets/image (758).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (758)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 After clicking the "**Change**" button, refresh the page — your [key pair](#user-content-fn-1)[^1] will be displayed in the "**API Keys**" section. Copy them using the corresponding button and save them in a text file.
 
-<figure><img src="../../../.gitbook/assets/image (759).png" alt="" width="319"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (759)_eng.png" alt="" width="319"><figcaption></figcaption></figure>
 
 ## Module Settings
 
@@ -32,11 +32,11 @@ In the admin panel, create a new merchant in the "**Merchants**" -> "**Add Merch
 
 Select Exnode from the dropdown menu in the "**Module**" field, enter a name for the module, and click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/image (760).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (760)_eng.png" alt=""><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../.gitbook/assets/image (761).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (761)_eng.png" alt=""><figcaption></figcaption></figure>
 
 **Private Key** - the private key generated in the Exnode account when creating the API key.
 
@@ -48,15 +48,15 @@ Next, configure the merchant by following the [general setup instructions](https
 
 ## Special Fields
 
-<figure><img src="../../../.gitbook/assets/image (504).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (504)_eng.png" alt=""><figcaption></figcaption></figure>
 
 **Currency Code** — select the currency you will be accepting from the dropdown list.
 
-<figure><img src="../../../.gitbook/assets/image (505).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (505)_eng.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 For each currency, you need to create a [separate copy of the merchant module](#user-content-fn-2)[^2], selecting the corresponding currency, and then connect this copy in the "**Merchants and Payments**" tab in the exchange direction settings, where the currency in "**I Give**" will be the selected currency.
-![](<../../../.gitbook/assets/image (1377).png>)
+![](<../../../.gitbook/assets/image (1377)_eng.png>)
 {% endhint %}
 
 {% hint style="info" %}

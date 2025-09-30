@@ -12,7 +12,7 @@ The Premium Exchanger script license includes the option to create a test versio
 
 To do this, specify your subdomain on the [**Your Licenses**](https://premiumexchanger.com/ulicense/) page:
 
-<figure><img src="../../.gitbook/assets/изображение (142).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (142)_eng.png" alt=""><figcaption></figcaption></figure>
 
 You can create a subdomain using the ISP Manager server control panel by following [this guide](https://www.ihc.ru/articles/sozdanie-poddomenov-v-ispmanager.html).
 
@@ -24,7 +24,7 @@ Please note that license files are updated with the subdomain information after 
 
 After setting up the website on the subdomain and testing its functionality, you will need to transfer it to the main domain. To do this, use ISP Manager to move all files to the main domain folder and update the site name in the copied database (in the `_options` table, specifically the `siteurl` and `home` fields).
 
-<figure><img src="../../.gitbook/assets/image (706).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (706)_eng.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 If you plan to transfer all requests and settings from the subdomain to the main domain with full replacement, there should be no issues.

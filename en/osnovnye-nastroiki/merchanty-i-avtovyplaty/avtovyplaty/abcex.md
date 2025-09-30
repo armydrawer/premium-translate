@@ -12,7 +12,7 @@ If you need to update the module on the server, please refer to the [instruction
 
 Register on the [ABCEx](https://abcex.io/) exchange. Complete the KYC process and enable 2FA in your account under the "**Profile**" section.
 
-<figure><img src="../../../.gitbook/assets/image (223).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (223)_eng.png" alt=""><figcaption></figcaption></figure>
 
 ## Module Settings <a href="#nastroiki-modulya" id="nastroiki-modulya"></a>
 
@@ -20,17 +20,17 @@ In the admin panel, create a new merchant in the "**Auto Payouts**" -> "**Add Au
 
 Select ABCEx from the dropdown menu in the "**Module**" field, enter a name for the module, and click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/image (220).png" alt="" width="442"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (220)_eng.png" alt="" width="442"><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../.gitbook/assets/image (221).png" alt="" width="453"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (221)_eng.png" alt="" width="453"><figcaption></figcaption></figure>
 
 **API Key** — This is the key sent to you by your ABCEx manager after completing KYC. To request your API key, contact [https://t.me/ABCEX_management](https://t.me/ABCEX_management).
 
 ## Special Fields
 
-<figure><img src="../../../.gitbook/assets/image (222).png" alt="" width="368"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (222)_eng.png" alt="" width="368"><figcaption></figcaption></figure>
 
 **Wallet** — Select the currency for client payouts (currently, only USDT is available).
 

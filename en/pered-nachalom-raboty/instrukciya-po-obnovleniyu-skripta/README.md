@@ -7,7 +7,7 @@ The standard theme has been updated, so if you upload theme files from the previ
 
 If you are using a unique theme that was **custom-made by us**, please contact technical support for theme adaptation before updating the script. To do this, send a zip file of your theme from the **`wp-content/themes`** folder (**<mark style="color:red;">**note that for updating the script from version 2.5 to 2.6, theme updates are not required!**</mark>**)**.
 
-<img src="../../.gitbook/assets/image (1119).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (1119)_eng.png" alt="" data-size="original">
 
 Design updates on our end may take up to 10 days.
 

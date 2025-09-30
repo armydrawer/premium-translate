@@ -14,11 +14,11 @@ To discuss terms and connection, please contact a [service representative](https
 
 Register on the [IvanPay](https://ivanpay.com/) service.
 
-<figure><img src="../../../.gitbook/assets/image (214).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (214)_eng.png" alt=""><figcaption></figcaption></figure>
 
 In your merchant account, copy the information from the "**Your API Address**" field, as well as the API key provided to you by the service representative.
 
-<figure><img src="../../../.gitbook/assets/image (215).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (215)_eng.png" alt=""><figcaption></figcaption></figure>
 
 ## Module Settings
 
@@ -26,11 +26,11 @@ In the admin panel, create a new merchant in the "**Merchants**" section by clic
 
 Select Ivanpay from the dropdown menu in the "**Module**" field, enter a name for the module, and click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/Arc_mcpyS7Mdvy.png" alt="" width="417"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Arc_mcpyS7Mdvy_eng.png" alt="" width="417"><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../.gitbook/assets/image (292).png" alt="" width="421"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (292)_eng.png" alt="" width="421"><figcaption></figcaption></figure>
 
 **Domain** — the merchant's domain, previously copied from the merchant account in the "**Your API Address**" field.
 
@@ -38,7 +38,7 @@ Fill in the required authorization fields.
 
 ## Special Fields
 
-<figure><img src="../../../.gitbook/assets/image (1939).png" alt="" width="199"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1939)_eng.png" alt="" width="199"><figcaption></figcaption></figure>
 
 **Payment Method** — select the appropriate method for receiving funds.
 
@@ -51,11 +51,11 @@ When receiving funds using the Ivanpay merchant, it is **necessary** to add an a
 
 To do this, create and add an [additional field](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/valyuty-i-napravleniya/dobavlenie-novoi-valyuty#vkladka-dop.-polya) to the relevant currencies for receiving funds through Ivanpay. Be sure to specify in the "**Unique ID**" field — **`give_cardholder`** (use lowercase) and make the field mandatory.
 
-![](<../../../.gitbook/assets/image (322).png>)
+![](<../../../.gitbook/assets/image (322)_eng.png>)
 
 After this, the field will appear in the exchange form and will be required for clients to fill out when creating a request.
 
-![](<../../../.gitbook/assets/image (1879).png>)
+![](<../../../.gitbook/assets/image (1879)_eng.png>)
 {% endhint %}
 
 ## Continuing the Setup

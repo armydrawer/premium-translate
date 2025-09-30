@@ -6,7 +6,7 @@ You can also add new languages:
 
 To do this, add the appropriate filter to the hooks plugin at the end of the file `wp-content/plugins/premiumhook/premiumhook.php`. In the "**Plugins**" section, activate the "**Premium Exchanger hooks**" plugin:
 
-<figure><img src="../../../.gitbook/assets/Screenshot_52.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot_52_eng.png" alt=""><figcaption></figcaption></figure>
 
 Data is added according to the [ISO 3166-1](https://en.wikipedia.org/wiki/ISO_3166-1) standard.
 
@@ -50,9 +50,9 @@ These files will have a prefix; for example, in the Kazakh version, they are:
 4. Click on the line you want to translate. The original English text will appear on the left, and the text for your language version will appear on the right.
 5. After making your changes, save the file and upload it to the folder mentioned above. The framework is now localized as well.
 
-After completing all these steps, add a flag icon with the appropriate prefix—`kk_KZ.png` (make sure it’s in **.png** format) to the plugin section `wp-content/plugins/premiumbox/flags/`.
+After completing all these steps, add a flag icon with the appropriate prefix—`kk_KZ_eng.png` (make sure it’s in **_eng.png** format) to the plugin section `wp-content/plugins/premiumbox/flags/`.
 
 {% hint style="warning" %}
 After adding new languages, be sure to check that the **Premium Exchanger hooks** plugin is activated in the **"Plugins"** section, or activate it if it has been disabled.\
-![](<../../../.gitbook/assets/image (1506).png>)
+![](<../../../.gitbook/assets/image (1506)_eng.png>)
 {% endhint %}

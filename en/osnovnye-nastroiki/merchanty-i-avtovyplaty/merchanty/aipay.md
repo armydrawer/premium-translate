@@ -20,11 +20,11 @@ In the admin panel, create a new merchant in the "**Merchants**" section by sele
 
 Choose AI-pay from the dropdown menu in the "**Module**" field, enter a name for the module, and click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt="" width="329"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7)_eng.png" alt="" width="329"><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="338"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1)_eng.png" alt="" width="338"><figcaption></figcaption></figure>
 
 **Domain** — leave this field empty.
 
@@ -34,7 +34,7 @@ Fill in the required authorization fields.
 
 ## Special Fields
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1)_eng.png" alt=""><figcaption></figcaption></figure>
 
 **Payment Method** — select the appropriate method for receiving funds from the client:
 

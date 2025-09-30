@@ -7,13 +7,13 @@ The "**Bank Card Information (cardinfo)**" module allows you to determine which 
 
 To activate this option, go to the "**Modules**" section and enable the "**Bank Card Information**" module.
 
-<figure><img src="../../.gitbook/assets/image (325).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (325)_eng.png" alt=""><figcaption></figcaption></figure>
 
 ## Module Settings
 
 After activating the module, navigate to "**Modules**" -> "**Determine Card Type**" and configure the module.
 
-<figure><img src="../../.gitbook/assets/image (1861).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1861)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 **Remember previously checked cards:**\
 • **Yes** — previously entered card numbers will not be checked again\
@@ -23,7 +23,7 @@ After activating the module, navigate to "**Modules**" -> "**Determine Card Type
 • **Nothing** — the request will be created without validation\
 • **Error** — the request will not be created, and an error message stating "**account number did not pass validation ()**" will appear below the card number input field in the exchange form.
 
-<figure><img src="../../.gitbook/assets/image (1862).png" alt="" width="305"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1862)_eng.png" alt="" width="305"><figcaption></figcaption></figure>
 
 **Source for determining card type** — select one of the sources to check the bank card numbers entered by clients:
 
@@ -42,7 +42,7 @@ After activating the module, navigate to "**Modules**" -> "**Determine Card Type
 
 ## Option in Currency Settings:
 
-<figure><img src="../../.gitbook/assets/image (1860).png" alt="" width="502"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1860)_eng.png" alt="" width="502"><figcaption></figcaption></figure>
 
 On the "**Field Settings**" tab, in the "**Bank Names**" fields for the currency where the option is enabled, specify the names of the banks for which bank card validation will be conducted.
 
@@ -91,4 +91,4 @@ The module also supports working with other bank names — if your client report
 Please note that bank names may vary for each service — we recommend using universal bank names according to the service [**Bincheck.io**](https://bincheck.io/ru/bin-list) ([banks in Russia](https://bincheck.io/ru/ru), [banks in Ukraine](https://bincheck.io/ru/ua), [banks in Kazakhstan](https://bincheck.io/ru/kz)).
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (327).png" alt="" width="530"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (327)_eng.png" alt="" width="530"><figcaption></figcaption></figure>

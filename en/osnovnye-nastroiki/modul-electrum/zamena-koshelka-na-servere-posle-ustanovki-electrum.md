@@ -23,19 +23,19 @@ If the installation and configuration of the Electrum module were performed by t
 <summary>Steps to Create a New Wallet</summary>
 
 1. Select "Standard Wallet."  
-   ![](<../../.gitbook/assets/image (1316).png>)  
+   ![](<../../.gitbook/assets/image (1316)_eng.png>)  
 
 2. Generate a new seed phrase.  
-   ![](<../../.gitbook/assets/image (1317).png>)  
+   ![](<../../.gitbook/assets/image (1317)_eng.png>)  
 
 3. Write down the seed phrase in a secure location.  
-   ![](<../../.gitbook/assets/image (1318).png>)  
+   ![](<../../.gitbook/assets/image (1318)_eng.png>)  
 
 4. Enter the full seed phrase to confirm.  
-   ![](<../../.gitbook/assets/image (1319).png>)  
+   ![](<../../.gitbook/assets/image (1319)_eng.png>)  
 
 5. <mark style="color:red;">Make sure</mark> to set a wallet password (at least 16 characters, using Latin letters and numbers) and write it down securely.  
-   ![](<../../.gitbook/assets/image (1320).png>)  
+   ![](<../../.gitbook/assets/image (1320)_eng.png>)  
 
 </details>
 
@@ -43,13 +43,13 @@ If the installation and configuration of the Electrum module were performed by t
 
 ### 3. Open the installed Electrum app on your computer and go to the "**File**" -> "**Open**" menu.
 
-<figure><img src="../../.gitbook/assets/изображение (145).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (145)_eng.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ---
 
 ### 4. A folder containing your wallet files will open. Locate the wallet file with the name you assigned during setup.
 
-<figure><img src="../../.gitbook/assets/image (1361).png" alt="" width="482"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1361)_eng.png" alt="" width="482"><figcaption></figcaption></figure>
 
 **Note:** You may have multiple wallets in this folder. Select the correct wallet file, as you’ll need it for uploading to the server in the next step.
 
@@ -61,7 +61,7 @@ By default, the wallet is named **"default_wallet"**, but you may have given it 
 
 ### 5. Open the ISP Manager panel in your browser and log in. Once logged in as the user created for the site (**not root**), navigate to the "File Manager" section in the sidebar.
 
-<figure><img src="../../.gitbook/assets/image (1359).png" alt="" width="330"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1359)_eng.png" alt="" width="330"><figcaption></figcaption></figure>
 
 ---
 
@@ -72,7 +72,7 @@ By default, the wallet is named **"default_wallet"**, but you may have given it 
 
 If a warning appears stating that a file with the same name already exists, click "**Replace**."
 
-<figure><img src="../../.gitbook/assets/image (1360).png" alt="" width="384"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1360)_eng.png" alt="" width="384"><figcaption></figcaption></figure>
 
 ---
 

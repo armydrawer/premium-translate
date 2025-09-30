@@ -24,11 +24,11 @@ In the "**Module Settings**" block, enter the required information for your SMSC
 
 2. In your personal account, go to the "**Account Settings**" section.
 
-<img src="https://premiumexchanger.com/wp-content/uploads/9.1.11.png" alt="9.1.1" data-size="original">
+<img src="https://premiumexchanger.com/wp-content/uploads/9.1.11_eng.png" alt="9.1.1" data-size="original">
 
 3. Navigate to the API tab. Enable the XML interface and switch it to "**Active**" mode.
 
-<img src="https://premiumexchanger.com/wp-content/uploads/9.1.2.png" alt="9.1.2" data-size="original">
+<img src="https://premiumexchanger.com/wp-content/uploads/9.1.2_eng.png" alt="9.1.2" data-size="original">
 
 In the "**ePochta SMS**" tab, you can enable the use of an alphanumeric sender name, which can improve the delivery rate of SMS messages. ePochta charges an additional fee for using an alphanumeric sender name based on the mobile operator.
 

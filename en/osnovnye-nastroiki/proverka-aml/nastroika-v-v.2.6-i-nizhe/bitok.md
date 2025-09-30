@@ -10,17 +10,17 @@ Once you have access to the service, fund your account to perform client detail 
 
 Log into your personal account and go to the "[**API Keys**](https://kyt.bitok.org/api-keys)" section. Create a new key by clicking the "**Create Key**" button. In the pop-up window, specify a desired name for the key and the IP address of your server (optional).
 
-<figure><img src="../../../.gitbook/assets/image (425).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (425)_eng.png" alt=""><figcaption></figcaption></figure>
 
 Click "**Create**" and copy the generated keys into a text file.
 
-<figure><img src="../../../.gitbook/assets/image (426).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (426)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 In the admin panel of the script, under the "**Modules**" -> "**BitOK**" section, fill in the fields for module authorization:
 
 {% tabs %}
 {% tab title="2.5" %}
-<figure><img src="../../../.gitbook/assets/image (1755).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1755)_eng.png" alt=""><figcaption></figcaption></figure>
 
 **API Key** — The **API Key** generated in the BitOK personal account.
 
@@ -32,7 +32,7 @@ In the admin panel of the script, under the "**Modules**" -> "**BitOK**" section
 {% endtab %}
 
 {% tab title="2.6" %}
-<figure><img src="../../../.gitbook/assets/image (397).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (397)_eng.png" alt=""><figcaption></figcaption></figure>
 
 **API Key** — The **API Key** generated in the BitOK personal account.
 
@@ -63,7 +63,7 @@ In the "**Modules**" -> "**BitOK**" section, you will find fields to configure t
 
 **Other parameters** — setting risk levels for various categories (no need to fill in, as category settings are managed on the BitOK service side).
 
-<div><figure><img src="../../../.gitbook/assets/image (1733).png" alt="" width="305"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (1732).png" alt="" width="293"><figcaption></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/image (1733)_eng.png" alt="" width="305"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (1732)_eng.png" alt="" width="293"><figcaption></figcaption></figure></div>
 
 ### Settings for Incoming Transaction Hash Verification
 
@@ -71,7 +71,7 @@ In the "**Modules**" -> "**BitOK**" section, you will find fields to configure t
 
 **Other parameters** — setting risk levels for various categories (no need to fill in, as category settings are managed on the BitOK service side).
 
-<div><figure><img src="../../../.gitbook/assets/image (1737).png" alt="" width="314"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (1736).png" alt="" width="293"><figcaption></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/image (1737)_eng.png" alt="" width="314"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (1736)_eng.png" alt="" width="293"><figcaption></figcaption></figure></div>
 
 ### Manual Checks
 
@@ -81,20 +81,20 @@ To check an address, enter its value in the "**Address**" field, select the corr
 
 To check a hash, enter the wallet address **for receiving funds** related to the transaction in the "**Address**" field, select the correct currency for that address, and enter the hash in the "**TxID**" field, then click the "**Check**" button.
 
-<figure><img src="../../../.gitbook/assets/image (1744).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1744)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 The results of the checks will be displayed at the top of the module settings page, as well as in the "**Modules**" -> "**Bitok logs**" section.
 
-<figure><img src="../../../.gitbook/assets/image (1745).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1745)_eng.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (1747).png" alt="" width="421"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1747)_eng.png" alt="" width="421"><figcaption></figcaption></figure>
 
 ## Module Configuration for Exchange Direction
 
 {% hint style="warning" %}
 An error like the one shown in the screenshot below means that you have no available checks — you need to purchase a new check package from the BitOK service.
 
-![](<../../../.gitbook/assets/image (399).png>)
+![](<../../../.gitbook/assets/image (399)_eng.png>)
 {% endhint %}
 
 You can use the module for checking addresses and hashes without interfering with the request, as well as for prohibiting the creation of requests or payouts based on them.
@@ -103,45 +103,45 @@ Open the settings for the exchange direction where you want to use the checks an
 
 ### Version 2.5
 
-<figure><img src="../../../.gitbook/assets/image (1741).png" alt="" width="533"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1741)_eng.png" alt="" width="533"><figcaption></figcaption></figure>
 
 Checking accounts "**Giving**" and "**Receiving**":
 
-<div><figure><img src="../../../.gitbook/assets/image (1738).png" alt="" width="253"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (1739).png" alt="" width="242"><figcaption></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/image (1738)_eng.png" alt="" width="253"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (1739)_eng.png" alt="" width="242"><figcaption></figcaption></figure></div>
 
 * **No** — no checks will be performed.
 * **Yes** — checks will be performed for informational purposes only, without prohibiting request creation.
 
-    <figure><img src="../../../.gitbook/assets/image (1748).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (1748)_eng.png" alt=""><figcaption></figcaption></figure>
 * **Yes and prohibit request creation** — checks will be performed to prohibit request creation if the specified risk level is exceeded.
 
-    <figure><img src="../../../.gitbook/assets/image (1748).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (1748)_eng.png" alt=""><figcaption></figcaption></figure>
 * **Exchange amount "from"** — specify the amount from the request above which the address check will be performed. If the amount is below the specified value, the check will not be performed.\
   \
   The value should be specified in the currency for which the address will be checked (for example, for checking a USDT address, specify 1000; for BTC — 0.015, etc., but all values are at your discretion).
 
 TxID Check:
 
-<figure><img src="../../../.gitbook/assets/image (1740).png" alt="" width="206"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1740)_eng.png" alt="" width="206"><figcaption></figcaption></figure>
 
 * **No** — no checks will be performed.
 * **Yes** — checks will be performed for informational purposes only, without prohibiting payouts.\
     
-    <figure><img src="../../../.gitbook/assets/image (1748).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (1748)_eng.png" alt=""><figcaption></figcaption></figure>
 * **Yes and stop payout** — checks will be performed to prohibit payouts for the request if the specified risk level is exceeded (this is relevant only if auto payout is enabled for the exchange direction).\
     When the request changes to the status "**Auto payout error**" due to exceeding the risk level, you can verify the module's activation by going to the "**Merchants**" -> "**Auto payout log**" section, where the following entry will be displayed:\
 
-    <figure><img src="../../../.gitbook/assets/image (1748).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (1748)_eng.png" alt=""><figcaption></figcaption></figure>
 * **Exchange amount "from"** — specify the amount from the request above which the hash check will be performed. If the amount is below the specified value, the check will not be performed.\
   The value should be specified in the currency for the "**Giving**" side.
 
 ### Version 2.6
 
-<figure><img src="../../../.gitbook/assets/image (400).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (400)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Checking accounts "**Giving**" and "**Receiving**":
 
-<div><figure><img src="../../../.gitbook/assets/image (401).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (403).png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/image (401)_eng.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (403)_eng.png" alt=""><figcaption></figcaption></figure></div>
 
 * **No** — no checks will be performed.
 * **Yes, during request creation** — checks will be performed to prohibit request creation if the specified risk level is exceeded.

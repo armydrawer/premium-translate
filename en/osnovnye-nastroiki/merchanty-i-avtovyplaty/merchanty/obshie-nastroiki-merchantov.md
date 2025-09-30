@@ -8,27 +8,27 @@ Since each merchant has its own API for authorization, the fields in this sectio
 
 {% tabs %}
 {% tab title="Option 1" %}
-<figure><img src="../../../.gitbook/assets/image (125).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (125)_eng.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Option 2" %}
-<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8)_eng.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Option 3" %}
-<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10)_eng.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Option 4" %}
-<figure><img src="../../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (20)_eng.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Option 5" %}
-<figure><img src="../../../.gitbook/assets/image (138).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (138)_eng.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Option 6" %}
-<figure><img src="../../../.gitbook/assets/image (120).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (120)_eng.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -43,18 +43,18 @@ If the merchant module settings display the field "**Payment Note**," you must f
 
 This is necessary to link the request to the transaction with the merchant — without this shortcode, the request status will not change.
 
-![](<../../../.gitbook/assets/image (1508).png>)
+![](<../../../.gitbook/assets/image (1508)_eng.png>)
 {% endhint %}
 
 The block below outlines the general settings for the merchant's operation.
 
-<figure><img src="../../../.gitbook/assets/image (2204).png" alt="" width="531"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2204)_eng.png" alt="" width="531"><figcaption></figcaption></figure>
 
 * **Payment Instructions for the User —** provide payment instructions for the user that will be displayed on the page with the "**Proceed to Payment**" button.
 
 {% hint style="warning" %}
 To display the details received from the merchant directly in the request, use the shortcode **\[to\_account]** in the "**Payment Instructions for the User**" field when the merchant is connected in the exchange direction.\
-![](<../../../.gitbook/assets/image (1263).png>)
+![](<../../../.gitbook/assets/image (1263)_eng.png>)
 
 A suitable text for the "**Payment Instructions for the User**" field could be:
 
@@ -119,11 +119,11 @@ If the merchant charges a fee for incoming payments, it is important to ensure t
 
 To do this, when the merchant is connected in the exchange direction, create a request, do not pay for it, expand it using the "**Info**" button in the "**Requests**" section, and select the type of amount that matches one of the specified amounts that will be credited to the merchant's account after the fee is deducted. 
 
-![](<../../../.gitbook/assets/image (2013).png>)
+![](<../../../.gitbook/assets/image (2013)_eng.png>)
 
 Often, this is the type "**Amount for Reserve**" in the merchant module settings — check this first. Select the appropriate item, save the settings, and pay for the request. If the request changes to "**Paid**" after payment of the full amount, then the settings are correct.
 
-![](<../../../.gitbook/assets/image (2014).png>)
+![](<../../../.gitbook/assets/image (2014)_eng.png>)
 {% endhint %}
 
 * **Allowed IP Addresses (one per line)** — specify the IP address(es) of the payment system that will be allowed access to the merchant's status URL. The payment system sends payment information to this URL. Specifying allowed IP addresses enhances the security of working with the merchant.
@@ -158,7 +158,7 @@ When configuring the merchant on the payment system side, specify the status add
 
 In this section, you can configure how the merchant handles specific rules for transitioning applications between statuses.
 
-<figure><img src="../../../.gitbook/assets/image (806).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (806)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 * **Account number from which the payment was made does not match the one specified in the application** — if the account numbers do not match, you can either change the application status or keep the current one:\
   • **keep the application status as "New Application"**\
@@ -182,7 +182,7 @@ The most suitable merchant for a specific application is automatically selected 
 
 In this section, specify a particular IP address if there is no access to the merchant from a regular IP address.
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3)_eng.png" alt=""><figcaption></figcaption></figure>
 
 * **IP Address** — the address of the proxy server
 * **Port** — the port of the proxy server
@@ -206,17 +206,17 @@ The following options are available (in the "**Exchange Settings**" -> "**Basic 
 If you want to continue using the logic from version 2.5, select the option "**Connect Merchant**".
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (459).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (459)_eng.png" alt=""><figcaption></figcaption></figure>
 
 **Action if the merchant fails**:
 
 * **Connect Merchant** — after an unsuccessful attempt to obtain details, the application will remain in the status "**New Application**", and instead of the shortcode **\[to_account]**, the text from the field "**Error Message if Account Not Specified**" will be displayed (if merchant details should be shown in the application).
 
-<figure><img src="../../../.gitbook/assets/image (1639).png" alt="" width="485"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1639)_eng.png" alt="" width="485"><figcaption></figcaption></figure>
 
 Or (starting from version 2.6), there is an option to change the text on the button leading to the merchant's payment page if, for some reason, the merchant (Bitconce Link, Firekassa Link, etc.) could not provide payment details **in the form of a payment page** (the text field for the button when an error occurs is located in the settings of the used merchant module).
 
-<div><figure><img src="../../../.gitbook/assets/image (1642).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (1643).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/image (1642)_eng.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (1643)_eng.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 * **Transfer application to merchant error** — after an unsuccessful attempt to obtain details, the application will switch to the status "**Merchant Error**".
 * **Try to connect another merchant** — attempts will be made to obtain details from other merchants connected in this exchange direction (according to the priority specified in the settings of each module).
@@ -224,13 +224,13 @@ Or (starting from version 2.6), there is an option to change the text on the but
 {% hint style="warning" %}
 If the merchant module settings include the option "**Merchant Error Status**":
 
-<img src="../../../.gitbook/assets/image (2067).png" alt="" data-size="original">
+<img src="../../../.gitbook/assets/image (2067)_eng.png" alt="" data-size="original">
 
 You can further configure it (this option allows you to automatically re-request details from the merchant if they were not obtained when creating the application):
 
 *   **Error Status** — the selected action from the option "**Action if the Merchant Fails**" (in the "**Exchange Settings**" -> "**Basic Settings**").\
 
-    <figure><img src="../../../.gitbook/assets/image (2068).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (2068)_eng.png" alt=""><figcaption></figcaption></figure>
 * **Waiting for details from the merchant** — the application will switch to the status "**Waiting for Merchant Details**" if the merchant cannot immediately provide details. The application will revert to the status "**New Application**" once the details are obtained upon re-request.
 {% endhint %}
 
@@ -256,7 +256,7 @@ If no options are selected, the merchant will work with default statuses. If sta
 {% hint style="info" %}
 Starting from version 2.6, there is an option to change the text on the button leading to the merchant's payment page if, for some reason, the merchant (Bitconce Link, Firekassa Link, etc.) could not provide payment details.
 
-![](<../../../.gitbook/assets/image (1642).png>)![](<../../../.gitbook/assets/image (1643).png>)
+![](<../../../.gitbook/assets/image (1642)_eng.png>)![](<../../../.gitbook/assets/image (1643)_eng.png>)
 {% endhint %}
 
 [^1]: Please specify a unique name for each copy in the "Title" field for easier subsequent configuration.

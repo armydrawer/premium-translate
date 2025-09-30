@@ -20,9 +20,9 @@ When setting up a merchant from scratch, simply select the appropriate module fr
 
 _Please note that the new modules are incompatible with the old module - if you decide to use the new modules, the old module (Bitconce) must be removed from the server. If you choose to continue using the old module (it will work until the merchant-side methods are disabled), nothing will change for you, and you do not need to upload the new modules to the server._
 
-<img src="../../../.gitbook/assets/image (631).png" alt="" data-size="original">\
+<img src="../../../.gitbook/assets/image (631)_eng.png" alt="" data-size="original">\
 After replacing the module, configure the new module according to the standard instructions, and adjust the user instruction text in the module settings if you replaced the module with **Bitconce Link** (the shortcode \[to\_account] can also be removed from the instructions — instead of providing account details in the application, a "**Proceed to Payment**" button will be displayed).\
-![](<../../../.gitbook/assets/image (624).png>)
+![](<../../../.gitbook/assets/image (624)_eng.png>)
 
 </details>
 
@@ -31,7 +31,7 @@ To use [ЮMoney](https://yoomoney.ru/) for receiving funds, you need to request 
 
 In this case, the bank selection in the "**Bank**" field will not matter (choose any item from the list) — the module copy will only work with ЮMoney.
 
-<img src="../../../.gitbook/assets/image (628).png" alt="" data-size="original">
+<img src="../../../.gitbook/assets/image (628)_eng.png" alt="" data-size="original">
 {% endhint %}
 
 ## Settings in the Merchant's Personal Account
@@ -40,11 +40,11 @@ Register or log in to the [Bitconce](https://bitconce.top/) system.
 
 Go to the "**API**" section:
 
-<figure><img src="../../../.gitbook/assets/изображение (92).png" alt="" width="341"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (92)_eng.png" alt="" width="341"><figcaption></figcaption></figure>
 
 To obtain a token in the "**API Token**" block, click the "Create" button:
 
-<figure><img src="../../../.gitbook/assets/изображение (100).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (100)_eng.png" alt=""><figcaption></figcaption></figure>
 
 ## Module Settings
 
@@ -54,11 +54,11 @@ Select a module from the dropdown list. There are two separate modules for Bitco
 
 * **Bitconce Card** — if you want the wallet/card number to be provided directly on your site.
 
-<figure><img src="../../../.gitbook/assets/image (627).png" alt="" width="496"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (627)_eng.png" alt="" width="496"><figcaption></figcaption></figure>
 
 * **Bitconce Link** — if you want the user to be redirected to the payment system's site (works only with RUB).
 
-<figure><img src="../../../.gitbook/assets/image (626).png" alt="" width="503"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (626)_eng.png" alt="" width="503"><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 If the specified modules are not in the dropdown list, upload the modules to the server following the [instructions](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/faq/kak-obnovit-faily-na-servere#moduli-merchantov).
@@ -66,13 +66,13 @@ If the specified modules are not in the dropdown list, upload the modules to the
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../.gitbook/assets/image (1437).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1437)_eng.png" alt=""><figcaption></figcaption></figure>
 
 **Token** — the token obtained in your Bitconce personal account.
 
 ## Special Fields
 
-<figure><img src="../../../.gitbook/assets/image (1436).png" alt="" width="354"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1436)_eng.png" alt="" width="354"><figcaption></figcaption></figure>
 
 * **Bank** — select the bank whose details will be provided in the application.
 
@@ -82,7 +82,7 @@ The list of available banks in the dropdown is determined by your token specifie
 
 If the banks you need, as shown in the screenshot below, do not appear in the list, please contact merchant support to have them included.
 
-<figure><img src="../../../.gitbook/assets/image (629).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (629)_eng.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Bitconce Link (RUB)" %}
@@ -90,7 +90,7 @@ The list of available banks in the dropdown is determined by your token specifie
 
 If the banks you need, as shown in the screenshot below, do not appear in the list, please contact merchant support to have them included.
 
-<figure><img src="../../../.gitbook/assets/image (628).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (628)_eng.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 

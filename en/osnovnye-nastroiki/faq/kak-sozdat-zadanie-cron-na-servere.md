@@ -13,11 +13,11 @@ If you are using the ISP Manager server control panel, follow these steps:
 All cron jobs must be created under the user account associated with the website **(not under the root user account)**.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(124).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(124)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 3. On the new page, fill in the details for the cron job:
 
-<figure><img src="../../.gitbook/assets/image%20(1314).png" alt="" width="473"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(1314)_eng.png" alt="" width="473"><figcaption></figcaption></figure>
 
 * **Email Address** — Enter the email address where error notifications for the job will be sent (this option works only if outgoing mail is configured in ISP Manager under "**Settings** -> **Notifications**").
 * **Command** — The full command to execute (example provided below).
@@ -38,9 +38,9 @@ the command should look like this:\
 Cron job links can be found in the corresponding sections. Here are a few examples:
 
 * Parsers 2.0 — Settings\
-  ![](../../.gitbook/assets/image%20\(1944\).png)
+  ![](../../.gitbook/assets/image%20\(1944\)_eng.png)
 * Bestchange Parser — Settings\
-  ![](../../.gitbook/assets/image%20\(1945\).png)
+  ![](../../.gitbook/assets/image%20\(1945\)_eng.png)
 * Merchant and Auto-Payout Modules\
-  ![](../../.gitbook/assets/image%20\(1946\).png)
+  ![](../../.gitbook/assets/image%20\(1946\)_eng.png)
 {% endhint %}

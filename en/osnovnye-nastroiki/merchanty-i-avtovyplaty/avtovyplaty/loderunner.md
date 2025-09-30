@@ -24,11 +24,11 @@ In the admin panel, create a new merchant in the "**Merchants**" section ➔ "**
 
 Select Loderunner from the dropdown menu in the "**Module**" field, enter a name for the module, and click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/image (2218).png" alt="" width="395"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2218)_eng.png" alt="" width="395"><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../.gitbook/assets/image (2219).png" alt="" width="432"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2219)_eng.png" alt="" width="432"><figcaption></figcaption></figure>
 
 **Domain** — leave this field empty.
 
@@ -36,7 +36,7 @@ Fill in the required authorization fields.
 
 ## Special Fields
 
-<figure><img src="../../../.gitbook/assets/image (2220).png" alt="" width="278"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2220)_eng.png" alt="" width="278"><figcaption></figcaption></figure>
 
 **Statistics** — enable or disable the transmission of additional data about the request for calculations in the personal account.
 
@@ -46,14 +46,14 @@ Fill in the required authorization fields.
 
 Specify the name from the list below in the "**Unique ID**" field (the other fields can be filled out at your discretion) for each additional field.
 
-<figure><img src="https://premium.gitbook.io/main/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FAUKYMBIlttlhEVWigqYZ%252Fimage.png%3Falt%3Dmedia%26token%3D164622ad-c56b-4d07-ad97-9a918effd5eb&#x26;width=300&#x26;dpr=4&#x26;quality=100&#x26;sign=bd108799&#x26;sv=2" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="https://premium.gitbook.io/main/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FAUKYMBIlttlhEVWigqYZ%252Fimage_eng.png%3Falt%3Dmedia%26token%3D164622ad-c56b-4d07-ad97-9a918effd5eb&#x26;width=300&#x26;dpr=4&#x26;quality=100&#x26;sign=bd108799&#x26;sv=2" alt="" width="375"><figcaption></figcaption></figure>
 
 IDs for additional fields (suitable values for the "**Unique ID**" field are indicated with `/`):
 
 * **Bank Name:** `get_bankname`/`bankname`
 * **Card Number:** activate the "**Show 'To Account' Field**" option.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 * **Cardholder's Full Name:** `get_cardholder`/`cardholder`
 * **Phone for SBP:** `get_phone`/`phone`/activate the "**Show 'To Account' Field**" option.
@@ -61,11 +61,11 @@ IDs for additional fields (suitable values for the "**Unique ID**" field are ind
 
 Activation of created additional fields for the "Receiving" currency (the unique ID from the corresponding field in the settings of each additional field is indicated in parentheses).
 
-<figure><img src="https://premium.gitbook.io/main/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FM842FBd18fqWCI8EaduC%252Fimage.png%3Falt%3Dmedia%26token%3D6aeff3a7-4ae6-47eb-9b88-25d17c9e146b&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=9c12e4cd&#x26;sv=2" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="https://premium.gitbook.io/main/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FM842FBd18fqWCI8EaduC%252Fimage_eng.png%3Falt%3Dmedia%26token%3D6aeff3a7-4ae6-47eb-9b88-25d17c9e146b&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=9c12e4cd&#x26;sv=2" alt="" width="563"><figcaption></figcaption></figure>
 
 Exchange Form
 
-<figure><img src="https://premium.gitbook.io/main/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252F3U0WTMvGp9dlw5dzwyqJ%252Fimage.png%3Falt%3Dmedia%26token%3Dee980067-efa0-407c-ad97-c1d6406cb4e4&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=26bdeb64&#x26;sv=2" alt="" width="375"><figcaption><p>Display of additional fields in the exchange form on the website</p></figcaption></figure>
+<figure><img src="https://premium.gitbook.io/main/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252F3U0WTMvGp9dlw5dzwyqJ%252Fimage_eng.png%3Falt%3Dmedia%26token%3Dee980067-efa0-407c-ad97-c1d6406cb4e4&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=26bdeb64&#x26;sv=2" alt="" width="375"><figcaption><p>Display of additional fields in the exchange form on the website</p></figcaption></figure>
 
 ## Continuing the Setup
 

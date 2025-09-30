@@ -14,11 +14,11 @@ Register or log in to the [PayKassa](https://paykassa.pro/) system.
 
 Go to the "**API**" section and click the "**Add API**" button.
 
-<figure><img src="../../../.gitbook/assets/image (1255).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1255)_eng.png" alt=""><figcaption></figcaption></figure>
 
 Fill out the form that appears:
 
-<figure><img src="../../../.gitbook/assets/image (1256).png" alt="" width="330"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1256)_eng.png" alt="" width="330"><figcaption></figcaption></figure>
 
 **API Name** - any suitable name
 
@@ -30,17 +30,17 @@ Fill out the form that appears:
 
 In the settings of the created API, you will find its ID.
 
-<figure><img src="../../../.gitbook/assets/image (1257).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1257)_eng.png" alt=""><figcaption></figcaption></figure>
 
 ## **Module Settings**
 
 In the admin panel, go to the "**Automatic Payouts**" -> "**Automatic Payouts**" section, click the "**Add**" button, and select PayKassa.
 
-<figure><img src="../../../.gitbook/assets/image (1254).png" alt="" width="512"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1254)_eng.png" alt="" width="512"><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../.gitbook/assets/image (1258).png" alt="" width="447"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1258)_eng.png" alt="" width="447"><figcaption></figcaption></figure>
 
 **Store ID for payouts** - you need to create a merchant following the [instructions](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/paykassa#nastroiki-v-lichnom-kabinete-merchanta) and specify its ID.
 
@@ -50,14 +50,14 @@ Fill in the required authorization fields.
 
 ## Special Fields
 
-<figure><img src="../../../.gitbook/assets/image (808).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (808)_eng.png" alt=""><figcaption></figcaption></figure>
 
 **Transaction Type** - select the currency/network for automatic payouts.
 
-<figure><img src="../../../.gitbook/assets/image (814).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (814)_eng.png" alt=""><figcaption></figcaption></figure>
 
 **Priority (for Bitcoin network only)** - choose the amount of [time for transaction processing (validation)](#user-content-fn-1)[^1]; the fee depends on the selected parameter (low - lower fee, slower validation speed; high - higher fee, faster validation speed)\
-![](<../../../.gitbook/assets/image (813).png>)
+![](<../../../.gitbook/assets/image (813)_eng.png>)
 
 ## Continue Configuration
 

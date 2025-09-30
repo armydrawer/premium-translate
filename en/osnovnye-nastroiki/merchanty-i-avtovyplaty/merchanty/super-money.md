@@ -20,11 +20,11 @@ In the admin panel, create a new merchant by navigating to "**Merchants**" -> "*
 
 Select Super Money from the dropdown menu in the "**Module**" field, enter a name for the module, and click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/image (1886).png" alt="" width="449"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1886)_eng.png" alt="" width="449"><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../.gitbook/assets/image (302).png" alt="" width="454"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (302)_eng.png" alt="" width="454"><figcaption></figcaption></figure>
 
 **Client ID** — the key provided to you by your Super Money manager
 
@@ -40,11 +40,11 @@ Fill in the required authorization fields.
 **CARD** — issuance of bank card details\
 **SBP** — issuance of a phone number for receiving funds via SBP
 
-<div><figure><img src="../../../.gitbook/assets/image (1900).png" alt="" width="284"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (1903).png" alt="" width="284"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (1904).png" alt="" width="281"><figcaption></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/image (1900)_eng.png" alt="" width="284"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (1903)_eng.png" alt="" width="284"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (1904)_eng.png" alt="" width="281"><figcaption></figcaption></figure></div>
 
-<div><figure><img src="../../../.gitbook/assets/image (1905).png" alt="" width="284"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (1906).png" alt="" width="284"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (1907).png" alt="" width="276"><figcaption></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/image (1905)_eng.png" alt="" width="284"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (1906)_eng.png" alt="" width="284"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (1907)_eng.png" alt="" width="276"><figcaption></figcaption></figure></div>
 
-<div><figure><img src="../../../.gitbook/assets/image (1908).png" alt="" width="284"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (1909).png" alt="" width="284"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (1910).png" alt="" width="281"><figcaption></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/image (1908)_eng.png" alt="" width="284"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (1909)_eng.png" alt="" width="284"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (1910)_eng.png" alt="" width="281"><figcaption></figcaption></figure></div>
 
 ## Continuing Setup
 

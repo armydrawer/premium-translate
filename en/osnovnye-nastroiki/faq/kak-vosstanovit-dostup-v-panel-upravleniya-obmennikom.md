@@ -20,7 +20,7 @@ In this case, you’ll need to manually reset the password for the existing admi
 
 2. Open the **`setpass.php`** file locally using a text editor (e.g., Notepad++) and edit the following lines: **`user_login`** and **`pass`**.
 
-<figure><img src="../../.gitbook/assets/Screenshot_33.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_33_eng.png" alt=""><figcaption></figcaption></figure>
 
 3. Save the changes. Ensure the file is encoded in UTF-8 without BOM.
 4. Upload the **`setpass.php`** file to the [root directory](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/faq/kak-naiti-kornevuyu-papku-saita-na-servere) of your website.
@@ -36,7 +36,7 @@ If PIN-based authentication is enabled but you’re not receiving the PIN and ca
 
 1. Open the **`/wp-content/plugins/premiumbox/userdata.php`** file.
 
-<figure><img src="../../.gitbook/assets/image (1204).png" alt=""><figcaption><p>ISP Manager, folder structure</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1204)_eng.png" alt=""><figcaption><p>ISP Manager, folder structure</p></figcaption></figure>
 
 2. Locate the line containing **`PN_ADMIN_GOWP`** and change its value from **false** to **true**, then save the file.
 
@@ -44,7 +44,7 @@ If PIN-based authentication is enabled but you’re not receiving the PIN and ca
 The **`PN_ADMIN_GOWP`** directive temporarily resets the admin panel login URL to **`https://your_domain/wp-admin/`**. During this time, email-based authentication will also be disabled.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (1030).png" alt=""><figcaption><p>File: userdata.php</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1030)_eng.png" alt=""><figcaption><p>File: userdata.php</p></figcaption></figure>
 
 3. Log in to the website at the standard URL **`https://your_domain/wp-admin/`** without entering a PIN code.
 4. Adjust the necessary [settings](https://premium.gitbook.io/rukovodstvo-polzovatelya/navigaciya/nastroiki/dvukhfaktornaya-avtorizaciya-2fa-v-paneli-upravleniya-saitom) to ensure proper notification functionality.
@@ -58,20 +58,20 @@ If you’ve forgotten the URL for accessing the admin panel, follow these steps:
 
 1. Open the **`/wp-content/plugins/premiumbox/userdata.php`** file.
 
-<figure><img src="../../.gitbook/assets/image (1204).png" alt=""><figcaption><p>ISP Manager, folder structure</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1204)_eng.png" alt=""><figcaption><p>ISP Manager, folder structure</p></figcaption></figure>
 
 2. Locate the line containing **`PN_ADMIN_GOWP`** and change its value from **false** to **true**, then save the file.
 
-<figure><img src="../../.gitbook/assets/image (1030).png" alt=""><figcaption><p>File: userdata.php</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1030)_eng.png" alt=""><figcaption><p>File: userdata.php</p></figcaption></figure>
 
 3. Log in to the admin panel at **`https://your_domain/wp-admin/`**.
 4. Check the URL fields in the "**Settings**" -> "**General**" section. Ensure only the domain is specified, and the protocol **https://** is included before the domain name.
 
-<figure><img src="../../.gitbook/assets/image (667).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (667)_eng.png" alt=""><figcaption></figcaption></figure>
 
 5. Verify the login URL in the "**Settings**" -> "**Main Settings**" section and update it if necessary.
 
-<figure><img src="../../.gitbook/assets/image (1573).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1573)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 6. Revert the **true** value back to **false** in the **`userdata.php`** file. Next time, log in using the URL specified in the settings.
 
@@ -87,7 +87,7 @@ If you’re locked out of the admin panel due to IP restrictions, you’ll need 
 
 2. Open the **`createuser.php`** file using a text editor (e.g., Notepad++) and edit the following lines: **`user_login`**, **`pass`**, and **`email`**.
 
-<figure><img src="../../.gitbook/assets/Screenshot_34.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_34_eng.png" alt=""><figcaption></figcaption></figure>
 
 3. Save the changes. Ensure the file is encoded in UTF-8 without BOM.
 4. Upload the **`createuser.php`** file to the [root directory](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/faq/kak-naiti-kornevuyu-papku-saita-na-servere) of your website.
@@ -103,11 +103,11 @@ If the Premium Exchanger plugin has been deactivated and you can’t access the 
 
 1. Temporarily rename the **`/wp-content/themes/exchanger/functions.php`** file on the server. You can use any temporary name.
 
-<figure><img src="../../.gitbook/assets/изображение (165).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (165)_eng.png" alt=""><figcaption></figcaption></figure>
 
 2. Log in to the admin panel using your credentials at **`https://your_domain/wp-admin/`**.
 3. In the admin panel, go to the "**Plugins**" section and activate the "**Premium Exchanger**" plugin.
 
-<figure><img src="../../.gitbook/assets/изображение (42).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (42)_eng.png" alt=""><figcaption></figcaption></figure>
 
 4. Rename the **`functions.php`** file back to its original name.

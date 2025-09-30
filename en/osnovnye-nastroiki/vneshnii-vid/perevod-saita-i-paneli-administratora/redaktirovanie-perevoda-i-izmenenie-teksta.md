@@ -2,11 +2,11 @@
 
 By default, the website is localized in English and Russian. The primary language of the site is English. You can find the language settings in the site management panel under "**Settings**" → "**Language Settings**."
 
-<figure><img src="../../../.gitbook/assets/image (1153).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1153)_eng.png" alt=""><figcaption></figcaption></figure>
 
 In the site management panel, you will see the following tabs:
 
-<figure><img src="../../../.gitbook/assets/Screenshot_47.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot_47_eng.png" alt=""><figcaption></figcaption></figure>
 
 By switching between the tabs, you can add text for the Russian and English versions of the site accordingly. This way, you can edit or add the main content.
 
@@ -18,17 +18,17 @@ Some of the site's content is in English, as it is the primary language and is d
 
 3. In Poedit, open the file `pn-ru_RU.po`, which is located in the downloaded folder `wp-content/plugins/premiumbox/languages/`.
 
-<figure><img src="../../../.gitbook/assets/Screenshot_48.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot_48_eng.png" alt=""><figcaption></figcaption></figure>
 
 4. In Poedit, click the "**Update**" button.
 
-<figure><img src="../../../.gitbook/assets/Screenshot_49.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot_49_eng.png" alt=""><figcaption></figcaption></figure>
 
 5. On the left side of the program, you will find the original text in English, and on the right side, the translation in Russian. Use the search function ("**Edit**" → "**Find**" or **CTRL+F**) to locate the desired text in either English or Russian. Replace the necessary translation text with your own (do not edit the original text <mark style="color:red;">!).
 
 Click the "**Save**" button after finishing your edits.
 
-<figure><img src="../../../.gitbook/assets/image (1430).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1430)_eng.png" alt=""><figcaption></figcaption></figure>
 
 6. Using an FTP client or the built-in file manager, upload the `wp-content/plugins/premiumbox/` folder from your computer back to the hosting (overwriting the files).
 
@@ -39,7 +39,7 @@ Click the "**Save**" button after finishing your edits.
 
 ## Changing Text in English
 
-<figure><img src="../../../.gitbook/assets/Screenshot_50.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot_50_eng.png" alt=""><figcaption></figcaption></figure>
 
 1. Right-click on the text you want to change. You will see links to the files and line numbers in the script files where this text appears.
 2. Using the [Notepad++](https://notepad-plus-plus.org/downloads/) editor, open the specified files (UTF-8 encoding without BOM) on your computer.

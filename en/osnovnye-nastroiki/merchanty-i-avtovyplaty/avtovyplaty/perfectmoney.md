@@ -14,25 +14,25 @@ Register on the [PerfectMoney](https://perfectmoney.com/) website. After your re
 
 Go to the "**Settings**" section.
 
-<figure><img src="../../../.gitbook/assets/image (1484).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1484)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Navigate to the settings in the "**Security**" block.
 
-<figure><img src="../../../.gitbook/assets/image (1489).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1489)_eng.png" alt=""><figcaption></figcaption></figure>
 
 Enable the API for your account.
 
-<figure><img src="../../../.gitbook/assets/image (1491).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1491)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Enter your server's IP address in the API settings and save the data.
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (1492).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image (1492)_eng.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
-<figure><img src="../../../.gitbook/assets/image (1493).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1493)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 By default, three accounts are created for your account — USD, EUR, GOLD. If needed, you can add an account for BTC and create additional wallets for other currencies.
 
-<figure><img src="../../../.gitbook/assets/image (1487).png" alt="" width="477"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1487)_eng.png" alt="" width="477"><figcaption></figcaption></figure>
 
 ## Module Settings
 
@@ -40,11 +40,11 @@ In the admin panel, create a new merchant in the "**Auto Payouts**" -> "**Add Au
 
 Select PerfectMoney from the dropdown list in the "**Module**" field, provide a name for the module, and click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/image (1497).png" alt="" width="467"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1497)_eng.png" alt="" width="467"><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../.gitbook/assets/image (1498).png" alt="" width="420"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1498)_eng.png" alt="" width="420"><figcaption></figcaption></figure>
 
 **Account ID** — Your PerfectMoney account ID
 
@@ -54,7 +54,7 @@ Fill in the required authorization fields.
 
 ## Special Fields
 
-<figure><img src="../../../.gitbook/assets/image (1499).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1499)_eng.png" alt=""><figcaption></figcaption></figure>
 
 **Transaction Type** — Choose the appropriate payout method.
 

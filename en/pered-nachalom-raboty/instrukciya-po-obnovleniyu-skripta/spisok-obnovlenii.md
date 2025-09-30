@@ -6,76 +6,76 @@
 
     This module allows clients to upload receipts or other data through images in their created requests.
 
-    ![Settings for the specified block in the request (section "Modules" -> "Payment Receipts")](../../.gitbook/assets/image%20\(1988\).png)
+    ![Settings for the specified block in the request (section "Modules" -> "Payment Receipts")](../../.gitbook/assets/image%20\(1988\)_eng.png)
 
-    ![Module settings (tab "Payment Receipts" in exchange direction settings)](../../.gitbook/assets/image%20\(1956\).png)
+    ![Module settings (tab "Payment Receipts" in exchange direction settings)](../../.gitbook/assets/image%20\(1956\)_eng.png)
 
-    ![In the request, click the "Choose file" button](../../.gitbook/assets/image%20\(1954\).png)
+    ![In the request, click the "Choose file" button](../../.gitbook/assets/image%20\(1954\)_eng.png)
 
-    ![Select the desired file and upload it](../../.gitbook/assets/image%20\(1952\).png)
+    ![Select the desired file and upload it](../../.gitbook/assets/image%20\(1952\)_eng.png)
 
-    ![After the client uploads the image, it will be displayed in the request under the "Requests" section](../../.gitbook/assets/image%20\(1955\).png)
+    ![After the client uploads the image, it will be displayed in the request under the "Requests" section](../../.gitbook/assets/image%20\(1955\)_eng.png)
 *   **Grouping Exchange Directions for Quick Filtering (Module "Direction Groups")**
 
-    ![Add the desired number of groups in the "Direction Groups" section](../../.gitbook/assets/image%20\(1959\).png)
+    ![Add the desired number of groups in the "Direction Groups" section](../../.gitbook/assets/image%20\(1959\)_eng.png)
 
-    ![In the direction settings, assign the necessary group on the "Main Settings" tab](../../.gitbook/assets/image%20\(1960\).png)
+    ![In the direction settings, assign the necessary group on the "Main Settings" tab](../../.gitbook/assets/image%20\(1960\)_eng.png)
 
-    ![In the table of all directions, select the desired group and, for example, make all directions from this group inactive.](../../.gitbook/assets/image%20\(1961\).png)
+    ![In the table of all directions, select the desired group and, for example, make all directions from this group inactive.](../../.gitbook/assets/image%20\(1961\)_eng.png)
 *   **Setting Individual Profit Percentage for Each City for Cash Exchange Directions**
 
-    ![Tab "Cities" in the exchange direction settings](../../.gitbook/assets/image%20\(1962\).png)
+    ![Tab "Cities" in the exchange direction settings](../../.gitbook/assets/image%20\(1962\)_eng.png)
 *   **Ability to Set "Completed Request" Status via API (Method `success_bid`)**
 
     This method applies only to requests created directly via the API.
 
-    ![To identify the request, you need to pass its hash (displayed in the response for the method create\_bid when creating a request via API)](../../.gitbook/assets/image%20\(1963\).png)
+    ![To identify the request, you need to pass its hash (displayed in the response for the method create\_bid when creating a request via API)](../../.gitbook/assets/image%20\(1963\)_eng.png)
 
-    ![Changing request statuses via API](../../.gitbook/assets/image%20\(1964\).png)
+    ![Changing request statuses via API](../../.gitbook/assets/image%20\(1964\)_eng.png)
 *   **Mass Information Editor — Added Filter by Direction Group**
 
-    ![Filter by direction group](../../.gitbook/assets/image%20\(1965\).png)
+    ![Filter by direction group](../../.gitbook/assets/image%20\(1965\)_eng.png)
 
     Additionally, you can specify commissions and exchange amounts in one window for selected directions.
 
-    ![Selecting an entity for editing](../../.gitbook/assets/image%20\(1966\).png)
+    ![Selecting an entity for editing](../../.gitbook/assets/image%20\(1966\)_eng.png)
 
-    ![Editing payment system commissions](../../.gitbook/assets/image%20\(1967\).png) ![Editing exchange amounts](../../.gitbook/assets/image%20\(1970\).png)
+    ![Editing payment system commissions](../../.gitbook/assets/image%20\(1967\)_eng.png) ![Editing exchange amounts](../../.gitbook/assets/image%20\(1970\)_eng.png)
 *   **Option to Completely Disable Merchant Logs and Auto-Payments**
 
-    ![The option is located in the settings of each merchant and auto-payment module](../../.gitbook/assets/image%20\(283\).png)
+    ![The option is located in the settings of each merchant and auto-payment module](../../.gitbook/assets/image%20\(283\)_eng.png)
 *   **Prohibition on Creating Requests with the Same Amount for Exchange Direction**
 
-    ![Tab "Restrictions and Checks" in the exchange direction settings](../../.gitbook/assets/image%20\(285\).png)
+    ![Tab "Restrictions and Checks" in the exchange direction settings](../../.gitbook/assets/image%20\(285\)_eng.png)
 
-    ![When creating a second request with an unpaid first request for the same amount, the client will receive an error](../../.gitbook/assets/image%20\(286\).png)
+    ![When creating a second request with an unpaid first request for the same amount, the client will receive an error](../../.gitbook/assets/image%20\(286\)_eng.png)
 *   **Direction and Currency Sorting Module — Only Active Currencies Will Be Displayed**
 
-    ![Only active currencies will be displayed](../../.gitbook/assets/image%20\(274\).png)
+    ![Only active currencies will be displayed](../../.gitbook/assets/image%20\(274\)_eng.png)
 *   **"Live Operator" Module (`many_operators`)**
 
     This module now allows displaying only requests from specific exchange directions, as well as requests from specific merchants for each user with access to the admin panel.
 
-    ![With this setting, the operator will only see requests that used the Advcash merchant](../../.gitbook/assets/image%20\(276\).png)
+    ![With this setting, the operator will only see requests that used the Advcash merchant](../../.gitbook/assets/image%20\(276\)_eng.png)
 
-    ![With this setting, the operator will only see requests from specified exchange directions](../../.gitbook/assets/image%20\(277\).png)
+    ![With this setting, the operator will only see requests from specified exchange directions](../../.gitbook/assets/image%20\(277\)_eng.png)
 
-    ![With this setting, the operator will see requests from specified exchange directions, as well as requests from all exchange directions that used the Advcash merchant](../../.gitbook/assets/image%20\(278\).png)
+    ![With this setting, the operator will see requests from specified exchange directions, as well as requests from all exchange directions that used the Advcash merchant](../../.gitbook/assets/image%20\(278\)_eng.png)
 
     You can also use a reverse filter:
 
-    ![With this setting, the operator will see requests from all exchange directions except the specified ones](../../.gitbook/assets/image%20\(279\).png)
+    ![With this setting, the operator will see requests from all exchange directions except the specified ones](../../.gitbook/assets/image%20\(279\)_eng.png)
 
     **Warning:** Do not use positive and negative values in filters simultaneously — filtering operates on an OR basis, so negative filters will not be considered if specified alongside positive ones.
 
-    ![With this setting, the operator will see all requests from exchange direction 1340 (even if the Bova merchant was used), as well as requests from all exchange directions where the Bova merchant was not used.](../../.gitbook/assets/image%20\(281\).png)
+    ![With this setting, the operator will see all requests from exchange direction 1340 (even if the Bova merchant was used), as well as requests from all exchange directions where the Bova merchant was not used.](../../.gitbook/assets/image%20\(281\)_eng.png)
 
-    ![With this setting, the operator will see requests from all exchange directions (even if the Bova merchant was not used), as well as requests from all exchange directions where the Bova merchant was used (even if it is direction 1340).](../../.gitbook/assets/image%20\(282\).png)
+    ![With this setting, the operator will see requests from all exchange directions (even if the Bova merchant was not used), as well as requests from all exchange directions where the Bova merchant was used (even if it is direction 1340).](../../.gitbook/assets/image%20\(282\)_eng.png)
 *   **Transfer of User Coefficients for Parsers 2.0 to a Separate Section**
 
-    ![Section in the sidebar](../../.gitbook/assets/image%20\(1971\).png)
+    ![Section in the sidebar](../../.gitbook/assets/image%20\(1971\)_eng.png)
 
-    ![Coefficient settings](../../.gitbook/assets/image%20\(1972\).png)
+    ![Coefficient settings](../../.gitbook/assets/image%20\(1972\)_eng.png)
 
     * **Index Name** — the desired name to be used in formulas as a shortcode
     * **Formula Value** — enter a number or mathematical formula in the field
@@ -88,17 +88,17 @@
 
     This option was causing the server to overload with unnecessary requests.
 
-    ![Version 2.6](../../.gitbook/assets/image%20\(1976\).png) ![Version 2.7](../../.gitbook/assets/image%20\(1975\).png)
+    ![Version 2.6](../../.gitbook/assets/image%20\(1976\)_eng.png) ![Version 2.7](../../.gitbook/assets/image%20\(1975\)_eng.png)
 *   **Results of Recalculations for Requests Moved to a Separate Section "Recalculation Log"**
 
-    ![Recalculation log](../../.gitbook/assets/image%20\(1977\).png)
+    ![Recalculation log](../../.gitbook/assets/image%20\(1977\)_eng.png)
 *   **"Blacklist" Module — Added the Ability to Check the Real Account from Which the Payment Came**
 
-    ![Checking the real account](../../.gitbook/assets/image%20\(265\).png)
+    ![Checking the real account](../../.gitbook/assets/image%20\(265\)_eng.png)
 
     Added the ability to customize blacklist elements individually.
 
-    ![Individual settings for blacklist elements](../../.gitbook/assets/image%20\(266\).png)
+    ![Individual settings for blacklist elements](../../.gitbook/assets/image%20\(266\)_eng.png)
 
     * **Method:**
       * **From General Settings** — the method selected in the general settings of the module will be applied.
@@ -106,19 +106,19 @@
       * **Stop Auto-Payment** — if this element is in the blacklist, the request will be created (and checked at the auto-payment stage), even if "Show Error" is selected in the general settings.
 *   **"AML" Module - All AML Modules and Logs Now Located in One Section**
 
-    ![AML module section](../../.gitbook/assets/image%20\(268\).png)
+    ![AML module section](../../.gitbook/assets/image%20\(268\)_eng.png)
 
     Added the ability to quickly replace the module in the exchange direction settings.
 
-    ![Quick module replacement](../../.gitbook/assets/image%20\(269\).png)
+    ![Quick module replacement](../../.gitbook/assets/image%20\(269\)_eng.png)
 
     New statuses for requests added when there is a long response from the AML service.
 
-    ![New request statuses](../../.gitbook/assets/image%20\(270\).png)
+    ![New request statuses](../../.gitbook/assets/image%20\(270\)_eng.png)
 
     If no response is received from the service within the time specified in the module settings,
 
-    ![Response time settings](../../.gitbook/assets/image%20\(271\).png)
+    ![Response time settings](../../.gitbook/assets/image%20\(271\)_eng.png)
 
 The application will change its status to "**Pending**" and revert to the previous status (if the client's details are successfully verified) or to "**AML Check Failed**" (if the risk threshold is exceeded) after receiving a response from the AML service. To enable this feature, you need to set up a [cron job](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-sozdat-zadanie-cron-na-servere) on the server (the link for the job can be found in the "AML" section).
 

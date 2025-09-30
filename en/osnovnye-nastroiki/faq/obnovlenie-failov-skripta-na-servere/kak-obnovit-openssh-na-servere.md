@@ -16,6 +16,6 @@ In your server's console or via the Shell client in the ISP Manager control pane
 apt update && apt install --only-upgrade openssh-client openssh-server openssh-sftp-server -y
 ```
 
-<figure><img src="../../../.gitbook/assets/image (1786).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1786)_eng.png" alt=""><figcaption></figcaption></figure>
 
 Once you've completed these steps, the module will be successfully updated.

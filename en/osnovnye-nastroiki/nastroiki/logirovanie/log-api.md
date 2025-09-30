@@ -2,7 +2,7 @@
 
 In this section ("**API**" -> "**Logs**"), you can view the logs generated while using the Premium Exchanger API.
 
-<figure><img src="../../../.gitbook/assets/image (1136).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1136)_eng.png" alt=""><figcaption></figcaption></figure>
 
 The logs received from the API can vary significantly in content, but the [log structure remains consistent](#user-content-fn-1)[^1] and includes the following parameters:
 
@@ -23,7 +23,7 @@ The logs received from the API can vary significantly in content, but the [log s
 
 For easier searching of specific data, you can use filters based on five criteria:
 
-<figure><img src="../../../.gitbook/assets/image (1065).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1065)_eng.png" alt=""><figcaption></figcaption></figure>
 
 * **API Login** — display only logs associated with this login
 * **API Key** — display only logs associated with this key

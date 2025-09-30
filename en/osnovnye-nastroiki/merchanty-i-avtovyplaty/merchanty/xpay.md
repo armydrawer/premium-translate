@@ -12,7 +12,7 @@ To connect to the service, please contact the [manager](https://t.me/premiumexch
 
 Register and verify your account with Xpay. Go to the "**Merchants**" section and click the "**Create Merchant**" button.
 
-<figure><img src="../../../.gitbook/assets/image (1826).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1826)_eng.png" alt=""><figcaption></figcaption></figure>
 
 Save the generated key in a text file and click the "**Done**" button.
 
@@ -22,11 +22,11 @@ In the admin panel, create a new merchant in the "**Merchants**" -> "**Add Merch
 
 Select XPayPro from the dropdown menu in the "**Module**" field, enter a name for the module, and click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/image (1822).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1822)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../.gitbook/assets/image (1823).png" alt="" width="421"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1823)_eng.png" alt="" width="421"><figcaption></figcaption></figure>
 
 **API Key** — the key generated in your XPay personal account.
 
@@ -34,11 +34,11 @@ Fill in the required authorization fields.
 
 ## Special Fields
 
-<figure><img src="../../../.gitbook/assets/image (1825).png" alt="" width="278"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1825)_eng.png" alt="" width="278"><figcaption></figcaption></figure>
 
 **Payment Method** — choose the type of payment for the customer: SBP or bank card.
 
-<figure><img src="../../../.gitbook/assets/image (1824).png" alt="" width="327"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1824)_eng.png" alt="" width="327"><figcaption></figcaption></figure>
 
 **Bank** — select the bank whose details will be provided to customers for payment requests.
 

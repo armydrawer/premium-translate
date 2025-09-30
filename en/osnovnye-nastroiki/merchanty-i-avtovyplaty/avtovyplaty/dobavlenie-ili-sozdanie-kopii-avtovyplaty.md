@@ -6,7 +6,7 @@ By default, the system already has all available auto-payments set up, but let's
 
 2. Fill out the form that appears:
 
-<figure><img src="../../../.gitbook/assets/image (890).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (890)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 * **Title** — Enter the name of the merchant for the auto-payment, which will be displayed in the website control panel.
 * **Module** — Select the name of the payment system for which you are creating the module.

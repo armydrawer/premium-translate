@@ -13,18 +13,18 @@ Install the software and create a new wallet by following the [instructions (ste
 
 1. In the ISP Manager control panel, go to the **"Sites"** section, select the desired site with a single click, and click on **"Log in as owner"**.
 
-    <figure><img src="../../.gitbook/assets/изображение (94).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/изображение (94)_eng.png" alt=""><figcaption></figcaption></figure>
 
 2. Open the **"File Manager"** section.
 
-    <figure><img src="../../.gitbook/assets/изображение (67).png" alt="" width="330"><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/изображение (67)_eng.png" alt="" width="330"><figcaption></figcaption></figure>
 
 3. Navigate to the directory `/Electrum/Electrum-X.X.X/electrum_data/wallets/`, where `X.X.X` represents the version number of the wallet installed on the server (in this case, version 4.4.6).
 
-    <figure><img src="../../.gitbook/assets/image (1475).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (1475)_eng.png" alt=""><figcaption></figcaption></figure>
 
 4. Download the `default_wallet` file to your computer.
 
-    <figure><img src="../../.gitbook/assets/image (1476).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (1476)_eng.png" alt=""><figcaption></figcaption></figure>
 
 5. Replace the `electrum_data\wallets\default_wallet` file on your computer with the `default_wallet` file you downloaded from the server. Then, restart **Electrum** on your computer. After completing these steps, the wallets will be synchronized.

@@ -6,21 +6,21 @@ The Affiliate Program API only works with the "**API**" and "**Affiliate Program
 
 ### Activating the Modules:
 
-<figure><img src="../.gitbook/assets/изображение (173).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/изображение (173)_eng.png" alt=""><figcaption></figcaption></figure>
 
 After activating the module, go to the "**Users**" section, select the user ("**Edit**") for whom API access will be enabled, and activate the following settings:
 
-<figure><img src="../.gitbook/assets/изображение (151).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/изображение (151)_eng.png" alt=""><figcaption></figcaption></figure>
 
 Next, navigate to the "**Affiliate Program**" - "**Settings**" section and enable the API there:
 
-<figure><img src="../.gitbook/assets/изображение (85).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/изображение (85)_eng.png" alt=""><figcaption></figcaption></figure>
 
 ## How to Check if the Module is Active and Where to Get the Key?
 
 If the module is activated, the affiliate dashboard page (usually at `https://your_domain/paccount/`) will display a line for the Rest API key in the information block, where you can find your personal key (**api_key**).
 
-<figure><img src="../.gitbook/assets/image (982).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (982)_eng.png" alt=""><figcaption></figcaption></figure>
 
 If needed, you can generate a new key by clicking on the "**Change REST API Key**" link. After a few seconds, a new key will appear in the "**REST API Key**" field, and the old key will no longer work.
 

@@ -16,11 +16,11 @@ In the admin panel, create a new merchant in the "**Merchants**" section by sele
 
 Choose Wata from the dropdown menu in the "**Module**" field, enter a name for the module, and click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/image (300).png" alt="" width="445"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (300)_eng.png" alt="" width="445"><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../.gitbook/assets/image (301).png" alt="" width="448"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (301)_eng.png" alt="" width="448"><figcaption></figcaption></figure>
 
 **API Key** — the key provided to you by the Wata manager.
 

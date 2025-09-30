@@ -14,17 +14,17 @@ To receive funds into your merchant accounts, it is sufficient to create an **SC
 
 1. Go to the "**For Developers**" section and click the "**Create New SCI**" button.
 
-<figure><img src="../../../.gitbook/assets/image (1425).png" alt="" width="267"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1425)_eng.png" alt="" width="267"><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (1422).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1422)_eng.png" alt=""><figcaption></figcaption></figure>
 
 Select the payment systems you want to work with and click "**Continue**."
 
-<figure><img src="../../../.gitbook/assets/image (677).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (677)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Fill out the form that appears and click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/image (678).png" alt="" width="550"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (678)_eng.png" alt="" width="550"><figcaption></figcaption></figure>
 
 **Successful Transaction Page** — `https://your_domain/merchant-advcash_success.html`
 
@@ -42,13 +42,13 @@ For all fields, select the POST method.
 
 Go to the "**For Developers**" section and click the "**Create New API**" button.
 
-<figure><img src="../../../.gitbook/assets/image (1425).png" alt="" width="267"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1425)_eng.png" alt="" width="267"><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (1422).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1422)_eng.png" alt=""><figcaption></figcaption></figure>
 
 Fill out the form that appears and click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/image (679).png" alt="" width="498"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (679)_eng.png" alt="" width="498"><figcaption></figcaption></figure>
 
 ## Module Settings
 
@@ -56,11 +56,11 @@ In the admin panel, create a new merchant in the "**Merchants**" -> "**Add Merch
 
 Select AdvCash from the dropdown list in the "**Module**" field, provide a name for the module, and click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/image (1424).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1424)_eng.png" alt=""><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../.gitbook/assets/image (1423).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1423)_eng.png" alt=""><figcaption></figcaption></figure>
 
 **Account Owner Email** — **the email displayed in the SCI**, as specified in your AdvCash account.
 

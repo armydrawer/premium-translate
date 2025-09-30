@@ -23,7 +23,7 @@ This eliminates the risk of account takeover via email access.
 
 #### How to Disable Password Recovery
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="432"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1)_eng.png" alt="" width="432"><figcaption></figcaption></figure>
 
 1. Go to the user management section (under "Users").
 2. Find all users with the role:

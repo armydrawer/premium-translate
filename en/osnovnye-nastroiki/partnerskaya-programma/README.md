@@ -2,11 +2,11 @@
 
 To access the affiliate program page, go to the admin panel's sidebar and select the "**Affiliate Program**" tab. On the opened page, you will see statistics related to the affiliate program:
 
-<figure><img src="../../.gitbook/assets/изображение (170).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (170)_eng.png" alt=""><figcaption></figcaption></figure>
 
 In the expanded menu on the left, you will find the following sections:
 
-<figure><img src="../../.gitbook/assets/изображение (76).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (76)_eng.png" alt=""><figcaption></figcaption></figure>
 
 ## **Statistics**
 
@@ -57,22 +57,22 @@ You can view examples and the order of placing shortcodes in the standard promot
 {% hint style="warning" %}
 Starting from version 2.6, it is possible to configure a separate operational principle for the affiliate program for different users. To do this, you need to select the basic principle in the "**Affiliate Program**" ➔ "**Settings**" section,
 
-![](<../../.gitbook/assets/image (2060).png>)
+![](<../../.gitbook/assets/image (2060)_eng.png>)
 
 and then in the specific user's settings, choose a different principle (individual settings take precedence).
 
-![](<../../.gitbook/assets/image (2059).png>)
+![](<../../.gitbook/assets/image (2059)_eng.png>)
 
 After this, the selected user will follow an individual operational principle for the affiliate program, while the remaining users will follow the general principle.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (2051).png" alt="" width="515"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2051)_eng.png" alt="" width="515"><figcaption></figcaption></figure>
 
 **Referral Lifespan:**
 
 *   **Users and Cookies** — the referral link will remain active when the referrer is attached in the referral settings (the referred user) (specify the exchange user ID), \
 
-    <figure><img src="../../.gitbook/assets/image (2052).png" alt="" width="329"><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (2052)_eng.png" alt="" width="329"><figcaption></figcaption></figure>
 
     and also when the referral clicks on the affiliate link (permanent referral).
 * **By Cookies** — the referral link will only remain active when the referral clicks on the affiliate link (temporary referral).
@@ -85,7 +85,7 @@ After this, the selected user will follow an individual operational principle fo
 
 *   **Profit in Direction Settings** — profit settings from the exchange direction will be considered\
 
-    <figure><img src="../../.gitbook/assets/image (2053).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (2053)_eng.png" alt=""><figcaption></figcaption></figure>
 * **Amount of Exchanges** — the total amount of exchanges by the referral will be considered.
 
 **Calculate Affiliate Rewards With:**
@@ -98,7 +98,7 @@ After this, the selected user will follow an individual operational principle fo
 * **No** — the referral's discount will not be considered in the partner's earnings calculation.
 *   **Yes, Discount Percentage** — the personal discount percentage of the referral will be considered\
 
-    <figure><img src="../../.gitbook/assets/image (2054).png" alt="" width="312"><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (2054)_eng.png" alt="" width="312"><figcaption></figcaption></figure>
 * **Yes, Discount Amount** — the discount amount from a specific request will be considered.
 
 **Show Sections** — check the boxes for the sections that [will be displayed](https://premium.gitbook.io/main/osnovnye-nastroiki/vneshnii-vid/lichnyi-kabinet-klienta) in the user's personal account on the exchange.
@@ -109,7 +109,7 @@ After this, the selected user will follow an individual operational principle fo
 
 **Text Above the Affiliate Fund Withdrawal Form** — text above the affiliate fund withdrawal form (if this field is left empty, the standard text will be displayed)\
 
-<figure><img src="../../.gitbook/assets/image (2055).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2055)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 **Check User Details Against Blacklists When Requesting Affiliate Rewards** — checks the details before processing the payout (the "**Blacklist**" module must be enabled and configured).
 
@@ -123,7 +123,7 @@ After this, the selected user will follow an individual operational principle fo
 
 ### Affiliate Program Settings in User Profile
 
-<figure><img src="../../.gitbook/assets/image (2057).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2057)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 **Referral** — ID of the partner earning from the exchanges of the selected user.
 

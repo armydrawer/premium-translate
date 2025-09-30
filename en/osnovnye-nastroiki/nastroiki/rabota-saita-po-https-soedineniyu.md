@@ -9,7 +9,7 @@ To ensure your website loads securely over HTTPS, you need to:
 1. Purchase an SSL certificate from your hosting provider.
 2. In your website's control panel, go to the "**Settings" → "General"** section, specify your website's address using the HTTPS protocol, and save the changes.
 
-<figure><img src="../../.gitbook/assets/image (1021).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1021)_eng.png" alt=""><figcaption></figcaption></figure>
 
 ## How to Specify Your Website Address Using HTTPS if You Can't Access the Control Panel?
 

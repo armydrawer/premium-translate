@@ -32,7 +32,7 @@ The Megastock directory administration strictly monitors compliance with the [di
 
 2. In your WebMoney Keeper Classic, go to the menu item "**Tools" → "Program Settings"**. Then, navigate to the **"Security"** tab and click the **"Save key to file"** button. Follow the procedures prompted by WM Keeper. Specify the path to save the key file and enter your key file password twice.
 
-<figure><img src="../../.gitbook/assets/Screenshot_27.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_27_eng.png" alt=""><figcaption></figcaption></figure>
 
 3. Upload the saved .kwm key file to your hosting in the directory: `your_domain/wp-content/plugins/premiumbox/moduls/x19/webmoney`.
 4. On your hosting, open the file `your_domain/wp-content/plugins/premiumbox/moduls/x19/webmoney/index.php` for editing (file encoding should be UTF-8) and enter the following settings:

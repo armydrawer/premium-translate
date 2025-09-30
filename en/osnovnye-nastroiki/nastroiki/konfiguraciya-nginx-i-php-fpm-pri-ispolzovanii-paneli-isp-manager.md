@@ -2,7 +2,7 @@
 
 Log in to the ISP Manager panel as the <mark style="color:red;">**root user**</mark> and navigate to the "**Websites**" section. Enter the settings editing mode for your website.
 
-<figure><img src="../../.gitbook/assets/image (707).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (707)_eng.png" alt=""><figcaption></figcaption></figure>
 
 In the "**PHP Handler**" block, select the handler and the version of PHP you want to use for your website.
 
@@ -28,11 +28,11 @@ The choice between these methods depends on the specific requirements of your we
 {% hint style="info" %}
 The PHP version must match the version specified for the archive you downloaded.
 
-<img src="../../.gitbook/assets/image (555).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (555)_eng.png" alt="" data-size="original">
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (708).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (708)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 In the "**Optimization and DDoS Protection**" block, set the specified settings (in the list of file extensions for caching, make sure to remove "**js**").
 
-<figure><img src="../../.gitbook/assets/image (709).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (709)_eng.png" alt="" width="563"><figcaption></figcaption></figure>

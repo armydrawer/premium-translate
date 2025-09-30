@@ -8,7 +8,7 @@
 If you need to update the module on the server, please refer to the [instructions](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/faq/kak-obnovit-faily-na-servere#moduli-avtovyplat).
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (2101).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2101)_eng.png" alt=""><figcaption></figcaption></figure>
 
 ## Settings in the Merchant's Personal Account
 
@@ -20,23 +20,23 @@ To discuss terms and connection, please contact a [service representative](https
 
 In your personal account, fill in the "**Webhook URL**" field and copy the data from the "**Client ID**" and "**API Secret**" fields to your clipboard or a text file.
 
-<figure><img src="../../../.gitbook/assets/image (2102).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2102)_eng.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 In the "**Webhook URL**" field, enter the URL from the "**Callback URL**" field in the auto payout module settings.
 
-<img src="../../../.gitbook/assets/image (2101).png" alt="" data-size="original">
+<img src="../../../.gitbook/assets/image (2101)_eng.png" alt="" data-size="original">
 {% endhint %}
 
 ## Module Settings
 
 In the admin panel, go to the "**Merchants**" ➔ "**Auto Payouts**" section, click the "**Add**" button, and select Premium Wallet.
 
-<figure><img src="../../../.gitbook/assets/image (116).png" alt="" width="464"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (116)_eng.png" alt="" width="464"><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../.gitbook/assets/image (115).png" alt="" width="430"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (115)_eng.png" alt="" width="430"><figcaption></figcaption></figure>
 
 **Domain** — 
 

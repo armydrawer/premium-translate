@@ -4,37 +4,37 @@
 
 To use the API, you need to enable the API module in the "Modules" section.
 
-<figure><img src="../.gitbook/assets/image (1210).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1210)_eng.png" alt=""><figcaption></figcaption></figure>
 
 ### API Settings
 
 After activating the module, go to the "**API**" -> "**Settings**" section. Set your desired configurations:
 
-<figure><img src="../.gitbook/assets/image (1082).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1082)_eng.png" alt=""><figcaption></figcaption></figure>
 
 * **API:**\
   • **Disabled** — API access is restricted\
   • **All users** — API access will be available to all users of the exchange\
   • **Selected users** — API access will only be granted to users who have the "**Work with REST API**" option enabled in their user settings in the admin panel.
 
-<figure><img src="../.gitbook/assets/image (1111).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1111)_eng.png" alt=""><figcaption></figcaption></figure>
 
 * **Logs** — Log entries for API usage can be found in the "**API**" -> "**Logs**" section\
   • **No**\
   • **Yes**
 * **Methods available to users** — A set of methods that will be accessible to the user when adding a key in their personal account on the exchange.
 
-<figure><img src="../.gitbook/assets/image (1086).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1086)_eng.png" alt=""><figcaption></figcaption></figure>
 
 ### Obtaining API Keys through the User's Personal Account
 
 Users can access the API through their personal account, typically at the link `https://your_domain/user-api/`.
 
-<figure><img src="../.gitbook/assets/image (1402).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1402)_eng.png" alt=""><figcaption></figcaption></figure>
 
 After selecting the methods and specifying the IP addresses, click the "**Add API Key**" button. The page will then display the generated pair of "**Login** — **Key**".
 
-<figure><img src="../.gitbook/assets/image (974).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (974)_eng.png" alt=""><figcaption></figcaption></figure>
 
 You can generate multiple keys for a single user with different sets of methods.
 
@@ -47,7 +47,7 @@ When you issue access under "**System**," you are granting access as the admin o
 
 On the "**API**" -> "**Add**" page, add a new API user.
 
-<figure><img src="../.gitbook/assets/image (1180).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1180)_eng.png" alt=""><figcaption></figcaption></figure>
 
 * **User** — User ID from the exchange or 0 (for the "**System**" user)
 * **Allowed IP addresses** — IP addresses from which API access will be permitted
@@ -55,7 +55,7 @@ On the "**API**" -> "**Add**" page, add a new API user.
 
 After saving the data, a pair of "**Login** — **Key**" will be generated.
 
-<figure><img src="../.gitbook/assets/image (917).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (917)_eng.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -75,7 +75,7 @@ For authorization, you need to send the following information in the headers of 
 All requests are sent using the **POST** method, and responses are returned in JSON format **(GET requests are not used)**. Parameters are passed in the body of the request (not in the header).
 
 Example of a request with parameter transmission from Postman and the response to the request:\
-![](<../.gitbook/assets/image (528).png>)
+![](<../.gitbook/assets/image (528)_eng.png>)
 {% endhint %}
 
 ### API Methods:
@@ -379,7 +379,7 @@ status of the request
 
 Mark the request as paid (this method works **only if** when creating the request via `create_bid`, the response contains `"api_actions"`-> `"pay": "api"` (when a merchant is **not used** in the exchange direction)).
 
-![Image](../.gitbook/assets/image (213).png)
+![Image](../.gitbook/assets/image (213)_eng.png)
 
 If a merchant was used in the request, the request will change its status to "**Paid**" **only automatically** (when the merchant sees the funds received for the request).
 
@@ -409,7 +409,7 @@ hash — hash of the request
 
 **Response:**
 
-![Image](../.gitbook/assets/image (2120).png)
+![Image](../.gitbook/assets/image (2120)_eng.png)
 
 ```
 status of the request
@@ -610,44 +610,44 @@ payout_id - ID of the payout
 
 ### **Api disabled**
 
-![Image](../.gitbook/assets/image (1469).png)
+![Image](../.gitbook/assets/image (1469)_eng.png)
 
 Possible reasons for the error and how to resolve them:
 
 - Incorrect authorization details provided in the "**API**" section for the user working with the API.
 
-  ![Image](../.gitbook/assets/image (1472).png)
+  ![Image](../.gitbook/assets/image (1472)_eng.png)
 - API access not enabled in the user settings in the "**Users**" section.
 
-![Image](../.gitbook/assets/image (1466).png)
+![Image](../.gitbook/assets/image (1466)_eng.png)
 
 ### Empty Response
 
-![Image](../.gitbook/assets/image (1467).png)
+![Image](../.gitbook/assets/image (1467)_eng.png)
 
 - Requested information is not available — check the parameters being sent.
 
 ### No bid exists
 
-![Image](../.gitbook/assets/image (1468).png)
+![Image](../.gitbook/assets/image (1468)_eng.png)
 
 - The requested bid does not exist.
 
 ### Method not supported
 
-![Image](../.gitbook/assets/image (1471).png)
+![Image](../.gitbook/assets/image (1471)_eng.png)
 
 - The selected method is not activated in the "**API**" section for the user.
 
-![Image](../.gitbook/assets/image (1473).png)
+![Image](../.gitbook/assets/image (1473)_eng.png)
 
 ### Direction not found
 
-![Image](../.gitbook/assets/image (1474).png)
+![Image](../.gitbook/assets/image (1474)_eng.png)
 
 Access to the exchange direction via the API is not allowed (when requesting the exchange direction); access must be enabled in the settings of the exchange direction, under the "**Restrictions and Checks**" tab.
 
-![Image](../.gitbook/assets/image (1470).png)
+![Image](../.gitbook/assets/image (1470)_eng.png)
 
 [^1]: The numbering of fields may vary; the example is provided.
 

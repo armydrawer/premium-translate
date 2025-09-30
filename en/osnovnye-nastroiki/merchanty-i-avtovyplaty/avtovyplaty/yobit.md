@@ -14,7 +14,7 @@ Submit a registration request on the [Yobit](https://yobit.net/) website. After 
 
 Go to the [**API Keys**](https://yobit.net/ru/api/keys/) section and generate a new key with permissions based on how you will work with the merchant:
 
-<figure><img src="../../../.gitbook/assets/image (1407).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1407)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 * **info only** - view transaction history only (not used)
 * **info & trade & deposits** - view transaction history and accept funds into merchant accounts (accepting funds only)
@@ -22,7 +22,7 @@ Go to the [**API Keys**](https://yobit.net/ru/api/keys/) section and generate a 
 
 After selecting the permissions and clicking the "**Create New Key**" button, the key will appear in the block below but will be inactive. To activate it, follow the instructions sent to your email.
 
-<figure><img src="../../../.gitbook/assets/image (1408).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1408)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Confirm the activation of the key and save the key and secret data in a text file.
 
@@ -32,11 +32,11 @@ In the admin panel, create a new merchant in the "**Auto Payouts**" -> "**Add Au
 
 Select Yobit from the dropdown list in the "**Module**" field, enter a name for the module, and click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/image (705).png" alt="" width="507"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (705)_eng.png" alt="" width="507"><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../.gitbook/assets/image (1410).png" alt="" width="453"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1410)_eng.png" alt="" width="453"><figcaption></figcaption></figure>
 
 **API Key** — the public key generated in your Yobit account (field "**Key**")
 
@@ -44,7 +44,7 @@ Fill in the required authorization fields.
 
 ## Special Fields
 
-<figure><img src="../../../.gitbook/assets/image (1514).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1514)_eng.png" alt=""><figcaption></figcaption></figure>
 
 **Purchase the missing crypto amount for payouts** — options for auto-purchasing currency for payouts:\
 • **No** — do not purchase currency for payouts, pay directly from the wallet (the wallet must have a sufficient reserve of the currency being paid out)\

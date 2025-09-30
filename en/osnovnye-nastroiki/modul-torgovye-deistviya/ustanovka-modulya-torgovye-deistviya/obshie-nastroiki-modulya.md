@@ -4,7 +4,7 @@ The module includes settings that only need to be configured once to ensure prop
 
 Go to the "**Trading Actions" -> "Settings"** section and configure the settings as shown in the screenshot below.
 
-<figure><img src="../../../.gitbook/assets/image (377).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (377)_eng.png" alt=""><figcaption></figcaption></figure>
 
 ### **Hash for cron files**  
 Setting a hash makes the cron URL more unique, which enhances security. We recommend using a hash that is at least 20 characters long and includes Latin letters and numbers. Example hash:  
@@ -39,5 +39,5 @@ Saves data about trading actions after they are executed:
 {% hint style="warning" %}
 Make sure to create [cron jobs](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-sozdat-zadanie-cron-na-servere) on the server for the statuses where you plan to use trading actions.
 
-![](<../../../.gitbook/assets/image (1512).png>)
+![](<../../../.gitbook/assets/image (1512)_eng.png>)
 {% endhint %}

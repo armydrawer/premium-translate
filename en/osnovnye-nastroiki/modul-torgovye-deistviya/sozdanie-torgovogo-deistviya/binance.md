@@ -2,7 +2,7 @@
 
 ## Authorization in the Module
 
-<figure><img src="../../../.gitbook/assets/image (692).png" alt="" width="453"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (692)_eng.png" alt="" width="453"><figcaption></figcaption></figure>
 
 **API Key** — a key generated in your Binance personal account.
 
@@ -12,17 +12,17 @@ For trading actions, it is recommended to generate a separate key with the neces
 
 The permissions required to work with all module functions are highlighted below.
 
-<figure><img src="../../../.gitbook/assets/image (693).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (693)_eng.png" alt=""><figcaption></figcaption></figure>
 
 ## General Parameters:
 
-<figure><img src="../../../.gitbook/assets/image (700).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (700)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 **Execution Order** — the order in which actions are performed (if multiple trading actions are involved for the same exchange directions). Specify values from [1 to 10](#user-content-fn-1)[^1] for each trading action involved. Leave the field empty if you are using only one action.
 
-<figure><img src="../../../.gitbook/assets/image (614).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (614)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (615).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (615)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 **Assign Actions** — select the status of the request upon reaching which the action will be executed. Only one option should be selected.
 
@@ -34,11 +34,11 @@ We recommend using the "After status **Paid Request**" option for the "**Buy**" 
 
 **Error Margin (%)** — specify the error margin percentage (numbers only) for the amount in the request that the action will be based on. Typically, values range from 0.1 to 0.5 (the optimal value is 0.15).
 
-<figure><img src="../../../.gitbook/assets/image (616).png" alt="" width="307"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (616)_eng.png" alt="" width="307"><figcaption></figcaption></figure>
 
 ## Step "Borrow Funds"
 
-<figure><img src="../../../.gitbook/assets/image (696).png" alt="" width="515"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (696)_eng.png" alt="" width="515"><figcaption></figcaption></figure>
 
 **Enabled:**  
 • **Yes**  
@@ -51,7 +51,7 @@ We recommend using the "After status **Paid Request**" option for the "**Buy**" 
 **Trading Currency Code** — specify the currency code you need to lend to the exchange as a deposit for borrowing the selected currency (from the "**Currency Code**" field).
 
 **Amount** — select the type of amount from the request that will be passed to this step.  
-![](<../../../.gitbook/assets/image (702).png>)
+![](<../../../.gitbook/assets/image (702)_eng.png>)
 
 {% hint style="warning" %}
 Choose the amount from the "**Give**" or "**Receive**" side depending on the currency you plan to work with (the currency pair side must match the currency specified in the "**Currency Code**" field).
@@ -59,7 +59,7 @@ Choose the amount from the "**Give**" or "**Receive**" side depending on the cur
 If the "**Payment Amount**" or "**Payout Amount**" fields are empty (e.g., no payment/payout was made via the connected merchant in the exchange direction), the values will default to 0. If the trading action amount is set to "**Payment Amount**" or "**Payout Amount**" and a trading action is triggered, an error will occur because the amount will be 0.
 
 If you encounter a trading action error due to this, edit the amount in the request (go to the "**Requests**" section, click "**Edit**",  
-![](<../../../.gitbook/assets/image (376).png>)  
+![](<../../../.gitbook/assets/image (376)_eng.png>)  
 
 enter the correct amount in the relevant field, save the changes, and manually trigger the trading action by clicking the "**Action Link**" in the "**Trading Actions**" -> "**Requests**" section. The trading action will then be executed.
 {% endhint %}
@@ -86,7 +86,7 @@ enter the correct amount in the relevant field, save the changes, and manually t
 
 ## Step "Repay Debt"
 
-<figure><img src="../../../.gitbook/assets/image (697).png" alt="" width="506"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (697)_eng.png" alt="" width="506"><figcaption></figcaption></figure>
 
 **Enabled:**  
 • **Yes**  
@@ -110,7 +110,7 @@ The currency code must match:
 {% endhint %}
 
 **Amount** — select the type of amount from the request that will be passed to this step.  
-![](<../../../.gitbook/assets/image (702).png>)
+![](<../../../.gitbook/assets/image (702)_eng.png>)
 
 {% hint style="warning" %}
 Choose the amount from the "**Give**" or "**Receive**" side depending on the currency you plan to work with (the currency pair side must match the currency specified in the "**Currency Code**" field).
@@ -122,7 +122,7 @@ Choose the amount from the "**Give**" or "**Receive**" side depending on the cur
 
 ## Step "Sell"
 
-<figure><img src="../../../.gitbook/assets/image (695).png" alt="" width="518"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (695)_eng.png" alt="" width="518"><figcaption></figcaption></figure>
 
 **Enabled:**  
 • **Yes**  
@@ -159,7 +159,7 @@ The currency code must match:
 **Trading Currency Code** — specify the currency code to <mark style="color:green;">**buy**</mark> in this step (usually USDT).
 
 **Amount** — select the type of amount from the request that will be passed to this action (when selling the incoming currency from the client, choose one of the "**Give/Giving Amount**" options or the "**Payment Amount**" option).  
-![](<../../../.gitbook/assets/image (702).png>)
+![](<../../../.gitbook/assets/image (702)_eng.png>)
 
 {% hint style="warning" %}
 Choose the amount from the "**Give**" or "**Receive**" side depending on the currency you plan to work with (the currency pair side must match the currency specified in the "**Currency Code**" field).
@@ -184,7 +184,7 @@ For the **Sell** action, select **No**:
 
 ## Step: "Buy"
 
-<figure><img src="../../../.gitbook/assets/image (698).png" alt="" width="504"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (698)_eng.png" alt="" width="504"><figcaption></figcaption></figure>
 
 ### Enabled:  
 • **No** — the step is not used  
@@ -234,7 +234,7 @@ Specify the code of the currency you want to <mark style="color:red;">**sell**</
 
 ### Amount  
 Select the type of amount from the request to be passed to this step:  
-![](<../../../.gitbook/assets/image (702).png>)
+![](<../../../.gitbook/assets/image (702)_eng.png>)
 
 {% hint style="warning" %}
 Choose the amount from the "**Giving**" or "**Receiving**" side, depending on the currency you plan to work with. The currency side in the pair must match the currency specified in the "**Currency Code**" field.
@@ -259,7 +259,7 @@ Select **Yes**:
 
 ## Step: "Transfer to Account"
 
-<figure><img src="../../../.gitbook/assets/image (699).png" alt="" width="509"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (699)_eng.png" alt="" width="509"><figcaption></figcaption></figure>
 
 ### Enabled:  
 • **Yes**  
@@ -280,7 +280,7 @@ Specify the code of the currency to be transferred in the opposite direction.
 
 ### Amount  
 Select the type of amount from the request to be passed to this step:  
-![](<../../../.gitbook/assets/image (702).png>)
+![](<../../../.gitbook/assets/image (702)_eng.png>)
 
 ### Add Withdrawal Fee  
 Select **No**:  
@@ -298,7 +298,7 @@ Select **No**:
 
 If your server’s IP address does not have access to the exchange you plan to work with, purchase a proxy and enter its details in the specified block.
 
-<figure><img src="../../../.gitbook/assets/image (1411).png" alt="" width="446"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1411)_eng.png" alt="" width="446"><figcaption></figcaption></figure>
 
 - **IP Address** — the proxy server’s address  
 - **Port** — the proxy server’s port  

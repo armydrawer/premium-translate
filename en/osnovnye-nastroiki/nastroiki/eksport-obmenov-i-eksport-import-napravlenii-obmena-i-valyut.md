@@ -5,7 +5,7 @@ All imported files must use the [**Windows-1251**](https://ru.wikipedia.org/wiki
 
 Please use the same encoding (Windows-1251) and data separators (semicolon) as in the files exported from the section.
 
-<img src="../../.gitbook/assets/image (839).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (839)_eng.png" alt="" data-size="original">
 {% endhint %}
 
 You can activate the "**Export/Import**" module in the site management panel under "**Modules" → "Modules"**.
@@ -14,7 +14,7 @@ You can activate the "**Export/Import**" module in the site management panel und
 
 In the management panel under "**Modules" → "Export Exchanges"**, you can:
 
-<figure><img src="../../.gitbook/assets/image (1061).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1061)_eng.png" alt=""><figcaption></figcaption></figure>
 
 * Export (download) all exchanges created in your exchange platform to a CSV file. You can open the CSV file using Microsoft Excel, for example.
 
@@ -22,7 +22,7 @@ In the management panel under "**Modules" → "Export Exchanges"**, you can:
 
 In the management panel under "**Modules" → "Export/Import Exchange Directions"**, you can:
 
-<figure><img src="../../.gitbook/assets/image (1002).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1002)_eng.png" alt=""><figcaption></figcaption></figure>
 
 * Export (download) all exchange directions created in your exchange platform to a CSV file. You can open the CSV file using Microsoft Excel, for example.
 * Import (upload) exchange directions from a CSV file into your exchange platform.
@@ -54,7 +54,7 @@ If the CSV file contains currency names that were not previously in your exchang
 
 In the site management panel under "**Modules" → "Export/Import Currencies"**, you can:
 
-<figure><img src="../../.gitbook/assets/image (968).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (968)_eng.png" alt=""><figcaption></figcaption></figure>
 
 * Export (download) all currencies created in your exchange platform to a CSV file. You can open the CSV file using Microsoft Excel, for example.
 * Import (upload) currencies from a CSV file into your exchange platform.

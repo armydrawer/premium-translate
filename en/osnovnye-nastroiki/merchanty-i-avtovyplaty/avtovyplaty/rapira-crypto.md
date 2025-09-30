@@ -14,15 +14,15 @@ Register for the [Rapira](https://rapira.net/) service. In your account settings
 
 Go to "**Settings**" → "**API Keys**" and click the "**Create API Key**" button.
 
-<figure><img src="../../../.gitbook/assets/image (1844).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1844)_eng.png" alt=""><figcaption></figcaption></figure>
 
 In the API key settings, be sure to check the box for "**Withdraw**" to allow fund withdrawals using this key.
 
-<figure><img src="../../../.gitbook/assets/image (1887).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1887)_eng.png" alt="" width="375"><figcaption></figcaption></figure>
 
 Copy the keys and save them in a text file.
 
-<figure><img src="../../../.gitbook/assets/image (1849).png" alt="" width="342"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1849)_eng.png" alt="" width="342"><figcaption></figcaption></figure>
 
 ## Module Settings <a href="#nastroiki-modulya" id="nastroiki-modulya"></a>
 
@@ -30,11 +30,11 @@ In the admin panel, create a new merchant in the "**Auto Payouts**" → "**Add A
 
 Select Rapira from the dropdown list in the "**Module**" field, provide a name for the module, and click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/image (1842).png" alt="" width="419"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1842)_eng.png" alt="" width="419"><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../.gitbook/assets/image (1840).png" alt="" width="422"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1840)_eng.png" alt="" width="422"><figcaption></figcaption></figure>
 
 **Private Key** — The **private key** generated in your Rapira account.
 
@@ -44,7 +44,7 @@ Fill in the required authorization fields.
 
 ## Special Fields
 
-<figure><img src="../../../.gitbook/assets/image (1843).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1843)_eng.png" alt=""><figcaption></figcaption></figure>
 
 **XML Currency Code** — <mark style="color:red;">**Not required**</mark> if you are using [standard currency codes from Bestchange](https://www.bestchange.ru/wiki/rates.html). In this case, you can use a single copy of the module for payouts in all cryptocurrencies.
 
@@ -54,7 +54,7 @@ If the XML currency code differs from the Bestchange standard, you may need to f
 
 **Currency for Conversion** — Specify the currency from which the balance in the merchant's account will be converted to the payout currency (usually USDT or RUB).
 
-<figure><img src="../../../.gitbook/assets/image (1851).png" alt="" width="191"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1851)_eng.png" alt="" width="191"><figcaption></figcaption></figure>
 
 ## Continuing the Setup
 

@@ -190,17 +190,17 @@ Module settings can be found in the "**Modules" → "Bookmark Sorting"** section
 
 This module allows users to submit a request for reserve in the exchange direction.
 
-![](<../../../.gitbook/assets/image (1947).png>)
+![](<../../../.gitbook/assets/image (1947)_eng.png>)
 
-![](<../../../.gitbook/assets/image (1949).png>)
+![](<../../../.gitbook/assets/image (1949)_eng.png>)
 
 Requests from clients will be displayed in the "**Reserve Requests**" section.
 
-![](<../../../.gitbook/assets/image (1950).png>)
+![](<../../../.gitbook/assets/image (1950)_eng.png>)
 
 When the necessary reserve becomes available in the exchange direction, the user will receive a notification via email (if the corresponding template is activated and configured).&#x20;
 
-![](<../../../.gitbook/assets/image (1951).png>)
+![](<../../../.gitbook/assets/image (1951)_eng.png>)
 
 </details>
 
@@ -422,7 +422,7 @@ You can find the module settings in the "**Theme Settings**" → "**Mobile Versi
 
 This module adds the options listed below to the "**Exchange Settings**" ➔ "**Basic Settings**".
 
-![](<../../../.gitbook/assets/image (2050).png>)
+![](<../../../.gitbook/assets/image (2050)_eng.png>)
 
 </details>
 
@@ -804,9 +804,9 @@ You can find the module settings under "**Modules" → "**BestChange Blacklist**
 
 To use the module, generate an API key in your BestChange account and enter it in the "**Key**" field in the module settings.
 
-![](<../../../.gitbook/assets/image (169).png>) \
+![](<../../../.gitbook/assets/image (169)_eng.png>) \
 
-![](<../../../.gitbook/assets/image (168).png>)
+![](<../../../.gitbook/assets/image (168)_eng.png>)
 
 </details>
 

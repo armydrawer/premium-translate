@@ -16,11 +16,11 @@ In the admin panel, create a new merchant in the "**Merchants**" section by sele
 
 Choose Paymatrix from the dropdown menu in the "**Module**" field, enter a name for the module, and click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/image (2224).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2224)_eng.png" alt=""><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../.gitbook/assets/image (251).png" alt="" width="421"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (251)_eng.png" alt="" width="421"><figcaption></figcaption></figure>
 
 **API Key** — the key provided to you by your Paymatrix manager.
 
@@ -30,7 +30,7 @@ Please note that a separate API key must be issued for each currency (AZN, RUB, 
 
 ## Special Fields
 
-<figure><img src="../../../.gitbook/assets/image (252).png" alt="" width="418"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (252)_eng.png" alt="" width="418"><figcaption></figcaption></figure>
 
 **Payment Method** — select the appropriate method for receiving funds from the client.
 
