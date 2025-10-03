@@ -11,7 +11,7 @@
 ## Настройки в личном кабинете мерчанта <a href="#nastroiki-v-lichnom-kabinete-merchanta" id="nastroiki-v-lichnom-kabinete-merchanta"></a>
 
 {% hint style="warning" %}
-Для обсуждения условий и подключения, свяжитесь с [представителем сервиса](https://t.me/AlfaBitSupportVIP)
+Для обсуждения условий и подключения, свяжитесь с [представителем сервиса](https://t.me/Alfabit_Sale_manager_Irina)
 
 **Дисклеймер**: при подключении вашего сайта к тому или иному сервису, пожалуйста, самостоятельно оценивайте возможные риски сотрудничества.
 {% endhint %}

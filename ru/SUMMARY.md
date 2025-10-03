@@ -131,7 +131,7 @@
     * [ABCEx](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/abcex.md)
     * [AI-pay](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/aipay.md)
     * [Alfabit Crypto](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/alfabit-crypto.md)
-    * [Alfabit Fiat](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/alfabit-crypto-1.md)
+    * [Alfabit Fiat](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/alfabit-fiat.md)
     * [Bankoro](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/bankoro.md)
     * [Binance](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/binance.md)
     * [Bitconce](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/bitconce.md)
