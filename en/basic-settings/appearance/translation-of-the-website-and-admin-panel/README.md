@@ -1,0 +1,2 @@
+# Translation of the website and admin panel
+
