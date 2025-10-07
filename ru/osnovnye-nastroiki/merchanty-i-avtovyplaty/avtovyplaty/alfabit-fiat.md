@@ -48,7 +48,7 @@
 
 Выберите Alfabit Fiat в выпадающем списке в поле "**Модуль**", укажите название для модуля и нажмите "**Сохранить**".
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 Заполните указанные авторизационные поля.
 
@@ -58,7 +58,7 @@
 
 ## Особые поля
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Способ оплаты** — выберите необходимую метод для выплаты (список методов будет отображаться только после указания корректного API-ключа для авторизации в модуле).
 
@@ -67,6 +67,14 @@
 {% hint style="warning" %}
 Для каждого используемого способа оплаты необходимо создать отдельную копию модуля автовыплаты, в которой выбрать соответствующий способ, а затем подключить эту копию на вкладке "**Мерчанты и выплаты**" в настройках направления обмена, где в валюте "**Получаю**" будет подходящая валюта
 {% endhint %}
+
+### Дополнительные параметры
+
+При использовании методов, на строке которых указаны параметры `first_name`, `last_name`, требуется добавить [дополнительные поля для валюты](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya-obmena/dopolnitelnye-polya#dopolnitelnye-polya-dlya-valyuty) выплаты (сторона "**Получаю**"). В поле "**Уникальный ID**" в настройках валюты обязательно укажите этот параметр и активируйте доп. поле для выбранной валюты.
+
+<figure><img src="../../../.gitbook/assets/image (1).png" alt="" width="371"><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/image.png" alt="" width="504"><figcaption></figcaption></figure>
 
 ## Продолжение настройки
 
