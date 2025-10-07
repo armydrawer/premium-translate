@@ -1,2 +1,0 @@
-# General Auto-Payment Settings
-

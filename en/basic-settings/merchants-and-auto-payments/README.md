@@ -1,2 +1,0 @@
-# Merchants and Auto-Payments
-

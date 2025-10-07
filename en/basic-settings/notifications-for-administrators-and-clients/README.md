@@ -1,2 +1,0 @@
-# Notifications for Administrators and Clients
-

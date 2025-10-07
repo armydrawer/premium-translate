@@ -1,2 +1,0 @@
-# Currencies and Exchange Directions
-

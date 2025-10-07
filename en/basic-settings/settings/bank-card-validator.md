@@ -1,2 +1,0 @@
-# Bank Card Validator
-

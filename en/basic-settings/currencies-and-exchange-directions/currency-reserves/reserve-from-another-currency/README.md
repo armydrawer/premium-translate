@@ -1,2 +1,0 @@
-# Reserve from Another Currency
-

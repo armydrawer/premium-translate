@@ -1,2 +1,0 @@
-# Trading Action Parameters
-

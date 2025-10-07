@@ -1,2 +1,0 @@
-# Premium Wallet (in development)
-

@@ -1,2 +1,0 @@
-# Changing the Administrator Password
-
