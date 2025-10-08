@@ -47,7 +47,7 @@ This categorization allows for a more detailed description of various trading sc
 When selling or buying cryptocurrency via an order, and the required currency is <mark style="color:green;">available</mark> in your portfolio, the process is simpler and more efficient. In this case, the automated trading system operates as follows:
 
 1. The client creates an order and receives a payment address from the merchant.
-2. The client makes the payment (you can also configure [rate recalculation](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/valyuty-i-napravleniya/sozdanie-novogo-napravleniya-obmena#vkladka-pereschet-zayavok) at the time of payment, which is crucial for locking in the rate and ensuring a stable profit margin for the order). The system then automatically sells the cryptocurrency on the exchange from your portfolio.
+2. The client makes the payment (you can also configure [rate recalculation](https://premium.gitbook.io/main/en/basic-settings/valyuty-i-napravleniya/sozdanie-novogo-napravleniya-obmena#vkladka-pereschet-zayavok) at the time of payment, which is crucial for locking in the rate and ensuring a stable profit margin for the order). The system then automatically sells the cryptocurrency on the exchange from your portfolio.
 3. After the cryptocurrency is sold, the client receives the corresponding amount, and the system records the current rate at the time of payment.
 4. The system then transfers the funds to the exchange and continues the process.
 
@@ -72,7 +72,7 @@ For those familiar with stock, commodity, or forex trading, this type of sale is
 Let’s break it down step by step using the example above:
 
 1. The client creates an order and receives a payment address from the merchant.
-2. The client pays for 0.1 BTC (you can also configure [rate recalculation](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/valyuty-i-napravleniya/sozdanie-novogo-napravleniya-obmena#vkladka-pereschet-zayavok) at the time of payment, which is crucial for locking in the rate and ensuring a stable profit margin for the order).
+2. The client pays for 0.1 BTC (you can also configure [rate recalculation](https://premium.gitbook.io/main/en/basic-settings/valyuty-i-napravleniya/sozdanie-novogo-napravleniya-obmena#vkladka-pereschet-zayavok) at the time of payment, which is crucial for locking in the rate and ensuring a stable profit margin for the order).
 3. Once the client pays, the system automatically borrows and sells 0.1 BTC on the exchange, using your USDT account as collateral.
 4. The cryptocurrency is received, for example, in a block.io wallet (any merchant wallet can be used for receiving cryptocurrency).
 5. As a result, you have 0.1 BTC in your block.io account, a <mark style="color:red;">debt</mark> of 0.1 BTC to the exchange, and USDT from the sale of 0.1 BTC.
@@ -89,7 +89,7 @@ The process of buying cryptocurrency when it is <mark style="color:green;">avail
 
 1. The client creates an order, and you provide them with a payment card.
 2. The client pays the required amount.
-3. You manually set the order status to "Paid" (you can also configure [rate recalculation](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/valyuty-i-napravleniya/sozdanie-novogo-napravleniya-obmena#vkladka-pereschet-zayavok) at the time of payment, which is crucial for locking in the rate and ensuring a stable profit margin for the order).
+3. You manually set the order status to "Paid" (you can also configure [rate recalculation](https://premium.gitbook.io/main/en/basic-settings/valyuty-i-napravleniya/sozdanie-novogo-napravleniya-obmena#vkladka-pereschet-zayavok) at the time of payment, which is crucial for locking in the rate and ensuring a stable profit margin for the order).
 
 {% hint style="info" %}
 For example, you have 1 BTC in your block.io wallet. When you set the order status to "Paid," the exchange instantly buys 0.1 BTC. Then, you click the "Transfer" button, and 0.1 BTC is sent from your block.io wallet. As a result, you have 0.9 BTC in your block.io wallet and 0.1 BTC in your exchange account.
@@ -107,7 +107,7 @@ Now, clients can create exchange orders, and you can fulfill them by sending Bit
 
 1. The client submits a request, and you provide them with a payment card.  
 2. The client pays the required amount.  
-3. You manually set the request status to "Paid" (you can also configure [recalculation based on the exchange rate](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/valyuty-i-napravleniya/sozdanie-novogo-napravleniya-obmena#vkladka-pereschet-zayavok) at the time of payment, which is crucial for locking in the rate and ensuring a stable profit margin for the transaction).  
+3. You manually set the request status to "Paid" (you can also configure [recalculation based on the exchange rate](https://premium.gitbook.io/main/en/basic-settings/valyuty-i-napravleniya/sozdanie-novogo-napravleniya-obmena#vkladka-pereschet-zayavok) at the time of payment, which is crucial for locking in the rate and ensuring a stable profit margin for the transaction).  
 
 {% hint style="info" %}  
 When you set the request status to "Paid," an amount of 0.1 BTC is instantly purchased on the exchange, and the <mark style="color:red;">debt</mark> of 0.1 BTC is settled. Then, you click the "Transfer" button, and 0.1 BTC is sent from your block.io wallet. As a result, you are left with 0.9 BTC in your block.io wallet, and the <mark style="color:red;">debt</mark> to the exchange is now 0.9 BTC.  

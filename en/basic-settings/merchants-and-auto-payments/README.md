@@ -1,6 +1,6 @@
 # Merchants and Auto-Payments
 
-Initially, the exchange operates in manual mode. You will need to check the receipt of funds from clients yourself and manually process the payments. In manual mode, you can input [your own payment details](https://premium.gitbook.io/main/osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/ispolzovanie-svoikh-kart-koshelkov-schetov) for receiving funds from clients.
+Initially, the exchange operates in manual mode. You will need to check the receipt of funds from clients yourself and manually process the payments. In manual mode, you can input [your own payment details](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/merchants/ispolzovanie-svoikh-kart-koshelkov-schetov) for receiving funds from clients.
 
 For automatic or semi-automatic modes, the following are used:
 

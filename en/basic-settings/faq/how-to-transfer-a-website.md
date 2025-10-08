@@ -16,7 +16,7 @@ To do this, specify your subdomain on the [**Your Licenses**](https://premiumexc
 
 You can create a subdomain using the ISP Manager server control panel by following [this guide](https://www.ihc.ru/articles/sozdanie-poddomenov-v-ispmanager.html).
 
-Install the script on the subdomain by following [this guide](https://premium.gitbook.io/rukovodstvo-polzovatelya/pered-nachalom-raboty/instrukciya-po-ustanovke).
+Install the script on the subdomain by following [this guide](https://premium.gitbook.io/main/en/pered-nachalom-raboty/instrukciya-po-ustanovke).
 
 {% hint style="warning" %}
 Please note that license files are updated with the subdomain information after you specify the subdomain on the **Your Licenses** page. Once the subdomain is specified, it is <mark style="color:red;">**mandatory**</mark> to update the license files on the server and upload them to the root folder of the subdomain.

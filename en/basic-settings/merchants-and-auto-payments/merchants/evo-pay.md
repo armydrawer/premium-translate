@@ -1,7 +1,7 @@
 # Evo Pay
 
 {% hint style="info" %}
-If you need to update the module on the server, please refer to the [instructions](https://premium.gitbook.io/main/en/basic-settings/faq/updating-script-files-on-the-server/how-to-update-files-on-the-server#merchant-and-auto-payout-modules).
+If you need to update the module on the server, please refer to the [instructions](https://premium.gitbook.io/main/en/en/basic-settings/faq/updating-script-files-on-the-server/how-to-update-files-on-the-server#merchant-and-auto-payout-modules).
 {% endhint %}
 
 ## Merchant Account Settings
@@ -62,7 +62,7 @@ When selecting "**All**," the merchant will be provided with any available detai
 For each payment method used, a separate copy of the merchant module must be created, selecting the corresponding method, and then this copy should be connected in the "**Merchants and Payments**" tab in the exchange direction settings, where the currency in "**I Give**" will be the appropriate currency.
 {% endhint %}
 
-**Recalculate Request if Payment Amount Changes** — this option works similarly to the [main option for recalculating the amount for a request](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya-obmena/sozdanie-novogo-napravleniya#pereschet-po-summе-oplaty).
+**Recalculate Request if Payment Amount Changes** — this option works similarly to the [main option for recalculating the amount for a request](https://premium.gitbook.io/main/en/basic-settings/valyuty-i-napravleniya-obmena/sozdanie-novogo-napravleniya#pereschet-po-summе-oplaty).
 
 {% hint style="warning" %}
 If a request is specified for an amount of 5000 rubles, the merchant may require a payment within the range of 4999.50–5000.50 rubles (possible deviation — up to 100 rubles). The merchant can either require a different amount or accept the originally specified amount.
@@ -84,4 +84,4 @@ However, if recalculation is disabled, the new amount will be recorded in the co
 
 ## Continuing the Setup
 
-Next, proceed to configure the merchant by following the [general setup instructions](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/merchants/general-merchant-settings).
+Next, proceed to configure the merchant by following the [general setup instructions](https://premium.gitbook.io/main/en/en/basic-settings/merchants-and-auto-payments/merchants/general-merchant-settings).

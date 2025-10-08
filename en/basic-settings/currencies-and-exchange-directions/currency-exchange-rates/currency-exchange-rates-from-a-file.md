@@ -17,7 +17,7 @@ The script allows you to obtain exchange rate values from a text file. You can c
 
 <figure><img src="../../../.gitbook/assets/image (1064)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
-5. Set up a [cron job](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-sozdat-zadanie-cron-na-servere) that will retrieve the exchange rate from the file and update it on the website. The script can be run every minute. Here’s an example command for a cron job in Unix format for the ISP Manager control panel:
+5. Set up a [cron job](https://premium.gitbook.io/main/en/basic-settings/faq/kak-sozdat-zadanie-cron-na-servere) that will retrieve the exchange rate from the file and update it on the website. The script can be run every minute. Here’s an example command for a cron job in Unix format for the ISP Manager control panel:
 
 <figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 

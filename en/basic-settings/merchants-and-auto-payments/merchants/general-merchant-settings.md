@@ -135,7 +135,7 @@ You can find out the IP address(es) of the payment system that sends payment inf
 * **Cron File Hash** — **create** and specify a hash that will complement the Cron job URL (a random set of 20-40 Latin letters and numbers).
 
 {% hint style="danger" %}
-Don't forget to create a Cron job on the server to check the payment — [**setup instructions**](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-sozdat-zadanie-cron-na-servere).
+Don't forget to create a Cron job on the server to check the payment — [**setup instructions**](https://premium.gitbook.io/main/en/basic-settings/faq/kak-sozdat-zadanie-cron-na-servere).
 {% endhint %}
 
 Here’s a naturalistic English translation of the provided text:

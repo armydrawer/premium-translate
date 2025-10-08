@@ -2,7 +2,7 @@
 
 **Note:** Below is a description of all the options that can be presented in the exchange direction settings form. However, by default, some parameters may not be displayed. This is because certain modules responsible for displaying specific parameters in the form are inactive in the "**Modules**" → "**Modules**" section. The order of parameters in the exchange direction creation form on your site may differ from the order presented below.
 
-After adding [new currencies](https://premium.gitbook.io/rukovodstvo-polzovatelya/navigaciya/valyuty-i-napravleniya/dobavlenie-novoi-valyuty) and specifying [reserves for them](https://premium.gitbook.io/rukovodstvo-polzovatelya/navigaciya/rezervy), create an exchange direction. To do this, go to the "**Exchange Directions**" section in the control panel. Click the "**Add**" button located above the list of already created exchanges.
+After adding [new currencies](https://premium.gitbook.io/main/en/navigaciya/valyuty-i-napravleniya/dobavlenie-novoi-valyuty) and specifying [reserves for them](https://premium.gitbook.io/main/en/navigaciya/rezervy), create an exchange direction. To do this, go to the "**Exchange Directions**" section in the control panel. Click the "**Add**" button located above the list of already created exchanges.
 
 On the opened page, fill in the necessary fields to create the exchange direction.
 
@@ -97,7 +97,7 @@ If you use the option "**Rate Dependency on Amount or Reserve**," the "**I Recei
 <img src="../../.gitbook/assets/image%20(1773)_eng.png" alt="" data-size="original">
 {% endhint %}
 
-**Exchange Rate from File** — more detailed information can be found [here](https://premium.gitbook.io/rukovodstvo-polzovatelya/navigaciya/kursy/kurs-iz-faila).
+**Exchange Rate from File** — more detailed information can be found [here](https://premium.gitbook.io/main/en/navigaciya/kursy/kurs-iz-faila).
 
 **Exchange Amount Multiplicity** — if this option is enabled, the value selected from the dropdown will be rounded:
 
@@ -111,7 +111,7 @@ For example, if the amount "You Give" is selected and the multiplicity is 100 �
 
 When working with monitors, the standard values are 30% of the profit or 1% of the exchange amount. In the script for each exchange direction, you can set only one principle of operation (based on amount or profit) for all partners.
 
-If zero profit is set, the partner will not be able to receive a partner reward. If profit is set at 100%, the partner will effectively receive a reward based on the exchange amount. A detailed description of this option can be found in the article ["**Profit and Partner Percentage**"](https://premium.gitbook.io/rukovodstvo-polzovatelya/navigaciya/partnerskaya-programma/pribyl-i-partnerskii-procent).
+If zero profit is set, the partner will not be able to receive a partner reward. If profit is set at 100%, the partner will effectively receive a reward based on the exchange amount. A detailed description of this option can be found in the article ["**Profit and Partner Percentage**"](https://premium.gitbook.io/main/en/navigaciya/partnerskaya-programma/pribyl-i-partnerskii-procent).
 
 {% hint style="warning" %}
 If the "**Profit**" block is not displayed on the tab — disable the "**Automatic Profit Calculation**" module in the "**Modules**" section.
@@ -141,7 +141,7 @@ Then, in the exchange direction settings, select the city in the "**Cities**" ta
 
 <figure><img src="../../.gitbook/assets/image%20(856)_eng.png" alt=""><figcaption></figcaption></figure>
 
-Detailed descriptions of the options can be found in the articles "[**BestChange API Parser**](https://premium.gitbook.io/main/osnovnye-nastroiki/kursy-valyut/bestchange-api-parser-new-nachinaya-s-v2.6)" and "[**BestChange Parser**](https://premium.gitbook.io/main/osnovnye-nastroiki/kursy-valyut/bestchange-parser-old)".
+Detailed descriptions of the options can be found in the articles "[**BestChange API Parser**](https://premium.gitbook.io/main/en/basic-settings/kursy-valyut/bestchange-api-parser-new-nachinaya-s-v2.6)" and "[**BestChange Parser**](https://premium.gitbook.io/main/en/basic-settings/kursy-valyut/bestchange-parser-old)".
 
 ## Tab "Auto-Rate Adjustment"
 
@@ -150,7 +150,7 @@ Detailed descriptions of the options can be found in the articles "[**BestChange
 **Auto-Rate Adjustment** — select the source and direction for automatic rate changes on the site.
 
 {% hint style="warning" %}
-To enable automatic currency updates, you need to configure a [cron job](https://premium.gitbook.io/main/osnovnye-nastroiki/kursy-valyut/parser-kursov-valyut-parsery-2.0) on your server. At the top of the "**Parsers 2.0**" section, you will find a link labeled "**Cron URL for updating exchange rates for the Central Bank and cryptocurrencies**," which should be added to the server's task scheduler. You can perform updates every minute. More detailed information can be found [here](https://premium.gitbook.io/main/osnovnye-nastroiki/kursy-valyut/parser-kursov-valyut-parsery-2.0).
+To enable automatic currency updates, you need to configure a [cron job](https://premium.gitbook.io/main/en/basic-settings/kursy-valyut/parser-kursov-valyut-parsery-2.0) on your server. At the top of the "**Parsers 2.0**" section, you will find a link labeled "**Cron URL for updating exchange rates for the Central Bank and cryptocurrencies**," which should be added to the server's task scheduler. You can perform updates every minute. More detailed information can be found [here](https://premium.gitbook.io/main/en/basic-settings/kursy-valyut/parser-kursov-valyut-parsery-2.0).
 {% endhint %}
 
 **Adjusting the Rate** — This parameter allows you to modify the exchange rate obtained from the source to suit your needs. For the currency column you are giving, you should leave it as "**0**" (zero). In the column for the currency you are receiving, you need to specify a percentage or a numerical value (negative values are allowed). This value will be automatically added to the source rate and displayed on the website with the corresponding adjustment.
@@ -169,11 +169,11 @@ Please note that authorized users automatically participate in a loyalty program
 
 <figure><img src="../../.gitbook/assets/image%20(1217)_eng.png" alt=""><figcaption></figcaption></figure>
 
-**Reserve** — If needed, you can set a personal reserve value for the exchange direction. The selected option will take precedence over the reserve value set in the "**Receiving**" currency settings in the "**Currencies**" section. You can also set a [reserve from a file](https://premium.gitbook.io/rukovodstvo-polzovatelya/navigaciya/rezervy/rezerv-iz-faila), connect an auto-reserve, or specify a reserve from the field located below.
+**Reserve** — If needed, you can set a personal reserve value for the exchange direction. The selected option will take precedence over the reserve value set in the "**Receiving**" currency settings in the "**Currencies**" section. You can also set a [reserve from a file](https://premium.gitbook.io/main/en/navigaciya/rezervy/rezerv-iz-faila), connect an auto-reserve, or specify a reserve from the field located below.
 
 **Reserve Field** — If necessary, for the "**Reserve**" option, select the value "**—From the field below—**," and for the "**Reserve Field**" parameter, specify the reserve value. The specified reserve value will be displayed on the website for the created exchange direction. This option is used only as a limiter for the current reserve value and will only work if a currency reserve is set in the "**Reserve Adjustment**" section. For example, if you set a reserve of 100,000 in the "**Reserve Adjustments**" section, but you need to limit this value to 50,000 for the created exchange direction, use the "**Reserve Field**" parameter to restrict the reserve value.
 
-**Calculator** — If necessary, for the "**Reserve**" option, select the value "**—By formula—**," and for the "**Calculator**" parameter, specify the reserve formula. More detailed information can be found [here](https://premium.gitbook.io/main/osnovnye-nastroiki/rezervy-valyut/rezerv-ot-drugoi-valyuty/primery-nastroiki-slozhnogo-rezerva-s-ispolzovaniem-formul).
+**Calculator** — If necessary, for the "**Reserve**" option, select the value "**—By formula—**," and for the "**Calculator**" parameter, specify the reserve formula. More detailed information can be found [here](https://premium.gitbook.io/main/en/basic-settings/rezervy-valyut/rezerv-ot-drugoi-valyuty/primery-nastroiki-slozhnogo-rezerva-s-ispolzovaniem-formul).
 
 ## "Payment System Fees" Tab
 
@@ -185,7 +185,7 @@ Please note that authorized users automatically participate in a loyalty program
 
 **Exchange Service Pays the Fee** — Check this box if you cover the payment system fee instead of the client.
 
-**Non-standard Fee** — Check this box if the payment system charges a fee for incoming payments from the exchange service when paid through a merchant (typically, this applies to Yandex.Money, Privat24, Liqpay, Qiwi). More detailed information can be found [here](https://premium.gitbook.io/rukovodstvo-polzovatelya/navigaciya/faq/chto-takoe-nestandartnaya-komissiya-v-nastroikakh-merchanta-i-kak-ona-rabotaet).
+**Non-standard Fee** — Check this box if the payment system charges a fee for incoming payments from the exchange service when paid through a merchant (typically, this applies to Yandex.Money, Privat24, Liqpay, Qiwi). More detailed information can be found [here](https://premium.gitbook.io/main/en/navigaciya/faq/chto-takoe-nestandartnaya-komissiya-v-nastroikakh-merchanta-i-kak-ona-rabotaet).
 
 **Min. Fee Amount** — Specify the minimum fee amount that the payment system can charge for transferring funds, if such an amount is provided by the payment system. If you enter "**0**" (zero), there will be no restrictions. If a limit is set, some fields in the application creation form will become inactive.
 
@@ -269,7 +269,7 @@ Use exchange direction templates to simplify the process of creating new exchang
 
 **Request Status "Pending Request"** — If you have allowed requests to be created without prior verification in the identity/account verification module settings, create a guide for users on how to verify their identity/account.
 
-**Request Status "New Request"** — Provide your details for this exchange direction along with a brief instruction on the steps to follow during the exchange. These details will appear on the screen after the user creates an exchange request. After completing the specified actions, the user clicks the "I have paid for the request" button, and the exchange administrator receives a notification. If a payment merchant is used for the currency being exchanged, the necessary payment instructions will be provided in the relevant section (see the "[Merchant Settings](https://premium.gitbook.io/rukovodstvo-polzovatelya/navigaciya/merchanty-i-vyplaty)" section).
+**Request Status "New Request"** — Provide your details for this exchange direction along with a brief instruction on the steps to follow during the exchange. These details will appear on the screen after the user creates an exchange request. After completing the specified actions, the user clicks the "I have paid for the request" button, and the exchange administrator receives a notification. If a payment merchant is used for the currency being exchanged, the necessary payment instructions will be provided in the relevant section (see the "[Merchant Settings](https://premium.gitbook.io/main/en/navigaciya/merchanty-i-vyplaty)" section).
 
 You can fill in the following request statuses at your discretion, keeping in mind that the text will appear on the user's screen after they pass through the corresponding stages of the exchange:\
 • **"User-Canceled Request"**\
@@ -318,13 +318,13 @@ You can fill in the following request statuses at your discretion, keeping in mi
 
 **Allowed Countries** — You can specify a list of countries from which users will be allowed access to the exchange. The system will automatically determine the user's country based on their IP address and grant access to the exchange direction if there is a match. Access will be denied to other users. In the management panel, under the "**GEO IP**" section, you need to activate the list of countries to select them for the exchange direction. Additional settings can also be found in the "**Exchange Settings**" → "**Exchange Filters**" section.
 
-**Email Verification** — You can send an email with a code to the user, which they must enter to display the "**Proceed to Payment**" button. The email with the code will be sent to the address specified in one of the fields: "**From Account**," "**To Account**," or "**Email**." To send the email, you need to activate the "**Email Verification**" module in the "**Modules**" → "**Modules**" section. Set the module settings in the "**Modules**" → "**Email Verification Settings**" section and [configure the corresponding email template](https://premium.gitbook.io/rukovodstvo-polzovatelya/navigaciya/uvedomleniya/opovesheniya-po-e-mail).
+**Email Verification** — You can send an email with a code to the user, which they must enter to display the "**Proceed to Payment**" button. The email with the code will be sent to the address specified in one of the fields: "**From Account**," "**To Account**," or "**Email**." To send the email, you need to activate the "**Email Verification**" module in the "**Modules**" → "**Modules**" section. Set the module settings in the "**Modules**" → "**Email Verification Settings**" section and [configure the corresponding email template](https://premium.gitbook.io/main/en/navigaciya/uvedomleniya/opovesheniya-po-e-mail).
 
 **Show Field for Entering Money Transfer Number** — Select "**Yes**" if you want to display a field for entering the money transfer number before the client sees the "**I Paid**"/"**Proceed to Payment**" button. The entered number will be displayed in the management panel under the "**Requests**" section.
 
 **Field Name for Entering Money Transfer Number** — You can set your own name for the field.
 
-**SMS Code Verification** — You can send an SMS with a code to the user, which they must enter to display the "**Proceed to Payment**" button. The SMS with the code will be sent to the phone number specified in one of the fields: "**From Account**," "**To Account**," or "**Phone**." To send the SMS, you need to activate the "**SMS Verification**" module in the "**Modules**" → "**Modules**" section. Set the module settings in the "**Modules**" → "**SMS Code Verification Settings**" section and configure the [SMS gateway](https://premium.gitbook.io/rukovodstvo-polzovatelya/navigaciya/uvedomleniya/opovesheniya-po-sms).
+**SMS Code Verification** — You can send an SMS with a code to the user, which they must enter to display the "**Proceed to Payment**" button. The SMS with the code will be sent to the phone number specified in one of the fields: "**From Account**," "**To Account**," or "**Phone**." To send the SMS, you need to activate the "**SMS Verification**" module in the "**Modules**" → "**Modules**" section. Set the module settings in the "**Modules**" → "**SMS Code Verification Settings**" section and configure the [SMS gateway](https://premium.gitbook.io/main/en/navigaciya/uvedomleniya/opovesheniya-po-sms).
 
 **Prohibited IP Addresses and Masks (one per line)** — You can specify IP addresses and masks for which access to the exchange direction will be denied. Each value must be entered on a new line.
 
@@ -348,7 +348,7 @@ Here’s a naturalistic English translation of the provided text:
 
 **Prohibit Creating Requests with the Same Amount to Give** — a restriction on having open requests with the same amount from one user.
 
-**H19** — For exchanges involving the Webmoney payment system, it is necessary to set the exchange type to perform the verification correctly. The Webmoney system requires this verification for exchanges. You can find more details about the H19 module settings in this [section](https://premium.gitbook.io/rukovodstvo-polzovatelya/navigaciya/nastroiki/kh19).
+**H19** — For exchanges involving the Webmoney payment system, it is necessary to set the exchange type to perform the verification correctly. The Webmoney system requires this verification for exchanges. You can find more details about the H19 module settings in this [section](https://premium.gitbook.io/main/en/navigaciya/nastroiki/kh19).
 
 **Max. Exchange Amount for Giving for New Users** — the maximum exchange amount for users who have not completed any exchanges.
 
@@ -376,7 +376,7 @@ Select the fields that the user must fill out when completing the exchange form.
 
 <figure><img src="../../.gitbook/assets/image%20(163)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
-AML settings for the exchange direction are described in a [separate guide](https://premium.gitbook.io/main/osnovnye-nastroiki/proverka-aml/nastroika-v-v.2.7#nastroika-modulya-v-napravlenii-obmena).
+AML settings for the exchange direction are described in a [separate guide](https://premium.gitbook.io/main/en/basic-settings/aml-verification/nastroika-v-v.2.7#nastroika-modulya-v-napravlenii-obmena).
 
 ## "Delete Unpaid Requests" Tab
 
@@ -390,9 +390,9 @@ AML settings for the exchange direction are described in a [separate guide](http
 
 <figure><img src="../../.gitbook/assets/image%20(164)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
-**Only for Verified Accounts on the Site** — the exchange direction can be made available only for verified accounts/wallets, meaning the user must complete a specific verification process on your site to access the direction. In the control panel, under "**User Accounts**" and in the "**Currencies**" section (when creating/editing a currency), you can make the appropriate [settings](https://premium.gitbook.io/rukovodstvo-polzovatelya/navigaciya/verifikaciya/verifikaciya-scheta) for this option.
+**Only for Verified Accounts on the Site** — the exchange direction can be made available only for verified accounts/wallets, meaning the user must complete a specific verification process on your site to access the direction. In the control panel, under "**User Accounts**" and in the "**Currencies**" section (when creating/editing a currency), you can make the appropriate [settings](https://premium.gitbook.io/main/en/navigaciya/verifikaciya/verifikaciya-scheta) for this option.
 
-**Only for Verified Users on the Site** — the exchange direction can be made available only for verified users, meaning users must complete a specific verification process on your site to access the direction. In the control panel, under the "**Verification**" section, you can make the appropriate [settings](https://premium.gitbook.io/rukovodstvo-polzovatelya/navigaciya/verifikaciya/verifikaciya-lichnosti) for this option. You can also require users to complete verification on the site if the exchange amount in "**Giving**" or "**Receiving**" exceeds a specified value. To do this, select the option "**If the exchange amount is greater than**" and specify the amount in the "**Exchange Amount for Giving/Receiving**" field.
+**Only for Verified Users on the Site** — the exchange direction can be made available only for verified users, meaning users must complete a specific verification process on your site to access the direction. In the control panel, under the "**Verification**" section, you can make the appropriate [settings](https://premium.gitbook.io/main/en/navigaciya/verifikaciya/verifikaciya-lichnosti) for this option. You can also require users to complete verification on the site if the exchange amount in "**Giving**" or "**Receiving**" exceeds a specified value. To do this, select the option "**If the exchange amount is greater than**" and specify the amount in the "**Exchange Amount for Giving/Receiving**" field.
 
 Only for verified users on the site
 
@@ -483,7 +483,7 @@ These options are used to recalculate the exchange amount if the exchange rate o
 
 ### **Recalculation Based on Payment Amount**
 
-The Electrum service for receiving BTC allows for transaction cancellations and substitutions, which can lead to losses for the exchange if the settings mentioned below are not configured in your exchange and a fraudster takes advantage of this feature of Electrum. If you are using the [Electrum module](https://premium.gitbook.io/main/osnovnye-nastroiki/modul-electrum), it is **crucial** to perform the following configuration.
+The Electrum service for receiving BTC allows for transaction cancellations and substitutions, which can lead to losses for the exchange if the settings mentioned below are not configured in your exchange and a fraudster takes advantage of this feature of Electrum. If you are using the [Electrum module](https://premium.gitbook.io/main/en/basic-settings/modul-electrum), it is **crucial** to perform the following configuration.
 
 When using merchants for accepting payments, it is **mandatory** to recalculate the application amount at least for the status "**Paid Application**" in the exchange direction settings.
 
@@ -519,7 +519,7 @@ _If the actual amount paid by the user has changed to 990 USD, and the rate has 
 You can set up recalculation based on the exchange rate on a schedule using the option from the "**Exchange Settings**" -> "**Basic Settings**".
 
 * **When the application status changes** — recalculation will occur similarly to recalculation based on the exchange amount — **only** when the application status changes
-* **By cron** — set up a [cron job](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-sozdat-zadanie-cron-na-servere) to run recalculation on a schedule. The link for the cron job can be found in the "**Settings**" -> "**Cron**" section
+* **By cron** — set up a [cron job](https://premium.gitbook.io/main/en/basic-settings/faq/kak-sozdat-zadanie-cron-na-servere) to run recalculation on a schedule. The link for the cron job can be found in the "**Settings**" -> "**Cron**" section
 * **Always** — recalculation will occur both when the cron job runs and when the application status changes
 
 Select the conditions under which the exchange amount will be recalculated in case of a change in the exchange rate in the direction.
@@ -570,7 +570,7 @@ For example, if set to 5 minutes, there will be no recalculation during this tim
 
 ## Merchants and Payouts Tab
 
-**Merchant** — if you want the payment for the application to be processed through a merchant, select the corresponding merchant for accepting payment from the client. The merchant allows you to accept payments through the payment system's website. If no merchant is selected, the client will need to make the payment manually according to the instructions they will see after creating the application. Read more about [merchant settings](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/merchants/general-merchant-settings).
+**Merchant** — if you want the payment for the application to be processed through a merchant, select the corresponding merchant for accepting payment from the client. The merchant allows you to accept payments through the payment system's website. If no merchant is selected, the client will need to make the payment manually according to the instructions they will see after creating the application. Read more about [merchant settings](https://premium.gitbook.io/main/en/en/basic-settings/merchants-and-auto-payments/merchants/general-merchant-settings).
 
 **Daily Limit for Merchant** — the daily limit for accepting funds for the merchant. The merchant will not be able to accept payments exceeding the specified limit.
 
@@ -578,7 +578,7 @@ For example, if set to 5 minutes, there will be no recalculation during this tim
 
 **Maximum Payment Amount for a Single Request** — This is the highest payment amount allowed for a single request. The merchant will not be able to accept payments exceeding this limit.
 
-**Auto Payments** — If you want the system to automatically pay out money to the client for a request, select the name of the relevant payment system through which the auto payment will be processed. If you do not make a selection, payments for requests will need to be processed manually by the administrator/operator of the exchange point. Read more about [auto payment settings](https://premium.gitbook.io/main/osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/obshie-nastroiki-avtovyplat).
+**Auto Payments** — If you want the system to automatically pay out money to the client for a request, select the name of the relevant payment system through which the auto payment will be processed. If you do not make a selection, payments for requests will need to be processed manually by the administrator/operator of the exchange point. Read more about [auto payment settings](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/auto-payments/obshie-nastroiki-avtovyplat).
 
 **Auto Payment for Requests with "Paid Request" Status:**\
 • **Yes** — Auto payment will be processed automatically without operator involvement when the request has the status "Paid Request."\
@@ -598,7 +598,7 @@ For example, if set to 5 minutes, there will be no recalculation during this tim
 
 **Maximum Auto Payment Amount for a Request** — This is the maximum amount for automatic payments for a single request. If the payment amount for the request is equal to or exceeds this set value, the automatic payment will not occur. The request can only be processed manually.
 
-**Delay for Auto Payments in Hours** — This is the number of hours that the auto payment will be delayed. After the specified time has passed, the auto payment will occur. Additional configuration of the [task scheduler (cron)](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-sozdat-zadanie-cron-na-servere) on the server is required to check the timing of the auto payment. The script can be run every minute.
+**Delay for Auto Payments in Hours** — This is the number of hours that the auto payment will be delayed. After the specified time has passed, the auto payment will occur. Additional configuration of the [task scheduler (cron)](https://premium.gitbook.io/main/en/basic-settings/faq/kak-sozdat-zadanie-cron-na-servere) on the server is required to check the timing of the auto payment. The script can be run every minute.
 
 **Who the Delay Applies To:**\
 • "**For everyone**," "**for unregistered users**," or "**for unverified users on the site**" — Delay auto payments for all users or only for unregistered users on the site, respectively.\

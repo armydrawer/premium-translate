@@ -5,7 +5,7 @@ Video tutorial for updating the script
 {% endembed %}
 
 {% hint style="warning" %}
-Before starting the script update, please update the Ioncube Loader on your server to version 12.0 or higher (if the installed version is below 12 — [**instructions for checking the installed version**](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-obnovit-ioncube-loader)). Your hosting provider's technical support can assist you with the update.
+Before starting the script update, please update the Ioncube Loader on your server to version 12.0 or higher (if the installed version is below 12 — [**instructions for checking the installed version**](https://premium.gitbook.io/main/en/basic-settings/faq/kak-obnovit-ioncube-loader)). Your hosting provider's technical support can assist you with the update.
 {% endhint %}
 
 {% hint style="warning" %}
@@ -19,7 +19,7 @@ If you are using merchant and auto-payment modules, as well as other types of mo
 
 If something goes wrong during the update, you can always restore your site from the backup. Backup methods may vary depending on your hosting provider, so it's advisable to contact their technical support for assistance.
 
-The easiest way to [**back up your website**](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-sdelat-bekap-saita) is through your server's control panel (ISP Manager or other software) using the built-in file manager or via an FTP client (download the website files to your computer, and also download the database from the database management section or through PhpMyAdmin).
+The easiest way to [**back up your website**](https://premium.gitbook.io/main/en/basic-settings/faq/kak-sdelat-bekap-saita) is through your server's control panel (ISP Manager or other software) using the built-in file manager or via an FTP client (download the website files to your computer, and also download the database from the database management section or through PhpMyAdmin).
 {% endhint %}
 
 1. In the exchange panel, go to the "**Console**" section and enable technical mode to prevent users from making requests on the site during the script update.
@@ -49,7 +49,7 @@ If you **are using** the Webmoney module, do not delete the **`x19`** folder ins
 
 <figure><img src="../../.gitbook/assets/image (1726)_eng.png" alt="" width="491"><figcaption></figcaption></figure>
 
-Upload the downloaded archive to the [root folder of your website](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-naiti-kornevuyu-papku-saita-na-servere) using the <mark style="color:green;">**user created for the site**</mark> (not <mark style="color:red;">**root**</mark>!) and **make sure to extract the archive**.
+Upload the downloaded archive to the [root folder of your website](https://premium.gitbook.io/main/en/basic-settings/faq/kak-naiti-kornevuyu-papku-saita-na-servere) using the <mark style="color:green;">**user created for the site**</mark> (not <mark style="color:red;">**root**</mark>!) and **make sure to extract the archive**.
 
 {% hint style="warning" %}
 **Make sure to complete step 4, even if the license files were previously uploaded to the server — otherwise, the site will not function!**
@@ -61,7 +61,7 @@ Upload the downloaded archive to the [root folder of your website](https://premi
 You need to know the exact PHP version installed on your server to select the appropriate archive.
 
 \
-[**Instructions for checking the PHP version installed on the server**](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-proverit-versiyu-php-ustanovlennuyu-na-servere)
+[**Instructions for checking the PHP version installed on the server**](https://premium.gitbook.io/main/en/basic-settings/faq/kak-proverit-versiyu-php-ustanovlennuyu-na-servere)
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/image (431)_eng.png" alt="" width="563"><figcaption></figcaption></figure>

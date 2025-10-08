@@ -1,7 +1,7 @@
 # Payscrow Cascade
 
 {% hint style="info" %}
-If you need to update the module on the server, please refer to the [instructions](https://premium.gitbook.io/main/en/basic-settings/faq/updating-script-files-on-the-server/how-to-update-files-on-the-server#merchant-and-auto-payout-modules).
+If you need to update the module on the server, please refer to the [instructions](https://premium.gitbook.io/main/en/en/basic-settings/faq/updating-script-files-on-the-server/how-to-update-files-on-the-server#merchant-and-auto-payout-modules).
 {% endhint %}
 
 {% hint style="info" %}
@@ -54,7 +54,7 @@ Merchant Type:
 {% hint style="warning" %}
 The merchant type is fixed to the configured module and cannot be changed after the first application is created using this module.
 
-![](https://premium.gitbook.io/main/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FzcRcd0cY32xbgh1lhGx6%252Fimage_eng.png%3Falt%3Dmedia%26token%3Df1f65b44-fd81-4597-98d5-b705a410977f&width=300&dpr=4&quality=100&sign=57a702c3&sv=2)![](https://premium.gitbook.io/main/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FVQqDVFVlJ7dwBTiSb2Rf%252Fimage_eng.png%3Falt%3Dmedia%26token%3D16a4d0bc-48dc-4280-8e0a-8733cdb18f94&width=300&dpr=4&quality=100&sign=7c7aa62c&sv=2)&#x20;
+![](https://premium.gitbook.io/main/en/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FzcRcd0cY32xbgh1lhGx6%252Fimage_eng.png%3Falt%3Dmedia%26token%3Df1f65b44-fd81-4597-98d5-b705a410977f&width=300&dpr=4&quality=100&sign=57a702c3&sv=2)![](https://premium.gitbook.io/main/en/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FVQqDVFVlJ7dwBTiSb2Rf%252Fimage_eng.png%3Falt%3Dmedia%26token%3D16a4d0bc-48dc-4280-8e0a-8733cdb18f94&width=300&dpr=4&quality=100&sign=7c7aa62c&sv=2)&#x20;
 
 To use a different merchant type, you must create a separate copy, selecting a different type and connecting it in the desired exchange direction.
 {% endhint %}
@@ -73,4 +73,4 @@ To use a different merchant type, you must create a separate copy, selecting a d
 
 ## Continuing the Setup
 
-Next, configure the merchant by following the [general setup instructions](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/merchants/general-merchant-settings).
+Next, configure the merchant by following the [general setup instructions](https://premium.gitbook.io/main/en/en/basic-settings/merchants-and-auto-payments/merchants/general-merchant-settings).

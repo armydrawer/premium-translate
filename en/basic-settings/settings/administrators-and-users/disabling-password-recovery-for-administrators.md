@@ -41,6 +41,6 @@ This eliminates the risk of account takeover via email access.
 
 #### Recommendations
 
-* Use [2FA (two-factor authentication)](https://premium.gitbook.io/main/osnovnye-nastroiki/nastroiki/administratory-i-polzovateli/dvukhfaktornaya-avtorizaciya-2fa-v-paneli-upravleniya-saitom) for all users with admin access.
+* Use [2FA (two-factor authentication)](https://premium.gitbook.io/main/en/basic-settings/nastroiki/administratory-i-polzovateli/dvukhfaktornaya-avtorizaciya-2fa-v-paneli-upravleniya-saitom) for all users with admin access.
 * For password resets, administrators should manually change the password through the admin panel or directly edit it in the database.
 * Check this setting after adding new users with admin access rights.

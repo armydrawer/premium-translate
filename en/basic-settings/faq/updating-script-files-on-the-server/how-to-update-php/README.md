@@ -6,7 +6,7 @@ By following these steps, you can upgrade to the latest PHP version.
 
 ---
 
-### Step 1: [First, check your current PHP version](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-proverit-versiyu-php-ustanovlennuyu-na-servere)
+### Step 1: [First, check your current PHP version](https://premium.gitbook.io/main/en/basic-settings/faq/kak-proverit-versiyu-php-ustanovlennuyu-na-servere)
 
 ---
 

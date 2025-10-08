@@ -1,11 +1,11 @@
 # Alfabit Fiat
 
 {% hint style="danger" %}
-<mark style="color:red;">Before setting up auto payouts, please read the</mark> [<mark style="color:blue;">risk warning!</mark>](https://premium.gitbook.io/main/osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/preduprezhdenie-o-riskakh)
+<mark style="color:red;">Before setting up auto payouts, please read the</mark> [<mark style="color:blue;">risk warning!</mark>](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/auto-payments/risk-warning)
 {% endhint %}
 
 {% hint style="info" %}
-If you need to update the module on the server, please refer to the [instructions](https://premium.gitbook.io/main/en/basic-settings/faq/updating-script-files-on-the-server/how-to-update-files-on-the-server#merchant-and-auto-payout-modules)
+If you need to update the module on the server, please refer to the [instructions](https://premium.gitbook.io/main/en/en/basic-settings/faq/updating-script-files-on-the-server/how-to-update-files-on-the-server#merchant-and-auto-payout-modules)
 {% endhint %}
 
 ## Merchant Account Settings <a href="#nastroiki-v-lichnom-kabinete-merchanta" id="nastroiki-v-lichnom-kabinete-merchanta"></a>
@@ -70,7 +70,7 @@ For each payment method used, a separate copy of the auto payout module must be 
 
 ### Additional Parameters
 
-When using methods that require the parameters `first_name` and `last_name`, you need to add [additional fields for the currency](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya-obmena/dopolnitelnye-polya#dopolnitelnye-polya-dlya-valyuty) for payouts (on the "**Receiving**" side). In the "**Unique ID**" field in the currency settings, make sure to specify this parameter and activate the additional field for the selected currency.
+When using methods that require the parameters `first_name` and `last_name`, you need to add [additional fields for the currency](https://premium.gitbook.io/main/en/basic-settings/valyuty-i-napravleniya-obmena/dopolnitelnye-polya#dopolnitelnye-polya-dlya-valyuty) for payouts (on the "**Receiving**" side). In the "**Unique ID**" field in the currency settings, make sure to specify this parameter and activate the additional field for the selected currency.
 
 <figure><img src="../../../.gitbook/assets/image (1).png" alt="" width="371"><figcaption></figcaption></figure>
 
@@ -78,4 +78,4 @@ When using methods that require the parameters `first_name` and `last_name`, you
 
 ## Continuing the Setup
 
-Next, proceed with the merchant setup by following the [general setup instructions](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/obshie-nastroiki-merchantov-avtovyplat).
+Next, proceed with the merchant setup by following the [general setup instructions](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/auto-payments/obshie-nastroiki-merchantov-avtovyplat).

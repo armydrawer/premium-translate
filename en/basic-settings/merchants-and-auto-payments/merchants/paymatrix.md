@@ -1,7 +1,7 @@
 # Paymatrix
 
 {% hint style="info" %}
-If you need to update the module on the server, please refer to the [instructions](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/faq/kak-obnovit-faily-na-servere#moduli-merchantov).
+If you need to update the module on the server, please refer to the [instructions](https://premium.gitbook.io/main/en/basic-settings/faq/kak-obnovit-faily-na-servere#moduli-merchantov).
 {% endhint %}
 
 {% hint style="warning" %}
@@ -36,4 +36,4 @@ Please note that a separate API key must be issued for each currency (AZN, RUB, 
 
 ## Continuing the Setup
 
-Next, proceed to configure the merchant by following the [general setup instructions](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/merchants/general-merchant-settings).
+Next, proceed to configure the merchant by following the [general setup instructions](https://premium.gitbook.io/main/en/en/basic-settings/merchants-and-auto-payments/merchants/general-merchant-settings).

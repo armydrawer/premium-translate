@@ -51,9 +51,9 @@
 
 **Maintenance Text** — The text that will be displayed on the site when it is in maintenance mode.
 
-**Admin Panel URL** — The URL for logging into the site's admin panel (default URL — `/prmmxchngr/`). If you forget the login URL, you can recover it by following the [instructions](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-vosstanovit-dostup-v-panel-upravleniya-obmennikom#uteryan-url-dlya-vkhoda-v-panel-upravleniya).
+**Admin Panel URL** — The URL for logging into the site's admin panel (default URL — `/prmmxchngr/`). If you forget the login URL, you can recover it by following the [instructions](https://premium.gitbook.io/main/en/basic-settings/faq/kak-vosstanovit-dostup-v-panel-upravleniya-obmennikom#uteryan-url-dlya-vkhoda-v-panel-upravleniya).
 
-**Jivosite.ru ID** — The ID for setting up [online chat on the site](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-ustanovit-onlain-chat).
+**Jivosite.ru ID** — The ID for setting up [online chat on the site](https://premium.gitbook.io/main/en/basic-settings/faq/kak-ustanovit-onlain-chat).
 
 **Jivosite.ru ID (Yandex)** — The ID for tracking statistics with [Yandex.Metrica](https://yandex.ru/support/metrica/integrated-goal/jivo-goal.html).
 
@@ -111,7 +111,7 @@ If your site has low traffic, we recommend always using the "On Server" option.
 
 **"On Server" Option**:
 
-For example, if an interval of 5 minutes is set for the "On Server" option, a task will run every 5 minutes to check the cron task on the server (but if the [cron task](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-sozdat-zadanie-cron-na-servere) for the specified task has **not been created** on the server (link for the task is on the "**Cron File**" button), then the option will not work).
+For example, if an interval of 5 minutes is set for the "On Server" option, a task will run every 5 minutes to check the cron task on the server (but if the [cron task](https://premium.gitbook.io/main/en/basic-settings/faq/kak-sozdat-zadanie-cron-na-servere) for the specified task has **not been created** on the server (link for the task is on the "**Cron File**" button), then the option will not work).
 
 **Optimal Settings for the Section:**
 

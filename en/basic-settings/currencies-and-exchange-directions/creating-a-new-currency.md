@@ -70,7 +70,7 @@ Example: For the currency **Tether(USDT) ERC20**, the XML code should be set to 
 
 <figure><img src="../../.gitbook/assets/image%20(854)_eng.png" alt=""><figcaption></figcaption></figure>
 
-**Currency Reserve** — allows you to calculate the current currency reserve based on completed requests — for this, select the option "**--calculate by requests--**." You can also obtain the current reserve from the wallet in real-time, but for this, you need to set up the corresponding [auto-payment module](https://premium.gitbook.io/rukovodstvo-polzovatelya/navigaciya/merchanty-i-vyplaty/vyplaty), and then select the corresponding wallet from the list. Additionally, you can obtain [reserve from a file](https://premium.gitbook.io/rukovodstvo-polzovatelya/navigaciya/rezervy/rezerv-iz-faila) and calculate it [using a formula](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/rezervy-valyut/rezerv-ot-drugoi-valyuty/primery-nastroiki-slozhnogo-rezerva-s-ispolzovaniem-formul).
+**Currency Reserve** — allows you to calculate the current currency reserve based on completed requests — for this, select the option "**--calculate by requests--**." You can also obtain the current reserve from the wallet in real-time, but for this, you need to set up the corresponding [auto-payment module](https://premium.gitbook.io/main/en/navigaciya/merchanty-i-vyplaty/vyplaty), and then select the corresponding wallet from the list. Additionally, you can obtain [reserve from a file](https://premium.gitbook.io/main/en/navigaciya/rezervy/rezerv-iz-faila) and calculate it [using a formula](https://premium.gitbook.io/main/en/basic-settings/rezervy-valyut/rezerv-ot-drugoi-valyuty/primery-nastroiki-slozhnogo-rezerva-s-ispolzovaniem-formul).
 
 **Link Reserve with Currency Reserve ID** — allows you to make the reserves of currencies interdependent. When the reserve of one currency is updated, the reserve of the other currency will automatically update as well. In the field, you need to specify the ID of the currency (or multiple currencies separated by commas) that need to be linked. This procedure should be repeated for all currencies involved in the linkage.
 
@@ -104,9 +104,9 @@ Example: For the currency **Tether(USDT) ERC20**, the XML code should be set to 
 
 **Tooltip for "From Account/To Account" Field** — allows you to set a tooltip that will appear when the cursor hovers over the field on the exchange page.
 
-**Account Number Validator** — allows you to activate the validation of the correctness of the input for the bank card number or cryptocurrency wallet address. More detailed information is available [here](https://premium.gitbook.io/rukovodstvo-polzovatelya/navigaciya/nastroiki/validator-kripto-koshelka).
+**Account Number Validator** — allows you to activate the validation of the correctness of the input for the bank card number or cryptocurrency wallet address. More detailed information is available [here](https://premium.gitbook.io/main/en/navigaciya/nastroiki/validator-kripto-koshelka).
 
-**Bank Names (on a new line) for this currency on the "Giving/Receiving" side** — [bank card validator settings](https://premium.gitbook.io/main/osnovnye-nastroiki/nastroiki/validator-bankovskoi-karty#opciya-v-nastroikakh-valyuty).
+**Bank Names (on a new line) for this currency on the "Giving/Receiving" side** — [bank card validator settings](https://premium.gitbook.io/main/en/basic-settings/nastroiki/validator-bankovskoi-karty#opciya-v-nastroikakh-valyuty).
 
 ## "Additional Fields" Tab
 

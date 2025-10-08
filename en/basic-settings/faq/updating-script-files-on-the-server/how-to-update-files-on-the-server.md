@@ -12,7 +12,7 @@ All file operations should be performed via the ISP Manager panel under the <mar
 {% endhint %}
 
 {% hint style="info" %}
-To locate the path to the root folder of your website on the server, refer to this [guide](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/faq/kak-naiti-kornevuyu-papku-saita-na-servere).
+To locate the path to the root folder of your website on the server, refer to this [guide](https://premium.gitbook.io/main/en/basic-settings/faq/kak-naiti-kornevuyu-papku-saita-na-servere).
 {% endhint %}
 
 {% hint style="danger" %}

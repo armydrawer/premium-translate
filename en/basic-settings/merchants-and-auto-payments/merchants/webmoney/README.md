@@ -1,7 +1,7 @@
 # WebMoney
 
 {% hint style="info" %}
-If you need to update the module on your server, please refer to the [instructions](https://premium.gitbook.io/main/en/basic-settings/faq/updating-script-files-on-the-server/how-to-update-files-on-the-server#merchant-and-auto-payout-modules).
+If you need to update the module on your server, please refer to the [instructions](https://premium.gitbook.io/main/en/en/basic-settings/faq/updating-script-files-on-the-server/how-to-update-files-on-the-server#merchant-and-auto-payout-modules).
 {% endhint %}
 
 {% hint style="warning" %}
@@ -11,7 +11,7 @@ To ensure the security of your funds in the WebMoney system, we strongly recomme
 
 **Note:** By default, the WebMoney payment merchant does not automatically verify the client's personal data through the XML interface X19.
 
-To enable automatic verification of personal data via the XML interface X19, you will need to configure the X19 module. For more information on how this module works, please refer to the [relevant section](https://premium.gitbook.io/main/osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/webmoney/x19).
+To enable automatic verification of personal data via the XML interface X19, you will need to configure the X19 module. For more information on how this module works, please refer to the [relevant section](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/merchants/webmoney/x19).
 
 For more details about the XML interface X19 and the requirements for WebMoney exchange operations, please read [this link](https://wiki.webmoney.ru/projects/webmoney/wiki/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B9%D1%81_X19).
 
@@ -56,4 +56,4 @@ Fill in the required authorization fields.
 
 ## Continuing Configuration
 
-Next, proceed to configure the merchant by following the [general setup instructions](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/merchants/general-merchant-settings).
+Next, proceed to configure the merchant by following the [general setup instructions](https://premium.gitbook.io/main/en/en/basic-settings/merchants-and-auto-payments/merchants/general-merchant-settings).

@@ -1,17 +1,17 @@
 # Quickex
 
 {% hint style="info" %}
-If you need to update a module on the server, please refer to the [instructions](https://premium.gitbook.io/main/en/basic-settings/faq/updating-script-files-on-the-server/how-to-update-files-on-the-server#merchant-and-auto-payout-modules).
+If you need to update a module on the server, please refer to the [instructions](https://premium.gitbook.io/main/en/en/basic-settings/faq/updating-script-files-on-the-server/how-to-update-files-on-the-server#merchant-and-auto-payout-modules).
 {% endhint %}
 
 {% hint style="warning" %}
 The Quickex module should only be used for transactions in the **cryptocurrency to cryptocurrency** direction.
 
-Please note that in order for the merchant to accept Quickex payments, you must also install the [Quickex auto-payment module](https://premium.gitbook.io/main/osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/quickex) in the same exchange direction. The receiving module processes payments immediately after funds are received from the client, while the auto-payment module confirms the payment to change the status of the request to "**Completed Request**."
+Please note that in order for the merchant to accept Quickex payments, you must also install the [Quickex auto-payment module](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/auto-payments/quickex) in the same exchange direction. The receiving module processes payments immediately after funds are received from the client, while the auto-payment module confirms the payment to change the status of the request to "**Completed Request**."
 
-It is **always necessary** to use the Quickex receiving module in conjunction with the [auto-payment module](https://premium.gitbook.io/main/osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/quickex) (if another auto-payment module is connected in the exchange direction, **double payments will occur**).
+It is **always necessary** to use the Quickex receiving module in conjunction with the [auto-payment module](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/auto-payments/quickex) (if another auto-payment module is connected in the exchange direction, **double payments will occur**).
 
-Additionally, keep in mind that payments are **always** made at the service's exchange rate, so it is highly recommended to use the [Quickex parser](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya-obmena/kursy-valyut/parser-kursov-valyut-parsery-2.0) for the exchange rate in the direction where Quickex is connected, and to enable [request recalculation based on the exchange rate](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya-obmena/sozdanie-novogo-napravleniya#pereschet-po-kursu-obmena) to ensure that the actual payout amount matches the amount in the request.
+Additionally, keep in mind that payments are **always** made at the service's exchange rate, so it is highly recommended to use the [Quickex parser](https://premium.gitbook.io/main/en/basic-settings/valyuty-i-napravleniya-obmena/kursy-valyut/parser-kursov-valyut-parsery-2.0) for the exchange rate in the direction where Quickex is connected, and to enable [request recalculation based on the exchange rate](https://premium.gitbook.io/main/en/basic-settings/valyuty-i-napravleniya-obmena/sozdanie-novogo-napravleniya#pereschet-po-kursu-obmena) to ensure that the actual payout amount matches the amount in the request.
 {% endhint %}
 
 ## Merchant Account Settings
@@ -99,4 +99,4 @@ You can view the network fees for Quickex assets in the [table](https://docs.goo
 
 ## Continuing Setup
 
-Next, configure the merchant by following the [general setup instructions](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/merchants/general-merchant-settings).
+Next, configure the merchant by following the [general setup instructions](https://premium.gitbook.io/main/en/en/basic-settings/merchants-and-auto-payments/merchants/general-merchant-settings).

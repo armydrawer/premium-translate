@@ -83,7 +83,7 @@ Often, standard hosting services have limited options for fine-tuning security, 
 
 1. Log in to Ispmanager as a <mark style="color:red;">**root user**</mark>.
 
-2. Go to the "**PHP**" section, select the PHP version [that your website is using](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-proverit-versiyu-php-ispolzuyushuyusya-dlya-saita) and click the "Extensions" button.
+2. Go to the "**PHP**" section, select the PHP version [that your website is using](https://premium.gitbook.io/main/en/basic-settings/faq/kak-proverit-versiyu-php-ispolzuyushuyusya-dlya-saita) and click the "Extensions" button.
 
 <figure><img src="../../../.gitbook/assets/image (2186)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 

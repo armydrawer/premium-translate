@@ -139,7 +139,7 @@ If the system cannot import the database file and displays an error, manually im
 Use the login and password that were specified during installation.
 
 {% hint style="success" %}
-To use two-factor authentication (2FA) when logging into the admin panel, [set up code delivery through your preferred communication channel](https://premium.gitbook.io/main/osnovnye-nastroiki/nastroiki/administratory-i-polzovateli/dvukhfaktornaya-avtorizaciya-2fa-v-paneli-upravleniya-saitom) (via email, Telegram, SMS, or [through a 2FA app](https://premium.gitbook.io/main/osnovnye-nastroiki/nastroiki/administratory-i-polzovateli/dvukhfaktornaya-avtorizaciya-2fa-v-paneli-upravleniya-saitom#id-2fa-s-ispolzovaniem-prilozheniya)).
+To use two-factor authentication (2FA) when logging into the admin panel, [set up code delivery through your preferred communication channel](https://premium.gitbook.io/main/en/basic-settings/nastroiki/administratory-i-polzovateli/dvukhfaktornaya-avtorizaciya-2fa-v-paneli-upravleniya-saitom) (via email, Telegram, SMS, or [through a 2FA app](https://premium.gitbook.io/main/en/basic-settings/nastroiki/administratory-i-polzovateli/dvukhfaktornaya-avtorizaciya-2fa-v-paneli-upravleniya-saitom#id-2fa-s-ispolzovaniem-prilozheniya)).
 {% endhint %}
 
 ## Installing Additional Modules <a href="#chapter3" id="chapter3"></a>
@@ -154,7 +154,7 @@ The script distribution "out of the box" already includes all available merchant
 
 1.2. Upload the contents of the downloaded archive to your server in the directory `your_domain/wp-content/plugins/premiumbox/merchants.`
 
-Next, configure the module according to the instructions provided in the [user manual](https://premium.gitbook.io/rukovodstvo-polzovatelya/navigaciya/merchanty-i-vyplaty).
+Next, configure the module according to the instructions provided in the [user manual](https://premium.gitbook.io/main/en/navigaciya/merchanty-i-vyplaty).
 
 **2. Auto-Payment Modules**
 
@@ -162,6 +162,6 @@ Next, configure the module according to the instructions provided in the [user m
 
 2.2. Upload the contents of the downloaded archive to your server in the directory `your_domain/wp-content/plugins/premiumbox/paymerchants`.
 
-Next, configure the module according to the instructions provided in the [user manual](https://premium.gitbook.io/rukovodstvo-polzovatelya/navigaciya/merchanty-i-vyplaty/vyplaty).
+Next, configure the module according to the instructions provided in the [user manual](https://premium.gitbook.io/main/en/navigaciya/merchanty-i-vyplaty/vyplaty).
 
 [^1]: The Cyrillic domain should be specified in the format `xn--90aiufb.xn--p1ai`

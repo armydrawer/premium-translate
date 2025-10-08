@@ -1,7 +1,7 @@
 # Payscrow
 
 {% hint style="info" %}
-If you need to update the module on the server, please refer to the [instructions](https://premium.gitbook.io/main/en/basic-settings/faq/updating-script-files-on-the-server/how-to-update-files-on-the-server#merchant-and-auto-payout-modules).
+If you need to update the module on the server, please refer to the [instructions](https://premium.gitbook.io/main/en/en/basic-settings/faq/updating-script-files-on-the-server/how-to-update-files-on-the-server#merchant-and-auto-payout-modules).
 {% endhint %}
 
 {% hint style="info" %}
@@ -25,7 +25,7 @@ For this merchant, payment verification for changing the status of applications 
 
 ![](<../../../../.gitbook/assets/image (1623)_eng.png>)
 
-When using cron, create a job on the server following the [instructions](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-sozdat-zadanie-cron-na-servere).
+When using cron, create a job on the server following the [instructions](https://premium.gitbook.io/main/en/basic-settings/faq/kak-sozdat-zadanie-cron-na-servere).
 
 When using a callback, add the URL from the "**STATUS URL**" field into the "**Purchase Status**" field in the merchant account (under the "**API Settings**" section).
 
@@ -69,4 +69,4 @@ Fill in the required authorization fields.
 
 ## Continuing Setup
 
-Next, configure the merchant by following the [general setup instructions](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/merchants/general-merchant-settings).
+Next, configure the merchant by following the [general setup instructions](https://premium.gitbook.io/main/en/en/basic-settings/merchants-and-auto-payments/merchants/general-merchant-settings).

@@ -8,4 +8,4 @@
 
     <figure><img src="../../../.gitbook/assets/изображение (93)_eng.png" alt=""><figcaption></figcaption></figure>
 
-3. Configure the module following the [instructions](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/khedzhirovanie/nastroiki).
+3. Configure the module following the [instructions](https://premium.gitbook.io/main/en/basic-settings/khedzhirovanie/nastroiki).

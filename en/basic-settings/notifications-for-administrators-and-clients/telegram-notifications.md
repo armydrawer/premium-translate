@@ -3,7 +3,7 @@
 Telegram notifications are essential for informing administrators and users about changes in application statuses or other requests without the need to keep the exchange page open.
 
 {% hint style="warning" %}
-You are currently viewing the guide for creating a Telegram bot to notify clients about their applications. If you need instructions for creating a bot for exchanges, please refer to the [guide](https://premium.gitbook.io/main/osnovnye-nastroiki/telegram-bot-dlya-obmena) in the other section.
+You are currently viewing the guide for creating a Telegram bot to notify clients about their applications. If you need instructions for creating a bot for exchanges, please refer to the [guide](https://premium.gitbook.io/main/en/basic-settings/telegram-bot-dlya-obmena) in the other section.
 {% endhint %}
 
 {% hint style="warning" %}
@@ -112,6 +112,6 @@ If you are using Cloudflare or a similar service for your website, add [Telegram
 2a0a:f280::/32
 ```
 
-An alternative option is to add a pool of IP addresses by ASN (autonomous system number)—the ASN for Telegram and their addition to the whitelist in the Cloudflare account are detailed in the [instructions](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/dobavlenie-ip-adresov-v-whitelist-v-cloudflare).
+An alternative option is to add a pool of IP addresses by ASN (autonomous system number)—the ASN for Telegram and their addition to the whitelist in the Cloudflare account are detailed in the [instructions](https://premium.gitbook.io/main/en/basic-settings/faq/dobavlenie-ip-adresov-v-whitelist-v-cloudflare).
 
 [^1]: (the name can be changed in the exchange settings)

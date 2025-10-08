@@ -10,7 +10,7 @@ We’ve compiled answers to some common questions:
 
 <summary>**"When creating or modifying an order, send an email to the user at the address provided during order creation. The email should include all key exchange parameters and account details of the parties involved."**</summary>
 
-You can configure the sending of account details in the email template (under the "**Messages**" section) by adding the shortcode **\[to\_account]** to the appropriate line (or by using the "**Merchant Account**" shortcode button). Follow the [instructions](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/uvedomleniya/opovesheniya-po-e-mail) to set up email notifications.
+You can configure the sending of account details in the email template (under the "**Messages**" section) by adding the shortcode **\[to\_account]** to the appropriate line (or by using the "**Merchant Account**" shortcode button). Follow the [instructions](https://premium.gitbook.io/main/en/basic-settings/uvedomleniya/opovesheniya-po-e-mail) to set up email notifications.
 
 **For version 2.5:**\
 Go to "**Exchange Settings**" -> "**General Settings**" and select "**Request account details when creating an order**."
@@ -52,7 +52,7 @@ Create a maintenance mode in the "**Maintenance Mode**" section and configure th
 
 #### Current API Version
 
-* Refer to the [API Documentation](https://premium.gitbook.io/main/api-premium-exchanger/api-v1).
+* Refer to the [API Documentation](https://premium.gitbook.io/main/en/api-premium-exchanger/api-v1).
 
 1. Activate the "**API**" module in the "**Modules**" section.\
    ![API Module Screenshot](../../.gitbook/assets/image%20\(602\)_eng.png)
@@ -60,7 +60,7 @@ Create a maintenance mode in the "**Maintenance Mode**" section and configure th
    ![API Settings Screenshot](../../.gitbook/assets/image%20\(603\)_eng.png)
 3. Enable the "**Work with REST API**" option in the user profile settings for the user who will generate the API keys.\
    ![API Key Option Screenshot](../../.gitbook/assets/image%20\(601\)_eng.png)
-4. The user can then [generate API keys](https://premium.gitbook.io/main/api-premium-exchanger/api-v1#poluchenie-api-klyuchei-cherez-lichnyi-kabinet-polzovatelya) independently for accessing the exchange service API.
+4. The user can then [generate API keys](https://premium.gitbook.io/main/en/api-premium-exchanger/api-v1#poluchenie-api-klyuchei-cherez-lichnyi-kabinet-polzovatelya) independently for accessing the exchange service API.
 
 </details>
 
@@ -165,7 +165,7 @@ After these settings, access to the XML file will be restored.
 2. In the admin panel, go to "**Users**," select the user for whom you want to receive notifications, and set "**Yes**" for the "**Login Notification (Email)**" parameter.\
    ![User Notification Settings Screenshot](../../.gitbook/assets/image%20\(2109\)_eng.png)
 
-You can also enable similar notifications for [Telegram](https://premium.gitbook.io/main/osnovnye-nastroiki/uvedomleniya-administratoram-i-klientam/uvedomleniya-v-telegram) and SMS.
+You can also enable similar notifications for [Telegram](https://premium.gitbook.io/main/en/basic-settings/uvedomleniya-administratoram-i-klientam/uvedomleniya-v-telegram) and SMS.
 
 </details>
 

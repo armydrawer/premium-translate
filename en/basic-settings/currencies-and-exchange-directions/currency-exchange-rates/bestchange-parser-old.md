@@ -1,7 +1,7 @@
 # BestChange Parser (Old)
 
 {% hint style="danger" %}
-To automatically update currency rates, **make sure to create a [Cron job](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/faq/kak-sozdat-zadanie-cron-na-servere)** on your server using the link from the "**BestChange Parser**" section — "**Settings**".
+To automatically update currency rates, **make sure to create a [Cron job](https://premium.gitbook.io/main/en/basic-settings/faq/kak-sozdat-zadanie-cron-na-servere)** on your server using the link from the "**BestChange Parser**" section — "**Settings**".
 
 ![](<../../../.gitbook/assets/image (1482)_eng.png>)
 {% endhint %}
@@ -84,7 +84,7 @@ Similar settings for the exchange direction can also be configured in the contro
 
 <figure><img src="../../../.gitbook/assets/image (852)_eng.png" alt=""><figcaption></figcaption></figure>
 
-6. Add a cron job in the [task scheduler](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/faq/kak-sozdat-zadanie-cron-na-servere) that will update the currency rates. The script can be run every minute. Here’s an example command for the task scheduler in Unix format for the ISP Manager control panel:
+6. Add a cron job in the [task scheduler](https://premium.gitbook.io/main/en/basic-settings/faq/kak-sozdat-zadanie-cron-na-servere) that will update the currency rates. The script can be run every minute. Here’s an example command for the task scheduler in Unix format for the ISP Manager control panel:
 
 <figure><img src="../../../.gitbook/assets/image (1339)_eng.png" alt=""><figcaption></figcaption></figure>
 

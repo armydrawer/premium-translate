@@ -5,17 +5,17 @@ Video tutorial for updating the script
 {% endembed %}
 
 {% hint style="success" %}
-A list of updates for version 2.6 is available at [**this link**](https://premium.gitbook.io/main/pered-nachalom-raboty/instrukciya-po-obnovleniyu-skripta/spisok-obnovlenii#versiya-2.6).
+A list of updates for version 2.6 is available at [**this link**](https://premium.gitbook.io/main/en/pered-nachalom-raboty/instrukciya-po-obnovleniyu-skripta/spisok-obnovlenii#versiya-2.6).
 {% endhint %}
 
 {% hint style="warning" %}
-Before starting the script update, please ensure that the Ioncube Loader on your server is updated to version 13.0 or higher (if your current version is below 13, refer to the [**instructions for checking the installed version**](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-proverit-versiyu-ioncube-ustanovlennuyu-na-servere)** and [**instructions for updating**](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-obnovit-ioncube-loader)). Your hosting provider's technical support can assist you with the update.
+Before starting the script update, please ensure that the Ioncube Loader on your server is updated to version 13.0 or higher (if your current version is below 13, refer to the [**instructions for checking the installed version**](https://premium.gitbook.io/main/en/basic-settings/faq/kak-proverit-versiyu-ioncube-ustanovlennuyu-na-servere)** and [**instructions for updating**](https://premium.gitbook.io/main/en/basic-settings/faq/kak-obnovit-ioncube-loader)). Your hosting provider's technical support can assist you with the update.
 {% endhint %}
 
 {% hint style="warning" %}
 Starting from version 2.6, support for **PHP 7.1, 7.2, 7.3**, and **7.4** has been removed for security reasons, and support for **PHP 8.2** has been added. If you were using **PHP 7.4** or lower in version 2.5, you need to update the PHP version on your server before updating the script. We recommend updating PHP through your hosting provider's technical support.
 
-[**Instructions for checking the PHP version installed on the server**](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-proverit-versiyu-php-ustanovlennuyu-na-servere).
+[**Instructions for checking the PHP version installed on the server**](https://premium.gitbook.io/main/en/basic-settings/faq/kak-proverit-versiyu-php-ustanovlennuyu-na-servere).
 {% endhint %}
 
 {% hint style="warning" %}
@@ -33,7 +33,7 @@ If you used the Electrum modules and/or "Trading Actions" in version 2.5, please
 
 If something goes wrong during the update, you can always restore your site from the backup. Backup methods may vary depending on your hosting provider, so you should contact their technical support for assistance.
 
-The easiest way to [**back up your website**](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-sdelat-bekap-saita) is through your server's control panel (ISP Manager or other software) using the built-in file manager or via an FTP client (download the website files to your computer, and also download the database from the database management section or through PhpMyAdmin).
+The easiest way to [**back up your website**](https://premium.gitbook.io/main/en/basic-settings/faq/kak-sdelat-bekap-saita) is through your server's control panel (ISP Manager or other software) using the built-in file manager or via an FTP client (download the website files to your computer, and also download the database from the database management section or through PhpMyAdmin).
 {% endhint %}
 
 {% hint style="warning" %}
@@ -56,11 +56,11 @@ To do this, navigate to the folder on your server at `www/<your_site_name>/wp-co
 * **`/moduls/`** (but first, read the text in the block below)
 
 {% hint style="danger" %}
-- If you **are using** [**internal accounts**](https://premium.gitbook.io/main/osnovnye-nastroiki/nastroiki/vnutrennie-scheta/obmen-s-uchastiem-vnutrennego-scheta-polzovatelya) — do not delete the **domacc** folder inside the **`moduls`** folder.
+- If you **are using** [**internal accounts**](https://premium.gitbook.io/main/en/basic-settings/nastroiki/vnutrennie-scheta/obmen-s-uchastiem-vnutrennego-scheta-polzovatelya) — do not delete the **domacc** folder inside the **`moduls`** folder.
 - If you **are not using** internal accounts — you can delete the **`moduls`** folder entirely.
 
 \
-After updating the script, you need to transfer internal accounts to the new module — [**instructions for transferring**](https://premium.gitbook.io/main/pered-nachalom-raboty/instrukciya-po-obnovleniyu-skripta/obnovlenie-s-versii-2.5-do-2.6#id-2.-obnovlenie-modulya-vnutrennii-schyot-tolko-esli-vnutrennie-scheta-ispolzovalis-v-versii-2.5-.-esl) **(relevant only if you used internal accounts in 2.5)**
+After updating the script, you need to transfer internal accounts to the new module — [**instructions for transferring**](https://premium.gitbook.io/main/en/pered-nachalom-raboty/instrukciya-po-obnovleniyu-skripta/obnovlenie-s-versii-2.5-do-2.6#id-2.-obnovlenie-modulya-vnutrennii-schyot-tolko-esli-vnutrennie-scheta-ispolzovalis-v-versii-2.5-.-esl) **(relevant only if you used internal accounts in 2.5)**
 
 * If you **are using** the Webmoney module, do not delete the **`x19`** folder inside the **`moduls`** folder.
 * If you **are not using** the Webmoney module — you can delete the **`moduls`** folder entirely.
@@ -79,7 +79,7 @@ Go to the "[**Your Licenses**](https://premiumexchanger.com/ulicense/)" section 
 
 <figure><img src="../../.gitbook/assets/image (473)_eng.png" alt="" width="485"><figcaption></figcaption></figure>
 
-Upload the downloaded archive to the [root folder of your website](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-naiti-kornevuyu-papku-saita-na-servere) under <mark style="color:green;">**the user created for the site**</mark> (not <mark style="color:red;">**root**</mark>!) and **be sure to extract the archive**.
+Upload the downloaded archive to the [root folder of your website](https://premium.gitbook.io/main/en/basic-settings/faq/kak-naiti-kornevuyu-papku-saita-na-servere) under <mark style="color:green;">**the user created for the site**</mark> (not <mark style="color:red;">**root**</mark>!) and **be sure to extract the archive**.
 
 {% hint style="danger" %}
 **Make sure to complete step 4, even if the license files were previously uploaded to the server — otherwise, the site will not function!**
@@ -89,7 +89,7 @@ Upload the downloaded archive to the [root folder of your website](https://premi
 
 {% hint style="danger" %}
 You need to know the exact PHP version installed on your server to select the appropriate archive.\
-[**Instructions for checking the PHP version installed on the server**](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-proverit-versiyu-php-ustanovlennuyu-na-servere).
+[**Instructions for checking the PHP version installed on the server**](https://premium.gitbook.io/main/en/basic-settings/faq/kak-proverit-versiyu-php-ustanovlennuyu-na-servere).
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/image (472)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
@@ -158,7 +158,7 @@ After the update, you need to make changes in the admin panel for the script to 
 
 <details>
 
-<summary>2. Update the "<strong>Internal Account</strong>" module (only if <a href="https://premium.gitbook.io/main/osnovnye-nastroiki/nastroiki/vnutrennie-scheta/obmen-s-uchastiem-vnutrennego-scheta-polzovatelya">internal accounts</a> were used in version 2.5!).<br><br>If you have not used internal accounts before and want to use them in version 2.6, skip this step. Activate the iac module in the "<strong>Modules</strong>" section and configure it according to the <a href="https://premium.gitbook.io/main/osnovnye-nastroiki/nastroiki/vnutrennie-scheta">instructions</a>.</summary>
+<summary>2. Update the "<strong>Internal Account</strong>" module (only if <a href="https://premium.gitbook.io/main/en/basic-settings/nastroiki/vnutrennie-scheta/obmen-s-uchastiem-vnutrennego-scheta-polzovatelya">internal accounts</a> were used in version 2.5!).<br><br>If you have not used internal accounts before and want to use them in version 2.6, skip this step. Activate the iac module in the "<strong>Modules</strong>" section and configure it according to the <a href="https://premium.gitbook.io/main/en/basic-settings/nastroiki/vnutrennie-scheta">instructions</a>.</summary>
 
 If you are using the **"Internal Account" (domacc)** module, as well as merchant modules for receiving and auto payouts **domacc**:
 
@@ -178,7 +178,7 @@ Instructions for transitioning to the new module:
 * Disable the old **domacc** module in the "**Modules**" section, and then delete the module from the server (the path to the module folder is `wp-content/plugins/premiumbox/moduls/domacc)`\
   ![](<../../.gitbook/assets/image (1649)_eng.png>)
 * Remove the merchant and auto payout **domacc** modules in the admin panel from the **"Merchants" -> "Merchants"** and **"Merchants" -> "Auto Payouts"** sections, then delete the modules from the server (the paths to the module folders are `wp-content/plugins/premiumbox/moduls/merchants/domacc` and `wp-content/plugins/premiumbox/moduls/paymerchants/domacc`).
-* Add the new merchant and auto payout **iac** in the **"Merchants" -> "Merchants"** and **"Merchants" -> "Auto Payouts"** sections and configure them according to the [instructions](https://premium.gitbook.io/main/osnovnye-nastroiki/nastroiki/vnutrennie-scheta).
+* Add the new merchant and auto payout **iac** in the **"Merchants" -> "Merchants"** and **"Merchants" -> "Auto Payouts"** sections and configure them according to the [instructions](https://premium.gitbook.io/main/en/basic-settings/nastroiki/vnutrennie-scheta).
 * Add the created merchants to the appropriate exchange directions (the "**Merchants and Payouts**" tab in the exchange direction settings).
 
 ![](<../../.gitbook/assets/image (463)_eng.png>)
@@ -197,4 +197,4 @@ Continue with the script update.
 
 3. Starting from version 2.6, the **"Captcha for the Site (Image Selection)" (sitecaptcha_img)** module automatically generates options for users to choose from on the site. In the previous version of the module, you could create your own tasks; starting from version 2.6, this option has been disabled, so changes to the captcha's appearance will be reflected on the site immediately.
 4. After the update, in the "**Exchange Settings**" -> "**General Settings**" section, <mark style="color:red;">**make sure to**</mark> select the logic for handling requests when using receiving merchants for the option "**Action if the merchant fails**."\
-   For more details on how this option works, refer to the "[**General Merchant Settings**](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/merchants/general-merchant-settings#podklyuchenie-neskolkikh-merchantov)" guide.
+   For more details on how this option works, refer to the "[**General Merchant Settings**](https://premium.gitbook.io/main/en/en/basic-settings/merchants-and-auto-payments/merchants/general-merchant-settings#podklyuchenie-neskolkikh-merchantov)" guide.

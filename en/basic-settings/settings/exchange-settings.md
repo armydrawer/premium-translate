@@ -8,7 +8,7 @@ This section displays the main settings for the exchange service, applicable to 
 
 **Update Mode** — The update mode is automatically activated after the exchange service is switched to maintenance mode or after reactivating the Premium Exchanger plugin in the "**Plugins**" section. To return the exchange service to normal operation, this option must be deactivated.
 
-**Remember Successful Security Password Entry** — When this option is enabled, after the first entry of [each set password](https://premium.gitbook.io/main/osnovnye-nastroiki/nastroiki/paroli-bezopasnosti) (such as saving settings in the merchant module, attempting auto-payment, etc.), the password will not be requested again, and the action will be executed immediately.
+**Remember Successful Security Password Entry** — When this option is enabled, after the first entry of [each set password](https://premium.gitbook.io/main/en/basic-settings/nastroiki/paroli-bezopasnosti) (such as saving settings in the merchant module, attempting auto-payment, etc.), the password will not be requested again, and the action will be executed immediately.
 
 **Remove Copy Button in Requests** — When this option is activated, the quick copy button for account details will be removed from the "Requests" section.
 
@@ -20,7 +20,7 @@ This section displays the main settings for the exchange service, applicable to 
 
 <figure><img src="../../.gitbook/assets/image (1777)_eng.png" alt="" width="466"><figcaption></figcaption></figure>
 
-**Type of Currency Exchange Direction Table** — Choose the [table](https://premium.gitbook.io/main/osnovnye-nastroiki/vneshnii-vid/vidy-tablic-napravlenii-obmena) to display on the main page of the website.
+**Type of Currency Exchange Direction Table** — Choose the [table](https://premium.gitbook.io/main/en/basic-settings/appearance/vidy-tablic-napravlenii-obmena) to display on the main page of the website.
 
 **Default Exchange Direction in the Selection Table** — Select the exchange direction that will be displayed by default when navigating to the main page of the website.
 
@@ -73,7 +73,7 @@ This section displays the main settings for the exchange service, applicable to 
 
 <figure><img src="../../.gitbook/assets/image (1798)_eng.png" alt="" width="375"><figcaption></figcaption></figure>
 
-**Text for Acceptance Checkbox Before Creating a Request** — Text for the line accepting the [exchange rules](https://premium.gitbook.io/main/osnovnye-nastroiki/nastroiki/stranicy-pravila-saita-pravila-provedeniya-proverok-aml-kyc-kyt).
+**Text for Acceptance Checkbox Before Creating a Request** — Text for the line accepting the [exchange rules](https://premium.gitbook.io/main/en/basic-settings/nastroiki/stranicy-pravila-saita-pravila-provedeniya-proverok-aml-kyc-kyt).
 
 **Exchange Amount is** — Choose the type of amount that will be used as the main amount for exchange statistics calculations.
 
@@ -96,7 +96,7 @@ This section displays the main settings for the exchange service, applicable to 
 
 <figure><img src="../../.gitbook/assets/image (1803)_eng.png" alt=""><figcaption></figcaption></figure>
 
-* **Yes, Site-wide** — The exchange form (as well as in the [export XML file](https://premium.gitbook.io/main/osnovnye-nastroiki/nastroiki/opisanie-modulei#nastroika-vyvoda-napravlenii-obmena-v-xml-txt-faile)) will display amount limits for both currencies, even if the min or max amount is not filled for one of the two currencies in the "**Exchange Amount**" tab in the exchange direction settings. Amounts that are not specified will be recalculated according to the exchange rate for that exchange direction.
+* **Yes, Site-wide** — The exchange form (as well as in the [export XML file](https://premium.gitbook.io/main/en/basic-settings/nastroiki/opisanie-modulei#nastroika-vyvoda-napravlenii-obmena-v-xml-txt-faile)) will display amount limits for both currencies, even if the min or max amount is not filled for one of the two currencies in the "**Exchange Amount**" tab in the exchange direction settings. Amounts that are not specified will be recalculated according to the exchange rate for that exchange direction.
 
 <figure><img src="../../.gitbook/assets/image (1804)_eng.png" alt=""><figcaption></figcaption></figure>
 
@@ -108,7 +108,7 @@ If the option for "**Dependency of Minimum and Maximum Amount**" is set to "**No
 
 * **Yes, in Export File** — Min/max amounts will be recalculated for the currency in "**Giving**" if no limits were set for that currency in the exchange direction settings; the recalculated values will apply **only** to the XML file, while the exchange form on the website will display only the values specified in the "**Exchange Amount**" tab in the exchange direction settings.
 
-**Send Email to Admin if Admin Changes Request Status** — Disable sending emails to the administrator specified in the "**Messages**" -> "**Email Templates**" section for active [admin templates](https://premium.gitbook.io/main/osnovnye-nastroiki/uvedomleniya-administratoram-i-klientam/uvedomleniya-po-e-mail#nastroika-shablonov-pisem) for request statuses if the administrator manually changes the request status in the "**Requests**" section.
+**Send Email to Admin if Admin Changes Request Status** — Disable sending emails to the administrator specified in the "**Messages**" -> "**Email Templates**" section for active [admin templates](https://premium.gitbook.io/main/en/basic-settings/uvedomleniya-administratoram-i-klientam/uvedomleniya-po-e-mail#nastroika-shablonov-pisem) for request statuses if the administrator manually changes the request status in the "**Requests**" section.
 
 **Calculate Limits "On the Fly"** — Calculate limit amounts for exchange directions.
 

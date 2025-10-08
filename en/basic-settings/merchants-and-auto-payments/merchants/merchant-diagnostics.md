@@ -30,7 +30,7 @@ If the **log was recorded** after payment but the request status did not change,
 
 <figure><img src="../../../.gitbook/assets/image (978)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
-* For some merchants, it is necessary to configure a [task scheduler (Cron)](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/faq/kak-sozdat-zadanie-cron-na-servere) that checks the status of the request after the user makes a payment. Try opening the Cron link in your browser. If the request status changes when you access the link, it means that either the task scheduler is not set up or it is configured incorrectly and does not trigger automatically. Contact your hosting provider's technical support for assistance in setting up the task scheduler.
+* For some merchants, it is necessary to configure a [task scheduler (Cron)](https://premium.gitbook.io/main/en/basic-settings/faq/kak-sozdat-zadanie-cron-na-servere) that checks the status of the request after the user makes a payment. Try opening the Cron link in your browser. If the request status changes when you access the link, it means that either the task scheduler is not set up or it is configured incorrectly and does not trigger automatically. Contact your hosting provider's technical support for assistance in setting up the task scheduler.
 * If the log shows an error indicating that the server's IP address is not in the whitelist, contact the merchant's technical support to request that this IP address be added, and then re-submit the request.
 
 <figure><img src="../../../.gitbook/assets/image (1268)_eng.png" alt="" width="563"><figcaption></figcaption></figure>

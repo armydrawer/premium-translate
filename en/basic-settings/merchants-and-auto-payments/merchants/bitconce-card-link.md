@@ -1,7 +1,7 @@
 # Bitconce Card/Link
 
 {% hint style="info" %}
-If you need to update the module on the server, please refer to the [instructions](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/faq/kak-obnovit-faily-na-servere#moduli-merchantov).
+If you need to update the module on the server, please refer to the [instructions](https://premium.gitbook.io/main/en/basic-settings/faq/kak-obnovit-faily-na-servere#moduli-merchantov).
 {% endhint %}
 
 <details>
@@ -16,7 +16,7 @@ The **Bitconce** module has been split into two separate modules for handling di
 
 If you previously used the **Bitconce** module, depending on the currency you were using (RUB or others), replace it with one of the new modules in the settings of the already created module copy in the "**Merchants**" section (the old module will no longer be supported - <mark style="color:red;">it must also be removed from the server</mark>) and click "**Save**" (see screenshot).
 
-When setting up a merchant from scratch, simply select the appropriate module from the list (if the new modules are not listed, you will need to upload them to the server manually following the [instructions](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-obnovit-faily-na-servere#moduli-merchantov)).
+When setting up a merchant from scratch, simply select the appropriate module from the list (if the new modules are not listed, you will need to upload them to the server manually following the [instructions](https://premium.gitbook.io/main/en/basic-settings/faq/kak-obnovit-faily-na-servere#moduli-merchantov)).
 
 _Please note that the new modules are incompatible with the old module - if you decide to use the new modules, the old module (Bitconce) must be removed from the server. If you choose to continue using the old module (it will work until the merchant-side methods are disabled), nothing will change for you, and you do not need to upload the new modules to the server._
 
@@ -61,7 +61,7 @@ Select a module from the dropdown list. There are two separate modules for Bitco
 <figure><img src="../../../.gitbook/assets/image (626)_eng.png" alt="" width="503"><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
-If the specified modules are not in the dropdown list, upload the modules to the server following the [instructions](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/faq/kak-obnovit-faily-na-servere#moduli-merchantov).
+If the specified modules are not in the dropdown list, upload the modules to the server following the [instructions](https://premium.gitbook.io/main/en/basic-settings/faq/kak-obnovit-faily-na-servere#moduli-merchantov).
 {% endhint %}
 
 Fill in the required authorization fields.
@@ -103,4 +103,4 @@ If the banks you need, as shown in the screenshot below, do not appear in the li
 
 ## Continuing the Setup
 
-Next, proceed to configure the merchant by following the [general setup instructions](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/merchants/general-merchant-settings).
+Next, proceed to configure the merchant by following the [general setup instructions](https://premium.gitbook.io/main/en/en/basic-settings/merchants-and-auto-payments/merchants/general-merchant-settings).

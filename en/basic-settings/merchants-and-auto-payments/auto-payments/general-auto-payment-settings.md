@@ -93,7 +93,7 @@ You can find out the IP address(es) of the payment system that sends payment inf
 * **Cron File Hash** — specify a hash that will complement the Cron job URL (a random set of 20-50 Latin letters and numbers).
 
 {% hint style="danger" %}
-Don't forget to create a Cron job on the server to check the payment - [instructions](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/faq/kak-sozdat-zadanie-cron-na-servere) for setup.
+Don't forget to create a Cron job on the server to check the payment - [instructions](https://premium.gitbook.io/main/en/basic-settings/faq/kak-sozdat-zadanie-cron-na-servere) for setup.
 {% endhint %}
 
 * **Hash for Status/Result URL** — specify a hash that will complement the merchant's status URL. The payment system sends payment information to this URL. If a hash is specified, the status URL becomes unique, enhancing security when working with the merchant. It is recommended to use a hash of 20-50 characters containing Latin letters and numbers. Example hash: `ImYkwGsq2fjhuWypiasqpis8umbxs8umbx`.

@@ -5,5 +5,5 @@
 ***
 
 {% hint style="warning" %}
-You are currently viewing the instructions for creating a currency exchange bot. If you need instructions for creating a bot to notify clients about their requests, please refer to the [instructions](https://premium.gitbook.io/main/osnovnye-nastroiki/uvedomleniya-administratoram-i-polzovatelyam/uvedomleniya-v-telegram) in the other section.
+You are currently viewing the instructions for creating a currency exchange bot. If you need instructions for creating a bot to notify clients about their requests, please refer to the [instructions](https://premium.gitbook.io/main/en/basic-settings/uvedomleniya-administratoram-i-polzovatelyam/uvedomleniya-v-telegram) in the other section.
 {% endhint %}

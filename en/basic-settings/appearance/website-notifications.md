@@ -56,7 +56,7 @@ All created notifications are displayed in the "Notifications" section.
 ![](<../../.gitbook/assets/image (2099)_eng.png>)![](<../../.gitbook/assets/image (2100)_eng.png>)
 
 {% hint style="info" %}
-An alternative option is to specify the desired [RGB code](https://colorscheme.ru/) for the background in the `wp-content/themes/your_theme_name/style.css` file for the **existing** class `.wclosearea` (find the class using Ctrl+F) and [clear the cache in Cloudflare](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-sbrosit-kesh-v-cloudflare) (no server restart is required) to see the changes immediately.
+An alternative option is to specify the desired [RGB code](https://colorscheme.ru/) for the background in the `wp-content/themes/your_theme_name/style.css` file for the **existing** class `.wclosearea` (find the class using Ctrl+F) and [clear the cache in Cloudflare](https://premium.gitbook.io/main/en/basic-settings/faq/kak-sbrosit-kesh-v-cloudflare) (no server restart is required) to see the changes immediately.
 
 In this case, you do not need to fill in the "**CSS Class**" field in the admin panel.
 

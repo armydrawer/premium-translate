@@ -23,9 +23,9 @@ Video instructions for updating the script
 {% hint style="warning" %}
 You may need to update **ionCube Loader** and **WordPress** for the script to function correctly.
 
-[Instructions for updating ionCube Loader](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/faq/kak-obnovit-ioncube-loader)
+[Instructions for updating ionCube Loader](https://premium.gitbook.io/main/en/basic-settings/faq/kak-obnovit-ioncube-loader)
 
-[Instructions for updating WordPress](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/faq/kak-obnovit-wordpress)
+[Instructions for updating WordPress](https://premium.gitbook.io/main/en/basic-settings/faq/kak-obnovit-wordpress)
 {% endhint %}
 
 ### Troubleshooting After the Update

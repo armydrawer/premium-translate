@@ -49,7 +49,7 @@ If you encounter an infinite redirect loop, adjust the server control panel sett
 If requests take too long to create or fail altogether:
 
 1. Disable the SMTP server in the "**Messages -> Email Templates**" section if you are using outgoing mail. Then, check the request creation speed.
-2. If the request creation speed improves, switch to one of the [recommended SMTP servers](https://premium.gitbook.io/main/osnovnye-nastroiki/uvedomleniya-administratoram-i-polzovatelyam/uvedomleniya-po-e-mail#nastroika-smtp).
+2. If the request creation speed improves, switch to one of the [recommended SMTP servers](https://premium.gitbook.io/main/en/basic-settings/uvedomleniya-administratoram-i-polzovatelyam/uvedomleniya-po-e-mail#nastroika-smtp).
 
 ![Example Image](../../.gitbook/assets/image%20(1515)_eng.png)
 
@@ -346,7 +346,7 @@ Over time, the "Merchant Logs" and "Auto-Payout Logs" modules can accumulate a l
 You can configure automatic log cleanup in the "Settings - Logging Settings" section:  
 ![](<../../.gitbook/assets/image (1371)_eng.png>)
 
-In the "**Settings**" → "**Cron**" section, copy the cron job link and create a cron job on your server following [this guide](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/faq/kak-sozdat-zadanie-cron-na-servere) (set the execution time to once every 24 hours or less frequently).
+In the "**Settings**" → "**Cron**" section, copy the cron job link and create a cron job on your server following [this guide](https://premium.gitbook.io/main/en/basic-settings/faq/kak-sozdat-zadanie-cron-na-servere) (set the execution time to once every 24 hours or less frequently).
 
 ![](<../../.gitbook/assets/image (672)_eng.png>)![](<../../.gitbook/assets/image (673)_eng.png>)  
 
@@ -398,7 +398,7 @@ Go to the "**Settings → Permalinks**" section and click the "**Save Changes**"
 
 ![](<../../.gitbook/assets/image (606)_eng.png>)
 
-After this, check the display of exchange directions. If the changes are not immediately visible, [clear the cache in Cloudflare](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-sbrosit-kesh-v-cloudflare) (if you are using it).
+After this, check the display of exchange directions. If the changes are not immediately visible, [clear the cache in Cloudflare](https://premium.gitbook.io/main/en/basic-settings/faq/kak-sbrosit-kesh-v-cloudflare) (if you are using it).
 
 </details>
 
@@ -420,7 +420,7 @@ In your Cloudflare account settings, go to the "SSL/TLS" section and set the "Yo
 <details>
 <summary>Admin panel errors after script update</summary>
 
-Check the contents of the `userdata.php` file by following [this guide](https://premium.gitbook.io/rukovodstvo-polzovatelya/pered-nachalom-raboty/instrukciya-po-obnovleniyu#ustranenie-nepoladok-posle-obnovleniya).
+Check the contents of the `userdata.php` file by following [this guide](https://premium.gitbook.io/main/en/pered-nachalom-raboty/instrukciya-po-obnovleniyu#ustranenie-nepoladok-posle-obnovleniya).
 
 </details>
 
@@ -579,7 +579,7 @@ This command will display the disk's inode usage (the number of files). Dependin
 
 ## **Server Configuration Settings**
 
-Check the [**Settings** -> **Cron**](https://premium.gitbook.io/main/osnovnye-nastroiki/nastroiki/obshie-nastroiki#cron) section to ensure the settings match the provided instructions. If you’ve modified these settings previously, revert them to their original state.
+Check the [**Settings** -> **Cron**](https://premium.gitbook.io/main/en/basic-settings/nastroiki/obshie-nastroiki#cron) section to ensure the settings match the provided instructions. If you’ve modified these settings previously, revert them to their original state.
 
 ---
 

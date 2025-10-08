@@ -247,7 +247,7 @@ The minimum permissible amount for this trading step (specified in the currency 
 The maximum permissible amount for this trading step (specified in the currency being purchased in this step, as per the "**Currency Code**" field). If the amount in the request exceeds this maximum, the step will not be executed.
 
 ### Add Withdrawal Fee  
-• **Yes** — select **Yes** if the newly purchased currency is to be paid out via the [Binance Auto-Payout Module](https://premium.gitbook.io/main/osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/binance).  
+• **Yes** — select **Yes** if the newly purchased currency is to be paid out via the [Binance Auto-Payout Module](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/auto-payments/binance).  
 • **No**
 
 ### Add Trading Fee  

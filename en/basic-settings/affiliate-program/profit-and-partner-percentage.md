@@ -3,7 +3,7 @@
 {% hint style="warning" %}
 Make sure to specify the actual internal exchange rate to USD for currencies used in exchange directions with activated partner rewards.
 
-To do this, go to the "**Currencies**" → "**Currency Codes**" section, manually set the exchange rate to USD for the selected currencies, or use the auto-correction feature (add the necessary rates following the [instructions](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya-obmena/kursy-valyut/parser-kursov-valyut-parsery-2.0)).
+To do this, go to the "**Currencies**" → "**Currency Codes**" section, manually set the exchange rate to USD for the selected currencies, or use the auto-correction feature (add the necessary rates following the [instructions](https://premium.gitbook.io/main/en/basic-settings/valyuty-i-napravleniya-obmena/kursy-valyut/parser-kursov-valyut-parsery-2.0)).
 
 <h3 align="center"><img src="../../.gitbook/assets/image%20(2206)_eng.png" alt="" data-size="original"></h3>
 {% endhint %}

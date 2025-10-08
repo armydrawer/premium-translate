@@ -9,7 +9,7 @@ Use one of the methods below to regain access.
 {% hint style="info" %}
 If you’ve lost your password, first try resetting it using the dedicated form on the website: **`https://your_domain/lostpass/`**. If you receive an email with instructions to reset your password, follow the steps provided in the email.
 
-If you don’t receive the email, it could mean that either password resets are disabled for this user due to security settings, or the [email template](https://premium.gitbook.io/main/osnovnye-nastroiki/uvedomleniya-administratoram-i-klientam/uvedomleniya-po-e-mail#nastroika-shablonov-pisem) for this type of notification hasn’t been configured.
+If you don’t receive the email, it could mean that either password resets are disabled for this user due to security settings, or the [email template](https://premium.gitbook.io/main/en/basic-settings/uvedomleniya-administratoram-i-klientam/uvedomleniya-po-e-mail#nastroika-shablonov-pisem) for this type of notification hasn’t been configured.
 {% endhint %}
 
 In this case, you’ll need to manually reset the password for the existing administrator user.
@@ -23,7 +23,7 @@ In this case, you’ll need to manually reset the password for the existing admi
 <figure><img src="../../.gitbook/assets/Screenshot_33_eng.png" alt=""><figcaption></figcaption></figure>
 
 3. Save the changes. Ensure the file is encoded in UTF-8 without BOM.
-4. Upload the **`setpass.php`** file to the [root directory](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/faq/kak-naiti-kornevuyu-papku-saita-na-servere) of your website.
+4. Upload the **`setpass.php`** file to the [root directory](https://premium.gitbook.io/main/en/basic-settings/faq/kak-naiti-kornevuyu-papku-saita-na-servere) of your website.
 5. Access the file in your browser at **`https://your_domain/setpass.php`**. A blank page will appear, indicating the password has been updated to the one specified in the file.
 6. Log in to the admin panel as usual (typically at **`https://your_domain/prmmxchngr`**) using the new password.
 7. Delete the **`setpass.php`** file from the root directory.
@@ -47,7 +47,7 @@ The **`PN_ADMIN_GOWP`** directive temporarily resets the admin panel login URL t
 <figure><img src="../../.gitbook/assets/image (1030)_eng.png" alt=""><figcaption><p>File: userdata.php</p></figcaption></figure>
 
 3. Log in to the website at the standard URL **`https://your_domain/wp-admin/`** without entering a PIN code.
-4. Adjust the necessary [settings](https://premium.gitbook.io/rukovodstvo-polzovatelya/navigaciya/nastroiki/dvukhfaktornaya-avtorizaciya-2fa-v-paneli-upravleniya-saitom) to ensure proper notification functionality.
+4. Adjust the necessary [settings](https://premium.gitbook.io/main/en/navigaciya/nastroiki/dvukhfaktornaya-avtorizaciya-2fa-v-paneli-upravleniya-saitom) to ensure proper notification functionality.
 5. Revert the **true** value back to **false** in the **`userdata.php`** file.
 
 ---
@@ -90,7 +90,7 @@ If you’re locked out of the admin panel due to IP restrictions, you’ll need 
 <figure><img src="../../.gitbook/assets/Screenshot_34_eng.png" alt=""><figcaption></figcaption></figure>
 
 3. Save the changes. Ensure the file is encoded in UTF-8 without BOM.
-4. Upload the **`createuser.php`** file to the [root directory](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/faq/kak-naiti-kornevuyu-papku-saita-na-servere) of your website.
+4. Upload the **`createuser.php`** file to the [root directory](https://premium.gitbook.io/main/en/basic-settings/faq/kak-naiti-kornevuyu-papku-saita-na-servere) of your website.
 5. Access the file in your browser at **`https://your_domain/createuser.php`**. A blank page will appear, indicating the new user has been created.
 6. Log in to the admin panel as usual (typically at **`https://your_domain/prmmxchngr`**) using the new credentials.
 7. Delete the **`createuser.php`** file from the root directory.

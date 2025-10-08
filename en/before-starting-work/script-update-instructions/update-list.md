@@ -120,7 +120,7 @@
 
     ![Response time settings](../../.gitbook/assets/image%20\(271\)_eng.png)
 
-The application will change its status to "**Pending**" and revert to the previous status (if the client's details are successfully verified) or to "**AML Check Failed**" (if the risk threshold is exceeded) after receiving a response from the AML service. To enable this feature, you need to set up a [cron job](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-sozdat-zadanie-cron-na-servere) on the server (the link for the job can be found in the "AML" section).
+The application will change its status to "**Pending**" and revert to the previous status (if the client's details are successfully verified) or to "**AML Check Failed**" (if the risk threshold is exceeded) after receiving a response from the AML service. To enable this feature, you need to set up a [cron job](https://premium.gitbook.io/main/en/basic-settings/faq/kak-sozdat-zadanie-cron-na-servere) on the server (the link for the job can be found in the "AML" section).
 
 {% hint style="warning" %}
 The above option applies only to applications that have already been created (if the verification for this exchange direction is enabled as "**Upon Payment**" or "**Before Auto-Payment**").
@@ -167,7 +167,7 @@ Here’s a naturalistic English translation of the provided text:
 
 ***
 
-* **Email Confirmation Module Replacement**: After the update, you need to deactivate and then remove the **rconfirm** module from the server and replace it with the **confirmregmail** module. For more details, refer to the [**update instructions**](https://premium.gitbook.io/main/pered-nachalom-raboty/instrukciya-po-obnovleniyu-skripta/obnovlenie-s-versii-2.5-do-2.6#izmeneniya-v-paneli-administratora). If you install version 2.6 of the script from scratch, the **rconfirm** module will not be included by default.
+* **Email Confirmation Module Replacement**: After the update, you need to deactivate and then remove the **rconfirm** module from the server and replace it with the **confirmregmail** module. For more details, refer to the [**update instructions**](https://premium.gitbook.io/main/en/pered-nachalom-raboty/instrukciya-po-obnovleniyu-skripta/obnovlenie-s-versii-2.5-do-2.6#izmeneniya-v-paneli-administratora). If you install version 2.6 of the script from scratch, the **rconfirm** module will not be included by default.
 * **Template Text Separation**: A new feature has been added that allows you to separate the text in the exchange direction template, which will be displayed when working with requests via the API and the website using shortcodes.
 * **Financial Statistics Section**: The financial statistics module now includes overall statistics on the number of exchanges and the total amount exchanged in USD for the selected period.
 * **"Proceed to Payment" Button**: You can now hide the button in the merchant settings if the payment details are displayed in the text for the "New Request" status using the shortcode `[to_account]`.
@@ -178,7 +178,7 @@ Here’s a naturalistic English translation of the provided text:
 * **Module Access**: Access to modules is available to all users with access to the admin panel, but activation and deactivation of modules are restricted to administrators.
 * **Creating Requests Without Authorization**: You can now create a request without authorization in directions that require verification of details, provided that the account/card number has been previously verified.
 * **Coupons**: A new module called **"Discount Coupons"** has been added to provide personalized discounts to clients in the form of promo codes. The module settings can be found in the "**Discount Coupons**" section. When the module is activated, an optional "**Discount Coupon**" field will appear in the exchange form (this field can be activated for each exchange direction in the "**Restrictions and Checks**" tab).
-* **Using Multiple Merchants for Payment**: An option has been added to utilize other merchants (if multiple merchants are used in the settings) in exchange directions if the primary merchant does not provide payment details for any reason. For more information on how this option works, refer to the [**instructions**](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/merchants/general-merchant-settings#podklyuchenie-neskolkikh-merchantov).
+* **Using Multiple Merchants for Payment**: An option has been added to utilize other merchants (if multiple merchants are used in the settings) in exchange directions if the primary merchant does not provide payment details for any reason. For more information on how this option works, refer to the [**instructions**](https://premium.gitbook.io/main/en/en/basic-settings/merchants-and-auto-payments/merchants/general-merchant-settings#podklyuchenie-neskolkikh-merchantov).
 * **Payment Systems**: You can now sort payment systems by name in the "**Currencies**" -> "**Payment Systems**" section.
 * **Parser Search**: A search field has been added for finding parsers by text in the exchange direction settings (under the "**Auto-Correction of Rates**" tab). The search will include the entire string, including the rate itself.
 * **Country Sorting**: The sorting of countries by code has been replaced with sorting by country name in the "**Restrictions and Checks**" tab of the exchange direction settings.
@@ -227,7 +227,7 @@ Text error display on the button in the application.
 
 ***
 
-* **Internal Accounts:** A new version of the internal account module (**iac**) has been released, allowing for merchant and auto-payment functionality with the option to pay to an internal account via API. The old version of the modules (**domacc**) has been removed from the script starting from version 2.6. More details on transferring already added accounts to the new module can be found in the [**update instructions**](https://premium.gitbook.io/main/pered-nachalom-raboty/instrukciya-po-obnovleniyu-skripta/obnovlenie-s-versii-2.5-do-2.6#izmeneniya-v-paneli-administratora).
+* **Internal Accounts:** A new version of the internal account module (**iac**) has been released, allowing for merchant and auto-payment functionality with the option to pay to an internal account via API. The old version of the modules (**domacc**) has been removed from the script starting from version 2.6. More details on transferring already added accounts to the new module can be found in the [**update instructions**](https://premium.gitbook.io/main/en/pered-nachalom-raboty/instrukciya-po-obnovleniyu-skripta/obnovlenie-s-versii-2.5-do-2.6#izmeneniya-v-paneli-administratora).
 
 ***
 

@@ -15,7 +15,7 @@ Go to the "**Trading Actions -> Add Action**" section, enter a name for the trad
 <figure><img src="../../../.gitbook/assets/image (607)_eng.png" alt="" width="392"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-[General instructions for configuring trading action parameters](https://premium.gitbook.io/main/osnovnye-nastroiki/modul-torgovye-deistviya/sozdanie-torgovogo-deistviya/parametry-torgovykh-deistvii)
+[General instructions for configuring trading action parameters](https://premium.gitbook.io/main/en/basic-settings/modul-torgovye-deistviya/sozdanie-torgovogo-deistviya/parametry-torgovykh-deistvii)
 {% endhint %}
 
 Within the module, you can create one of two actions: "**Sell**" or "**Buy**."
@@ -25,7 +25,7 @@ Within the module, you can create one of two actions: "**Sell**" or "**Buy**."
 {% hint style="info" %}
 The "**Sell**" action is suitable when you want to convert the currency received from a client’s request into a stablecoin like USDT (or another currency you find appropriate).
 
-The "**Buy**" action is suitable when you don’t want to maintain a reserve of the payout currency in your exchange accounts and instead plan to purchase the currency for payout only when a client submits a request to buy that currency from your exchange. In this case, you need to use the [Yobit auto-payout module](https://premium.gitbook.io/main/osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/yobit) to pay out the currency immediately after purchasing it.
+The "**Buy**" action is suitable when you don’t want to maintain a reserve of the payout currency in your exchange accounts and instead plan to purchase the currency for payout only when a client submits a request to buy that currency from your exchange. In this case, you need to use the [Yobit auto-payout module](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/auto-payments/yobit) to pay out the currency immediately after purchasing it.
 {% endhint %}
 
 To ensure the action is executed correctly, it’s important to select the currencies you plan to work with in the "**Currency Code**" and "**Trading Currency Code**" fields.

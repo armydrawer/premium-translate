@@ -5,7 +5,7 @@ The "**Phone Verification Before Creating a Request**" module allows you to veri
 <figure><img src="../../.gitbook/assets/image%20(170)_eng.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
-To use this module, [SMS notifications](https://premium.gitbook.io/main/osnovnye-nastroiki/uvedomleniya-administratoram-i-klientam/uvedomleniya-po-sms) must also be configured.
+To use this module, [SMS notifications](https://premium.gitbook.io/main/en/basic-settings/uvedomleniya-administratoram-i-klientam/uvedomleniya-po-sms) must also be configured.
 {% endhint %}
 
 In the "**Modules**" -> "**Phone Verification Before Creating a Request**" section, configure the module:

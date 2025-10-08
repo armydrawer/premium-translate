@@ -84,7 +84,7 @@ Module settings can be found in the "**Merchants" → "Account Number Validator"
 
 This module allows users to undergo identity verification with the option to upload images.
 
-For more details about the module's capabilities, please refer to [this link](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/verifikaciya/verifikaciya-lichnosti).
+For more details about the module's capabilities, please refer to [this link](https://premium.gitbook.io/main/en/basic-settings/verifikaciya/verifikaciya-lichnosti).
 
 </details>
 
@@ -94,7 +94,7 @@ For more details about the module's capabilities, please refer to [this link](ht
 
 This module allows all registered users to verify their accounts by uploading images/photos.
 
-For example, a user can upload a photo of the front side of their bank card. There is also an option to restrict request creation for unverified accounts on the site. For more details about the module's settings, please refer to [this link](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/verifikaciya/verifikaciya-scheta).
+For example, a user can upload a photo of the front side of their bank card. There is also an option to restrict request creation for unverified accounts on the site. For more details about the module's settings, please refer to [this link](https://premium.gitbook.io/main/en/basic-settings/verifikaciya/verifikaciya-scheta).
 
 </details>
 
@@ -114,7 +114,7 @@ Module settings can be found in the "**Appearance" → "Widgets" → "Request St
 
 This module allows users to make exchanges on the site using their internal account, which is accessible in their personal dashboard.
 
-For more details about the module's capabilities, please refer to [this link](https://premium.gitbook.io/main/osnovnye-nastroiki/nastroiki/vnutrennie-scheta/obmen-s-uchastiem-vnutrennego-scheta-polzovatelya).
+For more details about the module's capabilities, please refer to [this link](https://premium.gitbook.io/main/en/basic-settings/nastroiki/vnutrennie-scheta/obmen-s-uchastiem-vnutrennego-scheta-polzovatelya).
 
 </details>
 
@@ -522,7 +522,7 @@ You can find the module settings in the "**Feedback**" section.
 
 This module allows you to link the exchange rate for a direction to a value found in a special file.
 
-For more details about the module's capabilities, read [this link](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/kursy-valyut/kursy-valyut-iz-faila).
+For more details about the module's capabilities, read [this link](https://premium.gitbook.io/main/en/basic-settings/kursy-valyut/kursy-valyut-iz-faila).
 
 </details>
 
@@ -542,7 +542,7 @@ You can find the module settings in the "**Parsers 2.0**" section.
 
 This module allows you to link the currency reserve to a value found in a special file.
 
-For more details about the module's capabilities, read [this link](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/rezervy/rezerv-iz-faila).
+For more details about the module's capabilities, read [this link](https://premium.gitbook.io/main/en/basic-settings/rezervy/rezerv-iz-faila).
 
 </details>
 
@@ -552,7 +552,7 @@ For more details about the module's capabilities, read [this link](https://premi
 
 This module allows you to set up an affiliate program on the website.
 
-For more details about the module's capabilities, read [this link](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/partnerskaya-programma).
+For more details about the module's capabilities, read [this link](https://premium.gitbook.io/main/en/basic-settings/partnerskaya-programma).
 
 </details>
 
@@ -674,7 +674,7 @@ You can find the module settings under "**Operational Status."**
 
 This module simplifies operations when using a large number of exchange point details during manual exchanges.
 
-For more information about the module's capabilities, read [here](https://premium.gitbook.io/main/osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/ispolzovanie-svoikh-kart-koshelkov-schetov).
+For more information about the module's capabilities, read [here](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/merchants/ispolzovanie-svoikh-kart-koshelkov-schetov).
 
 </details>
 
@@ -844,7 +844,7 @@ You can find the module settings under "**Modules" → "Exchange Export," "Expor
 
 <summary>BestChange Parser</summary>
 
-For more information about the module's capabilities, read [here](https://premium.gitbook.io/main/osnovnye-nastroiki/kursy-valyut/bestchange-parser).
+For more information about the module's capabilities, read [here](https://premium.gitbook.io/main/en/basic-settings/kursy-valyut/bestchange-parser).
 
 </details>
 
@@ -912,7 +912,7 @@ You can find the module settings under "**SEO."**
 
 This module allows you to send emails from the site via SMTP.
 
-For more information about the module's capabilities, read [here](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/uvedomleniya/opovesheniya-po-e-mail#nastroika-smtp).
+For more information about the module's capabilities, read [here](https://premium.gitbook.io/main/en/basic-settings/uvedomleniya/opovesheniya-po-e-mail#nastroika-smtp).
 
 </details>
 

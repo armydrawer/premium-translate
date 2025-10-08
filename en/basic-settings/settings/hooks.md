@@ -351,7 +351,7 @@ function del_iam_pay_merchant_pay_button($link) {
 
 ### Bestchange Parser (Deprecated)
 
-<mark style="color:red;">**Before installing hooks, make sure to update the script itself according to**</mark> [<mark style="color:red;">**the instructions**</mark>](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/diagnostika-i-reshenie-oshibok-pri-rabote-so-skriptom#obnovlenie-failov-skripta-na-servere)<mark style="color:red;">**!**</mark>
+<mark style="color:red;">**Before installing hooks, make sure to update the script itself according to**</mark> [<mark style="color:red;">**the instructions**</mark>](https://premium.gitbook.io/main/en/basic-settings/faq/diagnostika-i-reshenie-oshibok-pri-rabote-so-skriptom#obnovlenie-failov-skripta-na-servere)<mark style="color:red;">**!**</mark>
 
 The hook works on module version 2.6.1/2.7.1 and above (**using your own proxy**):
 

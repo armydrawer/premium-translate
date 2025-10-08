@@ -6,7 +6,7 @@ In the "**Merchants"** -> "**Merchants**" section, click the "**Add**" button. I
 
 <figure><img src="../../../.gitbook/assets/image (1092)_eng.png" alt=""><figcaption></figcaption></figure>
 
-Configure the module according to the [general settings for merchant modules](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/merchants/general-merchant-settings):
+Configure the module according to the [general settings for merchant modules](https://premium.gitbook.io/main/en/en/basic-settings/merchants-and-auto-payments/merchants/general-merchant-settings):
 
 <figure><img src="../../../.gitbook/assets/изображение (62)_eng.png" alt=""><figcaption></figcaption></figure>
 

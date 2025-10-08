@@ -42,5 +42,5 @@ Steps to follow:
 
     <figure><img src="../../../.gitbook/assets/image (2198)_eng.png" alt="" width="430"><figcaption></figcaption></figure>
 * Immediately change the password for this account to a new, more complex one (that hasn't been used before).
-* Enable [**two-factor authentication (2FA)**](https://premium.gitbook.io/main/osnovnye-nastroiki/nastroiki/administratory-i-polzovateli/dvukhfaktornaya-avtorizaciya-2fa-v-paneli-upravleniya-saitom) if it hasn't been turned on yet.
+* Enable [**two-factor authentication (2FA)**](https://premium.gitbook.io/main/en/basic-settings/nastroiki/administratory-i-polzovateli/dvukhfaktornaya-avtorizaciya-2fa-v-paneli-upravleniya-saitom) if it hasn't been turned on yet.
 * Notify the security team or senior administrator.

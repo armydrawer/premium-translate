@@ -3,7 +3,7 @@
 {% embed url="https://www.youtube.com/watch?v=KJieFpov2JE" %}
 
 {% hint style="danger" %}
-To automatically update currency rates, **make sure to create a** [**Cron job**](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/faq/kak-sozdat-zadanie-cron-na-servere) on your server using the link from the "**Parsers 2.0**" section — "**Settings**"
+To automatically update currency rates, **make sure to create a** [**Cron job**](https://premium.gitbook.io/main/en/basic-settings/faq/kak-sozdat-zadanie-cron-na-servere) on your server using the link from the "**Parsers 2.0**" section — "**Settings**"
 
 <img src="../../../.gitbook/assets/image%20(1481)_eng.png" alt="" data-size="original">
 {% endhint %}
@@ -49,7 +49,7 @@ To activate the parser, go to the "**Parsers 2.0" → "Settings"** section and c
 
 Upon successful update of the currency rates, you will see the word "**Completed**" on the opened page.
 
-If this does not happen or a different message is displayed, check the [**Parser Logs**](https://premium.gitbook.io/rukovodstvo-polzovatelya/navigaciya/nastroiki/logirovanie/logi-parserov-2.0) (the "**Parsing Logging**" option in the general settings must be enabled beforehand) and read the logs received.
+If this does not happen or a different message is displayed, check the [**Parser Logs**](https://premium.gitbook.io/main/en/navigaciya/nastroiki/logirovanie/logi-parserov-2.0) (the "**Parsing Logging**" option in the general settings must be enabled beforehand) and read the logs received.
 
 {% hint style="warning" %}
 If rates are not updating for one or more sources, or if the parser is not working initially, check access to the data source from your server's IP address.
@@ -68,7 +68,7 @@ If the response shows currency rates, then the source is accessible from your se
 {% endhint %}
 
 {% hint style="info" %}
-To quickly receive notifications about parsing errors for currency rates, you can set up notifications via [email](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/uvedomleniya-administratoram-i-polzovatelyam/uvedomleniya-po-e-mail) and in [Telegram](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/uvedomleniya-administratoram-i-polzovatelyam/uvedomleniya-v-telegram).
+To quickly receive notifications about parsing errors for currency rates, you can set up notifications via [email](https://premium.gitbook.io/main/en/basic-settings/uvedomleniya-administratoram-i-polzovatelyam/uvedomleniya-po-e-mail) and in [Telegram](https://premium.gitbook.io/main/en/basic-settings/uvedomleniya-administratoram-i-polzovatelyam/uvedomleniya-v-telegram).
 
 <img src="../../../.gitbook/assets/image%20(1434)_eng.png" alt="" data-size="original"><img src="../../../.gitbook/assets/image%20(1435)_eng.png" alt="" data-size="original">
 {% endhint %}
@@ -183,4 +183,4 @@ After that, the data from the source will appear in the "**Parsers 2.0**" ➔ "*
 
 ## Automatic Rate Updates
 
-To automatically update the rates, you need to set up a [cron job on the server](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-sozdat-zadanie-cron-na-servere). In the "**Parsers 2.0**" ➔ "**Settings**" section, at the top of the page, there is a link labeled "**Cron URL for Updating Central Bank and Cryptocurrency Rates**," which you need to add to the cron job scheduler on the server.
+To automatically update the rates, you need to set up a [cron job on the server](https://premium.gitbook.io/main/en/basic-settings/faq/kak-sozdat-zadanie-cron-na-servere). In the "**Parsers 2.0**" ➔ "**Settings**" section, at the top of the page, there is a link labeled "**Cron URL for Updating Central Bank and Cryptocurrency Rates**," which you need to add to the cron job scheduler on the server.

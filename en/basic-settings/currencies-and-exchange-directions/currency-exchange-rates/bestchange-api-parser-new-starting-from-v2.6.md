@@ -9,7 +9,7 @@ Due to technical reasons, it is not possible to transfer settings from the Bestc
 {% endhint %}
 
 {% hint style="danger" %}
-To automatically update exchange rates, **it is essential** to create a [Cron job](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/faq/kak-sozdat-zadanie-cron-na-servere) on your server using the link from the "**BestChange API Parser**" -> "**Settings**" section.
+To automatically update exchange rates, **it is essential** to create a [Cron job](https://premium.gitbook.io/main/en/basic-settings/faq/kak-sozdat-zadanie-cron-na-servere) on your server using the link from the "**BestChange API Parser**" -> "**Settings**" section.
 
 <img src="../../../.gitbook/assets/image%20(415)_eng.png" alt="" data-size="original">
 

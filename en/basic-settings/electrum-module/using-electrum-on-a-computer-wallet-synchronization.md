@@ -7,7 +7,7 @@ If you want to use the **Electrum** wallet on your computer as well, keep the fo
 
 Download Electrum for your operating system from the [official website](https://download.electrum.org/4.4.6/) (**make sure to use the latest version, 4.4.6**).
 
-Install the software and create a new wallet by following the [instructions (steps 9–12)](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/modul-electrum/ustanovka-i-nastroika-electrum#ustanovka-electrum-na-kompyuter-i-sozdanie-koshelka).
+Install the software and create a new wallet by following the [instructions (steps 9–12)](https://premium.gitbook.io/main/en/basic-settings/modul-electrum/ustanovka-i-nastroika-electrum#ustanovka-electrum-na-kompyuter-i-sozdanie-koshelka).
 
 ## Wallet Synchronization
 

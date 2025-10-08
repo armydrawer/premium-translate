@@ -28,7 +28,7 @@ A list of users who have been invited by your partners.
 
 On this page, you can set the levels of the affiliate program, as well as specify the total amount of exchanges and the corresponding percentage of affiliate payouts for that amount. You can create an unlimited number of levels.
 
-Affiliate rewards are calculated based on either the [profit of the exchange service](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/partnerskaya-programma/pribyl-i-partnerskii-procent#otchisleniya-ot-pribyli-obmennika) or the [amount of the exchange](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/partnerskaya-programma/pribyl-i-partnerskii-procent#otchisleniya-ot-summy-obmena). Affiliate rewards are cumulative.
+Affiliate rewards are calculated based on either the [profit of the exchange service](https://premium.gitbook.io/main/en/basic-settings/partnerskaya-programma/pribyl-i-partnerskii-procent#otchisleniya-ot-pribyli-obmennika) or the [amount of the exchange](https://premium.gitbook.io/main/en/basic-settings/partnerskaya-programma/pribyl-i-partnerskii-procent#otchisleniya-ot-summy-obmena). Affiliate rewards are cumulative.
 
 To ensure that partners receive payouts from referred clients, you must set the profit value in the settings of each exchange direction. If the profit value is zero, no affiliate rewards will be paid. Pay attention to the "**Affiliate Program**" tab when creating or editing an exchange direction, as you will find additional settings there.
 
@@ -38,7 +38,7 @@ Once the minimum withdrawal amount is reached, partners can request a withdrawal
 
 The exchange service administrator receives email notifications when a partner submits a withdrawal request, provided that this notification is not disabled in the exchange settings.
 
-## [**Banners**](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/partnerskaya-programma/bannery-partnerov)
+## [**Banners**](https://premium.gitbook.io/main/en/basic-settings/partnerskaya-programma/bannery-partnerov)
 
 The service allows the use of two types of promotional materials: graphic and text.
 
@@ -101,7 +101,7 @@ After this, the selected user will follow an individual operational principle fo
     <figure><img src="../../.gitbook/assets/image (2054)_eng.png" alt="" width="312"><figcaption></figcaption></figure>
 * **Yes, Discount Amount** — the discount amount from a specific request will be considered.
 
-**Show Sections** — check the boxes for the sections that [will be displayed](https://premium.gitbook.io/main/osnovnye-nastroiki/vneshnii-vid/lichnyi-kabinet-klienta) in the user's personal account on the exchange.
+**Show Sections** — check the boxes for the sections that [will be displayed](https://premium.gitbook.io/main/en/basic-settings/appearance/lichnyi-kabinet-klienta) in the user's personal account on the exchange.
 
 **Consider Affiliate Payouts in Reserves** — when calculating reserves for currencies, partner withdrawals will be included.
 

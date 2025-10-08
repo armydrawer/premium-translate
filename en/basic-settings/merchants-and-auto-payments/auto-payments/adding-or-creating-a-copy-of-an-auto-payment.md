@@ -12,4 +12,4 @@ By default, the system already has all available auto-payments set up, but let's
 * **Module** — Select the name of the payment system for which you are creating the module.
 * **Status** — Choose "**active auto-payment**."
 
-3. For further auto-payment settings, follow the [instructions](https://premium.gitbook.io/main/osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty) specific to each payment system.
+3. For further auto-payment settings, follow the [instructions](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/avtovyplaty) specific to each payment system.

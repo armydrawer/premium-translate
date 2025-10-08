@@ -1,13 +1,13 @@
 # Electrum
 
 {% hint style="info" %}
-If you need to update the module on the server, please refer to the [instructions](https://premium.gitbook.io/main/en/basic-settings/faq/updating-script-files-on-the-server/how-to-update-files-on-the-server#merchant-and-auto-payout-modules).
+If you need to update the module on the server, please refer to the [instructions](https://premium.gitbook.io/main/en/en/basic-settings/faq/updating-script-files-on-the-server/how-to-update-files-on-the-server#merchant-and-auto-payout-modules).
 {% endhint %}
 
 {% hint style="danger" %}
 Electrum allows for the cancellation and substitution of transactions, which can lead to the loss of funds for the exchange if the settings mentioned below are not configured in your exchange and a fraudster attempts to exploit this feature of Electrum. If you are using a module to work with Electrum, **make sure** to perform the following configuration.
 
-When using merchants to receive funds, it is necessary to [recalculate the payment amount](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya/sozdanie-novogo-napravleniya-obmena#pereschet-po-summe-oplaty) at least for the status "**Paid Request**" in the exchange direction settings.
+When using merchants to receive funds, it is necessary to [recalculate the payment amount](https://premium.gitbook.io/main/en/basic-settings/valyuty-i-napravleniya/sozdanie-novogo-napravleniya-obmena#pereschet-po-summe-oplaty) at least for the status "**Paid Request**" in the exchange direction settings.
 
 ![](<../../../.gitbook/assets/image (329)_eng.png>)
 
@@ -17,14 +17,14 @@ You must also configure the automatic transition of requests to the status "**Un
 {% endhint %}
 
 {% hint style="warning" %}
-For receiving funds and for auto payouts, it is **recommended** to use [different Electrum wallets](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/modul-electrum/ustanovka-i-nastroika-electrum/sozdanie-dopolnitelnogo-koshelka) — this will create independent channels for receiving and withdrawing BTC.
+For receiving funds and for auto payouts, it is **recommended** to use [different Electrum wallets](https://premium.gitbook.io/main/en/basic-settings/modul-electrum/ustanovka-i-nastroika-electrum/sozdanie-dopolnitelnogo-koshelka) — this will create independent channels for receiving and withdrawing BTC.
 
 This measure is necessary to prevent the withdrawal of "dirty" BTC. If you receive and pay everything to one wallet, there is a risk that "dirty" BTC will be withdrawn along with clean funds.
 {% endhint %}
 
 ## Installation and Configuration of the Module
 
-Install Electrum on the server following the [instructions](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/modul-electrum/ustanovka-i-nastroika-electrum).
+Install Electrum on the server following the [instructions](https://premium.gitbook.io/main/en/basic-settings/modul-electrum/ustanovka-i-nastroika-electrum).
 
 Make sure to save the port number for connection, server address (optional), username, and password for wallet access in a text file.
 
@@ -55,4 +55,4 @@ If the Electrum module is installed on the same server as the Premium Exchanger 
 
 ## Continuing the Configuration
 
-Next, proceed to configure the merchant by following the [general setup instructions](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/merchants/general-merchant-settings).
+Next, proceed to configure the merchant by following the [general setup instructions](https://premium.gitbook.io/main/en/en/basic-settings/merchants-and-auto-payments/merchants/general-merchant-settings).

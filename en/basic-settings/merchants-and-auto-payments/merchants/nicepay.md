@@ -1,7 +1,7 @@
 # Nicepay
 
 {% hint style="info" %}
-If you need to update the module on the server, please refer to the [instructions](https://premium.gitbook.io/main/en/basic-settings/faq/updating-script-files-on-the-server/how-to-update-files-on-the-server#merchant-and-auto-payout-modules).
+If you need to update the module on the server, please refer to the [instructions](https://premium.gitbook.io/main/en/en/basic-settings/faq/updating-script-files-on-the-server/how-to-update-files-on-the-server#merchant-and-auto-payout-modules).
 {% endhint %}
 
 ## Settings in the Merchant's Personal Account
@@ -17,7 +17,7 @@ You can use the exchange rates from Nicepay for currency conversion. To do this,
 
 ![](<../../../.gitbook/assets/image (23)_eng.png>)
 
-Then, create the necessary exchange rates by following the [instructions](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya-obmena/kursy-valyut/parser-kursov-valyut-parsery-2.0).
+Then, create the necessary exchange rates by following the [instructions](https://premium.gitbook.io/main/en/basic-settings/valyuty-i-napravleniya-obmena/kursy-valyut/parser-kursov-valyut-parsery-2.0).
 
 Available currency exchange rates:
 
@@ -90,4 +90,4 @@ Please note that the selected method is fixed in the module after the first appl
 
 ## Continuing the Setup
 
-Next, configure the merchant by following the [general setup instructions](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/merchants/general-merchant-settings).
+Next, configure the merchant by following the [general setup instructions](https://premium.gitbook.io/main/en/en/basic-settings/merchants-and-auto-payments/merchants/general-merchant-settings).

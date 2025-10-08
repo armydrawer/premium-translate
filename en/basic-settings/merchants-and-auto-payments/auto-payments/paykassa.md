@@ -1,11 +1,11 @@
 # PayKassa
 
 {% hint style="danger" %}
-<mark style="color:red;">Before setting up automatic payouts, please read the</mark> [risk warning](https://premium.gitbook.io/main/osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplat/preduprezhdenie-o-riskakh)!
+<mark style="color:red;">Before setting up automatic payouts, please read the</mark> [risk warning](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/avtovyplat/preduprezhdenie-o-riskakh)!
 {% endhint %}
 
 {% hint style="info" %}
-If you need to update the module on the server, please refer to the [instructions](https://premium.gitbook.io/main/en/basic-settings/faq/updating-script-files-on-the-server/how-to-update-files-on-the-server#merchant-and-auto-payout-modules).
+If you need to update the module on the server, please refer to the [instructions](https://premium.gitbook.io/main/en/en/basic-settings/faq/updating-script-files-on-the-server/how-to-update-files-on-the-server#merchant-and-auto-payout-modules).
 {% endhint %}
 
 ## Merchant Account Settings
@@ -42,7 +42,7 @@ Fill in the required authorization fields.
 
 <figure><img src="../../../.gitbook/assets/image (1258)_eng.png" alt="" width="447"><figcaption></figcaption></figure>
 
-**Store ID for payouts** - you need to create a merchant following the [instructions](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/paykassa#nastroiki-v-lichnom-kabinete-merchanta) and specify its ID.
+**Store ID for payouts** - you need to create a merchant following the [instructions](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/merchants/paykassa#nastroiki-v-lichnom-kabinete-merchanta) and specify its ID.
 
 **API ID** - the API ID from your PayKassa account.
 
@@ -61,6 +61,6 @@ Fill in the required authorization fields.
 
 ## Continue Configuration
 
-Next, configure the merchant by following the [general setup instructions](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/obshie-nastroiki-merchantov-avtovyplat).
+Next, configure the merchant by following the [general setup instructions](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/auto-payments/obshie-nastroiki-merchantov-avtovyplat).
 
 [^1]: The average transaction time is between twenty minutes to an hour, but during network congestion, transaction times can increase significantly.

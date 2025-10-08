@@ -26,7 +26,7 @@ In Telegram, send a message **/newbot** to [@BotFather](https://t.me/BotFather) 
 * **API Server** — the address of your website without specifying the **http(s)** protocol. For example: **obmen.com**
 
 {% hint style="info" %}
-Instructions on how to create an "**API login**" and "**API key**" can be found in [this](https://premium.gitbook.io/rukovodstvo-polzovatelya/api-premium-exchanger/api) guide.
+Instructions on how to create an "**API login**" and "**API key**" can be found in [this](https://premium.gitbook.io/main/en/api-premium-exchanger/api) guide.
 {% endhint %}
 
 * **API Login** — the login from the API section

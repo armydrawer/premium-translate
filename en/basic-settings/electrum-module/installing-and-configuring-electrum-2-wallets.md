@@ -206,5 +206,5 @@ After installing Electrum or changing the wallet/password, you **must** restart 
 
 After installing Electrum on the server, configure the connection to the Electrum wallets in the admin panel:
 
-- [Instructions for setting up a merchant to receive BTC](https://premium.gitbook.io/main/osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/electrum)
-- [Instructions for setting up a merchant for BTC payouts](https://premium.gitbook.io/main/osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/electrum)
+- [Instructions for setting up a merchant to receive BTC](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/merchants/electrum)
+- [Instructions for setting up a merchant for BTC payouts](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/auto-payments/electrum)

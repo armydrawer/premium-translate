@@ -1,20 +1,20 @@
 # Electrum
 
 {% hint style="danger" %}
-<mark style="color:red;">Before setting up auto payouts, please read the</mark> [<mark style="color:blue;">risk warning</mark>](https://premium.gitbook.io/main/osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/preduprezhdenie-o-riskakh)<mark style="color:blue;">!</mark>
+<mark style="color:red;">Before setting up auto payouts, please read the</mark> [<mark style="color:blue;">risk warning</mark>](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/auto-payments/risk-warning)<mark style="color:blue;">!</mark>
 {% endhint %}
 
 {% hint style="info" %}
-If you need to update the module on the server, please refer to the [instructions](https://premium.gitbook.io/main/en/basic-settings/faq/updating-script-files-on-the-server/how-to-update-files-on-the-server#merchant-and-auto-payout-modules).
+If you need to update the module on the server, please refer to the [instructions](https://premium.gitbook.io/main/en/en/basic-settings/faq/updating-script-files-on-the-server/how-to-update-files-on-the-server#merchant-and-auto-payout-modules).
 {% endhint %}
 
 {% hint style="warning" %}
-It is **recommended** to use [different Electrum wallets](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/modul-electrum/ustanovka-i-nastroika-electrum/sozdanie-dopolnitelnogo-koshelka) for receiving funds and for auto payouts.
+It is **recommended** to use [different Electrum wallets](https://premium.gitbook.io/main/en/basic-settings/modul-electrum/ustanovka-i-nastroika-electrum/sozdanie-dopolnitelnogo-koshelka) for receiving funds and for auto payouts.
 {% endhint %}
 
 ## Installation and Setup of the Module
 
-Install Electrum on the server following the [instructions](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/modul-electrum/ustanovka-i-nastroika-electrum).
+Install Electrum on the server following the [instructions](https://premium.gitbook.io/main/en/basic-settings/modul-electrum/ustanovka-i-nastroika-electrum).
 
 Make sure to save the wallet password, the port number for connection, the server address (optional), and the login and password for wallet access in a text file.
 
@@ -76,7 +76,7 @@ The current fee for sending a payment is automatically requested from the [Mempo
 
 &#x20; _Recommended value = 5_.
 
-6. **CRON (mass payments)** — a link for setting up a cron job that needs to be [added to the task scheduler on the server](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/faq/kak-sozdat-zadanie-cron-na-servere). This task checks for available requests for payout and initiates the payout if there are any.
+6. **CRON (mass payments)** — a link for setting up a cron job that needs to be [added to the task scheduler on the server](https://premium.gitbook.io/main/en/basic-settings/faq/kak-sozdat-zadanie-cron-na-servere). This task checks for available requests for payout and initiates the payout if there are any.
 
 &#x20; _Recommended execution time - once every minute_.
 
@@ -88,4 +88,4 @@ With these settings, mass payouts will occur after 5 minutes if 20 paid requests
 
 ## Continuing the Setup
 
-Next, proceed to configure the merchant by following the [general setup instructions](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/obshie-nastroiki-merchantov-avtovyplat).
+Next, proceed to configure the merchant by following the [general setup instructions](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/auto-payments/obshie-nastroiki-merchantov-avtovyplat).

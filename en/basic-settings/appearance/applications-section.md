@@ -73,7 +73,7 @@ When auto-payment is enabled, the request will display the auto-payment transact
 
 ![Auto-Payment Details](../../.gitbook/assets/image (1618)_eng.png)
 
-When [AML verification](https://premium.gitbook.io/main/osnovnye-nastroiki/proverka-aml) is enabled for cryptocurrency exchanges, the request will display the likelihood of receiving "dirty" currency and a "**Check**" button for manually initiating the verification.
+When [AML verification](https://premium.gitbook.io/main/en/basic-settings/aml-verification) is enabled for cryptocurrency exchanges, the request will display the likelihood of receiving "dirty" currency and a "**Check**" button for manually initiating the verification.
 
 ![AML Verification](../../.gitbook/assets/image (1617)_eng.png)
 
@@ -83,7 +83,7 @@ Let’s look at other parameters of the request:
 ![Request Parameters](../../.gitbook/assets/image (543)_eng.png)
 
 * **Rate** — the rate at the time the request was created.
-* The action window appears when using the paid [Trading Actions module](https://premium.gitbook.io/main/osnovnye-nastroiki/modul-torgovye-deistviya) and is intended for initiating trading actions based on the request.
+* The action window appears when using the paid [Trading Actions module](https://premium.gitbook.io/main/en/basic-settings/modul-torgovye-deistviya) and is intended for initiating trading actions based on the request.
 
 ![Action Window](../../.gitbook/assets/image (547)_eng.png)
 
@@ -93,14 +93,14 @@ Let’s look at other parameters of the request:
 ![Modification Date](../../.gitbook/assets/image (544)_eng.png)
 
 * **Giving** — the currency the customer is giving.
-* **Amount (with fees)** — the amount considering the [exchange point fees](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya/sozdanie-novogo-napravleniya-obmena#vkladka-komissii-obmennogo-punkta) (if fees are added).
-* **Amount (with fees)** — the amount considering both the exchange point fees and the [payment system fees](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya/sozdanie-novogo-napravleniya-obmena#vkladka-komissii-platezhnykh-sistem) (if fees are added).
+* **Amount (with fees)** — the amount considering the [exchange point fees](https://premium.gitbook.io/main/en/basic-settings/valyuty-i-napravleniya/sozdanie-novogo-napravleniya-obmena#vkladka-komissii-obmennogo-punkta) (if fees are added).
+* **Amount (with fees)** — the amount considering both the exchange point fees and the [payment system fees](https://premium.gitbook.io/main/en/basic-settings/valyuty-i-napravleniya/sozdanie-novogo-napravleniya-obmena#vkladka-komissii-platezhnykh-sistem) (if fees are added).
 
 ![Giving Details](../../.gitbook/assets/image (545)_eng.png)
 
 * **Receiving** — the currency the customer is receiving.
-* **Amount (with fees)** — the amount considering the [exchange point fees](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya/sozdanie-novogo-napravleniya-obmena#vkladka-komissii-obmennogo-punkta) (if fees are added).
-* **Amount (with fees)** — the amount considering both the exchange point fees and the [payment system fees](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya/sozdanie-novogo-napravleniya-obmena#vkladka-komissii-platezhnykh-sistem) (if fees are added).
+* **Amount (with fees)** — the amount considering the [exchange point fees](https://premium.gitbook.io/main/en/basic-settings/valyuty-i-napravleniya/sozdanie-novogo-napravleniya-obmena#vkladka-komissii-obmennogo-punkta) (if fees are added).
+* **Amount (with fees)** — the amount considering both the exchange point fees and the [payment system fees](https://premium.gitbook.io/main/en/basic-settings/valyuty-i-napravleniya/sozdanie-novogo-napravleniya-obmena#vkladka-komissii-platezhnykh-sistem) (if fees are added).
 * **To Account** — the account specified by the customer when creating the request.
 
 ![Receiving Details](../../.gitbook/assets/image (546)_eng.png)

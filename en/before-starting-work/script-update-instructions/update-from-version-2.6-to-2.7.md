@@ -1,11 +1,11 @@
 # Update from Version 2.6 to 2.7
 
 {% hint style="success" %}
-A list of updates for the script version 2.7 is available at [**this link**](https://premium.gitbook.io/main/pered-nachalom-raboty/instrukciya-po-obnovleniyu-skripta/spisok-obnovlenii#versiya-2.7).
+A list of updates for the script version 2.7 is available at [**this link**](https://premium.gitbook.io/main/en/pered-nachalom-raboty/instrukciya-po-obnovleniyu-skripta/spisok-obnovlenii#versiya-2.7).
 {% endhint %}
 
 {% hint style="warning" %}
-Before starting the script update, please update the Ioncube Loader on your server to version 14.0 or higher (if your current version is below 14 — refer to the [**instructions for checking the installed version**](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-proverit-versiyu-ioncube-ustanovlennuyu-na-servere)** and the [**update instructions**](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-obnovit-ioncube-loader)). Your hosting provider's technical support can assist you with the update.
+Before starting the script update, please update the Ioncube Loader on your server to version 14.0 or higher (if your current version is below 14 — refer to the [**instructions for checking the installed version**](https://premium.gitbook.io/main/en/basic-settings/faq/kak-proverit-versiyu-ioncube-ustanovlennuyu-na-servere)** and the [**update instructions**](https://premium.gitbook.io/main/en/basic-settings/faq/kak-obnovit-ioncube-loader)). Your hosting provider's technical support can assist you with the update.
 {% endhint %}
 
 {% hint style="warning" %}
@@ -30,7 +30,7 @@ To do this, navigate to the folder on your server at `www/<site_name>/wp-content
 
 If something goes wrong during the update, you can always restore your site from the backup. Backup methods may vary depending on your hosting, so it's advisable to contact your hosting provider's technical support for assistance.
 
-The simplest way to [**back up your site**](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-sdelat-bekap-saita) is through the server control panel (ISP Manager or other software) using the built-in file manager or via an FTP client (download the site files to your computer, and also download the site's database from the database management section or through PhpMyAdmin).
+The simplest way to [**back up your site**](https://premium.gitbook.io/main/en/basic-settings/faq/kak-sdelat-bekap-saita) is through the server control panel (ISP Manager or other software) using the built-in file manager or via an FTP client (download the site files to your computer, and also download the site's database from the database management section or through PhpMyAdmin).
 {% endhint %}
 
 ## Update Process
@@ -65,7 +65,7 @@ Go to the "[**Your Licenses**](https://premiumexchanger.com/ulicense/)" section 
 
 <figure><img src="../../.gitbook/assets/image (255)_eng.png" alt="" width="430"><figcaption></figcaption></figure>
 
-Upload the downloaded archive to the [root folder of your site](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-naiti-kornevuyu-papku-saita-na-servere) using the <mark style="color:green;">**user created for the site**</mark> (not <mark style="color:red;">**root**</mark>!) and **make sure to extract the archive**.
+Upload the downloaded archive to the [root folder of your site](https://premium.gitbook.io/main/en/basic-settings/faq/kak-naiti-kornevuyu-papku-saita-na-servere) using the <mark style="color:green;">**user created for the site**</mark> (not <mark style="color:red;">**root**</mark>!) and **make sure to extract the archive**.
 
 {% hint style="danger" %}
 **Make sure to complete step 4, even if the license files were previously uploaded to the server — otherwise, the site will not function!**
@@ -75,7 +75,7 @@ Upload the downloaded archive to the [root folder of your site](https://premium.
 
 {% hint style="danger" %}
 You need to know the exact PHP version installed on your server to select the appropriate archive.\
-[**Instructions for checking the PHP version installed on the server**](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-proverit-versiyu-php-ustanovlennuyu-na-servere).
+[**Instructions for checking the PHP version installed on the server**](https://premium.gitbook.io/main/en/basic-settings/faq/kak-proverit-versiyu-php-ustanovlennuyu-na-servere).
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/image (257)_eng.png" alt="" width="563"><figcaption></figcaption></figure>

@@ -1,7 +1,7 @@
 # Quixfer
 
 {% hint style="info" %}
-If you need to update the module on the server, please refer to the [instructions](https://premium.gitbook.io/main/en/basic-settings/faq/updating-script-files-on-the-server/how-to-update-files-on-the-server#merchant-and-auto-payout-modules).
+If you need to update the module on the server, please refer to the [instructions](https://premium.gitbook.io/main/en/en/basic-settings/faq/updating-script-files-on-the-server/how-to-update-files-on-the-server#merchant-and-auto-payout-modules).
 {% endhint %}
 
 ## Settings in the Merchant's Personal Account
@@ -50,13 +50,13 @@ To correctly receive the details for the currency being accepted through Quixfer
 
 <figure><img src="../../../.gitbook/assets/image (5) (1) (1)_eng.png" alt=""><figcaption></figcaption></figure>
 
-Create and add an [additional field](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya-obmena/dopolnitelnye-polya) for the relevant currencies to receive funds via Quixfer. Be sure to specify a value in the "**Unique ID**" field according to the table above (use lowercase letters) and make the field mandatory.
+Create and add an [additional field](https://premium.gitbook.io/main/en/basic-settings/valyuty-i-napravleniya-obmena/dopolnitelnye-polya) for the relevant currencies to receive funds via Quixfer. Be sure to specify a value in the "**Unique ID**" field according to the table above (use lowercase letters) and make the field mandatory.
 
-<figure><img src="https://premium.gitbook.io/main/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FyBUMmdMiMlEvL4OlAoxr%252Fimage_eng.png%3Falt%3Dmedia%26token%3D9669cfff-79cc-49fb-a222-50ecccb3fa5e&#x26;width=300&#x26;dpr=4&#x26;quality=100&#x26;sign=50a9f19f&#x26;sv=2" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="https://premium.gitbook.io/main/en/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FyBUMmdMiMlEvL4OlAoxr%252Fimage_eng.png%3Falt%3Dmedia%26token%3D9669cfff-79cc-49fb-a222-50ecccb3fa5e&#x26;width=300&#x26;dpr=4&#x26;quality=100&#x26;sign=50a9f19f&#x26;sv=2" alt="" width="375"><figcaption></figcaption></figure>
 
 After this, the field will appear in the exchange form and will be mandatory for clients when creating a request.
 
-<figure><img src="https://premium.gitbook.io/main/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FcoBFe70zmN1JtepEFM68%252Fimage_eng.png%3Falt%3Dmedia%26token%3Da5a19b16-bc6f-425d-89ed-bb07c7065e00&#x26;width=300&#x26;dpr=4&#x26;quality=100&#x26;sign=d8ed43c6&#x26;sv=2" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="https://premium.gitbook.io/main/en/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FcoBFe70zmN1JtepEFM68%252Fimage_eng.png%3Falt%3Dmedia%26token%3Da5a19b16-bc6f-425d-89ed-bb07c7065e00&#x26;width=300&#x26;dpr=4&#x26;quality=100&#x26;sign=d8ed43c6&#x26;sv=2" alt="" width="375"><figcaption></figcaption></figure>
 
 Example of filling out for the currency T-Bank RUB (highlighted names from the "Unique ID" fields):
 
@@ -68,4 +68,4 @@ Example of filling out for the currency Bank transfer GEL (Georgian Lari):
 
 ## Continuing the Setup
 
-Next, configure the merchant by following the [general setup instructions](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/merchants/general-merchant-settings).
+Next, configure the merchant by following the [general setup instructions](https://premium.gitbook.io/main/en/en/basic-settings/merchants-and-auto-payments/merchants/general-merchant-settings).

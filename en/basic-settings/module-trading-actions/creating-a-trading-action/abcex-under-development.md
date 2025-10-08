@@ -7,7 +7,7 @@ To discuss terms and set up a connection, please contact a [service representati
 {% endhint %}
 
 {% hint style="success" %}
-[General Guide for Configuring Trade Action Parameters](https://premium.gitbook.io/main/osnovnye-nastroiki/modul-torgovye-deistviya/sozdanie-torgovogo-deistviya/parametry-torgovykh-deistvii)
+[General Guide for Configuring Trade Action Parameters](https://premium.gitbook.io/main/en/basic-settings/modul-torgovye-deistviya/sozdanie-torgovogo-deistviya/parametry-torgovykh-deistvii)
 {% endhint %}
 
 Go to the "**Trade Actions**" section ➔ "**Add Action**," enter a name for the trade action in the "**Title**" field, select ABCEx from the dropdown menu in the "**Module**" field, leave the status as "**Active Action**," and click "**Save**."
@@ -23,7 +23,7 @@ In the module, you can create one of two actions — "**Sell**" or "**Buy**."
 {% hint style="info" %}
 The "<mark style="color:red;">**Sell**</mark>" action is suitable when you want to convert the amount received from a client into a stablecoin like USDT (or another currency of your choice).
 
-The "<mark style="color:green;">**Buy**</mark>" action is suitable when you do not want to maintain a reserve of the payout currency in your exchange account and plan to purchase the currency for payout only when a client submits a request to buy that currency from your exchange. In this case, you need to use the [ABCEx auto-payout module](https://premium.gitbook.io/main/osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/abcex) to process the payout immediately after the purchase.
+The "<mark style="color:green;">**Buy**</mark>" action is suitable when you do not want to maintain a reserve of the payout currency in your exchange account and plan to purchase the currency for payout only when a client submits a request to buy that currency from your exchange. In this case, you need to use the [ABCEx auto-payout module](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/auto-payments/abcex) to process the payout immediately after the purchase.
 
 Example: **Exchange Direction BTC - USDT**.\
 If you want to <mark style="color:red;">**sell**</mark> the equivalent of the amount received from the client on the ABCEx exchange (e.g., BTC, receiving USDT), select the "**Give**" amount in the trade action settings for the "**Sell**" action (currencies should be set to "**Auto**" to "**Auto**" or specify BTC in the "**Currency Code**" field).\

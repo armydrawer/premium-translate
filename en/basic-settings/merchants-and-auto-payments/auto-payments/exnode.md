@@ -1,15 +1,15 @@
 # Exnode
 
 {% hint style="danger" %}
-<mark style="color:red;">Before setting up automatic payouts, please read the</mark> [<mark style="color:blue;">risk warning</mark>](https://premium.gitbook.io/main/osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/preduprezhdenie-o-riskakh)<mark style="color:blue;">!</mark>
+<mark style="color:red;">Before setting up automatic payouts, please read the</mark> [<mark style="color:blue;">risk warning</mark>](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/auto-payments/risk-warning)<mark style="color:blue;">!</mark>
 {% endhint %}
 
 {% hint style="info" %}
-If you need to update the module on the server, please refer to the [instructions](https://premium.gitbook.io/main/en/basic-settings/faq/updating-script-files-on-the-server/how-to-update-files-on-the-server#merchant-and-auto-payout-modules).
+If you need to update the module on the server, please refer to the [instructions](https://premium.gitbook.io/main/en/en/basic-settings/faq/updating-script-files-on-the-server/how-to-update-files-on-the-server#merchant-and-auto-payout-modules).
 {% endhint %}
 
 {% hint style="warning" %}
-Since callbacks from Exnode may be filtered by Cloudflare (if you are using it), you need to request the current IP addresses from Exnode and whitelist them according to the [instructions](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/dobavlenie-ip-adresov-v-whitelist-v-cloudflare).
+Since callbacks from Exnode may be filtered by Cloudflare (if you are using it), you need to request the current IP addresses from Exnode and whitelist them according to the [instructions](https://premium.gitbook.io/main/en/basic-settings/faq/dobavlenie-ip-adresov-v-whitelist-v-cloudflare).
 {% endhint %}
 
 ## Merchant Account Settings
@@ -48,7 +48,7 @@ Fill in the required authorization fields.
 
 ### Continuing the Setup
 
-Next, configure the merchant by following the [general setup instructions](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/obshie-nastroiki-merchantov-avtovyplat).
+Next, configure the merchant by following the [general setup instructions](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/auto-payments/obshie-nastroiki-merchantov-avtovyplat).
 
 ## Special Fields
 

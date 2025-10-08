@@ -8,7 +8,7 @@ In the "**Merchants"** → "**Auto-Payments**" section, click the "**Add**" butt
 
 <figure><img src="../../../.gitbook/assets/image (97)_eng.png" alt=""><figcaption></figcaption></figure>
 
-Configure the module according to the [general settings for merchant auto-payment modules](https://premium.gitbook.io/main/osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/obshie-nastroiki-avtovyplat):
+Configure the module according to the [general settings for merchant auto-payment modules](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/auto-payments/obshie-nastroiki-avtovyplat):
 
 <figure><img src="../../../.gitbook/assets/image (1)_eng.png" alt=""><figcaption></figcaption></figure>
 

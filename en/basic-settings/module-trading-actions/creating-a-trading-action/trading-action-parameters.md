@@ -245,7 +245,7 @@ Select the amount from either the "**Give**" or "**Receive**" side, depending on
 **Max. Amount** — the maximum amount for this trading step (specified in the currency being used for the operation). If the amount in the request exceeds the specified maximum, the step will not be executed.
 
 **Add withdrawal fee** — \
-• **Yes** — select "**Yes**" if the newly purchased currency is to be paid out via the [Binance auto-payout module](https://premium.gitbook.io/main/osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/binance)\
+• **Yes** — select "**Yes**" if the newly purchased currency is to be paid out via the [Binance auto-payout module](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/auto-payments/binance)\
 • **No**
 
 **Add trading fee** — select "**Yes**"\

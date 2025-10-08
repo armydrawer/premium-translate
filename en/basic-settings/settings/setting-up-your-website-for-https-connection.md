@@ -61,4 +61,4 @@ $_SERVER['HTTPS'] = 'on';
 ($_SERVER['HTTP_X_HTTPS'] == 'on') ? $_SERVER['HTTPS'] = 'on' : "";
 ```
 
-If the error persists, please refer to the [diagnostic guide.](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/diagnostika-i-reshenie-oshibok-pri-rabote-so-skriptom#nestabilnaya-rabota-saita-na-protokole-https)
+If the error persists, please refer to the [diagnostic guide.](https://premium.gitbook.io/main/en/basic-settings/faq/diagnostika-i-reshenie-oshibok-pri-rabote-so-skriptom#nestabilnaya-rabota-saita-na-protokole-https)

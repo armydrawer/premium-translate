@@ -1,11 +1,11 @@
 # Loderunner
 
 {% hint style="danger" %}
-<mark style="color:red;">Before setting up auto payouts, please read the</mark> [<mark style="color:blue;">risk warning!</mark>](https://premium.gitbook.io/main/osnovnye-nastroiki/merchanty-i-avtovyplat/avtovyplat/preduprezhdenie-o-riskakh)
+<mark style="color:red;">Before setting up auto payouts, please read the</mark> [<mark style="color:blue;">risk warning!</mark>](https://premium.gitbook.io/main/en/basic-settings/merchanty-i-avtovyplat/avtovyplat/preduprezhdenie-o-riskakh)
 {% endhint %}
 
 {% hint style="info" %}
-If you need to update the module on the server, please refer to the [instructions](https://premium.gitbook.io/main/en/basic-settings/faq/updating-script-files-on-the-server/how-to-update-files-on-the-server#merchant-and-auto-payout-modules)
+If you need to update the module on the server, please refer to the [instructions](https://premium.gitbook.io/main/en/en/basic-settings/faq/updating-script-files-on-the-server/how-to-update-files-on-the-server#merchant-and-auto-payout-modules)
 {% endhint %}
 
 ## Merchant Account Settings
@@ -40,13 +40,13 @@ Fill in the required authorization fields.
 
 **Statistics** — enable or disable the transmission of additional data about the request for calculations in the personal account.
 
-### [Additional Fields](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya-obmena/dopolnitelnye-polya)
+### [Additional Fields](https://premium.gitbook.io/main/en/basic-settings/valyuty-i-napravleniya-obmena/dopolnitelnye-polya)
 
 <mark style="color:red;">**It is necessary**</mark> to also transmit client data to the merchant through additional fields created for the currency "**Receiving**." To do this, create additional fields and check them in the currency settings. When the client fills out these fields in the exchange form while creating a request, the data will be transmitted to the merchant.
 
 Specify the name from the list below in the "**Unique ID**" field (the other fields can be filled out at your discretion) for each additional field.
 
-<figure><img src="https://premium.gitbook.io/main/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FAUKYMBIlttlhEVWigqYZ%252Fimage_eng.png%3Falt%3Dmedia%26token%3D164622ad-c56b-4d07-ad97-9a918effd5eb&#x26;width=300&#x26;dpr=4&#x26;quality=100&#x26;sign=bd108799&#x26;sv=2" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="https://premium.gitbook.io/main/en/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FAUKYMBIlttlhEVWigqYZ%252Fimage_eng.png%3Falt%3Dmedia%26token%3D164622ad-c56b-4d07-ad97-9a918effd5eb&#x26;width=300&#x26;dpr=4&#x26;quality=100&#x26;sign=bd108799&#x26;sv=2" alt="" width="375"><figcaption></figcaption></figure>
 
 IDs for additional fields (suitable values for the "**Unique ID**" field are indicated with `/`):
 
@@ -61,12 +61,12 @@ IDs for additional fields (suitable values for the "**Unique ID**" field are ind
 
 Activation of created additional fields for the "Receiving" currency (the unique ID from the corresponding field in the settings of each additional field is indicated in parentheses).
 
-<figure><img src="https://premium.gitbook.io/main/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FM842FBd18fqWCI8EaduC%252Fimage_eng.png%3Falt%3Dmedia%26token%3D6aeff3a7-4ae6-47eb-9b88-25d17c9e146b&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=9c12e4cd&#x26;sv=2" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="https://premium.gitbook.io/main/en/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FM842FBd18fqWCI8EaduC%252Fimage_eng.png%3Falt%3Dmedia%26token%3D6aeff3a7-4ae6-47eb-9b88-25d17c9e146b&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=9c12e4cd&#x26;sv=2" alt="" width="563"><figcaption></figcaption></figure>
 
 Exchange Form
 
-<figure><img src="https://premium.gitbook.io/main/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252F3U0WTMvGp9dlw5dzwyqJ%252Fimage_eng.png%3Falt%3Dmedia%26token%3Dee980067-efa0-407c-ad97-c1d6406cb4e4&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=26bdeb64&#x26;sv=2" alt="" width="375"><figcaption><p>Display of additional fields in the exchange form on the website</p></figcaption></figure>
+<figure><img src="https://premium.gitbook.io/main/en/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252F3U0WTMvGp9dlw5dzwyqJ%252Fimage_eng.png%3Falt%3Dmedia%26token%3Dee980067-efa0-407c-ad97-c1d6406cb4e4&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=26bdeb64&#x26;sv=2" alt="" width="375"><figcaption><p>Display of additional fields in the exchange form on the website</p></figcaption></figure>
 
 ## Continuing the Setup
 
-Next, proceed to configure the merchant by following the [general setup instructions](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/merchants/general-merchant-settings).
+Next, proceed to configure the merchant by following the [general setup instructions](https://premium.gitbook.io/main/en/en/basic-settings/merchants-and-auto-payments/merchants/general-merchant-settings).

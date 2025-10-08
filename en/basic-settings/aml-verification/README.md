@@ -8,6 +8,6 @@ AML boasts high accuracy in identifying suspicious transactions, thanks to the u
 
 Utilizing AML for a cryptocurrency exchange ensures safety for both clients and the business, as well as adherence to legal standards and regulatory demands.
 
-## [Setting Up AML in Script Version 2.7](https://premium.gitbook.io/main/osnovnye-nastroiki/proverka-aml/nastroika-v-v.2.7)
+## [Setting Up AML in Script Version 2.7](https://premium.gitbook.io/main/en/basic-settings/aml-verification/nastroika-v-v.2.7)
 
-## [Setting Up AML in Script Version 2.6 and Below](https://premium.gitbook.io/main/osnovnye-nastroiki/proverka-aml/nastroika-v-v.2.6-i-nizhe)
+## [Setting Up AML in Script Version 2.6 and Below](https://premium.gitbook.io/main/en/basic-settings/aml-verification/nastroika-v-v.2.6-i-nizhe)

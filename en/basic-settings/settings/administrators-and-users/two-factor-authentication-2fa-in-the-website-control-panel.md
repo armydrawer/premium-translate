@@ -9,7 +9,7 @@ description: >-
 
 ## 2FA via Email
 
-Set up email notifications from the script according to the [instructions](https://premium.gitbook.io/main/osnovnye-nastroiki/uvedomleniya-administratoram-i-klientam/uvedomleniya-po-e-mail#nastroika-smtp).
+Set up email notifications from the script according to the [instructions](https://premium.gitbook.io/main/en/basic-settings/uvedomleniya-administratoram-i-klientam/uvedomleniya-po-e-mail#nastroika-smtp).
 
 In the website control panel, go to the "**Messages" → "Email Templates"** section. For the templates "**PIN Code Authentication**" and "**Notify User Login to Personal Account**," enable message sending and add the appropriate shortcodes from the panel above the text input field.
 
@@ -25,7 +25,7 @@ These settings need to be enabled for all users who have access to the control p
 
 If you want to use Telegram for receiving messages upon login, set up similar options in the "**Messages**" ➔ "**Telegram Templates**" section.
 
-You can also configure PIN code sending via [SMS](https://premium.gitbook.io/rukovodstvo-polzovatelya/navigaciya/uvedomleniya/opovesheniya-po-sms) or [Telegram](https://premium.gitbook.io/main/osnovnye-nastroiki/uvedomleniya-administratoram-i-klientam/uvedomleniya-v-telegram). In this case, you will need to set up SMS or Telegram templates in the "**Messages**" section and enable the corresponding options in the user profile.
+You can also configure PIN code sending via [SMS](https://premium.gitbook.io/main/en/navigaciya/uvedomleniya/opovesheniya-po-sms) or [Telegram](https://premium.gitbook.io/main/en/basic-settings/uvedomleniya-administratoram-i-klientam/uvedomleniya-v-telegram). In this case, you will need to set up SMS or Telegram templates in the "**Messages**" section and enable the corresponding options in the user profile.
 
 ## 2FA Using an App
 

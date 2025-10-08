@@ -1,11 +1,11 @@
 # OTC
 
 {% hint style="danger" %}
-<mark style="color:red;">Before setting up auto payouts, please read the</mark> [<mark style="color:blue;">risk warning</mark>](https://premium.gitbook.io/main/osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/preduprezhdenie-o-riskakh)<mark style="color:blue;">!</mark>
+<mark style="color:red;">Before setting up auto payouts, please read the</mark> [<mark style="color:blue;">risk warning</mark>](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/auto-payments/risk-warning)<mark style="color:blue;">!</mark>
 {% endhint %}
 
 {% hint style="info" %}
-If you need to update the module on the server, please refer to the [instructions](https://premium.gitbook.io/main/en/basic-settings/faq/updating-script-files-on-the-server/how-to-update-files-on-the-server#merchant-and-auto-payout-modules).
+If you need to update the module on the server, please refer to the [instructions](https://premium.gitbook.io/main/en/en/basic-settings/faq/updating-script-files-on-the-server/how-to-update-files-on-the-server#merchant-and-auto-payout-modules).
 {% endhint %}
 
 ## Merchant Account Settings
@@ -57,7 +57,7 @@ Fill in the required authorization fields.
 {% hint style="warning" %}
 When making payouts in AZN, EUR, or USD using the merchant, it is **necessary** to add additional fields to the exchange form for the client to fill out when creating a request.
 
-To do this, add [additional fields](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/valyuty-i-napravleniya/dobavlenie-novoi-valyuty#vkladka-dop.-polya) to the corresponding currencies:\
+To do this, add [additional fields](https://premium.gitbook.io/main/en/basic-settings/valyuty-i-napravleniya/dobavlenie-novoi-valyuty#vkladka-dop.-polya) to the corresponding currencies:\
 ![](../../../.gitbook/assets/image%20\(730\)_eng.png)![](../../../.gitbook/assets/image%20\(731\)_eng.png)
 
 Make sure to specify the "**Unique ID**" field (use lowercase names):\
@@ -79,7 +79,7 @@ The **minimum** payout limit via SBP is **10,000 RUB**.
 {% hint style="warning" %}
 Additionally, when making payouts via SBP, you can offer the client a choice of bank on the exchange page (the choice of **payment method** in the module settings will not matter — select any item from the list).
 
-To do this, add an [additional field for the **payout currency**](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/valyuty-i-napravleniya/dobavlenie-novoi-valyuty#vkladka-dop.-polya) with the type of additional field "**Choice**," specifying the following settings (the names of the banks and their codes are shown in the screenshot below; you can only include the banks you use in the additional field settings):\
+To do this, add an [additional field for the **payout currency**](https://premium.gitbook.io/main/en/basic-settings/valyuty-i-napravleniya/dobavlenie-novoi-valyuty#vkladka-dop.-polya) with the type of additional field "**Choice**," specifying the following settings (the names of the banks and their codes are shown in the screenshot below; you can only include the banks you use in the additional field settings):\
 ![](../../../.gitbook/assets/image%20\(507\)_eng.png)
 
 • Correctly filled additional field with unique ID — **bankname:**
@@ -102,6 +102,6 @@ After adding the field, it will appear in the exchange form, allowing the client
 
 ## Continuing the Setup
 
-Next, proceed to configure the merchant by following the [general setup instructions](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/obshie-nastroiki-merchantov-avtovyplat).
+Next, proceed to configure the merchant by following the [general setup instructions](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/auto-payments/obshie-nastroiki-merchantov-avtovyplat).
 
 [^1]: The field can have any name.

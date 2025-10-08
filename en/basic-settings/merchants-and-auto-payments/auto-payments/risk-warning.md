@@ -10,4 +10,4 @@ We strongly recommend activating all possible identity verification methods for 
 
 For payment systems, it is advisable to use a completely new mobile phone number for SMS confirmations and keep it anonymous, meaning it should be used solely for SMS confirmations.
 
-When operating the site in automatic mode with operator confirmation, please use the [security code](https://premium.gitbook.io/main/osnovnye-nastroiki/nastroiki/administratory-i-polzovateli/paroli-bezopasnosti) (point 2).
+When operating the site in automatic mode with operator confirmation, please use the [security code](https://premium.gitbook.io/main/en/basic-settings/nastroiki/administratory-i-polzovateli/paroli-bezopasnosti) (point 2).

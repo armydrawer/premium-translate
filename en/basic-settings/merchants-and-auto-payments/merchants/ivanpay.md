@@ -1,7 +1,7 @@
 # Ivanpay
 
 {% hint style="info" %}
-If you need to update the module on the server, please refer to the [instructions](https://premium.gitbook.io/main/en/basic-settings/faq/updating-script-files-on-the-server/how-to-update-files-on-the-server#merchant-and-auto-payout-modules).
+If you need to update the module on the server, please refer to the [instructions](https://premium.gitbook.io/main/en/en/basic-settings/faq/updating-script-files-on-the-server/how-to-update-files-on-the-server#merchant-and-auto-payout-modules).
 {% endhint %}
 
 ## Merchant Account Settings
@@ -49,7 +49,7 @@ Please note the unique feature of the Ivanpay service — a card from the bank y
 {% hint style="warning" %}
 When receiving funds using the Ivanpay merchant, it is **necessary** to add an additional field to the exchange form for the client to fill out when creating a request.
 
-To do this, create and add an [additional field](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/valyuty-i-napravleniya/dobavlenie-novoi-valyuty#vkladka-dop.-polya) to the relevant currencies for receiving funds through Ivanpay. Be sure to specify in the "**Unique ID**" field — **`give_cardholder`** (use lowercase) and make the field mandatory.
+To do this, create and add an [additional field](https://premium.gitbook.io/main/en/basic-settings/valyuty-i-napravleniya/dobavlenie-novoi-valyuty#vkladka-dop.-polya) to the relevant currencies for receiving funds through Ivanpay. Be sure to specify in the "**Unique ID**" field — **`give_cardholder`** (use lowercase) and make the field mandatory.
 
 ![](<../../../.gitbook/assets/image (322)_eng.png>)
 
@@ -60,4 +60,4 @@ After this, the field will appear in the exchange form and will be required for 
 
 ## Continuing the Setup
 
-Next, proceed to configure the merchant by following the [general setup instructions](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/merchants/general-merchant-settings).
+Next, proceed to configure the merchant by following the [general setup instructions](https://premium.gitbook.io/main/en/en/basic-settings/merchants-and-auto-payments/merchants/general-merchant-settings).
