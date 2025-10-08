@@ -570,7 +570,7 @@ For example, if set to 5 minutes, there will be no recalculation during this tim
 
 ## Merchants and Payouts Tab
 
-**Merchant** — if you want the payment for the application to be processed through a merchant, select the corresponding merchant for accepting payment from the client. The merchant allows you to accept payments through the payment system's website. If no merchant is selected, the client will need to make the payment manually according to the instructions they will see after creating the application. Read more about [merchant settings](https://premium.gitbook.io/main/osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/obshie-nastroiki-merchantov).
+**Merchant** — if you want the payment for the application to be processed through a merchant, select the corresponding merchant for accepting payment from the client. The merchant allows you to accept payments through the payment system's website. If no merchant is selected, the client will need to make the payment manually according to the instructions they will see after creating the application. Read more about [merchant settings](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/merchants/general-merchant-settings).
 
 **Daily Limit for Merchant** — the daily limit for accepting funds for the merchant. The merchant will not be able to accept payments exceeding the specified limit.
 
