@@ -92,7 +92,7 @@
     * [FireKassa Card/Link](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/firekassa.md)
     * [Finora](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/finora.md)
     * [Garantex Crypto](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/garantex-crypto.md)
-    * [GoatX](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/aipay-1.md)
+    * [GoatX](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/goatx.md)
     * [Heleket](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/heleket.md)
     * [Ivanpay](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/ivanpay.md)
     * [Koshelek](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/koshelek.md)
