@@ -2,7 +2,7 @@
 
 {% embed url="https://www.youtube.com/watch?v=KJieFpov2JE" %}
 
-{% hint style="danger" %}
+{% hint style="warning" %}
 Для автоматического обновления курсов валют **обязательно** создайте [задание Cron](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/faq/kak-sozdat-zadanie-cron-na-servere) на сервере, используя ссылку из раздела "**Парсеры 2.0**" — "**Настройки**"
 
 ![](<../../../.gitbook/assets/image (1481).png>)
