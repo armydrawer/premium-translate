@@ -15,9 +15,7 @@ To automatically update exchange rates, **it is essential** to create a [Cron jo
 
 The hash for the Cron job link is specified in the **`wp-content/plugins/premiumbox/userdata.php`** file.
 
-<img src="../../../.gitbook/assets/image%20(416)_eng.png" alt="" data-size="original">
-
-<img src="../../../.gitbook/assets/image%20(1520)_eng.png" alt="" data-size="original">
+<img src="../../../.gitbook/assets/image%20(416)_eng.png" alt="" data-size="original"> <img src="../../../.gitbook/assets/image (1520)_eng.png" alt="" data-size="original">
 {% endhint %}
 
 {% hint style="warning" %}
@@ -33,12 +31,12 @@ You can also further configure the minimum and maximum rates according to this g
 {% hint style="danger" %}
 The Bestchange API parser will only work in an active exchange direction—make sure to set the direction to active before starting the configuration of the parser.
 
-<img src="../../../.gitbook/assets/image%20(733)_eng.png" alt="" data-size="original">
+<img src="../../../.gitbook/assets/image (733)_eng.png" alt="" data-size="original">
 {% endhint %}
 
 ## General Module Settings
 
-<figure><img src="../../../.gitbook/assets/image%20(2148)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2148)_eng.png" alt=""><figcaption></figcaption></figure>
 
 **Domain** — Enter one of the domains from the list below the field. If the field is empty (when the parser uses the main BC domain), the parser will not work (currencies and cities will not be displayed in the list below on this page).
 
@@ -167,39 +165,39 @@ The value of a step with a negative sign ("**-**") will decrease your rate compa
 
 **Show Rating** — a page displaying currency rates from Bestchange along with the recommended step.
 
-<figure><img src="../../../.gitbook/assets/image%20(1763)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1763)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 **Minimum Rate** — the lowest threshold for the rate, below which the binding to the position will not function. If a competitor for the specified position goes below this minimum rate, the module will reset your rate to the standard one (if this option is enabled).
 
 {% hint style="warning" %}
 If one or all options ("**Minimum Rate**", "**Maximum Rate**", "**Standard Rate**") are specified both manually and through the "**Auto Rate Adjustment**" option,\
-![](../../../.gitbook/assets/image%20\(1785\)_eng.png)\
+![](<../../../.gitbook/assets/image (1785)_eng.png>)\
 the rate from the "**Auto Rate Adjustment**" field will always take precedence and will be used by the parser.
 {% endhint %}
 
 **Auto Adjustment of Minimum Rate** — binding the minimum rate to a selected source from the "**Parsers 2.0**" -> "**Rates**" section.\
-&#xNAN;**• Add to Rate** — adjustment of the minimum rate obtained from the source (for example, adding 3% or subtracting -3%).
+\&#xNAN;**• Add to Rate** — adjustment of the minimum rate obtained from the source (for example, adding 3% or subtracting -3%).
 
 **Maximum Rate** — the highest threshold for the rate, above which the binding to the position will not function. If a competitor for the specified position exceeds this maximum rate, the module will reset your rate to the standard one (if this option is enabled).
 
 **Auto Adjustment of Maximum Rate** — binding the maximum rate to a selected source from the "**Parsers 2.0**" -> "**Rates**" section.\
-&#xNAN;**• Add to Rate** — adjustment of the maximum rate obtained from the source (for example, adding 3% or subtracting -3%).
+\&#xNAN;**• Add to Rate** — adjustment of the maximum rate obtained from the source (for example, adding 3% or subtracting -3%).
 
 **Reset to Standard Rate:**\
-&#xNAN;**• Yes** — enables the option to reset to the standard rate when exceeding the min/max range.\
-&#xNAN;**• No** — the option is not used.
+\&#xNAN;**• Yes** — enables the option to reset to the standard rate when exceeding the min/max range.\
+\&#xNAN;**• No** — the option is not used.
 
 **Standard Rate (You Give)** — manual specification of the standard rate for the "**You Give**" side.
 
 **Standard Rate (You Receive)** — manual specification of the standard rate for the "**You Receive**" side.
 
 **Auto Adjustment of Rate** — binding the standard rate to a selected source from the "**Parsers 2.0**" -> "**Rates**" section.\
-&#xNAN;**• Add to Rate (You Give)** — adjustment of the maximum rate obtained from the source (for example, adding 3% or subtracting -3%) for the "**You Give**" side.\
-&#xNAN;**• Add to Rate (You Receive)** — adjustment of the maximum rate obtained from the source (for example, adding 3% or subtracting -3%) for the "**You Receive**" side.
+\&#xNAN;**• Add to Rate (You Give)** — adjustment of the maximum rate obtained from the source (for example, adding 3% or subtracting -3%) for the "**You Give**" side.\
+\&#xNAN;**• Add to Rate (You Receive)** — adjustment of the maximum rate obtained from the source (for example, adding 3% or subtracting -3%) for the "**You Receive**" side.
 
 **Convert Rate:**\
-&#xNAN;**• Yes** — forces the exchange rate to be converted to a format of 1 to XXX.\
-&#xNAN;**• No** — the option is not used.
+\&#xNAN;**• Yes** — forces the exchange rate to be converted to a format of 1 to XXX.\
+\&#xNAN;**• No** — the option is not used.
 
 ***
 

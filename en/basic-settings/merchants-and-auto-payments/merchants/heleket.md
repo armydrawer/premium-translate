@@ -24,21 +24,21 @@ To connect to the service and receive a special rate for the exchange service, p
 
 Go to the "**Merchants**" section.
 
-<figure><img src="../../../.gitbook/assets/image%20(2082)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2082)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Click the "**Create merchant**" button.
 
-<figure><img src="../../../.gitbook/assets/image%20(2075)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2075)_eng.png" alt=""><figcaption></figcaption></figure>
 
 In the window that opens, enter the name of your project and click "**Create merchant**."
 
-<figure><img src="../../../.gitbook/assets/image%20(2074)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2074)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 After successfully adding the merchant, proceed to configure it.
 
-<figure><img src="../../../.gitbook/assets/image%20(2076)_eng.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2076)_eng.png" alt="" width="375"><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image%20(2077)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2077)_eng.png" alt=""><figcaption></figcaption></figure>
 
 Send a request to gain API access for your website.
 
@@ -46,23 +46,23 @@ Send a request to gain API access for your website.
 
 In the "**Merchant ID**" field, you will find your merchant ID; save it in a text file.
 
-<figure><img src="../../../.gitbook/assets/image%20(2081)_eng.png" alt="" width="414"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2081)_eng.png" alt="" width="414"><figcaption></figcaption></figure>
 
 Enter your domain and website name.
 
-<figure><img src="../../../.gitbook/assets/image%20(2079)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2079)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Verify ownership of the domain using one of the three methods (the quickest option is to place an HTML file in the root folder of your website).
 
-<figure><img src="../../../.gitbook/assets/image%20(2080)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2080)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Wait for the moderation of your project to be completed.
 
 On the "**API Integration**" tab in the merchant settings, you will see the merchant ID as well as the keys for receiving and sending funds.
 
-<figure><img src="../../../.gitbook/assets/image%20(2083)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2083)_eng.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image%20(2087)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2087)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 If necessary, regenerate the key and save all data in a text file.
 
@@ -70,11 +70,11 @@ If necessary, regenerate the key and save all data in a text file.
 
 In the admin panel, go to "**Merchants**" -> "**Merchants**," click the "**Add**" button, and select Heleket.
 
-<figure><img src="../../../.gitbook/assets/image%20(2071)_eng.png" alt="" width="443"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2071)_eng.png" alt="" width="443"><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../.gitbook/assets/image%20(1140)_eng.png" alt="" width="460"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1140)_eng.png" alt="" width="460"><figcaption></figcaption></figure>
 
 **Merchant ID** — **Merchant ID** from your Heleket account
 
@@ -82,13 +82,13 @@ Fill in the required authorization fields.
 
 ## Special Fields
 
-<figure><img src="../../../.gitbook/assets/image%20(1441)_eng.png" alt="" width="329"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1441)_eng.png" alt="" width="329"><figcaption></figcaption></figure>
 
 **Type** — the type of wallet that will be issued in the request (a new wallet for each request)\
 • **Invoice** — a temporary wallet address created for a specific transaction, which has a limited lifespan after being issued in the request (receiving funds to this wallet is **time-limited** — 12 hours from the moment of issuance in the request)\
-&#x20;_For this type of wallet, a cron job must be created on the server._\
+&#xNAN;_&#x46;or this type of wallet, a cron job must be created on the server._\
 • **Address** — a permanent wallet address linked to your account with the merchant, with no lifespan limitation (receiving funds to this wallet is **not time-limited**)\
-&#x20;_Payment status is checked via callback; a cron job is not required for this type of wallet._
+&#xNAN;_&#x50;ayment status is checked via callback; a cron job is not required for this type of wallet._
 
 {% hint style="warning" %}
 When using invoices, we recommend mentioning this in the request text so that the client does not send funds to the wallet after the invoice has expired.
@@ -110,11 +110,11 @@ List of available currencies and networks — [doc.heleket.com/ru/other/referenc
 {% hint style="warning" %}
 You can convert the currency received from the client into USDT at the market rate — to do this, enable the option for suitable currencies in the merchant settings:
 
-![](../../../.gitbook/assets/image%20\(2085\)_eng.png)\\
+![](<../../../.gitbook/assets/image (2085)_eng.png>)\\
 
 List of currencies for which auto-conversion can be enabled:
 
-<img src="../../../.gitbook/assets/image%20(2086)_eng.png" alt="" data-size="original">
+<img src="../../../.gitbook/assets/image (2086)_eng.png" alt="" data-size="original">
 {% endhint %}
 
 ## Continuing Configuration

@@ -11,11 +11,11 @@ Insert the hooks after the lines indicated below on new lines (after the red lin
 }
 ```
 
-!\[Screenshot]\(../../.gitbook/assets/image (22)_eng.png)
+!\[Screenshot]\(../../.gitbook/assets/image (22)\_eng.png)
 
 Then, in the "**Plugins**" section, activate the "**Premium Exchanger hooks**" plugin.
 
-!\[Screenshot]\(../../.gitbook/assets/image (1365)_eng.png)
+!\[Screenshot]\(../../.gitbook/assets/image (1365)\_eng.png)
 
 ## Available Hooks:
 
@@ -121,9 +121,9 @@ function my_change_bids_filter_list($lists) {
 ```
 
 Before:\
-!\[Before Screenshot]\(../../.gitbook/assets/image (1571)_eng.png)\
+!\[Before Screenshot]\(../../.gitbook/assets/image (1571)\_eng.png)\
 After:\
-!\[After Screenshot]\(../../.gitbook/assets/image (577)_eng.png)
+!\[After Screenshot]\(../../.gitbook/assets/image (577)\_eng.png)
 
 </details>
 
@@ -316,7 +316,7 @@ return $text;
 
 By default, Table No. 5 on the main exchange page displays reserves for exchange directions instead of rates. If you want the rate to be displayed when the page is opened, set this hook:
 
-!\[Screenshot]\(../../.gitbook/assets/image (388)_eng.png)
+!\[Screenshot]\(../../.gitbook/assets/image (388)\_eng.png)
 
 ```php
 add_filter('table5_current_select', 'rate_table5_current_select');
@@ -349,7 +349,7 @@ function del_iam_pay_merchant_pay_button($link) {
 
 <summary>Proxy for Bestchange Parser</summary>
 
-### Bestchange Parser (Deprecated)
+#### Bestchange Parser (Deprecated)
 
 <mark style="color:red;">**Before installing hooks, make sure to update the script itself according to**</mark> [<mark style="color:red;">**the instructions**</mark>](https://premium.gitbook.io/main/en/basic-settings/faq/diagnostika-i-reshenie-oshibok-pri-rabote-so-skriptom#obnovlenie-failov-skripta-na-servere)<mark style="color:red;">**!**</mark>
 
@@ -379,7 +379,7 @@ function curl_bestchange_proxy($ch) {
 }
 ```
 
-### Bestchange API Parser
+#### Bestchange API Parser
 
 The hook works on module version 2.6.2/2.7.2 and above (**using your own proxy**):
 
@@ -408,7 +408,7 @@ function curl_bestchangeapi_proxy($ch) {
 ```
 
 The hook works on module version 2.6.2/2.7.2 and above (**ability to change the BC domain (mirror) in the module's general settings**):\
-!\[Screenshot]\(../../.gitbook/assets/image (28)_eng.png)
+!\[Screenshot]\(../../.gitbook/assets/image (28)\_eng.png)
 
 ```php
 add_filter('curl_bestchangeapi_domain', 'curl_bestchangeapi_domain');

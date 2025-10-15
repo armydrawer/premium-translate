@@ -6,41 +6,41 @@
 
     This module allows clients to upload receipts or other data through images in their created requests.
 
-    ![Settings for the specified block in the request (section "Modules" -> "Payment Receipts")](../../.gitbook/assets/image%20\(1988\)_eng.png)
+    ![Settings for the specified block in the request (section "Modules" -> "Payment Receipts")](<../../.gitbook/assets/image (1988)_eng.png>)
 
-    ![Module settings (tab "Payment Receipts" in exchange direction settings)](../../.gitbook/assets/image%20\(1956\)_eng.png)
+    ![Module settings (tab "Payment Receipts" in exchange direction settings)](<../../.gitbook/assets/image (1956)_eng.png>)
 
-    ![In the request, click the "Choose file" button](../../.gitbook/assets/image%20\(1954\)_eng.png)
+    ![In the request, click the "Choose file" button](<../../.gitbook/assets/image (1954)_eng.png>)
 
-    ![Select the desired file and upload it](../../.gitbook/assets/image%20\(1952\)_eng.png)
+    ![Select the desired file and upload it](<../../.gitbook/assets/image (1952)_eng.png>)
 
-    ![After the client uploads the image, it will be displayed in the request under the "Requests" section](../../.gitbook/assets/image%20\(1955\)_eng.png)
+    ![After the client uploads the image, it will be displayed in the request under the "Requests" section](<../../.gitbook/assets/image (1955)_eng.png>)
 *   **Grouping Exchange Directions for Quick Filtering (Module "Direction Groups")**
 
-    ![Add the desired number of groups in the "Direction Groups" section](../../.gitbook/assets/image%20\(1959\)_eng.png)
+    ![Add the desired number of groups in the "Direction Groups" section](<../../.gitbook/assets/image (1959)_eng.png>)
 
-    ![In the direction settings, assign the necessary group on the "Main Settings" tab](../../.gitbook/assets/image%20\(1960\)_eng.png)
+    ![In the direction settings, assign the necessary group on the "Main Settings" tab](<../../.gitbook/assets/image (1960)_eng.png>)
 
-    ![In the table of all directions, select the desired group and, for example, make all directions from this group inactive.](../../.gitbook/assets/image%20\(1961\)_eng.png)
+    ![In the table of all directions, select the desired group and, for example, make all directions from this group inactive.](<../../.gitbook/assets/image (1961)_eng.png>)
 *   **Setting Individual Profit Percentage for Each City for Cash Exchange Directions**
 
-    ![Tab "Cities" in the exchange direction settings](../../.gitbook/assets/image%20\(1962\)_eng.png)
+    ![Tab "Cities" in the exchange direction settings](<../../.gitbook/assets/image (1962)_eng.png>)
 *   **Ability to Set "Completed Request" Status via API (Method `success_bid`)**
 
     This method applies only to requests created directly via the API.
 
-    ![To identify the request, you need to pass its hash (displayed in the response for the method create\_bid when creating a request via API)](../../.gitbook/assets/image%20\(1963\)_eng.png)
+    ![To identify the request, you need to pass its hash (displayed in the response for the method create\_bid when creating a request via API)](<../../.gitbook/assets/image (1963)_eng.png>)
 
-    ![Changing request statuses via API](../../.gitbook/assets/image%20\(1964\)_eng.png)
+    ![Changing request statuses via API](<../../.gitbook/assets/image (1964)_eng.png>)
 *   **Mass Information Editor — Added Filter by Direction Group**
 
-    ![Filter by direction group](../../.gitbook/assets/image%20\(1965\)_eng.png)
+    ![Filter by direction group](<../../.gitbook/assets/image (1965)_eng.png>)
 
     Additionally, you can specify commissions and exchange amounts in one window for selected directions.
 
-    ![Selecting an entity for editing](../../.gitbook/assets/image%20\(1966\)_eng.png)
+    ![Selecting an entity for editing](<../../.gitbook/assets/image (1966)_eng.png>)
 
-    ![Editing payment system commissions](../../.gitbook/assets/image%20\(1967\)_eng.png) ![Editing exchange amounts](../../.gitbook/assets/image%20\(1970\)_eng.png)
+    ![Editing payment system commissions](<../../.gitbook/assets/image (1967)_eng.png>) ![Editing exchange amounts](<../../.gitbook/assets/image (1970)_eng.png>)
 *   **Option to Completely Disable Merchant Logs and Auto-Payments**
 
     ![The option is located in the settings of each merchant and auto-payment module](../../.gitbook/assets/image%20\(283\)_eng.png)
@@ -73,9 +73,9 @@
     ![With this setting, the operator will see requests from all exchange directions (even if the Bova merchant was not used), as well as requests from all exchange directions where the Bova merchant was used (even if it is direction 1340).](../../.gitbook/assets/image%20\(282\)_eng.png)
 *   **Transfer of User Coefficients for Parsers 2.0 to a Separate Section**
 
-    ![Section in the sidebar](../../.gitbook/assets/image%20\(1971\)_eng.png)
+    ![Section in the sidebar](<../../.gitbook/assets/image (1971)_eng.png>)
 
-    ![Coefficient settings](../../.gitbook/assets/image%20\(1972\)_eng.png)
+    ![Coefficient settings](<../../.gitbook/assets/image (1972)_eng.png>)
 
     * **Index Name** — the desired name to be used in formulas as a shortcode
     * **Formula Value** — enter a number or mathematical formula in the field
@@ -88,10 +88,10 @@
 
     This option was causing the server to overload with unnecessary requests.
 
-    ![Version 2.6](../../.gitbook/assets/image%20\(1976\)_eng.png) ![Version 2.7](../../.gitbook/assets/image%20\(1975\)_eng.png)
+    ![Version 2.6](<../../.gitbook/assets/image (1976)_eng.png>) ![Version 2.7](<../../.gitbook/assets/image (1975)_eng.png>)
 *   **Results of Recalculations for Requests Moved to a Separate Section "Recalculation Log"**
 
-    ![Recalculation log](../../.gitbook/assets/image%20\(1977\)_eng.png)
+    ![Recalculation log](<../../.gitbook/assets/image (1977)_eng.png>)
 *   **"Blacklist" Module — Added the Ability to Check the Real Account from Which the Payment Came**
 
     ![Checking the real account](../../.gitbook/assets/image%20\(265\)_eng.png)
@@ -231,6 +231,6 @@ Text error display on the button in the application.
 
 ***
 
-### Version 2.5
+#### Version 2.5
 
 </details>
