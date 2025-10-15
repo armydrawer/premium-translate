@@ -18,19 +18,19 @@ To discuss terms and connection, please contact a [service representative](https
 
 Register and verify your account with [Alfabit](https://pay.alfabit.org/). Go to the "**Merchants**" section and click the "**Create Merchant**" button.
 
-<figure><img src="../../../.gitbook/assets/image (358).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (358)_eng.png" alt=""><figcaption></figcaption></figure>
 
 Fill in the required fields and click the "**Create Project**" button.
 
-<div><figure><img src="../../../.gitbook/assets/image (359).png" alt="" width="375"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (1795).png" alt="" width="357"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (1796).png" alt="" width="356"><figcaption></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/image (359)_eng.png" alt="" width="375"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (1795)_eng.png" alt="" width="357"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (1796)_eng.png" alt="" width="356"><figcaption></figcaption></figure></div>
 
 Go to the merchant settings, select the "**API Keys**" tab, and click the "**Add**" button.
 
-<figure><img src="../../../.gitbook/assets/image (360).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (360)_eng.png" alt=""><figcaption></figcaption></figure>
 
 Fill in the required fields and click the "**Save**" button.
 
-<figure><img src="../../../.gitbook/assets/image (361).png" alt="" width="363"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (361)_eng.png" alt="" width="363"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Select one or both options for "**Receiving Funds/Withdrawing Funds**" depending on your intended use of the merchant.
@@ -38,7 +38,7 @@ Select one or both options for "**Receiving Funds/Withdrawing Funds**" depending
 It's advisable to add your server's IP address under "**Trusted IPs**."
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (362).png" alt="" width="352"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (362)_eng.png" alt="" width="352"><figcaption></figcaption></figure>
 
 Save the generated key in a text file and click the "**Done**" button.
 
@@ -48,17 +48,17 @@ In the admin panel, create a new merchant in the "**Auto Payouts**" ➔ "**Add A
 
 Select Alfabit Fiat from the dropdown list in the "**Module**" field, enter a name for the module, and click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2)_eng.png" alt=""><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../.gitbook/assets/image (1792).png" alt="" width="455"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1792)_eng.png" alt="" width="455"><figcaption></figcaption></figure>
 
 **API Key** — the public key previously generated in your Alfabit account.
 
 ## Special Fields
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1)_eng.png" alt=""><figcaption></figcaption></figure>
 
 **Payment Method** — select the necessary method for payouts (the list of methods will only be displayed after entering the correct API key for module authorization).
 
@@ -72,9 +72,9 @@ For each payment method used, a separate copy of the auto payout module must be 
 
 When using methods that require the parameters `first_name` and `last_name`, you need to add [additional fields for the currency](https://premium.gitbook.io/main/en/basic-settings/valyuty-i-napravleniya-obmena/dopolnitelnye-polya#dopolnitelnye-polya-dlya-valyuty) for payouts (on the "**Receiving**" side). In the "**Unique ID**" field in the currency settings, make sure to specify this parameter and activate the additional field for the selected currency.
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt="" width="371"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1)_eng.png" alt="" width="371"><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image.png" alt="" width="504"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image_eng.png" alt="" width="504"><figcaption></figcaption></figure>
 
 ## Continuing the Setup
 

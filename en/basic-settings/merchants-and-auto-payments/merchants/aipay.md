@@ -20,11 +20,11 @@ In the admin panel, create a new merchant in the "**Merchants**" ➔ "**Add Merc
 
 Select AI-pay from the dropdown menu in the "**Module**" field, enter a name for the module, and click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt="" width="329"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7)_eng.png" alt="" width="329"><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="338"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1)_eng.png" alt="" width="338"><figcaption></figcaption></figure>
 
 **Domain** — leave this field empty.
 
@@ -34,7 +34,7 @@ Fill in the required authorization fields.
 
 ## Special Fields
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1)_eng.png" alt=""><figcaption></figcaption></figure>
 
 **Payment Method** — select the appropriate method for receiving funds from the client:
 
@@ -55,7 +55,7 @@ Make sure to specify a variable in the "**Unique ID**" field (use lowercase lett
 
 * **Unique ID**: `give_cardholder`/`cardholder`
 
-![](https://premium.gitbook.io/main/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FyBUMmdMiMlEvL4OlAoxr%252Fimage.png%3Falt%3Dmedia%26token%3D9669cfff-79cc-49fb-a222-50ecccb3fa5e&width=300&dpr=4&quality=100&sign=50a9f19f&sv=2)
+![](https://premium.gitbook.io/main/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FyBUMmdMiMlEvL4OlAoxr%252Fimage_eng.png%3Falt%3Dmedia%26token%3D9669cfff-79cc-49fb-a222-50ecccb3fa5e&width=300&dpr=4&quality=100&sign=50a9f19f&sv=2)
 
 * **Purpose**: Full name of the card/account holder.
 * **Processing Priority (any option can be selected)**:
@@ -64,7 +64,7 @@ Make sure to specify a variable in the "**Unique ID**" field (use lowercase lett
     2. Automatically generated from the client's full name (`last_name + first_name + second_name`) — standard fields "**Last Name**," "**First Name**," "**Middle Name**" for the exchange direction (not currency!)
     3. After this, the field will appear in the exchange form and will be mandatory for the client to fill out when creating a request.
 
-    ![](https://premium.gitbook.io/main/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FcoBFe70zmN1JtepEFM68%252Fimage.png%3Falt%3Dmedia%26token%3Da5a19b16-bc6f-425d-89ed-bb07c7065e00&width=300&dpr=4&quality=100&sign=d8ed43c6&sv=2)
+    ![](https://premium.gitbook.io/main/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FcoBFe70zmN1JtepEFM68%252Fimage_eng.png%3Falt%3Dmedia%26token%3Da5a19b16-bc6f-425d-89ed-bb07c7065e00&width=300&dpr=4&quality=100&sign=d8ed43c6&sv=2)
 
 #### 2. Field for Phone Number (when using the "**Phone**" method)
 

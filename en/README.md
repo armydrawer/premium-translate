@@ -8,4 +8,4 @@ If you are responsible for managing a cryptocurrency exchange, we strongly recom
 
 To get started, select the section you’re interested in from the menu on the left, or use the search bar at the top right of the guide if you’re unsure which specific section you need.
 
-<figure><img src=".gitbook/assets/image (2061).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2061)_eng.png" alt="" width="563"><figcaption></figcaption></figure>

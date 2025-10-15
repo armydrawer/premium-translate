@@ -16,7 +16,7 @@ Register on the GoatX service with the help of a [service representative](https:
 
 Log in to your [personal account](https://goatx.me/) and navigate to the "**Merchant Contracts**" section, then copy the provided ID to your clipboard or a text file.
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4)_eng.png" alt=""><figcaption></figcaption></figure>
 
 ## Module Settings
 
@@ -24,11 +24,11 @@ In the admin panel, create a new merchant in the "**Merchants**" ➔ "**Add Merc
 
 Select GoatX from the dropdown menu in the "**Module**" field, enter a name for the module, and click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image_eng.png" alt=""><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2)_eng.png" alt=""><figcaption></figcaption></figure>
 
 **Domain** — leave this field empty.
 
@@ -40,7 +40,7 @@ Fill in the required authorization fields.
 
 ## Special Fields
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3)_eng.png" alt=""><figcaption></figcaption></figure>
 
 **Payment Method** — select the appropriate method for receiving funds from the client:
 
