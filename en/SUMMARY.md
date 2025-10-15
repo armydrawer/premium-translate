@@ -87,6 +87,7 @@
       * [Exnode](basic-settings/merchants-and-auto-payments/merchants/exnode.md)
       * [FireKassa Card/Link](basic-settings/merchants-and-auto-payments/merchants/firekassa-card-link.md)
       * [Garantex Crypto](basic-settings/merchants-and-auto-payments/merchants/garantex-crypto.md)
+      * [GoatX](basic-settings/merchants-and-auto-payments/merchants/goatx.md)
       * [Heleket](basic-settings/merchants-and-auto-payments/merchants/heleket.md)
       * [Ivanpay](basic-settings/merchants-and-auto-payments/merchants/ivanpay.md)
       * [Koshelek](basic-settings/merchants-and-auto-payments/merchants/koshelek.md)
