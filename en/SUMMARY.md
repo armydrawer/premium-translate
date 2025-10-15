@@ -72,7 +72,7 @@
       * [General Merchant Settings](basic-settings/merchants-and-auto-payments/merchants/general-merchant-settings.md)
       * [Using Your Cards/Wallets/Accounts](basic-settings/merchants-and-auto-payments/merchants/using-your-cards-wallets-accounts.md)
       * [ABCEx](basic-settings/merchants-and-auto-payments/merchants/abcex.md)
-      * [AI-pay](basic-settings/merchants-and-auto-payments/merchants/ai-pay.md)
+      * [AI-pay](basic-settings/merchants-and-auto-payments/merchants/aipay.md)
       * [Alfabit Crypto](basic-settings/merchants-and-auto-payments/merchants/alfabit-crypto.md)
       * [ArchEx](basic-settings/merchants-and-auto-payments/merchants/archex.md)
       * [Bankoro](basic-settings/merchants-and-auto-payments/merchants/bankoro.md)
