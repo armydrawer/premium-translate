@@ -100,7 +100,7 @@
       * [PayCrown](basic-settings/merchants-and-auto-payments/merchants/paycrown.md)
       * [Payeer](basic-settings/merchants-and-auto-payments/merchants/payeer.md)
       * [PayKassa](basic-settings/merchants-and-auto-payments/merchants/paykassa.md)
-      * [Paymatrix](basic-settings/merchants-and-auto-payments/merchants/paymatrix.md)
+      * [Finora](basic-settings/merchants-and-auto-payments/merchants/finora.md)
       * [PSPWare](basic-settings/merchants-and-auto-payments/merchants/pspware.md)
       * [Quickex](basic-settings/merchants-and-auto-payments/merchants/quickex.md)
       * [Quixfer](basic-settings/merchants-and-auto-payments/merchants/quixfer.md)
