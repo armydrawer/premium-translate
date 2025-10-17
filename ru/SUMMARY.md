@@ -78,7 +78,6 @@
     * [ABCEx](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/abcex.md)
     * [AI-pay](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/aipay.md)
     * [Alfabit Crypto](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/alfabit-crypto.md)
-    * [ArchEx](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/archex.md)
     * [Bankoro](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/bankoro.md)
     * [BimBo (выдача своих реквизитов)](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/bimbo-vydacha-svoikh-rekvizitov.md)
     * [Bitbanker](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/bitbanker.md)
