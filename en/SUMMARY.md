@@ -74,7 +74,6 @@
       * [ABCEx](basic-settings/merchants-and-auto-payments/merchants/abcex.md)
       * [AI-pay](basic-settings/merchants-and-auto-payments/merchants/aipay.md)
       * [Alfabit Crypto](basic-settings/merchants-and-auto-payments/merchants/alfabit-crypto.md)
-      * [ArchEx](basic-settings/merchants-and-auto-payments/merchants/archex.md)
       * [Bankoro](basic-settings/merchants-and-auto-payments/merchants/bankoro.md)
       * [BimBo (Issuing Your Payment Details)](basic-settings/merchants-and-auto-payments/merchants/bimbo-issuing-your-payment-details.md)
       * [Bitbanker](basic-settings/merchants-and-auto-payments/merchants/bitbanker.md)
