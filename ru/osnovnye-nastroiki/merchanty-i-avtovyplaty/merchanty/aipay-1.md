@@ -1,4 +1,4 @@
-# AI-pay
+# Optimoney
 
 {% hint style="info" %}
 Если вам необходимо обновить модуль на сервере — воспользуйтесь [инструкцией](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/obnovlenie-failov-skripta-na-servere/kak-obnovit-faily-na-servere#moduli-merchantov-i-avtovyplat)
@@ -7,45 +7,45 @@
 ## Настройки в личном кабинете мерчанта
 
 {% hint style="warning" %}
-Для обсуждения условий работы свяжитесь с [представителем сервиса](https://t.me/AI_pay_kirill).
+Для обсуждения условий работы свяжитесь с представителем сервиса.
 
 **Дисклеймер**: при подключении вашего сайта к тому или иному сервису, пожалуйста, самостоятельно оценивайте возможные риски сотрудничества.
 {% endhint %}
 
-Зарегистрируйтесь на сервисе AI-pay с помощью [представителя сервиса](https://t.me/AI_pay_kirill) и запросите API-ключи для подключения к Premium Exchanger.
+Зарегистрируйтесь на сервисе [Optimoney](https://client.optimoney.com/register). Авторизуйтесь в личном кабинете
+
+<figure><img src="../../../.gitbook/assets/image (2242).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/image (2241).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/image (2240).png" alt=""><figcaption></figcaption></figure>
 
 ## Настройки модуля
 
 В панели администратора создайте нового мерчанта в разделе "**Мерчанты**" ➔ "**Добавить мерчант".**
 
-Выберите AI-pay в выпадающем списке в поле "**Модуль**", укажите название для модуля и нажмите "**Сохранить**".
+Выберите Optimoney в выпадающем списке в поле "**Модуль**", укажите название для модуля и нажмите "**Сохранить**".
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt="" width="329"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2238).png" alt=""><figcaption></figcaption></figure>
 
 Заполните указанные авторизационные поля.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="338"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2239).png" alt=""><figcaption></figcaption></figure>
 
 **Домен** — оставьте поле пустым
 
-**API UID** — идентификатор, переданный вам ранее представителем AI-pay
+**API ключ** — API ключ, переданный вам ранее представителем Optimoney
 
-**API ключ** — API ключ, переданный вам ранее представителем AI-pay
+**Секретный ключ** — API ключ, переданный вам ранее представителем Optimoney
+
+**ID мерчанта** — API ключ, переданный вам ранее представителем Optimoney
+
+**API ключ мерчанта** — API ключ, переданный вам ранее представителем Optimoney
 
 ## Особые поля
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-**Способ оплаты** — выберите необходимый способ для приема средств от клиента:
-
-**Карта** — выдача реквизитов банковской карты
-
-**Счет** — выдача номера банковского счета&#x20;
-
-**Телефон** — выдача номера телефона для приема средств по СБП
-
 {% hint style="warning" %}
-При приеме средств с использованием мерчанта AI-pay **необходимо** добавить дополнительные поля в форму обмена для заполнения его клиентом при создании заявки.
+При приеме средств с использованием мерчанта Optimoney **необходимо** добавить дополнительные поля в форму обмена для заполнения его клиентом при создании заявки.
 
 Для этого создайте и добавьте [дополнительные поля](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/valyuty-i-napravleniya/dobavlenie-novoi-valyuty#vkladka-dop.-polya) к соответствующим валютам для приёма средств через AI-pay.
 

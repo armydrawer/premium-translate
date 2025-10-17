@@ -100,6 +100,7 @@
     * [MoneyGo](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/moneygo.md)
     * [Nicepay](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/nicepay.md)
     * [OnlyPays](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/onlypays.md)
+    * [Optimoney](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/aipay-1.md)
     * [PandaPay](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/pandapay.md)
     * [PayCrown](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/paycrown.md)
     * [Payeer](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/payeer.md)
