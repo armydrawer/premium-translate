@@ -1,11 +1,11 @@
 # Optimoney
 
 {% hint style="danger" %}
-Before setting up automatic payouts, please read the [risk warning!](https://premium.gitbook.io/main/osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/preduprezhdenie-o-riskakh)
+Before setting up automatic payouts, please read the [risk warning!](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/auto-payments/risk-warning)
 {% endhint %}
 
 {% hint style="info" %}
-If you need to update the module on the server, please refer to the [instructions](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/obnovlenie-failov-skripta-na-servere/kak-obnovit-faily-na-servere#moduli-merchantov-i-avtovyplat)
+If you need to update the module on the server, please refer to the [instructions](https://premium.gitbook.io/main/en/basic-settings/faq/updating-script-files-on-the-server/how-to-update-files-on-the-server#merchant-and-auto-payout-modules)
 {% endhint %}
 
 ## Merchant Account Settings
@@ -26,7 +26,7 @@ Register on the [Optimoney](https://client.optimoney.com/register) service. Log 
 
 In the admin panel, create a new merchant in the "**Merchants**" section ➔ "**Add Automatic Payout**."
 
-Select Optimoney from the dropdown list in the "**Module**" field, provide a name for the module, and click "**Save**."
+Select **Optimoney** from the dropdown list in the "**Module**" field, provide a name for the module, and click "**Save**."
 
 <figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
@@ -48,4 +48,4 @@ Fill in the required authorization fields.
 
 ## Continuing the Setup
 
-Next, proceed to configure the merchant by following the [general setup instructions](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/obshie-nastroiki-merchantov).
+Next, proceed to configure the merchant by following the [general setup instructions](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/auto-payments/general-auto-payment-settings).
