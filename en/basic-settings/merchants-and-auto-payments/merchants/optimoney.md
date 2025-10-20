@@ -7,22 +7,22 @@ If you need to update the module on the server, please refer to the [instruction
 ## Merchant Account Settings
 
 {% hint style="warning" %}
-To discuss the terms of service, please contact a service representative.
+To discuss the terms of service, please contact a [service representative](https://t.me/optimoney_sales).
 
 **Disclaimer**: When connecting your website to any service, please assess the potential risks of collaboration on your own.
 {% endhint %}
 
 Register on the [Optimoney](https://client.optimoney.com/register) service. Log in to your account and create a new USD wallet (name the wallet as you wish).
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 Create a new merchant in your account.
 
-<figure><img src="../../../.gitbook/assets/image (2242).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (2241).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 After verifying the domain, enter its name (as you wish) in the merchant settings and select the created wallet for receiving funds.
 
@@ -30,21 +30,21 @@ Provide 3 URLs for the corresponding fields (copy all URLs from the merchant mod
 
 Copy the merchant API key from these settings.
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
 ## Module Settings
 
 In the admin panel, create a new merchant in the "**Merchants**" ➔ "**Add Merchant**" section.
 
-Select Optimoney from the dropdown list in the "**Module**" field, provide a name for the module, and click "**Save**."
+Select **Optimoney** from the dropdown list in the "**Module**" field, provide a name for the module, and click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/image (2238).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../.gitbook/assets/image (2239).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 **Domain** — leave this field empty.
 
@@ -52,13 +52,13 @@ Fill in the required authorization fields.
 
 **Secret Key** — the API key provided to you by the Optimoney representative.
 
-**Merchant ID** — the ID from the "**Merchant No.**" field in the merchant account.
+**Merchant ID** — the ID from the "**Merchant**" field in the merchant account.
 
-<figure><img src="../../../.gitbook/assets/image (2243).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 **Merchant API Key** — the API key you copied earlier from the settings of the created merchant.
 
-<figure><img src="../../../.gitbook/assets/image (2244).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
 ## Special Fields
 
