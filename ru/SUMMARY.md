@@ -151,6 +151,7 @@
     * [MoneyGo](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/moneygo.md)
     * [Nicepay](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/nicepay.md)
     * [OnlyPays](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/onlypays.md)
+    * [Optimoney](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/aipay-1.md)
     * [OTC](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/otc.md)
     * [Payscrow](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/payscrow/README.md)
       * [Payscrow Cascade](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/payscrow/payscrow-cascade.md)
