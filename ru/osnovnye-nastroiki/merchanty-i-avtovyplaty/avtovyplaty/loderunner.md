@@ -53,7 +53,7 @@ ID для доп. полей (через `/` указаны подходящие
 * **Название банка:** `get_bankname`/`bankname`
 * **Номер карты:** активация поля "**Выводить поле "На  счет"**"
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 * **ФИО держателя карты:** `get_cardholder`/`cardholder`
 * **Телефон для СБП:** `get_phone`/`phone`/активация поля "**Выводить поле "На  счет"**"
