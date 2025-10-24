@@ -56,7 +56,7 @@
 
 * [инструкция для Mail.ru](https://help.mail.ru/mail/security/protection/external)
 * [инструкция для Яндекс.Почты](https://yandex.ru/support/id/authorization/app-passwords.html)
-* [инструкция для Zoho](https://www.zoho.com/mail/help/adminconsole/two-factor-authentication.html#alink5)
+* [инструкция для Zoho](https://www.zoho.com/mail/help/adminconsole/two-factor-authentication.html#password)
 {% endhint %}
 
 После ввода настроек нажмите кнопку "**Сохранить**". На странице вы найдете форму для отправки тестового письма, чтобы проверить корректность работы настроек отправки почты.
