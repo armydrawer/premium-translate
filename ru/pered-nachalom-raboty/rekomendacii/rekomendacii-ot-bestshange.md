@@ -30,7 +30,7 @@
 * [https://okku.ru](https://okku.ru/)
 * [https://ru.exchangersmonitor.com](https://ru.exchangersmonitor.com/)
 
-5\. Можно добавить сайт в различные сервисы отзывов:
+7\. Можно добавить сайт в различные сервисы отзывов:
 
 * [https://ru.trustpilot.com](https://ru.trustpilot.com/)
 * [https://www.mywot.com](https://www.mywot.com/ru)
@@ -38,8 +38,8 @@
 * [https://webproverka.com](https://webproverka.com/)
 * и другие
 
-6\. Можно разместить новости и пресс-релизы на тематических ресурсах:
+8\. Можно разместить новости и пресс-релизы на тематических ресурсах:
 
 * [https://forklog.com/](https://forklog.com/)
 
-7\. Займитесь SЕО продвижением сайта.
+9\. Займитесь SЕО продвижением сайта.
