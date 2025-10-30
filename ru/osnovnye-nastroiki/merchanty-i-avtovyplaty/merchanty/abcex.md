@@ -24,7 +24,7 @@
 
 <figure><img src="../../../.gitbook/assets/image (228).png" alt=""><figcaption></figcaption></figure>
 
-**API ключ** — ключ, присланный вам менеджером ABCEx после прохождения KYC. Запрос для получения API-ключа направляйте к [https://t.me/ABCEX\_management](https://t.me/ABCEX_management)
+**API ключ** — ключ, присланный вам менеджером ABCEx после прохождения KYC. Запрос для получения API-ключа направляйте к [представителю сервиса](https://t.me/ABCEX_API_support).
 
 ## Особые поля
 
