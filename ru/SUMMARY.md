@@ -175,7 +175,7 @@
   * [Диагностика ошибок](osnovnye-nastroiki/modul-torgovye-deistviya/diagnostika-oshibok.md)
   * [Создание торгового действия](osnovnye-nastroiki/modul-torgovye-deistviya/sozdanie-torgovogo-deistviya/README.md)
     * [Параметры торговых действий](osnovnye-nastroiki/modul-torgovye-deistviya/sozdanie-torgovogo-deistviya/parametry-torgovykh-deistvii.md)
-    * [ABCEx (в разработке)](osnovnye-nastroiki/modul-torgovye-deistviya/sozdanie-torgovogo-deistviya/abcex-v-razrabotke.md)
+    * [ABCEx](osnovnye-nastroiki/modul-torgovye-deistviya/sozdanie-torgovogo-deistviya/abcex-v-razrabotke.md)
     * [Beribit](osnovnye-nastroiki/modul-torgovye-deistviya/sozdanie-torgovogo-deistviya/beribit.md)
     * [Binance](osnovnye-nastroiki/modul-torgovye-deistviya/sozdanie-torgovogo-deistviya/binance.md)
     * [Garantex (скоро)](osnovnye-nastroiki/modul-torgovye-deistviya/sozdanie-torgovogo-deistviya/garantex-skoro.md)
