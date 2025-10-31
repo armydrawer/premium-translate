@@ -12,11 +12,11 @@ For discussions about terms and connections, please contact a [service represent
 
 Go to the "**Trading Actions**" section ➔ "**Add Action**", enter a name for the trading action in the "**Title**" field, select ABCEx from the "**Module**" dropdown, keep the status as "**Active Action**," and click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/image (48).png" alt="" width="422"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 Enter your API key received from the exchange representative (leave the "**Domain**" field empty) and save the changes.
 
-<figure><img src="../../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 In the module, you can create one of two actions — "**Sell**" or "**Buy**."
 
@@ -33,30 +33,31 @@ If you want to <mark style="color:green;">**buy**</mark> the equivalent amount s
 When the trading action is triggered on the ABCEx exchange, it will <mark style="color:green;">**buy**</mark> BTC from your balance and <mark style="color:red;">**sell**</mark> USDT at the market rate.
 {% endhint %}
 
-<div><figure><img src="../../../.gitbook/assets/image (2248).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (2249).png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="success" %}
 Examples of trading actions:
 
 Example 1:\
 Action "<mark style="color:red;">**Sell**</mark>", exchange direction **USDT TRC20 to BTC**, in the trading action settings the currencies for purchase ("**Currency Code**") are **USDT** and for sale ("**Trading Currency Code**") are **RUB**, amount from the request "**You Give**".\
-A client creates a request to receive 0.0012 BTC (~100 USDT) and pays for it. At this moment (if the trading action is set to execute "**After Merchant Confirmation Status**") on the exchange, there will be a <mark style="color:red;">**sale**</mark> of **USDT** for **RUB** for the amount of the request (provided there is sufficient balance to execute the action).\
-![](<../../../.gitbook/assets/image (46).png>)
+A client creates a request to receive 0.0012 BTC (\~100 USDT) and pays for it. At this moment (if the trading action is set to execute "**After Merchant Confirmation Status**") on the exchange, there will be a <mark style="color:red;">**sale**</mark> of **USDT** for **RUB** for the amount of the request (provided there is sufficient balance to execute the action).\
+![](<../../../.gitbook/assets/image (4).png>)\
 
-\
+
 Example 2:\
 Action "<mark style="color:red;">**Sell**</mark>", exchange direction **USDT TRC20 to BTC**, in the trading action settings the "**Currency Code**" and "**Trading Currency Code**" fields are empty for purchase and sale, amount "**You Give**".\
-A client creates a request to receive 0.0012 BTC (~100 USDT) and pays for it. At this moment, there will be a <mark style="color:green;">**purchase**</mark> of **BTC** for **USDT** for the amount of the request on the exchange.\
-![](<../../../.gitbook/assets/image (47).png>)
+A client creates a request to receive 0.0012 BTC (\~100 USDT) and pays for it. At this moment, there will be a <mark style="color:green;">**purchase**</mark> of **BTC** for **USDT** for the amount of the request on the exchange.
 
-\
+![](<../../../.gitbook/assets/image (5).png>)\
+
+
 Example 3:\
 Action "<mark style="color:red;">**Sell**</mark>", exchange direction **BTC to USDT TRC20**, in the trading action settings the currencies are set to "**Auto**" for purchase and sale, amount "**You Receive**".\
 A client creates a request to receive 100 USDT and pays for it. At this moment, there will be a <mark style="color:green;">**purchase**</mark> of **BTC** for **USDT** for the amount of the request on the exchange.\
 \
 Example 4:\
 Action "<mark style="color:red;">**Sell**</mark>", exchange direction **USDT TRC20 to RUB**, in the trading action settings the currencies are set to "**Auto**" for purchase and sale, amount "**You Receive**".\
-A client creates a request to receive 8500 RUB (~100 USDT) and pays for it. At this moment, there will be a <mark style="color:green;">**purchase**</mark> of **USDT** for **RUB** for the amount of the request on the exchange.
+A client creates a request to receive 8500 RUB (\~100 USDT) and pays for it. At this moment, there will be a <mark style="color:green;">**purchase**</mark> of **USDT** for **RUB** for the amount of the request on the exchange.
 {% endhint %}
 
 {% hint style="warning" %}
