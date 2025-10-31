@@ -161,7 +161,7 @@
     * [Error Diagnostics](basic-settings/module-trading-actions/error-diagnostics.md)
     * [Creating a Trading Action](basic-settings/module-trading-actions/creating-a-trading-action/README.md)
       * [Trading Action Parameters](basic-settings/module-trading-actions/creating-a-trading-action/trading-action-parameters.md)
-      * [ABCEx (Under Development)](basic-settings/module-trading-actions/creating-a-trading-action/abcex-under-development.md)
+      * [ABCEx](basic-settings/module-trading-actions/creating-a-trading-action/abcex.md)
       * [Binance](basic-settings/module-trading-actions/creating-a-trading-action/binance.md)
       * [Yobit](basic-settings/module-trading-actions/creating-a-trading-action/yobit.md)
   * [Electrum Module](basic-settings/electrum-module/README.md)
