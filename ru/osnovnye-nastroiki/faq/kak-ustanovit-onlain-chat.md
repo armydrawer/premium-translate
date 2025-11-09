@@ -4,11 +4,11 @@
 
 1. В личном кабинете [Jivo.ru](https://www.jivo.ru/) скопируйте ID без кавычек из кода для установки чата.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 2. Вставьте скопированный ID в панель управления сайтом в разделе "**Настройки" → "Основные настройки" →** в поле "**Jivosite.ru ID**" и сохраните настройки.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="476"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="476"><figcaption></figcaption></figure>
 
 ## **Установка с помощью хука (любой онлайн-чат)**
 
