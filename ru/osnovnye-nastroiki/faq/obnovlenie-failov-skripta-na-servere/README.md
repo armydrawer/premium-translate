@@ -11,7 +11,7 @@
 * <mark style="color:red;">**Обязательно**</mark> сделать [бэкап всех файлов сайта на сервере](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-sdelat-bekap-saita)
 * Скачать [дистрибутив **для обновления**](https://premiumexchanger.com/uscripts/) **под вашу версию скрипта** (версия PHP не имеет значения — выберите любой из дистрибутивов)
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt="" width="395"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt="" width="395"><figcaption></figcaption></figure>
 
 * Загрузить архив с дистрибутивом в корневую папку сайта и распаковать архив с заменой существующих файлов
 * Проверить устранение ошибки
