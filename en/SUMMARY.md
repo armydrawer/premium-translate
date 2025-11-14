@@ -91,6 +91,7 @@
       * [Heleket](basic-settings/merchants-and-auto-payments/merchants/heleket.md)
       * [Ivanpay](basic-settings/merchants-and-auto-payments/merchants/ivanpay.md)
       * [Koshelek](basic-settings/merchants-and-auto-payments/merchants/koshelek.md)
+      * [Lazytrade](basic-settings/merchants-and-auto-payments/merchants/lazytrade.md)
       * [Luckypay](basic-settings/merchants-and-auto-payments/merchants/luckypay.md)
       * [Merchant001](basic-settings/merchants-and-auto-payments/merchants/merchant001.md)
       * [MoneyGo](basic-settings/merchants-and-auto-payments/merchants/moneygo.md)
