@@ -2,7 +2,7 @@
 
 ## General Settings
 
-<figure><img src="../../.gitbook/assets/image (84)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(84)_eng.png" alt=""><figcaption></figcaption></figure>
 
 **Site Icon** — This is the icon you see in browser tabs, bookmarks, and within mobile WordPress applications. It should be square with a resolution of at least 512 x 512 pixels.
 
@@ -107,7 +107,7 @@ For the task to execute for the "On Site" option, a user must visit the site. Yo
 
 If your site has low traffic, we recommend always using the "On Server" option.
 
-<figure><img src="../../.gitbook/assets/image (1559)_eng.png" alt="" width="143"><figcaption></figcaption></figure>
+<figure><img src="../../../ru/.gitbook/assets/image (616) (1).png" alt="" width="143"><figcaption></figcaption></figure>
 
 **"On Server" Option**:
 
@@ -171,4 +171,4 @@ Select the options for which CAPTCHA will be required when clients submit data.
 
 **Notification Icons** — Disable specific notification icons for the admin panel.
 
-<figure><img src="../../.gitbook/assets/image (85)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(85)_eng.png" alt=""><figcaption></figcaption></figure>

@@ -24,11 +24,11 @@ In the admin panel, create a new merchant in the "**Merchants**" section ➔ "**
 
 Select Loderunner from the dropdown menu in the "**Module**" field, enter a name for the module, and click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/image (2218)_eng.png" alt="" width="395"><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/image (2218) (1).png" alt="" width="395"><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../.gitbook/assets/image (2219)_eng.png" alt="" width="432"><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/image (2219) (1).png" alt="" width="432"><figcaption></figcaption></figure>
 
 **Domain** — leave this field empty.
 
@@ -36,7 +36,7 @@ Fill in the required authorization fields.
 
 ## Special Fields
 
-<figure><img src="../../../.gitbook/assets/image (2220)_eng.png" alt="" width="278"><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/image (2220) (1).png" alt="" width="278"><figcaption></figcaption></figure>
 
 **Statistics** — enable or disable the transmission of additional data about the request for calculations in the personal account.
 

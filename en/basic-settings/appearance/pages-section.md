@@ -6,7 +6,7 @@ In this section, you can create and edit the pages you want to display on your w
 
 Here’s a list of all the default pages:
 
-<figure><img src="../../.gitbook/assets/image%20(1227)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1227)_eng.png" alt=""><figcaption></figcaption></figure>
 
 Please note that the content of the basic pages on the site cannot be edited through the admin panel. The text for these pages is loaded from the source code using the specified shortcode in the "**Text**" field. For these pages, you can only add additional text through this same field or edit the text directly in the code:
 
@@ -47,20 +47,20 @@ Please note that the content of the basic pages on the site cannot be edited thr
 
 Here’s what a page looks like in edit mode:
 
-<figure><img src="../../.gitbook/assets/image%20(1596)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../ru/.gitbook/assets/image (653) (1).png" alt=""><figcaption></figcaption></figure>
 
 Examples of text formatting on the page:
 
 {% tabs %}
 {% tab title="Visual Mode" %}
-<figure><img src="../../.gitbook/assets/image%20(1597)_eng.png" alt="" width="289"><figcaption></figcaption></figure>
+<figure><img src="../../../ru/.gitbook/assets/image (654) (1).png" alt="" width="289"><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image%20(846)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../ru/.gitbook/assets/image (846) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Bold text — click the **B** icon while highlighting the text:\
   **Bold text**
 * Italics — click the _**I**_ icon while highlighting the text:\
-  &#xNAN;_&#x49;talic text_
+  \&#xNAN;_Italic text_
 * Underlined text — click the **U** icon while highlighting the text:\
   T̲e̲x̲t̲ ̲w̲i̲t̲h̲ ̲u̲n̲d̲e̲r̲l̲i̲n̲i̲n̲g̲
 * Quoting text — click the ❝ icon while highlighting the text:
@@ -80,22 +80,22 @@ Indeed, buying it once is cheaper than paying rent every month. However, the amo
 {% endtab %}
 
 {% tab title="Text Mode" %}
-<figure><img src="../../.gitbook/assets/image%20(563)_eng.png" alt="" width="206"><figcaption></figcaption></figure>
+<figure><img src="../../../ru/.gitbook/assets/image (563) (1).png" alt="" width="206"><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image%20(564)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../ru/.gitbook/assets/image (564) (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
 To ensure the pages display correctly on the site, you need to select the appropriate attributes for them:
 
-<figure><img src="../../.gitbook/assets/image%20(566)_eng.png" alt="" width="440"><figcaption></figcaption></figure>
+<figure><img src="../../../ru/.gitbook/assets/image (566) (1).png" alt="" width="440"><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 We recommend not changing technical pages for basic pages, as this may disrupt the proper display of pages on the site.
 
 The two main technical pages — "**Home**" and "**News**" — should not be edited; use them as they are.
 
-<img src="../../.gitbook/assets/image%20(1599)_eng.png" alt="" data-size="original"><img src="../../.gitbook/assets/image%20(1600)_eng.png" alt="" data-size="original">
+<img src="../../../ru/.gitbook/assets/image (656) (1).png" alt="" data-size="original"><img src="../../.gitbook/assets/image (1600)_eng.png" alt="" data-size="original">
 {% endhint %}
 
 **Parent** — this is the page under which the edited page will be "nested." The parent page is at the top level, while child pages are nested at subsequent levels.
@@ -111,26 +111,26 @@ More detailed settings for this option are described in the [official WordPress 
 
 If you do not plan to use a nested structure, select the "**No Parent**" option.
 
-<figure><img src="../../.gitbook/assets/image%20(156)_eng.png" alt="" width="236"><figcaption></figcaption></figure>
+<figure><img src="../../../ru/.gitbook/assets/image (156) (1).png" alt="" width="236"><figcaption></figcaption></figure>
 
 **Template:**
 
-<figure><img src="../../.gitbook/assets/image%20(565)_eng.png" alt="" width="241"><figcaption></figcaption></figure>
+<figure><img src="../../../ru/.gitbook/assets/image (565) (1).png" alt="" width="241"><figcaption></figcaption></figure>
 
 * **Default Template** — the optimal choice for displaying most pages on the site.
 * **Home Page Template** — used **only** for the main page of the site (when this option is selected, the specified page in the general list of pages will be marked as "**Home Page**," and a table with exchange directions will be displayed on the page itself, regardless of the shortcode or text specified in the page settings).
 
-<figure><img src="../../.gitbook/assets/image%20(568)_eng.png" alt="" width="330"><figcaption></figcaption></figure>
+<figure><img src="../../../ru/.gitbook/assets/image (568) (1).png" alt="" width="330"><figcaption></figcaption></figure>
 
 * **Page Template Without Sidebar** — displays the page without a sidebar for the personal account.
 
-<figure><img src="../../.gitbook/assets/image%20(569)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../ru/.gitbook/assets/image (569) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 * **Plugin Page Template** — displays the page with a sidebar.
 
-<figure><img src="../../.gitbook/assets/image%20(570)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../ru/.gitbook/assets/image (570) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image%20(567)_eng.png" alt="" width="456"><figcaption></figcaption></figure>
+<figure><img src="../../../ru/.gitbook/assets/image (567) (1).png" alt="" width="456"><figcaption></figcaption></figure>
 
 **Technical Page** — select from the dropdown list the basic page that will be used for the editable page, and the link that will be displayed in the list of pages in the personal account.
 
@@ -142,15 +142,15 @@ The number of technical pages is limited to the list, and only one site page can
 
 Using a technical page for an appropriate page (the link name is taken from the title of the editable page)
 
-<img src="../../.gitbook/assets/image%20(571)_eng.png" alt="" data-size="original">
+<img src="../../../ru/.gitbook/assets/image (571) (1).png" alt="" data-size="original">
 
 Using a technical page for an inappropriate page
 
-![](../../.gitbook/assets/image%20\(1598\)_eng.png)
+![](<../../../ru/.gitbook/assets/image (654) (1).png>)
 
 Technical page not used
 
-![](../../.gitbook/assets/image%20\(574\)_eng.png)
+![](<../../../ru/.gitbook/assets/image (573) (1).png>)
 
 </details>
 

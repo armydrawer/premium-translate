@@ -6,21 +6,21 @@ The Affiliate Program API only works with the "**API**" and "**Affiliate Program
 
 ### Activating the Modules:
 
-<figure><img src="../.gitbook/assets/изображение (173)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(173)_eng.png" alt=""><figcaption></figcaption></figure>
 
 After activating the module, go to the "**Users**" section, select the user ("**Edit**") for whom API access will be enabled, and activate the following settings:
 
-<figure><img src="../.gitbook/assets/изображение (151)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(151)_eng.png" alt=""><figcaption></figcaption></figure>
 
 Next, navigate to the "**Affiliate Program**" - "**Settings**" section and enable the API there:
 
-<figure><img src="../.gitbook/assets/изображение (85)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(85)_eng.png" alt=""><figcaption></figcaption></figure>
 
 ## How to Check if the Module is Active and Where to Get the Key?
 
-If the module is activated, the affiliate dashboard page (usually at `https://your_domain/paccount/`) will display a line for the Rest API key in the information block, where you can find your personal key (**api_key**).
+If the module is activated, the affiliate dashboard page (usually at `https://your_domain/paccount/`) will display a line for the Rest API key in the information block, where you can find your personal key (**api\_key**).
 
-<figure><img src="../.gitbook/assets/image (982)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../ru/.gitbook/assets/image (982) (1).png" alt=""><figcaption></figcaption></figure>
 
 If needed, you can generate a new key by clicking on the "**Change REST API Key**" link. After a few seconds, a new key will appear in the "**REST API Key**" field, and the old key will no longer work.
 
@@ -28,9 +28,9 @@ If needed, you can generate a new key by clicking on the "**Change REST API Key*
 
 ## Data Passed via GET Parameters:
 
-- **api_action** – pp (this action is used by the ppapi module)
-- **api_key** – the issued key
-- **method** – the API method of the module
+* **api\_action** – pp (this action is used by the ppapi module)
+* **api\_key** – the issued key
+* **method** – the API method of the module
 
 You can also obtain the API link by clicking on the Rest API key link in the affiliate dashboard, which will already contain your key and look like this:
 
@@ -38,7 +38,7 @@ You can also obtain the API link by clicking on the Rest API key link in the aff
 
 ## API Methods:
 
-### <mark style="color:blue;">get_info</mark>
+### <mark style="color:blue;">get\_info</mark>
 
 Information about the partner
 
@@ -54,7 +54,7 @@ comission — commission deducted upon payout
 amount — amount you receive
 ```
 
-### <mark style="color:blue;">get_links</mark>
+### <mark style="color:blue;">get\_links</mark>
 
 Information about affiliate clicks
 
@@ -80,7 +80,7 @@ user_hash — unique visitor hash on the site
 query_string — query string in the browser (GET parameters)
 ```
 
-### <mark style="color:blue;">get_exchanges</mark>
+### <mark style="color:blue;">get\_exchanges</mark>
 
 Information about affiliate exchanges
 
@@ -111,7 +111,7 @@ user_hash — unique visitor hash on the site
 statuses — history of status changes for the request, if the status logging module is enabled. Displays statuses: new request, marked as paid, paid, completed request.
 ```
 
-### <mark style="color:blue;">get_payouts</mark>
+### <mark style="color:blue;">get\_payouts</mark>
 
 List of user requests for fund withdrawals
 
@@ -138,7 +138,7 @@ original_currency_code — currency code of the original payout amount
 status — payout request status (0 - pending, 1 - completed, 2 - canceled, 3 - canceled by user)
 ```
 
-### <mark style="color:blue;">add_payout</mark>
+### <mark style="color:blue;">add\_payout</mark>
 
 Creating a payout request
 

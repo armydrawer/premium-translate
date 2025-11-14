@@ -5,12 +5,12 @@ In this section ("**Merchants**" ➔ "**Merchant Logs**" and "**Merchants**" ➔
 {% hint style="warning" %}
 If the section does not appear in the sidebar, please enable the modules in the "**Modules**" section:
 
-<img src="../../../.gitbook/assets/image (1148)_eng.png" alt="" data-size="original">![](<../../../.gitbook/assets/image (2116)_eng.png>)
+<img src="../../../.gitbook/assets/image (1148)_eng.png" alt="" data-size="original"><img src="../../../.gitbook/assets/image (2116)_eng.png" alt="" data-size="original">
 {% endhint %}
 
 <figure><img src="../../../.gitbook/assets/image (1143)_eng.png" alt=""><figcaption><p>Merchant Logs</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (2117)_eng.png" alt=""><figcaption><p>Auto-Payment Logs</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1170)_eng (1).png" alt=""><figcaption><p>Auto-Payment Logs</p></figcaption></figure>
 
 Logs received from merchants and auto-payments can vary significantly in content due to differences in the development of each service. However, the log structure remains consistent and includes the following parameters:
 
@@ -20,7 +20,7 @@ Logs received from merchants and auto-payments can vary significantly in content
 
 * **url** — the address from which the log was received from the merchant
 * **headers** — the log headers, containing information about the transaction
-* **post_data** — the body of the log, containing transaction information sent to the merchant
+* **post\_data** — the body of the log, containing transaction information sent to the merchant
 * **result** — contains information about the actions performed, their results, and any errors received from the merchant
 
 **Merchant/Auto-Payment** — the name of the merchant/auto-payment module that sent the log
@@ -31,7 +31,7 @@ Logs received from merchants and auto-payments can vary significantly in content
 
 For easier searching of specific data, you can use filters based on four criteria:
 
-<figure><img src="../../../.gitbook/assets/image (889)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/image (889) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Merchant** — display only logs from the specified merchant
 * **IP Address** — display only logs that came from the specified IP address

@@ -32,7 +32,7 @@ In the admin panel, create a new merchant in the "**Auto Payouts**" -> "**Add Au
 
 Select Yobit from the dropdown list in the "**Module**" field, enter a name for the module, and click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/image (705)_eng.png" alt="" width="507"><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/image (705) (1).png" alt="" width="507"><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
@@ -44,7 +44,7 @@ Fill in the required authorization fields.
 
 ## Special Fields
 
-<figure><img src="../../../.gitbook/assets/image (1514)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/image (571) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Purchase the missing crypto amount for payouts** — options for auto-purchasing currency for payouts:\
 • **No** — do not purchase currency for payouts, pay directly from the wallet (the wallet must have a sufficient reserve of the currency being paid out)\

@@ -11,7 +11,7 @@ To use this option, activate the new module in the "**Modules**" section.
 {% hint style="warning" %}
 To ensure the module works, you also need to activate the template "**Email Confirmation Before Registration**" in the "**Messages**" -> "**Email Templates**" section (this is a mandatory requirement).
 
-![](<../../.gitbook/assets/image (1877)_eng.png>)
+<img src="../../.gitbook/assets/image (1877)_eng.png" alt="" data-size="original">
 {% endhint %}
 
 General settings for the module can be found in the "**Modules**" -> "**Email Confirmation Before Registration**" section.
@@ -37,7 +37,7 @@ After entering the correct code and clicking the "**Register**" button again, th
 
 To use this option, activate the new module in the "**Modules**" section.
 
-<figure><img src="../../.gitbook/assets/image (1870)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1869)_eng (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 To ensure the module works, you also need to enable the "**Email Verification**" option in the settings of the selected exchange directions under the "**Verification**" tab.
@@ -46,7 +46,7 @@ To ensure the module works, you also need to enable the "**Email Verification**"
 
 Additionally, activate the template "**Email Confirmation Before Creating a Request**" in the "**Messages**" -> "**Email Templates**" section (these are mandatory requirements).
 
-![](<../../.gitbook/assets/image (1875)_eng.png>)
+<img src="../../.gitbook/assets/image (1875)_eng.png" alt="" data-size="original">
 {% endhint %}
 
 General settings for the module can be found in the "**Modules**" -> "**Email Confirmation Before Creating a Request**" section.

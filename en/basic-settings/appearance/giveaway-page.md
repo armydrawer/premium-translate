@@ -20,11 +20,11 @@ To configure the text for the banner, go to "**Appearance**" ➔ "**Homepage**" 
 
 In the settings for the "**Giveaway**" page under the "**Pages**" section, make sure to select the appropriate template (Promo page template) for the page to display correctly.
 
-<figure><img src="../../.gitbook/assets/image (2125)_eng.png" alt="" width="253"><figcaption></figcaption></figure>
+<figure><img src="../../../ru/.gitbook/assets/image (2125) (1).png" alt="" width="253"><figcaption></figcaption></figure>
 
 To set up the text on the Giveaway page (`https://your_domain/promo/`), go to "**Appearance**" ➔ "**Giveaway**".
 
-<figure><img src="../../.gitbook/assets/image (2207)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../ru/.gitbook/assets/image (2207) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### **Displaying the Giveaway**
 
@@ -166,7 +166,7 @@ Links should be inserted according to HTML markup rules in the [A](https://htmlb
 Example:  <a href="https://your_domain/">Exchange</a>
 ```
 
-<figure><img src="../../.gitbook/assets/image (2124)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../ru/.gitbook/assets/brave_q2JReC6Ejm (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Also, don't forget to add the translated text in English.
 

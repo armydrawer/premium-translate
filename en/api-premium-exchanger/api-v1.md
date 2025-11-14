@@ -34,7 +34,7 @@ Users can access the API through their personal account, typically at the link `
 
 After selecting the methods and specifying the IP addresses, click the "**Add API Key**" button. The page will then display the generated pair of "**Login** — **Key**".
 
-<figure><img src="../.gitbook/assets/image (974)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../ru/.gitbook/assets/image (974) (1).png" alt=""><figcaption></figcaption></figure>
 
 You can generate multiple keys for a single user with different sets of methods.
 
@@ -55,7 +55,7 @@ On the "**API**" -> "**Add**" page, add a new API user.
 
 After saving the data, a pair of "**Login** — **Key**" will be generated.
 
-<figure><img src="../.gitbook/assets/image (917)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../ru/.gitbook/assets/image (917) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -69,13 +69,13 @@ For authorization, you need to send the following information in the headers of 
 
 **API-KEY** — API key
 
-**API-LANG** — forced use of the specified language (optional). Example: ru_RU, en_US.
+**API-LANG** — forced use of the specified language (optional). Example: ru\_RU, en\_US.
 
 {% hint style="warning" %}
 All requests are sent using the **POST** method, and responses are returned in JSON format **(GET requests are not used)**. Parameters are passed in the body of the request (not in the header).
 
 Example of a request with parameter transmission from Postman and the response to the request:\
-![](<../.gitbook/assets/image (528)_eng.png>)
+![](<../../ru/.gitbook/assets/image (528) (1).png>)
 {% endhint %}
 
 ### API Methods:
@@ -99,7 +99,7 @@ locale — website language
 partner_id — Partner ID
 ```
 
-### <mark style="color:blue;">get_direction_currencies</mark>
+### <mark style="color:blue;">get\_direction\_currencies</mark>
 
 Retrieve a list of currencies available for exchange.
 
@@ -125,7 +125,7 @@ title — Currency name in the exchange
 logo — Link to the currency logo
 ```
 
-### <mark style="color:blue;">get_directions</mark>
+### <mark style="color:blue;">get\_directions</mark>
 
 Retrieve a list of exchange directions available for exchange.
 
@@ -150,7 +150,7 @@ currency_get_title — Currency name "I receive" in the exchange
 currency_get_logo — Logo of the currency "I receive" in the exchange
 ```
 
-### <mark style="color:blue;">get_direction</mark>
+### <mark style="color:blue;">get\_direction</mark>
 
 Retrieve information about a specific exchange direction.
 
@@ -200,7 +200,7 @@ options — Possible options if the field is of type select
 cd — Pointer for additional parameters
 ```
 
-### <mark style="color:blue;">get_calc</mark>
+### <mark style="color:blue;">get\_calc</mark>
 
 Calculator for amounts in the exchange direction.
 
@@ -239,7 +239,7 @@ max_get — Maximum amount for the currency "I receive", no - not set
 changed — Flag indicating whether the input amount needs to be changed: 0 - no change needed, 1 - change needed
 ```
 
-### <mark style="color:blue;">get_exchanges</mark>
+### <mark style="color:blue;">get\_exchanges</mark>
 
 Retrieve requests created with this key.
 
@@ -285,7 +285,7 @@ items - List of requests
 	status — Request status
 ```
 
-### <mark style="color:blue;">create_bid</mark>
+### <mark style="color:blue;">create\_bid</mark>
 
 Create a request.
 
@@ -293,71 +293,69 @@ Request parameters:
 
 Here’s a naturalistic English translation of the provided text:
 
----
+***
 
 **Parameters for Exchange Request:**
 
-- **direction_id** — ID of the exchange direction
-- **partner_id** — ID of the partner (optional parameter)
-- **api_id** — ID of the request in your system (optional parameter)
-- **calc_amount** — amount of the exchange
-- **calc_action** — classification of the amount:
-  - 1 — amount in the "Giving" currency
-  - 2 — amount in the "Receiving" currency
-  - 3 — amount in the "Giving" currency with a fee
-  - 4 — amount in the "Receiving" currency with a fee
-- **callback_url** — specify the URL to which the API will send a response when the status of the request changes. The response will be sent via POST method:
+* **direction\_id** — ID of the exchange direction
+* **partner\_id** — ID of the partner (optional parameter)
+* **api\_id** — ID of the request in your system (optional parameter)
+* **calc\_amount** — amount of the exchange
+* **calc\_action** — classification of the amount:
+  * 1 — amount in the "Giving" currency
+  * 2 — amount in the "Receiving" currency
+  * 3 — amount in the "Giving" currency with a fee
+  * 4 — amount in the "Receiving" currency with a fee
+* **callback\_url** — specify the URL to which the API will send a response when the status of the request changes. The response will be sent via POST method:
+  * **bid\_id** — ID of the request
+  * **account1** — from account
+  * **cfgive8** — name of the cardholder
+  * **account2** — to account
+  * **cf1-99** — custom fields
+    * **Examples of fields**:
+      * **cf1** — First Name
+      * **cf2** — Middle Name
+      * **cf3** — Last Name
+      * **cf4** — Phone
+      * **cf5** — Skype
+      * **cf6** — E-mail
+      * **cf8** — Passport Number
+      * **cf10** — Region
+      * **cf11** — Telegram
 
-  - **bid_id** — ID of the request
-  - **account1** — from account
-  - **cfgive8** — name of the cardholder
-  - **account2** — to account
-  - **cf1-99** — custom fields
-    - **Examples of fields**:
-      - **cf1** — First Name
-      - **cf2** — Middle Name
-      - **cf3** — Last Name
-      - **cf4** — Phone
-      - **cf5** — Skype
-      - **cf6** — E-mail
-      - **cf8** — Passport Number
-      - **cf10** — Region
-      - **cf11** — Telegram
-
----
+***
 
 **Response:**
 
-- **url** — link to the exchange page
-- **id** — ID of the request
-- **hash** — hash of the request
-- **status** — status of the request
-- **status_title** — title of the request status
-- **psys_give** — payment system for the "Giving" currency
-- **psys_get** — payment system for the "Receiving" currency
-- **currency_code_give** — currency code for "Giving"
-- **currency_code_get** — currency code for "Receiving"
-- **amount_give** — amount in the "Giving" currency
-- **amount_get** — amount in the "Receiving" currency
+* **url** — link to the exchange page
+* **id** — ID of the request
+* **hash** — hash of the request
+* **status** — status of the request
+* **status\_title** — title of the request status
+* **psys\_give** — payment system for the "Giving" currency
+* **psys\_get** — payment system for the "Receiving" currency
+* **currency\_code\_give** — currency code for "Giving"
+* **currency\_code\_get** — currency code for "Receiving"
+* **amount\_give** — amount in the "Giving" currency
+* **amount\_get** — amount in the "Receiving" currency
 
-**api_actions** — options
-- **type** — type of payment
-- **cancel** — method for canceling the request
-  - **api** — via API
-  - **disabled** — disabled
-  - **link to cancel**
-  
-- **pay** — method of payment
-  - **api** — via API
-  - **disabled** — disabled
-  - **link to pay**
-  
-- **instruction** — payment instructions
-- **pay_amount** — amount to be paid
+**api\_actions** — options
 
----
+* **type** — type of payment
+* **cancel** — method for canceling the request
+  * **api** — via API
+  * **disabled** — disabled
+  * **link to cancel**
+* **pay** — method of payment
+  * **api** — via API
+  * **disabled** — disabled
+  * **link to pay**
+* **instruction** — payment instructions
+* **pay\_amount** — amount to be paid
 
-### **cancel_bid**
+***
+
+### **cancel\_bid**
 
 Cancel a request (this method only works if, when creating the request (`create_bid`), the response `api_actions` -> `cancel` = '**api**')
 
@@ -373,13 +371,13 @@ hash — hash of the request
 status of the request
 ```
 
----
+***
 
-### **pay_bid**
+### **pay\_bid**
 
 Mark the request as paid (this method works **only if** when creating the request via `create_bid`, the response contains `"api_actions"`-> `"pay": "api"` (when a merchant is **not used** in the exchange direction)).
 
-![Image](../.gitbook/assets/image (213)_eng.png)
+!\[Image]\(../.gitbook/assets/image (213)\_eng.png)
 
 If a merchant was used in the request, the request will change its status to "**Paid**" **only automatically** (when the merchant sees the funds received for the request).
 
@@ -395,9 +393,9 @@ hash — hash of the request
 status of the request
 ```
 
----
+***
 
-### **success_bid**
+### **success\_bid**
 
 Mark the request as completed.
 
@@ -409,15 +407,15 @@ hash — hash of the request
 
 **Response:**
 
-![Image](../.gitbook/assets/image (2120)_eng.png)
+!\[Image]\(../.gitbook/assets/image (2120)\_eng.png)
 
 ```
 status of the request
 ```
 
----
+***
 
-### **bid_info**
+### **bid\_info**
 
 Payment information about the request.
 
@@ -457,9 +455,9 @@ api_actions — options
     pay_amount — amount to be paid
 ```
 
----
+***
 
-### **get_partner_info**
+### **get\_partner\_info**
 
 Information about the partner.
 
@@ -482,9 +480,9 @@ items - list of currencies available for payout requests
     amount - balance in this currency
 ```
 
----
+***
 
-### **get_partner_links**
+### **get\_partner\_links**
 
 Information about partner referrals.
 
@@ -510,9 +508,9 @@ items - list of partner referrals
     query_string - query string
 ```
 
----
+***
 
-### **get_partner_exchanges**
+### **get\_partner\_exchanges**
 
 Information about partner exchanges.
 
@@ -554,9 +552,9 @@ items - list of requests
         status - status of the request
 ```
 
----
+***
 
-### **get_partner_payouts**
+### **get\_partner\_payouts**
 
 List of user requests for fund withdrawals.
 
@@ -585,9 +583,9 @@ items - list
     status - status of the request. 0 - pending, 1 - paid, 2 - canceled
 ```
 
----
+***
 
-### **add_partner_payout**
+### **add\_partner\_payout**
 
 Create a payout request.
 
@@ -604,53 +602,51 @@ account - account number for the payout
 payout_id - ID of the payout
 ```
 
----
+***
 
 ## API Error Responses
 
 ### **Api disabled**
 
-![Image](../.gitbook/assets/image (1469)_eng.png)
+!\[Image]\(../.gitbook/assets/image (1469)\_eng.png)
 
 Possible reasons for the error and how to resolve them:
 
-- Incorrect authorization details provided in the "**API**" section for the user working with the API.
+*   Incorrect authorization details provided in the "**API**" section for the user working with the API.
 
-  ![Image](../.gitbook/assets/image (1472)_eng.png)
-- API access not enabled in the user settings in the "**Users**" section.
+    !\[Image]\(../.gitbook/assets/image (1472)\_eng.png)
+* API access not enabled in the user settings in the "**Users**" section.
 
-![Image](../.gitbook/assets/image (1466)_eng.png)
+!\[Image]\(../.gitbook/assets/image (1466)\_eng.png)
 
 ### Empty Response
 
-![Image](../.gitbook/assets/image (1467)_eng.png)
+!\[Image]\(../.gitbook/assets/image (1467)\_eng.png)
 
-- Requested information is not available — check the parameters being sent.
+* Requested information is not available — check the parameters being sent.
 
 ### No bid exists
 
-![Image](../.gitbook/assets/image (1468)_eng.png)
+!\[Image]\(../.gitbook/assets/image (1468)\_eng.png)
 
-- The requested bid does not exist.
+* The requested bid does not exist.
 
 ### Method not supported
 
-![Image](../.gitbook/assets/image (1471)_eng.png)
+!\[Image]\(../.gitbook/assets/image (1471)\_eng.png)
 
-- The selected method is not activated in the "**API**" section for the user.
+* The selected method is not activated in the "**API**" section for the user.
 
-![Image](../.gitbook/assets/image (1473)_eng.png)
+!\[Image]\(../.gitbook/assets/image (1473)\_eng.png)
 
 ### Direction not found
 
-![Image](../.gitbook/assets/image (1474)_eng.png)
+!\[Image]\(../.gitbook/assets/image (1474)\_eng.png)
 
 Access to the exchange direction via the API is not allowed (when requesting the exchange direction); access must be enabled in the settings of the exchange direction, under the "**Restrictions and Checks**" tab.
 
-![Image](../.gitbook/assets/image (1470)_eng.png)
+!\[Image]\(../.gitbook/assets/image (1470)\_eng.png)
 
-[^1]: The numbering of fields may vary; the example is provided.
-
---- 
+***
 
 This translation aims to maintain clarity and readability while accurately conveying the original content's meaning.

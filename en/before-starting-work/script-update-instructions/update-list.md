@@ -40,7 +40,7 @@
 
     ![Selecting an entity for editing](<../../.gitbook/assets/image (1966)_eng.png>)
 
-    ![Editing payment system commissions](<../../.gitbook/assets/image (1967)_eng.png>) ![Editing exchange amounts](<../../.gitbook/assets/image (1970)_eng.png>)
+    ![Editing payment system commissions](<../../.gitbook/assets/image (1967)_eng.png>) ![Editing exchange amounts](<../../.gitbook/assets/image (1969)_eng (1).png>)
 *   **Option to Completely Disable Merchant Logs and Auto-Payments**
 
     ![The option is located in the settings of each merchant and auto-payment module](../../.gitbook/assets/image%20\(283\)_eng.png)
@@ -147,9 +147,7 @@ To avoid such situations, we recommend informing the representatives of the spec
 
 * **Bestchange Blacklist Module (blacklist\_bestchange)**: Added the ability to stop payment on an application if one or more of the client's details are on the Bestchange blacklist when using the module. Module settings can be found in the "**Modules**" -> "**Bestchange Blacklist**" section.
 * **Blacklist**: Changes similar to the **blacklist\_bestchange** module have been made, allowing the acceptance of funds and stopping payment if the user is on the blacklist. Module settings can be found in the "**Blacklist**" -> "**Settings**" section.
-
-- **AML Check**: Added the ability to conduct a check right before sending currency to the client's wallet, with the application moving to an error status if the risk level is exceeded. The risk level setting is done in the "**Modules**" -> "**AML Bot**" or "**Getblock**" section (depending on which service you have connected).
-
+* **AML Check**: Added the ability to conduct a check right before sending currency to the client's wallet, with the application moving to an error status if the risk level is exceeded. The risk level setting is done in the "**Modules**" -> "**AML Bot**" or "**Getblock**" section (depending on which service you have connected).
 * **Getblock AML Service, Sleep Function**: Added the ability to set a wait time for a response from the service in case the check result is not provided immediately. The setting can be found in the "**Modules**" -> "**Getblock**" section.
 * **Email Confirmation**: Added the ability to request email confirmation from the client before creating an application. The "**Email Confirmation Before Application Creation**" module (**confirmexchmail**) must be activated in the "**Modules**" section. Module settings can be found in the "**Modules**" -> "**Email Confirmation Before Application Creation**" section.
 * **Archiving**: The module structure has been changed, and filtering by **application status/details received from the merchant/transaction hash for receiving and sending funds** has been added in the "**Applications**" -> "**Archived Applications**" section.
@@ -160,8 +158,7 @@ Searching by specified filters and viewing comments on applications will only wo
 
 * **Bestchange API Parser (bestchangeapi)**: A module for working with the API has been added. Module settings can be found in the "**BestChange API Parser**" -> "**Settings**" section and on the **"BestChange API Parser"** tab in the exchange direction settings.
 * **Filtering Exchange Directions**: A filter by payment systems has been added in the "**Exchange Directions**" section.
-
-- **Profit Values in Notifications**: The ability to specify **set (not calculated!) values in the exchange direction settings (in the "Rate" tab)** through shortcodes for displaying values in emails and Telegram messages for administrators has been added.
+* **Profit Values in Notifications**: The ability to specify **set (not calculated!) values in the exchange direction settings (in the "Rate" tab)** through shortcodes for displaying values in emails and Telegram messages for administrators has been added.
 
 Here’s a naturalistic English translation of the provided text:
 
@@ -231,6 +228,6 @@ Text error display on the button in the application.
 
 ***
 
-#### Version 2.5
+**Version 2.5**
 
 </details>

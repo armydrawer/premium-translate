@@ -5,7 +5,7 @@ In this section ("**Parsers 2.0**" -> "**Logs**"), you can view the history and 
 {% hint style="info" %}
 To enable logging of all events, not just parsing errors, go to the "**Parsers 2.0**" -> "**Settings**" section and set the "**Parsing Logging**" option to "**Yes**."
 
-![](<../../../.gitbook/assets/image (885)_eng.png>)
+<img src="../../../../ru/.gitbook/assets/image (885) (1).png" alt="" data-size="original">
 {% endhint %}
 
 <figure><img src="../../../.gitbook/assets/image (1048)_eng.png" alt=""><figcaption></figcaption></figure>

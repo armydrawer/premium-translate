@@ -18,19 +18,19 @@ Register on the [Vanilapay](https://web.vanilapay.com/) website (for RUB transac
 
 Log into your account, go to the "**Sites**" section -> "**List of Sites**" and add a new site.
 
-<figure><img src="../../../.gitbook/assets/image (749)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/image (749) (1).png" alt=""><figcaption></figcaption></figure>
 
 Fill in the required fields, except for "**Notification URL**" and "**Payout Notification URL**," then click "**Add**."
 
-<figure><img src="../../../.gitbook/assets/image (750)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/image (750) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 In the window that opens, go to the "**API**" tab.
 
-<figure><img src="../../../.gitbook/assets/image (751)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/image (751) (1).png" alt=""><figcaption></figcaption></figure>
 
 Update the **API Bearer Token** and **API Sign Token** by clicking **"Edit"** on each line one by one.
 
-<figure><img src="../../../.gitbook/assets/image (752)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/image (752) (1).png" alt=""><figcaption></figcaption></figure>
 
 Copy the keys and save them in a text file.
 
@@ -40,7 +40,7 @@ In the admin panel, create a new merchant in the "**Automatic Payouts**" -> "**A
 
 Select Firekassa from the dropdown menu in the "**Module**" field, provide a name for the module, and click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/image (746)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/image (746) (1).png" alt=""><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
@@ -58,7 +58,7 @@ Fill in the required authorization fields.
 
 **Type**:
 
-<figure><img src="../../../.gitbook/assets/image (648)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/image (648) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Type** — select the bank for fund payouts (RUB, UAH)
 

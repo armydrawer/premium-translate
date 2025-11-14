@@ -2,18 +2,18 @@
 
 The commands in this guide are executed via the ISP Manager control panel under the root user. By following these instructions, you can replace the SSH keys used for authentication on the server via SSH/SFTP.
 
----
+***
 
 ### Steps:
 
 1. Log in to the ISP Manager server control panel as the root user.
 2. Navigate to the **"Administration" -> "Shell Client"** section.
 
-<figure><img src="../../../.gitbook/assets/spaces_m9kqZXsNykrN6VyxxXBO_uploads_3rinLIMnpcghlMNMVkFk_изображение.webp" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/spaces_m9kqZXsNykrN6VyxxXBO_uploads_3rinLIMnpcghlMNMVkFk_%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5.webp" alt=""><figcaption></figcaption></figure>
 
 3. Right-click on the blank screen and select **"Paste from browser"** from the context menu.
 
-<figure><img src="../../../.gitbook/assets/spaces_m9kqZXsNykrN6VyxxXBO_uploads_9M75rlvamo44ybnN49r0_изображение.webp" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/spaces_m9kqZXsNykrN6VyxxXBO_uploads_9M75rlvamo44ybnN49r0_%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5.webp" alt=""><figcaption></figcaption></figure>
 
 4. Enter the command in the window that opens and click **"OK"**. Then press **Enter** to execute the command.
 5. Execute the commands listed below one by one, repeating steps 3 and 4 for each command.
@@ -43,25 +43,24 @@ cat ~/PRIVATE_SSH_KEY.pub >> ~/.ssh/authorized_keys
 rm ~/PRIVATE_SSH_KEY.pub -f
 ```
 
----
+***
 
 7. In the **"File Manager"** section, navigate to the **"root"** folder.
 
-<figure><img src="../../../.gitbook/assets/Clip2net_230629214730_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/Clip2net_230629214730 (1).png" alt=""><figcaption></figcaption></figure>
 
 8. Download the two SSH keys to your computer:
+   * `PRIVATE_SSH_KEY` — Use this for macOS/Linux.
+   * `PRIVATE_SSH_KEY.ppk` — Use this for Windows.
 
-   - `PRIVATE_SSH_KEY` — Use this for macOS/Linux.  
-   - `PRIVATE_SSH_KEY.ppk` — Use this for Windows.
-
-<figure><img src="../../../.gitbook/assets/Clip2net_230629214819_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/Clip2net_230629214819 (1).png" alt=""><figcaption></figcaption></figure>
 
 9. Delete the generated keys from the server after downloading them.
 
-<figure><img src="../../../.gitbook/assets/Clip2net_230629214845_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/Clip2net_230629214845 (1).png" alt=""><figcaption></figcaption></figure>
 
 10. Perform a test connection via SSH/SFTP using the new keys.
 
---- 
+***
 
 By following these steps, you will successfully replace the SSH keys used for server authentication.

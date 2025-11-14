@@ -14,21 +14,21 @@ To discuss terms and connection, please contact a [service representative](https
 
 After receiving your login credentials from the service representative, log in to your [PandaPay](https://pandapay24.com/) account. Navigate to the "**Settings**" section.
 
-<figure><img src="../../../.gitbook/assets/image (122)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/image (122) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Add the Callback URL in the appropriate field.
 
-<figure><img src="../../../.gitbook/assets/image (120)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/image (120) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 To update the status of requests, specify the current Callback URL in the merchant account — you can find the URL in the module settings (the "**Webhook**" line).
 
-![](<../../../.gitbook/assets/image (121)_eng.png>)
+<img src="../../../../ru/.gitbook/assets/image (121) (1).png" alt="" data-size="original">
 {% endhint %}
 
 Create new access keys and copy them to your clipboard or a text file.
 
-<figure><img src="../../../.gitbook/assets/image (119)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/image (119) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Module Settings
 

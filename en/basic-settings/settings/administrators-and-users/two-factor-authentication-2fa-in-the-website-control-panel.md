@@ -13,9 +13,9 @@ Set up email notifications from the script according to the [instructions](https
 
 In the website control panel, go to the "**Messages" → "Email Templates"** section. For the templates "**PIN Code Authentication**" and "**Notify User Login to Personal Account**," enable message sending and add the appropriate shortcodes from the panel above the text input field.
 
-<figure><img src="../../../.gitbook/assets/image%20(2)_eng.png" alt="" width="563"><figcaption><p>Template "<strong>PIN Code Authentication</strong>"</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2)_eng.png" alt="" width="563"><figcaption><p>Template "<strong>PIN Code Authentication</strong>"</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image%20(1)%20(1)_eng.png" alt="" width="563"><figcaption><p>Template “<strong>Notify User Login to Personal Account</strong>”</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2)_eng.png" alt="" width="563"><figcaption><p>Template “<strong>Notify User Login to Personal Account</strong>”</p></figcaption></figure>
 
 In the "**Users" (select user) →** set "**Yes**" for the options "**Notification on Login (Email)**" and "**PIN Code Authentication (Email)**."
 
@@ -39,8 +39,8 @@ To verify that 2FA is activated, log out of your account and try to log in witho
 
 If you receive an error and can log in again (with the code), the option is set up correctly.
 
-<div><figure><img src="../../../.gitbook/assets/image%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)_eng.png" alt=""><figcaption><p>Admin Panel Login</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/image%20(4)%20(1)%20(1)%20(1)%20(1)%20(1)_eng.png" alt="" width="563"><figcaption><p>Login to Personal Account on the Exchange Website</p></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1)_eng.png" alt=""><figcaption><p>Admin Panel Login</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/image%20(4)%20(1)%20(1)%20(1)%20(1)%20(1)_eng.png" alt="" width="563"><figcaption><p>Login to Personal Account on the Exchange Website</p></figcaption></figure></div>
 
 If necessary, you can disable 2FA for any user in their profile settings (under the "**Users**" section).
 
-<div><figure><img src="../../../.gitbook/assets/image%20(2)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)_eng.png" alt=""><figcaption><p>Disabling 2FA in the Admin Panel</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/image%20(3)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)_eng.png" alt="" width="563"><figcaption><p>Disabling 2FA in the Personal Account</p></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1)_eng.png" alt=""><figcaption><p>Disabling 2FA in the Admin Panel</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/image%20(3)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)_eng.png" alt="" width="563"><figcaption><p>Disabling 2FA in the Personal Account</p></figcaption></figure></div>

@@ -11,7 +11,7 @@ To automatically update currency rates, **make sure to create a** [**Cron job**]
 {% hint style="warning" %}
 The hash for the Cron job link is specified in the **`wp-content/plugins/premiumbox/userdata.php`** file.
 
-<img src="../../../.gitbook/assets/image (1520)_eng.png" alt="" data-size="original"><img src="../../../.gitbook/assets/image (1522)_eng.png" alt="" data-size="original">
+<img src="../../../../ru/.gitbook/assets/image (577) (1).png" alt="" data-size="original"><img src="../../../../ru/.gitbook/assets/image (579) (1).png" alt="" data-size="original">
 {% endhint %}
 
 In the website control panel under the "**Parsers 2.0**" section, you will find a list of currency rate sources that can be linked to the exchange rate on the site, as well as the last update time for the rates from these sources.
@@ -40,10 +40,10 @@ In the website control panel under the "**Parsers 2.0**" section, you will find 
 {% hint style="info" %}
 If needed, you can parse your own currency rates file or an XML file from another exchange to use these rates in other formulas.\
 To do this, go to the "**Parsers 2.0**" ➔ "**Add Site**" section and in the new window, specify the link to your XML file with rates in the "**XML File Address**" field.\
-![](<../../../.gitbook/assets/image (851)_eng.png>)\
+![](<../../../../ru/.gitbook/assets/image (851) (1).png>)\
 After that, check the box next to the added source.
 
-![](../../../.gitbook/assets/image%20\(205\)_eng.png)\
+![](<../../../../ru/.gitbook/assets/image (205) (1).png>)\
 To activate the parser, go to the "**Parsers 2.0" → "Settings"** section and check the boxes next to the names of the sources you want to use. After that, run the Cron job from the same page.
 {% endhint %}
 
@@ -56,15 +56,15 @@ If rates are not updating for one or more sources, or if the parser is not worki
 
 If you are using ISP Manager — go to the "**Shell Client**" section.
 
-<img src="../../../.gitbook/assets/image (668)_eng.png" alt="" data-size="original">
+<img src="../../../../ru/.gitbook/assets/image (668) (1).png" alt="" data-size="original">
 
 In the opened window, enter the command "`curl link for parsing`".
 
 For example, let's check the parsing of rates from Garantex:
 
-<img src="../../../.gitbook/assets/image (669)_eng.png" alt="" data-size="original">
+<img src="../../../../ru/.gitbook/assets/image (669) (1).png" alt="" data-size="original">
 
-If the response shows currency rates, then the source is accessible from your server. ![](<../../../.gitbook/assets/image (671)_eng.png>)
+If the response shows currency rates, then the source is accessible from your server. ![](<../../../../ru/.gitbook/assets/image (670) (1).png>)
 {% endhint %}
 
 {% hint style="info" %}
@@ -77,7 +77,7 @@ To quickly receive notifications about parsing errors for currency rates, you ca
 
 This section will display all currency rates obtained from sources. You can use the displayed shortcodes from the "**Code**" column to create complex rates in the "**Rates**" section.
 
-<figure><img src="../../../.gitbook/assets/image%20(206)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/image (206) (1).png" alt=""><figcaption></figcaption></figure>
 
 For easier searching of specific data, you can use filters based on 3 conditions:
 
@@ -109,14 +109,14 @@ Clicking the "**Copy**" button will create a copy of the currency in the row whe
 If any rate in the "**Rate for Giving**" or "**Rate for Receiving**" column shows 0, it means that the shortcode used in the "**Rate Formula for Giving**" or "**Rate Formula for Receiving**" fields is invalid — replace it.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image%20(207)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/image (207) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 If the desired rate is not available in the "**Parsers 2.0**" ➔ "**Source Rates**" section, transfer the reverse rate to the "**Rates**" section and use the formula **`1/[currency_rate]`** — in this case, you will obtain the required rate.
 {% endhint %}
 
 {% hint style="success" %}
-#### Converter Module
+**Converter Module**
 
 To quickly transfer rates from a specific source in the "**Rate Sources**" section to the "**Rates**" section, you can use the "**Converter**" module.
 
@@ -167,19 +167,19 @@ Comment — a space for your notes
 
 You can parse open XML files from other exchanges if you know their URL (often it is `https://domain/request-exportxml.xml`). To use this option, activate the module "**Parsing XML Files with Exchange Rates**" in the "**Modules**" section.
 
-<figure><img src="../../../.gitbook/assets/image (596)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/image (596) (1).png" alt=""><figcaption></figcaption></figure>
 
 After that, add a new source in the "**Parsers 2.0**" ➔ "**Add Site**" section. In the window that opens, specify a name for the source of your choice and the link to the file with the exchange rates.
 
-<figure><img src="../../../.gitbook/assets/image (598)_eng.png" alt="" width="477"><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/image (598) (1).png" alt="" width="477"><figcaption></figcaption></figure>
 
 Once you save the source, go to the "**Parsers 2.0**" ➔ "**Settings**" section and activate the newly added source.
 
-<figure><img src="../../../.gitbook/assets/image (599)_eng.png" alt="" width="435"><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/image (599) (1).png" alt="" width="435"><figcaption></figcaption></figure>
 
 After that, the data from the source will appear in the "**Parsers 2.0**" ➔ "**Source Rates**" section.
 
-<figure><img src="../../../.gitbook/assets/image (600)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/image (600) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Automatic Rate Updates
 

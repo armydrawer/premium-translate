@@ -1,9 +1,9 @@
 # BestChange Parser (Old)
 
 {% hint style="danger" %}
-To automatically update currency rates, **make sure to create a [Cron job](https://premium.gitbook.io/main/en/basic-settings/faq/kak-sozdat-zadanie-cron-na-servere)** on your server using the link from the "**BestChange Parser**" section — "**Settings**".
+To automatically update currency rates, **make sure to create a** [**Cron job**](https://premium.gitbook.io/main/en/basic-settings/faq/kak-sozdat-zadanie-cron-na-servere) on your server using the link from the "**BestChange Parser**" section — "**Settings**".
 
-![](<../../../.gitbook/assets/image (1482)_eng.png>)
+<img src="../../../.gitbook/assets/image (1482)_eng.png" alt="" data-size="original">
 {% endhint %}
 
 {% hint style="info" %}
@@ -23,13 +23,13 @@ You can also configure minimum and maximum rates according to this guide to avoi
 {% hint style="warning" %}
 The hash for the Cron job link is set in the file **`wp-content/plugins/premiumbox/userdata.php`**.
 
-![](<../../../.gitbook/assets/image (1520)_eng.png>)![](<../../../.gitbook/assets/image (1521)_eng.png>)
+<img src="../../../../ru/.gitbook/assets/image (577) (1).png" alt="" data-size="original"><img src="../../../../ru/.gitbook/assets/image (578) (1).png" alt="" data-size="original">
 {% endhint %}
 
 {% hint style="danger" %}
 The BestChange parser will only work in the active exchange direction — make sure to set the direction to active before starting the parser configuration.
 
-<img src="../../../.gitbook/assets/image (733)_eng.png" alt="" data-size="original">
+<img src="../../../../ru/.gitbook/assets/image (733) (1).png" alt="" data-size="original">
 {% endhint %}
 
 {% embed url="https://www.youtube.com/watch?v=epK0sO_84zc" %}
@@ -37,7 +37,7 @@ The BestChange parser will only work in the active exchange direction — make s
 1. In the "**Modules" → "Modules"** section, activate the "**BestChange Parser**" module. To activate it, hover over the merchant's name and click the "**Activate**" link.
 2. In the "**BestChange Parser" → "Settings"** section, enter your exchanger's ID provided by BestChange in the "**Blacklist of Exchanger IDs (comma-separated)**" field. If your exchanger is not listed on BestChange, leave the "**Blacklist of Exchanger IDs (comma-separated)**" field empty and save the changes. Then, in the same section, follow the link "**Cron URL for updating rates in the BestChange Parser module**".
 
-<figure><img src="../../../.gitbook/assets/image (897)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/image (897) (1).png" alt=""><figcaption></figcaption></figure>
 
 <details>
 
@@ -45,7 +45,7 @@ The BestChange parser will only work in the active exchange direction — make s
 
 Click on the image below to see how to find the Exchanger ID on the BestChange website.
 
-<img src="../../../.gitbook/assets/Clip2net_230726151417_eng.png" alt="" data-size="original">
+<img src="../../../../ru/.gitbook/assets/Clip2net_230726151417 (1).png" alt="" data-size="original">
 
 </details>
 
@@ -82,11 +82,11 @@ You can also specify, for example, **1-6** — this will mean the average value 
 
 Similar settings for the exchange direction can also be configured in the control panel under "**BestChange Parser" → "Add Adjustment"**.
 
-<figure><img src="../../../.gitbook/assets/image (852)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/image (852) (1).png" alt=""><figcaption></figcaption></figure>
 
 6. Add a cron job in the [task scheduler](https://premium.gitbook.io/main/en/basic-settings/faq/kak-sozdat-zadanie-cron-na-servere) that will update the currency rates. The script can be run every minute. Here’s an example command for the task scheduler in Unix format for the ISP Manager control panel:
 
-<figure><img src="../../../.gitbook/assets/image (1339)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/image (544) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 The command from the example may look different for each server. The changes pertain to the part of the command **`/usr/bin/wget -t 1 -O - --no-check-certificate`**.

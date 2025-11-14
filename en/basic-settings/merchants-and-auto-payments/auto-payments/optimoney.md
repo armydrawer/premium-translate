@@ -18,9 +18,9 @@ To discuss the terms of service, please contact a [service representative](https
 
 Register on the [Optimoney](https://client.optimoney.com/register) service. Log into your account and create a new USD wallet (name the wallet as you see fit).
 
-<figure><img src="../../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Module Settings
 

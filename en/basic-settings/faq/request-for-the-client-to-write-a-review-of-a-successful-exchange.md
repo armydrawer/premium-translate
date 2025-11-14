@@ -1,4 +1,6 @@
-### Request for Clients to Leave Feedback on a Successful Exchange
+# Request for the client to write a review of a successful exchange
+
+#### Request for Clients to Leave Feedback on a Successful Exchange
 
 To enhance the reputation of your exchange service, we recommend that you, as the owner, encourage clients to leave reviews on your website, review platforms, monitoring services, and forums.
 
@@ -6,32 +8,35 @@ To enhance the reputation of your exchange service, we recommend that you, as th
 In the current market, it’s common to offer a small monetary reward (typically $5–$10) as a token of appreciation for leaving a review after completing an exchange.
 {% endhint %}
 
----
+***
 
-### List of Recommended Platforms
+#### List of Recommended Platforms
 
 Below is a list of platforms where you should direct clients who have completed an exchange with you. Make sure the links lead directly to your profile or page on these platforms!
 
-#### Review Platforms:
+**Review Platforms:**
+
 * [MyWOT](https://www.mywot.com/)
 * [Trustpilot](https://www.trustpilot.com/)
 * [WebProverka](https://webproverka.com/)
 
-#### Monitoring Services:
+**Monitoring Services:**
+
 * [Kurs.expert](https://kurs.expert)
 * [ExchangeSumo](https://exchangesumo.com/)
 * [Exnode](https://exnode.ru/)
 * [Bits.media](https://bits.media/exchanger/)
 
-#### Forums:
+**Forums:**
+
 * [Mmgp](https://mmgp.com/)
 * [Bits.media](https://bits.media/)
 * [Bitcoin Talk](https://bitcointalk.org/)
 * [CryptoTalk](https://cryptotalk.org/)
 
----
+***
 
-### Adding a Request to Leave a Review
+#### Adding a Request to Leave a Review
 
 The most convenient way to ask users to leave a review is by including the request on the exchange confirmation page and in the email they receive after completing the exchange.
 
@@ -39,23 +44,23 @@ The most convenient way to ask users to leave a review is by including the reque
 {% tab title="On the Exchange Confirmation Page" %}
 In the **Exchange Directions -> Exchange Template** section, add a message to the "**Completed Exchange**" status template. Be sure to include **direct links** to your profiles on review platforms, forums, and monitoring services!
 
-<figure><img src="../../.gitbook/assets/MBAMessageCenter_230629172233_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../ru/.gitbook/assets/MBAMessageCenter_230629172233 (1).png" alt=""><figcaption></figcaption></figure>
 
 This is how the template will appear on the exchange confirmation page:
 
-<figure><img src="../../.gitbook/assets/изображение (105)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(105)_eng.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="In the Email" %}
 In the **Messages -> Email Templates** section, configure the email template for the "**Completed Exchange**" status. This email will be sent to the client upon completion of their exchange.
 
-<figure><img src="../../.gitbook/assets/E-mail шаблоны ‹ Premium Exchanger — WordPress - Google Chrome_230629174225_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../ru/.gitbook/assets/E-mail шаблоны ‹ Premium Exchanger — WordPress - Google Chrome_230629174225 (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
----
+***
 
-### Template Text for the Exchange Confirmation Page and Email
+#### Template Text for the Exchange Confirmation Page and Email
 
 {% hint style="warning" %}
 Important! When copying and pasting the text into your website’s admin panel, replace the placeholder text `YOUR_LINK` with the actual link to your profile or page on the specified platform.

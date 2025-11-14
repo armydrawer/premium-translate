@@ -18,11 +18,11 @@ To discuss terms and connection, please contact a [service representative](https
 
 Register on the [IvanPay](https://ivanpay.com/) service.
 
-<figure><img src="../../../.gitbook/assets/image (214)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20(214)_eng.png" alt=""><figcaption></figcaption></figure>
 
 In your merchant account, copy the information from the "**Your API Address**" field, as well as the API key provided to you by the service representative.
 
-<figure><img src="../../../.gitbook/assets/image (215)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20(215)_eng.png" alt=""><figcaption></figcaption></figure>
 
 ## Module Settings <a href="#nastroiki-modulya" id="nastroiki-modulya"></a>
 
@@ -30,11 +30,11 @@ In the admin panel, create a new merchant in the "**Auto Payouts**" section by c
 
 Select Ivanpay from the dropdown menu in the "**Module**" field, enter a name for the module, and click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/Arc_OcgFEcjunz_eng.png" alt="" width="426"><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/Arc_OcgFEcjunz (1).png" alt="" width="426"><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../.gitbook/assets/image (293)_eng.png" alt="" width="421"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20(293)_eng.png" alt="" width="421"><figcaption></figcaption></figure>
 
 **Domain** — the merchant's domain, previously copied from the merchant account in the "**Your API Address**" field.
 
@@ -42,9 +42,9 @@ Fill in the required authorization fields.
 
 ## Special Fields
 
-<figure><img src="../../../.gitbook/assets/выплата1_eng.png" alt="" width="398"><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/выплата1 (1).png" alt="" width="398"><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/выплата2_eng.png" alt="" width="399"><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/выплата2 (1).png" alt="" width="399"><figcaption></figcaption></figure>
 
 **Payment Method** — select the required method for fund payouts.
 
@@ -178,17 +178,17 @@ Bank Levoberezhny
 
 After that, add the additional field for the currency selected for payout in this exchange direction in the field settings:
 
-<figure><img src="../../../.gitbook/assets/image (289)_eng.png" alt="" width="386"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20(289)_eng.png" alt="" width="386"><figcaption></figcaption></figure>
 
 Or in the currency settings under the "**Additional Fields**" tab:
 
-<figure><img src="../../../.gitbook/assets/image (288)_eng.png" alt="" width="366"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20(288)_eng.png" alt="" width="366"><figcaption></figcaption></figure>
 
 Save the changes.
 
 After this, the field will be displayed in the exchange form, and the client will need to select one of the options when creating a request.
 
-<figure><img src="../../../.gitbook/assets/image (290)_eng.png" alt="" width="521"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20(290)_eng.png" alt="" width="521"><figcaption></figcaption></figure>
 
 ## Continuing the Setup
 

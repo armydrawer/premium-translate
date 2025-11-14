@@ -9,7 +9,7 @@ A list of updates for version 2.6 is available at [**this link**](https://premiu
 {% endhint %}
 
 {% hint style="warning" %}
-Before starting the script update, please ensure that the Ioncube Loader on your server is updated to version 13.0 or higher (if your current version is below 13, refer to the [**instructions for checking the installed version**](https://premium.gitbook.io/main/en/basic-settings/faq/kak-proverit-versiyu-ioncube-ustanovlennuyu-na-servere)** and [**instructions for updating**](https://premium.gitbook.io/main/en/basic-settings/faq/kak-obnovit-ioncube-loader)). Your hosting provider's technical support can assist you with the update.
+Before starting the script update, please ensure that the Ioncube Loader on your server is updated to version 13.0 or higher (if your current version is below 13, refer to the [**instructions for checking the installed version**](https://premium.gitbook.io/main/en/basic-settings/faq/kak-proverit-versiyu-ioncube-ustanovlennuyu-na-servere)\*\* and [**instructions for updating**](https://premium.gitbook.io/main/en/basic-settings/faq/kak-obnovit-ioncube-loader)). Your hosting provider's technical support can assist you with the update.
 {% endhint %}
 
 {% hint style="warning" %}
@@ -40,13 +40,13 @@ The easiest way to [**back up your website**](https://premium.gitbook.io/main/en
 **Please note — when updating the script from version 2.5 to 2.6, you need to update (for free) any custom themes for your website!**
 
 If you are using such a theme, please send the archive for adaptation to version 2.6.\
-To do this, navigate to the folder on your server at `www/<your_site_name>/wp-content/themes/`, find the folder with your theme, zip it, download it to your computer, and then send the archive in your Telegram group.&#x20;
+To do this, navigate to the folder on your server at `www/<your_site_name>/wp-content/themes/`, find the folder with your theme, zip it, download it to your computer, and then send the archive in your Telegram group.
 {% endhint %}
 
-1. In the exchange panel, go to the "**Console**" section and enable technical mode for the exchanger so that users cannot make requests on the site during the script update.
+1.  In the exchange panel, go to the "**Console**" section and enable technical mode for the exchanger so that users cannot make requests on the site during the script update.
 
-    <figure><img src="../../.gitbook/assets/image (879)_eng.png" alt=""><figcaption></figcaption></figure>
-2. In the "**Plugins**" section, deactivate the "**Premium Exchanger**" and "**Premium Exchanger hooks**" plugins.
+    <figure><img src="../../../ru/.gitbook/assets/image (879) (1).png" alt=""><figcaption></figcaption></figure>
+2.  In the "**Plugins**" section, deactivate the "**Premium Exchanger**" and "**Premium Exchanger hooks**" plugins.
 
     <figure><img src="../../.gitbook/assets/image (1169)_eng.png" alt=""><figcaption></figcaption></figure>
 3. Using an FTP client or file manager, delete the contents of the **`/wp-content/plugins/premiumbox/`** folder on the server, <mark style="color:green;">**except for**</mark> the following files and folders inside it:
@@ -71,13 +71,13 @@ After updating the script, you need to transfer internal accounts to the new mod
 
 <figure><img src="../../.gitbook/assets/image (1775)_eng.png" alt="" width="563"><figcaption><p><strong>Delete all checked files and folders from your server</strong></p></figcaption></figure>
 
-4. Delete all files from the previous license in the root folder of your website.\
+4.  Delete all files from the previous license in the root folder of your website.\\
 
     <figure><img src="../../.gitbook/assets/image (1774)_eng.png" alt="" width="432"><figcaption></figcaption></figure>
 
 Go to the "[**Your Licenses**](https://premiumexchanger.com/ulicense/)" section and download the archive with the license files `license.zip`. To do this, click on the link "**Download for version 2.6**".
 
-<figure><img src="../../.gitbook/assets/image (473)_eng.png" alt="" width="485"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(473)_eng.png" alt="" width="485"><figcaption></figcaption></figure>
 
 Upload the downloaded archive to the [root folder of your website](https://premium.gitbook.io/main/en/basic-settings/faq/kak-naiti-kornevuyu-papku-saita-na-servere) under <mark style="color:green;">**the user created for the site**</mark> (not <mark style="color:red;">**root**</mark>!) and **be sure to extract the archive**.
 
@@ -92,17 +92,17 @@ You need to know the exact PHP version installed on your server to select the ap
 [**Instructions for checking the PHP version installed on the server**](https://premium.gitbook.io/main/en/basic-settings/faq/kak-proverit-versiyu-php-ustanovlennuyu-na-servere).
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (472)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(472)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 6. Upload the contents of the update archive to the root folder of your website under <mark style="color:green;">**the user created for the site**</mark> (not <mark style="color:red;">**root**</mark>!). Use an FTP client or file manager. Extract the archive, replacing the files.
 7. Go to the "**Plugins**" section and activate the "**Premium Exchanger**" and "**Premium Exchanger hooks**" plugins.
-8. Navigate to the "**Exchange Settings** → "Migration"** section and sequentially complete each step in the "**Migration (if version is less than 2.6)**" block.
+8. Navigate to the "**Exchange Settings** → "Migration"\*\* section and sequentially complete each step in the "**Migration (if version is less than 2.6)**" block.
 
 <figure><img src="../../.gitbook/assets/image (1682)_eng.png" alt="" width="390"><figcaption></figcaption></figure>
 
 When starting each step, the system will determine the total number of requests that need to be processed. You can specify the number of requests to be processed in one cycle.
 
-<figure><img src="../../.gitbook/assets/image (500)_eng.png" alt="" width="345"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(500)_eng.png" alt="" width="345"><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 By default, the number of requests = 50. If you are unsure about your server's capacity, we recommend not changing the default value.
@@ -123,7 +123,7 @@ If you use the **technical step**, you will need to manually set the number of r
 
 An alternative option is to select "**No**" for the "**Update Mode**" parameter in this section and save the changes.
 
-<figure><img src="../../.gitbook/assets/image (474)_eng.png" alt="" width="255"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(474)_eng.png" alt="" width="255"><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 The update mode is activated each time the main plugin is deactivated and reactivated, so it must always be manually disabled.
@@ -131,21 +131,21 @@ The update mode is activated each time the main plugin is deactivated and reacti
 
 11. If you are using the "**Parsers 2.0**" or "**Bestchange parser**" modules, after disabling the update mode, you need to manually start the parsers in the corresponding sections by following the Cron link.
 
-   For the operation of Parsers 2.0:
+For the operation of Parsers 2.0:
 
-   <figure><img src="../../.gitbook/assets/image (394)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(394)_eng.png" alt=""><figcaption></figcaption></figure>
 
-   For the operation of the BestChange parser:
+For the operation of the BestChange parser:
 
-   <figure><img src="../../.gitbook/assets/image (392)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(392)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 12. [Clear your browser cache](https://www.unisender.com/ru/blog/kak-ochistit-kehsh-v-brauzerah/).
 
-   <figure><img src="../../.gitbook/assets/image (395)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(395)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 13. <mark style="color:red;">**Make sure to delete any uploaded zip archives of the script and website backups from the root folder on the server.**</mark>
 
-   <figure><img src="../../.gitbook/assets/image (396)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(396)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 14. Disable maintenance mode in the "**Console**" section.
 15. <mark style="color:green;">**The update was successful!**</mark>
@@ -162,7 +162,7 @@ After the update, you need to make changes in the admin panel for the script to 
 
 If you are using the **"Internal Account" (domacc)** module, as well as merchant modules for receiving and auto payouts **domacc**:
 
-![](<../../.gitbook/assets/image (1644)_eng.png>)![](<../../.gitbook/assets/image (1645)_eng.png>)
+![](<../../.gitbook/assets/image (1644)_eng.png>) ![](<../../.gitbook/assets/image (1645)_eng.png>)
 
 <mark style="color:red;">**It is necessary**</mark> to switch to the new **"Internal Account Module" (iac)**.
 
@@ -173,7 +173,7 @@ Instructions for transitioning to the new module:
 
 ![](<../../.gitbook/assets/image (1646)_eng.png>)
 
-![](<../../.gitbook/assets/image (1647)_eng.png>)![](<../../.gitbook/assets/image (1648)_eng.png>)
+![](<../../.gitbook/assets/image (1647)_eng.png>) ![](<../../.gitbook/assets/image (1648)_eng.png>)
 
 * Disable the old **domacc** module in the "**Modules**" section, and then delete the module from the server (the path to the module folder is `wp-content/plugins/premiumbox/moduls/domacc)`\
   ![](<../../.gitbook/assets/image (1649)_eng.png>)
@@ -181,11 +181,11 @@ Instructions for transitioning to the new module:
 * Add the new merchant and auto payout **iac** in the **"Merchants" -> "Merchants"** and **"Merchants" -> "Auto Payouts"** sections and configure them according to the [instructions](https://premium.gitbook.io/main/en/basic-settings/nastroiki/vnutrennie-scheta).
 * Add the created merchants to the appropriate exchange directions (the "**Merchants and Payouts**" tab in the exchange direction settings).
 
-![](<../../.gitbook/assets/image (463)_eng.png>)
+![](../../.gitbook/assets/image%20\(463\)_eng.png)
 
 <mark style="color:red;">**Important!**</mark> If the internal account number for debiting and/or crediting funds is not specified in the exchange form when using merchant modules for receiving and auto payouts, it will default to **`currency code + client id`** from the client's profile (section "**Personal Data**" -> "**Internal Account**").
 
-![](<../../.gitbook/assets/image (1655)_eng.png>)![](<../../.gitbook/assets/image (1654)_eng.png>)
+![](<../../.gitbook/assets/image (1655)_eng.png>) ![](<../../.gitbook/assets/image (1654)_eng.png>)
 
 If the account is specified in the exchange form, that account will be used for debiting/crediting (note that this way you can transfer currency to another user's account if their ID is known).
 
@@ -195,6 +195,6 @@ Continue with the script update.
 
 </details>
 
-3. Starting from version 2.6, the **"Captcha for the Site (Image Selection)" (sitecaptcha_img)** module automatically generates options for users to choose from on the site. In the previous version of the module, you could create your own tasks; starting from version 2.6, this option has been disabled, so changes to the captcha's appearance will be reflected on the site immediately.
+3. Starting from version 2.6, the **"Captcha for the Site (Image Selection)" (sitecaptcha\_img)** module automatically generates options for users to choose from on the site. In the previous version of the module, you could create your own tasks; starting from version 2.6, this option has been disabled, so changes to the captcha's appearance will be reflected on the site immediately.
 4. After the update, in the "**Exchange Settings**" -> "**General Settings**" section, <mark style="color:red;">**make sure to**</mark> select the logic for handling requests when using receiving merchants for the option "**Action if the merchant fails**."\
    For more details on how this option works, refer to the "[**General Merchant Settings**](https://premium.gitbook.io/main/en/en/basic-settings/merchants-and-auto-payments/merchants/general-merchant-settings#podklyuchenie-neskolkikh-merchantov)" guide.

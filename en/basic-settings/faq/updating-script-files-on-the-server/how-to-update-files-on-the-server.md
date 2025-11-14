@@ -21,7 +21,7 @@ Please note that modules are not compatible across different script versions. Fo
 Installing an incompatible module will result in an error (the website will not load), and you will need to upload compatible modules again.
 {% endhint %}
 
----
+***
 
 ## Script Modules
 
@@ -35,32 +35,32 @@ Installing an incompatible module will result in an error (the website will not 
 
 3. Navigate to the directory path shown in the screenshot: `/wp-content/plugins/premiumbox/moduls/`
 
-<figure><img src="../../../.gitbook/assets/image (1831)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/image (657) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 4. Select **one or more required modules** and drag them into the ISP Manager window, placing them in the corresponding directory on the server.
 
-<figure><img src="../../../.gitbook/assets/изображение (179)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(179)_eng.png" alt=""><figcaption></figcaption></figure>
 
 5. At the bottom of the page, a window will appear showing the destination folder (the "**moduls**" folder).
 
-<figure><img src="../../../.gitbook/assets/изображение (80)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(80)_eng.png" alt=""><figcaption></figcaption></figure>
 
 6. If a file conflict window appears, overwrite the files by clicking "**Replace**."
 
-<figure><img src="../../../.gitbook/assets/изображение (66)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(66)_eng.png" alt=""><figcaption></figcaption></figure>
 
 7. Reactivate the updated modules in the "**Modules**" section.
 
 After completing these steps, the modules will be updated, and no further actions are required.
 
----
+***
 
 ## Merchant and Auto-Payout Modules
 
 {% hint style="danger" %}
 Ensure that you download the module specifically for the script version installed on your server. The script version can be found, for example, on the "**Requests**" page.
 
-![](<../../../.gitbook/assets/image (2021)_eng.png>)
+<img src="../../../.gitbook/assets/image (2021)_eng.png" alt="" data-size="original">
 {% endhint %}
 
 {% tabs %}
@@ -79,17 +79,17 @@ Download the updated module distribution (any archive compatible with **your scr
 
 Extract the downloaded archive on your computer and locate the folder containing the required merchant module:
 
-<figure><img src="../../../.gitbook/assets/image (2023)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/image (674) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
-&#x20;or auto-payout module:
+or auto-payout module:
 
-<figure><img src="../../../.gitbook/assets/image (2089)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/image (695) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Upload the contents of the module archive to the server in the `/wp-content/plugins/premiumbox/merchants` directory (for payment acceptance) or `/wp-content/plugins/premiumbox/paymerchants` directory (for auto-payouts). If a file conflict window appears, overwrite the files.
 {% endtab %}
 {% endtabs %}
 
----
+***
 
 ## Default Script Design Files
 
@@ -99,7 +99,7 @@ Upload the contents of the module archive to the server in the `/wp-content/plug
 
 2. Navigate to the directory path shown in the screenshot: `/wp-content/themes/`
 
-<figure><img src="../../../.gitbook/assets/image (2031)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/image (677) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 4. Select the required design folder (`newexchanger2.0` — the new standard design for 2024) and drag it into the ISP Manager window, placing it in the corresponding directory.
 
@@ -107,25 +107,25 @@ Upload the contents of the module archive to the server in the `/wp-content/plug
 
 5. If a file conflict window appears, overwrite the files by clicking "**Replace**."
 
-<figure><img src="../../../.gitbook/assets/изображение (66)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(66)_eng.png" alt=""><figcaption></figcaption></figure>
 
 7. Activate the uploaded design in the website control panel under "**Appearance -> Themes**."
 
-<figure><img src="../../../.gitbook/assets/Темы ‹ Обменник — WordPress - Google Chrome_240406131708_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/%D0%A2%D0%B5%D0%BC%D1%8B%20%E2%80%B9%20%D0%9E%D0%B1%D0%BC%D0%B5%D0%BD%D0%BD%D0%B8%D0%BA%20%E2%80%94%20WordPress%20-%20Google%20Chrome_240406131708_eng.png" alt=""><figcaption></figcaption></figure>
 
 8. Additional appearance settings may be required if you activate a new design on the site. The main design settings can be found in the "**Appearance**" section.
 
----
+***
 
 ## Script Files
 
 1. Download the **update archive** for your script version from the [**"Your Scripts"**](https://premiumexchanger.com/uscripts/) page. Choose the appropriate PHP version and your script version, then extract the archive on your computer.
 
-<figure><img src="../../../.gitbook/assets/image (2029)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2019)_eng (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 2. Navigate to the directory path shown in the screenshot: `/wp-content/plugins/premiumbox/`
 
-<figure><img src="../../../.gitbook/assets/image (2030)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/image (676) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 3. Select **one or more required directories** and drag them into the ISP Manager window, placing them in the corresponding directory.
 
@@ -133,4 +133,4 @@ Upload the contents of the module archive to the server in the `/wp-content/plug
 
 4. If a file conflict window appears, overwrite the files by clicking "**Replace**."
 
-<figure><img src="../../../.gitbook/assets/изображение (66)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(66)_eng.png" alt=""><figcaption></figcaption></figure>

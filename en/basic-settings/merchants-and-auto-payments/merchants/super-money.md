@@ -24,7 +24,7 @@ Select Super Money from the dropdown menu in the "**Module**" field, enter a nam
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../.gitbook/assets/image (302)_eng.png" alt="" width="454"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20(302)_eng.png" alt="" width="454"><figcaption></figcaption></figure>
 
 **Client ID** — the key provided to you by your Super Money manager
 
@@ -40,7 +40,7 @@ Fill in the required authorization fields.
 **CARD** — issuance of bank card details\
 **SBP** — issuance of a phone number for receiving funds via SBP
 
-<div><figure><img src="../../../.gitbook/assets/image (1900)_eng.png" alt="" width="284"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (1903)_eng.png" alt="" width="284"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (1904)_eng.png" alt="" width="281"><figcaption></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/image (1898)_eng (1).png" alt="" width="284"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (1903)_eng.png" alt="" width="284"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (1904)_eng.png" alt="" width="281"><figcaption></figcaption></figure></div>
 
 <div><figure><img src="../../../.gitbook/assets/image (1905)_eng.png" alt="" width="284"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (1906)_eng.png" alt="" width="284"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (1907)_eng.png" alt="" width="276"><figcaption></figcaption></figure></div>
 

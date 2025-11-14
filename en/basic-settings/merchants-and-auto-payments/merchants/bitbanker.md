@@ -20,9 +20,9 @@ Copy the provided API Key to your clipboard or a text file.
 
 To enable the callback for changing the application status, specify the URL from the merchant module settings in the "**API**" section and add all the merchant's IP addresses that send callbacks to your firewall's whitelist (request the list of addresses directly from the merchant).
 
-<figure><img src="../../../.gitbook/assets/image (203)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/image (203) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (202)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/image (202) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Module Settings
 
@@ -30,17 +30,17 @@ In the admin panel, create a new merchant in the "**Merchants**" -> "**Add Merch
 
 Select Bitbanker from the dropdown list in the "**Module**" field, enter a name for the module, and click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/image (232)_eng.png" alt="" width="417"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20(232)_eng.png" alt="" width="417"><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../.gitbook/assets/image (233)_eng.png" alt="" width="464"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20(233)_eng.png" alt="" width="464"><figcaption></figcaption></figure>
 
 **API Key** — The API Key you copied earlier from the merchant account.
 
 ## Special Fields
 
-<figure><img src="../../../.gitbook/assets/image (234)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20(234)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 **Network** — Choose the appropriate network for receiving funds from the customer.
 

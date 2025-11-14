@@ -10,11 +10,11 @@ Register or log in to the [PayKassa.pro](https://paykassa.pro/) system.
 
 Go to the "**Merchants**" section and click the "**Add Merchant**" button.
 
-<figure><img src="../../../.gitbook/assets/image (815)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/image (815) (1).png" alt=""><figcaption></figcaption></figure>
 
 Fill out the form that appears:
 
-<figure><img src="../../../.gitbook/assets/image (816)_eng.png" alt="" width="355"><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/image (816) (1).png" alt="" width="355"><figcaption></figcaption></figure>
 
 **Name** - any suitable name
 
@@ -24,29 +24,29 @@ Fill out the form that appears:
 
 **Merchant Password** - the password for logging into the merchant module
 
-**Payment Notification URL \[sci_confirm_order]** - `http(s)://`**`your_domain`**`/merchant-paykassa_status.html`
+**Payment Notification URL \[sci\_confirm\_order]** - `http(s)://`**`your_domain`**`/merchant-paykassa_status.html`
 
 **Success Payment Redirect URL \[redirect]** - `http(s)://`**`your_domain`**`/merchant-paykassa_success.html`
 
 **Failure Payment Redirect URL \[redirect]** - `http(s)://`**`your_domain`**`/merchant-paykassa_fail.html`
 
-**Cryptocurrency Transaction Handler URL (optional) \[sci_confirm_transaction_notification]** - `http(s)://`**`your_domain`**`/merchant-paykassa_status.html`
+**Cryptocurrency Transaction Handler URL (optional) \[sci\_confirm\_transaction\_notification]** - `http(s)://`**`your_domain`**`/merchant-paykassa_status.html`
 
-Replace "**your_domain**" with the name of your exchange point's domain.
+Replace "**your\_domain**" with the name of your exchange point's domain.
 
 In the settings of the created merchant, you will see the "**Merchant ID**."
 
-<figure><img src="../../../.gitbook/assets/image (820)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/image (820) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Module Settings
 
 In the admin panel, go to the "**Merchants**" -> "**Merchants**" section, click the "**Add**" button, and select PayKassa.
 
-<figure><img src="../../../.gitbook/assets/image (818)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/image (818) (1).png" alt=""><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../.gitbook/assets/image (821)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/image (821) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Store ID** - Merchant ID from your PayKassa account
 
@@ -54,13 +54,13 @@ Fill in the required authorization fields.
 
 ## Special Fields
 
-<figure><img src="../../../.gitbook/assets/image (809)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/image (809) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Show QR Code on Payment Page** - a QR code will be displayed for quick payment access for the customer
 
 **Payment Method** - select the currency/network for receiving funds
 
-<figure><img src="../../../.gitbook/assets/image (812)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/image (812) (1).png" alt=""><figcaption></figcaption></figure>
 
 [**Required Number of Transaction Confirmations**](#user-content-fn-1)[^1] - a confirmed transaction means it has been included in a block and, therefore, in the blockchain. It has been verified and recorded, the payment has been processed, and it cannot be changed or canceled. To be considered legitimate, the operation must receive a certain number of confirmations. Each new confirmation exponentially reduces the risk of the transaction being reversed.
 

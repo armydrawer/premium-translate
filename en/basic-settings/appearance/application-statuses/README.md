@@ -2,9 +2,9 @@
 
 In the "**Applications**" section, you can view the exchange requests and their statuses.
 
-<figure><img src="../../../.gitbook/assets/image (189)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/image (189) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (41)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20(41)_eng.png" alt=""><figcaption></figcaption></figure>
 
 In this section, you will see a list of all applications along with their IDs. Applications that have been paid by the user will show statuses such as "**Paid Application**," "**Application Under Review**," and "**User Marked Application as Paid**."
 

@@ -83,7 +83,7 @@ This section displays the main settings for the exchange service, applicable to 
 
 * **No** — The block of other directions will not be displayed under the exchange form.
 * **By Currency "Giving"** — A block of other exchange directions with the same currency in "**Giving**" will be displayed under the exchange form.
-  
+
 <figure><img src="../../.gitbook/assets/image (1800)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 * **By Currency "Receiving"** — A block of other exchange directions with the same currency in "**Receiving**" will be displayed under the exchange form.
@@ -101,8 +101,8 @@ This section displays the main settings for the exchange service, applicable to 
 <figure><img src="../../.gitbook/assets/image (1804)_eng.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
-In the XML file, min/max amounts are always displayed **only** for the currency in "**Giving**" from the exchange direction. \
-![](<../../.gitbook/assets/image (1805)_eng.png>)\
+In the XML file, min/max amounts are always displayed **only** for the currency in "**Giving**" from the exchange direction.\
+![](<../../../ru/.gitbook/assets/image (657) (1).png>)\
 If the option for "**Dependency of Minimum and Maximum Amount**" is set to "**No**" and min/max amounts are specified only for the currency in "**Receiving**," there will be no exchange amount limits in the XML file for that exchange direction.
 {% endhint %}
 
@@ -123,7 +123,7 @@ If the option for "**Dependency of Minimum and Maximum Amount**" is set to "**No
 * **Do Not Hide Last 4 Characters**
 * **Do Not Hide First 4 and Last 4 Characters**
 
-**Merchant's Place of Work (Recommended Option for Selection — **"Upon Request Creation"):**
+\*\*Merchant's Place of Work (Recommended Option for Selection — **"Upon Request Creation"):**
 
 * **Upon Request Creation** — Request for details from the merchant will be made during the request creation.
 * **On the Request Page** — Request for details from the merchant will be made for an already created request.
@@ -136,7 +136,7 @@ If the option for "**Dependency of Minimum and Maximum Amount**" is set to "**No
 
 Here’s a naturalistic English translation of the provided text:
 
----
+***
 
 **If no payment instructions are set for the merchant, then** — display the text on the application page according to the selected option below for the status "**New Application**"
 
@@ -156,13 +156,13 @@ Here’s a naturalistic English translation of the provided text:
 
 **Select application statuses for notifications in the top bar** — notifications with a counter of applications in the selected statuses in the "**Applications**" section of the top bar.
 
-<figure><img src="../../.gitbook/assets/image (347)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(347)_eng.png" alt=""><figcaption></figcaption></figure>
 
 **Show all zeros in the exchange rate** — hiding zeros that do not affect the formation of the exchange rate in the exchange form.
 
-<figure><img src="../../.gitbook/assets/image (346)_eng.png" alt="" width="455"><figcaption><p>Displaying the rate with zeros</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(346)_eng.png" alt="" width="455"><figcaption><p>Displaying the rate with zeros</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (345)_eng.png" alt="" width="441"><figcaption><p>Displaying the rate without zeros</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(345)_eng.png" alt="" width="441"><figcaption><p>Displaying the rate without zeros</p></figcaption></figure>
 
 **Separate numbers in the exchange rate with spaces** — separating large numbers by thousands for easier readability.
 
@@ -176,22 +176,22 @@ Here’s a naturalistic English translation of the provided text:
 
 <figure><img src="../../.gitbook/assets/image (1781)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
-**Hide exchange directions from guests** — 
+**Hide exchange directions from guests** —
 
-**Newbie check** — 
+**Newbie check** —
 
-**Method for determining newbies** — 
+**Method for determining newbies** —
 
-**Warning text before creating an application for newbies** — 
+**Warning text before creating an application for newbies** —
 
-**Error message if the amount exceeds the specified limit for newbies** — 
+**Error message if the amount exceeds the specified limit for newbies** —
 
 **Method for recalculating applications (based on the exchange rate):**
 
-* **Always** — 
-* **By cron** — 
-* 
+* **Always** —
+* **By cron** —
+*
 
---- 
+***
 
 Feel free to ask if you need any further modifications or additional translations!

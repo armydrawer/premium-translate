@@ -7,18 +7,12 @@ If you need to update the module on the server, please refer to the [instruction
 ## Merchant Account Settings
 
 {% hint style="warning" %}
-To discuss terms and connection, please contact a [service representative](https://t.me/Lazytrade_pro).
+To discuss the terms and conditions, please contact a service representative.
 
-**Disclaimer**: When connecting your website to any service, please assess the potential risks of collaboration on your own.
+**Disclaimer:** When connecting your website to a particular service, please independently assess the possible risks of cooperation.
 {% endhint %}
 
-Register on the [Lazytrade](https://Lazytrade.com/) service.
-
-<figure><img src="../../../.gitbook/assets/image (214)_eng.png" alt=""><figcaption></figcaption></figure>
-
-In your merchant account, copy the information from the "**Your API Address**" field, as well as the API key provided to you by the service representative.
-
-<figure><img src="../../../.gitbook/assets/image (215)_eng.png" alt=""><figcaption></figcaption></figure>
+Register on the LazyTrade service with the help of a service representative and request API keys to connect to Premium Exchanger.
 
 ## Module Settings
 
@@ -26,37 +20,35 @@ In the admin panel, create a new merchant in the "**Merchants**" section by clic
 
 Select Lazytrade from the dropdown menu in the "**Module**" field, enter a name for the module, and click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/Arc_mcpyS7Mdvy_eng.png" alt="" width="417"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (20).png" alt="" width="346"><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../.gitbook/assets/image (292)_eng.png" alt="" width="421"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (21).png" alt="" width="369"><figcaption></figcaption></figure>
 
-**Domain** — the merchant's domain, previously copied from the merchant account in the "**Your API Address**" field.
+**Domain** — leave this field blank.
 
-**API Key** — the **API Key** provided to you by your Lazytrade manager.
+**API key** — the API key provided to you earlier by a LazyTrade representative.
+
+**Secret key** — the secret key provided to you earlier by a LazyTrade representative.
 
 ## Special Fields
 
-<figure><img src="../../../.gitbook/assets/image (1939)_eng.png" alt="" width="199"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (23).png" alt="" width="297"><figcaption></figcaption></figure>
 
-**Payment Method** — select the appropriate method for receiving funds.
+**Payment method** — select the required method for receiving funds from the customer:
 
-{% hint style="warning" %}
-Please note the unique feature of the Lazytrade service — a card from the bank you selected in the module settings will be issued **if possible**. However, if cards from the chosen bank are unavailable, a card from another bank that is currently available on the service will be issued (the method remains unchanged and stays as CARD or SBP).
-{% endhint %}
+* **CARD** — issuing bank card details
+* **CARD\_CIS** — issuing card details for international transfers (cross-border)
+* **CIS** — issuing a phone number for international transfers (cross-border)
+* **QR\_NSPK** — issue a link to follow and pay via QR code on the page that opens (it takes up to 30-40 seconds to generate the link)
+* **SBP** — issue a phone number to receive funds via SBP
 
-{% hint style="warning" %}
-When receiving funds using the Lazytrade merchant, it is **necessary** to add an additional field to the exchange form for the client to fill out when creating a request.
+<figure><img src="../../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
-To do this, create and add an [additional field](https://premium.gitbook.io/main/en/basic-settings/valyuty-i-napravleniya/dobavlenie-novoi-valyuty#vkladka-dop.-polya) to the relevant currencies for receiving funds through Lazytrade. Be sure to specify in the "**Unique ID**" field — **`give_cardholder`** (use lowercase) and make the field mandatory.
+**Bank** — selection of the bank whose details will be provided in the application
 
-![](<../../../.gitbook/assets/image (322)_eng.png>)
-
-After this, the field will appear in the exchange form and will be required for clients to fill out when creating a request.
-
-![](<../../../.gitbook/assets/image (1879)_eng.png>)
-{% endhint %}
+**Individual time for deleting unpaid applications (minutes)** — the time that LazyTrade will wait for payment (default 60 minutes (when 0 is displayed in the field))
 
 ## Continuing the Setup
 

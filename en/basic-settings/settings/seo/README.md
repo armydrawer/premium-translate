@@ -10,7 +10,7 @@ OGP (Open Graph Protocol) is a set of meta tags used to define how content will 
 
 {% tabs %}
 {% tab title="General Settings" %}
-<figure><img src="../../../.gitbook/assets/image (915)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/image (915) (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Homepage" %}
@@ -18,7 +18,7 @@ OGP (Open Graph Protocol) is a set of meta tags used to define how content will 
 {% endtab %}
 
 {% tab title="Posts" %}
-<figure><img src="../../../.gitbook/assets/image (859)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/image (859) (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Pages" %}
@@ -26,7 +26,7 @@ OGP (Open Graph Protocol) is a set of meta tags used to define how content will 
 {% endtab %}
 
 {% tab title="Exchange Form" %}
-<figure><img src="../../../.gitbook/assets/image (930)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/image (930) (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -51,20 +51,20 @@ Metrics are numerical indicators used to measure the effectiveness of a website 
 
 This section specifies tags, goals, and counters for subsequent data analytics in third-party services.
 
-<figure><img src="../../../.gitbook/assets/изображение (2)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(2)_eng.png" alt=""><figcaption></figcaption></figure>
 
 1. To create a Yandex.Metrica counter code, log in or register in the [system](https://metrika.yandex.ru).
 2. On the counter list page, [add a counter](https://metrika.yandex.ru/add). The settings page will open.
 3. Specify the main settings for the counter. Fill in the fields:
    * **Counter Name**. The name you provide will be displayed on the "My Counters" page and in the top menu for switching between counters. If no name is specified, the value of the "Website Address" field will be used.
-   * **Website Address (main domain of the site)**. This field is mandatory. Do not include the scheme/protocol prefix (`http://`, `https://`).
+   *   **Website Address (main domain of the site)**. This field is mandatory. Do not include the scheme/protocol prefix (`http://`, `https://`).
 
        In this field, you can specify the path of the site (path in the URL structure). For example, example.com/category/. Do not specify the address to a specific file or page fragment (the "#" symbol) — these indications will cause an error in the input field. Additionally, URL parameters (the part of the address after the "?" symbol) will not be considered.
 4. Accept the terms of the [User Agreement](https://yandex.ru/legal/metrica_termsofuse/).
 5. Click the "Create Counter" button.
-6. On the opened page, in the "**Counter Code**" block, copy the **counter ID** and enter it in the **"Yandex.Metrica Counter ID"** field in the admin panel under the **SEO** section.
+6.  On the opened page, in the "**Counter Code**" block, copy the **counter ID** and enter it in the **"Yandex.Metrica Counter ID"** field in the admin panel under the **SEO** section.
 
-    <figure><img src="../../../.gitbook/assets/изображение (18)_eng.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(18)_eng.png" alt=""><figcaption></figcaption></figure>
 
     To set goals in Yandex.Metrica, specify the goal name in the corresponding field.
 
@@ -76,7 +76,7 @@ This section specifies tags, goals, and counters for subsequent data analytics i
 
 An XML sitemap is a file that contains information about the structure and content of a website in XML format. It is designed for search engine bots to simplify the indexing of the site's pages and the collection of information about them. The XML sitemap contains a list of all the site's pages, as well as additional information such as update frequency, page priority, and the date of the last update. It helps search engine bots understand which pages of the site should be indexed, increasing the site's chances of achieving high positions in search results.
 
-<figure><img src="../../../.gitbook/assets/изображение (49)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(49)_eng.png" alt=""><figcaption></figcaption></figure>
 
 **Show "Posts" in the sitemap** — option to display news in the XML sitemap created in the "**Posts**" section.
 
@@ -92,7 +92,7 @@ An XML sitemap is a file that contains information about the structure and conte
 
 The robots.txt file is a text file placed on the website to inform search engine bots which pages of the site should be indexed and which should not. In this file, you can specify which directories and files should be excluded from indexing, as well as provide links to sitemaps and other useful resources for search engine bots. The robots.txt file is an important tool for SEO and can help improve the site's positions in search results.
 
-<figure><img src="../../../.gitbook/assets/изображение (161)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(161)_eng.png" alt=""><figcaption></figcaption></figure>
 
 **Text** — specify the necessary rules for indexing the site, following [Google's instructions](https://developers.google.com/search/docs/crawling-indexing/robots/create-robots-txt?hl=ru).
 
@@ -100,7 +100,7 @@ The robots.txt file is a text file placed on the website to inform search engine
 
 In this section, you create the appearance of the exchange direction window that will be displayed on social media.
 
-<figure><img src="../../../.gitbook/assets/изображение (37)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(37)_eng.png" alt=""><figcaption></figcaption></figure>
 
 **Exchange Description** — the description that will be displayed in the window on social media.
 
@@ -127,7 +127,7 @@ An example of filling out SEO parameters for a website:
 
 3. Select the settings for the homepage:
 
-<figure><img src="../../../.gitbook/assets/image (1918)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1917)_eng (1).png" alt=""><figcaption></figcaption></figure>
 
 4. On the opened page:
 
@@ -157,6 +157,6 @@ An example of filling out SEO parameters for a website:
 
 <figure><img src="../../../.gitbook/assets/image (1924)_eng.png" alt=""><figcaption></figcaption></figure>
 
-11. Fill in the information from the line "**Description text for the main page**": 
+11. Fill in the information from the line "**Description text for the main page**":
 
 <figure><img src="../../../.gitbook/assets/image (1926)_eng.png" alt=""><figcaption></figcaption></figure>

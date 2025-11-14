@@ -66,7 +66,7 @@ Fill in the required authorization fields.
 
 * **Network** — specify the network for the payout currency according to [Binance requirements](https://www.binance.com/en/network)
 
-<figure><img src="../../../.gitbook/assets/image (1463)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/image (551) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Purchase the missing amount of crypto for payout** — options for auto-purchasing currency for payouts:\
   • **No** — do not purchase currency for payout, pay directly from the wallet (the wallet must have sufficient reserves of the payout currency)\
@@ -83,12 +83,12 @@ For the above option to work, the options "**Determine trade operation code**" a
   • **Market** — the order will be executed immediately at the market price on the exchange.\
   • **Limit** — the order will be placed on the exchange at your price and executed according to the "**Order execution time (if Limit)**" parameter.
 * **Order execution time (if Limit)** — this option is used only when the order type "**Limit**" is selected:\
-  &#xNAN;**• GTC (Good-Til-Canceled)** — the order will remain valid until it is executed or canceled.\
-  &#xNAN;**• IOC (Immediate or Cancel)** — the order is filled completely or partially, and the remaining part of the order is canceled.\
-  &#xNAN;**• FOK (Fill or Kill)** — the order must be filled in its entirety; otherwise, the entire order will be canceled.
-* **Determine trade operation code** — \
-  &#xNAN;**• Manually** — select this option if you want to specify the currency to be used for purchasing the payout currency; this option works only when a currency code is provided in the "**Trade operation code (if Manual)**" option.\
-  &#xNAN;**• Automatically** — automatically select the currency from the wallet for purchasing the payout currency (determined by the reserve balances in the wallet).
+  \&#xNAN;**• GTC (Good-Til-Canceled)** — the order will remain valid until it is executed or canceled.\
+  \&#xNAN;**• IOC (Immediate or Cancel)** — the order is filled completely or partially, and the remaining part of the order is canceled.\
+  \&#xNAN;**• FOK (Fill or Kill)** — the order must be filled in its entirety; otherwise, the entire order will be canceled.
+* **Determine trade operation code** —\
+  \&#xNAN;**• Manually** — select this option if you want to specify the currency to be used for purchasing the payout currency; this option works only when a currency code is provided in the "**Trade operation code (if Manual)**" option.\
+  \&#xNAN;**• Automatically** — automatically select the currency from the wallet for purchasing the payout currency (determined by the reserve balances in the wallet).
 * **Trade operation code (if Manual)** — select the currency code from the dropdown list that will be used for purchasing the payout currency (usually USDT is used); this option is only applicable when "**Manually**" is selected for "**Determine trade operation code**."
 
 ## Continuing the Setup

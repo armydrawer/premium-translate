@@ -18,21 +18,21 @@ For the notification bot to function correctly, the following is required:
 1. In Telegram, send a message **/newbot** to [@BotFather](https://t.me/BotFather) and follow the instructions to create a bot. After successfully creating the bot, a token will be displayed—copy it to your clipboard. No other bot settings need to be changed.
 2. In the website control panel (under the "**Telegram**" -> "**Settings**" section), enter the token you received during the bot creation in the "**Token**" field.
 
-<figure><img src="../../.gitbook/assets/image (966)_eng.png" alt=""><figcaption><p>Section "<strong>Telegram</strong>" -> "<strong>Settings</strong>"</p></figcaption></figure>
+<figure><img src="../../../ru/.gitbook/assets/image (966) (1).png" alt=""><figcaption><p>Section "<strong>Telegram</strong>" -> "<strong>Settings</strong>"</p></figcaption></figure>
 
 {% hint style="info" %}
 If the Telegram section does not appear in the sidebar, enable the module in the "Modules" section:
 
-![](<../../.gitbook/assets/image (863)_eng.png>)
+<img src="../../../ru/.gitbook/assets/image (863) (1).png" alt="" data-size="original">
 {% endhint %}
 
 3. If you need to log the bot's actions and view logs later in the "**Telegram**" -> "**Message Log**" section, activate the following options:
 
-<figure><img src="../../.gitbook/assets/image (886)_eng.png" alt=""><figcaption><p>Section "<strong>Telegram</strong>" -> "<strong>Message Log</strong>"</p></figcaption></figure>
+<figure><img src="../../../ru/.gitbook/assets/image (886) (1).png" alt=""><figcaption><p>Section "<strong>Telegram</strong>" -> "<strong>Message Log</strong>"</p></figcaption></figure>
 
 4. At the bottom of the "**Telegram**" -> "**Settings**" section, follow the link to register the webhook.
 
-<figure><img src="../../.gitbook/assets/image (865)_eng.png" alt=""><figcaption><p>Section "<strong>Telegram</strong>" -> "<strong>Settings</strong>"</p></figcaption></figure>
+<figure><img src="../../../ru/.gitbook/assets/image (865) (1).png" alt=""><figcaption><p>Section "<strong>Telegram</strong>" -> "<strong>Settings</strong>"</p></figcaption></figure>
 
 5. If necessary, write the message texts for the bot users.
 
@@ -40,9 +40,9 @@ If the Telegram section does not appear in the sidebar, enable the module in the
 
 6. In the "**Users**" section, in your user's profile, specify your Telegram username without the @ symbol (if the username is absent, it must be set in the Telegram settings).
 
-<figure><img src="../../.gitbook/assets/image (1164)_eng.png" alt=""><figcaption><p>Section "<strong>Settings</strong>" in Telegram</p></figcaption></figure>
+<figure><img src="../../../ru/.gitbook/assets/image (535) (1).png" alt=""><figcaption><p>Section "<strong>Settings</strong>" in Telegram</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1241)_eng.png" alt=""><figcaption><p>Section "<strong>Users</strong>" -> "<strong>Edit</strong>"</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1235)_eng (1).png" alt=""><figcaption><p>Section "<strong>Users</strong>" -> "<strong>Edit</strong>"</p></figcaption></figure>
 
 7. Activate the bot by sending it the message **/start** in Telegram.
 8. In the "**Messages**" → "**Telegram Templates**" section, configure the necessary templates for various application statuses and other options for sending messages on behalf of the bot to administrators and users:
@@ -65,7 +65,7 @@ Template settings:
 
 This is necessary so that the exchange page displays a field for users to input their username.
 
-<figure><img src="../../.gitbook/assets/image (962)_eng.png" alt=""><figcaption><p>Exchange page</p></figcaption></figure>
+<figure><img src="../../../ru/.gitbook/assets/image (962) (1).png" alt=""><figcaption><p>Exchange page</p></figcaption></figure>
 
 10. To use the bot, the exchange user can specify their Telegram username in their profile settings (it will automatically populate the "Telegram" field if it is present when creating an application—this set of fields is determined by the administrator for each direction individually) or manually enter their username when creating each application.
 
@@ -74,7 +74,7 @@ This is necessary so that the exchange page displays a field for users to input 
 {% hint style="info" %}
 By default, messages are not sent to administrators if the administrator changes the application status in the admin panel (in the "**Applications**" section) themselves. If you need messages to always be sent to the administrator, this option must be activated in the "**Exchange Settings**" -> "**General Settings**" -> "**Other Settings**" section, under "Send email to admin if admin changes application status."
 
-<img src="../../.gitbook/assets/image (938)_eng.png" alt="" data-size="original">
+<img src="../../../ru/.gitbook/assets/image (833) (1).png" alt="" data-size="original">
 {% endhint %}
 
 {% hint style="warning" %}
@@ -85,7 +85,7 @@ For users to receive notifications in Telegram, each user **must** "start" the b
 
 **Note for exchange administrators:**\
 Clients often forget to start the Telegram bot, which is why they do not receive notifications. To avoid this, it is recommended to add instructions in the Telegram notification template (for example, “**New Application**”):\
-<mark style="color:$warning;">“To receive notifications about your application, please first go to our Telegram bot and click</mark> <mark style="color:$warning;"></mark><mark style="color:$warning;">**\Start.**</mark><mark style="color:$warning;">”.</mark> Without activating the bot using this button, Telegram does not allow sending messages from the bot to the client.
+“To receive notifications about your application, please first go to our Telegram bot and click **\Start.**”. Without activating the bot using this button, Telegram does not allow sending messages from the bot to the client.
 
 If users or administrators are not receiving messages from the bot or have stopped receiving them, check the "**Telegram**" -> "**Message Log**" section, where you can view all logs related to the bot's operation. If necessary, you can use the filter that shows which messages pertain to the bot itself and which are for the bot's users.
 

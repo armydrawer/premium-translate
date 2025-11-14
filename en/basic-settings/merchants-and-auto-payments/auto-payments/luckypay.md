@@ -24,7 +24,7 @@ Make sure to specify the URL from the automatic payout module settings (Callback
 
 <figure><img src="../../../.gitbook/assets/image (1986)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (18)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/image (18) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Module Settings <a href="#nastroiki-modulya" id="nastroiki-modulya"></a>
 
@@ -32,17 +32,17 @@ In the admin panel, create a new merchant in the "**Automatic Payouts**" -> "**A
 
 Select Luckypay from the dropdown list in the "**Module**" field, provide a name for the module, and click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/image (315)_eng.png" alt="" width="418"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20(315)_eng.png" alt="" width="418"><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../.gitbook/assets/Arc_5NJ6WqIhsR_eng.png" alt="" width="435"><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/Arc_5NJ6WqIhsR.png" alt="" width="435"><figcaption></figcaption></figure>
 
 **API Key** — the key you previously copied from your Luckypay account.
 
 ## Special Fields
 
-<div><figure><img src="../../../.gitbook/assets/image (316)_eng.png" alt="" width="217"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (318)_eng.png" alt="" width="215"><figcaption></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/image%20(316)_eng.png" alt="" width="217"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image%20(318)_eng.png" alt="" width="215"><figcaption></figcaption></figure></div>
 
 **Payment Method** — select the appropriate method for making payouts.
 

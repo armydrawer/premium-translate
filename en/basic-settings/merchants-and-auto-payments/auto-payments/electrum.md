@@ -18,7 +18,7 @@ Install Electrum on the server following the [instructions](https://premium.gitb
 
 Make sure to save the wallet password, the port number for connection, the server address (optional), and the login and password for wallet access in a text file.
 
-<figure><img src="../../../.gitbook/assets/image%20(1443)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1443)_eng.png" alt=""><figcaption></figcaption></figure>
 
 ## **Module Settings**
 
@@ -26,11 +26,11 @@ In the admin panel, create a new merchant in the "**Auto Payouts**" section by c
 
 Select Electrum from the dropdown menu in the "**Module**" field, provide a name for the module, and click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/image%20(1447)_eng.png" alt="" width="509"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1447)_eng.png" alt="" width="509"><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../.gitbook/assets/image%20(1448)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1448)_eng.png" alt=""><figcaption></figcaption></figure>
 
 * **Number of confirmations for a payment to be considered completed** — leave this field empty to use the default value set by Electrum.
 * **Login** — enter the information from the "**User for connection**" field.
@@ -50,7 +50,7 @@ If the Electrum module is installed on the same server as the Premium Exchanger 
 
 In the auto payout module settings, you will find the following options:
 
-<figure><img src="../../../.gitbook/assets/image%20(768)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/image (768) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. Mass payouts:
 
@@ -66,23 +66,23 @@ The current fee for sending a payment is automatically requested from the [Mempo
 
 3. **Minimum and maximum fee size (in bytes)** — limits for the minimum and maximum network fee size. It is recommended to set these to avoid using abnormal values.
 
-&#x20; _Recommended values: min. = 3 and max. = 100_.
+_Recommended values: min. = 3 and max. = 100_.
 
 4. **Minimum number of requests for mass payout** — the minimum number of requests in the queue required to trigger a mass payout. If the required number is not met, the payout will not occur.
 
-&#x20; _Recommended value = 20_.
+_Recommended value = 20_.
 
 5. **Waiting time before mass payout (in minutes)** — the time during which paid requests will accumulate before the mass payout. The countdown starts from the first paid request in the queue.
 
-&#x20; _Recommended value = 5_.
+_Recommended value = 5_.
 
 6. **CRON (mass payments)** — a link for setting up a cron job that needs to be [added to the task scheduler on the server](https://premium.gitbook.io/main/en/basic-settings/faq/kak-sozdat-zadanie-cron-na-servere). This task checks for available requests for payout and initiates the payout if there are any.
 
-&#x20; _Recommended execution time - once every minute_.
+_Recommended execution time - once every minute_.
 
 ### Recommended Settings for the Above Parameters:
 
-<figure><img src="../../../.gitbook/assets/image%20(1449)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1449)_eng.png" alt=""><figcaption></figcaption></figure>
 
 With these settings, mass payouts will occur after 5 minutes if 20 paid requests are accumulated. If 5 minutes pass and there are not 20 requests, the mass payout will still occur, but with the number of requests currently in the queue.
 

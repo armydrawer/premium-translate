@@ -7,7 +7,7 @@ If you need to update the module on the server, please refer to the [instruction
 {% hint style="info" %}
 To display the **cardholder's full name and the name of the bank that issued the card** in the client's application, add the shortcode \[dest\_tag] in the instructions within the merchant settings.
 
-![](<../../../.gitbook/assets/image (1627)_eng.png>)
+<img src="../../../.gitbook/assets/image (1627)_eng.png" alt="" data-size="original">
 {% endhint %}
 
 ## Merchant Account Settings
@@ -26,11 +26,11 @@ In the admin panel, create a new merchant in the "**Merchants**" section by sele
 
 Choose Merchant001 from the dropdown list in the "**Module**" field, enter a name for the module, and click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/image (530)_eng.png" alt="" width="450"><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/image (530) (1).png" alt="" width="450"><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../.gitbook/assets/image (531)_eng.png" alt="" width="461"><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/image (531) (1).png" alt="" width="461"><figcaption></figcaption></figure>
 
 **Token** — the domain generated in the Merchant001 account after API access is created.
 
@@ -38,7 +38,7 @@ Fill in the required authorization fields.
 
 ## Special Fields
 
-<figure><img src="../../../.gitbook/assets/image (532)_eng.png" alt="" width="409"><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/image (532) (1).png" alt="" width="409"><figcaption></figcaption></figure>
 
 **Payment Method** — available options for providing details to clients (currencies — BYN, KZT, RUB, UAH, UZS).
 

@@ -52,14 +52,14 @@ Next, configure the merchant by following the [general setup instructions](https
 
 ## Special Fields
 
-<figure><img src="../../../.gitbook/assets/image (1379)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1378)_eng (1).png" alt=""><figcaption></figcaption></figure>
 
 **Currency Code** — select the currency you will be paying out from the dropdown list.
 
 {% hint style="warning" %}
 For each currency, you need to create a [separate copy of the automatic payout module](#user-content-fn-2)[^2], selecting the corresponding currency, and then connect this copy in the "**Merchants and Payouts**" tab in the exchange direction settings, where the currency in "**Receiving**" will be the selected currency.
 
-![](<../../../.gitbook/assets/image (1380)_eng.png>)
+<img src="../../../.gitbook/assets/image (1380)_eng.png" alt="" data-size="original">
 {% endhint %}
 
 [^1]: public and private

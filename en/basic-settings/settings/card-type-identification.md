@@ -4,11 +4,11 @@
 
 1. To enable card type identification, navigate to the "**Modules" -> "Modules"** section and ensure that the "**Card Information**" module is active. If it is not active, please activate it.
 
-<figure><img src="../../.gitbook/assets/Screenshot_1 (1)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../ru/.gitbook/assets/Screenshot_1 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 2. Go to the "**Modules" -> "Card Type Identification"** section and make the following settings:
 
-<figure><img src="../../.gitbook/assets/Screenshot_2 (1)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../ru/.gitbook/assets/Screenshot_2 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Remember already verified cards:**\
   • **Yes** - do not re-identify the card if its type has already been determined once.
@@ -20,6 +20,6 @@
 
 3. Navigate to the "**Applications" -> "Applications"** section.
 
-<figure><img src="../../.gitbook/assets/Screenshot_3_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../ru/.gitbook/assets/Screenshot_3 (2).png" alt=""><figcaption></figcaption></figure>
 
 When an application involving a card is created, the card information will be displayed in the application information block. In the case of an internal check, the card type (e.g., Visa, Mastercard, etc.) will be shown, and if using the automated service, the name of the bank will also be displayed.

@@ -5,8 +5,7 @@ Exchanges in categories that require user registration or card/account verificat
 
 In the settings for these exchange categories, you must disable their access via the API (under the "**Restrictions and Checks**" tab, select "**Website Only**"). Otherwise, these categories will be available for exchange through the bot and will display an error.
 
-![](<../../.gitbook/assets/image (556)_eng.png>)\
-
+![](<../../../ru/.gitbook/assets/image (556) (1).png>)\\
 {% endhint %}
 
 ### Dialog Message and Additional Options Settings
@@ -22,7 +21,7 @@ You can set the texts in all available languages. The corresponding text will be
     <figure><img src="../../.gitbook/assets/image (1157)_eng.png" alt=""><figcaption></figcaption></figure>
 *   **API Error Message:**
 
-    <figure><img src="../../.gitbook/assets/image (922)_eng.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../ru/.gitbook/assets/image (922) (1).png" alt=""><figcaption></figcaption></figure>
 * **Menu Button Titles 1-6** - titles for selecting menu items (see below).
 
 {% hint style="info" %}
@@ -39,7 +38,7 @@ Menus are used to create messages with static text (for example, sections like "
     • **No** - in this case, the user must manually enter the name of the currency for exchange\
     • **Yes**
 
-    <figure><img src="../../.gitbook/assets/image (999)_eng.png" alt="" width="396"><figcaption></figcaption></figure>
+    <figure><img src="../../../ru/.gitbook/assets/image (999) (1).png" alt="" width="396"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Just like in the templates for application statuses, you can use \[shortcodes] in the bot's message templates to insert values from the exchange category, but only those values that are available above the input field.
@@ -55,13 +54,13 @@ Just like in the templates for application statuses, you can use \[shortcodes] i
     <figure><img src="../../.gitbook/assets/image (1195)_eng.png" alt=""><figcaption></figcaption></figure>
 *   **Text for selecting the exchange side:**
 
-    <figure><img src="../../.gitbook/assets/image (824)_eng.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../ru/.gitbook/assets/image (824) (1).png" alt=""><figcaption></figcaption></figure>
 *   **Text when selecting the currency "I Give":**
 
-    <figure><img src="../../.gitbook/assets/image (988)_eng.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../ru/.gitbook/assets/image (988).png" alt=""><figcaption></figcaption></figure>
 *   **Text when selecting the currency "I Receive":**
 
-    <figure><img src="../../.gitbook/assets/image (829)_eng.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../ru/.gitbook/assets/image (829) (1).png" alt=""><figcaption></figcaption></figure>
 * **Remember entered data?** - whether to remember the data entered by the client for quick creation of future requests\
   • **No**\
   • **Yes**
@@ -94,4 +93,4 @@ If there are many exchange categories in the exchange service and the display of
 There is no need to enter words from a different keyboard layout (not "**bitcoin**," but "**ишесщшт**," for example) in the replacements - the bot will automatically recognize such input errors.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (991)_eng.png" alt="" width="473"><figcaption></figcaption></figure>
+<figure><img src="../../../ru/.gitbook/assets/image (991) (1).png" alt="" width="473"><figcaption></figcaption></figure>

@@ -18,11 +18,11 @@ To discuss terms and setup, please contact a [service representative](https://t.
 
 Register and log in to your merchant account. In the "**Profile**" ➔ "**API Settings**" section, copy the API key and signature key for authorization in the automatic payout module.
 
-<figure><img src="../../../../.gitbook/assets/image (126)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../ru/.gitbook/assets/image (126) (1).png" alt=""><figcaption></figcaption></figure>
 
 In the "**Sale Status**" field, later specify the URL from the automatic payout module settings (Webhook).
 
-<figure><img src="../../../../.gitbook/assets/image (127)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../ru/.gitbook/assets/image (127) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Module Settings <a href="#nastroiki-modulya" id="nastroiki-modulya"></a>
 
@@ -30,11 +30,11 @@ In the admin panel, create a new merchant in the "**Automatic Payouts**" ➔ "**
 
 Select Payscrow from the dropdown list in the "**Module**" field, enter a name for the module, and click "**Save**."
 
-<figure><img src="../../../../.gitbook/assets/image (124)_eng.png" alt="" width="444"><figcaption></figcaption></figure>
+<figure><img src="../../../../../ru/.gitbook/assets/image (124) (1).png" alt="" width="444"><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../../.gitbook/assets/image (125)_eng.png" alt="" width="451"><figcaption></figcaption></figure>
+<figure><img src="../../../../../ru/.gitbook/assets/image (125) (1).png" alt="" width="451"><figcaption></figcaption></figure>
 
 **Domain** — The URL provided to you by the merchant representative.
 
@@ -44,7 +44,7 @@ Fill in the required authorization fields.
 
 ## Special Fields
 
-<figure><img src="../../../../.gitbook/assets/image (128)_eng.png" alt="" width="516"><figcaption></figcaption></figure>
+<figure><img src="../../../../../ru/.gitbook/assets/image (128) (1).png" alt="" width="516"><figcaption></figcaption></figure>
 
 **Payment Method** — Choose the necessary method for disbursing funds.
 

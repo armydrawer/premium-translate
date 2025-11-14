@@ -5,7 +5,7 @@ Most of the settings outlined in this section are used across all developed modu
 {% hint style="warning" %}
 Please note that a [separate copy of the auto-payment module](#user-content-fn-1)[^1] must be created for each currency, selecting the appropriate currency in that copy. Then, connect this copy on the "**Merchants and Payments**" tab in the exchange direction settings, where the currency in "**Receiving**" will be the selected currency.
 
-![](<../../../.gitbook/assets/image (729)_eng.png>)
+<img src="../../../../ru/.gitbook/assets/image (729) (1).png" alt="" data-size="original">
 {% endhint %}
 
 ## Module Settings:
@@ -14,27 +14,27 @@ Since each merchant for auto-payments has its own API for authorization, the fie
 
 {% tabs %}
 {% tab title="Option 1" %}
-<figure><img src="../../../.gitbook/assets/изображение (125)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(125)_eng.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Option 2" %}
-<figure><img src="../../../.gitbook/assets/изображение (8)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(8)_eng.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Option 3" %}
-<figure><img src="../../../.gitbook/assets/изображение (10)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(10)_eng.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Option 4" %}
-<figure><img src="../../../.gitbook/assets/изображение (20)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(20)_eng.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Option 5" %}
-<figure><img src="../../../.gitbook/assets/изображение (138)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(138)_eng.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Option 6" %}
-<figure><img src="../../../.gitbook/assets/изображение (120)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(120)_eng.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -42,7 +42,7 @@ Since each merchant for auto-payments has its own API for authorization, the fie
 
 This section outlines the general settings for the merchant's auto-payment operations.
 
-<figure><img src="../../../.gitbook/assets/image (703)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/image (703) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 * **Payment Instructions for Users** — recommendations for clients regarding payments, which will be displayed on the page with the "**Proceed to Payment**" button.
 
@@ -54,7 +54,7 @@ Standard text for instructions:\
 
 * **Payment Note** — if this field is present in the auto-payment settings, <mark style="color:red;">**it is mandatory**</mark> to include the text from the shortcode "**Request ID**" (it will appear as \[exchange\_id]). This is necessary to transmit the request ID from the system to the merchant.
 
-<figure><img src="../../../.gitbook/assets/image (704)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/image (704) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Auto-Payment when the request status is "Paid Request"**:\
   • **No**\
@@ -127,7 +127,7 @@ The most suitable auto-payment for a specific request is automatically selected 
 
 This section specifies a specific IP address if there is no access to the merchant from a regular IP address.
 
-<figure><img src="../../../.gitbook/assets/изображение (3)_eng.png" alt="" width="402"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(3)_eng.png" alt="" width="402"><figcaption></figcaption></figure>
 
 * **IP Address** — address of the proxy server.
 * **Port** — port of the proxy server.

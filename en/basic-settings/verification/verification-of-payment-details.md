@@ -12,21 +12,21 @@ To activate account verification, please follow these steps:
 
 Go to the "**Modules**" section and ensure that the "**Automatic User Registration**" module is active. If necessary, activate it.
 
-<figure><img src="../../.gitbook/assets/image (788)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../ru/.gitbook/assets/image (788) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Setting Up User Registration Notifications
 
 Navigate to "**Messages**" -> "**Email Templates**".
 
-<figure><img src="../../.gitbook/assets/image (789)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../ru/.gitbook/assets/image (789) (1).png" alt=""><figcaption></figcaption></figure>
 
 Make sure that the email for the "**Registration Form**" is enabled. Users will automatically receive this email when they submit a request on the site.
 
-<figure><img src="../../.gitbook/assets/image (790)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../ru/.gitbook/assets/image (790) (1).png" alt=""><figcaption></figcaption></figure>
 
 Fill out the template.
 
-<figure><img src="../../.gitbook/assets/image (791)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../ru/.gitbook/assets/image (791) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Setting Up Account Verification
 
@@ -36,7 +36,7 @@ In the site management panel, under the "**Modules**" section, activate the "**U
 
 In the site management panel, go to "**User Accounts**" → "**Settings**" and set the necessary verification options.
 
-<figure><img src="../../.gitbook/assets/image (154)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../ru/.gitbook/assets/image (154) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Create currency accounts when submitting a request:**\
 • **Yes** — the account will be automatically added to the user's profile, allowing them to select it again from a dropdown list for convenience.\
@@ -82,7 +82,7 @@ To allow account addition in the client's personal cabinet, activate the option 
 
 Go to "**Exchange Directions**" -> "**Exchange Directions**," select the desired direction, and navigate to the "**Verification**" tab.
 
-<figure><img src="../../.gitbook/assets/image (797)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../ru/.gitbook/assets/image (797) (1).png" alt=""><figcaption></figcaption></figure>
 
 On this tab, there are options for "**Verification of Account for Sending**" and "**Verification of Account for Receiving**."
 
@@ -99,7 +99,7 @@ Go to the "**User Information**" tab in the "**Exchange Directions**" section an
 Select the shortcode "**Link for Verification of Account for Sending**," so that when a user creates a request, the system displays a link for verification.\
 \
 In the "**Account Verification Instructions**" field, write text for the user. For example:\
-"To continue the exchange, please verify your card \[**Account for Sending/account_give]**. To do this, click the link and follow the instructions **\[Link for Verification of Account for Sending/create_acc_give]**."
+"To continue the exchange, please verify your card \[**Account for Sending/account\_give]**. To do this, click the link and follow the instructions **\[Link for Verification of Account for Sending/create\_acc\_give]**."
 
 {% hint style="info" %}
 Typically, the instructions should describe the steps the user needs to take to complete the account verification.
@@ -114,6 +114,6 @@ In this case, a request can only be created using accounts that have been verifi
 
 In the site management panel, under "**Messages**" → "**Email Templates**," you need to configure and enable the relevant templates: "**Account Verification Request**," "**Successful Account Verification**," and "**Account Verification Denied**."
 
-<figure><img src="../../.gitbook/assets/image (798)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../ru/.gitbook/assets/image (798) (1).png" alt=""><figcaption></figcaption></figure>
 
 In the "**User Accounts**" -> "**Account Verification**" section, verification requests will be displayed, where you can compare the account from the request with the photo of the card, check the request, and select the "**Account Verified**" option. After this, the status of the request on the site will be updated for the user, allowing them to complete the exchange process.

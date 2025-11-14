@@ -13,25 +13,22 @@ By switching between the tabs, you can add text for the Russian and English vers
 Some of the site's content is in English, as it is the primary language and is directly embedded in the site's code. The corresponding content in Russian is stored in special language files. To edit the content in the site's code, you need to:
 
 1. Using an FTP client or the built-in file manager on your hosting, download the folder `wp-content/plugins/premiumbox/` to your computer.
-
 2. Download the [Poedit](https://poedit.net/download) program, install it, and launch it.
-
 3. In Poedit, open the file `pn-ru_RU.po`, which is located in the downloaded folder `wp-content/plugins/premiumbox/languages/`.
 
-<figure><img src="../../../.gitbook/assets/Screenshot_48_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/Screenshot_48 (1).png" alt=""><figcaption></figcaption></figure>
 
 4. In Poedit, click the "**Update**" button.
 
-<figure><img src="../../../.gitbook/assets/Screenshot_49_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/Screenshot_49 (1).png" alt=""><figcaption></figcaption></figure>
 
-5. On the left side of the program, you will find the original text in English, and on the right side, the translation in Russian. Use the search function ("**Edit**" → "**Find**" or **CTRL+F**) to locate the desired text in either English or Russian. Replace the necessary translation text with your own (do not edit the original text <mark style="color:red;">!).
+5. On the left side of the program, you will find the original text in English, and on the right side, the translation in Russian. Use the search function ("**Edit**" → "**Find**" or **CTRL+F**) to locate the desired text in either English or Russian. Replace the necessary translation text with your own (do not edit the original text <mark style="color:red;">!).</mark>
 
 Click the "**Save**" button after finishing your edits.
 
 <figure><img src="../../../.gitbook/assets/image (1430)_eng.png" alt=""><figcaption></figcaption></figure>
 
 6. Using an FTP client or the built-in file manager, upload the `wp-content/plugins/premiumbox/` folder from your computer back to the hosting (overwriting the files).
-
 7. You need to perform similar actions for other files:
 
 * To edit the design translation — `wp-content/themes/exchanger/lang/`
@@ -39,7 +36,7 @@ Click the "**Save**" button after finishing your edits.
 
 ## Changing Text in English
 
-<figure><img src="../../../.gitbook/assets/Screenshot_50_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../ru/.gitbook/assets/Screenshot_50 (1).png" alt=""><figcaption></figcaption></figure>
 
 1. Right-click on the text you want to change. You will see links to the files and line numbers in the script files where this text appears.
 2. Using the [Notepad++](https://notepad-plus-plus.org/downloads/) editor, open the specified files (UTF-8 encoding without BOM) on your computer.

@@ -17,7 +17,7 @@ All cron jobs must be created under the user account associated with the website
 
 3. On the new page, fill in the details for the cron job:
 
-<figure><img src="../../.gitbook/assets/image%20(1314)_eng.png" alt="" width="473"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1310)_eng (1).png" alt="" width="473"><figcaption></figcaption></figure>
 
 * **Email Address** — Enter the email address where error notifications for the job will be sent (this option works only if outgoing mail is configured in ISP Manager under "**Settings** -> **Notifications**").
 * **Command** — The full command to execute (example provided below).
@@ -33,14 +33,14 @@ Note that the command format may vary slightly depending on the server, but in m
 
 For example, if your URL is **`https://site.com/cron-bestchangeapi_upload_data.html`**,\
 the command should look like this:\
-&#xNAN;**`/usr/bin/wget -t 1 -O - --no-check-certificate "https://site.com/cron-bestchangeapi_upload_data.html"`**
+\&#xNAN;**`/usr/bin/wget -t 1 -O - --no-check-certificate "https://site.com/cron-bestchangeapi_upload_data.html"`**
 
 Cron job links can be found in the corresponding sections. Here are a few examples:
 
 * Parsers 2.0 — Settings\
-  ![](../../.gitbook/assets/image%20\(1944\)_eng.png)
+  ![](<../../.gitbook/assets/image (1944)_eng.png>)
 * Bestchange Parser — Settings\
-  ![](../../.gitbook/assets/image%20\(1945\)_eng.png)
+  ![](<../../.gitbook/assets/image (1945)_eng.png>)
 * Merchant and Auto-Payout Modules\
-  ![](../../.gitbook/assets/image%20\(1946\)_eng.png)
+  ![](<../../.gitbook/assets/image (1946)_eng.png>)
 {% endhint %}
