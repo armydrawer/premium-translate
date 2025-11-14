@@ -38,11 +38,11 @@ Fill in the required authorization fields.
 
 **Payment method** — select the required method for receiving funds from the customer:
 
-* **CARD** — issuing bank card details
-* **CARD\_CIS** — issuing card details for international transfers (cross-border)
-* **CIS** — issuing a phone number for international transfers (cross-border)
-* **QR\_NSPK** — issue a link to follow and pay via QR code on the page that opens (it takes up to 30-40 seconds to generate the link)
-* **SBP** — issue a phone number to receive funds via SBP
+* **(payment details) CARD** — issuing bank card details
+* **(payment details) CARD\_CIS** — issuing card details for international transfers (cross-border)
+* **(payment details) CIS** — issuing a phone number for international transfers (cross-border)
+* **(link) QR\_NSPK** — issue a link to follow and pay via QR code on the page that opens (it takes up to 30-40 seconds to generate the link)
+* **(payment details) SBP** — issue a phone number to receive funds via SBP
 
 <figure><img src="../../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
