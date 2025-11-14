@@ -95,6 +95,7 @@
     * [Heleket](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/heleket.md)
     * [Ivanpay](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/ivanpay.md)
     * [Koshelek](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/koshelek.md)
+    * [LazyTrade](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/aipay-1.md)
     * [Luckypay](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/luckypay.md)
     * [Merchant001](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/merchant001.md)
     * [MoneyGo](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/moneygo.md)
