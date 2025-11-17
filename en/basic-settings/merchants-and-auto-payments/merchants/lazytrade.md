@@ -7,18 +7,18 @@ If you need to update the module on the server, please refer to the [instruction
 ## Merchant Account Settings
 
 {% hint style="warning" %}
-To discuss the terms and conditions, please contact a service representative.
+To discuss the terms and conditions, please contact a [service representative](https://t.me/lazytrade_ceo).
 
 **Disclaimer:** When connecting your website to a particular service, please independently assess the possible risks of cooperation.
 {% endhint %}
 
-Register on the LazyTrade service with the help of a service representative and request API keys to connect to Premium Exchanger.
+Register on the LazyTrade service with the help of a [service representative](https://t.me/lazytrade_ceo) and request API keys to connect to Premium Exchanger.
 
 ## Module Settings
 
 In the admin panel, create a new merchant in the "**Merchants**" section by clicking "**Add Merchant**."
 
-Select Lazytrade from the dropdown menu in the "**Module**" field, enter a name for the module, and click "**Save**."
+Select LazyTrade from the dropdown menu in the "**Module**" field, enter a name for the module, and click "**Save**."
 
 <figure><img src="../../../.gitbook/assets/image (20).png" alt="" width="346"><figcaption></figcaption></figure>
 
