@@ -14,7 +14,7 @@
 
 [Зарегистрируйтесь на сервисе Crypto-Cash](https://account.crypto-cash.world/registration), авторизуйтесь в личном кабинете и перейдите в [раздел "**Merchant Settings**"](https://account.crypto-cash.world/settings).
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Выпустите приватный API-ключ по кнопке "**Generate API Key**". Скопируйте оба ключа в буфер обмена или текстовый файл.
 
@@ -30,7 +30,7 @@
 
 Заполните указанные авторизационные поля.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="437"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="437"><figcaption></figcaption></figure>
 
 **Домен** — оставьте поле пустым
 

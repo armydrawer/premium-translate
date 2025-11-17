@@ -15,7 +15,7 @@ description: >-
 
 <figure><img src="../../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption><p>Шаблон "<strong>Авторизация по пин-коду</strong>" </p></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption><p>Шаблон “<strong>Уведомить о входе пользователя в ЛК</strong>”</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption><p>Шаблон “<strong>Уведомить о входе пользователя в ЛК</strong>”</p></figcaption></figure>
 
 В разделе "**Пользователи" (выбрать пользователя) →** установите "**Да**" для параметров "**Уведомление при авторизации (E-mail)**" и "**Авторизация по пин-коду (E-mail)**".&#x20;
 
