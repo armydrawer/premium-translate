@@ -24,9 +24,7 @@
 
 Верификация аккаунта — \[userverify]
 
-Верификация счетов — \[walletsverify]
-
-Внутренний счет — \[domacc\_page]
+Внутренний счет — \[iac\_page]
 
 Восстановление пароля — \[lostpass\_page]
 
@@ -59,8 +57,6 @@
 Рекламные материалы — \[promotional\_page]
 
 Рефералы — \[preferals\_page]
-
-Тарифы — \[tarifs]
 
 API — \[user\_api]
 
