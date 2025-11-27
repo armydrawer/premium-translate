@@ -14,6 +14,10 @@
 Также необходимо учитывать, что выплата средств **всегда** производится по курсу самого сервиса, поэтому крайне желательно использовать [парсер](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya-obmena/kursy-valyut/parser-kursov-valyut-parsery-2.0) Quickex для курса в направлении обмена, где подключен Quickex, а также включить [пересчет заявок по курсу обмена](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya-obmena/sozdanie-novogo-napravleniya#pereschet-po-kursu-obmena) для совпадения фактически выплачиваемой суммы с суммой из заявки.
 {% endhint %}
 
+{% hint style="danger" %}
+Обратите внимание, что для работы с мерчантом Quickex обязательно нужно сообщить представителю сервиса IP-адрес вашего сервера для добавления его в whitelist на стороне самого Quickex.
+{% endhint %}
+
 ## Настройки в личном кабинете мерчанта
 
 Пройдите регистрацию на сервисе [Quickex](https://quickex.io/).
@@ -102,4 +106,4 @@
 
 ## Продолжение настройки
 
-Далее произведите настройку мерчанта следуя [общей инструкции по настройке](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/obshie-nastroiki-merchantov).\
+Далее произведите настройку мерчанта следуя [общей инструкции по настройке](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/obshie-nastroiki-merchantov).<br>
