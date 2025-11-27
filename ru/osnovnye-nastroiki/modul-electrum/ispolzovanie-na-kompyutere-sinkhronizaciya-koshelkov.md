@@ -11,20 +11,17 @@
 
 ## Синхронизация кошелька
 
-1.  В панели управления ISP Manager через раздел "**Сайты"** выделить нужный сайт одним кликом мыши и нажмите на пункт "**Войти как владелец"**.\
-
+1.  В панели управления ISP Manager через раздел "**Сайты"** выделить нужный сайт одним кликом мыши и нажмите на пункт "**Войти как владелец"**.<br>
 
     <figure><img src="../../.gitbook/assets/изображение (94).png" alt=""><figcaption></figcaption></figure>
 2. Откройте раздел **"Менеджер файлов"**.
 
 <figure><img src="../../.gitbook/assets/изображение (67).png" alt="" width="330"><figcaption></figcaption></figure>
 
-1.  Перейдите в директорию `/Electrum/Electrum-X.X.X/electrum_data/wallets/`, где `X.X.X` — будет номер версии кошелька на момент его установки на сервер (используемая версия — 4.4.6).\
-
+1.  Перейдите в директорию `/Electrum/Electrum-X.X.X/electrum_data/wallets/`, где `X.X.X` — будет номер версии кошелька на момент его установки на сервер (используемая версия — 4.4.6).<br>
 
     <figure><img src="../../.gitbook/assets/image (1475).png" alt=""><figcaption></figcaption></figure>
-2.  Скачайте кошелек `default_wallet` на свой компьютер.\
-
+2.  Скачайте кошелек `default_wallet` на свой компьютер.<br>
 
     <figure><img src="../../.gitbook/assets/image (1476).png" alt=""><figcaption></figcaption></figure>
 3. Замените файл `electrum_data\wallets\default_wallet` на вашем компьютере файлом `default_wallet`, скачанным с сервера и перезапустите **Electrum** на компьютере. После этих действий кошельки будут синхронизированы.

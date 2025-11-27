@@ -42,8 +42,7 @@ noRobotsIndex: true
 
 В панели администратора создайте нового мерчанта в разделе "**Мерчанты**" -> "**Добавить мерчант".**
 
-Выберите модуль Garantex в выпадающем списке в поле "**Модуль**", укажите название для модуля и нажмите "**Сохранить**".\
-
+Выберите модуль Garantex в выпадающем списке в поле "**Модуль**", укажите название для модуля и нажмите "**Сохранить**".<br>
 
 <figure><img src="../../../.gitbook/assets/image (638).png" alt="" width="494"><figcaption></figcaption></figure>
 
@@ -68,4 +67,4 @@ noRobotsIndex: true
 
 ## Продолжение настройки
 
-Далее произведите настройку мерчанта следуя [общей инструкции по настройке](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/obshie-nastroiki-merchantov).\
+Далее произведите настройку мерчанта следуя [общей инструкции по настройке](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/obshie-nastroiki-merchantov).<br>

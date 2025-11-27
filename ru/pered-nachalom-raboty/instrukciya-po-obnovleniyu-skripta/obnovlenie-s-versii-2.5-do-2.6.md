@@ -71,8 +71,7 @@
 
 <figure><img src="../../.gitbook/assets/image (1775).png" alt="" width="563"><figcaption><p><strong>Удалите все отмеченные галочкой файлы и папки на своём сервере</strong></p></figcaption></figure>
 
-4.  Удалите все файлы предыдущей лицензии из корневой папки сайта.\
-
+4.  Удалите все файлы предыдущей лицензии из корневой папки сайта.<br>
 
     <figure><img src="../../.gitbook/assets/image (1774).png" alt="" width="432"><figcaption></figcaption></figure>
 
@@ -138,12 +137,10 @@
     Для работы BestChange парсера:
 
     <figure><img src="../../.gitbook/assets/image (392).png" alt="" width="563"><figcaption></figcaption></figure>
-12. [Очистите кэш в браузере](https://www.unisender.com/ru/blog/kak-ochistit-kehsh-v-brauzerah/).\
-
+12. [Очистите кэш в браузере](https://www.unisender.com/ru/blog/kak-ochistit-kehsh-v-brauzerah/).<br>
 
     <figure><img src="../../.gitbook/assets/image (395).png" alt="" width="563"><figcaption></figcaption></figure>
-13. <mark style="color:red;">**Обязательно удалите из корневой папки на сервере любые загруженные zip-архивы скрипта и бэкапы сайта.**</mark>\
-
+13. <mark style="color:red;">**Обязательно удалите из корневой папки на сервере любые загруженные zip-архивы скрипта и бэкапы сайта.**</mark><br>
 
     <figure><img src="../../.gitbook/assets/image (396).png" alt="" width="563"><figcaption></figcaption></figure>
 14. Отключите режим технического обслуживания в разделе "**Консоль**".

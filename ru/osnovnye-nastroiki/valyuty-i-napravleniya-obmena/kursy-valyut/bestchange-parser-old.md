@@ -90,8 +90,7 @@ Bestchange парсер будет работать только в активн
 
 <figure><img src="../../../.gitbook/assets/image (852).png" alt=""><figcaption></figcaption></figure>
 
-6\. Добавьте задание cron в [планировщике задач](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/faq/kak-sozdat-zadanie-cron-na-servere), которое будет обновлять курсы валют. Скрипт можно запускать каждую минуту. Пример команды для планировщика задач в Unix-формате для панели управления ISP Manager:\
-
+6\. Добавьте задание cron в [планировщике задач](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/faq/kak-sozdat-zadanie-cron-na-servere), которое будет обновлять курсы валют. Скрипт можно запускать каждую минуту. Пример команды для планировщика задач в Unix-формате для панели управления ISP Manager:<br>
 
 <figure><img src="../../../.gitbook/assets/image (1339).png" alt=""><figcaption></figcaption></figure>
 

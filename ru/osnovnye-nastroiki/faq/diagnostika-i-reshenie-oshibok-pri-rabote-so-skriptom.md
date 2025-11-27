@@ -242,30 +242,21 @@ Curl — это инструмент для отправки HTTP-запросо
       3.  Проверьте версию, выполнив команду:\
           CMD:
 
-          {% code overflow="wrap" %}
-          ```bash
-          curl --version
-          ```
-          {% endcode %}
+          <pre class="language-bash" data-overflow="wrap"><code class="lang-bash">curl --version
+          </code></pre>
     * Для Powershell
       1. Нажмите Win + R.
       2. Введите cmd и нажмите Enter.
       3.  Проверьте версию, выполнив команду:\
           Powershell:
 
-          {% code overflow="wrap" %}
-          ```bash
-          curl.exe --version
-          ```
-          {% endcode %}
+          <pre class="language-bash" data-overflow="wrap"><code class="lang-bash">curl.exe --version
+          </code></pre>
 2.  На Linux/MacOS: Обычно `curl` уже установлен. Проверьте, выполнив команду:\
     Bash:
 
-    {% code overflow="wrap" %}
-    ```bash
-    curl --version
-    ```
-    {% endcode %}
+    <pre class="language-bash" data-overflow="wrap"><code class="lang-bash">curl --version
+    </code></pre>
 
 Теперь, когда у вас есть Zone ID и API Key, выполните следующую команду:
 
@@ -739,8 +730,7 @@ find /var/www/*/data/bin-tmp/ -name "sess_*" -exec rm {} \;
 
 `df -i`
 
-После ввода команды вы увидите заполненность диска файлами.\
-
+После ввода команды вы увидите заполненность диска файлами.<br>
 
 <img src="../../.gitbook/assets/image (714).png" alt="" data-size="original">
 

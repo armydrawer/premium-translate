@@ -2,8 +2,7 @@
 
 ## Версия 2.7
 
-*   Загрузка чеков клиентами в заявке (модуль "**Платежные чеки**" (**paychecks)**)\
-
+*   Загрузка чеков клиентами в заявке (модуль "**Платежные чеки**" (**paychecks)**)<br>
 
     <figure><img src="../../.gitbook/assets/image (1957).png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -19,8 +18,7 @@
 
 <figure><img src="../../.gitbook/assets/image (1955).png" alt="" width="563"><figcaption><p>После загрузки картинки клиентом она будет отображаться в заявке в разделе "<strong>Заявки</strong>"</p></figcaption></figure>
 
-*   Объединение направлений обмена в группы для быстрой фильтрации (модуль "**Группы направлений**" (**direction\_groups)**)\
-
+*   Объединение направлений обмена в группы для быстрой фильтрации (модуль "**Группы направлений**" (**direction\_groups)**)<br>
 
     <figure><img src="../../.gitbook/assets/image (1958).png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -37,12 +35,10 @@
     <div data-full-width="true"><figure><img src="../../.gitbook/assets/image (1961).png" alt=""><figcaption><p>В таблице всех направлений выберите нужную группу и, к примеру, сделайте все направления из этой группы неактивными.</p></figcaption></figure></div>
 
 
-*   Указание индивидуального % прибыли для каждого города для направлений обмена с наличными по аналогии с [общим % прибыли для направления обмена](https://premium.gitbook.io/main/osnovnye-nastroiki/partnerskaya-programma/pribyl-i-partnerskii-procent#nastroika-pribyli-dlya-napravleniya-obmena).\
-
+*   Указание индивидуального % прибыли для каждого города для направлений обмена с наличными по аналогии с [общим % прибыли для направления обмена](https://premium.gitbook.io/main/osnovnye-nastroiki/partnerskaya-programma/pribyl-i-partnerskii-procent#nastroika-pribyli-dlya-napravleniya-obmena).<br>
 
     <figure><img src="../../.gitbook/assets/image (1962).png" alt="" width="563"><figcaption><p>Вкладка "<strong>Города</strong>" в настройках направления обмена</p></figcaption></figure>
-*   Возможность установки статуса "**Выполненная заявка**" через API (метод `success_bid`). Как и другие API-методы для смены статусов заявок, этот метод распространяется только на заявки, созданные непосредственно по API.\
-
+*   Возможность установки статуса "**Выполненная заявка**" через API (метод `success_bid`). Как и другие API-методы для смены статусов заявок, этот метод распространяется только на заявки, созданные непосредственно по API.<br>
 
     <figure><img src="../../.gitbook/assets/image (1963).png" alt=""><figcaption><p>Для определения заявки необходимо передавать её хэш (он отображается в ответе для метода <code>create_bid</code> при создании заявки по API)</p></figcaption></figure>
 
@@ -61,20 +57,17 @@
 
 
     <div><figure><img src="../../.gitbook/assets/image (1967).png" alt="" width="563"><figcaption><p>Редактирование комиссий платежных систем</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (1970).png" alt="" width="563"><figcaption><p>Редактирование сумм обмена</p></figcaption></figure></div>
-*   Возможность полного отключения лога мерчантов и автовыплат\
-
+*   Возможность полного отключения лога мерчантов и автовыплат<br>
 
     <figure><img src="../../.gitbook/assets/image (283).png" alt=""><figcaption><p>Опция находится в настройках каждого модуля мерчанта и автовыплаты</p></figcaption></figure>
-*   Запрет на создание заявок с одной и той же суммой для направления обмена\
-
+*   Запрет на создание заявок с одной и той же суммой для направления обмена<br>
 
     <figure><img src="../../.gitbook/assets/image (285).png" alt="" width="422"><figcaption><p>Вкладка "<strong>Ограничения и проверки</strong>" в настройках направления обмена</p></figcaption></figure>
 
 
 
     <figure><img src="../../.gitbook/assets/image (286).png" alt="" width="532"><figcaption><p>При создании второй заявки и при наличии неоплаченной первой заявки на ту же сумму, клиент получит ошибку</p></figcaption></figure>
-*   Модуль сортировки направлений и валют — в разделе будут отображаться только активные валюты (ранее отображались все валюты)\
-
+*   Модуль сортировки направлений и валют — в разделе будут отображаться только активные валюты (ранее отображались все валюты)<br>
 
     <figure><img src="../../.gitbook/assets/image (274).png" alt="" width="477"><figcaption></figcaption></figure>
 *   Модуль "**Оператор live"**(`many_operators`)
@@ -105,8 +98,7 @@
 
 <figure><img src="../../.gitbook/assets/image (282).png" alt=""><figcaption><p>При такой настройке оператору будут отображаться заявки из всех направлений обмена (даже если в них <strong>не</strong> использовался мерчант Bova), а также заявки из <strong>всех</strong> направлений обмена, где использовался мерчант Bova (даже если это направление 1340).<br>Т.е. отрицательный фильтр по направлению 1340 не будет учитываться, если были заявки в этом направлении с мерчантом Bova</p></figcaption></figure>
 
-*   Перенос пользовательских коэффициентов для Парсеров 2.0 в отдельный раздел\
-
+*   Перенос пользовательских коэффициентов для Парсеров 2.0 в отдельный раздел<br>
 
     <figure><img src="../../.gitbook/assets/image (1971).png" alt=""><figcaption><p>Раздел в сайдбаре</p></figcaption></figure>
 
@@ -154,8 +146,7 @@
 
     <figure><img src="../../.gitbook/assets/image (269).png" alt="" width="241"><figcaption></figcaption></figure>
 
-    Добавлены новые статусы для заявок при долгом ответе от AML-сервиса.\
-
+    Добавлены новые статусы для заявок при долгом ответе от AML-сервиса.<br>
 
     <figure><img src="../../.gitbook/assets/image (270).png" alt="" width="287"><figcaption></figcaption></figure>
 
@@ -187,13 +178,11 @@
     • Настройки валют\
     • Курсы валют в разделе "**Парсеры 2.0**" -> "**Курсы**"\
     • Настройки **парсеров Bestchange** и **Bestchange API**
-*   Добавлена возможность ожидания получения реквизитов от мерчанта (только для фиатных мерчантов, которые предоставляют реквизиты в ответе по API и поддерживают повторные запросы реквизитов).\
-
+*   Добавлена возможность ожидания получения реквизитов от мерчанта (только для фиатных мерчантов, которые предоставляют реквизиты в ответе по API и поддерживают повторные запросы реквизитов).<br>
 
     <figure><img src="../../.gitbook/assets/image (1980).png" alt="" width="433"><figcaption><p>Опция в настройках модуля мерчанта</p></figcaption></figure>
 
-    Для работы опции также должна быть включена опция "**Перевести заявку в ошибку мерчанта**" в разделе "**Настройки обменника**" -> "**Основные настройки**" (только в этом случае реквизиты будут запрашиваться повторно или заявка будет переходить в статус "**Ошибка мерчанта**")\
-
+    Для работы опции также должна быть включена опция "**Перевести заявку в ошибку мерчанта**" в разделе "**Настройки обменника**" -> "**Основные настройки**" (только в этом случае реквизиты будут запрашиваться повторно или заявка будет переходить в статус "**Ошибка мерчанта**")<br>
 
     <figure><img src="../../.gitbook/assets/image (1981).png" alt="" width="467"><figcaption></figcaption></figure>
 
@@ -216,8 +205,7 @@
     ![](https://premium.gitbook.io/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FIYShnbIVsQtdyzn1bKip%252Fimage.png%3Falt%3Dmedia%26token%3D69302b5b-7f4f-4847-b874-c928ea29ae01\&width=768\&dpr=4\&quality=100\&sign=52626c56\&sv=1)
 * **Черный список (Blacklist)**: Внесены изменения, аналогичные модулю **blacklist\_bestchange**, позволяющие принимать средства и останавливать выплату, если пользователь находится в черном списке. Настройки модуля находятся в разделе "**Черный список** " -> "**Настройки"**\
   ![](https://premium.gitbook.io/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252F18OpRTbt1jzLD5l2HMZ4%252Fimage.png%3Falt%3Dmedia%26token%3Dcd4f10d7-7da0-49f2-b46a-ebf0e58efe1e\&width=768\&dpr=4\&quality=100\&sign=3df31e7f\&sv=1)
-
-- **AML-проверка**: Добавлена возможность проведения проверки непосредственно перед отправкой валюты на кошелек клиента, с переводом заявки в ошибку при превышении уровня риска. Настройка уровня риска производится в разделе "**Модули**" -> "**AML Bot**" или "**Getblock**" (в зависимости от того, какой сервис вы подключили).\
+* **AML-проверка**: Добавлена возможность проведения проверки непосредственно перед отправкой валюты на кошелек клиента, с переводом заявки в ошибку при превышении уровня риска. Настройка уровня риска производится в разделе "**Модули**" -> "**AML Bot**" или "**Getblock**" (в зависимости от того, какой сервис вы подключили).\
   \
   Настройка логики выполнения проверки производится в настройках направлении обмена, вкладка "**AML Bot**" или "**Getblock**".
 
@@ -261,15 +249,14 @@
 
 * **Фильтрация направлений обмена**: Добавлен фильтр по платежным системам в разделе "**Направления обменов**".\
   ![](https://premium.gitbook.io/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252F9xdx6Yn7jEL1kWLrC3ga%252Fimage.png%3Falt%3Dmedia%26token%3Dc85f4a49-b77c-4a6e-9c2a-383e9735755d\&width=768\&dpr=4\&quality=100\&sign=51546725\&sv=1)
-
--   **Значения прибыли в уведомлениях**: Добавлена возможность указывать **заданные (не рассчитанные!) в настройках направлений обмена (вкладка "Курс")** значения прибыли через шорткоды для вывода значений в письмах и сообщениях в Telegram для администраторов.
+*   **Значения прибыли в уведомлениях**: Добавлена возможность указывать **заданные (не рассчитанные!) в настройках направлений обмена (вкладка "Курс")** значения прибыли через шорткоды для вывода значений в письмах и сообщениях в Telegram для администраторов.
 
     ![](https://premium.gitbook.io/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FGn0nO1DGfe1mkSE68NZK%252Fimage.png%3Falt%3Dmedia%26token%3Df931870b-2d06-4b0d-9e7d-5401b1f956ce\&width=768\&dpr=4\&quality=100\&sign=fae370a1\&sv=1)
-- **Замена модуля для подтверждения e-mail**: После обновления необходимо деактивировать, а затем удалить с сервера модуль **rconfirm** и вместо него использовать модуль **confirmregmail**. Подробнее в [**инструкции по обновлению**](https://premium.gitbook.io/main/pered-nachalom-raboty/instrukciya-po-obnovleniyu-skripta/obnovlenie-s-versii-2.5-do-2.6#izmeneniya-v-paneli-administratora). При установке скрипта версии 2.6 с нуля модуля **rconfirm** не будет "из коробки".
--   **Разделение текста шаблонов**: Добавлена возможность разделить текст из шаблона направления обмена, который будет отображаться при работе с заявками по API и через сайт с помощью шорткодов.
+* **Замена модуля для подтверждения e-mail**: После обновления необходимо деактивировать, а затем удалить с сервера модуль **rconfirm** и вместо него использовать модуль **confirmregmail**. Подробнее в [**инструкции по обновлению**](https://premium.gitbook.io/main/pered-nachalom-raboty/instrukciya-po-obnovleniyu-skripta/obnovlenie-s-versii-2.5-do-2.6#izmeneniya-v-paneli-administratora). При установке скрипта версии 2.6 с нуля модуля **rconfirm** не будет "из коробки".
+*   **Разделение текста шаблонов**: Добавлена возможность разделить текст из шаблона направления обмена, который будет отображаться при работе с заявками по API и через сайт с помощью шорткодов.
 
     ![](https://premium.gitbook.io/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FXnHpwIL4Npl1eEXPHo7A%252Fimage.png%3Falt%3Dmedia%26token%3D1eecc0b9-2f35-4f5e-b3e2-42c59a5c80e3\&width=768\&dpr=4\&quality=100\&sign=d83209f2\&sv=1)
-- **Раздел "Финансовая статистика"**: В модуль финансовой статистики добавлена общая статистика по количеству обменов и сумме обменов в USD за выбранный период.
+* **Раздел "Финансовая статистика"**: В модуль финансовой статистики добавлена общая статистика по количеству обменов и сумме обменов в USD за выбранный период.
 
 ![](https://premium.gitbook.io/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252F6aBBfbraijvg0k0U2AcB%252Fimage.png%3Falt%3Dmedia%26token%3Dbac677ff-49d9-4e56-b778-e8e87a64e37d\&width=768\&dpr=4\&quality=100\&sign=86401985\&sv=1)
 

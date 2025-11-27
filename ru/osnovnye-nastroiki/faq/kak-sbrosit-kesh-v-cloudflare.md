@@ -4,8 +4,7 @@
 
 В некоторых случаях после изменения внешнего вида на сайте изменения не отображаются сразу из-за работы кэширования.
 
-Для того чтобы принудительно сбросить кэш зайдите в [личный кабинет Cloudflare](https://dash.cloudflare.com/), в боковом меню выберите раздел "**Caching -> Configuration**".\
-
+Для того чтобы принудительно сбросить кэш зайдите в [личный кабинет Cloudflare](https://dash.cloudflare.com/), в боковом меню выберите раздел "**Caching -> Configuration**".<br>
 
 <figure><img src="../../.gitbook/assets/image (1418).png" alt="" width="302"><figcaption></figcaption></figure>
 

@@ -40,8 +40,7 @@
 1.  В панели управления обменником в разделе "**Консоль**" включите технический режим работы обменника, чтобы пользователи обменника не совершали заявки на сайте во время обновления скрипта.
 
     <figure><img src="../../.gitbook/assets/image (879).png" alt=""><figcaption></figcaption></figure>
-2.  В разделе "**Плагины**" деактивируйте плагины "**Premium Exchanger**" и "**Premium Exchanger hooks**".\
-
+2.  В разделе "**Плагины**" деактивируйте плагины "**Premium Exchanger**" и "**Premium Exchanger hooks**".<br>
 
     <figure><img src="../../.gitbook/assets/image (254).png" alt=""><figcaption></figcaption></figure>
 3. С помощью FTP-клиента или файлового менеджера удалите на сервере содержимое папки **`/wp-content/plugins/premiumbox/`**, <mark style="color:green;">**кроме**</mark> следующих файлов и папок внутри неё:
@@ -60,13 +59,11 @@
 
 <figure><img src="../../.gitbook/assets/image (1775).png" alt="" width="563"><figcaption><p><strong>Удалите все отмеченные галочкой файлы и папки на своём сервере</strong></p></figcaption></figure>
 
-4.  Удалите все файлы предыдущей лицензии из корневой папки сайта.\
-
+4.  Удалите все файлы предыдущей лицензии из корневой папки сайта.<br>
 
     <figure><img src="../../.gitbook/assets/image (1774).png" alt="" width="432"><figcaption></figcaption></figure>
 
-Перейдите в раздел "[**Ваши лицензии**](https://premiumexchanger.com/ulicense/)" и скачайте архив с файлами лицензии `license.zip`. Для этого нажмите на ссылку "**Скачать для версии 2.7**".\
-
+Перейдите в раздел "[**Ваши лицензии**](https://premiumexchanger.com/ulicense/)" и скачайте архив с файлами лицензии `license.zip`. Для этого нажмите на ссылку "**Скачать для версии 2.7**".<br>
 
 <figure><img src="../../.gitbook/assets/image (255).png" alt="" width="430"><figcaption></figcaption></figure>
 
@@ -117,12 +114,10 @@
 Если вы используете **технический шаг**, то вам необходимо задать вручную количество запросов. Рекомендуем установить заведомо большое число, например, 100000.
 {% endhint %}
 
-9.  Перейдите в раздел "**Настройки" → "Постоянные ссылки"** и нажмите на кнопку "**Сохранить изменения**", не внося никаких изменений на странице.\
-
+9.  Перейдите в раздел "**Настройки" → "Постоянные ссылки"** и нажмите на кнопку "**Сохранить изменения**", не внося никаких изменений на странице.<br>
 
     <figure><img src="../../.gitbook/assets/image (259).png" alt="" width="563"><figcaption></figcaption></figure>
-10. Перейдите в раздел "**Заявки"** и отключите режим обновления.\
-
+10. Перейдите в раздел "**Заявки"** и отключите режим обновления.<br>
 
     <figure><img src="../../.gitbook/assets/image (260).png" alt=""><figcaption></figcaption></figure>
 
@@ -138,12 +133,10 @@
     Для работы BestChange парсера:
 
     <figure><img src="../../.gitbook/assets/image (392).png" alt="" width="563"><figcaption></figcaption></figure>
-12. [Очистите кэш в браузере](https://www.unisender.com/ru/blog/kak-ochistit-kehsh-v-brauzerah/).\
-
+12. [Очистите кэш в браузере](https://www.unisender.com/ru/blog/kak-ochistit-kehsh-v-brauzerah/).<br>
 
     <figure><img src="../../.gitbook/assets/image (395).png" alt="" width="563"><figcaption></figcaption></figure>
-13. <mark style="color:red;">**Обязательно удалите из корневой папки на сервере все загруженные zip-архивы скрипта и бэкапы сайта.**</mark>\
-
+13. <mark style="color:red;">**Обязательно удалите из корневой папки на сервере все загруженные zip-архивы скрипта и бэкапы сайта.**</mark><br>
 
     <figure><img src="../../.gitbook/assets/image (396).png" alt="" width="563"><figcaption></figcaption></figure>
 14. Отключите режим технического обслуживания в разделе "**Консоль**".

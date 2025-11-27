@@ -98,8 +98,7 @@
 
 Сохраните настройки.
 
-![](<../../.gitbook/assets/image (2127).png>)\
-
+![](<../../.gitbook/assets/image (2127).png>)<br>
 
 </details>
 

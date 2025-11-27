@@ -57,8 +57,7 @@
   \
   Альтернативные источники для проверки корректности кодов валют:\
   [Jsons.info](https://jsons.info/signatures/currencies#electronic-currencies/)\
-  [Exchange.sumo](https://exchangesumo.com/nazvaniya-valjut-eksportnogo-fajla-kursov/)\
-
+  [Exchange.sumo](https://exchangesumo.com/nazvaniya-valjut-eksportnogo-fajla-kursov/)<br>
 
 Пример: Для валюты **Tether(USDT) ERC20** должен быть установлен xml-код **USDTERC20**\
 \

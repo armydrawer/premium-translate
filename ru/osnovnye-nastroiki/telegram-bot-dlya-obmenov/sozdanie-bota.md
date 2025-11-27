@@ -39,8 +39,7 @@
 
 помимо методов в настройках конкретного API ключа для бота.
 
-![](<../../.gitbook/assets/image (88).png>)\
-
+![](<../../.gitbook/assets/image (88).png>)<br>
 {% endhint %}
 
 * **Версия** — версия бота (на данный момент доступна только v1)\
@@ -82,6 +81,6 @@ Array ( [error] => 0 [error_text] => [data] => Array ( [ip] => 000.000.000.0000 
 {% endhint %}
 
 7. По желанию выполните дополнительные [настройки бота](nastroiki-bota.md).
-8. Если вы используете CloudFlare или подобный сервис для своего сайта — добавьте [IP-адреса Telegram](https://core.telegram.org/resources/cidr.txt) в Whitelist в вашем сервисе. Инструкция по добавлению в Whitelist CloudFlare доступна [по ссылке](broken-reference).
+8. Если вы используете CloudFlare или подобный сервис для своего сайта — добавьте [IP-адреса Telegram](https://core.telegram.org/resources/cidr.txt) в Whitelist в вашем сервисе. Инструкция по добавлению в Whitelist CloudFlare доступна [по ссылке](/broken/pages/cvvxCMiuXwZrdEboJ1w0).
 
 [^1]: деактивация и повторная активация

@@ -83,4 +83,4 @@ noIndex: true
 
 При таких настройках будет использоваться значение из суммы "**Получаете**" и покупаться указанная сумма BTC за USDT на бирже Beribit после перехода заявки в статус "**Оплаченная**".
 
-![](https://web.archive.org/web/20240522164757im_/https://premium.gitbook.io/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FerTQuhVccG1JwSiAULWX%252Fimage.png%3Falt%3Dmedia%26token%3D86e996d7-7359-4452-94c5-13782c2af6f7\&width=768\&dpr=4\&quality=100\&sign=387da92272cdd16dd0e07d43ae4d358f958f9dedc6339fb875fc8fc3725204cc)\
+![](https://web.archive.org/web/20240522164757im_/https://premium.gitbook.io/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FerTQuhVccG1JwSiAULWX%252Fimage.png%3Falt%3Dmedia%26token%3D86e996d7-7359-4452-94c5-13782c2af6f7\&width=768\&dpr=4\&quality=100\&sign=387da92272cdd16dd0e07d43ae4d358f958f9dedc6339fb875fc8fc3725204cc)<br>

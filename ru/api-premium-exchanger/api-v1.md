@@ -620,8 +620,7 @@ payout_id - ID выплаты
 
 <figure><img src="../.gitbook/assets/image (1471).png" alt="" width="371"><figcaption></figcaption></figure>
 
-*   Не активирован выбранный метод в разделе "**API**" для пользователя\
-
+*   Не активирован выбранный метод в разделе "**API**" для пользователя<br>
 
 
 

@@ -126,8 +126,7 @@
 \
 **Установка скрипта завершена.**
 
-5\. Панель управления сайтом\
-
+5\. Панель управления сайтом<br>
 
 <figure><img src="../.gitbook/assets/image (1883).png" alt="" width="350"><figcaption></figcaption></figure>
 

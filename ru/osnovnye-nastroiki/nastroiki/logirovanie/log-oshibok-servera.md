@@ -14,8 +14,7 @@
 
 <figure><img src="../../../.gitbook/assets/image (803).png" alt=""><figcaption></figcaption></figure>
 
-Найдите в списке файл **`ваш_домен.error.log`** и откройте его.\
-
+Найдите в списке файл **`ваш_домен.error.log`** и откройте его.<br>
 
 <figure><img src="../../../.gitbook/assets/image (783).png" alt="" width="397"><figcaption></figcaption></figure>
 
