@@ -14,9 +14,9 @@
 
 Зарегистрируйтесь на сервисе [Optimoney](https://client.optimoney.com/register). Авторизуйтесь в личном кабинете и создайте новый USD кошелек (имя кошелька укажите на ваше усмотрение).
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
 <figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Создайте нового мерчанта в личном кабинете.
 
@@ -30,9 +30,9 @@
 
 Скопируйте API ключ мерчанта из этих настроек.
 
-<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Настройки модуля
 
