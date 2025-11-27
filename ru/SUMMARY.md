@@ -155,6 +155,7 @@
     * [OnlyPays](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/onlypays.md)
     * [Optimoney](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/optimoney.md)
     * [OTC (неактивно)](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/otc.md)
+    * [Paycore](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/paycore.md)
     * [Payscrow](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/payscrow/README.md)
       * [Payscrow Cascade](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/payscrow/payscrow-cascade.md)
     * [Payeer](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/payeer.md)
