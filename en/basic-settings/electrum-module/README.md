@@ -26,8 +26,6 @@ For a single payout to one address, the transaction fee is 0.00004928 BTC. If yo
 
 For a batch payout to two addresses, the transaction fee is 0.00005632 BTC. If you process batch payouts to at least two addresses every 15 minutes over 24 hours, the daily fee would be 0.00005632 BTC × 4 × 24 = 0.00540672 BTC. Over a month, this totals 0.1622016 BTC, which is approximately $4,820 at the current exchange rate (as of May 25, 2022).
 
-<figure><img src="../../.gitbook/assets/photo-2022-05-25-14-22-22.jpg" alt=""><figcaption></figcaption></figure>
-
 **In summary: $8,455 - $4,820 = $3,635 — the monthly savings on network fees for the exchange when using the batch payout module.**
 
 **Pricing**

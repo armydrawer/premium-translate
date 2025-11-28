@@ -2,11 +2,7 @@
 
 ## Additional Fields for Currency
 
-<figure><img src="../../.gitbook/assets/image (89)_eng.png" alt=""><figcaption></figcaption></figure>
-
 You can create additional fields for currencies that will be used in the exchange form (for example, "Bank Name," "Full Name") — the user will need to fill out these fields when creating a request.
-
-<figure><img src="../../.gitbook/assets/image (90)_eng.png" alt="" width="434"><figcaption></figcaption></figure>
 
 **Status** — activates the field for the exchange form.
 
@@ -22,15 +18,11 @@ You can create additional fields for currencies that will be used in the exchang
 * Text Area — for longer values.
 * Selection — a choice from available options without the ability to enter a custom value in the exchange form. In this case, you will need to specify the options available for selection.
 
-<figure><img src="../../.gitbook/assets/image (91)_eng.png" alt="" width="345"><figcaption></figcaption></figure>
-
 **Min./Max. Character Count** — the minimum/maximum number of characters that the user must enter in the exchange form for this field (one of the values can be specified).
 
 **Starting Characters** — required characters that must begin the input in the field.
 
 **Allowed Characters** — the characters that are permitted for input in this field.
-
-<figure><img src="../../.gitbook/assets/image (92)_eng.png" alt="" width="190"><figcaption></figcaption></figure>
 
 **Remove Spaces in Details** — removes spaces when creating a request if the user has entered them in the exchange form.
 
@@ -44,10 +36,6 @@ You can create additional fields for currencies that will be used in the exchang
 
 ## Additional Fields for Exchange Direction
 
-<figure><img src="../../.gitbook/assets/image (93)_eng.png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/image (95)_eng.png" alt="" width="474"><figcaption></figcaption></figure>
-
 **Status** — activates the field for the exchange form.
 
 **Additional Field Name (Technical)** — the name of the field as it appears in the admin panel.
@@ -62,21 +50,15 @@ You can create additional fields for currencies that will be used in the exchang
 * Text Area — for longer values.
 * Selection — a choice from available options without the ability to enter a custom value in the exchange form. In this case, you will need to specify the options available for selection.
 
-<figure><img src="../../.gitbook/assets/image (91)_eng.png" alt="" width="345"><figcaption></figcaption></figure>
-
 **Min./Max. Character Count** — the minimum/maximum number of characters that the user must enter in the exchange form for this field (one of the values can be specified).
 
 **Starting Characters** — required characters that must begin the input in the field.
 
 **Allowed Characters** — the characters that are permitted for input in this field.
 
-<figure><img src="../../.gitbook/assets/image (92)_eng.png" alt="" width="190"><figcaption></figcaption></figure>
-
 **Remove Spaces in Details** — removes spaces when creating a request if the user has entered them in the exchange form.
 
 **Auto-fill** — select one of the options to link the field to a standard value for requests in the "Requests" section.
-
-<figure><img src="../../.gitbook/assets/image (96)_eng.png" alt="" width="129"><figcaption></figcaption></figure>
 
 **Required Field** — if "Yes" is selected, the field will become mandatory in the exchange form.
 

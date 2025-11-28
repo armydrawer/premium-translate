@@ -16,8 +16,6 @@ Register for the TrustixPay service through a [service representative](https://t
 
 Log in to your account, navigate to the "**API Documentation**" section ➔ "**Callback Settings**". Enter the **Webhook URL** from the merchant module settings in the "**Callback URL**" field and save your settings.
 
-<figure><img src="../../../.gitbook/assets/image (5) (1)_eng.png" alt="" width="468"><figcaption></figcaption></figure>
-
 <figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Module Settings

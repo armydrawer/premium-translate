@@ -12,8 +12,6 @@ Settings in this section only affect the display of the operator's status on the
 
 ### Settings
 
-<figure><img src="../../.gitbook/assets/изображение (55)_eng.png" alt=""><figcaption><p>Settings Section</p></figcaption></figure>
-
 In the "**Settings**" subsection, you can configure the operational modes of the website.
 
 **Status Determination Principle:**\
@@ -26,8 +24,6 @@ In the "**Settings**" subsection, you can configure the operational modes of the
 • **Left** — the button will be "pinned" to the left edge of the website.\
 • **Right** — the button will be "pinned" to the right edge of the website.\
 • **Hide Button** — the button will not be displayed.
-
-<figure><img src="../../.gitbook/assets/изображение (39)_eng.png" alt=""><figcaption><p>Operator Status Button on the Website</p></figcaption></figure>
 
 **"Offline" Text** — the text displayed on the button when the operator is offline.
 
@@ -43,8 +39,6 @@ In the "**Settings**" subsection, you can configure the operational modes of the
 
 ### Adding a Schedule
 
-<figure><img src="../../.gitbook/assets/изображение (121)_eng.png" alt=""><figcaption><p>Add Schedule Section</p></figcaption></figure>
-
 **Status** — the status the exchange service will have on the specified dates and times below.\
 • **Offline**\
 • **Online**
@@ -57,8 +51,6 @@ In the "**Settings**" subsection, you can configure the operational modes of the
 
 If necessary, you can create multiple schedules for the website for different statuses:
 
-<figure><img src="../../.gitbook/assets/изображение (185)_eng.png" alt=""><figcaption><p>Operator Schedule Section</p></figcaption></figure>
-
 ## Maintenance Mode
 
 {% hint style="warning" %}
@@ -67,8 +59,6 @@ When maintenance mode is enabled, creating new requests on the website will be p
 
 ### Settings
 
-<figure><img src="../../.gitbook/assets/изображение (61)_eng.png" alt=""><figcaption><p>Settings Section</p></figcaption></figure>
-
 **How to Switch Maintenance Mode:**\
 • **Manually** — the mode must be switched manually.\
 • **Based on Operator Status** — the mode will switch according to the operator's status.
@@ -76,8 +66,6 @@ When maintenance mode is enabled, creating new requests on the website will be p
 **Maintenance Mode** — previously created modes will be displayed in the dropdown list.
 
 ### Adding a Mode
-
-<figure><img src="../../.gitbook/assets/изображение (133)_eng.png" alt=""><figcaption><p>Add Mode Section</p></figcaption></figure>
 
 **Name for the Website** — the name of the mode that will be displayed in the dropdown list in the "**Maintenance Mode**" settings.
 
@@ -98,7 +86,7 @@ the following options are available:\
 • **Hide** — the block will not be displayed on the page when the selected mode is active.
 
 **Activate Mode When Operator Status Is** — select the operator status that will activate this mode.\
-• **Offline** \
+• **Offline**\
 • **Online**
 
 **Apply Mode:**\
@@ -108,5 +96,3 @@ the following options are available:\
 ### **Maintenance Mode**
 
 If necessary, you can create multiple modes:
-
-<figure><img src="../../.gitbook/assets/изображение (35)_eng.png" alt=""><figcaption><p>Maintenance Mode Section</p></figcaption></figure>

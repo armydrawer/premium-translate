@@ -20,11 +20,11 @@ In the admin panel, create a new merchant by navigating to "**Merchants**" ➔ "
 
 Select Paycore from the dropdown menu in the "**Module**" field, enter a name for the module, and click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/image (2268).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../.gitbook/assets/image (2269).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (118).png" alt=""><figcaption></figcaption></figure>
 
 **Domain** — leave this field empty.
 
@@ -33,7 +33,7 @@ Fill in the required authorization fields.
 {% hint style="warning" %}
 Please note that for the Paycore module to function correctly for receiving payments, you must activate the "**From Account**" field in the currency settings that will be used with Paycore. The client will fill in this field with **their phone number** (the number should start with +7), and this number will be sent to the merchant.
 
-![](<../../../.gitbook/assets/image (2270).png>)
+![](<../../../.gitbook/assets/image (146).png>)
 {% endhint %}
 
 ## Continuing the Setup

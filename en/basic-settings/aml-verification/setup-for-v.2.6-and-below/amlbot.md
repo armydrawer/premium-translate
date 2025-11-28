@@ -19,8 +19,6 @@ After installing the module, go to the "**Modules**" section and select "**AML B
 
 In this module settings section, you need to enter your ID and key. You can obtain your ID and key after registering on the [AMLBot website](https://web.amlbot.com/account).
 
-<figure><img src="../../../.gitbook/assets/Screenshot_13%20(1)_eng.png" alt=""><figcaption></figcaption></figure>
-
 * The **Critical Risk Level** is important for the automatic mode. If the check of an outgoing or incoming address shows a risk higher than the critical level (recommended — 50%), the admin panel will not allow the creation of such a request.
 
 <figure><img src="../../../.gitbook/assets/Screenshot_14 (1) (1).png" alt=""><figcaption></figcaption></figure>

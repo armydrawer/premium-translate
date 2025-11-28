@@ -8,8 +8,6 @@ If a trading action is highlighted in <mark style="color:red;">red</mark>, you c
 
 If the error persists, you should review the logs in the "**Trading Actions -> Script Logs**" section to identify specific errors returned by the exchange's API. Most commonly, errors are related to insufficient funds in the account or an invalid currency pair on the exchange.
 
-<figure><img src="../../.gitbook/assets/%D0%9B%D0%BE%D0%B3%D0%B8%20%D1%81%D0%BA%D1%80%D0%B8%D0%BF%D1%82%D0%BE%D0%B2%20%E2%80%B9%202%20Premium%20Exchanger%202%20%E2%80%94%20WordPress%20-%20Google%20Chrome_230512172527_eng.png" alt=""><figcaption><p>Trading Action Logs</p></figcaption></figure>
-
 {% hint style="warning" %}
 To troubleshoot trading actions with technical support, please prepare the following information:
 

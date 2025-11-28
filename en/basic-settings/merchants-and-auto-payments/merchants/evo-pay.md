@@ -14,17 +14,11 @@ To discuss terms and connection, please contact a service representative ([https
 
 Log in to your [EVO account](https://evo-pay.net/login). Go to the "**Settings**" section and create an API key by clicking the "**Create API KEY**" button.
 
-<figure><img src="../../../.gitbook/assets/image%20(51)_eng.png" alt=""><figcaption></figcaption></figure>
-
 Copy the generated key (without `API KEY:`) to your clipboard or a text file.
-
-<figure><img src="../../../.gitbook/assets/image%20(55)_eng.png" alt="" width="324"><figcaption></figcaption></figure>
 
 Navigate to the module settings in the Premium Exchanger admin panel.
 
 To enable the webhook for status changes of requests, specify the URL from the merchant module settings in your EVO account. Additionally, add all IP addresses from which the merchant sends webhooks to your firewall's whitelist (you can request the list of IP addresses directly from the merchant).
-
-<figure><img src="../../../.gitbook/assets/image%20(56)_eng.png" alt=""><figcaption></figcaption></figure>
 
 To update request statuses without using a Cron job, add the webhook in your EVO account, select the "**Order**" method, and paste the previously copied webhook URL. Save the changes.
 
@@ -36,11 +30,7 @@ In the admin panel, create a new merchant in the "**Merchants**" ➔ "**Add Merc
 
 Select Evo from the dropdown list in the "**Module**" field, enter a name for the module, and click "**Save**".
 
-<figure><img src="../../../.gitbook/assets/image%20(58)_eng.png" alt="" width="422"><figcaption></figcaption></figure>
-
 Fill in the required authorization fields.
-
-<figure><img src="../../../.gitbook/assets/image%20(57)_eng.png" alt="" width="424"><figcaption></figcaption></figure>
 
 **Domain** — leave this field empty.
 
@@ -48,11 +38,7 @@ Fill in the required authorization fields.
 
 ## Special Fields
 
-<figure><img src="../../../.gitbook/assets/image%20(59)_eng.png" alt="" width="455"><figcaption></figcaption></figure>
-
 **Payment Method** — choose the appropriate method for receiving funds from the client (by default, two methods are available: `BANK_CARD` — for receiving bank card details and `SBP` — for obtaining a phone number for top-ups via SBP).
-
-<figure><img src="../../../.gitbook/assets/image%20(60)_eng.png" alt="" width="318"><figcaption></figcaption></figure>
 
 When selecting "**All**," the merchant will be provided with any available details, regardless of the method.
 
@@ -73,7 +59,7 @@ This new option integrates with the request recalculation module. If the necessa
 
 The new amount and recalculation are based on the selected value in the "**Expected Amount to be Credited**" parameter.
 
-<img src="../../../.gitbook/assets/image%20(53)_eng.png" alt="" data-size="original">
+
 
 If the recalculation function is enabled in the merchant settings, the system will automatically handle discrepancies without additional intervention.
 

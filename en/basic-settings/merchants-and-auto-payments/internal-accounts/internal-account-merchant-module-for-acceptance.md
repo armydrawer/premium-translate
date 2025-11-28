@@ -8,12 +8,8 @@ In the "**Merchants"** -> "**Merchants**" section, click the "**Add**" button. I
 
 Configure the module according to the [general settings for merchant modules](https://premium.gitbook.io/main/en/en/basic-settings/merchants-and-auto-payments/merchants/general-merchant-settings):
 
-<figure><img src="../../../.gitbook/assets/изображение (62)_eng.png" alt=""><figcaption></figcaption></figure>
-
 In the control panel, go to the "**Exchange Directions**" section and create a new direction or edit an existing one that uses currency for the internal account. Switch to the "**Merchants and Payments**" tab and select "**Internal Account**" for the "**Merchant**" parameter.
 
 {% hint style="warning" %}
 Please note that a single copy of the "**Internal Account**" acceptance module can be used for all internal currencies — since there are no specific settings for the currency in the module, it will work with all currencies that are allowed for internal use.
 {% endhint %}
-
-<figure><img src="../../../.gitbook/assets/изображение (45)_eng.png" alt=""><figcaption></figcaption></figure>

@@ -6,31 +6,27 @@ The website can display three types of notifications, which can be configured in
 
 {% tabs %}
 {% tab title="Header Notification" %}
-<figure><img src="../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(109)_eng.png" alt=""><figcaption></figcaption></figure>
+
 {% endtab %}
 
 {% tab title="Popup Notification" %}
-<figure><img src="../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(83)_eng.png" alt=""><figcaption></figcaption></figure>
+
 {% endtab %}
 
 {% tab title="Notification Window" %}
-<figure><img src="../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(127)_eng.png" alt=""><figcaption></figcaption></figure>
+
 {% endtab %}
 {% endtabs %}
 
 All created notifications are displayed in the "Notifications" section.
 
-<figure><img src="../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(141)_eng.png" alt=""><figcaption></figcaption></figure>
-
 ## Notification Settings
-
-<figure><img src="../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(5)_eng.png" alt=""><figcaption></figcaption></figure>
 
 **Notification Type** — choose the intervals for displaying the notification.
 
-| By Time Period                                                                                                                     | By Schedule                                                                                                    |
-| ---------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
-| <p><img src="../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(187)_eng.png" alt=""></p> | ![](../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20\(64\)_eng.png) |
+| By Time Period | By Schedule |
+| -------------- | ----------- |
+| 4RUjZVtV3xa7   |             |
 
 **Operator Status** — the status under which the notification will be displayed\
 • **Any Status**\
@@ -70,5 +66,3 @@ In this case, you do not need to fill in the "**CSS Class**" field in the admin 
 ## Sorting Notifications
 
 Notifications can be sorted by their display priority on the website.
-
-<figure><img src="../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(130)_eng.png" alt=""><figcaption></figcaption></figure>

@@ -156,13 +156,7 @@ Here’s a naturalistic English translation of the provided text:
 
 **Select application statuses for notifications in the top bar** — notifications with a counter of applications in the selected statuses in the "**Applications**" section of the top bar.
 
-<figure><img src="../../.gitbook/assets/image%20(347)_eng.png" alt=""><figcaption></figcaption></figure>
-
 **Show all zeros in the exchange rate** — hiding zeros that do not affect the formation of the exchange rate in the exchange form.
-
-<figure><img src="../../.gitbook/assets/image%20(346)_eng.png" alt="" width="455"><figcaption><p>Displaying the rate with zeros</p></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/image%20(345)_eng.png" alt="" width="441"><figcaption><p>Displaying the rate without zeros</p></figcaption></figure>
 
 **Separate numbers in the exchange rate with spaces** — separating large numbers by thousands for easier readability.
 

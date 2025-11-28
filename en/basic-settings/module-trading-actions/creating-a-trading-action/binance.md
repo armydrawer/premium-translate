@@ -58,8 +58,7 @@ Choose the amount from the "**Give**" or "**Receive**" side depending on the cur
 
 If the "**Payment Amount**" or "**Payout Amount**" fields are empty (e.g., no payment/payout was made via the connected merchant in the exchange direction), the values will default to 0. If the trading action amount is set to "**Payment Amount**" or "**Payout Amount**" and a trading action is triggered, an error will occur because the amount will be 0.
 
-If you encounter a trading action error due to this, edit the amount in the request (go to the "**Requests**" section, click "**Edit**",\
-![](../../../.gitbook/assets/image%20\(376\)_eng.png)
+If you encounter a trading action error due to this, edit the amount in the request (go to the "**Requests**" section, click "**Edit**",<br>
 
 enter the correct amount in the relevant field, save the changes, and manually trigger the trading action by clicking the "**Action Link**" in the "**Trading Actions**" -> "**Requests**" section. The trading action will then be executed.
 {% endhint %}

@@ -20,7 +20,7 @@ In the admin panel, create a new merchant in the "**Merchants**" section by clic
 
 Select LazyTrade from the dropdown menu in the "**Module**" field, enter a name for the module, and click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/image (20) (2).png" alt="" width="346"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (2).png" alt="" width="346"><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 

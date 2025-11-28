@@ -143,8 +143,6 @@ Let's break down the formula:\
 
 **Link to Reserve**: 348, 362, 355, 404
 
-<figure><img src="../../../../.gitbook/assets/image%20(314)_eng.png" alt=""><figcaption></figcaption></figure>
-
 BTC (348)\
 **Reserve**: according to the formula\
 **Reserve Formula**: (\[usdttrc\_westwallet] - \[excursum\_auto368] - (\[excursum\_auto348] \* \[parser\_usdtbtc]) - (\[excursum\_auto362] \* \[parser\_usdtdoge]) - (\[excursum\_auto355] \* \[parser\_usdteth]) - (\[excursum\_auto404] \* \[parser\_usdtsol])) / \[parser\_usdtbtc]\

@@ -25,15 +25,7 @@ In the window that opens, under the "**Edit**" button, all changes made to the r
 
 In addition to logging changes made to requests, administrator/operator actions (changes made) will also be recorded in the following sections (if multiple changes are made at once, they will be displayed in a single entry):
 
-*   Exchange Direction Settings
-
-    <figure><img src="../../../.gitbook/assets/image%20(82)_eng.png" alt=""><figcaption></figcaption></figure>
-*   Currency Settings
-
-    <figure><img src="../../../.gitbook/assets/image%20(83)_eng.png" alt=""><figcaption></figcaption></figure>
-*   Currency Rates in the "**Parsers 2.0**" ➔ "**Rates**" section
-
-    <figure><img src="../../../.gitbook/assets/image%20(80)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
-*   Settings for **Bestchange Parsers** and **Bestchange API**
-
-    <figure><img src="../../../.gitbook/assets/image%20(81)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
+* Exchange Direction Settings
+* Currency Settings
+* Currency Rates in the "**Parsers 2.0**" ➔ "**Rates**" section
+* Settings for **Bestchange Parsers** and **Bestchange API**

@@ -77,8 +77,6 @@ After updating the script, you need to transfer internal accounts to the new mod
 
 Go to the "[**Your Licenses**](https://premiumexchanger.com/ulicense/)" section and download the archive with the license files `license.zip`. To do this, click on the link "**Download for version 2.6**".
 
-<figure><img src="../../.gitbook/assets/image%20(473)_eng.png" alt="" width="485"><figcaption></figcaption></figure>
-
 Upload the downloaded archive to the [root folder of your website](https://premium.gitbook.io/main/en/basic-settings/faq/kak-naiti-kornevuyu-papku-saita-na-servere) under <mark style="color:green;">**the user created for the site**</mark> (not <mark style="color:red;">**root**</mark>!) and **be sure to extract the archive**.
 
 {% hint style="danger" %}
@@ -92,8 +90,6 @@ You need to know the exact PHP version installed on your server to select the ap
 [**Instructions for checking the PHP version installed on the server**](https://premium.gitbook.io/main/en/basic-settings/faq/kak-proverit-versiyu-php-ustanovlennuyu-na-servere).
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image%20(472)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
-
 6. Upload the contents of the update archive to the root folder of your website under <mark style="color:green;">**the user created for the site**</mark> (not <mark style="color:red;">**root**</mark>!). Use an FTP client or file manager. Extract the archive, replacing the files.
 7. Go to the "**Plugins**" section and activate the "**Premium Exchanger**" and "**Premium Exchanger hooks**" plugins.
 8. Navigate to the "**Exchange Settings** → "Migration"\*\* section and sequentially complete each step in the "**Migration (if version is less than 2.6)**" block.
@@ -101,8 +97,6 @@ You need to know the exact PHP version installed on your server to select the ap
 <figure><img src="../../.gitbook/assets/image (1682)_eng.png" alt="" width="390"><figcaption></figcaption></figure>
 
 When starting each step, the system will determine the total number of requests that need to be processed. You can specify the number of requests to be processed in one cycle.
-
-<figure><img src="../../.gitbook/assets/image%20(500)_eng.png" alt="" width="345"><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 By default, the number of requests = 50. If you are unsure about your server's capacity, we recommend not changing the default value.
@@ -123,8 +117,6 @@ If you use the **technical step**, you will need to manually set the number of r
 
 An alternative option is to select "**No**" for the "**Update Mode**" parameter in this section and save the changes.
 
-<figure><img src="../../.gitbook/assets/image%20(474)_eng.png" alt="" width="255"><figcaption></figcaption></figure>
-
 {% hint style="warning" %}
 The update mode is activated each time the main plugin is deactivated and reactivated, so it must always be manually disabled.
 {% endhint %}
@@ -133,20 +125,10 @@ The update mode is activated each time the main plugin is deactivated and reacti
 
 For the operation of Parsers 2.0:
 
-<figure><img src="../../.gitbook/assets/image%20(394)_eng.png" alt=""><figcaption></figcaption></figure>
-
 For the operation of the BestChange parser:
 
-<figure><img src="../../.gitbook/assets/image%20(392)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
-
 12. [Clear your browser cache](https://www.unisender.com/ru/blog/kak-ochistit-kehsh-v-brauzerah/).
-
-<figure><img src="../../.gitbook/assets/image%20(395)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
-
 13. <mark style="color:red;">**Make sure to delete any uploaded zip archives of the script and website backups from the root folder on the server.**</mark>
-
-<figure><img src="../../.gitbook/assets/image%20(396)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
-
 14. Disable maintenance mode in the "**Console**" section.
 15. <mark style="color:green;">**The update was successful!**</mark>
 
@@ -180,8 +162,6 @@ Instructions for transitioning to the new module:
 * Remove the merchant and auto payout **domacc** modules in the admin panel from the **"Merchants" -> "Merchants"** and **"Merchants" -> "Auto Payouts"** sections, then delete the modules from the server (the paths to the module folders are `wp-content/plugins/premiumbox/moduls/merchants/domacc` and `wp-content/plugins/premiumbox/moduls/paymerchants/domacc`).
 * Add the new merchant and auto payout **iac** in the **"Merchants" -> "Merchants"** and **"Merchants" -> "Auto Payouts"** sections and configure them according to the [instructions](https://premium.gitbook.io/main/en/basic-settings/nastroiki/vnutrennie-scheta).
 * Add the created merchants to the appropriate exchange directions (the "**Merchants and Payouts**" tab in the exchange direction settings).
-
-![](../../.gitbook/assets/image%20\(463\)_eng.png)
 
 <mark style="color:red;">**Important!**</mark> If the internal account number for debiting and/or crediting funds is not specified in the exchange form when using merchant modules for receiving and auto payouts, it will default to **`currency code + client id`** from the client's profile (section "**Personal Data**" -> "**Internal Account**").
 

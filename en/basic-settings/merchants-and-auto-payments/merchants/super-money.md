@@ -24,8 +24,6 @@ Select Super Money from the dropdown menu in the "**Module**" field, enter a nam
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../.gitbook/assets/image%20(302)_eng.png" alt="" width="454"><figcaption></figcaption></figure>
-
 **Client ID** — the key provided to you by your Super Money manager
 
 **Client Secret** — the secret key provided to you by your Super Money manager

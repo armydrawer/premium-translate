@@ -14,27 +14,27 @@ Since each merchant for auto-payments has its own API for authorization, the fie
 
 {% tabs %}
 {% tab title="Option 1" %}
-<figure><img src="../../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(125)_eng.png" alt=""><figcaption></figcaption></figure>
+
 {% endtab %}
 
 {% tab title="Option 2" %}
-<figure><img src="../../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(8)_eng.png" alt=""><figcaption></figcaption></figure>
+
 {% endtab %}
 
 {% tab title="Option 3" %}
-<figure><img src="../../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(10)_eng.png" alt=""><figcaption></figcaption></figure>
+
 {% endtab %}
 
 {% tab title="Option 4" %}
-<figure><img src="../../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(20)_eng.png" alt=""><figcaption></figcaption></figure>
+
 {% endtab %}
 
 {% tab title="Option 5" %}
-<figure><img src="../../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(138)_eng.png" alt=""><figcaption></figcaption></figure>
+
 {% endtab %}
 
 {% tab title="Option 6" %}
-<figure><img src="../../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(120)_eng.png" alt=""><figcaption></figcaption></figure>
+
 {% endtab %}
 {% endtabs %}
 
@@ -126,8 +126,6 @@ The most suitable auto-payment for a specific request is automatically selected 
 ### Proxy Settings
 
 This section specifies a specific IP address if there is no access to the merchant from a regular IP address.
-
-<figure><img src="../../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(3)_eng.png" alt="" width="402"><figcaption></figcaption></figure>
 
 * **IP Address** — address of the proxy server.
 * **Port** — port of the proxy server.

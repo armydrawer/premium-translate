@@ -99,12 +99,6 @@ If you’re locked out of the admin panel due to IP restrictions, you’ll need 
 If the Premium Exchanger plugin has been deactivated and you can’t access the admin panel, follow these steps:
 
 1. Temporarily rename the **`/wp-content/themes/exchanger/functions.php`** file on the server. You can use any temporary name.
-
-<figure><img src="../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(165)_eng.png" alt=""><figcaption></figcaption></figure>
-
 2. Log in to the admin panel using your credentials at **`https://your_domain/wp-admin/`**.
 3. In the admin panel, go to the "**Plugins**" section and activate the "**Premium Exchanger**" plugin.
-
-<figure><img src="../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(42)_eng.png" alt=""><figcaption></figcaption></figure>
-
 4. Rename the **`functions.php`** file back to its original name.

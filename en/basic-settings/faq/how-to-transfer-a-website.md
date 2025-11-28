@@ -12,8 +12,6 @@ The Premium Exchanger script license includes the option to create a test versio
 
 To do this, specify your subdomain on the [**Your Licenses**](https://premiumexchanger.com/ulicense/) page:
 
-<figure><img src="../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(142)_eng.png" alt=""><figcaption></figcaption></figure>
-
 You can create a subdomain using the ISP Manager server control panel by following [this guide](https://www.ihc.ru/articles/sozdanie-poddomenov-v-ispmanager.html).
 
 Install the script on the subdomain by following [this guide](https://premium.gitbook.io/main/en/pered-nachalom-raboty/instrukciya-po-ustanovke).

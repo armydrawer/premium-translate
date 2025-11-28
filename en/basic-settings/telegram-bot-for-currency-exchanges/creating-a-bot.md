@@ -35,11 +35,11 @@ Instructions on how to create an "**API login**" and "**API key**" can be found 
 {% hint style="warning" %}
 Please note that you **must** enable methods in the "**API**" ➔ "**Settings**" section,
 
-<img src="../../.gitbook/assets/image%20(87)_eng.png" alt="" data-size="original">
+
 
 in addition to the methods in the settings of the specific API key for the bot.
 
-![](../../.gitbook/assets/image%20\(88\)_eng.png)\\
+\\
 {% endhint %}
 
 * **Version** — the version of the bot (currently only v1 is available)\
@@ -56,17 +56,10 @@ Array ( [error] => 0 [error_text] => [data] => Array ( [ip] => 000.000.000.0000 
 ```
 {% endcode %}
 
-<figure><img src="../../.gitbook/assets/%D0%94%D0%BE%D0%B1%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%E2%80%B9%20Premium%20Exchanger%20%E2%80%94%20WordPress%20-%20Google%20Chrome_230727183928_eng.png" alt="" width="563"><figcaption></figcaption></figure>
-
 3. Click the "**Save**" button.
 4. Then fill in the "**Token**" field with the token you copied earlier from the created Telegram bot via [@BotFather](https://t.me/BotFather).
-
-<figure><img src="../../.gitbook/assets/%D0%94%D0%BE%D0%B1%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%E2%80%B9%20Premium%20Exchanger%20%E2%80%94%20WordPress%20-%20Google%20Chrome_230727184111_eng.png" alt="" width="563"><figcaption></figcaption></figure>
-
 5. Click the "**Save**" button again.
 6. After filling in all the connection details, register the webhook by following the link on the settings page.
-
-<figure><img src="../../.gitbook/assets/%D0%94%D0%BE%D0%B1%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%E2%80%B9%20Premium%20Exchanger%20%E2%80%94%20WordPress%20-%20Google%20Chrome_230727184233_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 If the bot is not functioning correctly or stops responding to commands, re-register the webhook—first delete the existing one and then register a new one.

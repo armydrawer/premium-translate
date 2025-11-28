@@ -9,27 +9,12 @@ If you need to update a module on the server, please refer to the [instructions]
 {% hint style="warning" %}
 For initial setup of the service on your server, you can get assistance from the merchant's technical support:
 
-* Utopia Messenger: UNKNOWN1\
-  ![](../../../.gitbook/assets/image%20\(248\)_eng.png)
+* Utopia Messenger: UNKNOWN1<br>
 * Telegram: [@utp1984](https://t.me/utp1984)
 * Email: [1984@u.is](mailto:1984@u.is)
 {% endhint %}
 
 Download the [Utopia application](https://u.is/en/download.html) for your operating system and install it. Go through the registration process and create a new wallet.
-
-<figure><img src="../../../.gitbook/assets/utopia_GuMWxeYqQj_eng.png" alt="" width="375"><figcaption><p>Creating an Account</p></figcaption></figure>
-
-<figure><img src="../../../.gitbook/assets/utopia_6KVpKP7MqV_eng.png" alt="" width="563"><figcaption><p>Fill in the required fields</p></figcaption></figure>
-
-<figure><img src="../../../.gitbook/assets/utopia_1dTGinQV89_eng.png" alt="" width="563"><figcaption><p>Specify the path to the folder where the private key will be stored and create a password for your wallet</p></figcaption></figure>
-
-<figure><img src="../../../.gitbook/assets/utopia_HDeIfnYgkC_eng.png" alt="" width="563"><figcaption><p>Generating the Private Key</p></figcaption></figure>
-
-<figure><img src="../../../.gitbook/assets/utopia_G9GdSU4r7V_eng.png" alt="" width="563"><figcaption><p>The public key is your wallet address</p></figcaption></figure>
-
-<figure><img src="../../../.gitbook/assets/utopia_mRDQ9jaNO5_eng.png" alt="" width="563"><figcaption><p>Main Page of the Application</p></figcaption></figure>
-
-<figure><img src="../../../.gitbook/assets/utopia_N9Et2UDpXJ_eng.png" alt="" width="326"><figcaption><p>Available Currencies</p></figcaption></figure>
 
 ## Module Settings
 

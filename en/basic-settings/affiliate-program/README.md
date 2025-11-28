@@ -2,11 +2,7 @@
 
 To access the affiliate program page, go to the admin panel's sidebar and select the "**Affiliate Program**" tab. On the opened page, you will see statistics related to the affiliate program:
 
-<figure><img src="../../.gitbook/assets/изображение (170)_eng.png" alt=""><figcaption></figcaption></figure>
-
 In the expanded menu on the left, you will find the following sections:
-
-<figure><img src="../../.gitbook/assets/изображение (76)_eng.png" alt=""><figcaption></figcaption></figure>
 
 ## **Statistics**
 
@@ -57,11 +53,11 @@ You can view examples and the order of placing shortcodes in the standard promot
 {% hint style="warning" %}
 Starting from version 2.6, it is possible to configure a separate operational principle for the affiliate program for different users. To do this, you need to select the basic principle in the "**Affiliate Program**" ➔ "**Settings**" section,
 
-![](<../../.gitbook/assets/image (2060)_eng.png>)
+<img src="../../.gitbook/assets/image (2060)_eng.png" alt="" data-size="original">
 
 and then in the specific user's settings, choose a different principle (individual settings take precedence).
 
-![](<../../.gitbook/assets/image (2059)_eng.png>)
+<img src="../../.gitbook/assets/image (2059)_eng.png" alt="" data-size="original">
 
 After this, the selected user will follow an individual operational principle for the affiliate program, while the remaining users will follow the general principle.
 {% endhint %}
@@ -70,7 +66,7 @@ After this, the selected user will follow an individual operational principle fo
 
 **Referral Lifespan:**
 
-*   **Users and Cookies** — the referral link will remain active when the referrer is attached in the referral settings (the referred user) (specify the exchange user ID), \
+*   **Users and Cookies** — the referral link will remain active when the referrer is attached in the referral settings (the referred user) (specify the exchange user ID), \\
 
     <figure><img src="../../.gitbook/assets/image (2052)_eng.png" alt="" width="329"><figcaption></figcaption></figure>
 
@@ -83,7 +79,7 @@ After this, the selected user will follow an individual operational principle fo
 
 **Calculate Affiliate Rewards From:**
 
-*   **Profit in Direction Settings** — profit settings from the exchange direction will be considered\
+*   **Profit in Direction Settings** — profit settings from the exchange direction will be considered\\
 
     <figure><img src="../../.gitbook/assets/image (2053)_eng.png" alt=""><figcaption></figcaption></figure>
 * **Amount of Exchanges** — the total amount of exchanges by the referral will be considered.
@@ -96,7 +92,7 @@ After this, the selected user will follow an individual operational principle fo
 **Consider User Discounts in Affiliate Reward Calculations:**
 
 * **No** — the referral's discount will not be considered in the partner's earnings calculation.
-*   **Yes, Discount Percentage** — the personal discount percentage of the referral will be considered\
+*   **Yes, Discount Percentage** — the personal discount percentage of the referral will be considered\\
 
     <figure><img src="../../.gitbook/assets/image (2054)_eng.png" alt="" width="312"><figcaption></figcaption></figure>
 * **Yes, Discount Amount** — the discount amount from a specific request will be considered.
@@ -107,7 +103,7 @@ After this, the selected user will follow an individual operational principle fo
 
 **Show Text Promotional Materials** — text on the page.
 
-**Text Above the Affiliate Fund Withdrawal Form** — text above the affiliate fund withdrawal form (if this field is left empty, the standard text will be displayed)\
+**Text Above the Affiliate Fund Withdrawal Form** — text above the affiliate fund withdrawal form (if this field is left empty, the standard text will be displayed)\\
 
 <figure><img src="../../.gitbook/assets/image (2055)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -148,5 +144,3 @@ After this, the selected user will follow an individual operational principle fo
 **Total Earnings** — the partner's overall earnings (current balance + completed payouts)
 
 **Payouts Made** — the total amount paid out to the partner
-
-[^1]: A person who attracts clients with the aim of earning through a partner program.

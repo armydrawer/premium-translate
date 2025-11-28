@@ -20,11 +20,7 @@ In the admin panel, create a new merchant in the "**Auto Payouts**" -> "**Add Au
 
 Select MoneyGo from the dropdown list in the "**Module**" field, enter a name for the module, and click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/image (216)_eng.png" alt="" width="452"><figcaption></figcaption></figure>
-
 Fill in the required authorization fields.
-
-<figure><img src="../../../.gitbook/assets/image (217)_eng.png" alt="" width="446"><figcaption></figcaption></figure>
 
 **Client ID** — The ID provided to you by your MoneyGo manager.
 
@@ -34,16 +30,12 @@ Fill in the required authorization fields.
 
 **U-wallet** — The USD wallet from your MoneyGo account.
 
-<figure><img src="../../../.gitbook/assets/image (218)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
-
 **E-wallet, R-wallet** — These fields should remain empty.
 
 ## Special Fields
 
 {% hint style="warning" %}
 For the module to function correctly for the currency "**Receiving**" in the exchange direction where MoneyGo is used for payouts, the mandatory field "**To** **Account**" must be active. This field will be filled out by the client in the application creation form (indicating their wallet in the MoneyGo system).
-
-![](<../../../.gitbook/assets/image (219)_eng.png>)
 {% endhint %}
 
 ## Continuing the Setup

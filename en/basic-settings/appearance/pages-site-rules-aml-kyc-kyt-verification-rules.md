@@ -54,12 +54,6 @@ I have read and agree to the <a href="/tos/" target="_blank">exchange terms</a> 
 
 You can choose the step at which the rules text and the acceptance checkbox will be displayed. In the **"Exchange Settings"** -> **"General Settings"** section, find the option **"Use exchange step #2, where the user confirms their details."**
 
-<figure><img src="../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(81)_eng.png" alt=""><figcaption></figcaption></figure>
-
 If "No" is selected, the text will be displayed immediately on the exchange page:
 
-<figure><img src="../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(135)_eng.png" alt=""><figcaption></figcaption></figure>
-
 If "Yes" is selected, the text will be displayed on the next step, after the application details have been filled out:
-
-<figure><img src="../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(140)_eng.png" alt=""><figcaption></figcaption></figure>

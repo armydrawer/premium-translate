@@ -51,8 +51,6 @@ Metrics are numerical indicators used to measure the effectiveness of a website 
 
 This section specifies tags, goals, and counters for subsequent data analytics in third-party services.
 
-<figure><img src="../../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(2)_eng.png" alt=""><figcaption></figcaption></figure>
-
 1. To create a Yandex.Metrica counter code, log in or register in the [system](https://metrika.yandex.ru).
 2. On the counter list page, [add a counter](https://metrika.yandex.ru/add). The settings page will open.
 3. Specify the main settings for the counter. Fill in the fields:
@@ -64,8 +62,6 @@ This section specifies tags, goals, and counters for subsequent data analytics i
 5. Click the "Create Counter" button.
 6.  On the opened page, in the "**Counter Code**" block, copy the **counter ID** and enter it in the **"Yandex.Metrica Counter ID"** field in the admin panel under the **SEO** section.
 
-    <figure><img src="../../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(18)_eng.png" alt=""><figcaption></figcaption></figure>
-
     To set goals in Yandex.Metrica, specify the goal name in the corresponding field.
 
 <figure><img src="../../../.gitbook/assets/image (2122)_eng.png" alt=""><figcaption></figcaption></figure>
@@ -75,8 +71,6 @@ This section specifies tags, goals, and counters for subsequent data analytics i
 ## XML Sitemap Settings
 
 An XML sitemap is a file that contains information about the structure and content of a website in XML format. It is designed for search engine bots to simplify the indexing of the site's pages and the collection of information about them. The XML sitemap contains a list of all the site's pages, as well as additional information such as update frequency, page priority, and the date of the last update. It helps search engine bots understand which pages of the site should be indexed, increasing the site's chances of achieving high positions in search results.
-
-<figure><img src="../../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(49)_eng.png" alt=""><figcaption></figcaption></figure>
 
 **Show "Posts" in the sitemap** — option to display news in the XML sitemap created in the "**Posts**" section.
 
@@ -92,15 +86,11 @@ An XML sitemap is a file that contains information about the structure and conte
 
 The robots.txt file is a text file placed on the website to inform search engine bots which pages of the site should be indexed and which should not. In this file, you can specify which directories and files should be excluded from indexing, as well as provide links to sitemaps and other useful resources for search engine bots. The robots.txt file is an important tool for SEO and can help improve the site's positions in search results.
 
-<figure><img src="../../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(161)_eng.png" alt=""><figcaption></figcaption></figure>
-
 **Text** — specify the necessary rules for indexing the site, following [Google's instructions](https://developers.google.com/search/docs/crawling-indexing/robots/create-robots-txt?hl=ru).
 
 ## Exchange Directions
 
 In this section, you create the appearance of the exchange direction window that will be displayed on social media.
-
-<figure><img src="../../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(37)_eng.png" alt=""><figcaption></figcaption></figure>
 
 **Exchange Description** — the description that will be displayed in the window on social media.
 

@@ -28,13 +28,9 @@ You can change the domain name in the license no earlier than 24 hours before th
 
 <figure><img src="../../.gitbook/assets/Screenshot_11 (1) (1).png" alt="" width="514"><figcaption></figcaption></figure>
 
-3.  Select the number of months for the license renewal.\\
-
-    <figure><img src="../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(96)_eng.png" alt=""><figcaption></figcaption></figure>
+3. Select the number of months for the license renewal.\\
 4. Proceed to payment and complete your order.
-5.  Return to the "[**Your Licenses**](https://premiumexchanger.com/ulicense/)" section. Click the "**Download for version X.X**" button, where X.X is your script version. You can find the current version of your script in the site management panel under the "**Plugins**" section or through the file manager in the file `/wp-content/plugins/premiumbox/premiumbox.php` _(&#x43D;_&#x430; your computer will download the archive `license.zip`_)_\\
-
-    <figure><img src="../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(51)_eng.png" alt=""><figcaption></figcaption></figure>
+5. Return to the "[**Your Licenses**](https://premiumexchanger.com/ulicense/)" section. Click the "**Download for version X.X**" button, where X.X is your script version. You can find the current version of your script in the site management panel under the "**Plugins**" section or through the file manager in the file `/wp-content/plugins/premiumbox/premiumbox.php` _(&#x43D;_&#x430; your computer will download the archive `license.zip`_)_\\
 6. Upload the downloaded archive _`license.zip`_ to the root folder of your site (usually the folders `public_html`, `www`, or `docs`) and make sure to extract the archive.
 
 ## Uploading the license.zip Archive to the Root Folder of the Site on a Server Managed by ISP Manager
@@ -44,8 +40,7 @@ You can change the domain name in the license no earlier than 24 hours before th
 1. Log in to your server in ISP Manager using the <mark style="color:green;">user created for the site</mark>.\
    You can do this in two ways:
 
-* **Option 1** — log in directly as the <mark style="color:green;">user created for the site</mark>\
-  ![](../../.gitbook/assets/image%20\(512\)_eng.png)
+* **Option 1** — log in directly as the <mark style="color:green;">user created for the site</mark><br>
 * **Option 2** — log in as the <mark style="color:red;">root</mark> user, then go to the "**Sites**" section, select the necessary site, and click the "**Log in as Owner**" button.\
   After these steps, you will be logged in as the <mark style="color:green;">user created for the site</mark>.
 

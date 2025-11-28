@@ -7,8 +7,6 @@ The "**Bank Card Information (cardinfo)**" module allows you to determine which 
 
 To activate this option, go to the "**Modules**" section and enable the "**Bank Card Information**" module.
 
-<figure><img src="../../.gitbook/assets/image (325)_eng.png" alt=""><figcaption></figcaption></figure>
-
 ## Module Settings
 
 After activating the module, navigate to "**Modules**" -> "**Determine Card Type**" and configure the module.
@@ -90,5 +88,3 @@ The module also supports working with other bank names — if your client report
 {% hint style="danger" %}
 Please note that bank names may vary for each service — we recommend using universal bank names according to the service [**Bincheck.io**](https://bincheck.io/ru/bin-list) ([banks in Russia](https://bincheck.io/ru/ru), [banks in Ukraine](https://bincheck.io/ru/ua), [banks in Kazakhstan](https://bincheck.io/ru/kz)).
 {% endhint %}
-
-<figure><img src="../../.gitbook/assets/image (327)_eng.png" alt="" width="530"><figcaption></figcaption></figure>

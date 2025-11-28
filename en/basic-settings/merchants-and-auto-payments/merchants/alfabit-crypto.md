@@ -14,19 +14,11 @@ For discussions regarding terms and connections, please contact a [service repre
 
 Register and verify your account with [Alfabit](https://pay.alfabit.org/). Go to the "**Merchants**" section and click the "**Create Merchant**" button.
 
-<figure><img src="../../../.gitbook/assets/image%20(364)_eng.png" alt=""><figcaption></figcaption></figure>
-
 Fill in the required fields and click the "**Create Project**" button.
-
-<div><figure><img src="../../../.gitbook/assets/image%20(365)_eng.png" alt="" width="375"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image%20(368)_eng.png" alt="" width="357"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image%20(367)_eng.png" alt="" width="356"><figcaption></figcaption></figure></div>
 
 Go to the merchant settings, select the "**API Keys**" tab, and click the "**Add**" button.
 
-<figure><img src="../../../.gitbook/assets/image%20(371)_eng.png" alt=""><figcaption></figcaption></figure>
-
 Fill in the required fields and click the "**Save**" button.
-
-<figure><img src="../../../.gitbook/assets/image%20(370)_eng.png" alt="" width="363"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Select one or both options for "**Receive Funds/Withdraw Funds**" depending on the intended use of the merchant.
@@ -47,8 +39,6 @@ Select Alfabit Crypto from the dropdown list in the "**Module**" field, provide 
 <figure><img src="../../../.gitbook/assets/Arc_NAxwA0DrS1 (1).png" alt="" width="473"><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
-
-<figure><img src="../../../.gitbook/assets/image%20(372)_eng.png" alt="" width="458"><figcaption></figcaption></figure>
 
 **API Key** — **public key** generated in your Alfabit account.
 

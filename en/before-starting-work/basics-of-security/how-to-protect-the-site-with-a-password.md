@@ -24,8 +24,6 @@ The setup for the username and password file is complete.
 
 As the root user, go to the "Sites" tab and select "Configuration files" from the menu.
 
-<figure><img src="../../.gitbook/assets/image%20(5)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)_eng.png" alt=""><figcaption></figcaption></figure>
-
 In the configuration file, locate the location block within the server ssl block (at the end of the file) and insert the following lines:
 
 ```

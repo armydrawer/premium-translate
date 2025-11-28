@@ -4,8 +4,6 @@ The module includes settings that only need to be configured once to ensure prop
 
 Go to the "**Trading Actions" -> "Settings"** section and configure the settings as shown in the screenshot below.
 
-<figure><img src="../../../.gitbook/assets/image%20(377)_eng.png" alt=""><figcaption></figcaption></figure>
-
 ### **Hash for cron files**
 
 Setting a hash makes the cron URL more unique, which enhances security. We recommend using a hash that is at least 20 characters long and includes Latin letters and numbers. Example hash:\

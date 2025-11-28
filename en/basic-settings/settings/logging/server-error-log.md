@@ -23,14 +23,11 @@ The log directory may be located in a different path on your server.
 
 If you can't find the logs at the specified path, use the search function:\
 \
-In the root folder, click "Search"\
-![](../../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20\(54\)_eng.png)
+In the root folder, click "Search"<br>
 
-In the window that opens, enter **logs** in the "Name Mask" field, check the box for "**Search in subdirectories**," and click "**Find**":\
-![](../../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20\(79\)_eng.png)
+In the window that opens, enter **logs** in the "Name Mask" field, check the box for "**Search in subdirectories**," and click "**Find**":<br>
 
-In the search results window, open the folder containing the logs:\
-![](../../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20\(154\)_eng.png)
+In the search results window, open the folder containing the logs:<br>
 {% endhint %}
 
 ## Configuring Log Output

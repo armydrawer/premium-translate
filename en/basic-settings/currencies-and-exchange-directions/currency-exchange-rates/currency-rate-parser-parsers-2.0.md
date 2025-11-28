@@ -18,8 +18,6 @@ In the website control panel under the "**Parsers 2.0**" section, you will find 
 
 ## Parser Settings
 
-<figure><img src="../../../.gitbook/assets/image%20(86)_eng.png" alt="" width="527"><figcaption></figcaption></figure>
-
 * Sorting:\
   • **Manually** — manually sort rates according to the "**Parsers 2.0**" ➔ "**Sort Rates**" section\
   • **By Name** — rates will be automatically sorted by name
@@ -120,19 +118,19 @@ If the desired rate is not available in the "**Parsers 2.0**" ➔ "**Source Rate
 
 To quickly transfer rates from a specific source in the "**Rate Sources**" section to the "**Rates**" section, you can use the "**Converter**" module.
 
-<img src="../../../.gitbook/assets/image%20(405)_eng.png" alt="" data-size="original">
+
 
 Select the currency rate source from the dropdown list, and in the "**Currencies**" field, specify the [currency codes](https://www.bestchange.ru/wiki/rates.html) you want to create currency pairs for, separated by commas, and click "**Apply**".
 
-<img src="../../../.gitbook/assets/image%20(406)_eng.png" alt="" data-size="original">
+
 
 In the "**Rates**" section, pairs will be created where the listed currencies will be on the "**Giving**" side.
 
-<img src="../../../.gitbook/assets/image%20(407)_eng.png" alt="" data-size="original">
+
 
 To create all available rates with the listed currencies, check the "**Reverse Rate**" box before clicking "**Apply**".
 
-<img src="../../../.gitbook/assets/image%20(408)_eng.png" alt="" data-size="original">
+
 
 Repeat the steps for each source whose rates you want to use.
 {% endhint %}

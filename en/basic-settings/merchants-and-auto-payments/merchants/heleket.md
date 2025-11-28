@@ -42,8 +42,6 @@ After successfully adding the merchant, proceed to configure it.
 
 Send a request to gain API access for your website.
 
-<figure><img src="../../../.gitbook.assets/image%20(2078)_eng.png" alt=""><figcaption></figcaption></figure>
-
 In the "**Merchant ID**" field, you will find your merchant ID; save it in a text file.
 
 <figure><img src="../../../.gitbook/assets/image (687) (1).png" alt="" width="414"><figcaption></figcaption></figure>

@@ -12,7 +12,7 @@ Since each merchant has its own API for authorization, the fields in this sectio
 {% endtab %}
 
 {% tab title="Option 2" %}
-<figure><img src="../../../.gitbook/assets/image%20(8)_eng.png" alt=""><figcaption></figcaption></figure>
+
 {% endtab %}
 
 {% tab title="Option 3" %}
@@ -182,8 +182,6 @@ The most suitable merchant for a specific application is automatically selected 
 
 In this section, specify a particular IP address if there is no access to the merchant from a regular IP address.
 
-<figure><img src="../../../.gitbook/assets/image%20(3)_eng.png" alt=""><figcaption></figcaption></figure>
-
 * **IP Address** — the address of the proxy server
 * **Port** — the port of the proxy server
 * **Login** — your login for accessing the proxy server
@@ -205,8 +203,6 @@ The following options are available (in the "**Exchange Settings**" -> "**Basic 
 {% hint style="info" %}
 If you want to continue using the logic from version 2.5, select the option "**Connect Merchant**".
 {% endhint %}
-
-<figure><img src="../../../.gitbook/assets/image%20(459)_eng.png" alt=""><figcaption></figcaption></figure>
 
 **Action if the merchant fails**:
 

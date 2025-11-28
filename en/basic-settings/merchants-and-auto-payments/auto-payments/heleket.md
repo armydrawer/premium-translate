@@ -96,8 +96,6 @@ Fill in the required authorization fields.
 
 ## Special Fields
 
-<figure><img src="../../../.gitbook/assets/image%20(511)_eng.png" alt=""><figcaption></figcaption></figure>
-
 **Priority** — choose the fee size that will be charged by the merchant (this affects transaction processing speed):\
 • **recommended** — balanced speed and fee (recommended choice)\
 • **economy** — low speed and low fee\

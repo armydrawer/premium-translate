@@ -64,8 +64,7 @@ Choose the amount from the "**Give**" or "**Receive**" side depending on the cur
 
 If the exchange direction does not have merchants connected for receiving/auto-payouts, the payment/payout amount will be 0. If the trading action amount is set to "**Payment Amount**" or "**Payout Amount**" in such cases, the trading action will fail because it will attempt to execute with an amount of 0.
 
-If you encounter a trading action error related to this, edit the amount in the application (go to the "**Applications**" section, click "**Edit**",\
-![](../../../.gitbook/assets/image%20\(376\)_eng.png)
+If you encounter a trading action error related to this, edit the amount in the application (go to the "**Applications**" section, click "**Edit**",<br>
 
 enter the correct amount in the required field, save the changes, and manually restart the trading action by clicking the "**Action Link**" in the "**Trading Actions**" -> "**Applications**" section. The trading action will then execute successfully.
 {% endhint %}

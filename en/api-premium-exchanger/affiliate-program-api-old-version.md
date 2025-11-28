@@ -6,15 +6,9 @@ The Affiliate Program API only works with the "**API**" and "**Affiliate Program
 
 ### Activating the Modules:
 
-<figure><img src="../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(173)_eng.png" alt=""><figcaption></figcaption></figure>
-
 After activating the module, go to the "**Users**" section, select the user ("**Edit**") for whom API access will be enabled, and activate the following settings:
 
-<figure><img src="../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(151)_eng.png" alt=""><figcaption></figcaption></figure>
-
 Next, navigate to the "**Affiliate Program**" - "**Settings**" section and enable the API there:
-
-<figure><img src="../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(85)_eng.png" alt=""><figcaption></figcaption></figure>
 
 ## How to Check if the Module is Active and Where to Get the Key?
 

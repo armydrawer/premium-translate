@@ -2,8 +2,6 @@
 
 ## General Settings
 
-<figure><img src="../../.gitbook/assets/image%20(84)_eng.png" alt=""><figcaption></figcaption></figure>
-
 **Site Icon** — This is the icon you see in browser tabs, bookmarks, and within mobile WordPress applications. It should be square with a resolution of at least 512 x 512 pixels.
 
 **WordPress Address (URL)** — Your domain.
@@ -170,5 +168,3 @@ Select the options for which CAPTCHA will be required when clients submit data.
 <figure><img src="../../.gitbook/assets/image (1295)_eng.png" alt=""><figcaption></figcaption></figure>
 
 **Notification Icons** — Disable specific notification icons for the admin panel.
-
-<figure><img src="../../.gitbook/assets/image%20(85)_eng.png" alt=""><figcaption></figcaption></figure>

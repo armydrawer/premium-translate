@@ -13,8 +13,7 @@ If you need to update the module on your server, please refer to the [instructio
 {% hint style="info" %}
 For initial setup of the service on your server, you can get assistance from merchant support:
 
-* Utopia Messenger: UNKNOWN1\
-  ![](../../../.gitbook/assets/image%20\(248\)_eng.png)
+* Utopia Messenger: UNKNOWN1<br>
 * Telegram: [@utp1984](https://t.me/utp1984)
 * Email: [1984@u.is](mailto:1984@u.is)
 {% endhint %}

@@ -18,13 +18,7 @@
 
 1. Log in to the ISP Manager control panel using your <mark style="color:red;">**root user**</mark> credentials.
 2. Navigate to the "**Administration**" -> "**Shell Client**" section.
-
-<figure><img src="../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(126)_eng.png" alt="" width="330"><figcaption></figcaption></figure>
-
 3. Right-click on the blank screen and select "**Paste from browser**" from the context menu.
-
-<figure><img src="../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(178)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
-
 4. Enter the command below in the opened window, click "**OK**," and then press **Enter** to execute the command.
 
 ```
@@ -40,16 +34,8 @@ sudo apt-get install libsecp256k1-0 python3-cryptography -y
 ## Verifying Shell Client Access for the Website User
 
 6. Go to the "**Users**" section.
-
-<figure><img src="../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(136)_eng.png" alt="" width="325"><figcaption></figcaption></figure>
-
 7. Click on the username under which the website operates.
-
-<figure><img src="../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(183)_eng.png" alt=""><figcaption></figcaption></figure>
-
 8. In the "**Access**" block, check if the **"Shell Access"** checkbox is ticked. If it is not, tick it and save the user settings.
-
-<figure><img src="../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(104)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 ***
 
@@ -98,17 +84,8 @@ By default, the wallet is named **"default\_wallet"**, but you may have given it
 ## Uploading Files to the Server
 
 13. Go to the "**Sites**" section in ISP Manager.
-
-<figure><img src="../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(190)_eng.png" alt="" width="300"><figcaption></figcaption></figure>
-
 14. Select the desired site and click the **"Login as Owner"** button. You will be logged in as the <mark style="color:green;">user created for the site</mark>.
-
-<figure><img src="../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(71)_eng.png" alt=""><figcaption></figcaption></figure>
-
 15. Open the "**File Manager**" section in the sidebar.
-
-<figure><img src="../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(115)_eng.png" alt="" width="330"><figcaption></figcaption></figure>
-
 16. Upload the files from the **`electrum_installer.zip`** archive you received from us, along with the previously created Electrum wallet file from the "**electrum\_data**" folder on your computer, to the opened directory.
 
 <figure><img src="../../.gitbook/assets/image (1356)_eng.png" alt=""><figcaption></figcaption></figure>
@@ -132,13 +109,7 @@ The following files must be uploaded to the server:
 ## Installing Electrum on the Server
 
 18. Go to the **"Shell Client"** section while logged in as the <mark style="color:green;">user created for the site</mark>.
-
-<figure><img src="../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(52)_eng.png" alt="" width="330"><figcaption></figcaption></figure>
-
 19. Right-click on the blank screen, select **"Paste from browser"**, enter the command **`bash install_electrum.sh`**, and click OK. Then press **Enter** to execute the command.
-
-<figure><img src="../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(36)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
-
 20. After the script completes, save the data highlighted in the red box in the screenshot below for further configuration in the Premium Exchanger admin panel.
 
 <figure><img src="../../.gitbook/assets/image (1324)_eng.png" alt=""><figcaption></figcaption></figure>
@@ -162,8 +133,6 @@ If you are installing the Electrum module on a server different from the one whe
 {% hint style="warning" %}
 Cron jobs must be added under the <mark style="color:green;">user created for the site</mark>, **not** under the <mark style="color:red;">**root user**</mark>!
 {% endhint %}
-
-<figure><img src="../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(75)_eng.png" alt="" width="315"><figcaption></figcaption></figure>
 
 23. Click the **"Create Task"** button, paste the copied command into the **"Command"** field, and configure the form as shown in the screenshot below. Click "**Create**."
 

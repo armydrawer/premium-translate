@@ -10,11 +10,7 @@ Once you have access to the service, fund your account to perform client detail 
 
 Log into your personal account and go to the "[**API Keys**](https://kyt.bitok.org/api-keys)" section. Create a new key by clicking the "**Create Key**" button. In the pop-up window, specify a desired name for the key and the IP address of your server (optional).
 
-<figure><img src="../../../.gitbook/assets/image (425)_eng.png" alt=""><figcaption></figcaption></figure>
-
 Click "**Create**" and copy the generated keys into a text file.
-
-<figure><img src="../../../.gitbook/assets/image (426)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 In the admin panel of the script, under the "**Modules**" -> "**BitOK**" section, fill in the fields for module authorization:
 
@@ -32,8 +28,6 @@ In the admin panel of the script, under the "**Modules**" -> "**BitOK**" section
 {% endtab %}
 
 {% tab title="2.6" %}
-<figure><img src="../../../.gitbook/assets/image (397)_eng.png" alt=""><figcaption></figcaption></figure>
-
 **API Key** — The **API Key** generated in the BitOK personal account.
 
 **API Secret** — The **API Secret** generated in the BitOK personal account.
@@ -93,8 +87,6 @@ The results of the checks will be displayed at the top of the module settings pa
 
 {% hint style="warning" %}
 An error like the one shown in the screenshot below means that you have no available checks — you need to purchase a new check package from the BitOK service.
-
-![](<../../../.gitbook/assets/image (399)_eng.png>)
 {% endhint %}
 
 You can use the module for checking addresses and hashes without interfering with the request, as well as for prohibiting the creation of requests or payouts based on them.
@@ -110,10 +102,10 @@ Checking accounts "**Giving**" and "**Receiving**":
 <div><figure><img src="../../../.gitbook/assets/image (1738)_eng.png" alt="" width="253"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (1739)_eng.png" alt="" width="242"><figcaption></figcaption></figure></div>
 
 * **No** — no checks will be performed.
-* **Yes** — checks will be performed for informational purposes only, without prohibiting request creation.
+*   **Yes** — checks will be performed for informational purposes only, without prohibiting request creation.
 
     <figure><img src="../../../.gitbook/assets/image (1748)_eng.png" alt=""><figcaption></figcaption></figure>
-* **Yes and prohibit request creation** — checks will be performed to prohibit request creation if the specified risk level is exceeded.
+*   **Yes and prohibit request creation** — checks will be performed to prohibit request creation if the specified risk level is exceeded.
 
     <figure><img src="../../../.gitbook/assets/image (1748)_eng.png" alt=""><figcaption></figcaption></figure>
 * **Exchange amount "from"** — specify the amount from the request above which the address check will be performed. If the amount is below the specified value, the check will not be performed.\
@@ -125,11 +117,11 @@ TxID Check:
 <figure><img src="../../../.gitbook/assets/image (1740)_eng.png" alt="" width="206"><figcaption></figcaption></figure>
 
 * **No** — no checks will be performed.
-* **Yes** — checks will be performed for informational purposes only, without prohibiting payouts.\
-    
+*   **Yes** — checks will be performed for informational purposes only, without prohibiting payouts.\\
+
     <figure><img src="../../../.gitbook/assets/image (1748)_eng.png" alt=""><figcaption></figcaption></figure>
-* **Yes and stop payout** — checks will be performed to prohibit payouts for the request if the specified risk level is exceeded (this is relevant only if auto payout is enabled for the exchange direction).\
-    When the request changes to the status "**Auto payout error**" due to exceeding the risk level, you can verify the module's activation by going to the "**Merchants**" -> "**Auto payout log**" section, where the following entry will be displayed:\
+*   **Yes and stop payout** — checks will be performed to prohibit payouts for the request if the specified risk level is exceeded (this is relevant only if auto payout is enabled for the exchange direction).\
+    When the request changes to the status "**Auto payout error**" due to exceeding the risk level, you can verify the module's activation by going to the "**Merchants**" -> "**Auto payout log**" section, where the following entry will be displayed:\\
 
     <figure><img src="../../../.gitbook/assets/image (1748)_eng.png" alt=""><figcaption></figcaption></figure>
 * **Exchange amount "from"** — specify the amount from the request above which the hash check will be performed. If the amount is below the specified value, the check will not be performed.\
@@ -137,39 +129,33 @@ TxID Check:
 
 ### Version 2.6
 
-<figure><img src="../../../.gitbook/assets/image (400)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
-
 Checking accounts "**Giving**" and "**Receiving**":
-
-<div><figure><img src="../../../.gitbook/assets/image (401)_eng.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (403)_eng.png" alt=""><figcaption></figcaption></figure></div>
 
 * **No** — no checks will be performed.
 * **Yes, during request creation** — checks will be performed to prohibit request creation if the specified risk level is exceeded.
 
 Here’s a naturalistic English translation of the provided text:
 
----
+***
 
 * **Yes, at the time of payment** — the account will be checked after the payment is received from the client (only if the merchant module for accepting payments is enabled in the exchange direction).
 * **Yes, during auto payout** — the account will be checked before the funds are paid out to the client (only if the auto payout module is enabled in the exchange direction).
-* **Risk Exceedance:**  
-  • **None** — Checks will be conducted for informational purposes only.  
+* **Risk Exceedance:**\
+  • **None** — Checks will be conducted for informational purposes only.\
   • **Error** — An error will be displayed if the risk exceeds the limits set in the module settings.
-* **Exchange amount "from"** — specify the amount from the request above which the address check will be performed. If the amount is below this specified value, no check will be conducted.  
+* **Exchange amount "from"** — specify the amount from the request above which the address check will be performed. If the amount is below this specified value, no check will be conducted.\
   The value should be in the currency for which the address will be checked (for example, for checking a USDT address, specify 1000; for BTC, specify 0.015, etc., but all values are at your discretion).
 
 TxID Check:
 
 * **No** — no check will be performed.
-* **Yes, at the time of payment** — 
-* **Yes, during auto payout** — 
-
-* **Yes, and stop payout** — checks will be conducted to prevent the payout on the request if the specified risk level is exceeded (this is relevant only if auto payout is enabled in the exchange direction).  
+* **Yes, at the time of payment** —
+* **Yes, during auto payout** —
+* **Yes, and stop payout** — checks will be conducted to prevent the payout on the request if the specified risk level is exceeded (this is relevant only if auto payout is enabled in the exchange direction).\
   If the request changes to the status "**Auto payout error**" due to exceeding the risk level, you can verify the module's activation by going to the "**Merchants**" -> "**Auto payout log**" section, where the following entry will be displayed:
-
-* **Exchange amount "from"** — specify the amount from the request above which the hash check will be performed. If the amount is below this specified value, no check will be conducted.  
+* **Exchange amount "from"** — specify the amount from the request above which the hash check will be performed. If the amount is below this specified value, no check will be conducted.\
   The value should be in the currency for the "**I give**" side.
 
---- 
+***
 
 Let me know if you need any further assistance!

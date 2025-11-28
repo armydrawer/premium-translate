@@ -37,9 +37,6 @@ Please note that the configured trading action will be triggered **only** if the
 
 2. Click the "**Save**" button to save the trading action you’ve created.
 3. Fill in the fields with the API keys for the connected exchange. Ensure that the keys you use have permissions to perform trading operations on the selected exchange.
-
-<figure><img src="../../../.gitbook/assets/%D0%94%D0%BE%D0%B1%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D0%B5%20%E2%80%B9%202%20Premium%20Exchanger%202%20%E2%80%94%20WordPress%20-%20Google%20Chrome_230512161400_eng.png" alt="" width="563"><figcaption><p>API Key Settings</p></figcaption></figure>
-
 4. Next, configure the general parameters of the trading action:
 
 {% hint style="warning" %}
@@ -55,8 +52,6 @@ If multiple trading actions are used simultaneously, all active steps in the hig
 * **Trigger Status** — Select the application status that will trigger the trading action. Typically, the status "**After 'Paid Application' status**" is used.
 * **Exchange Directions** — Choose the exchange directions where the trading action will be triggered.
 * **Error Margin (%)** — This setting is relevant **only** for Binance and applies to **buying** operations. The recommended value is 0.15%.
-
-<figure><img src="../../../.gitbook/assets/%D0%94%D0%BE%D0%B1%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D0%B5%20%E2%80%B9%202%20Premium%20Exchanger%202%20%E2%80%94%20WordPress%20-%20Google%20Chrome_230512164107_eng.png" alt="" width="563"><figcaption><p>General Trading Action Settings</p></figcaption></figure>
 
 5. Next, go to the settings of the corresponding exchange and complete the necessary configurations. Below are instructions for setting up some popular exchanges:
    * [Garantex](broken-reference/)

@@ -40,8 +40,6 @@ If the installation and configuration of the Electrum module were performed by t
 
 ### 3. Open the installed Electrum app on your computer and go to the "**File**" -> "**Open**" menu.
 
-<figure><img src="../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(145)_eng.png" alt="" width="375"><figcaption></figcaption></figure>
-
 ***
 
 ### 4. A folder containing your wallet files will open. Locate the wallet file with the name you assigned during setup.

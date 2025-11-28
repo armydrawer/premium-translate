@@ -41,36 +41,16 @@
     ![Selecting an entity for editing](<../../.gitbook/assets/image (1966)_eng.png>)
 
     ![Editing payment system commissions](<../../.gitbook/assets/image (1967)_eng.png>) ![Editing exchange amounts](<../../.gitbook/assets/image (1969)_eng (1).png>)
-*   **Option to Completely Disable Merchant Logs and Auto-Payments**
-
-    ![The option is located in the settings of each merchant and auto-payment module](../../.gitbook/assets/image%20\(283\)_eng.png)
-*   **Prohibition on Creating Requests with the Same Amount for Exchange Direction**
-
-    ![Tab "Restrictions and Checks" in the exchange direction settings](../../.gitbook/assets/image%20\(285\)_eng.png)
-
-    ![When creating a second request with an unpaid first request for the same amount, the client will receive an error](../../.gitbook/assets/image%20\(286\)_eng.png)
-*   **Direction and Currency Sorting Module — Only Active Currencies Will Be Displayed**
-
-    ![Only active currencies will be displayed](../../.gitbook/assets/image%20\(274\)_eng.png)
+* **Option to Completely Disable Merchant Logs and Auto-Payments**
+* **Prohibition on Creating Requests with the Same Amount for Exchange Direction**
+* **Direction and Currency Sorting Module — Only Active Currencies Will Be Displayed**
 *   **"Live Operator" Module (`many_operators`)**
 
     This module now allows displaying only requests from specific exchange directions, as well as requests from specific merchants for each user with access to the admin panel.
 
-    ![With this setting, the operator will only see requests that used the Advcash merchant](../../.gitbook/assets/image%20\(276\)_eng.png)
-
-    ![With this setting, the operator will only see requests from specified exchange directions](../../.gitbook/assets/image%20\(277\)_eng.png)
-
-    ![With this setting, the operator will see requests from specified exchange directions, as well as requests from all exchange directions that used the Advcash merchant](../../.gitbook/assets/image%20\(278\)_eng.png)
-
     You can also use a reverse filter:
 
-    ![With this setting, the operator will see requests from all exchange directions except the specified ones](../../.gitbook/assets/image%20\(279\)_eng.png)
-
     **Warning:** Do not use positive and negative values in filters simultaneously — filtering operates on an OR basis, so negative filters will not be considered if specified alongside positive ones.
-
-    ![With this setting, the operator will see all requests from exchange direction 1340 (even if the Bova merchant was used), as well as requests from all exchange directions where the Bova merchant was not used.](../../.gitbook/assets/image%20\(281\)_eng.png)
-
-    ![With this setting, the operator will see requests from all exchange directions (even if the Bova merchant was not used), as well as requests from all exchange directions where the Bova merchant was used (even if it is direction 1340).](../../.gitbook/assets/image%20\(282\)_eng.png)
 *   **Transfer of User Coefficients for Parsers 2.0 to a Separate Section**
 
     ![Section in the sidebar](<../../.gitbook/assets/image (1971)_eng.png>)
@@ -94,11 +74,7 @@
     ![Recalculation log](<../../.gitbook/assets/image (1977)_eng.png>)
 *   **"Blacklist" Module — Added the Ability to Check the Real Account from Which the Payment Came**
 
-    ![Checking the real account](../../.gitbook/assets/image%20\(265\)_eng.png)
-
     Added the ability to customize blacklist elements individually.
-
-    ![Individual settings for blacklist elements](../../.gitbook/assets/image%20\(266\)_eng.png)
 
     * **Method:**
       * **From General Settings** — the method selected in the general settings of the module will be applied.
@@ -106,19 +82,11 @@
       * **Stop Auto-Payment** — if this element is in the blacklist, the request will be created (and checked at the auto-payment stage), even if "Show Error" is selected in the general settings.
 *   **"AML" Module - All AML Modules and Logs Now Located in One Section**
 
-    ![AML module section](../../.gitbook/assets/image%20\(268\)_eng.png)
-
     Added the ability to quickly replace the module in the exchange direction settings.
-
-    ![Quick module replacement](../../.gitbook/assets/image%20\(269\)_eng.png)
 
     New statuses for requests added when there is a long response from the AML service.
 
-    ![New request statuses](../../.gitbook/assets/image%20\(270\)_eng.png)
-
     If no response is received from the service within the time specified in the module settings,
-
-    ![Response time settings](../../.gitbook/assets/image%20\(271\)_eng.png)
 
 The application will change its status to "**Pending**" and revert to the previous status (if the client's details are successfully verified) or to "**AML Check Failed**" (if the risk threshold is exceeded) after receiving a response from the AML service. To enable this feature, you need to set up a [cron job](https://premium.gitbook.io/main/en/basic-settings/faq/kak-sozdat-zadanie-cron-na-servere) on the server (the link for the job can be found in the "AML" section).
 

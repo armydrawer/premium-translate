@@ -40,8 +40,6 @@ Below are some potential errors that may occur when working with scripts, along 
 
 If you encounter an infinite redirect loop, adjust the server control panel settings (e.g., ISP Manager or similar). Enable the option "**Redirect HTTP requests to HTTPS**" (example for ISP Manager).
 
-![Example Image](../../.gitbook/assets/image%20\(313\)_eng.png)
-
 ***
 
 ### **Slow or Failed Request Creation**
@@ -120,8 +118,6 @@ If the site doesn’t load on some devices or networks:
    * Go to "**DNS**" -> "**Records**."
    * Edit the A-record and disable proxying in the "**Proxy status**" column.
 2. **Note:** Disabling proxying exposes your server’s real IP address and removes DDoS protection. Only disable proxying as a last resort.
-
-![Example Image](../../.gitbook/assets/image%20\(43\)_eng.png)
 
 ***
 
@@ -708,12 +704,8 @@ If you encounter errors after increasing the file size limit, refer to the [offi
 
 ## **Setting the "Under Review" Status**
 
-1.  In the settings for all merchant modules, locate the **Request Status Handling** section. Select **Under Review** for all options and save the changes.
-
-    ![Merchant Status Settings](../../.gitbook/assets/%D0%94%D0%BE%D0%B1%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D0%BC%D0%B5%D1%80%D1%87%D0%B0%D0%BD%D1%82%20%E2%80%B9%20%D0%9E%D0%B1%D0%BC%D0%B5%D0%BD%D0%BD%D0%B8%D0%BA%20%E2%80%94%20WordPress%20-%20Google%20Chrome_240501160623_eng.png)
-2.  In the settings for all auto-payout modules, disable payouts for requests with the **Under Review** status by selecting **No** for the relevant option.
-
-    ![Auto-Payout Settings](../../.gitbook/assets/%D0%94%D0%BE%D0%B1%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D0%B0%D0%B2%D1%82%D0%BE%D0%B2%D1%8B%D0%BF%D0%BB%D0%B0%D1%82%D1%83%20%E2%80%B9%20%D0%9E%D0%B1%D0%BC%D0%B5%D0%BD%D0%BD%D0%B8%D0%BA%20%E2%80%94%20WordPress%20-%20Google%20Chrome_240501160808_eng.png)
+1. In the settings for all merchant modules, locate the **Request Status Handling** section. Select **Under Review** for all options and save the changes.
+2. In the settings for all auto-payout modules, disable payouts for requests with the **Under Review** status by selecting **No** for the relevant option.
 
 ***
 

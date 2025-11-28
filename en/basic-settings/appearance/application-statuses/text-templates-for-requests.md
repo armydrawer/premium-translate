@@ -12,8 +12,6 @@ In this section, select the desired item and proceed to edit it. Please note tha
 
 Let's take a look at the template settings for the status "**New Request**":
 
-<figure><img src="../../../.gitbook/assets/image%20(40)_eng.png" alt=""><figcaption></figcaption></figure>
-
 **Website Title** - This is the header for the status that will be displayed on the page (for multilingual exchanges, you need to set up different language versions of the text by clicking on the flag above the field and filling in the opened field).
 
 **Brief Status Description** - This describes the current state of the request (for multilingual exchanges, you need to set up different language versions of the text by clicking on the flag above the field and filling in the opened field).
@@ -21,9 +19,8 @@ Let's take a look at the template settings for the status "**New Request**":
 **Page Refresh:**\
 • **No** - The user will need to manually refresh the request page.\
 • **Auto-refresh** - The page will automatically refresh at a specified interval (the user can disable auto-refresh by clicking the "**Turn Off Refresh**" button).\
-![](../../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20\(164\)_eng.png)\
-• **On Button Click** - A button will be displayed on the request page to enable "**Auto-refresh**" mode.\
-![](../../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20\(58\)_eng.png)
+\
+• **On Button Click** - A button will be displayed on the request page to enable "**Auto-refresh**" mode.<br>
 
 **Automatically refresh the page every (sec.)** - This is the interval at which the page will refresh.
 
@@ -34,18 +31,13 @@ Let's take a look at the template settings for the status "**New Request**":
 
 **Text** - This is the text that will be displayed on the request page for the corresponding status. Use shortcodes to include variables in the text.
 
-<figure><img src="../../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(95)_eng.png" alt=""><figcaption></figcaption></figure>
-
 ## Individual Templates
 
 For different directions, you can also use custom text. To do this, in the exchange direction settings, on the "**User Information**" tab, fill in the corresponding templates with text (for multilingual exchanges, you need to set up different language versions of the text by clicking on the flag above the field and filling in the opened field).
 
 {% hint style="info" %}
-If both general and individual templates are filled out for a single status, to ensure that the text from the exchange direction is displayed, set the option as shown in the screenshot in the "**Exchange Directions**" -> "**Currency Exchange Direction Templates**" section:\
-![](../../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20\(155\)_eng.png)
+If both general and individual templates are filled out for a single status, to ensure that the text from the exchange direction is displayed, set the option as shown in the screenshot in the "**Exchange Directions**" -> "**Currency Exchange Direction Templates**" section:<br>
 {% endhint %}
-
-<figure><img src="../../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(27)_eng.png" alt=""><figcaption></figcaption></figure>
 
 ## **Bulk User Information Editor**
 

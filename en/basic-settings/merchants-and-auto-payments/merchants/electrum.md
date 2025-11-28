@@ -9,11 +9,9 @@ Electrum allows for the cancellation and substitution of transactions, which can
 
 When using merchants to receive funds, it is necessary to [recalculate the payment amount](https://premium.gitbook.io/main/en/basic-settings/valyuty-i-napravleniya/sozdanie-novogo-napravleniya-obmena#pereschet-po-summe-oplaty) at least for the status "**Paid Request**" in the exchange direction settings.
 
-![](<../../../.gitbook/assets/image (329)_eng.png>)
-
 You must also configure the automatic transition of requests to the status "**Under Review**" if the actual payment amount is less than the original (this option is found in the merchant module settings for receiving funds under the "**Merchants**" section).
 
-<img src="../../../.gitbook/assets/image (328)_eng.png" alt="" data-size="original">
+
 {% endhint %}
 
 {% hint style="warning" %}

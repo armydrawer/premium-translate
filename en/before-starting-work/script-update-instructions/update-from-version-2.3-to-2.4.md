@@ -22,10 +22,10 @@ If something goes wrong during the update, you can always restore your site from
 The easiest way to [**back up your website**](https://premium.gitbook.io/main/en/basic-settings/faq/kak-sdelat-bekap-saita) is through your server's control panel (ISP Manager or other software) using the built-in file manager or via an FTP client (download the website files to your computer, and also download the database from the database management section or through PhpMyAdmin).
 {% endhint %}
 
-1. In the exchange panel, go to the "**Console**" section and enable technical mode to prevent users from making requests on the site during the script update.
+1.  In the exchange panel, go to the "**Console**" section and enable technical mode to prevent users from making requests on the site during the script update.
 
     <figure><img src="../../.gitbook/assets/image (1724)_eng.png" alt=""><figcaption></figcaption></figure>
-2. In the "**Plugins**" section, deactivate the "**Premium Exchanger**" and "**Premium Exchanger hooks**" plugins.
+2.  In the "**Plugins**" section, deactivate the "**Premium Exchanger**" and "**Premium Exchanger hooks**" plugins.
 
     <figure><img src="https://premium.gitbook.io/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FkanwK9s5DFo0cPzJd5Qn%252Fimage_eng.png%3Falt%3Dmedia%26token%3D20ad3b3d-d619-4685-9146-08966a0d94f0&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=3b6bd9f3590a5f0a5aaa0d90711dfee97002c88ddb0f638e89ec840df877542a" alt=""><figcaption></figcaption></figure>
 3. Using an FTP client or file manager, delete the contents of the **`/wp-content/plugins/premiumbox/`** folder on the server, **except** for the following files and folders inside it:
@@ -64,13 +64,9 @@ You need to know the exact PHP version installed on your server to select the ap
 [**Instructions for checking the PHP version installed on the server**](https://premium.gitbook.io/main/en/basic-settings/faq/kak-proverit-versiyu-php-ustanovlennuyu-na-servere)
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (431)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
-
 6. Upload the contents of the update archive to the root folder of your website using the <mark style="color:green;">**user created for the site**</mark> (not <mark style="color:red;">**root**</mark>!). Use an FTP client or file manager. Extract the archive, replacing the existing files.
 7. Go to the "**Plugins**" section and activate the "**Premium Exchanger**" and "**Premium Exchanger hooks**" plugins.
-8. Navigate to the "**Exchange Settings** → "Migration"** section and sequentially complete each step in the "**Migration (if version is less than 2.4)**" block.
-
-<figure><img src="../../.gitbook/assets/image (432)_eng.png" alt=""><figcaption></figcaption></figure>
+8. Navigate to the "**Exchange Settings** → "Migration"\*\* section and sequentially complete each step in the "**Migration (if version is less than 2.4)**" block.
 
 When you start each step, the system will determine the total number of requests that need to be processed. You can specify the number of requests to be handled in one cycle.
 
@@ -88,10 +84,8 @@ You will see "**Technical Step X**" buttons next to the "**Step X**" buttons. Be
 If you use the **technical step**, you will need to manually specify the number of requests. We recommend setting a large number, such as 100,000.
 {% endhint %}
 
-9. Go to the "**Settings** → "Permalinks"** section and click the "**Save Changes**" button without making any changes on the page.
-10. Navigate to the "**Exchange Settings** → "General Settings"** section and disable the update mode.
-
-<figure><img src="../../.gitbook/assets/image (430)_eng.png" alt=""><figcaption></figcaption></figure>
+9. Go to the "**Settings** → "Permalinks"\*\* section and click the "**Save Changes**" button without making any changes on the page.
+10. Navigate to the "**Exchange Settings** → "General Settings"\*\* section and disable the update mode.
 
 An alternative option is to select "**No**" for the "**Update Mode**" parameter in the same section and save the changes.
 
@@ -102,5 +96,5 @@ The update mode is activated each time the main plugin is deactivated and reacti
 {% endhint %}
 
 11. [Clear your browser cache](https://www.unisender.com/ru/blog/kak-ochistit-kehsh-v-brauzerah/).
-12. <mark style="color:red;">**Make sure to delete all previously uploaded zip archives of the script and website backups from the root folder on the server, as well as the file damp_db.sql.**</mark>
+12. <mark style="color:red;">**Make sure to delete all previously uploaded zip archives of the script and website backups from the root folder on the server, as well as the file damp\_db.sql.**</mark>
 13. Disable maintenance mode.

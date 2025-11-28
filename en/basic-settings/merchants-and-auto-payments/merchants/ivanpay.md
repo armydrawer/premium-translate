@@ -14,11 +14,7 @@ To discuss terms and connection, please contact a [service representative](https
 
 Register on the [IvanPay](https://ivanpay.com/) service.
 
-<figure><img src="../../../.gitbook/assets/image%20(214)_eng.png" alt=""><figcaption></figcaption></figure>
-
 In your merchant account, copy the information from the "**Your API Address**" field, as well as the API key provided to you by the service representative.
-
-<figure><img src="../../../.gitbook/assets/image%20(215)_eng.png" alt=""><figcaption></figcaption></figure>
 
 ## Module Settings
 
@@ -29,8 +25,6 @@ Select Ivanpay from the dropdown menu in the "**Module**" field, enter a name fo
 <figure><img src="../../../.gitbook/assets/Arc_mcpyS7Mdvy (1).png" alt="" width="417"><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
-
-<figure><img src="../../../.gitbook/assets/image%20(292)_eng.png" alt="" width="421"><figcaption></figcaption></figure>
 
 **Domain** — the merchant's domain, previously copied from the merchant account in the "**Your API Address**" field.
 
@@ -51,7 +45,7 @@ When receiving funds using the Ivanpay merchant, it is **necessary** to add an a
 
 To do this, create and add an [additional field](https://premium.gitbook.io/main/en/basic-settings/valyuty-i-napravleniya/dobavlenie-novoi-valyuty#vkladka-dop.-polya) to the relevant currencies for receiving funds through Ivanpay. Be sure to specify in the "**Unique ID**" field — **`give_cardholder`** (use lowercase) and make the field mandatory.
 
-<img src="../../../.gitbook/assets/image%20(322)_eng.png" alt="" data-size="original">
+
 
 After this, the field will appear in the exchange form and will be required for clients to fill out when creating a request.
 

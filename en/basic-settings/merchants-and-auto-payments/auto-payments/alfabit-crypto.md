@@ -18,27 +18,19 @@ To discuss terms and setup, please contact a [service representative](https://t.
 
 Register and verify your account with [Alfabit](https://pay.alfabit.org/). Go to the "**Merchants**" section and click the "**Create Merchant**" button.
 
-<figure><img src="../../../.gitbook/assets/image (358)_eng.png" alt=""><figcaption></figcaption></figure>
-
 Fill in the required fields and click the "**Create Project**" button.
 
-<div><figure><img src="../../../.gitbook/assets/image (359)_eng.png" alt="" width="375"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (1795)_eng.png" alt="" width="357"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (1796)_eng.png" alt="" width="356"><figcaption></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/image (1795)_eng.png" alt="" width="357"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (1796)_eng.png" alt="" width="356"><figcaption></figcaption></figure></div>
 
 Go to the merchant settings, select the "**API Keys**" tab, and click the "**Add**" button.
 
-<figure><img src="../../../.gitbook/assets/image (360)_eng.png" alt=""><figcaption></figcaption></figure>
-
 Fill in the required fields and click the "**Save**" button.
-
-<figure><img src="../../../.gitbook/assets/image (361)_eng.png" alt="" width="363"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Select one or both options for "**Receiving Funds/Withdrawing Funds**" depending on your intended use of the merchant.
 
 Add your server's IP address to the "**Trusted IPs**" section (recommended).
 {% endhint %}
-
-<figure><img src="../../../.gitbook/assets/image (362)_eng.png" alt="" width="352"><figcaption></figcaption></figure>
 
 Save the generated key in a text file and click the "**Done**" button.
 

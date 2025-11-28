@@ -24,8 +24,6 @@ Choose PayCrown from the dropdown menu in the "**Module**" field, enter a name f
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1)_eng.png" alt="" width="439"><figcaption></figcaption></figure>
-
 **Domain** — leave this field empty.
 
 **Merchant ID** — the ID provided to you by the PayCrown representative.

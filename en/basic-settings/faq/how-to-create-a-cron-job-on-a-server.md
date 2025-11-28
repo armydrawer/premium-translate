@@ -13,8 +13,6 @@ If you are using the ISP Manager server control panel, follow these steps:
 All cron jobs must be created under the user account associated with the website **(not under the root user account)**.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(124)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
-
 3. On the new page, fill in the details for the cron job:
 
 <figure><img src="../../.gitbook/assets/image (1310)_eng (1).png" alt="" width="473"><figcaption></figcaption></figure>

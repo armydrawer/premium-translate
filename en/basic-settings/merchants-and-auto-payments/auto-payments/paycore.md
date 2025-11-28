@@ -24,11 +24,11 @@ In the admin panel, create a new merchant in the "**Merchants**" section ➔ "**
 
 Select Paycore from the dropdown menu in the "**Module**" field, enter a name for the module, and click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (209).png" alt=""><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../.gitbook/assets/image (2272).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (212).png" alt=""><figcaption></figcaption></figure>
 
 **Domain** — leave this field empty.
 
@@ -36,9 +36,9 @@ Fill in the required authorization fields.
 
 ## Special Fields
 
-In the automatic payout module instructions, be sure to add the shortcode "**Payment Link**" — this is necessary for displaying the link in the request, which the client will use to choose their method of receiving funds and the bank on the service's payment page.
+In the automatic payout module instructions, be sure to add the shortcode "**Link for payment** " — this is necessary for displaying the link in the request, which the client will use to choose their method of receiving funds and the bank on the service's payment page.
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (281).png" alt=""><figcaption></figcaption></figure>
 
 Next, insert the following block of text into the field:
 
@@ -66,11 +66,11 @@ Then adjust the text using the first shortcode so that the final format looks li
 [/if_url_xxxxxxxxxxxxxxxxxxxxxxxxxxxxx]
 ```
 
-<figure><img src="../../../.gitbook/assets/image (2271).png" alt=""><figcaption><p>Display of the above template on the request page</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (250).png" alt=""><figcaption></figcaption></figure>
 
-Also, make sure to check the status "**Awaiting confirmation from the automatic payout module**" in the "**Exchange Settings**" ➔ "**Status Settings**" section — this is necessary for the proper functioning of the automatic payout module (if this section does not appear in the sidebar, activate the "**Professional Status Settings**" module in the "**Modules**" section, and then perform the specified configuration).
+Also, make sure to check the status "**Waiting for automatic payment module confirmation**" in the "**Exchange office settings**" ➔ "**Status Settings**" section — this is necessary for the proper functioning of the automatic payout module (if this section does not appear in the sidebar, activate the "**Professional Status Settings**" module in the "**Modules**" section, and then perform the specified configuration).
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (284).png" alt="" width="528"><figcaption></figcaption></figure>
 
 ## Continuing the Setup
 

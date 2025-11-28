@@ -18,13 +18,7 @@
 
 1. Log in to the ISP Manager control panel using the <mark style="color:red;">**root user**</mark> credentials.
 2. Navigate to the "**Administration** -> **Shell Client**" section.
-
-<figure><img src="../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(126)_eng.png" alt="" width="330"><figcaption></figcaption></figure>
-
 3. Right-click on the blank screen and select "**Paste from browser**" from the context menu.
-
-<figure><img src="../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(178)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
-
 4. Enter the command below in the opened window, click "**OK**," and then press **Enter** to execute the command:
 
 ```
@@ -40,16 +34,8 @@ sudo apt-get install libsecp256k1-0 python3-cryptography -y
 ## Verifying Shell Client Access for the Website User
 
 6. Go to the "**Users**" section.
-
-<figure><img src="../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(136)_eng.png" alt="" width="325"><figcaption></figcaption></figure>
-
 7. Click on the username under which the website operates.
-
-<figure><img src="../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(183)_eng.png" alt=""><figcaption></figcaption></figure>
-
 8. In the "**Access**" block, check if the **"Shell Access"** checkbox is selected. If not, select it and save the user settings.
-
-<figure><img src="../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(104)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 ***
 
@@ -105,17 +91,8 @@ Enter the seed phrase for verification\
 ## Uploading Files to the Server
 
 14. Go to the "**Sites**" section in ISP Manager.
-
-<figure><img src="../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(190)_eng.png" alt="" width="300"><figcaption></figcaption></figure>
-
 15. Select your site and click the **"Login as Owner"** button. You will be logged in as the <mark style="color:green;">user created for the site</mark>.
-
-<figure><img src="../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(71)_eng.png" alt=""><figcaption></figcaption></figure>
-
 16. Open the "**File Manager**" section in the sidebar.
-
-<figure><img src="../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(115)_eng.png" alt="" width="330"><figcaption></figcaption></figure>
-
 17. Upload the files from the **`electrum_installer.zip`** archive (provided after [**module payment**](https://premiumexchanger.com/masspayments/)) and the two Electrum wallet files from the "**electrum\_data**" folder on your computer.
 
 Files to upload:
@@ -134,9 +111,6 @@ If the uploaded wallet files have names other than **default\_wallet\_in** and *
 ## Installing Electrum on the Server
 
 19. Go to the **"Shell Client"** section, logged in as the <mark style="color:green;">user created for the site</mark>.
-
-<figure><img src="../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(52)_eng.png" alt="" width="330"><figcaption></figcaption></figure>
-
 20. Right-click on the blank screen, select **"Paste from browser"**, enter the command **`bash install_electrum2.sh`**, and click OK. Then press **Enter** to run the command.
 
 <figure><img src="../../.gitbook/assets/image (636) (1).png" alt=""><figcaption></figcaption></figure>
@@ -164,8 +138,6 @@ If you are installing Electrum on a server different from the one hosting the Pr
 {% hint style="danger" %}
 Cron jobs must be added under the <mark style="color:green;">user created for the site</mark>, **not** under the <mark style="color:red;">**root user**</mark>!
 {% endhint %}
-
-<figure><img src="../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(75)_eng.png" alt="" width="315"><figcaption></figcaption></figure>
 
 24. Click the **"Create Task"** button, paste the command copied in step 22 into the **"Command"** field, and configure the form as shown in the screenshot below.
 

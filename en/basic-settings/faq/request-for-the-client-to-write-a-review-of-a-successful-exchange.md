@@ -47,8 +47,6 @@ In the **Exchange Directions -> Exchange Template** section, add a message to th
 <figure><img src="../../.gitbook/assets/MBAMessageCenter_230629172233 (1).png" alt=""><figcaption></figcaption></figure>
 
 This is how the template will appear on the exchange confirmation page:
-
-<figure><img src="../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(105)_eng.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="In the Email" %}

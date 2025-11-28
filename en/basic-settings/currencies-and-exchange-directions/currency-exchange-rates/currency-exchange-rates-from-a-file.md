@@ -3,7 +3,6 @@
 The script allows you to obtain exchange rate values from a text file. You can create a file that will store the exchange rates, which will then be displayed on the website as the exchange rate for a specific direction. Please follow these steps:
 
 1. In the website control panel, go to the "**Modules" → "Modules"** section and activate the "**Exchange Rate Parser from File**" module.
-
 2. Create a TXT file and specify the exchange rates in it. List each exchange rate on a new line. Upload the TXT file to the server. Here’s an example of how the file should look:
 
 | <p><code>USDRUB : 1 = 55.7</code></p><p><code>RUBUSD : 57.5 = 1</code></p><p><code>BTCUSD : 1 = 15777</code></p> |
@@ -18,8 +17,6 @@ The script allows you to obtain exchange rate values from a text file. You can c
 <figure><img src="../../../.gitbook/assets/image (1064)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 5. Set up a [cron job](https://premium.gitbook.io/main/en/basic-settings/faq/kak-sozdat-zadanie-cron-na-servere) that will retrieve the exchange rate from the file and update it on the website. The script can be run every minute. Here’s an example command for a cron job in Unix format for the ISP Manager control panel:
-
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 `/usr/bin/wget -t 1 -O - --no-check-certificate "https://premiumexchanger.com/cron-fcourse_request_cron.html"`
 

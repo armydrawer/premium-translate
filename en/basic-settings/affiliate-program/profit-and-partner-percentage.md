@@ -5,7 +5,7 @@ Make sure to specify the actual internal exchange rate to USD for currencies use
 
 To do this, go to the "**Currencies**" → "**Currency Codes**" section, manually set the exchange rate to USD for the selected currencies, or use the auto-correction feature (add the necessary rates following the [instructions](https://premium.gitbook.io/main/en/basic-settings/valyuty-i-napravleniya-obmena/kursy-valyut/parser-kursov-valyut-parsery-2.0)).
 
-<p align="center"><img src="../../.gitbook/assets/image (2206) (1).png" alt="" data-size="original"></p>
+<img src="../../.gitbook/assets/image (2206) (1).png" alt="" data-size="original">
 {% endhint %}
 
 {% hint style="success" %}
@@ -109,11 +109,7 @@ Starting from version 2.6, the script allows for using deductions from the amoun
 
 To do this, set up the partner program according to the instructions above, selecting the "basic" model in the "**Partner Program**" ➔ "**Settings**" section.
 
-<figure><img src="../../.gitbook/assets/image%20(97)_eng.png" alt=""><figcaption></figcaption></figure>
-
 After that, in the partner settings (in the "**Users**" section), for those partners whose rewards should be calculated using a different model, select an alternative option (if the "**Default**" option is selected, the model from the "**Partner Program**" ➔ "**Settings**" section will apply).
-
-<figure><img src="../../.gitbook/assets/image%20(98)_eng.png" alt=""><figcaption></figcaption></figure>
 
 ## Setting Up the Partner Program in the Exchange Direction
 

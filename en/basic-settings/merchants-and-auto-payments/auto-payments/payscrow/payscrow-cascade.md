@@ -30,11 +30,7 @@ In the admin panel, create a new merchant in the "**Automatic Payouts**" ➔ "**
 
 Select Payscrow Cascade from the dropdown list in the "**Module**" field, provide a name for the module, and click "**Save**."
 
-<figure><img src="../../../../.gitbook/assets/image%20(8)_eng.png" alt="" width="492"><figcaption></figcaption></figure>
-
 Fill in the required authorization fields.
-
-<figure><img src="../../../../.gitbook/assets/image%20(9)_eng.png" alt="" width="464"><figcaption></figcaption></figure>
 
 **API Key** — The API key copied from the merchant account.
 

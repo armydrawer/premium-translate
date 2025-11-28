@@ -6,8 +6,6 @@ By default, the website is localized in English and Russian. The primary languag
 
 In the site management panel, you will see the following tabs:
 
-<figure><img src="../../../.gitbook/assets/Screenshot_47_eng.png" alt=""><figcaption></figcaption></figure>
-
 By switching between the tabs, you can add text for the Russian and English versions of the site accordingly. This way, you can edit or add the main content.
 
 Some of the site's content is in English, as it is the primary language and is directly embedded in the site's code. The corresponding content in Russian is stored in special language files. To edit the content in the site's code, you need to:

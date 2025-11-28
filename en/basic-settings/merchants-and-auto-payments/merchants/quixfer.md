@@ -14,11 +14,7 @@ To discuss working conditions, please contact a [service representative](https:/
 
 [Register](https://quixfer.cc/#contacts) on the Quixfer service, log in to your personal account, and navigate to the "**Settings**" ➔ "**Security**" section.
 
-<figure><img src="../../../.gitbook/assets/image%20(4)%20(1)%20(1)%20(1)%20(1)_eng.png" alt="" width="375"><figcaption></figcaption></figure>
-
 Generate your API keys and save them in a text file.
-
-<figure><img src="../../../.gitbook/assets/image%20(5)%20(1)%20(1)%20(1)_eng.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ## Module Settings
 
@@ -47,8 +43,6 @@ Fill in the required authorization fields.
 ### Additional Fields
 
 To correctly receive the details for the currency being accepted through Quixfer, you must add **mandatory** additional fields to the exchange form. A hint regarding the required fields for each payment method will be displayed below the "**Payment Method**" field.
-
-<figure><img src="../../../.gitbook/assets/image%20(5)%20(1)%20(1)_eng.png" alt=""><figcaption></figcaption></figure>
 
 Create and add an [additional field](https://premium.gitbook.io/main/en/basic-settings/valyuty-i-napravleniya-obmena/dopolnitelnye-polya) for the relevant currencies to receive funds via Quixfer. Be sure to specify a value in the "**Unique ID**" field according to the table above (use lowercase letters) and make the field mandatory.
 

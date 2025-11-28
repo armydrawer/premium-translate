@@ -38,17 +38,8 @@ Installing an incompatible module will result in an error (the website will not 
 <figure><img src="../../../.gitbook/assets/image (657) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 4. Select **one or more required modules** and drag them into the ISP Manager window, placing them in the corresponding directory on the server.
-
-<figure><img src="../../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(179)_eng.png" alt=""><figcaption></figcaption></figure>
-
 5. At the bottom of the page, a window will appear showing the destination folder (the "**moduls**" folder).
-
-<figure><img src="../../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(80)_eng.png" alt=""><figcaption></figcaption></figure>
-
 6. If a file conflict window appears, overwrite the files by clicking "**Replace**."
-
-<figure><img src="../../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(66)_eng.png" alt=""><figcaption></figcaption></figure>
-
 7. Reactivate the updated modules in the "**Modules**" section.
 
 After completing these steps, the modules will be updated, and no further actions are required.
@@ -102,18 +93,9 @@ Upload the contents of the module archive to the server in the `/wp-content/plug
 <figure><img src="../../../.gitbook/assets/image (677) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 4. Select the required design folder (`newexchanger2.0` — the new standard design for 2024) and drag it into the ISP Manager window, placing it in the corresponding directory.
-
-<figure><img src="../../../.gitbook/assets/themes_240406131513_eng.png" alt=""><figcaption></figcaption></figure>
-
 5. If a file conflict window appears, overwrite the files by clicking "**Replace**."
-
-<figure><img src="../../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(66)_eng.png" alt=""><figcaption></figcaption></figure>
-
-7. Activate the uploaded design in the website control panel under "**Appearance -> Themes**."
-
-<figure><img src="../../../.gitbook/assets/%D0%A2%D0%B5%D0%BC%D1%8B%20%E2%80%B9%20%D0%9E%D0%B1%D0%BC%D0%B5%D0%BD%D0%BD%D0%B8%D0%BA%20%E2%80%94%20WordPress%20-%20Google%20Chrome_240406131708_eng.png" alt=""><figcaption></figcaption></figure>
-
-8. Additional appearance settings may be required if you activate a new design on the site. The main design settings can be found in the "**Appearance**" section.
+6. Activate the uploaded design in the website control panel under "**Appearance -> Themes**."
+7. Additional appearance settings may be required if you activate a new design on the site. The main design settings can be found in the "**Appearance**" section.
 
 ***
 
@@ -128,9 +110,4 @@ Upload the contents of the module archive to the server in the `/wp-content/plug
 <figure><img src="../../../.gitbook/assets/image (676) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 3. Select **one or more required directories** and drag them into the ISP Manager window, placing them in the corresponding directory.
-
-<figure><img src="../../../.gitbook/assets/premiumbox_240501155622_eng.png" alt=""><figcaption></figcaption></figure>
-
 4. If a file conflict window appears, overwrite the files by clicking "**Replace**."
-
-<figure><img src="../../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(66)_eng.png" alt=""><figcaption></figcaption></figure>

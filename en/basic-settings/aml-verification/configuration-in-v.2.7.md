@@ -134,8 +134,6 @@ Thus, TxID and transaction hash are two stages of transaction identification: be
 **Transaction Check** — check a transaction. Enter the wallet address of the <mark style="color:green;">**recipient**</mark>**,** select the desired currency, enter the TxID, and choose the type of transaction (deposit or withdrawal).
 
 **UID Check** — check the unique identifier from the response to the transaction check request.
-
-<figure><img src="../../.gitbook/assets/image%20(99)_eng.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="BitOk" %}

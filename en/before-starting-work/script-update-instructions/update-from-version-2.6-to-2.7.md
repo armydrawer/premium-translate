@@ -38,9 +38,7 @@ The simplest way to [**back up your site**](https://premium.gitbook.io/main/en/b
 1.  In the exchange panel, go to the "**Console**" section and enable technical mode to prevent users from making requests on the site during the script update.
 
     <figure><img src="../../.gitbook/assets/image (879) (1).png" alt=""><figcaption></figcaption></figure>
-2.  In the "**Plugins**" section, deactivate the "**Premium Exchanger**" and "**Premium Exchanger hooks**" plugins.\\
-
-    <figure><img src="../../.gitbook/assets/image%20(254)_eng.png" alt=""><figcaption></figcaption></figure>
+2. In the "**Plugins**" section, deactivate the "**Premium Exchanger**" and "**Premium Exchanger hooks**" plugins.\\
 3. Using an FTP client or file manager, delete the contents of the **`/wp-content/plugins/premiumbox/`** folder on the server, <mark style="color:green;">**except for**</mark> the following files and folders inside it:
 
 * **`/flags/`**
@@ -63,8 +61,6 @@ The simplest way to [**back up your site**](https://premium.gitbook.io/main/en/b
 
 Go to the "[**Your Licenses**](https://premiumexchanger.com/ulicense/)" section and download the archive with the license files `license.zip`. To do this, click on the "**Download for version 2.7**" link.\\
 
-<figure><img src="../../.gitbook/assets/image%20(255)_eng.png" alt="" width="430"><figcaption></figcaption></figure>
-
 Upload the downloaded archive to the [root folder of your site](https://premium.gitbook.io/main/en/basic-settings/faq/kak-naiti-kornevuyu-papku-saita-na-servere) using the <mark style="color:green;">**user created for the site**</mark> (not <mark style="color:red;">**root**</mark>!) and **make sure to extract the archive**.
 
 {% hint style="danger" %}
@@ -77,8 +73,6 @@ Upload the downloaded archive to the [root folder of your site](https://premium.
 You need to know the exact PHP version installed on your server to select the appropriate archive.\
 [**Instructions for checking the PHP version installed on the server**](https://premium.gitbook.io/main/en/basic-settings/faq/kak-proverit-versiyu-php-ustanovlennuyu-na-servere).
 {% endhint %}
-
-<figure><img src="../../.gitbook/assets/image%20(257)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 6. Upload the contents of the update archive to the root folder of your site using the <mark style="color:green;">**user created for the site**</mark> (not <mark style="color:red;">**root**</mark>!). Use an FTP client or file manager. Extract the archive, replacing the files.
 7. Go to the "**Plugins**" section and activate the "**Premium Exchanger**" and "**Premium Exchanger hooks**" plugins.
@@ -98,8 +92,6 @@ The same applies if you used coefficients (in the "**Parsers 2.0**" section ➔ 
 
 When you start each step, the system will determine the total number of requests that need to be executed. You can specify the number of requests to be processed in one cycle.
 
-<figure><img src="../../.gitbook/assets/image%20(500)_eng.png" alt="" width="345"><figcaption></figcaption></figure>
-
 {% hint style="warning" %}
 By default, the number of requests = 50. If you are unsure about your server's capacity, we recommend not changing the default value.
 
@@ -112,12 +104,8 @@ You will see "**Technical Step X**" buttons next to the "**Step X**" buttons. Be
 If you use the **technical step**, you need to manually specify the number of requests. We recommend setting a deliberately large number, such as 100,000.
 {% endhint %}
 
-9.  Go to the "**Settings** → "Permalinks"\*\* section and click the "**Save Changes**" button without making any changes on the page.\\
-
-    <figure><img src="../../.gitbook/assets/image%20(259)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
+9. Go to the "**Settings** → "Permalinks"\*\* section and click the "**Save Changes**" button without making any changes on the page.\\
 10. Go to the "**Requests**" section and disable the update mode.\\
-
-    <figure><img src="../../.gitbook/assets/image%20(260)_eng.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 The update mode is activated each time the main plugin is deactivated and reactivated, so it must always be manually disabled.
@@ -126,14 +114,8 @@ The update mode is activated each time the main plugin is deactivated and reacti
 11. If you are using the "**Parsers 2.0**" or "**Bestchange Parser**" modules — after disabling the update mode, you need to start the parsers in the corresponding sections by manually following the Cron link.\
     For the operation of Parsers 2.0:
 
-    <figure><img src="../../.gitbook/assets/image%20(394)_eng.png" alt=""><figcaption></figcaption></figure>
-
     For the operation of the BestChange parser:
-
-    <figure><img src="../../.gitbook/assets/image%20(392)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 12. [Clear your browser cache](https://www.unisender.com/ru/blog/kak-ochistit-kehsh-v-brauzerah/).\\
-
-    <figure><img src="../../.gitbook/assets/image%20(395)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 13. <mark style="color:red;">**Make sure to delete all uploaded zip archives of the script and site backups from the root folder on the server.**</mark>\\
 14. Disable maintenance mode in the "**Console**" section.
 15. <mark style="color:green;">**Update completed successfully!**</mark>

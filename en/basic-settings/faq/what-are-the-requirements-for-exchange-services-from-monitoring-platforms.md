@@ -88,11 +88,9 @@ Create a maintenance mode in the "**Maintenance Mode**" section and configure th
 
 You can only change the protocol by editing the code. Replace **https://t.me/** with **tg://resolve?domain=** in the file `wp-content/themes/your_theme_name/header.php`.
 
-**Before the change:**\
-![Before Change Screenshot](../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20\(84\)_eng.png)
+**Before the change:**<br>
 
-**After the change:**\
-![After Change Screenshot](../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20\(21\)_eng.png)
+**After the change:**<br>
 
 </details>
 
@@ -132,23 +130,16 @@ If the file is unavailable, add BestChange’s IP address in the Cloudflare cont
 
 **For the old Cloudflare dashboard:**
 
-1. Enable "**Bot Fight Mode**" in the "**Security** ➔ **Bots**" section.\
-   ![Bot Fight Mode Screenshot](../../.gitbook/assets/image%20\(61\)_eng.png)
-2. In "**Security** ➔ **WAF** ➔ **Tools**," create a rule with the IP address **`162.19.29.225`** and select the action "**Allow**." Save the rule.\
-   ![Old Dashboard Rule Screenshot](../../.gitbook/assets/image%20\(62\)_eng.png)
-3. The added rule will appear as follows:\
-   ![Old Dashboard Rule Display Screenshot](../../.gitbook/assets/image%20\(63\)_eng.png)
+1. Enable "**Bot Fight Mode**" in the "**Security** ➔ **Bots**" section.<br>
+2. In "**Security** ➔ **WAF** ➔ **Tools**," create a rule with the IP address **`162.19.29.225`** and select the action "**Allow**." Save the rule.<br>
+3. The added rule will appear as follows:<br>
 
 **For the new Cloudflare dashboard:**
 
-1. Go to "**Security** ➔ **Settings** ➔ **Bot Traffic**" and enable "**Bot Fight Mode**."\
-   ![New Dashboard Bot Fight Mode Screenshot](../../.gitbook/assets/image%20\(68\)_eng.png)
-2. Add a new rule (IP access rules) in "**Security** ➔ **Security Rules**."\
-   ![New Dashboard Rule Screenshot](../../.gitbook/assets/image%20\(65\)_eng.png)
-3. Specify the IP address **`162.19.29.225`** in the rule and select the action "**Allow**." Save the rule.\
-   ![New Dashboard Rule Save Screenshot](../../.gitbook/assets/image%20\(66\)_eng.png)
-4. The added rule will appear as follows:\
-   ![New Dashboard Rule Display Screenshot](../../.gitbook/assets/image%20\(67\)_eng.png)
+1. Go to "**Security** ➔ **Settings** ➔ **Bot Traffic**" and enable "**Bot Fight Mode**."<br>
+2. Add a new rule (IP access rules) in "**Security** ➔ **Security Rules**."<br>
+3. Specify the IP address **`162.19.29.225`** in the rule and select the action "**Allow**." Save the rule.<br>
+4. The added rule will appear as follows:<br>
 
 After these settings, access to the XML file will be restored.
 
@@ -213,10 +204,8 @@ To ensure proper functionality of BestChange with your export XML file, update t
 
 1. In the "**Partners**" section of the admin panel, activate the banner.\
    ![Activate Banner Screenshot](<../../.gitbook/assets/image (1126)_eng.png>)
-2. If the desired banner is not listed, click "**Add**" in the "**Partners**" section.\
-   ![Add Banner Screenshot](../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20\(188\)_eng.png)
-3. Enter the name, add the partner’s link, and upload their banner/image.\
-   ![Upload Banner Screenshot](../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20\(82\)_eng.png)
+2. If the desired banner is not listed, click "**Add**" in the "**Partners**" section.<br>
+3. Enter the name, add the partner’s link, and upload their banner/image.<br>
 
 For example, a monitoring platform may request you to add their banner:\
 \&#xNAN;_"We would appreciate it if you could place our banner: `<img src="https://e-mon.ru/b88x31_eng.png" alt="Best exchange rates" title="Best exchange rates" border="0">`"_

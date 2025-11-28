@@ -15,8 +15,6 @@ To conduct exchanges involving the user's internal account, please follow these 
 
 {% hint style="info" %}
 The currencies displayed in the block and available for use as internal accounts can be selected in the "**Currencies**" -> "**Currency Codes**" section, under the "**Internal Account**" option.
-
-![](<../../../.gitbook/assets/image (502)_eng.png>)
 {% endhint %}
 
 5. Create the necessary exchange directions involving the new currency by following the [instructions](https://premium.gitbook.io/main/en/basic-settings/valyuty-i-napravleniya/sozdanie-novogo-napravleniya-obmena).

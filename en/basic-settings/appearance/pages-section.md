@@ -10,8 +10,6 @@ Here’s a list of all the default pages:
 
 Please note that the content of the basic pages on the site cannot be edited through the admin panel. The text for these pages is loaded from the source code using the specified shortcode in the "**Text**" field. For these pages, you can only add additional text through this same field or edit the text directly in the code:
 
-<figure><img src="../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5_eng.png" alt=""><figcaption></figcaption></figure>
-
 <details>
 
 <summary>List of all basic pages and their shortcodes</summary>
@@ -155,5 +153,3 @@ Technical page not used
 </details>
 
 You can also change the URLs of all pages, **except for the main page**:
-
-<figure><img src="../../.gitbook/assets/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20(147)_eng.png" alt=""><figcaption></figcaption></figure>

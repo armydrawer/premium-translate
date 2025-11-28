@@ -22,15 +22,11 @@ To discuss the terms of service, please contact a [service representative](https
 
 Generate a private API key by clicking the "**Generate API Key**" button. Copy both keys to your clipboard or a text file.
 
-<figure><img src="../../../.gitbook/assets/image%20(3)%20(1)%20(1)%20(1)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
-
 ## Module Settings
 
 In the admin panel, create a new merchant in the "**Merchants**" ➔ "**Add Auto Payout**" section.
 
 Select Crypto-Cash Crypto from the dropdown menu in the "**Module**" field, enter a name for the module, and click "**Save**."
-
-<figure><img src="../../../.gitbook/assets/image%20(3)%20(1)%20(1)%20(1)%20(1)%20(1)_eng.png" alt="" width="490"><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 

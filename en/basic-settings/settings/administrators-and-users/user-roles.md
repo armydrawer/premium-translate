@@ -9,8 +9,8 @@
 <figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1)_eng.png" alt="" width="339"><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
-- The **Administrator** role is a system role. It has full access to all platform functions, including role management, but **the role itself cannot be changed or deleted**.
-- All other roles (e.g., _Manager_) can be edited.
+* The **Administrator** role is a system role. It has full access to all platform functions, including role management, but **the role itself cannot be changed or deleted**.
+* All other roles (e.g., _Manager_) can be edited.
 {% endhint %}
 
 #### How to Edit Any Role:
@@ -23,8 +23,6 @@
    * **Description/Benefits (optional)** – for internal reference.
 
 ## Complete List of Role Permissions
-
-<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Roles can have the following permissions (which can be activated or deactivated during editing):
 

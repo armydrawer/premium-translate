@@ -10,11 +10,7 @@ Log in to the [CoinKyt](https://explorer.coinkyt.com/authorization) service.
 
 Go to your personal account and generate a new key by clicking the "**Generate**" button in the "**API**" section. Copy the generated key to your clipboard or a text file.
 
-<figure><img src="../../../.gitbook/assets/image (330)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
-
 In the script's admin panel, under the "**Modules**" -> "**CoinKyt**" section, fill in the fields for module authorization:
-
-<figure><img src="../../../.gitbook/assets/image (331)_eng.png" alt="" width="523"><figcaption></figcaption></figure>
 
 **API Key** — The **API key** generated in your CoinKyt personal account.
 
@@ -37,23 +33,17 @@ In the "**Modules**" -> "**CoinKyt**" section, you will find fields to set the r
 
 ### Settings for Address Verification
 
-<figure><img src="../../../.gitbook/assets/image (332)_eng.png" alt="" width="305"><figcaption></figcaption></figure>
-
 **Critical risk level for address** — <mark style="color:red;">**mandatory**</mark> specify a value (from 0 to 100), exceeding which the module will report a risk for the application in the "**Applications**" section (before configuring this section, we recommend consulting with the CoinKyt manager regarding risk level settings).
 
 **Other parameters** — setting risk levels for various categories (before configuring this section, we recommend consulting with the CoinKyt manager regarding risk level settings).
 
 ### Settings for Incoming Transaction Hash Verification
 
-<figure><img src="../../../.gitbook/assets/image (333)_eng.png" alt="" width="310"><figcaption></figcaption></figure>
-
 **Critical risk level for hash** — <mark style="color:red;">**mandatory**</mark> specify a value (from 0 to 100), exceeding which the module will report a risk for the application in the "**Applications**" section (before configuring this section, we recommend consulting with the CoinKyt manager regarding risk level settings).
 
 **Other parameters** — setting risk levels for various categories (before configuring this section, we recommend consulting with the CoinKyt manager regarding risk level settings).
 
 ### Manual Checks
-
-<figure><img src="../../../.gitbook/assets/image (334)_eng.png" alt="" width="424"><figcaption></figcaption></figure>
 
 In this section, you can manually check addresses and hashes.
 
@@ -65,30 +55,17 @@ In this section, you can manually check addresses and hashes.
 
 The results of the checks will be displayed at the top of the module settings page, as well as in the "**Modules**" -> "**CoinKyt logs**" section.
 
-<figure><img src="../../../.gitbook/assets/image (336)_eng.png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../../../.gitbook/assets/image (335)_eng.png" alt="" width="445"><figcaption></figcaption></figure>
-
 ## Module Configuration for Exchange Direction
 
 You can use the module for checking addresses and hashes without interfering with the application, as well as for prohibiting the creation of applications or payouts based on them.
 
 Open the settings for the exchange direction where you want to use the checks and go to the "**CoinKyt**" tab.
 
-<figure><img src="../../../.gitbook/assets/image (400)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
-
 Checking accounts "**Giving**" and "**Receiving**":
-
-<div><figure><img src="../../../.gitbook/assets/image (401)_eng.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (403)_eng.png" alt=""><figcaption></figcaption></figure></div>
 
 * **No** — no checks will be performed.
 * **Yes, during application creation** — checks will be performed to prohibit application creation if the specified risk level is exceeded.
-
-    <figure><img src="../../../.gitbook/assets/image (brave_nG8qmZEGwR_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 * **Yes, at payment** — the account check will be performed when receiving a payment made by the client (only if the merchant module for receiving funds is connected in the exchange direction).
-
-<figure><img src="../../../.gitbook/assets/image (343)_eng.png" alt=""><figcaption></figcaption></figure>
-
 * **Yes, during automatic payout** — the account check will be performed before paying out funds to the client (only if the automatic payout module is connected in the exchange direction).
 * **Risk Exceeded:**\
   • **Nothing** — checks will be performed for informational purposes only.\
@@ -100,8 +77,6 @@ The value is specified in the currency for which the address will be checked (fo
 {% endhint %}
 
 TxID Check:
-
-<figure><img src="../../../.gitbook/assets/image (404)_eng.png" alt="" width="194"><figcaption></figcaption></figure>
 
 * **No** — the TxID check for incoming payments will not be performed.
 * **Yes, at payment** — the TxID check for incoming payments will be performed when receiving a payment made by the client (only if the merchant module for receiving funds is connected in the exchange direction).

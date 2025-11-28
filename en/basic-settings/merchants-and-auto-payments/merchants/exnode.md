@@ -48,11 +48,7 @@ Next, configure the merchant by following the [general setup instructions](https
 
 ## Special Fields
 
-<figure><img src="../../../.gitbook/assets/image%20(504)_eng.png" alt=""><figcaption></figcaption></figure>
-
 **Currency Code** — select the currency you will be accepting from the dropdown list.
-
-<figure><img src="../../../.gitbook/assets/image%20(505)_eng.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 For each currency, you need to create a [separate copy of the merchant module](#user-content-fn-2)[^2], selecting the corresponding currency, and then connect this copy in the "**Merchants and Payments**" tab in the exchange direction settings, where the currency in "**I Give**" will be the selected currency. ![](<../../../.gitbook/assets/image (1377)_eng.png>)

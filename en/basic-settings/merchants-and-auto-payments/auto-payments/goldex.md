@@ -12,11 +12,7 @@ If you need to update the module on the server, please refer to the [instruction
 
 After gaining access to your personal account, log in and navigate to the "**Preferences**" section.
 
-<figure><img src="../../../.gitbook/assets/image%20(242)_eng.png" alt="" width="411"><figcaption></figcaption></figure>
-
 Copy the token displayed on the page to your clipboard.
-
-<figure><img src="../../../.gitbook/assets/image%20(241)_eng.png" alt=""><figcaption></figcaption></figure>
 
 ## Module Settings
 
@@ -24,11 +20,7 @@ In the admin panel, create a new merchant in the "**Auto Payouts**" -> "**Add Au
 
 Select GoldEx from the dropdown menu in the "**Module**" field, provide a name for the module, and click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/image%20(235)_eng.png" alt="" width="433"><figcaption></figcaption></figure>
-
 Fill in the required authorization fields.
-
-<figure><img src="../../../.gitbook/assets/image%20(236)_eng.png" alt="" width="466"><figcaption></figcaption></figure>
 
 **Token** — the token you previously copied from the merchant's personal account (in the "**Preferences**" section).
 
@@ -62,10 +54,6 @@ Enter the name from the list above in the "**Unique ID**" field (the other field
 
 <img src="../../../.gitbook/assets/image (2004)_eng.png" alt="" data-size="original">
 {% endhint %}
-
-<figure><img src="../../../.gitbook/assets/image%20(244)_eng.png" alt="" width="563"><figcaption><p>Settings for additional fields (the unique ID from the corresponding field in each additional field's settings is indicated in parentheses)</p></figcaption></figure>
-
-<figure><img src="../../../.gitbook/assets/image%20(246)_eng.png" alt="" width="533"><figcaption><p>Exchange Form</p></figcaption></figure>
 
 ## Continuing the Setup
 
