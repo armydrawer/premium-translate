@@ -16,7 +16,8 @@
 **Дисклеймер**: при подключении вашего сайта к тому или иному сервису, пожалуйста, самостоятельно оценивайте возможные риски сотрудничества.
 {% endhint %}
 
-Зарегистрируйтесь на сервисе [Paycore](https://paycore.pw/) с помощью [представителя сервиса](https://t.me/Paycore_pw).
+После получения реквизитов для входа от [представителя сервиса](https://t.me/Paycore_pw), авторизуйтесь в&#x20;[ЛК PayCore](https://paycore.pw/admin) и пройдите верификацию.\
+После прохождения верификации запросите у представителя сервиса API-ключ&#x20;для подключения.
 
 ## Настройки модуля
 
@@ -28,7 +29,7 @@
 
 Заполните указанные авторизационные поля.
 
-<figure><img src="../../../.gitbook/assets/image (2245).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2272).png" alt=""><figcaption></figcaption></figure>
 
 **Домен** — оставьте поле пустым
 
@@ -40,7 +41,35 @@
 
 <figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+После этого вставьте следующий блок текста в поле:
+
+```html
+<h2>Текст</h2>
+<br>
+<div style="text-align: center;">
+<a href="{tx_url}" target="_blank" class="btn-new">Перейти к
+подтверждению</a>
+</div>
+[else]
+<h2>Текст</h2>
+```
+
+и скорректируйте текст, используя первый шорткод, чтобы в итоге получился формат:
+
+```html
+[if_url_xxxxxxxxxxxxxxxxxxxxxxxxxxxxx]
+<h2>Ваш текст</h2>
+<br>
+<div style="text-align: center;">
+<a href="{tx_url}" target="_blank" class="btn-new">Перейти к
+подтверждению</a>
+</div>
+[else]
+<h2>Текст</h2>
+[/if_url_xxxxxxxxxxxxxxxxxxxxxxxxxxxxx]
+```
+
+<figure><img src="../../../.gitbook/assets/image (2271).png" alt=""><figcaption><p>Отображение вышеуказанного шаблона на странице заявки</p></figcaption></figure>
 
 Также обязательно отметьте статус "**Ожидание подтверждения от модуля автовыплат**" в разделе "**Настройки обменника**" ➔ "**Настройки статуса**" — это необходимо для корректной работы модуля автовыплаты (если раздел не отображается в боковой панели — активируйте модуль "**Профессиональная настройка статусов**" в разделе "**Модули**", а затем проведите указанную настройку).
 
