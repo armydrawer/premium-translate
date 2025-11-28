@@ -30,7 +30,7 @@ In the admin panel, create a new merchant in the "**Auto Payouts**" section by c
 
 Select Ivanpay from the dropdown menu in the "**Module**" field, enter a name for the module, and click "**Save**."
 
-<figure><img src="../../../../ru/.gitbook/assets/Arc_OcgFEcjunz (1).png" alt="" width="426"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Arc_OcgFEcjunz (1).png" alt="" width="426"><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
@@ -42,9 +42,9 @@ Fill in the required authorization fields.
 
 ## Special Fields
 
-<figure><img src="../../../../ru/.gitbook/assets/выплата1 (1).png" alt="" width="398"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/выплата1 (1).png" alt="" width="398"><figcaption></figcaption></figure>
 
-<figure><img src="../../../../ru/.gitbook/assets/выплата2 (1).png" alt="" width="399"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/выплата2 (1).png" alt="" width="399"><figcaption></figcaption></figure>
 
 **Payment Method** — select the required method for fund payouts.
 

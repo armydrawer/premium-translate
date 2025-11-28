@@ -47,17 +47,17 @@ rm ~/PRIVATE_SSH_KEY.pub -f
 
 7. In the **"File Manager"** section, navigate to the **"root"** folder.
 
-<figure><img src="../../../../ru/.gitbook/assets/Clip2net_230629214730 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Clip2net_230629214730 (1).png" alt=""><figcaption></figcaption></figure>
 
 8. Download the two SSH keys to your computer:
    * `PRIVATE_SSH_KEY` — Use this for macOS/Linux.
    * `PRIVATE_SSH_KEY.ppk` — Use this for Windows.
 
-<figure><img src="../../../../ru/.gitbook/assets/Clip2net_230629214819 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Clip2net_230629214819 (1).png" alt=""><figcaption></figcaption></figure>
 
 9. Delete the generated keys from the server after downloading them.
 
-<figure><img src="../../../../ru/.gitbook/assets/Clip2net_230629214845 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Clip2net_230629214845 (1).png" alt=""><figcaption></figcaption></figure>
 
 10. Perform a test connection via SSH/SFTP using the new keys.
 

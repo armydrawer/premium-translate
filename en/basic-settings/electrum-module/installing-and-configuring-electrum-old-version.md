@@ -33,7 +33,7 @@ sudo apt-get install libsecp256k1-0 python3-cryptography -y
 
 5. Wait for the command to complete.
 
-<figure><img src="../../../ru/.gitbook/assets/изображение (38) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (38) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -83,7 +83,7 @@ sudo apt-get install libsecp256k1-0 python3-cryptography -y
 
 11. Open the installed Electrum application on your computer and go to the "**File**" -> "**Open**" menu.
 
-<figure><img src="../../../ru/.gitbook/assets/image (647) (1).png" alt="" width="403"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (647) (1).png" alt="" width="403"><figcaption></figcaption></figure>
 
 12. A folder containing your wallet will open. Locate the wallet file with the name you used during setup.
 

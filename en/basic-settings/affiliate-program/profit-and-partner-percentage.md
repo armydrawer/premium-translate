@@ -5,7 +5,7 @@ Make sure to specify the actual internal exchange rate to USD for currencies use
 
 To do this, go to the "**Currencies**" → "**Currency Codes**" section, manually set the exchange rate to USD for the selected currencies, or use the auto-correction feature (add the necessary rates following the [instructions](https://premium.gitbook.io/main/en/basic-settings/valyuty-i-napravleniya-obmena/kursy-valyut/parser-kursov-valyut-parsery-2.0)).
 
-<p align="center"><img src="../../../ru/.gitbook/assets/image (2206) (1).png" alt="" data-size="original"></p>
+<p align="center"><img src="../../.gitbook/assets/image (2206) (1).png" alt="" data-size="original"></p>
 {% endhint %}
 
 {% hint style="success" %}
@@ -20,17 +20,17 @@ When this module is activated, the "**Profit**" block will disappear from the "*
 
 Go to the "**Exchange Directions**" → "**Exchange Directions**" section, select the desired exchange direction from the list, and click on the "**Edit**" link.
 
-<figure><img src="../../../ru/.gitbook/assets/image (848) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (848) (1).png" alt=""><figcaption></figcaption></figure>
 
 Open the "**Rate**" tab and find the "**Profit**" parameter.
 
 {% hint style="warning" %}
 If the "**Profit**" block does not appear on the tab, disable the "**Automatic Profit Calculation**" module in the "**Modules**" section.
 
-<img src="../../../ru/.gitbook/assets/image (604) (1).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (604) (1).png" alt="" data-size="original">
 {% endhint %}
 
-<figure><img src="../../../ru/.gitbook/assets/image (931) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (931) (1).png" alt=""><figcaption></figcaption></figure>
 
 In the "**Profit**" section, for each of the "**From Amount Giving/Receiving**" parameters, you will find two fields for "**Giving**" and two fields for "**Receiving**." The first field is a fixed amount for the partner exchange - _"_**S**_"_, and the second is a percentage of the amount "**Giving**" or "**Receiving**" - _"_**%**_"_.
 
@@ -117,7 +117,7 @@ After that, in the partner settings (in the "**Users**" section), for those part
 
 ## Setting Up the Partner Program in the Exchange Direction
 
-<figure><img src="../../../ru/.gitbook/assets/image (929) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (929) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Partner Deductions** _—_ you can limit payouts under the partner program in the direction.
 
@@ -139,13 +139,13 @@ The next step is to specify how much the partner will earn from the profits of t
 
 Go to the "**Users**" section, find the desired user, and proceed to edit their profile.
 
-<figure><img src="../../../ru/.gitbook/assets/Screenshot_31 (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_31 (3) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../ru/.gitbook/assets/Screenshot_32 (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_32 (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 In the user settings, locate the "**Personal Partner Percentage**" option and enter the desired percentage in that field.
 
-<figure><img src="../../../ru/.gitbook/assets/Screenshot_33 (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_33 (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 When an exchange is made through the partner link, a percentage of the transaction amount in dollars is calculated, and 30% of that amount is given to the partner.
 
@@ -153,13 +153,13 @@ When an exchange is made through the partner link, a percentage of the transacti
 
 If you want to set a percentage for all users and establish a general value, you need to go to the "**Affiliate Program" -> "Payouts"** section.
 
-<figure><img src="../../../ru/.gitbook/assets/Screenshot_34 (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_34 (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Navigate to the table where some default partner percentage settings have already been created based on the total amount of exchanges.
 
 The table will indicate what percentage a user receives from the exchange amount. This amount is cumulative—the percentage will change depending on the total amount of exchanges made through a specific link.
 
-<figure><img src="../../../ru/.gitbook/assets/Screenshot_35 (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_35 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 This percentage is adjusted for all users who have registered and created a partner account.
 

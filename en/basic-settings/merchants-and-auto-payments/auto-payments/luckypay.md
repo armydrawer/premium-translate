@@ -24,7 +24,7 @@ Make sure to specify the URL from the automatic payout module settings (Callback
 
 <figure><img src="../../../.gitbook/assets/image (1986)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
-<figure><img src="../../../../ru/.gitbook/assets/image (18) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (18) (2).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Module Settings <a href="#nastroiki-modulya" id="nastroiki-modulya"></a>
 
@@ -36,7 +36,7 @@ Select Luckypay from the dropdown list in the "**Module**" field, provide a name
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../../ru/.gitbook/assets/Arc_5NJ6WqIhsR.png" alt="" width="435"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Arc_5NJ6WqIhsR.png" alt="" width="435"><figcaption></figcaption></figure>
 
 **API Key** — the key you previously copied from your Luckypay account.
 

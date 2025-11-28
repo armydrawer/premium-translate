@@ -13,6 +13,6 @@ You can also activate this option with personalized settings for each exchange d
 
 3. Go to the settings of the direction for which you want to display the timer. In the "**User Information**" tab, in the "**Application Status: New Application**" field, insert the code: An unpaid application will be deleted in **\[js\_timer]\[bid\_delete\_time]\[/js\_timer]**.
 
-<figure><img src="../../../ru/.gitbook/assets/Screenshot_46 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_46 (1).png" alt=""><figcaption></figcaption></figure>
 
 4. Save the changes in the settings.

@@ -8,4 +8,4 @@ If this section is not visible in the sidebar, please enable the module in the "
 <img src="../../../.gitbook/assets/image (1038)_eng (1).png" alt="" data-size="original">
 {% endhint %}
 
-<figure><img src="../../../../ru/.gitbook/assets/image (861) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (861) (1).png" alt=""><figcaption></figcaption></figure>

@@ -34,7 +34,7 @@ Users can access the API through their personal account, typically at the link `
 
 After selecting the methods and specifying the IP addresses, click the "**Add API Key**" button. The page will then display the generated pair of "**Login** — **Key**".
 
-<figure><img src="../../ru/.gitbook/assets/image (974) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (974) (1).png" alt=""><figcaption></figcaption></figure>
 
 You can generate multiple keys for a single user with different sets of methods.
 
@@ -55,7 +55,7 @@ On the "**API**" -> "**Add**" page, add a new API user.
 
 After saving the data, a pair of "**Login** — **Key**" will be generated.
 
-<figure><img src="../../ru/.gitbook/assets/image (917) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (917) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -75,7 +75,7 @@ For authorization, you need to send the following information in the headers of 
 All requests are sent using the **POST** method, and responses are returned in JSON format **(GET requests are not used)**. Parameters are passed in the body of the request (not in the header).
 
 Example of a request with parameter transmission from Postman and the response to the request:\
-![](<../../ru/.gitbook/assets/image (528) (1).png>)
+![](<../.gitbook/assets/image (528) (1).png>)
 {% endhint %}
 
 ### API Methods:

@@ -107,7 +107,7 @@ For the task to execute for the "On Site" option, a user must visit the site. Yo
 
 If your site has low traffic, we recommend always using the "On Server" option.
 
-<figure><img src="../../../ru/.gitbook/assets/image (616) (1).png" alt="" width="143"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (616) (1).png" alt="" width="143"><figcaption></figcaption></figure>
 
 **"On Server" Option**:
 

@@ -6,7 +6,7 @@ You can also add new languages:
 
 To do this, add the appropriate filter to the hooks plugin at the end of the file `wp-content/plugins/premiumhook/premiumhook.php`. In the "**Plugins**" section, activate the "**Premium Exchanger hooks**" plugin:
 
-<figure><img src="../../../../ru/.gitbook/assets/Screenshot_52 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot_52 (1).png" alt=""><figcaption></figcaption></figure>
 
 Data is added according to the [ISO 3166-1](https://en.wikipedia.org/wiki/ISO_3166-1) standard.
 
@@ -54,5 +54,5 @@ After completing all these steps, add a flag icon with the appropriate prefix—
 
 {% hint style="warning" %}
 After adding new languages, be sure to check that the **Premium Exchanger hooks** plugin is activated in the **"Plugins"** section, or activate it if it has been disabled.\
-![](<../../../../ru/.gitbook/assets/image (563) (1).png>)
+![](<../../../.gitbook/assets/image (563) (1).png>)
 {% endhint %}

@@ -34,7 +34,7 @@ Fill in the required authorization fields.
 
 ## Special Fields
 
-<figure><img src="../../../../ru/.gitbook/assets/image (2139) (1).png" alt="" width="483"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2139) (1).png" alt="" width="483"><figcaption></figcaption></figure>
 
 **Payment Method** — select the appropriate payment method.
 
@@ -42,7 +42,7 @@ Fill in the required authorization fields.
 For each payment method used, you must create a separate copy of the auto payout module, selecting the corresponding method, and then connect this copy in the "**Merchants and Payouts**" tab in the exchange direction settings.
 
 Also, please note that it is **mandatory** to create a separate copy of the GoldEx module for each range of amounts from the dropdown list above and set the corresponding amount range in each version of the module,\
-![](<../../../../ru/.gitbook/assets/image (2138) (1).png>)\
+![](<../../../.gitbook/assets/image (2138) (1).png>)\
 so that among several connected copies of the module with different amount ranges in the same direction, the correct copy is automatically selected based on the amount in the request.
 {% endhint %}
 

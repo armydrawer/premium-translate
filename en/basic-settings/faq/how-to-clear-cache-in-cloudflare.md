@@ -6,12 +6,12 @@ However, in some cases, changes made to the website’s appearance may not be im
 
 To force a cache reset, log in to your [Cloudflare dashboard](https://dash.cloudflare.com/), and in the side menu, navigate to the "**Caching -> Configuration**" section.
 
-<figure><img src="../../../ru/.gitbook/assets/image (548) (1).png" alt="" width="302"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (548) (1).png" alt="" width="302"><figcaption></figcaption></figure>
 
 Click the "**Purge Everything**" button and confirm the cache reset in the next window.
 
-<figure><img src="../../../ru/.gitbook/assets/image (549) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (549) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../ru/.gitbook/assets/image (550) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (550) (1).png" alt=""><figcaption></figcaption></figure>
 
 Once this is done, all changes made to the website will be reflected.

@@ -19,7 +19,7 @@ Choose either "**BimBo Link**" or "**BimBo Invoice**" from the dropdown menu in 
 
 {% tabs %}
 {% tab title="BimBo Invoice" %}
-<figure><img src="../../../../ru/.gitbook/assets/image (2111) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2111) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Invoice Number** — enter the payment details that will be provided in the application for receiving funds from the client (these details will always be issued in the application when using this merchant).
 {% endtab %}

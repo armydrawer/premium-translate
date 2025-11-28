@@ -14,4 +14,4 @@ Find the text field labeled "**Request Status**" with the value "**new request**
 
 Repeat the above procedure with the text field labeled "**Request Status: waiting for confirmation from the merchant**."
 
-<figure><img src="../../../ru/.gitbook/assets/Screenshot_42 (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_42 (1) (1).png" alt=""><figcaption></figcaption></figure>

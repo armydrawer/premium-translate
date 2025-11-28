@@ -2,7 +2,7 @@
 
 In the "**Trading Actions -> Orders**" section, all executed trading actions are recorded. If the action name is highlighted in <mark style="color:green;">green</mark>, it means the action was successfully completed. If it is highlighted in <mark style="color:red;">red</mark>, this indicates an error in the trading action (the action was not executed).
 
-<figure><img src="../../../ru/.gitbook/assets/image (612) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (612) (1).png" alt=""><figcaption></figcaption></figure>
 
 If a trading action is highlighted in <mark style="color:red;">red</mark>, you can click on the "**action link**" to retry the action. If the action is successfully completed, the color will change to <mark style="color:green;">green</mark>. Otherwise, the text will remain <mark style="color:red;">red</mark>. Clicking the link for an action that is already <mark style="color:green;">successfully completed</mark> will have no effect.
 
@@ -17,7 +17,7 @@ To troubleshoot trading actions with technical support, please prepare the follo
 * Screenshots of the full settings for the specific trading action (found in the "**Trading Actions**" section)
 * A screenshot of the expanded "**Info**" button for the order in the "**Orders**" section, where the action was performed
 
-<img src="../../../ru/.gitbook/assets/image (613) (1).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (613) (1).png" alt="" data-size="original">
 
 * Screenshots of the auto-payout module settings used for the exchange direction
 * Information on which type of amount is considered the payout amount (as specified in the auto-payout settings)

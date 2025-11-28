@@ -47,7 +47,7 @@ If multiple steps are activated within a trading action, they will be executed s
 
 If multiple trading actions are used simultaneously, all active steps in the highest-priority trading action will be executed first, followed by the second-priority action (with its own active steps).
 
-<img src="../../../../ru/.gitbook/assets/image (573) (1).png" alt="" data-size="original">
+<img src="../../../.gitbook/assets/image (573) (1).png" alt="" data-size="original">
 {% endhint %}
 
 * **Execution Order** — If multiple trading actions can be triggered in one exchange direction, **set their execution order**. If there’s only one trading action in the direction, this field can be left blank. Actions are executed in descending order of priority (e.g., if there are several actions, the one with priority 3 will execute first, followed by priority 2, and then priority 1).\

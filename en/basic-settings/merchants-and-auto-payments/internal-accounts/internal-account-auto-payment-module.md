@@ -2,7 +2,7 @@
 
 In the exchange point control panel, go to the "**Modules" → "Modules"** section and activate the "**Internal Account**" module.
 
-<figure><img src="../../../../ru/.gitbook/assets/image (117) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (117) (1).png" alt=""><figcaption></figcaption></figure>
 
 In the "**Merchants"** → "**Auto-Payments**" section, click the "**Add**" button. In the new window, select the "**Internal Account**" module from the dropdown list.
 
@@ -18,4 +18,4 @@ In the control panel, go to the "**Exchange Directions**" section and create a n
 Please note that a single copy of the auto-payment module "**Internal Account**" can be used for all internal currencies — since there are no specific settings for the currency in the module, it will work with all currencies that are allowed for internal use.
 {% endhint %}
 
-<figure><img src="../../../../ru/.gitbook/assets/image (101) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (101) (1).png" alt=""><figcaption></figcaption></figure>

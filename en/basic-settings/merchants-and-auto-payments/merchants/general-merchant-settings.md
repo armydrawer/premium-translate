@@ -8,7 +8,7 @@ Since each merchant has its own API for authorization, the fields in this sectio
 
 {% tabs %}
 {% tab title="Option 1" %}
-<figure><img src="../../../../ru/.gitbook/assets/image (125) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (125) (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Option 2" %}
@@ -16,19 +16,19 @@ Since each merchant has its own API for authorization, the fields in this sectio
 {% endtab %}
 
 {% tab title="Option 3" %}
-<figure><img src="../../../../ru/.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10) (2).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Option 4" %}
-<figure><img src="../../../../ru/.gitbook/assets/image (20) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (20) (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Option 5" %}
-<figure><img src="../../../../ru/.gitbook/assets/image (138) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (138) (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Option 6" %}
-<figure><img src="../../../../ru/.gitbook/assets/image (120) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (120) (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -43,12 +43,12 @@ If the merchant module settings display the field "**Payment Note**," you must f
 
 This is necessary to link the request to the transaction with the merchant — without this shortcode, the request status will not change.
 
-<img src="../../../../ru/.gitbook/assets/image (565) (1).png" alt="" data-size="original">
+<img src="../../../.gitbook/assets/image (565) (1).png" alt="" data-size="original">
 {% endhint %}
 
 The block below outlines the general settings for the merchant's operation.
 
-<figure><img src="../../../../ru/.gitbook/assets/image (2204) (1).png" alt="" width="531"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2204) (1).png" alt="" width="531"><figcaption></figcaption></figure>
 
 * **Payment Instructions for the User —** provide payment instructions for the user that will be displayed on the page with the "**Proceed to Payment**" button.
 
@@ -158,7 +158,7 @@ When configuring the merchant on the payment system side, specify the status add
 
 In this section, you can configure how the merchant handles specific rules for transitioning applications between statuses.
 
-<figure><img src="../../../../ru/.gitbook/assets/image (806) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (806) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 * **Account number from which the payment was made does not match the one specified in the application** — if the account numbers do not match, you can either change the application status or keep the current one:\
   • **keep the application status as "New Application"**\

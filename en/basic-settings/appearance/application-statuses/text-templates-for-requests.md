@@ -8,7 +8,7 @@ To create templates, go to the "**Exchange Directions**" section -> "**Currency 
 
 In this section, select the desired item and proceed to edit it. Please note that the set of fields available for editing varies for different items in the dropdown list.
 
-<figure><img src="../../../../ru/.gitbook/assets/image (152) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (152) (1).png" alt=""><figcaption></figcaption></figure>
 
 Let's take a look at the template settings for the status "**New Request**":
 

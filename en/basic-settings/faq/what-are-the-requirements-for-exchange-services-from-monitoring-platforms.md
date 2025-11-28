@@ -33,7 +33,7 @@ The user will receive two emails: one confirming the order creation and another 
 
 Create a maintenance mode in the "**Maintenance Mode**" section and configure the XML file display settings within the mode.
 
-![Maintenance Mode Screenshot](<../../../ru/.gitbook/assets/image (961) (1).png>)
+![Maintenance Mode Screenshot](<../../.gitbook/assets/image (961) (1).png>)
 
 </details>
 
@@ -55,11 +55,11 @@ Create a maintenance mode in the "**Maintenance Mode**" section and configure th
 * Refer to the [API Documentation](https://premium.gitbook.io/main/en/api-premium-exchanger/api-v1).
 
 1. Activate the "**API**" module in the "**Modules**" section.\
-   ![API Module Screenshot](<../../../ru/.gitbook/assets/image (602) (1).png>)
+   ![API Module Screenshot](<../../.gitbook/assets/image (602) (1).png>)
 2. Configure the options in the "**API - Settings**" section as shown below.\
-   ![API Settings Screenshot](<../../../ru/.gitbook/assets/image (603) (1).png>)
+   ![API Settings Screenshot](<../../.gitbook/assets/image (603) (1).png>)
 3. Enable the "**Work with REST API**" option in the user profile settings for the user who will generate the API keys.\
-   ![API Key Option Screenshot](<../../../ru/.gitbook/assets/image (601) (1).png>)
+   ![API Key Option Screenshot](<../../.gitbook/assets/image (601) (1).png>)
 4. The user can then [generate API keys](https://premium.gitbook.io/main/en/api-premium-exchanger/api-v1#poluchenie-api-klyuchei-cherez-lichnyi-kabinet-polzovatelya) independently for accessing the exchange service API.
 
 </details>
@@ -74,9 +74,9 @@ Create a maintenance mode in the "**Maintenance Mode**" section and configure th
 
 1. Go to the "**Security** ➔ **WAF**" section in your Cloudflare dashboard.
 2. Navigate to the "**Tools**" tab and add the required IP addresses, selecting the action "**Allow**."\
-   ![Cloudflare WAF Screenshot](<../../../ru/.gitbook/assets/image (2126) (1).png>)
+   ![Cloudflare WAF Screenshot](<../../.gitbook/assets/image (2126) (1).png>)
 3. Save the settings.\
-   ![Cloudflare Save Settings Screenshot](<../../../ru/.gitbook/assets/image (2127) (1).png>)
+   ![Cloudflare Save Settings Screenshot](<../../.gitbook/assets/image (2127) (1).png>)
 
 </details>
 
@@ -105,7 +105,7 @@ You can only change the protocol by editing the code. Replace **https://t.me/** 
 **XML File**
 
 1. Add cities in the "**Cities**" section and link them to the exchange direction.\
-   ![Cities Section Screenshot](<../../../ru/.gitbook/assets/image (867) (1).png>)
+   ![Cities Section Screenshot](<../../.gitbook/assets/image (867) (1).png>)
 2. In the "**Labels for param parameter**" field, specify parameters according to [BestChange requirements](https://www.bestchange.ru/wiki/rates.html).\
    ![Labels Screenshot](<../../.gitbook/assets/image (1114)_eng.png>)
 3. The information will then appear in your XML file.\
@@ -114,7 +114,7 @@ You can only change the protocol by editing the code. Replace **https://t.me/** 
 **Email Notification**
 
 1. In the "**Exchange Directions**" section, go to the cash exchange direction and specify the text for the template using the "**City**" shortcode.\
-   ![Template Screenshot](<../../../ru/.gitbook/assets/image (905) (1).png>)
+   ![Template Screenshot](<../../.gitbook/assets/image (905) (1).png>)
 2. In the "**Messages**" -> "**Email Templates**" section, add the "**Exchange Direction Template**" shortcode for the "New Order" status.\
    ![Email Template Screenshot](<../../.gitbook/assets/image (1054)_eng.png>)
 
@@ -193,14 +193,14 @@ Ensure the following are configured:
 To ensure proper functionality of BestChange with your export XML file, update the module on your server.
 
 1. [Download](https://premiumexchanger.com/uscripts/) the update for your script version (PHP version doesn’t matter—download the archive for your script version).\
-   ![Download Update Screenshot](<../../../ru/.gitbook/assets/image (2161) (1).png>)
+   ![Download Update Screenshot](<../../.gitbook/assets/image (2161) (1).png>)
 2. Deactivate the "**Configure Exchange Directions Output in XML/TXT File**" module in the "**Modules**" section.\
-   ![Deactivate Module Screenshot](<../../../ru/.gitbook/assets/image (2162) (1).png>)
+   ![Deactivate Module Screenshot](<../../.gitbook/assets/image (2162) (1).png>)
 3. Log in to ISP Manager under the user created for the site, go to the "**Sites**" section, select the site, and navigate to "**Site Files**."\
-   ![ISP Manager Screenshot](<../../../ru/.gitbook/assets/image (2159) (1).png>)
+   ![ISP Manager Screenshot](<../../.gitbook/assets/image (2159) (1).png>)
 4. Extract the downloaded archive and upload the **`direction_xml`** folder to the server, replacing existing files.\
    Path: **`wp-content/plugins/premiumbox/moduls/`**\
-   ![Upload Files Screenshot](<../../../ru/.gitbook/assets/image (2160) (1).png>)
+   ![Upload Files Screenshot](<../../.gitbook/assets/image (2160) (1).png>)
 5. Reactivate the "**Configure Exchange Directions Output in XML/TXT File**" module in the "**Modules**" section.
 
 </details>
@@ -236,4 +236,4 @@ Follow the instructions provided by ExchangeSumo to integrate the link/banner an
 </details>
 
 In the "**Currency Exchange Templates**," write the required text and include a link to the reviews page for the "**Completed Request**" status.\
-![](<../../../ru/.gitbook/assets/image (990) (1).png>)
+![](<../../.gitbook/assets/image (990) (1).png>)

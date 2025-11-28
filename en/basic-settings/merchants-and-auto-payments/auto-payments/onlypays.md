@@ -18,7 +18,7 @@ To discuss terms and setup, please contact a [service representative](https://t.
 
 After registering your account through a representative of OnlyPays, activate the bot ([LK\_onLy\_Pays\_bot](https://t.me/LK_onLy_Pays_bot)) by clicking the "**Start**" button. Through the bot, you will gain access to your personal account.
 
-<figure><img src="../../../../ru/.gitbook/assets/image (2172) (1).png" alt="" width="434"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2172) (1).png" alt="" width="434"><figcaption></figcaption></figure>
 
 ## Module Settings
 
@@ -26,11 +26,11 @@ In the admin panel, create a new merchant in the "**Automatic Payouts**" section
 
 Select OnlyPays from the dropdown menu in the "**Module**" field, enter a name for the module, and click "**Save**."
 
-<figure><img src="../../../../ru/.gitbook/assets/image (2174) (1).png" alt="" width="441"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2174) (1).png" alt="" width="441"><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../../ru/.gitbook/assets/image (2169) (1).png" alt="" width="454"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2169) (1).png" alt="" width="454"><figcaption></figcaption></figure>
 
 **Domain** — leave this field empty.
 
@@ -40,14 +40,14 @@ Fill in the required authorization fields.
 
 ## Special Fields
 
-<figure><img src="../../../../ru/.gitbook/assets/image (2171) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2171) (1).png" alt=""><figcaption></figcaption></figure>
 
 **SBP** — payout to a bank card or phone number linked to SBP.
 
 {% hint style="success" %}
 To automatically update the status of requests without creating a cron job on the server, provide the merchant with the webhook link (in the "**Webhook URL**" field) and ask them to set it up for the module to receive notifications.
 
-<img src="../../../../ru/.gitbook/assets/image (2175) (1).png" alt="" data-size="original">
+<img src="../../../.gitbook/assets/image (2175) (1).png" alt="" data-size="original">
 {% endhint %}
 
 ## Continuing Setup

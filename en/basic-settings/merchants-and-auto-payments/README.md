@@ -30,7 +30,7 @@ If you are receiving funds into your own accounts, even with auto-payment enable
 
 To do this, after receiving funds into your account according to the application, you need to change the application status to one of the following — "**User marked the application as paid**," "**Paid application**," or "**Application under review**" — only after this will the "**Transfer**" button appear in the application.
 
-<figure><img src="../../../ru/.gitbook/assets/image (734) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (734) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Receiving Funds into Merchant Accounts, Payment Using Your Accounts (Semi-Automation)
 

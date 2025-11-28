@@ -18,7 +18,7 @@ Please note that Payeer always rounds transaction fees up, which means your clie
 2. Complete the account verification in the "**Profile and Verification**" section to use the API.
 3. Confirm your domain.
 
-<figure><img src="../../../../ru/.gitbook/assets/image (954) (1).png" alt="" width="524"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (954) (1).png" alt="" width="524"><figcaption></figcaption></figure>
 
 4. Go to the "**API" -> "Mass Payouts**" section and click the "**Add**" button. Fill in the required fields and click "**Add API**".
 
@@ -26,17 +26,17 @@ Please note that Payeer always rounds transaction fees up, which means your clie
 * **Secret Key** — the key that will be used for API authorization
 * **IP Address** — the IP address of your server
 
-<figure><img src="../../../../ru/.gitbook/assets/image (599) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (599) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Module Settings
 
 In the admin panel, go to the "**Merchants**" -> "**Auto Payouts**" section, click the "**Add**" button, and select Payeer.
 
-<figure><img src="../../../../ru/.gitbook/assets/image (596) (1).png" alt="" width="490"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (596) (1).png" alt="" width="490"><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../../ru/.gitbook/assets/image (597) (1).png" alt="" width="446"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (597) (1).png" alt="" width="446"><figcaption></figcaption></figure>
 
 **Wallet Number** — the wallet specified in your Payeer personal account
 

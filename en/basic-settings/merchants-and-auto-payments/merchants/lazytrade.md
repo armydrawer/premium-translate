@@ -20,11 +20,11 @@ In the admin panel, create a new merchant in the "**Merchants**" section by clic
 
 Select LazyTrade from the dropdown menu in the "**Module**" field, enter a name for the module, and click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/image (20).png" alt="" width="346"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (20) (2).png" alt="" width="346"><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../.gitbook/assets/image (21).png" alt="" width="369"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (21) (1).png" alt="" width="369"><figcaption></figcaption></figure>
 
 **Domain** — leave this field blank.
 
@@ -34,7 +34,7 @@ Fill in the required authorization fields.
 
 ## Special Fields
 
-<figure><img src="../../../.gitbook/assets/image (23).png" alt="" width="297"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (23) (1).png" alt="" width="297"><figcaption></figcaption></figure>
 
 **Payment method** — select the required method for receiving funds from the customer:
 
@@ -44,7 +44,7 @@ Fill in the required authorization fields.
 * **(link) QR\_NSPK** — issue a link to follow and pay via QR code on the page that opens (it takes up to 30-40 seconds to generate the link)
 * **(payment details) SBP** — issue a phone number to receive funds via SBP
 
-<figure><img src="../../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (24) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Bank** — selection of the bank whose details will be provided in the application
 

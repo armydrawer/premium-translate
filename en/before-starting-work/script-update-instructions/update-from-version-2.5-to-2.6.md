@@ -45,7 +45,7 @@ To do this, navigate to the folder on your server at `www/<your_site_name>/wp-co
 
 1.  In the exchange panel, go to the "**Console**" section and enable technical mode for the exchanger so that users cannot make requests on the site during the script update.
 
-    <figure><img src="../../../ru/.gitbook/assets/image (879) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (879) (1).png" alt=""><figcaption></figcaption></figure>
 2.  In the "**Plugins**" section, deactivate the "**Premium Exchanger**" and "**Premium Exchanger hooks**" plugins.
 
     <figure><img src="../../.gitbook/assets/image (1169)_eng.png" alt=""><figcaption></figcaption></figure>

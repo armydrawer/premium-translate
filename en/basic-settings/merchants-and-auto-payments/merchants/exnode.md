@@ -20,11 +20,11 @@ Register in the [Exnode](https://pay.exnode.ru/) system.
 
 Log into your account, go to the "**Settings**" section, and generate your API keys.
 
-<figure><img src="../../../../ru/.gitbook/assets/image (758) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (758) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 After clicking the "**Change**" button, refresh the page — your [key pair](#user-content-fn-1)[^1] will be displayed in the "**API Keys**" section. Copy them using the corresponding button and save them in a text file.
 
-<figure><img src="../../../../ru/.gitbook/assets/image (759) (1).png" alt="" width="319"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (759) (1).png" alt="" width="319"><figcaption></figcaption></figure>
 
 ## Module Settings
 
@@ -32,11 +32,11 @@ In the admin panel, create a new merchant in the "**Merchants**" -> "**Add Merch
 
 Select Exnode from the dropdown menu in the "**Module**" field, enter a name for the module, and click "**Save**."
 
-<figure><img src="../../../../ru/.gitbook/assets/image (760) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (760) (1).png" alt=""><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../../ru/.gitbook/assets/image (761) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (761) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Private Key** - the private key generated in the Exnode account when creating the API key.
 

@@ -26,11 +26,11 @@ In the admin panel, create a new merchant in the "**Merchants**" section by sele
 
 Choose Merchant001 from the dropdown list in the "**Module**" field, enter a name for the module, and click "**Save**."
 
-<figure><img src="../../../../ru/.gitbook/assets/image (530) (1).png" alt="" width="450"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (530) (1).png" alt="" width="450"><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../../ru/.gitbook/assets/image (531) (1).png" alt="" width="461"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (531) (1).png" alt="" width="461"><figcaption></figcaption></figure>
 
 **Token** — the domain generated in the Merchant001 account after API access is created.
 
@@ -38,7 +38,7 @@ Fill in the required authorization fields.
 
 ## Special Fields
 
-<figure><img src="../../../../ru/.gitbook/assets/image (532) (1).png" alt="" width="409"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (532) (1).png" alt="" width="409"><figcaption></figcaption></figure>
 
 **Payment Method** — available options for providing details to clients (currencies — BYN, KZT, RUB, UAH, UZS).
 

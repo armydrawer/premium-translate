@@ -2,7 +2,7 @@
 
 The script includes the option to change the appearance of the exchange table through the **"Type of Currency Exchange Direction Table"** setting, which can be found in the **"Exchange Settings" -> "General Settings."**
 
-<figure><img src="../../../ru/.gitbook/assets/image (155) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (155) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Table 2
 

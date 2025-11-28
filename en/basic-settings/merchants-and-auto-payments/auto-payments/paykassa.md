@@ -50,14 +50,14 @@ Fill in the required authorization fields.
 
 ## Special Fields
 
-<figure><img src="../../../../ru/.gitbook/assets/image (808) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (808) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Transaction Type** - select the currency/network for automatic payouts.
 
-<figure><img src="../../../../ru/.gitbook/assets/image (814) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (814) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Priority (for Bitcoin network only)** - choose the amount of [time for transaction processing (validation)](#user-content-fn-1)[^1]; the fee depends on the selected parameter (low - lower fee, slower validation speed; high - higher fee, faster validation speed)\
-![](<../../../../ru/.gitbook/assets/image (813) (1).png>)
+![](<../../../.gitbook/assets/image (813) (1).png>)
 
 ## Continue Configuration
 

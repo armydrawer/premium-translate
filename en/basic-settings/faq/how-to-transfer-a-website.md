@@ -24,7 +24,7 @@ Please note that license files are updated with the subdomain information after 
 
 After setting up the website on the subdomain and testing its functionality, you will need to transfer it to the main domain. To do this, use ISP Manager to move all files to the main domain folder and update the site name in the copied database (in the `_options` table, specifically the `siteurl` and `home` fields).
 
-<figure><img src="../../../ru/.gitbook/assets/image (706) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (706) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 If you plan to transfer all requests and settings from the subdomain to the main domain with full replacement, there should be no issues.

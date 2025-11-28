@@ -50,7 +50,7 @@ If the Electrum module is installed on the same server as the Premium Exchanger 
 
 In the auto payout module settings, you will find the following options:
 
-<figure><img src="../../../../ru/.gitbook/assets/image (768) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (768) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. Mass payouts:
 

@@ -4,4 +4,4 @@ In the "**T-API-bots**" -> "**Logs**" section, you will find logs generated duri
 
 The error messages are unique to each situation, so it is highly recommended to provide the error text when contacting technical support.
 
-<figure><img src="../../../ru/.gitbook/assets/image (924).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (924).png" alt=""><figcaption></figcaption></figure>

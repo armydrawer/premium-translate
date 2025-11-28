@@ -16,11 +16,11 @@ Some of the site's content is in English, as it is the primary language and is d
 2. Download the [Poedit](https://poedit.net/download) program, install it, and launch it.
 3. In Poedit, open the file `pn-ru_RU.po`, which is located in the downloaded folder `wp-content/plugins/premiumbox/languages/`.
 
-<figure><img src="../../../../ru/.gitbook/assets/Screenshot_48 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot_48 (1).png" alt=""><figcaption></figcaption></figure>
 
 4. In Poedit, click the "**Update**" button.
 
-<figure><img src="../../../../ru/.gitbook/assets/Screenshot_49 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot_49 (1).png" alt=""><figcaption></figcaption></figure>
 
 5. On the left side of the program, you will find the original text in English, and on the right side, the translation in Russian. Use the search function ("**Edit**" → "**Find**" or **CTRL+F**) to locate the desired text in either English or Russian. Replace the necessary translation text with your own (do not edit the original text <mark style="color:red;">!).</mark>
 
@@ -36,7 +36,7 @@ Click the "**Save**" button after finishing your edits.
 
 ## Changing Text in English
 
-<figure><img src="../../../../ru/.gitbook/assets/Screenshot_50 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot_50 (1).png" alt=""><figcaption></figcaption></figure>
 
 1. Right-click on the text you want to change. You will see links to the files and line numbers in the script files where this text appears.
 2. Using the [Notepad++](https://notepad-plus-plus.org/downloads/) editor, open the specified files (UTF-8 encoding without BOM) on your computer.

@@ -7,7 +7,7 @@ If you need to update the module on your server, please refer to the [instructio
 {% hint style="warning" %}
 To ensure the security of your funds in the WebMoney system, we strongly recommend enabling the following settings in the "[Transaction Confirmation](https://security.webmoney.ru/asp/transconfirm.asp)" section: E-NUM confirmation and SMS confirmation.
 
-<img src="../../../../../ru/.gitbook/assets/image (607) (1).png" alt="" data-size="original">
+<img src="../../../../.gitbook/assets/image (607) (1).png" alt="" data-size="original">
 
 **Note:** By default, the WebMoney payment merchant does not automatically verify the client's personal data through the XML interface X19.
 
@@ -25,7 +25,7 @@ For the requirements for exchange points that work with WebMoney, please refer t
 1. Log in to the [WebMoney](https://merchant.webmoney.ru/conf/default.asp) site with your WMID or register if you don’t have an account yet.
 2. Go to the "[**Wallet List**](https://merchant.webmoney.ru/conf/purses.asp)" section and click on the "**Configure**" link next to each wallet you are using.
 
-<figure><img src="../../../../../ru/.gitbook/assets/image (600) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (600) (1).png" alt=""><figcaption></figcaption></figure>
 
 3. Configure and save the following parameters:
 
@@ -36,7 +36,7 @@ For the requirements for exchange points that work with WebMoney, please refer t
 * Check the boxes for "**Send parameters in the preliminary request**" and "**Allow the use of URLs passed in the form**," and "**Send error notifications to the keeper**."
 * For the "**Signature Generation Method**" option, select "**SHA256**."
 
-<figure><img src="../../../../../ru/.gitbook/assets/image (604) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (604) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Module Settings
 
@@ -44,11 +44,11 @@ In the admin panel, create a new merchant in the "**Merchants**" -> "**Add Merch
 
 Select WebMoney from the dropdown list in the "**Module**" field, enter a name for the module, and click "**Save**."
 
-<figure><img src="../../../../../ru/.gitbook/assets/image (606) (1).png" alt="" width="442"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (606) (1).png" alt="" width="442"><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../../../ru/.gitbook/assets/image (605) (1).png" alt="" width="454"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (605) (1).png" alt="" width="454"><figcaption></figcaption></figure>
 
 **WM\* Wallet** — your wallet number from the WebMoney personal account.
 

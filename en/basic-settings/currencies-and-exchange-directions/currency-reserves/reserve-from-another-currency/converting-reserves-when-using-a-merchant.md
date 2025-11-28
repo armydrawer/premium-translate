@@ -4,7 +4,7 @@ Let's assume you are using Binance's auto payout feature to distribute BTC. Your
 
 1.  In the control panel, navigate to "**Merchants" → "Auto Payouts"** and go to the settings for the Binance module. At the bottom of the module settings page, find the active link labeled "**Currency Reserve Shortcode**" and click on it. Copy the shortcode for "**Binance (binance) — USDT**."
 
-    <figure><img src="../../../../../ru/.gitbook/assets/Screenshot_34 (3) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/Screenshot_34 (3) (1).png" alt=""><figcaption></figcaption></figure>
 2.  In the website control panel, go to "**Parsers 2.0" → "Source Rates"** and copy the shortcode for BTC=>USDT.
 
     <figure><img src="../../../../.gitbook/assets/Screenshot_35_eng.png" alt="" width="563"><figcaption></figcaption></figure>

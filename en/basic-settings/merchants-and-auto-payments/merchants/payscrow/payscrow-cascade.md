@@ -20,11 +20,11 @@ For discussions regarding terms and connections, please contact a [service repre
 
 Register and log in to your merchant account. In the "**Terminals**" ➔ "**API Settings**" section, copy the API key for authorization in the merchant module.
 
-<figure><img src="../../../../../ru/.gitbook/assets/image (2163) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2163) (1).png" alt=""><figcaption></figcaption></figure>
 
 In the "**Order Status for Purchase**" field, enter the URL from the auto-payment module settings (Webhook URL).
 
-<figure><img src="../../../../../ru/.gitbook/assets/image (2165) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2165) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Module Settings
 
@@ -32,11 +32,11 @@ In the admin panel, create a new merchant in the "**Merchants**" ➔ "**Add Merc
 
 Select "Payscrow Cascade" from the dropdown menu in the "**Module**" field, enter a name for the module, and click "**Save**."
 
-<figure><img src="../../../../../ru/.gitbook/assets/image (2166) (1).png" alt="" width="499"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2166) (1).png" alt="" width="499"><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../../../ru/.gitbook/assets/image (2167) (1).png" alt="" width="442"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2167) (1).png" alt="" width="442"><figcaption></figcaption></figure>
 
 **Domain** — leave this field empty.
 
@@ -44,7 +44,7 @@ Fill in the required authorization fields.
 
 ## Special Fields
 
-<figure><img src="../../../../../ru/.gitbook/assets/image (2168) (1).png" alt="" width="416"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2168) (1).png" alt="" width="416"><figcaption></figcaption></figure>
 
 Merchant Type:
 

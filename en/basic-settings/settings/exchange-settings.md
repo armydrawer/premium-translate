@@ -102,7 +102,7 @@ This section displays the main settings for the exchange service, applicable to 
 
 {% hint style="warning" %}
 In the XML file, min/max amounts are always displayed **only** for the currency in "**Giving**" from the exchange direction.\
-![](<../../../ru/.gitbook/assets/image (657) (1).png>)\
+![](<../../.gitbook/assets/image (657) (1).png>)\
 If the option for "**Dependency of Minimum and Maximum Amount**" is set to "**No**" and min/max amounts are specified only for the currency in "**Receiving**," there will be no exchange amount limits in the XML file for that exchange direction.
 {% endhint %}
 

@@ -6,4 +6,4 @@ In this section ("**Telegram**" -> "**Message Log**"), you can view the logs rel
 
 If needed, you can use the filter to see which messages pertain to the bot itself and which are from the bot's users.
 
-<figure><img src="../../../../ru/.gitbook/assets/image (927) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (927) (1).png" alt=""><figcaption></figcaption></figure>

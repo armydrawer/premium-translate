@@ -60,7 +60,7 @@ After this, the field will appear in the exchange form and will be mandatory for
 
 Example of filling out for the currency T-Bank RUB (highlighted names from the "Unique ID" fields):
 
-<figure><img src="../../../../ru/.gitbook/assets/image (2205) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2205) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Example of filling out for the currency Bank transfer GEL (Georgian Lari):
 

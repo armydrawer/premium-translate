@@ -40,11 +40,11 @@ In the admin panel, create a new merchant in the "**Auto Payouts**" -> "**Add Au
 
 Select WestWallet from the dropdown list in the "**Module**" field, enter a name for the module, and click "**Save**."
 
-<figure><img src="../../../../ru/.gitbook/assets/image (689) (1).png" alt="" width="505"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (689) (1).png" alt="" width="505"><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../../ru/.gitbook/assets/image (690) (1).png" alt="" width="453"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (690) (1).png" alt="" width="453"><figcaption></figcaption></figure>
 
 **Public Key** — the public key generated in your WestWallet account.
 
@@ -56,7 +56,7 @@ Next, configure the merchant by following the [general setup instructions](https
 
 ## **Special Fields**
 
-<figure><img src="../../../../ru/.gitbook/assets/image (691) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (691) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Transaction Fee** — select the fee amount that will be charged by the service for providing its services. The higher the fee, the faster the payout will be processed.
 

@@ -20,53 +20,53 @@ To connect to the service and receive a special rate for the exchange, please co
 
 Go to the "**Merchants**" section.
 
-<figure><img src="../../../../ru/.gitbook/assets/image (688) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (688) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Click the "**Create merchant**" button.
 
-<figure><img src="../../../../ru/.gitbook/assets/image (681) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (681) (1).png" alt=""><figcaption></figcaption></figure>
 
 In the window that opens, enter the name of your project and click "**Create merchant**."
 
-<figure><img src="../../../../ru/.gitbook/assets/image (680) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (680) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 After successfully adding the merchant, proceed to its settings.
 
-<figure><img src="../../../../ru/.gitbook/assets/image (682) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (682) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
-<figure><img src="../../../../ru/.gitbook/assets/image (683) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (683) (1).png" alt=""><figcaption></figcaption></figure>
 
 Send a request to gain access to the API for your website.
 
-<figure><img src="../../../../ru/.gitbook/assets/image (684) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (684) (1).png" alt=""><figcaption></figcaption></figure>
 
 In the "**Merchant ID**" field, you will find your merchant's ID; save it in a text file.
 
-<figure><img src="../../../../ru/.gitbook/assets/image (687) (1).png" alt="" width="414"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (687) (1).png" alt="" width="414"><figcaption></figcaption></figure>
 
 Enter your domain and website name.
 
-<figure><img src="../../../../ru/.gitbook/assets/image (685) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (685) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Confirm ownership of the domain using any of the three methods (the quickest option is to place an HTML file in the root folder of your website).
 
-<figure><img src="../../../../ru/.gitbook/assets/image (686) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (686) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Wait for your project to be moderated.
 
 Go to the "**Settings**" ➔ "**API**" section and generate a new key for auto payouts by clicking the "**Generate**" button.
 
-<figure><img src="../../../../ru/.gitbook/assets/image (679) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (679) (1).png" alt=""><figcaption></figcaption></figure>
 
 Save the generated key in a text file.
 
-<figure><img src="../../../../ru/.gitbook/assets/image (678) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (678) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 On the "**API Integration**" tab in the merchant settings, you will see the merchant ID as well as the keys for receiving and making payments.
 
-<figure><img src="../../../../ru/.gitbook/assets/image (689) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (689) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../ru/.gitbook/assets/image (690) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (690) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 If necessary, regenerate the keys and save all data in a text file.
 
@@ -86,7 +86,7 @@ In the admin panel, go to the "**Merchants**" ➔ "**Auto Payouts**" section, cl
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../../ru/.gitbook/assets/image (685) (1).png" alt="" width="463"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (685) (1).png" alt="" width="463"><figcaption></figcaption></figure>
 
 **Merchant ID** — **Merchant ID** from your Heleket account
 
@@ -118,7 +118,7 @@ Fill in the required authorization fields.
 **Useful links:**
 
 Merchant fees (information available only to authorized users) — [dash.heleket.com/ru/business/merchant/{your\_merchant\_id}/commissions](https://dash.heleket.com/ru/business/merchant/ccc8c2c5-0966-40ed-b35d-40554d0d0791/commissions)\
-![](<../../../../ru/.gitbook/assets/image (15) (1).png>)
+![](<../../../.gitbook/assets/image (15) (2).png>)
 
 List of available currencies and networks — [doc.heleket.com/ru/other/reference](https://doc.heleket.com/ru/other/reference)
 {% endhint %}

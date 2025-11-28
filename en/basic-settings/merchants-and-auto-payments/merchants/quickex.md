@@ -24,11 +24,11 @@ In the admin panel, create a new merchant in the "**Merchants**" section ➔ "**
 
 Select Quickex from the dropdown menu in the "**Module**" field, enter a name for the module, and click "**Save**."
 
-<figure><img src="../../../../ru/.gitbook/assets/image (2134) (1).png" alt="" width="398"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2134) (1).png" alt="" width="398"><figcaption></figcaption></figure>
 
 Fill in the required fields (except for the "**Domain**").
 
-<figure><img src="../../../../ru/.gitbook/assets/image (2225) (1).png" alt="" width="490"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2225) (1).png" alt="" width="490"><figcaption></figcaption></figure>
 
 **Domain —** this field should be filled **only if** your Quickex manager has instructed you to do so (<mark style="color:green;">in all other cases, leave this field blank</mark>).
 
@@ -48,11 +48,11 @@ Example: if the base rate for BTC/USDT is 1 to 102,000, and the markup is 2%, th
 Example:\
 If you specified a markup of 2% in the "**Markup**" field, use the formula `[shortcode]*0.98` for the opposite side.
 
-<img src="../../../../ru/.gitbook/assets/image (2226) (1).png" alt="" data-size="original">
+<img src="../../../.gitbook/assets/image (2226) (1).png" alt="" data-size="original">
 
 If the rate is reversed, use parentheses and divide one by the shortcode: `1/([shortcode]*0.98)`
 
-<img src="../../../../ru/.gitbook/assets/image (2227) (1).png" alt="" data-size="original">
+<img src="../../../.gitbook/assets/image (2227) (1).png" alt="" data-size="original">
 
 **If the coefficient is not included in the formula, the rate displayed to the end user will be 1 = 1, and the user will effectively receive an exchange rate that is 2% lower than stated, as the "Markup" field indicates 2% — this will lead to negative feedback from users.**
 
@@ -67,7 +67,7 @@ For the reverse rate, the formula should be written for the outgoing rate and wi
 
 ## Special Fields
 
-<figure><img src="../../../../ru/.gitbook/assets/image (2136) (1).png" alt="" width="374"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2136) (1).png" alt="" width="374"><figcaption></figcaption></figure>
 
 **Currency "You Give/You Receive"** — select the currencies for which the details will be displayed in the request (the currency "**You Give**") and which will be paid to the client ("**You Receive**").
 
@@ -83,17 +83,17 @@ In the current integration of Quickex and Premium Exchanger, there is no way to 
 
 In the "**Exchange Directions**" section — select the desired direction — go to the "**Exchange Point Fees**" tab — in the "**Additional Recipient Fee**" field, specify the withdrawal fee for the asset "**You Receive**."
 
-<figure><img src="../../../../ru/.gitbook/assets/image (2228) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2228) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 After this, in the exchange form on the website, an additional field "**With Fee**" will be added to the "**You Receive**" rate, where the rate will be displayed correctly, taking into account the network fee.
 
 For convenience, in the "**Exchange Directions**" — "**Basic Settings**," you can add the direction to a group of directions. This will simplify the process if you need to change the network fee in the bulk editor.
 
-<figure><img src="../../../../ru/.gitbook/assets/image (2231) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2231) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 The bulk editor can be found in the "**Exchange Directions**" — "**Bulk Editor for User Information**." In the "**Field**" dropdown, select “**Exchange Point Fees**,” and also choose the necessary group of directions. After that, all relevant fields will be displayed.
 
-<figure><img src="../../../../ru/.gitbook/assets/image (2230) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2230) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 You can view the network fees for Quickex assets in the [table](https://docs.google.com/spreadsheets/d/1MD3ULwbrcBlJOjM8RO7AZTwPk-Y0TPqGTPigJc_WyoY/edit?gid=0#gid=0).
 

@@ -20,7 +20,7 @@ Next, navigate to the "**Affiliate Program**" - "**Settings**" section and enabl
 
 If the module is activated, the affiliate dashboard page (usually at `https://your_domain/paccount/`) will display a line for the Rest API key in the information block, where you can find your personal key (**api\_key**).
 
-<figure><img src="../../ru/.gitbook/assets/image (982) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (982) (1).png" alt=""><figcaption></figcaption></figure>
 
 If needed, you can generate a new key by clicking on the "**Change REST API Key**" link. After a few seconds, a new key will appear in the "**REST API Key**" field, and the old key will no longer work.
 

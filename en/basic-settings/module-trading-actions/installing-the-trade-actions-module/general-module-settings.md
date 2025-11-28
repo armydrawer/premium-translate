@@ -46,5 +46,5 @@ Saves data about trading actions after they are executed:\
 {% hint style="warning" %}
 Make sure to create [cron jobs](https://premium.gitbook.io/main/en/basic-settings/faq/kak-sozdat-zadanie-cron-na-servere) on the server for the statuses where you plan to use trading actions.
 
-<img src="../../../../ru/.gitbook/assets/image (569) (1).png" alt="" data-size="original">
+<img src="../../../.gitbook/assets/image (569) (1).png" alt="" data-size="original">
 {% endhint %}

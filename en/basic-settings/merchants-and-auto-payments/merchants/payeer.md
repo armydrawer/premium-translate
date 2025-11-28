@@ -6,15 +6,15 @@
 2. Complete the account verification process in the "**Profile and Verification**" section to use the API.
 3. Go to the "**API**" section and click the "**Add**" button. Fill in the required fields and click "**Add Merchant**."
 
-<figure><img src="../../../../ru/.gitbook/assets/image (586) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (586) (1).png" alt=""><figcaption></figcaption></figure>
 
 Complete the domain verification process.
 
-<figure><img src="../../../../ru/.gitbook/assets/image (954) (1).png" alt="" width="524"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (954) (1).png" alt="" width="524"><figcaption></figcaption></figure>
 
 Fill out the form that appears.
 
-<figure><img src="../../../../ru/.gitbook/assets/image (843) (1).png" alt="" width="459"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (843) (1).png" alt="" width="459"><figcaption></figcaption></figure>
 
 * **Successful Payment URL (SUCCESS URL)** — `https://YOUR_DOMAIN/merchant-payeer_success.html`
 * **Failed Payment URL (FAIL URL)** — `https://YOUR_DOMAIN/merchant-payeer_fail.html`
@@ -22,7 +22,7 @@ Fill out the form that appears.
 
 Replace **`YOUR_DOMAIN`** with the name of your exchange point's domain. If you have added a hash for the **Return URL (RETURN URL)** in the merchant module settings, include the URL with the hash.
 
-<figure><img src="../../../../ru/.gitbook/assets/image (593) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (593) (1).png" alt=""><figcaption></figcaption></figure>
 
 Submit your store for moderation so that it can start accepting payments.
 
@@ -30,11 +30,11 @@ Submit your store for moderation so that it can start accepting payments.
 
 In the admin panel, go to the "**Merchants**" -> "**Merchants**" section, click the "**Add**" button, and select Payeer.
 
-<figure><img src="../../../../ru/.gitbook/assets/image (594) (1).png" alt="" width="466"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (594) (1).png" alt="" width="466"><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../../ru/.gitbook/assets/image (595) (1).png" alt="" width="450"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (595) (1).png" alt="" width="450"><figcaption></figcaption></figure>
 
 **Secret Key** — the key provided in your Payeer account when creating the store.
 

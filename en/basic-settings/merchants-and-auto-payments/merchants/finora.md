@@ -16,11 +16,11 @@ In the admin panel, create a new merchant in the "**Merchants**" section by sele
 
 Choose Finora from the dropdown menu in the "**Module**" field, enter a name for the module, and click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **API Key** — the key provided to you by your Finora manager.
 
@@ -30,7 +30,7 @@ Please note that a separate API key must be issued for each currency (AZN, RUB, 
 
 ## Special Fields
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (2).png" alt=""><figcaption></figcaption></figure>
 
 **Payment Method** — select the appropriate method for receiving funds from the client.
 

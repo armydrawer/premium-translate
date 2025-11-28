@@ -31,7 +31,7 @@ Logs received from merchants and auto-payments can vary significantly in content
 
 For easier searching of specific data, you can use filters based on four criteria:
 
-<figure><img src="../../../../ru/.gitbook/assets/image (889) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (889) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Merchant** — display only logs from the specified merchant
 * **IP Address** — display only logs that came from the specified IP address

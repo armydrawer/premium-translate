@@ -44,7 +44,7 @@ The most convenient way to ask users to leave a review is by including the reque
 {% tab title="On the Exchange Confirmation Page" %}
 In the **Exchange Directions -> Exchange Template** section, add a message to the "**Completed Exchange**" status template. Be sure to include **direct links** to your profiles on review platforms, forums, and monitoring services!
 
-<figure><img src="../../../ru/.gitbook/assets/MBAMessageCenter_230629172233 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/MBAMessageCenter_230629172233 (1).png" alt=""><figcaption></figcaption></figure>
 
 This is how the template will appear on the exchange confirmation page:
 
@@ -54,7 +54,7 @@ This is how the template will appear on the exchange confirmation page:
 {% tab title="In the Email" %}
 In the **Messages -> Email Templates** section, configure the email template for the "**Completed Exchange**" status. This email will be sent to the client upon completion of their exchange.
 
-<figure><img src="../../../ru/.gitbook/assets/E-mail шаблоны ‹ Premium Exchanger — WordPress - Google Chrome_230629174225 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/E-mail шаблоны ‹ Premium Exchanger — WordPress - Google Chrome_230629174225 (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 

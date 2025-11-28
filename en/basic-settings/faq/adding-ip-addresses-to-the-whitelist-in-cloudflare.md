@@ -29,4 +29,4 @@ When adding rules by **ASN** instead of an IP address range (for example, in the
 
 The created rules will be displayed in the list of rules.
 
-<figure><img src="../../../ru/.gitbook/assets/image (2233) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2233) (1).png" alt=""><figcaption></figcaption></figure>

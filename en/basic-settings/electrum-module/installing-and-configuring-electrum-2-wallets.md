@@ -33,7 +33,7 @@ sudo apt-get install libsecp256k1-0 python3-cryptography -y
 
 5. Wait for the command to complete.
 
-<figure><img src="../../../ru/.gitbook/assets/изображение (38) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (38) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -92,13 +92,13 @@ Enter the seed phrase for verification\
 11. Create a second wallet in the same way (or use a duplicate).
 12. Open the installed Electrum app on your computer and go to the "**File**" -> "**Open**" menu.
 
-<figure><img src="../../../ru/.gitbook/assets/image (647) (1).png" alt="" width="403"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (647) (1).png" alt="" width="403"><figcaption></figcaption></figure>
 
 13. In the folder that opens, locate the wallets you created.\
     \
     Name the wallet for receiving funds **default\_wallet\_in** and the wallet for sending funds **default\_wallet\_out**. (If you don’t plan to use auto-payouts, you don’t need to create a new module copy in the admin panel. The wallet is only required for proper module installation.)
 
-<figure><img src="../../../ru/.gitbook/assets/image (632) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (632) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -139,11 +139,11 @@ If the uploaded wallet files have names other than **default\_wallet\_in** and *
 
 20. Right-click on the blank screen, select **"Paste from browser"**, enter the command **`bash install_electrum2.sh`**, and click OK. Then press **Enter** to run the command.
 
-<figure><img src="../../../ru/.gitbook/assets/image (636) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (636) (1).png" alt=""><figcaption></figcaption></figure>
 
 21. After the script finishes, save the data highlighted in red in the screenshot below for further module configuration in the admin panel.
 
-<figure><img src="../../../ru/.gitbook/assets/image (637) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (637) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 If you are installing Electrum on a server different from the one hosting the Premium Exchanger script, you will need to specify the "API Server" field in the merchant/auto-payout module settings in the admin panel. Enter the IP address of the server where Electrum is installed.
@@ -157,7 +157,7 @@ If you are installing Electrum on a server different from the one hosting the Pr
 
 22. Copy the first command to configure the Cron task scheduler on the server. Highlight the corresponding line with the left mouse button, right-click, and select "**Copy**."
 
-<figure><img src="../../../ru/.gitbook/assets/image (575) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (575) (1).png" alt=""><figcaption></figcaption></figure>
 
 23. Go to the **"Cron Scheduler"** section.
 
@@ -169,7 +169,7 @@ Cron jobs must be added under the <mark style="color:green;">user created for th
 
 24. Click the **"Create Task"** button, paste the command copied in step 22 into the **"Command"** field, and configure the form as shown in the screenshot below.
 
-<figure><img src="../../../ru/.gitbook/assets/image (639) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (639) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Click "**Create**."
 
@@ -189,7 +189,7 @@ Click "**Create**."
 
 Do **not** delete the file `start_or_restart_electrum_daemon2.sh`.
 
-<figure><img src="../../../ru/.gitbook/assets/image (576) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (576) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ***
 

@@ -8,7 +8,7 @@ If you need to update the module on the server, please refer to the [instruction
 
 Register for the [Luckypay](https://luckypay.io/) service. Log into your personal account, go to the "**Terminals**" section, select an existing terminal or create a new one, and copy the API key provided in its settings.
 
-<figure><img src="../../../../ru/.gitbook/assets/image (2158) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2158) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Merchant Account Settings
 
@@ -22,7 +22,7 @@ Log into your merchant account and make sure to enter the URL from the merchant 
 
 <figure><img src="../../../.gitbook/assets/image (2049)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
-<figure><img src="../../../../ru/.gitbook/assets/image (17) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (17) (2).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Module Settings
 
@@ -34,7 +34,7 @@ Select Luckypay from the dropdown menu in the "**Module**" field, enter a name f
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../../ru/.gitbook/assets/Arc_5NJ6WqIhsR.png" alt="" width="435"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Arc_5NJ6WqIhsR.png" alt="" width="435"><figcaption></figcaption></figure>
 
 **API Key** — the key you previously copied from your Luckypay personal account.
 

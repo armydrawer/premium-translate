@@ -17,7 +17,7 @@ In this case, you’ll need to manually reset the password for the existing admi
 1. Download the file from the link below:
 2. Open the **`setpass.php`** file locally using a text editor (e.g., Notepad++) and edit the following lines: **`user_login`** and **`pass`**.
 
-<figure><img src="../../../ru/.gitbook/assets/Screenshot_33 (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_33 (4).png" alt=""><figcaption></figcaption></figure>
 
 3. Save the changes. Ensure the file is encoded in UTF-8 without BOM.
 4. Upload the **`setpass.php`** file to the [root directory](https://premium.gitbook.io/main/en/basic-settings/faq/kak-naiti-kornevuyu-papku-saita-na-servere) of your website.
@@ -64,11 +64,11 @@ If you’ve forgotten the URL for accessing the admin panel, follow these steps:
 3. Log in to the admin panel at **`https://your_domain/wp-admin/`**.
 4. Check the URL fields in the "**Settings**" -> "**General**" section. Ensure only the domain is specified, and the protocol **https://** is included before the domain name.
 
-<figure><img src="../../../ru/.gitbook/assets/image (667) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (667) (1).png" alt=""><figcaption></figcaption></figure>
 
 5. Verify the login URL in the "**Settings**" -> "**Main Settings**" section and update it if necessary.
 
-<figure><img src="../../../ru/.gitbook/assets/image (630) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (630) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 6. Revert the **true** value back to **false** in the **`userdata.php`** file. Next time, log in using the URL specified in the settings.
 
@@ -80,11 +80,11 @@ If you’re locked out of the admin panel due to IP restrictions, you’ll need 
 
 1. Download the file from the link below:
 
-{% file src="../../../ru/.gitbook/assets/createuser (1).php" %}
+{% file src="../../.gitbook/assets/createuser (1).php" %}
 
 2. Open the **`createuser.php`** file using a text editor (e.g., Notepad++) and edit the following lines: **`user_login`**, **`pass`**, and **`email`**.
 
-<figure><img src="../../../ru/.gitbook/assets/Screenshot_34 (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_34 (4).png" alt=""><figcaption></figcaption></figure>
 
 3. Save the changes. Ensure the file is encoded in UTF-8 without BOM.
 4. Upload the **`createuser.php`** file to the [root directory](https://premium.gitbook.io/main/en/basic-settings/faq/kak-naiti-kornevuyu-papku-saita-na-servere) of your website.

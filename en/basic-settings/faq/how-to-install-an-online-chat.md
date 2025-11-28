@@ -8,7 +8,7 @@
 
 2. Paste the copied ID into the website control panel under the section "**Settings → General Settings**" in the field labeled "**Jivosite.ru ID**," and save the changes.
 
-<figure><img src="../../../ru/.gitbook/assets/Screenshot_28 (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_28 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## **Installation Using a Hook (Any Online Chat)**
 
@@ -18,4 +18,4 @@
 
 2. Go to the "**Plugins**" section and activate the plugin called "**Premium Exchanger hooks**."
 
-<figure><img src="../../../ru/.gitbook/assets/Screenshot_29 (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_29 (4).png" alt=""><figcaption></figcaption></figure>

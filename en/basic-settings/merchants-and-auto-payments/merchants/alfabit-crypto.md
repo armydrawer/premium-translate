@@ -34,7 +34,7 @@ Select one or both options for "**Receive Funds/Withdraw Funds**" depending on t
 It's advisable to add your server's IP address under "**Trusted IPs**."
 {% endhint %}
 
-<figure><img src="../../../../ru/.gitbook/assets/Arc_qmcPit3Hgb (1).png" alt="" width="352"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Arc_qmcPit3Hgb (1).png" alt="" width="352"><figcaption></figcaption></figure>
 
 Save the generated key in a text file and click the "**Done**" button.
 
@@ -44,7 +44,7 @@ In the admin panel, create a new merchant in the "**Merchants**" -> "**Add Merch
 
 Select Alfabit Crypto from the dropdown list in the "**Module**" field, provide a name for the module, and click "**Save**."
 
-<figure><img src="../../../../ru/.gitbook/assets/Arc_NAxwA0DrS1 (1).png" alt="" width="473"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Arc_NAxwA0DrS1 (1).png" alt="" width="473"><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
@@ -54,7 +54,7 @@ Fill in the required authorization fields.
 
 ## Special Fields
 
-<figure><img src="../../../../ru/.gitbook/assets/Arc_wNtMcO8Eyp (1).png" alt="" width="455"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Arc_wNtMcO8Eyp (1).png" alt="" width="455"><figcaption></figcaption></figure>
 
 **Currency** — select the currency for receiving funds or choose "**Automatically**" (in this case, the wallet address will be requested according to the currency code from the exchange direction where the merchant is connected; the list of methods will only be displayed after entering the correct API key for module authorization).
 

@@ -12,7 +12,7 @@ If this section is not visible in the sidebar, please enable the module in the "
 
 To make it easier to search for specific data, you can use filters based on three criteria:
 
-<figure><img src="../../../../ru/.gitbook/assets/image (919) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (919) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **User Login** — display all applications from the specified user by their login
 * **User ID** — display all applications from the specified user by their ID

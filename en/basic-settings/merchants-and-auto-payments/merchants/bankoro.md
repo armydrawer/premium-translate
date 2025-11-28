@@ -40,7 +40,7 @@ Fill in the specified authorization fields.
 
 ## Special Fields
 
-<figure><img src="../../../../ru/.gitbook/assets/image (2221) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2221) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Payment Method** — select the currency for issuing the wallet address (if you choose "**Automatically**," the currency code for "**Giving**" will be used).
 

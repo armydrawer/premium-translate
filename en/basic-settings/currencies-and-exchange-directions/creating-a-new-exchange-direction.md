@@ -32,22 +32,22 @@ The permanent link is automatically generated based on the selected currencies f
 
 There is also a settings block for this option in the "**Modules**" ➔ "**Rate Depending on Exchange Amount**" section.
 
-<figure><img src="../../../ru/.gitbook/assets/image (2149) (1).png" alt="" width="411"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2149) (1).png" alt="" width="411"><figcaption></figcaption></figure>
 
 **Rate Formation Method:**\
 • **Set Rate Directly** — display rates for different amounts considering the specified percentages.
 
-<figure><img src="../../../ru/.gitbook/assets/image (2152) (1).png" alt="" width="357"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2152) (1).png" alt="" width="357"><figcaption></figcaption></figure>
 
 • **Add Percentage to Rate** — display the percentage that will be applied to the base exchange rate for different amounts.
 
-<figure><img src="../../../ru/.gitbook/assets/image (2151) (1).png" alt="" width="355"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2151) (1).png" alt="" width="355"><figcaption></figcaption></figure>
 
 **Use in XML 2.0 File with Rates** — add tiered rates from the exchange direction settings to a new export XML file:\
 • **Yes**\
 • **No**
 
-<figure><img src="../../../ru/.gitbook/assets/image (2150) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2150) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 <details>
 
@@ -57,7 +57,7 @@ For instance, you can create a tiered structure such that a user making a small 
 
 Setting a dependency for the "**I Receive**" side in the exchange rate (applicable when 1 in the "**I Give**" currency — for example, the BTC-USDT rate):
 
-![](../../../ru/.gitbook/assets/64fc192780700472f4cff803.png)
+![](../../.gitbook/assets/64fc192780700472f4cff803.png)
 
 Similarly, you can set a dependency for the "**I Give**" side in the exchange rate (applicable when 1 in the "**I Receive**" currency — for example, the USDT-BTC rate).
 
@@ -69,7 +69,7 @@ Similarly, you can set a dependency for the "**I Give**" side in the exchange ra
 
 There is also a settings block for this option in the "**Modules**" ➔ "**Rate Depending on Reserve**" section.
 
-<figure><img src="../../../ru/.gitbook/assets/image (2153) (1).png" alt="" width="458"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2153) (1).png" alt="" width="458"><figcaption></figcaption></figure>
 
 **Rate Formation Method:**\
 • **Set Rate Directly** — display rates for different amounts considering the specified percentages.\
@@ -85,7 +85,7 @@ There is also a settings block for this option in the "**Modules**" ➔ "**Rate 
 
 For instance, you can create a tiered structure such that as the currency reserve decreases, the currency becomes increasingly expensive for users. The reserve is always set for the "**I Receive**" currency.
 
-![](<../../../ru/.gitbook/assets/image (784) (1).png>)
+![](<../../.gitbook/assets/image (784) (1).png>)
 
 <mark style="color:red;">It is not recommended to set a percentage for the rate side where 1 is used</mark> — <mark style="color:red;">this will lead to displaying a rate of 0.98 to XXX or 1.32 to XXX in the exchange form</mark>
 
@@ -101,7 +101,7 @@ If you use the option "**Rate Dependency on Amount or Reserve**," the "**I Recei
 
 **Exchange Amount Multiplicity** — if this option is enabled, the value selected from the dropdown will be rounded:
 
-<figure><img src="../../../ru/.gitbook/assets/image (855) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (855) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 For example, if the amount "You Give" is selected and the multiplicity is 100 — when the user enters the amount 12345 in the exchange form in the "You Give" field, the value will be rounded down to 12300.
@@ -116,14 +116,14 @@ If zero profit is set, the partner will not be able to receive a partner reward.
 {% hint style="warning" %}
 If the "**Profit**" block is not displayed on the tab — disable the "**Automatic Profit Calculation**" module in the "**Modules**" section.
 
-<img src="../../../ru/.gitbook/assets/image (604) (1).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (604) (1).png" alt="" data-size="original">
 {% endhint %}
 
 ## Tab "Cities"
 
 To select a city for the exchange direction, you must first create a city with the correct code (according to [BestChange rules](https://www.bestchange.ru/wiki/rates.html)) in the "**Cities**" section:
 
-<figure><img src="../../../ru/.gitbook/assets/image (837) (1).png" alt="" width="504"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (837) (1).png" alt="" width="504"><figcaption></figcaption></figure>
 
 Then, in the exchange direction settings, select the city in the "**Cities**" tab and, if necessary, specify additional parameters for the city:
 
@@ -135,17 +135,17 @@ Then, in the exchange direction settings, select the city in the "**Cities**" ta
 * **Profit (from Amount I Give/I Receive)** — individual profit values that may differ from the overall profit values on the "**Rate**" tab.
 * **Tags for param parameter** — specify parameters according to [BestChange requirements](https://www.bestchange.ru/wiki/rates.html).
 
-<figure><img src="../../../ru/.gitbook/assets/image (159) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (159) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Tab "BestChange API Parser" and "BestChange Parser"
 
-<figure><img src="../../../ru/.gitbook/assets/image (856).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (856).png" alt=""><figcaption></figcaption></figure>
 
 Detailed descriptions of the options can be found in the articles "[**BestChange API Parser**](https://premium.gitbook.io/main/en/basic-settings/kursy-valyut/bestchange-api-parser-new-nachinaya-s-v2.6)" and "[**BestChange Parser**](https://premium.gitbook.io/main/en/basic-settings/kursy-valyut/bestchange-parser-old)".
 
 ## Tab "Auto-Rate Adjustment"
 
-<figure><img src="../../../ru/.gitbook/assets/image (883) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (883) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Auto-Rate Adjustment** — select the source and direction for automatic rate changes on the site.
 
@@ -191,7 +191,7 @@ Please note that authorized users automatically participate in a loyalty program
 
 ## "Exchange Point Fees" Tab
 
-<figure><img src="../../../ru/.gitbook/assets/image (959) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (959) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Additional Fee from Sender** — Specify the additional fee (fromfee) that will be added to the payment amount if such a fee is provided by the exchange service's regulations. This value will be displayed in the XML file with rates for monitoring in the \<fromfee> parameter.
 
@@ -202,7 +202,7 @@ Please note that authorized users automatically participate in a loyalty program
 {% hint style="danger" %}
 Please note that when using this option, the values specified below will apply — the data entered in the "**Additional Fee from Sender/Recipient**" fields will not be considered in the calculations.
 
-<img src="../../../ru/.gitbook/assets/image (149) (1).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (149) (1).png" alt="" data-size="original">
 {% endhint %}
 
 {% hint style="info" %}
@@ -238,26 +238,26 @@ Please note — after setting up the fee based on the exchange amount, specifyin
 
 ## "Exchange Amount" Tab
 
-<figure><img src="../../../ru/.gitbook/assets/image (2146) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2146) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 **Min/Max Amounts** — Specify the limits for amounts for applications for the currencies in the exchange direction.
 
-<figure><img src="../../../ru/.gitbook/assets/image (2141) (1).png" alt="" width="563"><figcaption><p>Setting the option in the admin panel</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2141) (1).png" alt="" width="563"><figcaption><p>Setting the option in the admin panel</p></figcaption></figure>
 
-<figure><img src="../../../ru/.gitbook/assets/image (2140) (1).png" alt="" width="563"><figcaption><p>Displaying limits on the website</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2140) (1).png" alt="" width="563"><figcaption><p>Displaying limits on the website</p></figcaption></figure>
 
 {% hint style="warning" %}
 You can also specify min/max amounts for just one currency and enable recalculation of limits for another currency based on the exchange rate in the "Exchange Service Settings" ➔ "Basic Settings" section.\
-![](<../../../ru/.gitbook/assets/image (2143) (1).png>)\
+![](<../../.gitbook/assets/image (2143) (1).png>)\
 In this case, automatic limits will be set for the second currency.\
-![](<../../../ru/.gitbook/assets/image (2142) (1).png>)
+![](<../../.gitbook/assets/image (2142) (1).png>)
 
-<img src="../../../ru/.gitbook/assets/image (2144) (1).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (2144) (1).png" alt="" data-size="original">
 {% endhint %}
 
 ## "User Information" Tab
 
-<figure><img src="../../../ru/.gitbook/assets/image (858).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (858).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Use exchange direction templates to simplify the process of creating new exchange directions. You can add templates in the site management panel under "**Exchange Directions**" → "**Exchange Direction Templates**." For each parameter, add a template that will automatically populate the corresponding field when a new exchange direction is created.
@@ -298,7 +298,7 @@ You can fill in the following request statuses at your discretion, keeping in mi
 
 ## "Restrictions and Checks" Tab
 
-<figure><img src="../../../ru/.gitbook/assets/image (161) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (161) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Visibility of Exchange Directions for Guests** — You can set privacy settings for exchange directions for users who are not registered on the site. Additional settings can also be found in the "**Exchange Settings**" → "**Exchange Filters**" section.
 
@@ -328,7 +328,7 @@ You can fill in the following request statuses at your discretion, keeping in mi
 
 **Prohibited IP Addresses and Masks (one per line)** — You can specify IP addresses and masks for which access to the exchange direction will be denied. Each value must be entered on a new line.
 
-<figure><img src="../../../ru/.gitbook/assets/image (160) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (160) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 **Max. Number of Exchange Requests from One IP per Day** — You can limit the number of requests that can be created from one IP address per day.
 
@@ -354,7 +354,7 @@ Here’s a naturalistic English translation of the provided text:
 
 ## "Notification Settings" Tab
 
-<figure><img src="../../../ru/.gitbook/assets/image (162) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (162) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 In version 2.7, the tab "**Exchange Direction Template**" has been renamed to "**Notification Settings**."
@@ -362,7 +362,7 @@ In version 2.7, the tab "**Exchange Direction Template**" has been renamed to "*
 
 **Template** — a text template for sending via the shortcode `[dirtemp]` in emails regarding requests for a specific exchange direction.
 
-<figure><img src="../../../ru/.gitbook/assets/image (2215) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2215) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Administrator's E-mail/Phone/Telegram** — contact information for the administrator/operator for request emails (if one or more contact fields are filled out, data from the template above will be sent **only to the specified contacts**, ignoring the recipient list in the general template).
 
@@ -374,7 +374,7 @@ Select the fields that the user must fill out when completing the exchange form.
 
 ## "AML" Tab
 
-<figure><img src="../../../ru/.gitbook/assets/image (163) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (163) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 AML settings for the exchange direction are described in a [separate guide](https://premium.gitbook.io/main/en/basic-settings/aml-verification/nastroika-v-v.2.7#nastroika-modulya-v-napravlenii-obmena).
 
@@ -388,7 +388,7 @@ AML settings for the exchange direction are described in a [separate guide](http
 
 ## "Verification" Tab
 
-<figure><img src="../../../ru/.gitbook/assets/image (164) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (164) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 **Only for Verified Accounts on the Site** — the exchange direction can be made available only for verified accounts/wallets, meaning the user must complete a specific verification process on your site to access the direction. In the control panel, under "**User Accounts**" and in the "**Currencies**" section (when creating/editing a currency), you can make the appropriate [settings](https://premium.gitbook.io/main/en/navigaciya/verifikaciya/verifikaciya-scheta) for this option.
 
@@ -424,7 +424,7 @@ Require a verified wallet in the payment system
 
 ## "Currency Accounts" Tab
 
-<figure><img src="../../../ru/.gitbook/assets/image (884) (1).png" alt="" width="458"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (884) (1).png" alt="" width="458"><figcaption></figcaption></figure>
 
 Method:
 
@@ -436,7 +436,7 @@ Accounts — check the boxes for the accounts that will be used in this exchange
 
 ## "TXT and XML Export Settings" Tab
 
-<figure><img src="../../../ru/.gitbook/assets/image (949) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (949) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 **Show in File:**\
 • **Yes** — include the exchange direction in XML and TXT files with rates\
@@ -461,7 +461,7 @@ Accounts — check the boxes for the accounts that will be used in this exchange
 
 ## "Payment Receipts" Tab
 
-<figure><img src="../../../ru/.gitbook/assets/image (165) (1).png" alt="" width="308"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (165) (1).png" alt="" width="308"><figcaption></figcaption></figure>
 
 **Order Status for Enabling Upload** — check the statuses that will display the field for uploading receipts.
 
@@ -606,7 +606,7 @@ For example, if set to 5 minutes, there will be no recalculation during this tim
 
 ## Affiliate Program Tab
 
-<figure><img src="../../../ru/.gitbook/assets/image (166) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (166) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 **Affiliate Commissions** — Enable or disable commissions for the affiliate program for the selected exchange direction.
 

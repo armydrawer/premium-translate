@@ -15,7 +15,7 @@ To automatically update exchange rates, **it is essential** to create a [Cron jo
 
 The hash for the Cron job link is specified in the **`wp-content/plugins/premiumbox/userdata.php`** file.
 
-<img src="../../../.gitbook/assets/image%20(416)_eng.png" alt="" data-size="original"><img src="../../../../ru/.gitbook/assets/image (577) (1).png" alt="" data-size="original">
+<img src="../../../.gitbook/assets/image%20(416)_eng.png" alt="" data-size="original"><img src="../../../.gitbook/assets/image (577) (1).png" alt="" data-size="original">
 {% endhint %}
 
 {% hint style="warning" %}
@@ -31,12 +31,12 @@ You can also further configure the minimum and maximum rates according to this g
 {% hint style="danger" %}
 The Bestchange API parser will only work in an active exchange direction—make sure to set the direction to active before starting the configuration of the parser.
 
-<img src="../../../../ru/.gitbook/assets/image (733) (1).png" alt="" data-size="original">
+<img src="../../../.gitbook/assets/image (733) (1).png" alt="" data-size="original">
 {% endhint %}
 
 ## General Module Settings
 
-<figure><img src="../../../../ru/.gitbook/assets/image (2148) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2148) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Domain** — Enter one of the domains from the list below the field. If the field is empty (when the parser uses the main BC domain), the parser will not work (currencies and cities will not be displayed in the list below on this page).
 
@@ -60,7 +60,7 @@ The Bestchange API parser will only work in an active exchange direction—make 
 
 Click on the image below to see how to find the exchanger ID on the Bestchange website.
 
-<img src="../../../../ru/.gitbook/assets/Clip2net_230726151417 (1).png" alt="" data-size="original">
+<img src="../../../.gitbook/assets/Clip2net_230726151417 (1).png" alt="" data-size="original">
 
 </details>
 

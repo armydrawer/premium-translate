@@ -75,7 +75,7 @@ Fill in the required authorization fields.
 
 **Merchant Type** — choose the merchant format.
 
-<figure><img src="../../../../ru/.gitbook/assets/image (2130) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2130) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Payment Link** — the details will be displayed on a separate payment page.
 * **Requisites** — the details will be displayed in the application itself via the shortcode \[to\_account].

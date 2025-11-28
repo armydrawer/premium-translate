@@ -14,11 +14,11 @@ To display the cardholder's full name on the client application for cards issued
 
 Register in the [Payscrow](https://payscrow.io/) system. Log in to your merchant account and navigate to the "**API Settings**" section.
 
-<figure><img src="../../../../../ru/.gitbook/assets/image (539) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (539) (1).png" alt=""><figcaption></figcaption></figure>
 
 In this section, you will find the keys for API access. Save them in a text file.
 
-<figure><img src="../../../../../ru/.gitbook/assets/image (540) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (540) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 For this merchant, payment verification for changing the status of applications is available via both callback and cron job.
@@ -38,11 +38,11 @@ In the admin panel, create a new merchant in the "**Merchants**" -> "**Add Merch
 
 Select Payscrow from the dropdown list in the "**Module**" field, enter a name for the module, and click "**Save**."
 
-<figure><img src="../../../../../ru/.gitbook/assets/image (537) (1).png" alt="" width="461"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (537) (1).png" alt="" width="461"><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../../../ru/.gitbook/assets/image (538) (1).png" alt="" width="449"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (538) (1).png" alt="" width="449"><figcaption></figcaption></figure>
 
 **Domain** — the domain provided by Payscrow after API access is created (each client is assigned a unique domain in the format `ec69bb31.merchant.payscrow.io`).
 
@@ -52,15 +52,15 @@ Fill in the required authorization fields.
 
 ## Special Fields
 
-<div><figure><img src="../../../../../ru/.gitbook/assets/image (541) (1).png" alt="" width="482"><figcaption></figcaption></figure> <figure><img src="../../../../../ru/.gitbook/assets/image (534) (1).png" alt="" width="476"><figcaption></figcaption></figure></div>
+<div><figure><img src="../../../../.gitbook/assets/image (541) (1).png" alt="" width="482"><figcaption></figcaption></figure> <figure><img src="../../../../.gitbook/assets/image (534) (1).png" alt="" width="476"><figcaption></figcaption></figure></div>
 
-<div><figure><img src="../../../../../ru/.gitbook/assets/image (534) (1).png" alt="" width="476"><figcaption></figcaption></figure> <figure><img src="../../../../../ru/.gitbook/assets/image (535) (1).png" alt="" width="479"><figcaption></figcaption></figure></div>
+<div><figure><img src="../../../../.gitbook/assets/image (534) (1).png" alt="" width="476"><figcaption></figcaption></figure> <figure><img src="../../../../.gitbook/assets/image (535) (1).png" alt="" width="479"><figcaption></figcaption></figure></div>
 
 **Payment Method** — available types of information provision for clients (the minimum amount for an application is 500 RUB).
 
 * **\[BankCard] Smart order** — automatic bank selection determined by the client's card number (for this method, the option **"Display 'From Account' Field"** must be activated in the currency settings).
 
-<figure><img src="../../../../../ru/.gitbook/assets/image (533) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (533) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 * **\[BankCard, RUB] {bank\_name}** — issuance of a card number from the specified bank.
 * **\[BankCard, RUB] Any bank in Russia** — issuance of a card number from any bank.

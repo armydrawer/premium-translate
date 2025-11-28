@@ -68,7 +68,7 @@ Example: For the currency **Tether(USDT) ERC20**, the XML code should be set to 
 
 ## "Reserve and Limits" Tab
 
-<figure><img src="../../../ru/.gitbook/assets/image (854) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (854) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Currency Reserve** — allows you to calculate the current currency reserve based on completed requests — for this, select the option "**--calculate by requests--**." You can also obtain the current reserve from the wallet in real-time, but for this, you need to set up the corresponding [auto-payment module](https://premium.gitbook.io/main/en/navigaciya/merchanty-i-vyplaty/vyplaty), and then select the corresponding wallet from the list. Additionally, you can obtain [reserve from a file](https://premium.gitbook.io/main/en/navigaciya/rezervy/rezerv-iz-faila) and calculate it [using a formula](https://premium.gitbook.io/main/en/basic-settings/rezervy-valyut/rezerv-ot-drugoi-valyuty/primery-nastroiki-slozhnogo-rezerva-s-ispolzovaniem-formul).
 
@@ -130,7 +130,7 @@ In this section, you can select previously created additional fields from the "*
 
 ## "Affiliate Program" Tab
 
-<figure><img src="../../../ru/.gitbook/assets/image (964) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (964) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Allow Withdrawal of Affiliate Funds** — option to permit or restrict the withdrawal of affiliate funds in this currency within users' affiliate accounts.
 

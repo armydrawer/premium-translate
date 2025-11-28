@@ -20,9 +20,9 @@ Copy the provided API Key to your clipboard or a text file.
 
 To enable the callback for changing the application status, specify the URL from the merchant module settings in the "**API**" section and add all the merchant's IP addresses that send callbacks to your firewall's whitelist (request the list of addresses directly from the merchant).
 
-<figure><img src="../../../../ru/.gitbook/assets/image (203) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (203) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
-<figure><img src="../../../../ru/.gitbook/assets/image (202) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (202) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Module Settings
 

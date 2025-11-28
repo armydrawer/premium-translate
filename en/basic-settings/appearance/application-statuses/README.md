@@ -2,7 +2,7 @@
 
 In the "**Applications**" section, you can view the exchange requests and their statuses.
 
-<figure><img src="../../../../ru/.gitbook/assets/image (189) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (189) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image%20(41)_eng.png" alt=""><figcaption></figcaption></figure>
 

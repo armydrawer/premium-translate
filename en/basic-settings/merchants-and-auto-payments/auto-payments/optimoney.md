@@ -18,9 +18,9 @@ To discuss the terms of service, please contact a [service representative](https
 
 Register on the [Optimoney](https://client.optimoney.com/register) service. Log into your account and create a new USD wallet (name the wallet as you see fit).
 
-<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Module Settings
 
@@ -28,11 +28,11 @@ In the admin panel, create a new merchant in the "**Merchants**" section ➔ "**
 
 Select **Optimoney** from the dropdown list in the "**Module**" field, provide a name for the module, and click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Domain** — leave this field empty.
 

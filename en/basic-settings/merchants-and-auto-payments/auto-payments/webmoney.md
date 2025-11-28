@@ -15,7 +15,7 @@ If you need to update the module on the server, please refer to the [instruction
 3. In WebMoney Keeper Classic, go to the menu item "**Tools" → "Program Settings"**, then navigate to the **"Security"** tab and click the **"Save key to file"** button.\
    Follow the procedures prompted by WM Keeper. Specify the path to save the key file and enter the key file password twice.
 
-<figure><img src="../../../../ru/.gitbook/assets/Screenshot_36 (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot_36 (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 4. Upload the saved .kwm key file to the server under the user account created for the website (not root) in the directory:\
    `your_domain/wp-content/plugins/premiumbox/paymerchants/webmoney/dostup/`
@@ -26,11 +26,11 @@ In the admin panel, create a new merchant in the "**Merchants**" -> "**Add Autom
 
 Select Webmoney from the dropdown list in the "**Module**" field, enter a name for the module, and click "**Save**".
 
-<figure><img src="../../../../ru/.gitbook/assets/image (608) (1).png" alt="" width="438"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (608) (1).png" alt="" width="438"><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../../ru/.gitbook/assets/image (609) (1).png" alt="" width="447"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (609) (1).png" alt="" width="447"><figcaption></figcaption></figure>
 
 **WMID** — enter your WMID
 

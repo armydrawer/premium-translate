@@ -50,7 +50,7 @@ Fill in the required authorization fields.
 {% hint style="info" %}
 To ensure proper processing of the details, the currency code in "Give" must be selected as USD, UUSD, or CRP (Crypton token).
 
-<img src="../../../../ru/.gitbook/assets/image (199) (1).png" alt="" data-size="original">
+<img src="../../../.gitbook/assets/image (199) (1).png" alt="" data-size="original">
 {% endhint %}
 
 ## Utopia Voucher Module
@@ -63,7 +63,7 @@ In the admin panel, create a new merchant in the "**Merchants**" section by sele
 
 Choose Utopia Voucher from the dropdown menu in the "**Module**" field, enter a name for the module, and click "**Save**."
 
-<figure><img src="../../../../ru/.gitbook/assets/image (200) (1).png" alt="" width="471"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (200) (1).png" alt="" width="471"><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
@@ -76,7 +76,7 @@ Fill in the required authorization fields.
 {% hint style="warning" %}
 To properly accept vouchers, the currency code in "**Give**" must be set to UUSD (US Dollar) or CRP (native Utopia token).
 
-<img src="../../../../ru/.gitbook/assets/image (201) (1).png" alt="" data-size="original">
+<img src="../../../.gitbook/assets/image (201) (1).png" alt="" data-size="original">
 
 In the exchange form, there is no need to add a field for "**From Account**" for the currency "**Give**" — in the created request, the client will see a button labeled "**Proceed to Payment**." When clicked, this will open a page with a field for entering the voucher code. After entering the correct code, the client will be redirected back to the request page.
 {% endhint %}

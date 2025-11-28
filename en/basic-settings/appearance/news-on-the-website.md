@@ -20,4 +20,4 @@ You can enable the option for your website visitors to comment on news articles.
 
 Enable the "**Posts Comment Form**" option in the "**Settings**" ➔ "**General Settings**" section. After that, the comment field will appear for news articles on the website.
 
-<figure><img src="../../../ru/.gitbook/assets/image (2133) (1).png" alt="" width="518"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2133) (1).png" alt="" width="518"><figcaption></figcaption></figure>

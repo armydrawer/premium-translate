@@ -14,7 +14,7 @@ If you have already uploaded files under the root user, you need to take the fol
 1. Back up all files on the server.
 2. [Download from our website](https://premiumexchanger.com/uscripts/) the distribution for UPDATING according to your script version (most often this is version 2.5) and your PHP version.
 
-<img src="../../ru/.gitbook/assets/image (566) (1).png" alt="" data-size="original">
+<img src="../.gitbook/assets/image (566) (1).png" alt="" data-size="original">
 
 3. Upload it to the root folder of your website and extract the archive, replacing the existing files.
 {% endhint %}
@@ -56,7 +56,7 @@ We want to emphasize again that website files **must always** be uploaded under 
 
 In your personal account, go to the "[**Your Scripts**](https://premiumexchanger.com/uscripts/)" section and download the appropriate script build based on the PHP version installed on your server. If you are unsure which version is installed on your server, please contact your hosting support for assistance.
 
-<figure><img src="../../ru/.gitbook/assets/image (763) (1).png" alt="" width="335"><figcaption><p>The script distribution already includes all available merchants and modules.<br>Separate installation of merchants and modules is not required.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (763) (1).png" alt="" width="335"><figcaption><p>The script distribution already includes all available merchants and modules.<br>Separate installation of merchants and modules is not required.</p></figcaption></figure>
 
 The downloaded archive or its contents need to be uploaded to the server. The upload should be done in the root folder of the website (usually, this is the `public_html`, `www`, or `docs` folders). Use the file manager built into the control panel, or use an FTP client like Total Commander, CuteFTP, etc. The FTP client should have binary mode enabled for file transfers (this mode is usually set by default).
 
@@ -64,7 +64,7 @@ The downloaded archive or its contents need to be uploaded to the server. The up
 
 In the "[**Your Licenses**](https://premiumexchanger.com/ulicense/)" section, download the archive with the license files `license.zip`. To do this, specify your domain name (and subdomain name if necessary) where the script will be installed, and click the "**Save**" button. Then click the "**Download for version X.X**" button. Upload the downloaded `license.zip` archive to the root folder of your website (usually, this is the `public_html`, `www`, or `docs` folders) and extract the archive.
 
-<figure><img src="../../ru/.gitbook/assets/image (764) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (764) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 <mark style="color:red;">If the domain name for the license is not specified and saved, you will not be able to download the archive with the license files.</mark> <mark style="color:red;">**Be careful**</mark> <mark style="color:red;">when specifying the domain name to avoid mistakes. It is not possible to change, redo, or replace the license for another domain. You will need an additional license for a second domain.</mark>
@@ -93,37 +93,37 @@ In your browser's address bar, enter the following link:
 
 4.1. Select the installation language.
 
-<figure><img src="../../ru/.gitbook/assets/image (586) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (586) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 4.2. Check the basic system requirements of your server. If any parameter does not meet the requirements, you will see a warning. Click "**Skip**" if the check did not reveal any errors. If errors were found, correct them and restart the installation process.
 
-<figure><img src="../../ru/.gitbook/assets/image (587) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (587) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 4.3. Check the PHP functions and libraries on your server. If any parameter does not meet the requirements, you will see a warning. Click "**Skip**" if the check did not reveal any errors. If errors were found, correct them and restart the installation process.
 
-<figure><img src="../../ru/.gitbook/assets/image (588) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (588) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 4.4. Check the write permissions for certain files and folders. If any parameter does not meet the requirements, you will see a warning. Click "**Skip**" if the check did not reveal any errors. If errors were found, correct them and restart the installation process.
 
-<figure><img src="../../ru/.gitbook/assets/image (589) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (589) (1).png" alt=""><figcaption></figcaption></figure>
 
 4.5. Fill in the database name, database user name, and password that you specified in step 3. Click the "**Update Config**" button.
 
-<figure><img src="../../ru/.gitbook/assets/Screenshot_8 (2) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot_8 (2) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 4.6. Click the "**Select File**" button and choose the `damp_db.sql` file. The files are located in the root of the downloaded archive on your computer. Specify the [full address of the website](#user-content-fn-1)[^1]. Click the "**Import**" button.
 
-<figure><img src="../../ru/.gitbook/assets/image (590) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (590) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 If the system cannot import the database file and displays an error, manually import the database file through phpMyAdmin available on your server. Then, in the database, update the `home` and `siteurl` values in the `pr_options` table to reflect the full name of your website.
 
 4.7. Enter the personal email address of the website administrator, the website email address (create the corresponding mailbox on the server), the sender's name (usually the name of the website), and set the administrator's login and password for accessing the control panel. Click the "**Install**" button.
 
-<figure><img src="../../ru/.gitbook/assets/Screenshot_10 (6).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot_10 (6).png" alt="" width="563"><figcaption></figcaption></figure>
 
 4.8. Choose the language for the website and control panel.
 
-<figure><img src="../../ru/.gitbook/assets/image (591) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (591) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 4.9. **Be sure to delete the installer files!** On the last step of the installation, click the link: "**Attention! Click here to delete the installer files**."\
 \

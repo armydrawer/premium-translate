@@ -20,11 +20,11 @@ The script allows you to retrieve the reserve value for a currency from a file. 
 
 4. In the control panel, go to the "**Currencies**" section, edit the currency, and select the corresponding line number from the file for the "**Currency Reserve**" parameter. Save your changes.
 
-<figure><img src="../../../../ru/.gitbook/assets/image (909) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (909) (1).png" alt=""><figcaption></figcaption></figure>
 
 Alternatively, in the "**Exchange Directions**" section, under the "**Reserve**" tab, you can select the corresponding line number from the file. This way, you can set an individual reserve value for each direction.
 
-<figure><img src="../../../../ru/.gitbook/assets/image (906) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (906) (1).png" alt=""><figcaption></figcaption></figure>
 
 5. Set up a cron job to retrieve the reserve value from the file and update it on the website. The script can be run every minute. Here’s an example command for a cron job in Unix format for the ISP Manager control panel:
 

@@ -11,7 +11,7 @@ For reliable email delivery, we recommend using paid email accounts from service
 {% hint style="danger" %}
 Please note that the templates for **administrators** and **users** in the dropdown menu are separate entities and can be configured independently of each other (items in the dropdown menu).
 
-<img src="../../../ru/.gitbook/assets/image (785) (1).png" alt="" data-size="original"><img src="../../../ru/.gitbook/assets/image (786) (1).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (785) (1).png" alt="" data-size="original"><img src="../../.gitbook/assets/image (786) (1).png" alt="" data-size="original">
 {% endhint %}
 
 ## Basic Settings
@@ -69,7 +69,7 @@ After entering the settings, click the "**Save**" button. On the page, you will 
 
 {% hint style="warning" %}
 Once again, we emphasize that the templates for **administrators** and **users** in the dropdown menu are separate entities and can be configured independently of each other (items in the dropdown menu).\
-![](<../../../ru/.gitbook/assets/image (785) (1).png>)![](<../../../ru/.gitbook/assets/image (786) (1).png>)
+![](<../../.gitbook/assets/image (785) (1).png>)![](<../../.gitbook/assets/image (786) (1).png>)
 {% endhint %}
 
 After you have configured email sending, set up the necessary templates for various application statuses and other options for sending messages from the site to administrators and users:
@@ -89,7 +89,7 @@ After you have configured email sending, set up the necessary templates for vari
 
 If you suspect that the option is not working correctly, go to the "**Email Logs**" section and check for any potential issues.
 
-<figure><img src="../../../ru/.gitbook/assets/image (941) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (941) (1).png" alt=""><figcaption></figcaption></figure>
 
 If you are experiencing issues with message delivery and there are no obvious reasons for it, we recommend taking the following steps:
 

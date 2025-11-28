@@ -8,19 +8,19 @@ You can selectively remove or replace items in the user menu if the default stru
 
 Using a technical page for a suitable page (the link name is taken from the title of the edited page)
 
-<img src="../../../ru/.gitbook/assets/image (571) (1).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (571) (1).png" alt="" data-size="original">
 
 Using a technical page for your page
 
-![](<../../../ru/.gitbook/assets/image (654) (1).png>)
+![](<../../.gitbook/assets/image (654) (1).png>)
 
 Technical page not in use
 
-![](<../../../ru/.gitbook/assets/image (573) (1).png>)
+![](<../../.gitbook/assets/image (573) (1).png>)
 
 </details>
 
-<figure><img src="../../../ru/.gitbook/assets/image (557) (1).png" alt="" width="303"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (557) (1).png" alt="" width="303"><figcaption></figcaption></figure>
 
 The display of the user's verification status and current discount can be configured in the "**Appearance**" -> "**Widgets**" -> "**Sidebar**" section.
 
@@ -32,7 +32,7 @@ The display of the link to the internal account depends on the status of the "**
 
 The display of links to TXT/XML/JSON files can be configured in the "**Exchange Settings**" -> "**TXT and XML Export Settings**" section.
 
-<figure><img src="../../../ru/.gitbook/assets/image (559) (1).png" alt="" width="456"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (559) (1).png" alt="" width="456"><figcaption></figcaption></figure>
 
 The display of affiliate program items can be configured in the "**Affiliate Program**" -> "**Settings**" section.
 

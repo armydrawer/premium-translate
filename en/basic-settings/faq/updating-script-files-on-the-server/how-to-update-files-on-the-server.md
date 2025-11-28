@@ -35,7 +35,7 @@ Installing an incompatible module will result in an error (the website will not 
 
 3. Navigate to the directory path shown in the screenshot: `/wp-content/plugins/premiumbox/moduls/`
 
-<figure><img src="../../../../ru/.gitbook/assets/image (657) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (657) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 4. Select **one or more required modules** and drag them into the ISP Manager window, placing them in the corresponding directory on the server.
 
@@ -79,11 +79,11 @@ Download the updated module distribution (any archive compatible with **your scr
 
 Extract the downloaded archive on your computer and locate the folder containing the required merchant module:
 
-<figure><img src="../../../../ru/.gitbook/assets/image (674) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (674) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 or auto-payout module:
 
-<figure><img src="../../../../ru/.gitbook/assets/image (695) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (695) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Upload the contents of the module archive to the server in the `/wp-content/plugins/premiumbox/merchants` directory (for payment acceptance) or `/wp-content/plugins/premiumbox/paymerchants` directory (for auto-payouts). If a file conflict window appears, overwrite the files.
 {% endtab %}
@@ -99,7 +99,7 @@ Upload the contents of the module archive to the server in the `/wp-content/plug
 
 2. Navigate to the directory path shown in the screenshot: `/wp-content/themes/`
 
-<figure><img src="../../../../ru/.gitbook/assets/image (677) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (677) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 4. Select the required design folder (`newexchanger2.0` — the new standard design for 2024) and drag it into the ISP Manager window, placing it in the corresponding directory.
 
@@ -125,7 +125,7 @@ Upload the contents of the module archive to the server in the `/wp-content/plug
 
 2. Navigate to the directory path shown in the screenshot: `/wp-content/plugins/premiumbox/`
 
-<figure><img src="../../../../ru/.gitbook/assets/image (676) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (676) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 3. Select **one or more required directories** and drag them into the ISP Manager window, placing them in the corresponding directory.
 

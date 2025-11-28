@@ -66,7 +66,7 @@ Fill in the required authorization fields.
 
 * **Network** — specify the network for the payout currency according to [Binance requirements](https://www.binance.com/en/network)
 
-<figure><img src="../../../../ru/.gitbook/assets/image (551) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (551) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Purchase the missing amount of crypto for payout** — options for auto-purchasing currency for payouts:\
   • **No** — do not purchase currency for payout, pay directly from the wallet (the wallet must have sufficient reserves of the payout currency)\

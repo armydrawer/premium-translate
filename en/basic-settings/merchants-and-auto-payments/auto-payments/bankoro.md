@@ -30,7 +30,7 @@ In the admin panel, create a new merchant in the "**Merchants**" ➔ "**Add Auto
 
 Select Bankoro from the dropdown menu in the "**Module**" field, provide a name for the module, and click "**Save**".
 
-<figure><img src="../../../../ru/.gitbook/assets/image (2223) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2223) (1).png" alt=""><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
@@ -44,7 +44,7 @@ Fill in the required authorization fields.
 
 ## Special Fields
 
-<figure><img src="../../../../ru/.gitbook/assets/image (2221) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2221) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Payment Method** — select the currency for auto payouts (if you choose "**Automatically**," the currency code "**Receiving**" will be used).
 

@@ -37,7 +37,7 @@ The simplest way to [**back up your site**](https://premium.gitbook.io/main/en/b
 
 1.  In the exchange panel, go to the "**Console**" section and enable technical mode to prevent users from making requests on the site during the script update.
 
-    <figure><img src="../../../ru/.gitbook/assets/image (879) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (879) (1).png" alt=""><figcaption></figcaption></figure>
 2.  In the "**Plugins**" section, deactivate the "**Premium Exchanger**" and "**Premium Exchanger hooks**" plugins.\\
 
     <figure><img src="../../.gitbook/assets/image%20(254)_eng.png" alt=""><figcaption></figcaption></figure>
@@ -94,7 +94,7 @@ The same applies if you used coefficients (in the "**Parsers 2.0**" section ➔ 
 <img src="../../.gitbook/assets/image (2015)_eng.png" alt="" data-size="original">
 {% endhint %}
 
-<figure><img src="../../../ru/.gitbook/assets/image (258).png" alt="" width="362"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (258).png" alt="" width="362"><figcaption></figcaption></figure>
 
 When you start each step, the system will determine the total number of requests that need to be executed. You can specify the number of requests to be processed in one cycle.
 

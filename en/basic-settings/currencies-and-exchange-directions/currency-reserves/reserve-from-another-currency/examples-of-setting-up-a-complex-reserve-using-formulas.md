@@ -150,14 +150,14 @@ BTC (348)\
 **Reserve Formula**: (\[usdttrc\_westwallet] - \[excursum\_auto368] - (\[excursum\_auto348] \* \[parser\_usdtbtc]) - (\[excursum\_auto362] \* \[parser\_usdtdoge]) - (\[excursum\_auto355] \* \[parser\_usdteth]) - (\[excursum\_auto404] \* \[parser\_usdtsol])) / \[parser\_usdtbtc]\
 **Link to Reserve**: rc368
 
-<figure><img src="../../../../../ru/.gitbook/assets/image (831) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (831) (1).png" alt=""><figcaption></figcaption></figure>
 
 DOGE (362)\
 **Reserve**: according to the formula\
 **Reserve Formula**: (\[usdttrc\_westwallet] - \[excursum\_auto368] - (\[excursum\_auto348] \* \[parser\_usdtbtc]) - (\[excursum\_auto362] \* \[parser\_usdtdoge]) - (\[excursum\_auto355] \* \[parser\_usdteth]) - (\[excursum\_auto404] \* \[parser\_usdtsol])) / \[parser\_usdtdoge]\
 **Link to Reserve**: rc368
 
-<figure><img src="../../../../../ru/.gitbook/assets/image (983) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (983) (1).png" alt=""><figcaption></figcaption></figure>
 
 ETH (355)\
 **Reserve**: according to the formula\
@@ -171,4 +171,4 @@ SOL (404)\
 **Reserve Formula**: (\[usdttrc\_westwallet] - \[excursum\_auto368] - (\[excursum\_auto348] \* \[parser\_usdtbtc]) - (\[excursum\_auto362] \* \[parser\_usdtdoge]) - (\[excursum\_auto355] \* \[parser\_usdteth]) - (\[excursum\_auto404] \* \[parser\_usdtsol])) / \[parser\_usdtsol]\
 **Link to Reserve**: rc368
 
-<figure><img src="../../../../../ru/.gitbook/assets/image (944) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (944) (1).png" alt=""><figcaption></figcaption></figure>

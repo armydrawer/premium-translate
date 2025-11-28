@@ -53,7 +53,7 @@ All created notifications are displayed in the "Notifications" section.
 
 **CSS Class** — specify any class (without a dot) that has a filled `background` parameter in the `style.css` file of your theme — the background color of the selected class will be applied to the notification.
 
-![](<../../../ru/.gitbook/assets/image (699) (1).png>) ![](<../../.gitbook/assets/image (2100)_eng.png>)
+![](<../../.gitbook/assets/image (699) (1).png>) ![](<../../.gitbook/assets/image (2100)_eng.png>)
 
 {% hint style="info" %}
 An alternative option is to specify the desired [RGB code](https://colorscheme.ru/) for the background in the `wp-content/themes/your_theme_name/style.css` file for the **existing** class `.wclosearea` (find the class using Ctrl+F) and [clear the cache in Cloudflare](https://premium.gitbook.io/main/en/basic-settings/faq/kak-sbrosit-kesh-v-cloudflare) (no server restart is required) to see the changes immediately.

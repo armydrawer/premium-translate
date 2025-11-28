@@ -16,13 +16,13 @@ You can edit the text of the page and other settings (SEO text, keywords, title)
 
 You need to create this page manually and fill it with text as you see fit. Be sure to note the page address, as you will need it later.
 
-<figure><img src="../../../ru/.gitbook/assets/image (969) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (969) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 If you are using version 2.4, you need to upload and unpack the module into the `wp-content/plugins/premiumbox/moduls` folder.
 {% endhint %}
 
-{% file src="../../../ru/.gitbook/assets/additionalrules.zip" %}
+{% file src="../../.gitbook/assets/additionalrules.zip" %}
 Download Module
 {% endfile %}
 

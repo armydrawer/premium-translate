@@ -16,11 +16,11 @@ In the admin panel, create a new merchant in the "**Merchants**" section by sele
 
 Choose PSPWare from the dropdown menu in the "**Module**" field, enter a name for the module, and click "**Save**."
 
-<figure><img src="../../../../ru/.gitbook/assets/image (2157) (1).png" alt="" width="410"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2157) (1).png" alt="" width="410"><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../../ru/.gitbook/assets/image (2154) (1).png" alt="" width="464"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2154) (1).png" alt="" width="464"><figcaption></figcaption></figure>
 
 **Domain** — leave this field empty.
 
@@ -30,14 +30,14 @@ Fill in the required authorization fields.
 
 ## Special Fields
 
-<figure><img src="../../../../ru/.gitbook/assets/image (2155) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2155) (1).png" alt=""><figcaption></figcaption></figure>
 
 **SBP** — provide a phone number for payments via SBP instead of card details in requests.
 
 {% hint style="warning" %}
 Please note that you also need to forward the URL for the Webhook from the module settings to the service representative, requesting them to set it up for you. Without this URL being installed, requests with underpayments/overpayments **will not change their statuses**!
 
-<img src="../../../../ru/.gitbook/assets/image (2156) (1).png" alt="" data-size="original">
+<img src="../../../.gitbook/assets/image (2156) (1).png" alt="" data-size="original">
 {% endhint %}
 
 ## Continuing the Setup

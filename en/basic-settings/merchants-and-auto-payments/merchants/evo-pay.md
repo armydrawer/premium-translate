@@ -28,7 +28,7 @@ To enable the webhook for status changes of requests, specify the URL from the m
 
 To update request statuses without using a Cron job, add the webhook in your EVO account, select the "**Order**" method, and paste the previously copied webhook URL. Save the changes.
 
-<figure><img src="../../../../ru/.gitbook/assets/image (703) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (703) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Module Settings
 

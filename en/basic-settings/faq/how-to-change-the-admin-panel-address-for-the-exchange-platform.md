@@ -6,4 +6,4 @@ If you replace the value in the "**Admin Panel URL**" field with a custom addres
 
 Make sure to set a unique admin panel address to enhance your website's security.
 
-<figure><img src="../../../ru/.gitbook/assets/Screenshot_32 (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_32 (1) (1).png" alt=""><figcaption></figcaption></figure>

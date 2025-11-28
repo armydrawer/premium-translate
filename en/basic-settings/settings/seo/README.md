@@ -10,7 +10,7 @@ OGP (Open Graph Protocol) is a set of meta tags used to define how content will 
 
 {% tabs %}
 {% tab title="General Settings" %}
-<figure><img src="../../../../ru/.gitbook/assets/image (915) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (915) (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Homepage" %}
@@ -18,7 +18,7 @@ OGP (Open Graph Protocol) is a set of meta tags used to define how content will 
 {% endtab %}
 
 {% tab title="Posts" %}
-<figure><img src="../../../../ru/.gitbook/assets/image (859) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (859) (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Pages" %}
@@ -26,7 +26,7 @@ OGP (Open Graph Protocol) is a set of meta tags used to define how content will 
 {% endtab %}
 
 {% tab title="Exchange Form" %}
-<figure><img src="../../../../ru/.gitbook/assets/image (930) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (930) (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 

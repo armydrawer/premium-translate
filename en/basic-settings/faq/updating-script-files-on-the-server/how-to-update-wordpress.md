@@ -11,7 +11,7 @@ To update WordPress, follow these steps:
 2. **Open the `wp-config.php` file on your server.**\
    This file is located in the [root directory](https://premium.gitbook.io/main/en/basic-settings/faq/kak-naiti-kornevuyu-papku-saita-na-servere) of your site.
 
-<figure><img src="../../../../ru/.gitbook/assets/image (629) (1).png" alt="" width="394"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (629) (1).png" alt="" width="394"><figcaption></figcaption></figure>
 
 3. **Temporarily disable file modification restrictions.**\
    Locate the following line in the `wp-config.php` file and change the parameter from **true** to **false**. Save the changes.

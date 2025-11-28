@@ -26,7 +26,7 @@ If you upload license files from a different version of the script, the site wil
 You can change the domain name in the license no earlier than 24 hours before the current rental period expires.
 {% endhint %}
 
-<figure><img src="../../../ru/.gitbook/assets/Screenshot_11 (1) (1).png" alt="" width="514"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_11 (1) (1).png" alt="" width="514"><figcaption></figcaption></figure>
 
 3.  Select the number of months for the license renewal.\\
 
@@ -49,11 +49,11 @@ You can change the domain name in the license no earlier than 24 hours before th
 * **Option 2** — log in as the <mark style="color:red;">root</mark> user, then go to the "**Sites**" section, select the necessary site, and click the "**Log in as Owner**" button.\
   After these steps, you will be logged in as the <mark style="color:green;">user created for the site</mark>.
 
-<figure><img src="../../../ru/.gitbook/assets/image (838) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (838) (1).png" alt=""><figcaption></figcaption></figure>
 
 2. In the "**File Manager**" section, open your site's directory: `https://`_`your_domain_name/`_ and click the "**Upload**" icon. Wait for the file to upload.
 
-<figure><img src="../../../ru/.gitbook/assets/image (903) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (903) (1).png" alt=""><figcaption></figcaption></figure>
 
 3. Click the "**Select File**" button. Locate the previously downloaded archive `license.zip` on your computer and click the "**OK**" button.
 
@@ -61,4 +61,4 @@ You can change the domain name in the license no earlier than 24 hours before th
 
 4. Select the `license.zip` archive and extract it by clicking the "**Extract**" icon.
 
-<figure><img src="../../../ru/.gitbook/assets/image (985) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (985) (1).png" alt=""><figcaption></figcaption></figure>

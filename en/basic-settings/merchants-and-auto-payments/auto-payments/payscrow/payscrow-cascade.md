@@ -18,11 +18,11 @@ To discuss terms and connection, please contact a [service representative](https
 
 Register and log in to your merchant account. In the "Terminals" section ➔ "**API Settings**," copy the API key for authorization in the automatic payout module.
 
-<figure><img src="../../../../../ru/.gitbook/assets/image (11) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (11) (2).png" alt="" width="563"><figcaption></figcaption></figure>
 
 In the "**Order Status for Sale**" field, enter the URL from the automatic payout module settings (Callback URL).
 
-<figure><img src="../../../../../ru/.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (12) (2).png" alt=""><figcaption></figcaption></figure>
 
 ## Module Settings <a href="#nastroiki-modulya" id="nastroiki-modulya"></a>
 
@@ -40,7 +40,7 @@ Fill in the required authorization fields.
 
 ## Special Fields
 
-<figure><img src="../../../../../ru/.gitbook/assets/image (10) (1).png" alt="" width="422"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (10) (2).png" alt="" width="422"><figcaption></figcaption></figure>
 
 **Payment Method** — Choose the appropriate method for disbursing funds.
 

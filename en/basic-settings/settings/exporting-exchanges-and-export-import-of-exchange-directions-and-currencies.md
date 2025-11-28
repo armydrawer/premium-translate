@@ -5,7 +5,7 @@ All imported files must use the [**Windows-1251**](https://ru.wikipedia.org/wiki
 
 Please use the same encoding (Windows-1251) and data separators (semicolon) as in the files exported from the section.
 
-<img src="../../../ru/.gitbook/assets/image (839) (1).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (839) (1).png" alt="" data-size="original">
 {% endhint %}
 
 You can activate the "**Export/Import**" module in the site management panel under "**Modules" → "Modules"**.
@@ -54,7 +54,7 @@ If the CSV file contains currency names that were not previously in your exchang
 
 In the site management panel under "**Modules" → "Export/Import Currencies"**, you can:
 
-<figure><img src="../../../ru/.gitbook/assets/image (968) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (968) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Export (download) all currencies created in your exchange platform to a CSV file. You can open the CSV file using Microsoft Excel, for example.
 * Import (upload) currencies from a CSV file into your exchange platform.
