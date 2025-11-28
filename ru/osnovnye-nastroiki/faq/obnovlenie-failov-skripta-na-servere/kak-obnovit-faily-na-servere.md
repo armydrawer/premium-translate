@@ -56,7 +56,7 @@
 {% hint style="danger" %}
 Убедитесь, что вы скачиваете модуль именно под ту версию скрипта, которая установлена на вашем сервере. Версия скрипта отображается, к примеру, на странице "**Заявки**".
 
-![](<../../../.gitbook/assets/image (2021).png>)
+<img src="../../../.gitbook/assets/image (2021).png" alt="" data-size="original">
 {% endhint %}
 
 {% tabs %}
@@ -65,7 +65,7 @@
 
 <figure><img src="../../../.gitbook/assets/image (2022).png" alt=""><figcaption></figcaption></figure>
 
-Содержимое архива с модулем загрузите на сервер в директорию `/wp-content/plugins/premiumbox/merchants` (приём средств) или  `/wp-content/plugins/premiumbox/paymerchants` (автовыплата) и разархивируйте файлы (при возникновении окна о совпадении файлов — перезапишите файлы).
+Содержимое архива с модулем загрузите на сервер в директорию `/wp-content/plugins/premiumbox/merchants` (приём средств) или `/wp-content/plugins/premiumbox/paymerchants` (автовыплата) и разархивируйте файлы (при возникновении окна о совпадении файлов — перезапишите файлы).
 {% endtab %}
 
 {% tab title="Для версии 2.6 и ниже" %}
@@ -77,9 +77,9 @@
 
 <figure><img src="../../../.gitbook/assets/image (2023).png" alt="" width="563"><figcaption></figcaption></figure>
 
-&#x20;или автовыплаты:
+или автовыплаты:
 
-<figure><img src="../../../.gitbook/assets/image (2089).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2028) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Содержимое архива с модулем загрузите на сервер в директорию `/wp-content/plugins/premiumbox/merchants` (приём средств) или `/wp-content/plugins/premiumbox/paymerchants` (автовыплата) (при появлении окна о совпадении файлов - перезапишите файлы)
 {% endtab %}
@@ -95,7 +95,7 @@
 
 <figure><img src="../../../.gitbook/assets/image (2031).png" alt="" width="563"><figcaption></figcaption></figure>
 
-4. Выберите нужную  папку с дизайном (`newexchanger2.0` — новый стандартный дизайн 2024 года) и перетащите е в окно ISP Manager в аналогичную директорию.
+4. Выберите нужную папку с дизайном (`newexchanger2.0` — новый стандартный дизайн 2024 года) и перетащите е в окно ISP Manager в аналогичную директорию.
 
 <figure><img src="../../../.gitbook/assets/themes_240406131513.png" alt=""><figcaption></figcaption></figure>
 
@@ -113,7 +113,7 @@
 
 1. Скачайте архив скрипта **для обновления** со [страницы **"Ваши скрипты"**](https://premiumexchanger.com/uscripts/) под <mark style="color:red;">**вашу версию скрипта**</mark> (любая версия PHP) и распакуйте архив на компьютере.
 
-<figure><img src="../../../.gitbook/assets/image (2029).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2019) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 2. Перейдите к указанному на скриншоте пути к директории с модулями: `/wp-content/plugins/premiumbox/`
 

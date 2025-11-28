@@ -19,7 +19,7 @@ noIndex: true
 
 Укажите произвольное название для создаваемого доступа, IP-адрес вашего сервера (обязательно) и нажмите кнопку "**Создать**".
 
-<figure><img src="../../../.gitbook/assets/image (1585).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1584) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Скопируйте сгенерированные ключи и сохраните их в текстовый файл.
 

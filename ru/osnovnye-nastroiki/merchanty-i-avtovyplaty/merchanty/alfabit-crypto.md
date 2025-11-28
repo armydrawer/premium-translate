@@ -14,19 +14,19 @@
 
 Пройдите регистрацию и верификацию в сервисе [Alfabit](https://pay.alfabit.org/). Перейдите в раздел "**Мерчанты**" и нажмите кнопку "**Создать мерчант**".
 
-<figure><img src="../../../.gitbook/assets/image (364).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (358) (1).png" alt=""><figcaption></figcaption></figure>
 
 Заполните указанные поля и нажмите кнопку "**Создать проект**".
 
-<div><figure><img src="../../../.gitbook/assets/image (365).png" alt="" width="375"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (368).png" alt="" width="357"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (367).png" alt="" width="356"><figcaption></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/image (359) (1).png" alt="" width="375"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (368).png" alt="" width="357"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (367).png" alt="" width="356"><figcaption></figcaption></figure></div>
 
 Перейдите в настройки мерчанта, выберите вкладку "**API ключи**" и нажмите кнопку "**Добавить**".
 
-<figure><img src="../../../.gitbook/assets/image (371).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (360) (1).png" alt=""><figcaption></figcaption></figure>
 
 Заполните указанные поля и нажмите кнопку "**Сохранить**".
 
-<figure><img src="../../../.gitbook/assets/image (370).png" alt="" width="363"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (361) (1).png" alt="" width="363"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Выберите один или оба пункта "**Прием средств/Вывод средств**" в зависимости от цели использования мерчанта.
@@ -36,7 +36,7 @@
 
 <figure><img src="../../../.gitbook/assets/Arc_qmcPit3Hgb.png" alt="" width="352"><figcaption></figcaption></figure>
 
-&#x20;Сохраните сгенерированный ключ в текстовый файл и нажмите кнопку "**Готово**".
+Сохраните сгенерированный ключ в текстовый файл и нажмите кнопку "**Готово**".
 
 ## Настройки модуля
 
@@ -72,7 +72,7 @@
 {% hint style="danger" %}
 Обратите внимание, что заявки с суммой эквивалентом <12 USDT не будут конвертироваться (ограничения на стороне мерчанта) при включенной опции — средства по таким заявкам будут приходить на счёт в изначальной валюте
 
-![](<../../../.gitbook/assets/image (1788).png>)
+<img src="../../../.gitbook/assets/image (1788).png" alt="" data-size="original">
 {% endhint %}
 
 ## Продолжение настройки

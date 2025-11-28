@@ -12,7 +12,7 @@
 
 <figure><img src="../../.gitbook/assets/image (1956).png" alt="" width="327"><figcaption><p>Настройки модуля (вкладка "Платежные чеки" в настройках направления обмена)</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1954).png" alt="" width="563"><figcaption><p>В заявке нажмите кнопку "<strong>Choose file</strong>"</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1953) (1).png" alt="" width="563"><figcaption><p>В заявке нажмите кнопку "<strong>Choose file</strong>"</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (1952).png" alt="" width="563"><figcaption><p>Выберите нужный файл и загрузите его</p></figcaption></figure>
 
@@ -22,27 +22,17 @@
 
     <figure><img src="../../.gitbook/assets/image (1958).png" alt="" width="563"><figcaption></figcaption></figure>
 
-
-
     <figure><img src="../../.gitbook/assets/image (1959).png" alt="" width="464"><figcaption><p>Добавьте нужное количество групп в разделе "<strong>Группы направлений</strong>"</p></figcaption></figure>
-
-
 
     <figure><img src="../../.gitbook/assets/image (1960).png" alt="" width="563"><figcaption><p>В настройках направления на вкладке "<strong>Основные настройки</strong>" присвойте направлению нужную группу</p></figcaption></figure>
 
-
-
     <div data-full-width="true"><figure><img src="../../.gitbook/assets/image (1961).png" alt=""><figcaption><p>В таблице всех направлений выберите нужную группу и, к примеру, сделайте все направления из этой группы неактивными.</p></figcaption></figure></div>
-
-
 *   Указание индивидуального % прибыли для каждого города для направлений обмена с наличными по аналогии с [общим % прибыли для направления обмена](https://premium.gitbook.io/main/osnovnye-nastroiki/partnerskaya-programma/pribyl-i-partnerskii-procent#nastroika-pribyli-dlya-napravleniya-obmena).<br>
 
     <figure><img src="../../.gitbook/assets/image (1962).png" alt="" width="563"><figcaption><p>Вкладка "<strong>Города</strong>" в настройках направления обмена</p></figcaption></figure>
 *   Возможность установки статуса "**Выполненная заявка**" через API (метод `success_bid`). Как и другие API-методы для смены статусов заявок, этот метод распространяется только на заявки, созданные непосредственно по API.<br>
 
     <figure><img src="../../.gitbook/assets/image (1963).png" alt=""><figcaption><p>Для определения заявки необходимо передавать её хэш (он отображается в ответе для метода <code>create_bid</code> при создании заявки по API)</p></figcaption></figure>
-
-
 
     <figure><img src="../../.gitbook/assets/image (1964).png" alt=""><figcaption><p>Изменение статусов заявки по API</p></figcaption></figure>
 *   Массовый редактор информации — добавлен фильтр по группе направлений,
@@ -54,17 +44,13 @@
 
     <figure><img src="../../.gitbook/assets/image (1966).png" alt="" width="445"><figcaption><p>Выбор сущности для редактирования</p></figcaption></figure>
 
-
-
-    <div><figure><img src="../../.gitbook/assets/image (1967).png" alt="" width="563"><figcaption><p>Редактирование комиссий платежных систем</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (1970).png" alt="" width="563"><figcaption><p>Редактирование сумм обмена</p></figcaption></figure></div>
+    <div><figure><img src="../../.gitbook/assets/image (1967).png" alt="" width="563"><figcaption><p>Редактирование комиссий платежных систем</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (1968) (1).png" alt="" width="563"><figcaption><p>Редактирование сумм обмена</p></figcaption></figure></div>
 *   Возможность полного отключения лога мерчантов и автовыплат<br>
 
     <figure><img src="../../.gitbook/assets/image (283).png" alt=""><figcaption><p>Опция находится в настройках каждого модуля мерчанта и автовыплаты</p></figcaption></figure>
 *   Запрет на создание заявок с одной и той же суммой для направления обмена<br>
 
     <figure><img src="../../.gitbook/assets/image (285).png" alt="" width="422"><figcaption><p>Вкладка "<strong>Ограничения и проверки</strong>" в настройках направления обмена</p></figcaption></figure>
-
-
 
     <figure><img src="../../.gitbook/assets/image (286).png" alt="" width="532"><figcaption><p>При создании второй заявки и при наличии неоплаченной первой заявки на ту же сумму, клиент получит ошибку</p></figcaption></figure>
 *   Модуль сортировки направлений и валют — в разделе будут отображаться только активные валюты (ранее отображались все валюты)<br>
@@ -78,23 +64,19 @@
 
     <figure><img src="../../.gitbook/assets/image (276).png" alt=""><figcaption><p>При такой настройке оператору будут отображаться только заявки, где использовался мерчант Advcash</p></figcaption></figure>
 
-
-
     <figure><img src="../../.gitbook/assets/image (277).png" alt=""><figcaption><p>При такой настройке оператору будут отображаться только заявки из указанных направлений обмена</p></figcaption></figure>
-
-
 
     <figure><img src="../../.gitbook/assets/image (278).png" alt=""><figcaption><p>При такой настройке оператору будут отображаться только заявки из указанных направлений обмена, а также заявки из всех направлений обмена, где использовался мерчант Advcash</p></figcaption></figure>
 
 Также можно использовать обратный фильтр:
 
-<figure><img src="../../.gitbook/assets/image (279).png" alt=""><figcaption><p>При такой настройке оператору будут отображаться заявки из <strong>всех</strong> направлений обмена, кроме указанных </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (279).png" alt=""><figcaption><p>При такой настройке оператору будут отображаться заявки из <strong>всех</strong> направлений обмена, кроме указанных</p></figcaption></figure>
 
 {% hint style="warning" %}
 Не используйте в фильтрах положительные и отрицательные значения одновременно — фильтрация осуществляется по принципу ИЛИ, поэтому отрицательные фильтры не будут учитываться, если они указаны вместе с положительными.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (281).png" alt=""><figcaption><p>При такой настройке оператору будут отображаться <strong>все</strong> заявки из направления обмена 1340 (даже если в них использовался мерчант Bova), а также заявки из <strong>всех</strong> направлений обмена, где <strong>не</strong> использовался мерчант Bova.<br>Т.е. отрицательный фильтр по мерчанту Bova не будет учитываться, если он использовался в направлении 1340</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (280) (1).png" alt=""><figcaption><p>При такой настройке оператору будут отображаться <strong>все</strong> заявки из направления обмена 1340 (даже если в них использовался мерчант Bova), а также заявки из <strong>всех</strong> направлений обмена, где <strong>не</strong> использовался мерчант Bova.<br>Т.е. отрицательный фильтр по мерчанту Bova не будет учитываться, если он использовался в направлении 1340</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (282).png" alt=""><figcaption><p>При такой настройке оператору будут отображаться заявки из всех направлений обмена (даже если в них <strong>не</strong> использовался мерчант Bova), а также заявки из <strong>всех</strong> направлений обмена, где использовался мерчант Bova (даже если это направление 1340).<br>Т.е. отрицательный фильтр по направлению 1340 не будет учитываться, если были заявки в этом направлении с мерчантом Bova</p></figcaption></figure>
 
@@ -157,12 +139,14 @@
     то заявка сменит статус на "**Ожидание**" и вернется в предыдущий статус (при успешной проверке реквизитов клиента) или в "**AML проверка не пройдена**" (при превышении риска) после получения ответа от AML-сервиса. Для работы опции необходимо добавить [задание cron](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-sozdat-zadanie-cron-na-servere) на сервере (ссылка для задания находится в разделе "AML").
 *
 
-    <figure><img src="../../.gitbook/assets/image (273).png" alt="" width="528"><figcaption></figcaption></figure>
+```
+<figure><img src="../../.gitbook/assets/image (273).png" alt="" width="528"><figcaption></figcaption></figure>
+```
 
 {% hint style="warning" %}
 Вышеуказанная опция распространяется только на уже созданные заявки (если проверка в этом направлении обмена включена как "**При оплате**" или "**Перед автовыплатой**")
 
-![](<../../.gitbook/assets/image (249).png>)
+<img src="../../.gitbook/assets/image (249).png" alt="" data-size="original">
 {% endhint %}
 
 *   Добавлено логирование действий оператора/менеджера. Будут отображаться:\
@@ -197,8 +181,6 @@
 <details>
 
 <summary>Список обновлений</summary>
-
-
 
 *   **Модуль "Черный список Bestchange" (blacklist\_bestchange)**: Добавлена возможность остановки выплаты по заявке, если один или несколько реквизитов клиента находятся в черном списке Bestchange при использовании модуля. Настройки модуля находятся в разделе "**Модули**" -> "**Черный список Bestchange".**
 
@@ -361,8 +343,6 @@
 <details>
 
 <summary>Список обновлений</summary>
-
-
 
 *   Вставка картинки для примера фото для верификации карты в настройках валюты с помощью шорткода img.
 

@@ -20,7 +20,7 @@
 
 Создайте нового мерчанта в личном кабинете.
 
-<figure><img src="../../../.gitbook/assets/image (2242).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2240) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (2241).png" alt=""><figcaption></figcaption></figure>
 

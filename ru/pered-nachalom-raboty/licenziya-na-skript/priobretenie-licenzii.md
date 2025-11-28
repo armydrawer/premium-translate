@@ -23,7 +23,7 @@
 
 1. Авторизуйтесь на вашем сервере в ISP Manager под пользователем root. Перейдите в раздел "**Сайты**", выберите необходимый сайт и нажмите кнопку "**Войти как владелец**".
 
-<figure><img src="../../.gitbook/assets/image (998).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (838) (1).png" alt=""><figcaption></figcaption></figure>
 
 2. В разделе "**Менеджер файлов**" откройте директорию вашего сайта: `https://`_`имя_вашего_домена/`_ и нажмите на иконку "**Загрузить"**. Дождитесь загрузки файла.
 
@@ -36,4 +36,3 @@
 4. Выберите архив `license.zip` и распакуйте его, кликнув по иконке "**Извлечь**".
 
 <figure><img src="../../.gitbook/assets/image (985).png" alt=""><figcaption></figcaption></figure>
-

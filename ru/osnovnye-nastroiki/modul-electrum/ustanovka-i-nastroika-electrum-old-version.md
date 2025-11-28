@@ -17,7 +17,7 @@
 1. Авторизуйтесь в панели управления ISP Manager с использованием учетных данных <mark style="color:red;">**root-пользователя**</mark>.
 2. Перейдите в раздел "**Администрирование" -> "Shell-клиент"**
 
-<figure><img src="../../.gitbook/assets/изображение (126).png" alt="" width="330"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (52) (1).png" alt="" width="330"><figcaption></figcaption></figure>
 
 3. Нажмите правой кнопкой мыши на пустом экране и выберите "**Paste from browser**" в контекстном меню.
 
@@ -101,11 +101,11 @@ sudo apt-get install libsecp256k1-0 python3-cryptography -y
 
 14. Выделите нужный сайт и нажмите на кнопку **"Войти как владелец"**. Вы будете авторизованы как <mark style="color:green;">пользователь, созданный для сайта</mark>.
 
-<figure><img src="../../.gitbook/assets/изображение (71).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (71) (1).png" alt=""><figcaption></figcaption></figure>
 
 15. Откройте раздел "**Менеджер файлов**" в боковой панели.
 
-<figure><img src="../../.gitbook/assets/изображение (115).png" alt="" width="330"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (67) (1).png" alt="" width="330"><figcaption></figcaption></figure>
 
 16. В открывшуюся директорию загрузите файлы из архива **`electrum_installer.zip`**, который вы получили от нас, и ранее созданный файл кошелька Electrum из папки "**electrum\_data**" на вашем компьютере.
 
@@ -129,7 +129,7 @@ sudo apt-get install libsecp256k1-0 python3-cryptography -y
 
 18. Перейдите в раздел **"Shell-клиент",** будучи авторизованным под <mark style="color:green;">пользователем, созданным для сайта</mark>.
 
-<figure><img src="../../.gitbook/assets/изображение (52).png" alt="" width="330"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (52) (1).png" alt="" width="330"><figcaption></figcaption></figure>
 
 19. Нажмите правой клавишей на пустом экране и выберите пункт **"Paste from browser"**, введите команду **`bash install_electrum.sh`** и нажмите кнопку ОК. Затем нажмите клавишу **Enter** для запуска команды.
 
@@ -137,12 +137,12 @@ sudo apt-get install libsecp256k1-0 python3-cryptography -y
 
 20. После выполнения скрипта сохраните данные, выделенные красной рамкой на скриншоте ниже, для дальнейшей настройки модуля в панели администратора обменника Premium Exchanger.
 
-<figure><img src="../../.gitbook/assets/image (1324).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1323) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 Если вы устанавливаете модуль Electrum на сервер, отличный от того, где установлен скрипт Premium Exchanger — в настройках модуля мерчанта/автовыплаты в панели администратора позже необходимо будет также заполнить поле "API Server", указав IP-адрес сервера, на котором установлен Electrum.
 
-![](<../../.gitbook/assets/image (1351).png>)
+<img src="../../.gitbook/assets/image (1351).png" alt="" data-size="original">
 {% endhint %}
 
 ## Добавление заданий Cron

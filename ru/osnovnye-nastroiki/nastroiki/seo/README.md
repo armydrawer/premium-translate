@@ -127,7 +127,7 @@ XML-карта сайта — это файл, который содержит �
 
 3. Выберите настройки главной страницы:
 
-<figure><img src="../../../.gitbook/assets/image (1918).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1916) (1).png" alt=""><figcaption></figcaption></figure>
 
 4. На открывшейся странице:
 

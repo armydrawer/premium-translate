@@ -20,7 +20,7 @@
 
 Выберите LazyTrade в выпадающем списке в поле "**Модуль**", укажите название для модуля и нажмите "**Сохранить**".
 
-<figure><img src="../../../.gitbook/assets/image (2267).png" alt="" width="372"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2263) (1).png" alt="" width="372"><figcaption></figcaption></figure>
 
 Заполните указанные авторизационные поля.
 

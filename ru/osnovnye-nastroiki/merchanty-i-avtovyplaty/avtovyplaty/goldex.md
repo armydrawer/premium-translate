@@ -1,7 +1,5 @@
 # GoldEx
 
-
-
 {% hint style="danger" %}
 <mark style="color:red;">Перед настройкой автовыплат обязательно прочитайте</mark> [<mark style="color:blue;">предупреждение о рисках!</mark>](https://premium.gitbook.io/main/osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/preduprezhdenie-o-riskakh)
 {% endhint %}
@@ -62,12 +60,12 @@
 
 Указывайте название из списка выше в поле "**Уникальный ID**" (остальные поля заполняются по вашему усмотрению)
 
-![](<../../../.gitbook/assets/image (2004).png>)
+<img src="../../../.gitbook/assets/image (2004).png" alt="" data-size="original">
 {% endhint %}
 
 <figure><img src="../../../.gitbook/assets/image (244).png" alt="" width="563"><figcaption><p>Настройки доп. полей (в скобках указан уникальный ID из одноименного поля из настроек каждого доп. поля)</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (246).png" alt="" width="533"><figcaption><p>Форма обмена</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (245) (1).png" alt="" width="533"><figcaption><p>Форма обмена</p></figcaption></figure>
 
 ## Продолжение настройки
 

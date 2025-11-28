@@ -18,19 +18,19 @@
 
 Пройдите регистрацию и верификацию в сервисе [Alfabit](https://pay.alfabit.org/). Перейдите в раздел "**Мерчанты**" и нажмите кнопку "**Создать мерчант**".
 
-<figure><img src="../../../.gitbook/assets/image (358).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (358) (1).png" alt=""><figcaption></figcaption></figure>
 
 Заполните указанные поля и нажмите кнопку "**Создать проект**".
 
-<div><figure><img src="../../../.gitbook/assets/image (359).png" alt="" width="375"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (1795).png" alt="" width="357"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (1796).png" alt="" width="356"><figcaption></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/image (359) (1).png" alt="" width="375"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (368) (1).png" alt="" width="357"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (367) (1).png" alt="" width="356"><figcaption></figcaption></figure></div>
 
 Перейдите в настройки мерчанта, выберите вкладку "**API ключи**" и нажмите кнопку "**Добавить**".
 
-<figure><img src="../../../.gitbook/assets/image (360).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (360) (1).png" alt=""><figcaption></figcaption></figure>
 
 Заполните указанные поля и нажмите кнопку "**Сохранить**".
 
-<figure><img src="../../../.gitbook/assets/image (361).png" alt="" width="363"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (361) (1).png" alt="" width="363"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Выберите один или оба пункта "**Прием средств/Вывод средств**" в зависимости от цели использования мерчанта.

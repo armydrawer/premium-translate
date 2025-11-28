@@ -5,8 +5,7 @@
 {% hint style="info" %}
 Если раздел не отображается в боковой панели - включите модуль в разделе "**Модули**":
 
-![](<../../../.gitbook/assets/image (1074).png>)
+<img src="../../../.gitbook/assets/image (1038) (1).png" alt="" data-size="original">
 {% endhint %}
 
 <figure><img src="../../../.gitbook/assets/image (861).png" alt=""><figcaption></figcaption></figure>
-

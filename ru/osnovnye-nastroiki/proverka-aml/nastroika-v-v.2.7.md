@@ -20,7 +20,7 @@
 {% tab title="AML Bot" %}
 <figure><img src="../../.gitbook/assets/image (188).png" alt="" width="462"><figcaption></figcaption></figure>
 
-### Подключение к сервису <a href="#podklyuchenie-k-servisu" id="podklyuchenie-k-servisu"></a>
+#### Подключение к сервису <a href="#podklyuchenie-k-servisu" id="podklyuchenie-k-servisu"></a>
 
 Пройдите регистрацию на сервисе [AMLBot](https://web.amlbot.com/signup?), авторизуйтесь в личном кабинете и выпустите ID и ключ для авторизации в модуле.
 
@@ -32,7 +32,7 @@
 {% tab title="BitOk" %}
 <figure><img src="../../.gitbook/assets/image (189).png" alt="" width="461"><figcaption></figcaption></figure>
 
-### Подключение к сервису <a href="#podklyuchenie-k-servisu" id="podklyuchenie-k-servisu"></a>
+#### Подключение к сервису <a href="#podklyuchenie-k-servisu" id="podklyuchenie-k-servisu"></a>
 
 Для подключения к сервису напишите [менеджеру](https://t.me/premiumexchanger_business) — он создаст чат с вами и представителями AML сервиса для обсуждения условий подключения, тарифов и других вопросов
 
@@ -52,7 +52,7 @@
 {% tab title="CoinKyt" %}
 <figure><img src="../../.gitbook/assets/image (190).png" alt="" width="461"><figcaption></figcaption></figure>
 
-### Подключение к сервису <a href="#podklyuchenie-k-servisu" id="podklyuchenie-k-servisu"></a>
+#### Подключение к сервису <a href="#podklyuchenie-k-servisu" id="podklyuchenie-k-servisu"></a>
 
 Для подключения к сервису напишите [менеджеру](https://t.me/premiumexchanger_business) — он создаст чат с вами и представителями AML сервиса для обсуждения условий подключения, тарифов и других вопросов
 
@@ -66,7 +66,7 @@
 {% tab title="GetBlock" %}
 <figure><img src="../../.gitbook/assets/image (191).png" alt="" width="457"><figcaption></figcaption></figure>
 
-### Подключение к сервису <a href="#podklyuchenie-k-servisu" id="podklyuchenie-k-servisu"></a>
+#### Подключение к сервису <a href="#podklyuchenie-k-servisu" id="podklyuchenie-k-servisu"></a>
 
 Для получения API-ключа напишите письмо на [info@getblock.net](mailto:info@getblock.net). Укажите полученный от представителя сервиса ключ в соответствующем поле в настройках модуля и сохраните данные.
 {% endtab %}
@@ -115,7 +115,7 @@ TxID — это уникальный идентификатор транзакц
 * **Пример:**\
   Хэш транзакции можно сравнить с "отпечатком пальца" транзакции после её подтверждения. Он уникален и зависит от всех данных, связанных с транзакцией в блоке.
 
-#### **Аналогия**
+**Аналогия**
 
 Представьте, что вы отправляете письмо:
 
@@ -187,12 +187,10 @@ TxID — это уникальный идентификатор транзакц
 
 Проверка счетов "**Отдаю**" и "**Получаю**":
 
-![](https://premium.gitbook.io/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252F7R3KdtN6GGnYeNXhmRma%252Fimage.png%3Falt%3Dmedia%26token%3D63493485-ecb6-47e6-9f1b-2401b3502abe\&width=768\&dpr=4\&quality=100\&sign=ab6174df\&sv=2)![](https://premium.gitbook.io/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FD3WNc4TbMfIAV3uhgBab%252Fimage.png%3Falt%3Dmedia%26token%3D5547117b-2df9-437b-8601-e31e26f6930e\&width=768\&dpr=4\&quality=100\&sign=2384dec3\&sv=2)
+![](https://premium.gitbook.io/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252F7R3KdtN6GGnYeNXhmRma%252Fimage.png%3Falt%3Dmedia%26token%3D63493485-ecb6-47e6-9f1b-2401b3502abe\&width=768\&dpr=4\&quality=100\&sign=ab6174df\&sv=2) ![](https://premium.gitbook.io/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FD3WNc4TbMfIAV3uhgBab%252Fimage.png%3Falt%3Dmedia%26token%3D5547117b-2df9-437b-8601-e31e26f6930e\&width=768\&dpr=4\&quality=100\&sign=2384dec3\&sv=2)
 
 * **Нет** — проверка не будет производиться
 *   **Да, во время создания заявки** — проверка будут производиться для запрета создания заявки при превышении заданного уровня риска
-
-
 
     <figure><img src="https://premium.gitbook.io/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FrCkAUosTHwbhajPIQwjp%252Fbrave_nG8qmZEGwR.png%3Falt%3Dmedia%26token%3Dd2063fa4-97fa-4736-97d5-bd3fd8220467&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=93fefc8d&#x26;sv=2" alt="" width="563"><figcaption></figcaption></figure>
 * **Да, при оплате** — проверка счета будет производиться при приеме платежа, сделанного клиентом (но только если в направлении обмена подключен модуль мерчанта на прием средств)
@@ -201,7 +199,7 @@ TxID — это уникальный идентификатор транзакц
 
 * **Да, во время автовыплаты** — проверка счета будет производиться перед выплатой средств клиенту (но только если в направлении обмена подключен модуль автовыплаты средств)
 * **Превышение риска:**\
-  • **Ничего** — проверки будут производиться только для информационных целей \
+  • **Ничего** — проверки будут производиться только для информационных целей\
   • **Ошибка** — при превышении риска, указанного в настройках модуля, клиенту будет отображаться ошибка при создании заявки или при попытке автовыплаты (в зависимости от настроек)
 * **Сумма обмена "от"** — размер суммы из заявки, только при превышении которого будет выполняться проверка адреса или транзакции. При сумме в заявке ниже указанной, проверка выполняться не будет.
 

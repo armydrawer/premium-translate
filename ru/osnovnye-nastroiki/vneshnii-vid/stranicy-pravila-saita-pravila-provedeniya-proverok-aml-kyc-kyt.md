@@ -10,7 +10,7 @@
 
 <figure><img src="../../.gitbook/assets/image (1191).png" alt=""><figcaption><p>Раздел "<strong>Страницы</strong>"</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1055).png" alt=""><figcaption><p>Страница обменника</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (834) (1).png" alt=""><figcaption><p>Страница обменника</p></figcaption></figure>
 
 ### Страница "Правила проведения проверок AML/KYC/KYT"
 

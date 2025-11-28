@@ -12,7 +12,7 @@
 <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Затем выполните команду, при помощи которой будет зашифрован пароль доступа:\
-`sh -c "openssl passwd -apr1 >> /etc/nginx/.htpasswd"`&#x20;
+`sh -c "openssl passwd -apr1 >> /etc/nginx/.htpasswd"`
 
 <figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -40,7 +40,7 @@
 **-apr1** — алгоритм хеширования (Apache mod\_auth\_digest MD5, совместимый с Nginx).
 {% endhint %}
 
-**После этого действия система запросит пароль и подтверждение пароля — укажите их.**&#x20;
+**После этого действия система запросит пароль и подтверждение пароля — укажите их.**
 
 Настройка файла с логином и паролем закончена.
 
@@ -68,7 +68,7 @@ satisfy any;
 
 После чего сохраните изменения и перегрузите сервер.
 
-<figure><img src="../../.gitbook/assets/image (2177).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2176) (1).png" alt=""><figcaption></figcaption></figure>
 
 Чтобы отключить пароль к сайту, удалите строки (2), сохраните изменения и перегрузите сервер.
 

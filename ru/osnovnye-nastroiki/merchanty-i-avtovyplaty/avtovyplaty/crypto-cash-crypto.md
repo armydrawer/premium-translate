@@ -22,7 +22,7 @@
 
 Выпустите приватный API-ключ по кнопке "**Generate API Key**". Скопируйте оба ключа в буфер обмена или текстовый файл.
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (2).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Настройки модуля
 

@@ -23,7 +23,7 @@ noIndex: true
 
 Включите API для вашего аккаунта.
 
-<figure><img src="../../../.gitbook/assets/image (1491).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1490) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Укажите IP-адрес вашего сервера в настройках API и сохраните данные.
 

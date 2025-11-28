@@ -33,8 +33,6 @@
 Самый простой способ [**сделать резервную копию сайта**](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-sdelat-bekap-saita) — через панель управления сервером (ISP Manager или другое ПО) с помощью встроенного в панель файлового менеджера или через FTP-клиент (скачайте на компьютер файлы сайта, а также в разделе управления базами данных или через PhpMyAdmin скачайте БД сайта).
 {% endhint %}
 
-
-
 ## Процесс обновления
 
 1.  В панели управления обменником в разделе "**Консоль**" включите технический режим работы обменника, чтобы пользователи обменника не совершали заявки на сайте во время обновления скрипта.
@@ -80,7 +78,7 @@
 [**Инструкция по проверке версии PHP, установленной на сервере**](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-proverit-versiyu-php-ustanovlennuyu-na-servere)
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (257).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (256) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 6. Загрузите содержимое архива с обновлением в корневую папку вашего сайта под <mark style="color:green;">**пользователем, созданным для сайта**</mark> (не <mark style="color:red;">**root**</mark>!). Используйте FTP-клиент, либо файловый менеджер. Распакуйте архив с заменой файлов.
 7. Перейдите в раздел "**Плагины**" и активируйте плагины "**Premium Exchanger"** и "**Premium Exchanger hooks**".
@@ -89,14 +87,14 @@
 {% hint style="danger" %}
 Если вы использовали модули AML в версии 2.6 — необходимо включить модуль AML в разделе "**Модули**" <mark style="color:red;">**после**</mark> обновления скрипта и <mark style="color:red;">**перед**</mark> выполнением миграции для корректного переноса настроек с версии 2.6.
 
-![](<../../.gitbook/assets/image (2009).png>)
+<img src="../../.gitbook/assets/image (2009).png" alt="" data-size="original">
 
 Аналогичная ситуация при использовании коэффициентов (раздел "**Парсеры 2.0**" ➔ "**Пользовательские коэффициенты**") — если вы использовали коэффициенты в версии 2.6, необходимо включить одноименный модуль в разделе "**Модули**" <mark style="color:red;">**после**</mark> обновления скрипта и <mark style="color:red;">**перед**</mark> выполнением миграции для корректного переноса коэффициентов с версии 2.6.
 
-![](<../../.gitbook/assets/image (2015).png>)
+<img src="../../.gitbook/assets/image (2015).png" alt="" data-size="original">
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (2214).png" alt="" width="362"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (258) (1).png" alt="" width="362"><figcaption></figcaption></figure>
 
 При запуске каждого шага система определит общее количество запросов, которые нужно выполнить. У вас есть возможность задать количество запросов, которое будет обработано за один цикл.
 

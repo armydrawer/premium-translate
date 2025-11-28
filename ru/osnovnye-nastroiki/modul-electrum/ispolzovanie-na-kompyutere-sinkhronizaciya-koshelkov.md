@@ -13,7 +13,7 @@
 
 1.  В панели управления ISP Manager через раздел "**Сайты"** выделить нужный сайт одним кликом мыши и нажмите на пункт "**Войти как владелец"**.<br>
 
-    <figure><img src="../../.gitbook/assets/изображение (94).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/изображение (71) (1).png" alt=""><figcaption></figcaption></figure>
 2. Откройте раздел **"Менеджер файлов"**.
 
 <figure><img src="../../.gitbook/assets/изображение (67).png" alt="" width="330"><figcaption></figcaption></figure>

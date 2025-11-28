@@ -21,7 +21,7 @@
 
 <img src="../../../.gitbook/assets/image (140).png" alt="" data-size="original">
 
-![](<../../../.gitbook/assets/image (141).png>)
+<img src="../../../.gitbook/assets/image (141).png" alt="" data-size="original">
 {% endhint %}
 
 Скопируйте "**Basic токен**" для созданного мерчанта в буфер обмена или текстовый файл.

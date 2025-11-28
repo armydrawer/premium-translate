@@ -17,7 +17,7 @@
   • **Все пользователи** — доступ к API будет у всех пользователей обменника\
   • **Избранные пользователи** — доступ к API будет только у тех пользователей, для кого включена опция "**Работать с REST API**" в настройках пользователя в панели администратора
 
-<figure><img src="../.gitbook/assets/image (1111).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1031) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Логи** — запись лога при работе с API в раздел "**API**" ➔ "**Логи**"\
   • **Нет**\
@@ -67,7 +67,7 @@
 
 Для авторизации, необходимо отправлять в заголовках (headers) запросов к API информацию, полученную ранее в разделе "**API**":
 
-**API-LOGIN** — API-логин&#x20;
+**API-LOGIN** — API-логин
 
 **API-KEY** — API-ключ
 
@@ -599,7 +599,7 @@ payout_id - ID выплаты
 
 *   Указаны некорректные авторизационные данные из раздела "**API**" для пользователя, который работает с API
 
-    <figure><img src="../.gitbook/assets/image (1472).png" alt="" width="504"><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (1465) (1).png" alt="" width="504"><figcaption></figcaption></figure>
 * Не разрешена работа с API в настройках пользователя в разделе "**Пользователи**"
 
 <figure><img src="../.gitbook/assets/image (1466).png" alt="" width="335"><figcaption></figcaption></figure>
@@ -622,9 +622,7 @@ payout_id - ID выплаты
 
 *   Не активирован выбранный метод в разделе "**API**" для пользователя<br>
 
-
-
-    <figure><img src="../.gitbook/assets/image (1473).png" alt="" width="563"><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (1464) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### Direction not found
 

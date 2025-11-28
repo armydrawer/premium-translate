@@ -15,7 +15,7 @@
 {% hint style="success" %}
 Вы можете использовать курс для направлений обмена от Nicepay — для этого в разделе "**Парсеры 2.0**" ➔ "**Настройки"** выберите сам источник (отметьте его галочкой),
 
-![](<../../../.gitbook/assets/image (23).png>)
+<img src="../../../.gitbook/assets/image (23).png" alt="" data-size="original">
 
 затем создайте необходимые курсы по [инструкции](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya-obmena/kursy-valyut/parser-kursov-valyut-parsery-2.0).
 
@@ -30,7 +30,7 @@
 
 Выберите нужный курс в направлении обмена на вкладке "**Автокорректировка курса**".
 
-![](<../../../.gitbook/assets/image (26).png>)
+<img src="../../../.gitbook/assets/image (26).png" alt="" data-size="original">
 {% endhint %}
 
 Пройдите регистрацию на сервисе Nicepay с помощью [представителя сервиса](https://t.me/nice_sup) и авторизуйтесь в [личном кабинете](https://nicepay.io/ru/app).
@@ -75,7 +75,7 @@
 
 **Merchant type** — выберите формат мерчанта
 
-<figure><img src="../../../.gitbook/assets/image (2131).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2130) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Payment Link** — реквизиты будут отображаться на отдельной платежной странице
 * **Requisites** — реквизиты будут отображаться в самой заявке через шорткод \[to\_account]

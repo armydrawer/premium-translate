@@ -29,8 +29,7 @@
 <summary>Если вы используете ispmanager, выполните следующие шаги:</summary>
 
 1. Авторизуйтесь в ispmanager под <mark style="color:red;">**root-пользователем**</mark>.
-
-2) Перейдите в раздел "**Сайты**", выберите ваш сайт и нажмите кнопку "Настройки **PHP для сайта**".
+2. Перейдите в раздел "**Сайты**", выберите ваш сайт и нажмите кнопку "Настройки **PHP для сайта**".
 
 <figure><img src="../../../.gitbook/assets/image (2181).png" alt=""><figcaption></figcaption></figure>
 
@@ -56,8 +55,7 @@
 <summary>Если вы используете ispmanager, выполните следующие шаги:</summary>
 
 1. Авторизуйтесь в ispmanager под <mark style="color:red;">**root-пользователем**</mark>.
-
-2) Перейдите в раздел "**Сайты**", выберите ваш сайт и нажмите кнопку "**Настройки PHP для сайта**".
+2. Перейдите в раздел "**Сайты**", выберите ваш сайт и нажмите кнопку "**Настройки PHP для сайта**".
 
 <figure><img src="../../../.gitbook/assets/image (2181).png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -82,8 +80,7 @@
 <summary>Если вы используете ispmanager, выполните следующие шаги:</summary>
 
 1. Авторизуйтесь в ispmanager под <mark style="color:red;">**root-пользователем**</mark>.
-
-2) Перейдите в раздел "**PHP**", выберите версию PHP, [которая используется на вашем сайте](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-proverit-versiyu-php-ispolzuyushuyusya-dlya-saita) и нажмите кнопку "Расширения".
+2. Перейдите в раздел "**PHP**", выберите версию PHP, [которая используется на вашем сайте](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-proverit-versiyu-php-ispolzuyushuyusya-dlya-saita) и нажмите кнопку "Расширения".
 
 <figure><img src="../../../.gitbook/assets/image (2186).png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -104,21 +101,18 @@
     </FilesMatch>
     ```
 
-
-
 <details>
 
 <summary>Если вы используете ispmanager, выполните следующие шаги:</summary>
 
 1. Авторизуйтесь в ispmanager под <mark style="color:yellow;">**любым пользователем**</mark>.
-
-2) Перейдите в раздел "**Сайты**", выберите ваш сайт и нажмите кнопку "**Файлы сайта**".
+2. Перейдите в раздел "**Сайты**", выберите ваш сайт и нажмите кнопку "**Файлы сайта**".
 
 <figure><img src="../../../.gitbook/assets/image (2188).png" alt=""><figcaption></figcaption></figure>
 
 3. Найдите файл `.htaccess` и перейдите в режим его редактирования двойным кликом.
 
-<figure><img src="../../../.gitbook/assets/image (2190).png" alt="" width="479"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2189) (1).png" alt="" width="479"><figcaption></figcaption></figure>
 
 4. Укажите указанный выше текст в файле и сохраните изменения.
 
@@ -141,7 +135,7 @@
 {% hint style="info" %}
 Предупреждения также отображаются в разделе "Консоль", блок "Проверка безопасности"
 
-<img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" data-size="original">
+<img src="../../../.gitbook/assets/image (2192) (1).png" alt="" data-size="original">
 {% endhint %}
 
 \

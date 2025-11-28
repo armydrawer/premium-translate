@@ -36,13 +36,13 @@
 
 Заполните указанные авторизационные поля.
 
-<figure><img src="../../../.gitbook/assets/Arc_5NJ6WqIhsR.png" alt="" width="435"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Arc_5NJ6WqIhsR (1).png" alt="" width="435"><figcaption></figcaption></figure>
 
 **API ключ** — ключ, ранее скопированный из личного кабинета Luckypay
 
 ## Особые поля
 
-<div><figure><img src="../../../.gitbook/assets/image (316).png" alt="" width="217"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (318).png" alt="" width="215"><figcaption></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/image (316).png" alt="" width="217"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (317) (1).png" alt="" width="215"><figcaption></figcaption></figure></div>
 
 **Способ оплаты** — выберите необходимый способ для выплаты средств
 

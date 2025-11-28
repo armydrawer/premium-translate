@@ -79,7 +79,7 @@
 
 Проверка счетов "**Отдаю**" и "**Получаю**":
 
-<div><figure><img src="../../../.gitbook/assets/image (401).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (403).png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/image (401).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (402) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 * **Нет** — проверка не будет производиться
 *   **Да, во время создания заявки** — проверка будут производиться для запрета создания заявки при превышении заданного уровня риска<br>
@@ -87,7 +87,7 @@
     <figure><img src="../../../.gitbook/assets/brave_nG8qmZEGwR.png" alt="" width="563"><figcaption></figcaption></figure>
 * **Да, при оплате** — проверка счета будет производиться при приеме платежа, сделанного клиентом (только, если в направлении обмена подключен модуль мерчанта на прием средств)
 
-<figure><img src="../../../.gitbook/assets/image (343).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (342) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Да, во время автовыплаты** — проверка счета будет производиться перед выплатой средств клиенту (только, если в направлении обмена подключен модуль автовыплаты средств)
 * **Превышение риска:**\

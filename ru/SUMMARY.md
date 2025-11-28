@@ -104,7 +104,7 @@
     * [Optimoney](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/optimoney.md)
     * [PandaPay](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/pandapay.md)
     * [PayCrown](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/paycrown.md)
-    * [Paycore](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/onlypays-1.md)
+    * [Paycore](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/paycore.md)
     * [Payeer](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/payeer.md)
     * [Payin-Payout (неактивно)](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/payin-payout-neaktivno.md)
     * [PayKassa](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/paykassa.md)

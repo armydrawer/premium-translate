@@ -12,7 +12,7 @@
 
 В панели ISP Manager перейдите в указанную папку:
 
-<figure><img src="../../../.gitbook/assets/image (803).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (802) (1).png" alt=""><figcaption></figcaption></figure>
 
 Найдите в списке файл **`ваш_домен.error.log`** и откройте его.<br>
 

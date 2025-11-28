@@ -21,11 +21,11 @@
 
 Скачайте [приложение Utopia](https://u.is/en/download.html) под вашу операционную систему и установите его. Пройдите процесс регистрации и создайте новый кошелек.
 
-<figure><img src="../../../.gitbook/assets/image (1995).png" alt="" width="375"><figcaption><p>Создание аккаунта</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1994) (1).png" alt="" width="375"><figcaption><p>Создание аккаунта</p></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (1996).png" alt=""><figcaption><p>Заполните указанные поля</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (1998).png" alt=""><figcaption><p>Укажите путь до папки, где будет храниться приватный ключ и придумайте пароль для кошелька</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1997) (1).png" alt=""><figcaption><p>Укажите путь до папки, где будет храниться приватный ключ и придумайте пароль для кошелька</p></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (1999).png" alt=""><figcaption><p>Генерация приватного ключа</p></figcaption></figure>
 
@@ -56,7 +56,7 @@
 {% hint style="info" %}
 Для корректной выдачи реквизитов код валюты из "**Получаю**" должен быть выбран как USD, UUSD или CRP (токен Crypton)
 
-![](<../../../.gitbook/assets/image (2002).png>)
+<img src="../../../.gitbook/assets/image (199) (1).png" alt="" data-size="original">
 {% endhint %}
 
 ## Модуль Utopia Voucher
@@ -90,11 +90,11 @@
 {% hint style="info" %}
 По умолчанию выбран пункт "**E-mail пользователя"** — обязательное поле, которое заполняет клиент при создании заявки.
 
-![](<../../../.gitbook/assets/image (196).png>)
+<img src="../../../.gitbook/assets/image (196).png" alt="" data-size="original">
 
 Если же вы хотите, чтобы клиент указывал отдельный e-mail, на который будет отправляться купон, переименуйте поле "**На счет**" в настройках валюты на "**E-mail, на который будет отправлен ваучер**" или "**E-mail для ваучера**"
 
-![](<../../../.gitbook/assets/image (197).png>)
+<img src="../../../.gitbook/assets/image (197).png" alt="" data-size="original">
 {% endhint %}
 
 ## Продолжение настройки

@@ -34,7 +34,7 @@ layout:
 
 3. На новой странице заполните данные для задания cron:
 
-<figure><img src="../../.gitbook/assets/image (1314).png" alt="" width="473"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1310) (1).png" alt="" width="473"><figcaption></figcaption></figure>
 
 **Адрес e-mail** — укажите почтовый ящик, на который будут приходить письма об ошибках выполнения задания (опция работает только, если настроена исходящая почта в ISP Manager в разделе "**Настройки** -> **Оповещения**")
 
@@ -71,13 +71,13 @@ layout:
 
 * Парсеры 2.0 — Настройки
 
-![](<../../.gitbook/assets/image (1944).png>)
+<img src="../../.gitbook/assets/image (1944).png" alt="" data-size="original">
 
 * Bestchange парсер - Настройки
 
-![](<../../.gitbook/assets/image (1945).png>)
+<img src="../../.gitbook/assets/image (1945).png" alt="" data-size="original">
 
 * модуля мерчантов и автовыплат
 
-![](<../../.gitbook/assets/image (1946).png>)
+<img src="../../.gitbook/assets/image (1946).png" alt="" data-size="original">
 {% endhint %}

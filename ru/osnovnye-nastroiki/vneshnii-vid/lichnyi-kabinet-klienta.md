@@ -16,7 +16,7 @@
 
 Техническая страница не используется
 
-![](<../../.gitbook/assets/image (574).png>)
+![](<../../.gitbook/assets/image (573) (1).png>)
 
 </details>
 
@@ -24,7 +24,7 @@
 
 Отображение статуса верификации и текущей скидки пользователя настраивается в разделе "**Внешний вид**" -> "**Виджеты**" -> "**Боковая колонка**".
 
-<figure><img src="../../.gitbook/assets/image (1602).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (561) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Отображение ссылки на внутренний счет зависит от состояния модуля "**Внутренний счет**" в разделе "**Модули**".
 
@@ -36,8 +36,8 @@
 
 Отображение пунктов партнерской программы настраивается в разделе "**Партнерская программа**" -> "**Настройки**"
 
-<figure><img src="../../.gitbook/assets/image (1601).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (560) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Отображение ссылки на API настраивается в разделе "**API**" -> "**Настройки**"
 
-<figure><img src="../../.gitbook/assets/image (1603).png" alt="" width="457"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (562) (1).png" alt="" width="457"><figcaption></figcaption></figure>

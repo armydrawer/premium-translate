@@ -49,7 +49,7 @@ noRobotsIndex: true
 {% hint style="warning" %}
 **Обязательно** укажите URL из строки "**Callback URL**" из настроек модуля:
 
-![](<../../../.gitbook/assets/image (518).png>)
+<img src="../../../.gitbook/assets/image (517) (1).png" alt="" data-size="original">
 
 в настройках магазина в ЛК мерчанта:\
 ![](<../../../.gitbook/assets/image (522).png>)\

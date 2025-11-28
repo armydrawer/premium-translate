@@ -10,7 +10,7 @@
 
 Если у вас нет доступа к панели администратора — откройте на сервере файл по пути `wp-content\plugins\premiumbox\premiumbox.php` - в первых строках будет указана версия скрипта.
 
-![](<../../.gitbook/assets/image (2005).png>)
+<img src="../../.gitbook/assets/image (2005).png" alt="" data-size="original">
 {% endhint %}
 
 {% hint style="danger" %}
@@ -41,7 +41,7 @@
 
 {% embed url="https://youtu.be/s1j_8mhjmrM" %}
 
-1. Авторизуйтесь на вашем сервере в ISP Manager под <mark style="color:green;">пользователем, созданным для сайта</mark>. \
+1. Авторизуйтесь на вашем сервере в ISP Manager под <mark style="color:green;">пользователем, созданным для сайта</mark>.\
    Это можно сделать двумя способами:
 
 * **Вариант 1** — авторизуйтесь под <mark style="color:green;">пользователем, созданным для сайта</mark> напрямую\
@@ -49,7 +49,7 @@
 * **Вариант 2** — авторизуйтесь под пользователем <mark style="color:red;">root</mark>, а затем перейдите в раздел "**Сайты**", выберите необходимый сайт и нажмите кнопку "**Войти как владелец**".\
   После этих действий вы будете авторизованы как <mark style="color:green;">пользователь, созданный для сайта</mark>.
 
-<figure><img src="../../.gitbook/assets/image (998).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (838) (1).png" alt=""><figcaption></figcaption></figure>
 
 2. В разделе "**Менеджер файлов**" откройте директорию вашего сайта: `https://`_`имя_вашего_домена/`_ и нажмите на иконку "**Загрузить"**. Дождитесь загрузки файла.
 

@@ -40,7 +40,7 @@
 **CARD** — выдача реквизитов банковской карты\
 **SBP** — выдача номера телефона для приема средств по СБП
 
-<div><figure><img src="../../../.gitbook/assets/image (1900).png" alt="" width="284"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (1903).png" alt="" width="284"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (1904).png" alt="" width="281"><figcaption></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/image (1898) (1).png" alt="" width="284"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (1901) (1).png" alt="" width="284"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (1904).png" alt="" width="281"><figcaption></figcaption></figure></div>
 
 <div><figure><img src="../../../.gitbook/assets/image (1905).png" alt="" width="284"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (1906).png" alt="" width="284"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (1907).png" alt="" width="276"><figcaption></figcaption></figure></div>
 

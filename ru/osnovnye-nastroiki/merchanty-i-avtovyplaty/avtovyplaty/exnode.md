@@ -52,14 +52,14 @@
 
 ## Особые поля
 
-<figure><img src="../../../.gitbook/assets/image (1379).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1378) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Код валюты** — выберите из выпадающего списка валюту, которую будете выплачивать
 
 {% hint style="warning" %}
 Для каждой валюты необходимо создать [отдельную копию модуля автовыплаты](#user-content-fn-2)[^2], в которой выбрать соответствующую валюту, а затем подключить эту копию на вкладке "**Мерчанты и выплаты**" в настройках направления обмена, где в валюте "**Получаю**" будет выбранная валюта
 
-![](<../../../.gitbook/assets/image (1380).png>)
+<img src="../../../.gitbook/assets/image (1380).png" alt="" data-size="original">
 {% endhint %}
 
 [^1]: публичный и приватный

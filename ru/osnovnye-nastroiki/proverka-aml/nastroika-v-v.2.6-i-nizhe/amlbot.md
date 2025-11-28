@@ -6,7 +6,7 @@
 (500$ за 1000 проверок или 3600$ за 12000 проверок на год)
 
 ![](<../../../.gitbook/assets/image (1238).png>)\
-![](<../../../.gitbook/assets/image (1216).png>)
+![](<../../../.gitbook/assets/image (1167) (1).png>)
 {% endhint %}
 
 ## **Настройки модуля AMLBot**

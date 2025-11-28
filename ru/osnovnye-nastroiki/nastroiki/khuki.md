@@ -2,7 +2,7 @@
 
 Через файл хуков вы можете добавить некоторые опции, отсутствующие в скрипте "из коробки".
 
-Для этого разместите необходимые хуки в файле **`wp-content/plugins/premiumhook/premiumhook.php`**&#x20;
+Для этого разместите необходимые хуки в файле **`wp-content/plugins/premiumhook/premiumhook.php`**
 
 Вставляйте хуки после нижеуказанных строк на новые строчки (после красной черты на скриншоте):
 
@@ -13,7 +13,7 @@
 ```
 {% endcode %}
 
-<figure><img src="../../.gitbook/assets/image (22).png" alt="" width="555"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (21) (1).png" alt="" width="555"><figcaption></figcaption></figure>
 
 Затем в разделе "**Плагины**" активируйте плагин "**Premium Exchanger hooks**".
 
@@ -253,7 +253,7 @@ remove_action('wp_before_admin_bar_render', 'premium_admin_bar_security', 2);
 
 <details>
 
-<summary>Отображение курса обмена в разделе "Заявки" с учетом скидки </summary>
+<summary>Отображение курса обмена в разделе "Заявки" с учетом скидки</summary>
 
 <mark style="color:red;">В некоторых ситуациях подсчет курса обмена может быть неверным</mark>
 
@@ -354,7 +354,7 @@ function del_iam_pay_merchant_pay_button($link) {
 
 <summary>Прокси для работы Bestchange парсера</summary>
 
-## Bestchange парсер (устаревший)
+### Bestchange парсер (устаревший)
 
 <mark style="color:red;">**Перед установкой хуков обязательно обновите сам скрипт по**</mark> [<mark style="color:red;">**инструкции**</mark>](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/diagnostika-i-reshenie-oshibok-pri-rabote-so-skriptom#obnovlenie-failov-skripta-na-servere)<mark style="color:red;">**!**</mark>
 
@@ -386,7 +386,7 @@ function curl_bestchange_proxy($ch) {
 ```
 {% endcode %}
 
-## Bestchange API парсер
+### Bestchange API парсер
 
 Хук работает на версии модуля 2.6.2/2.7.2 и выше (**использование собственного прокси)**:
 

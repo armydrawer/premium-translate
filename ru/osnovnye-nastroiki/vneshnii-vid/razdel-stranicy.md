@@ -62,7 +62,7 @@ API — \[user\_api]
 
 </details>
 
-## Редактирование  страницы
+## Редактирование страницы
 
 Страница в режиме редактирования:
 
@@ -71,7 +71,7 @@ API — \[user\_api]
 Примеры форматирования текста на странице:
 
 {% tabs %}
-{% tab title="режим: "Визуально"" %}
+{% tab title="режим: " %}
 <figure><img src="../../.gitbook/assets/image (1597).png" alt="" width="289"><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (846).png" alt=""><figcaption></figcaption></figure>
@@ -79,7 +79,7 @@ API — \[user\_api]
 * Жирный текст — нажать на иконку **B** при выделенном тексте:\
   **Жирный текст**
 * Курсив — нажать на иконку _**I**_ при выделенном тексте:\
-  &#xNAN;_&#x422;екст курсивом_
+  \&#xNAN;_Текст курсивом_
 * Подчеркнутый текст — нажать на иконку **U** при выделенном тексте:\
   Т̲е̲к̲с̲т̲ ̲с̲ ̲п̲о̲д̲ч̲е̲р̲к̲и̲в̲а̲н̲и̲е̲м̲
 * Цитирование текста — нажать на иконку ❝ при выделенном тексте:
@@ -98,7 +98,7 @@ API — \[user\_api]
 </details>
 {% endtab %}
 
-{% tab title="режим: "Текст"" %}
+{% tab title="режим: " %}
 <figure><img src="../../.gitbook/assets/image (563).png" alt="" width="206"><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (564).png" alt=""><figcaption></figcaption></figure>
@@ -114,7 +114,7 @@ API — \[user\_api]
 
 Две главных технических страницы — "**Главная**" и "**Новости**" — советуем не редактировать их, а использовать их как есть.
 
-&#x20;![](<../../.gitbook/assets/image (1599).png>)![](<../../.gitbook/assets/image (1600).png>)
+<img src="../../.gitbook/assets/image (1599).png" alt="" data-size="original"><img src="../../.gitbook/assets/image (1600).png" alt="" data-size="original">
 {% endhint %}
 
 **Родитель** — страница, в которую будет "вложена" редактируемая страница. Родительская страница находится на верхнем уровне, а дочерние страницы вложены на следующих уровнях.
@@ -169,7 +169,7 @@ API — \[user\_api]
 
 Техническая страница не используется
 
-![](<../../.gitbook/assets/image (574).png>)
+![](<../../.gitbook/assets/image (573) (1).png>)
 
 </details>
 

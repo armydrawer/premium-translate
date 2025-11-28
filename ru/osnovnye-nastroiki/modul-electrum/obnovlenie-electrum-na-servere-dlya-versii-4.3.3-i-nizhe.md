@@ -8,10 +8,10 @@
 
 1.  В панели управления ISP Manager через раздел "**Сайты**" выделите нужный сайт кликом мыши и нажмите на пункт **"Войти как владелец"**. Вы будете авторизованы как <mark style="color:green;">пользователь, созданный для сайта.</mark><br>
 
-    <figure><img src="../../.gitbook/assets/изображение (184).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/изображение (71) (1).png" alt=""><figcaption></figcaption></figure>
 2.  Откройте раздел "**Менеджер файлов**".<br>
 
-    <figure><img src="../../.gitbook/assets/изображение (98).png" alt="" width="330"><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/изображение (67) (1).png" alt="" width="330"><figcaption></figcaption></figure>
 3. Перейдите в папку `/Electrum/Electrum-X.X.X/`, где `X.X.X` — будет номер версии модуля Electrum на момент его установки на сервер.
 
 <figure><img src="../../.gitbook/assets/image (1362).png" alt=""><figcaption></figcaption></figure>

@@ -5,13 +5,13 @@
 {% hint style="warning" %}
 Для автоматического обновления курсов валют **обязательно** создайте [задание Cron](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/faq/kak-sozdat-zadanie-cron-na-servere) на сервере, используя ссылку из раздела "**Парсеры 2.0**" — "**Настройки**"
 
-![](<../../../.gitbook/assets/image (1481).png>)
+<img src="../../../.gitbook/assets/image (1481).png" alt="" data-size="original">
 {% endhint %}
 
 {% hint style="warning" %}
 Хеш для ссылки для задания cron задается в файле **`wp-content/plugins/premiumbox/userdata.php`**
 
-![](<../../../.gitbook/assets/image (1520).png>)![](<../../../.gitbook/assets/image (1522).png>)
+<img src="../../../.gitbook/assets/image (1520).png" alt="" data-size="original"><img src="../../../.gitbook/assets/image (1522).png" alt="" data-size="original">
 {% endhint %}
 
 В панели управления сайта в разделе "**Парсеры 2.0**" содержится список источников курсов валют, к которым можно привязать курс направления обмена на сайте, а также время последнего обновления курса валют из этих источников.
@@ -56,21 +56,21 @@
 
 Если вы используете ISP Manager — перейдите в раздел "**Shell-клиент".**
 
-![](<../../../.gitbook/assets/image (668).png>)
+<img src="../../../.gitbook/assets/image (668).png" alt="" data-size="original">
 
-&#x20;В открывшемся окне введите команду "`curl сылка для парсинга`".
+В открывшемся окне введите команду "`curl сылка для парсинга`".
 
 В качестве примера проверим парсинг курсов от Garantex:
 
-![](<../../../.gitbook/assets/image (669).png>)
+<img src="../../../.gitbook/assets/image (669).png" alt="" data-size="original">
 
-Если в ответе отображаются курсы валют, значит источник доступен для вашего сервера. ![](<../../../.gitbook/assets/image (671).png>)
+Если в ответе отображаются курсы валют, значит источник доступен для вашего сервера. ![](<../../../.gitbook/assets/image (670) (1).png>)
 {% endhint %}
 
 {% hint style="info" %}
 Для того, чтобы оперативно получать уведомления об ошибке парсинга курсов валют для устранения ошибки, вы можете настроить уведомления на [e-mail](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/uvedomleniya-administratoram-i-polzovatelyam/uvedomleniya-po-e-mail) и в [Telegram](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/uvedomleniya-administratoram-i-polzovatelyam/uvedomleniya-v-telegram).
 
-![](<../../../.gitbook/assets/image (1434).png>)![](<../../../.gitbook/assets/image (1435).png>)
+<img src="../../../.gitbook/assets/image (1434).png" alt="" data-size="original"><img src="../../../.gitbook/assets/image (1434) (1).png" alt="" data-size="original">
 {% endhint %}
 
 ## Курсы источников
@@ -116,7 +116,7 @@
 {% endhint %}
 
 {% hint style="success" %}
-## Модуль "Конвертер"
+### Модуль "Конвертер"
 
 Для быстрого переноса курсов от конкретного источника из раздела "**Источники курсов**" в "**Курсы**" вы можете использовать модуль "**Конвертер**".
 
@@ -124,15 +124,15 @@
 
 Выберите из выпадающего списка источник курсов валют, а в поле "**Валюты**" укажите через запятую [коды валют](https://www.bestchange.ru/wiki/rates.html), для которых вы хотите создать валютные пары и нажмите "**Применить**"
 
-![](<../../../.gitbook/assets/image (406).png>)&#x20;
+<img src="../../../.gitbook/assets/image (406).png" alt="" data-size="original">
 
 В разделе "**Курсы**" будут созданы пары, где перечисленные списком валюты будут находиться на стороне "**Отдаю**").
 
-![](<../../../.gitbook/assets/image (407).png>)
+<img src="../../../.gitbook/assets/image (407).png" alt="" data-size="original">
 
 Для того, чтобы создать все доступные курсы с перечисленными валютами — поставьте галочку "**Обратный курс**" перед нажатием "**Применить**".
 
-![](<../../../.gitbook/assets/image (408).png>)
+<img src="../../../.gitbook/assets/image (408).png" alt="" data-size="original">
 
 Повторите действия для каждого источника, курсы которого вы хотите использовать.
 {% endhint %}
@@ -173,11 +173,11 @@
 
 <figure><img src="../../../.gitbook/assets/image (598).png" alt="" width="477"><figcaption></figcaption></figure>
 
-После сохранения источника перейдите в раздел "**Парсеры 2.0**" ➔ "**Настройки**" и активируйте добавленный источник.&#x20;
+После сохранения источника перейдите в раздел "**Парсеры 2.0**" ➔ "**Настройки**" и активируйте добавленный источник.
 
 <figure><img src="../../../.gitbook/assets/image (599).png" alt="" width="435"><figcaption></figcaption></figure>
 
-После этого данные от источника появятся в разделе "**Парсеры 2.0**" ➔ "**Курсы источников**"&#x20;
+После этого данные от источника появятся в разделе "**Парсеры 2.0**" ➔ "**Курсы источников**"
 
 <figure><img src="../../../.gitbook/assets/image (600).png" alt=""><figcaption></figcaption></figure>
 
