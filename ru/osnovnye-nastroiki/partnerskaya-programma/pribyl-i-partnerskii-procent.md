@@ -9,7 +9,7 @@ description: Регулирование процента в партнерско
 
 Для этого перейдите в раздел "**Валюты**" → "**Коды валют**", установите для выбранных валют курс к USD вручную или используйте автокорректировку курса (добавьте нужные курсы по [инструкции](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya-obmena/kursy-valyut/parser-kursov-valyut-parsery-2.0))
 
-<h3 align="center"><img src="../../.gitbook/assets/image (2206).png" alt="" data-size="original"></h3>
+<h4 align="center"><img src="../../.gitbook/assets/image (2206).png" alt="" data-size="original"></h4>
 {% endhint %}
 
 {% hint style="success" %}

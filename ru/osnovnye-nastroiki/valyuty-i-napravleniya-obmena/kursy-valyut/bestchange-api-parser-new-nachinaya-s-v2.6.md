@@ -15,9 +15,7 @@ description: Модуль доступен начиная с версии 2.6!
 
 Хэш для ссылки для задания cron задается в файле **`wp-content/plugins/premiumbox/userdata.php`**
 
-<img src="../../../.gitbook/assets/image (416).png" alt="" data-size="original">
-
-<img src="../../../.gitbook/assets/image (1520).png" alt="" data-size="original">
+<img src="../../../.gitbook/assets/image (416).png" alt="" data-size="original"> <img src="../../../.gitbook/assets/image (1520).png" alt="" data-size="original">
 {% endhint %}
 
 {% hint style="warning" %}

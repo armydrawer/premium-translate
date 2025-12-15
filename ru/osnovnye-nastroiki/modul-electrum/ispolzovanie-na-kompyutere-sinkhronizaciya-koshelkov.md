@@ -16,7 +16,7 @@
     <figure><img src="../../.gitbook/assets/изображение (71) (1).png" alt=""><figcaption></figcaption></figure>
 2. Откройте раздел **"Менеджер файлов"**.
 
-<figure><img src="../../.gitbook/assets/изображение (67).png" alt="" width="330"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (67) (1).png" alt="" width="330"><figcaption></figcaption></figure>
 
 1.  Перейдите в директорию `/Electrum/Electrum-X.X.X/electrum_data/wallets/`, где `X.X.X` — будет номер версии кошелька на момент его установки на сервер (используемая версия — 4.4.6).<br>
 

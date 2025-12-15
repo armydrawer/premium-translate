@@ -354,7 +354,7 @@ function del_iam_pay_merchant_pay_button($link) {
 
 <summary>Прокси для работы Bestchange парсера</summary>
 
-### Bestchange парсер (устаревший)
+#### Bestchange парсер (устаревший)
 
 <mark style="color:red;">**Перед установкой хуков обязательно обновите сам скрипт по**</mark> [<mark style="color:red;">**инструкции**</mark>](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/diagnostika-i-reshenie-oshibok-pri-rabote-so-skriptom#obnovlenie-failov-skripta-na-servere)<mark style="color:red;">**!**</mark>
 
@@ -386,7 +386,7 @@ function curl_bestchange_proxy($ch) {
 ```
 {% endcode %}
 
-### Bestchange API парсер
+#### Bestchange API парсер
 
 Хук работает на версии модуля 2.6.2/2.7.2 и выше (**использование собственного прокси)**:
 
