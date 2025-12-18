@@ -40,7 +40,7 @@ and
 
 This categorization allows for a more detailed description of various trading scenarios.
 
----
+***
 
 ## Selling Cryptocurrency
 
@@ -81,7 +81,7 @@ Let’s break it down step by step using the example above:
 If you have multiple orders and your <mark style="color:red;">debt</mark> to the exchange is 1 BTC, while your block.io account holds 1 BTC, you can transfer 1 BTC from block.io to the exchange account to repay the debt. This allows you to lock in the rate without risking price changes, even if you don’t have cryptocurrency in your portfolio.
 {% endhint %}
 
----
+***
 
 ## Buying Cryptocurrency
 
@@ -105,18 +105,18 @@ If you <mark style="color:red;">don’t have</mark> Bitcoin in your portfolio bu
 
 Now, clients can create exchange orders, and you can fulfill them by sending Bitcoin from your block.io wallet. For example, let’s consider an exchange of rubles from Sberbank for 0.1 BTC:
 
-1. The client submits a request, and you provide them with a payment card.  
-2. The client pays the required amount.  
-3. You manually set the request status to "Paid" (you can also configure [recalculation based on the exchange rate](https://premium.gitbook.io/main/en/basic-settings/valyuty-i-napravleniya/sozdanie-novogo-napravleniya-obmena#vkladka-pereschet-zayavok) at the time of payment, which is crucial for locking in the rate and ensuring a stable profit margin for the transaction).  
+1. The client submits a request, and you provide them with a payment card.
+2. The client pays the required amount.
+3. You manually set the request status to "Paid" (you can also configure [recalculation based on the exchange rate](https://premium.gitbook.io/main/en/basic-settings/valyuty-i-napravleniya/sozdanie-novogo-napravleniya-obmena#vkladka-pereschet-zayavok) at the time of payment, which is crucial for locking in the rate and ensuring a stable profit margin for the transaction).
 
-{% hint style="info" %}  
-When you set the request status to "Paid," an amount of 0.1 BTC is instantly purchased on the exchange, and the <mark style="color:red;">debt</mark> of 0.1 BTC is settled. Then, you click the "Transfer" button, and 0.1 BTC is sent from your block.io wallet. As a result, you are left with 0.9 BTC in your block.io wallet, and the <mark style="color:red;">debt</mark> to the exchange is now 0.9 BTC.  
+{% hint style="info" %}
+When you set the request status to "Paid," an amount of 0.1 BTC is instantly purchased on the exchange, and the <mark style="color:red;">debt</mark> of 0.1 BTC is settled. Then, you click the "Transfer" button, and 0.1 BTC is sent from your block.io wallet. As a result, you are left with 0.9 BTC in your block.io wallet, and the <mark style="color:red;">debt</mark> to the exchange is now 0.9 BTC.
 
-When you accumulate multiple requests and fully settle the debt to the exchange, you receive the USDT sold for Sberbank rubles and have no remaining debt to the exchange. The sale is conducted at the rate you set, regardless of Bitcoin price fluctuations on the exchange.  
-{% endhint %}  
+When you accumulate multiple requests and fully settle the debt to the exchange, you receive the USDT sold for Sberbank rubles and have no remaining debt to the exchange. The sale is conducted at the rate you set, regardless of Bitcoin price fluctuations on the exchange.
+{% endhint %}
 
-It’s also worth noting that all the actions described above—buying and selling—can be combined depending on your needs. You can carry out cryptocurrency-to-cryptocurrency exchanges even if you don’t actually have the cryptocurrency in your possession. For example, you can exchange XMR for BTC.  
+It’s also worth noting that all the actions described above—buying and selling—can be combined depending on your needs. You can carry out cryptocurrency-to-cryptocurrency exchanges even if you don’t actually have the cryptocurrency in your possession. For example, you can exchange XMR for BTC.
 
-Additionally, you can create more complex trading operations involving cryptocurrency-to-cryptocurrency exchanges, including trading pairs that don’t exist on the exchange, such as XMR to XRP and vice versa.  
+Additionally, you can create more complex trading operations involving cryptocurrency-to-cryptocurrency exchanges, including trading pairs that don’t exist on the exchange, such as XMR to XRP and vice versa.
 
-The examples provided use a merchant and auto-payouts via the block.io wallet. It’s important to note that you can use any merchant and/or configure automatic payouts as you see fit. Trading actions are tied exclusively to the request statuses, so it doesn’t matter which merchant or auto-payout system you choose to use.  
+The examples provided use a merchant and auto-payouts via the block.io wallet. It’s important to note that you can use any merchant and/or configure automatic payouts as you see fit. Trading actions are tied exclusively to the request statuses, so it doesn’t matter which merchant or auto-payout system you choose to use.
