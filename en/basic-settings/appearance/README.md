@@ -1,2 +1,1 @@
-# Appearance
-
+The translation of "Внешний вид" into naturalistic English is "Appearance."
