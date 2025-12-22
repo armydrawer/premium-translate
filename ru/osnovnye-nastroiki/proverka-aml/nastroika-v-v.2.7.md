@@ -20,7 +20,7 @@
 {% tab title="AML Bot" %}
 <figure><img src="../../.gitbook/assets/image (188).png" alt="" width="462"><figcaption></figcaption></figure>
 
-#### Подключение к сервису <a href="#podklyuchenie-k-servisu" id="podklyuchenie-k-servisu"></a>
+**Подключение к сервису**
 
 Пройдите регистрацию на сервисе [AMLBot](https://web.amlbot.com/signup?), авторизуйтесь в личном кабинете и выпустите ID и ключ для авторизации в модуле.
 
@@ -32,7 +32,7 @@
 {% tab title="BitOk" %}
 <figure><img src="../../.gitbook/assets/image (189).png" alt="" width="461"><figcaption></figcaption></figure>
 
-#### Подключение к сервису <a href="#podklyuchenie-k-servisu" id="podklyuchenie-k-servisu"></a>
+**Подключение к сервису**
 
 Для подключения к сервису напишите [менеджеру](https://t.me/premiumexchanger_business) — он создаст чат с вами и представителями AML сервиса для обсуждения условий подключения, тарифов и других вопросов
 
@@ -52,7 +52,7 @@
 {% tab title="CoinKyt" %}
 <figure><img src="../../.gitbook/assets/image (190).png" alt="" width="461"><figcaption></figcaption></figure>
 
-#### Подключение к сервису <a href="#podklyuchenie-k-servisu" id="podklyuchenie-k-servisu"></a>
+**Подключение к сервису**
 
 Для подключения к сервису напишите [менеджеру](https://t.me/premiumexchanger_business) — он создаст чат с вами и представителями AML сервиса для обсуждения условий подключения, тарифов и других вопросов
 
@@ -66,9 +66,13 @@
 {% tab title="GetBlock" %}
 <figure><img src="../../.gitbook/assets/image (191).png" alt="" width="457"><figcaption></figcaption></figure>
 
-#### Подключение к сервису <a href="#podklyuchenie-k-servisu" id="podklyuchenie-k-servisu"></a>
+**Подключение к сервису**
 
 Для получения API-ключа напишите письмо на [info@getblock.net](mailto:info@getblock.net). Укажите полученный от представителя сервиса ключ в соответствующем поле в настройках модуля и сохраните данные.
+{% endtab %}
+
+{% tab title="Untitled" %}
+
 {% endtab %}
 {% endtabs %}
 

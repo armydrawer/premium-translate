@@ -201,6 +201,7 @@
     * [BitOK](osnovnye-nastroiki/proverka-aml/nastroika-v-v.2.6-i-nizhe/bitok.md)
     * [CoinKyt](osnovnye-nastroiki/proverka-aml/nastroika-v-v.2.6-i-nizhe/coinkyt.md)
     * [Getblock](osnovnye-nastroiki/proverka-aml/nastroika-v-v.2.6-i-nizhe/getblock.md)
+    * [Matchsystems](osnovnye-nastroiki/proverka-aml/nastroika-v-v.2.6-i-nizhe/matchsystems.md)
 * [Настройки](osnovnye-nastroiki/nastroiki/README.md)
   * [SEO](osnovnye-nastroiki/nastroiki/seo/README.md)
     * [Google Tag Manager](osnovnye-nastroiki/nastroiki/seo/google-tag-manager.md)
