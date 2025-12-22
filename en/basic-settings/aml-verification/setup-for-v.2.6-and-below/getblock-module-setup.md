@@ -1,2 +1,0 @@
-# GetBlock Module Setup
-
