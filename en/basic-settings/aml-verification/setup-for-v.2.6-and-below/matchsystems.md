@@ -1,3 +1,9 @@
+---
+hidden: true
+noIndex: true
+noRobotsIndex: true
+---
+
 # Matchsystems
 
 ## **Authorization**
@@ -6,7 +12,7 @@ Download the script distribution for updating your version (2.5 or 2.6) from the
 
 After installing the module, activate it in the "**Modules**" section, then navigate to "**Modules**" ➔ "**Matchsystems**" in the sidebar.
 
-<figure><img src="../../../.gitbook/assets/изображение (25).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение.png" alt=""><figcaption></figcaption></figure>
 
 **Domain** — leave this field empty.
 
@@ -18,8 +24,6 @@ After installing the module, activate it in the "**Modules**" section, then navi
 
 On this page, you can also manually check any address or TxID that is not associated with requests.
 
-<figure><img src="../../../.gitbook/assets/изображение (1) (1).png" alt=""><figcaption></figcaption></figure>
-
 ## **Manual Request Verification**
 
 In the "**Requests**" section, you can manually check the risk of an address:
@@ -30,7 +34,13 @@ In the "**Requests**" section, you can manually check the risk of an address:
 
 To manually check the risk in a request, click on the "**Check**" link.
 
+<figure><img src="../../../.gitbook/assets/изображение (1).png" alt=""><figcaption></figcaption></figure>
+
 By clicking on the risk assessment (50% in the screenshot), you can see the components of the risk score.
+
+<figure><img src="../../../.gitbook/assets/изображение (2).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/изображение (3).png" alt=""><figcaption></figcaption></figure>
 
 ## **Setting Up Automatic Mode**
 
@@ -38,7 +48,7 @@ Automatic mode is enabled for exchange directions. Let's demonstrate this with t
 
 In the exchange direction settings, find the "**Matchsystems**" tab and configure the checks for accounts/addresses and/or incoming transactions.
 
-<figure><img src="../../../.gitbook/assets/Screenshot_19 (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (4).png" alt=""><figcaption></figcaption></figure>
 
 If you want to automatically check the outgoing address (client's payout address) in the request, set the "**Check Sending Account**" field to "**Yes**," and in the **"Exchange Amount 'from'"** field, specify the minimum amount for which the check should be performed in the currency of the address.
 
@@ -54,6 +64,4 @@ We recommend checking TxID and outgoing addresses for amounts greater than 10 US
 
 If you want to display the AML risk to your users to facilitate communication in case of disputes, we recommend enabling the display of verification results on the request page.
 
-To do this, in the "**Exchange Directions**" - "**Currency Exchange Templates**" section, add the shortcodes below to the relevant templates for display in the request and save the changes.
-
-<figure><img src="../../../.gitbook/assets/изображение (115).png" alt=""><figcaption></figcaption></figure>
+To achieve this, in the "**Exchange Directions**" - "**Currency Exchange Templates**" section, add the shortcodes below to the relevant templates for display in the request and save the changes.

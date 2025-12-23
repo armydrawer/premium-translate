@@ -4,7 +4,7 @@
 
 Make sure the module is activated in the "**Modules**" section, or activate it if it isn't.
 
-<figure><img src="../../.gitbook/assets/изображение.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (5).png" alt=""><figcaption></figcaption></figure>
 
 Add one of the four supported services in the "**AML**" ➔ "**Add**" section.
 
@@ -18,7 +18,7 @@ In the new window, fill in the authorization details in the "**Module Settings**
 
 {% tabs %}
 {% tab title="AML Bot" %}
-<figure><img src="../../.gitbook/assets/изображение (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Connecting to the Service**
 
@@ -30,7 +30,7 @@ Enter the generated keys in the corresponding fields in the module settings and 
 {% endtab %}
 
 {% tab title="BitOk" %}
-<figure><img src="../../.gitbook/assets/изображение (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Connecting to the Service**
 
@@ -50,7 +50,7 @@ Enter the generated keys in the corresponding fields in the module settings and 
 {% endtab %}
 
 {% tab title="CoinKyt" %}
-<figure><img src="../../.gitbook/assets/изображение (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Connecting to the Service**
 
@@ -64,7 +64,7 @@ Enter the key in the corresponding field in the module settings and save the dat
 {% endtab %}
 
 {% tab title="GetBlock" %}
-<figure><img src="../../.gitbook/assets/изображение (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Connecting to the Service**
 
@@ -72,7 +72,7 @@ To obtain an API key, send an email to [info@getblock.net](mailto:info@getblock.
 {% endtab %}
 
 {% tab title="Matchsystems" %}
-<figure><img src="../../.gitbook/assets/изображение (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Connecting to the Service**
 
