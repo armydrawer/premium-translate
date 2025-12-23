@@ -6,7 +6,7 @@ Download the script distribution for updating your version (2.5 or 2.6) from the
 
 After installing the module, activate it in the "**Modules**" section, then navigate to "**Modules**" ➔ "**Matchsystems**" in the sidebar.
 
-<figure><img src="../../../.gitbook/assets/изображение.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (25).png" alt=""><figcaption></figcaption></figure>
 
 **Domain** — leave this field empty.
 
@@ -18,7 +18,7 @@ After installing the module, activate it in the "**Modules**" section, then navi
 
 On this page, you can also manually check any address or TxID that is not associated with requests.
 
-<figure><img src="../../../.gitbook/assets/изображение (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## **Manual Request Verification**
 

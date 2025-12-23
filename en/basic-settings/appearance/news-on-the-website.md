@@ -4,13 +4,13 @@
 
 You can add news to your website in the "**Posts**" section of the admin panel.
 
-<figure><img src="../../.gitbook/assets/изображение (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (3) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/изображение (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (19) (1).png" alt=""><figcaption></figcaption></figure>
 
 The news will be displayed on a separate page on the website.
 
-<figure><img src="../../.gitbook/assets/изображение (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (22) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Comments on News
 

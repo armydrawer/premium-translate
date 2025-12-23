@@ -2,9 +2,9 @@
 
 In the "**Applications**" section, you can view exchange requests and their statuses.
 
-<figure><img src="../../../.gitbook/assets/изображение.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (25).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/изображение (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 In this section, you will see a list of all requests along with their IDs. Requests that have been paid by the user will show statuses such as "**paid order**," "**order is on checking**," and "**user marked order as paid**."
 
