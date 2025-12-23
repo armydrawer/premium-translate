@@ -20,8 +20,6 @@ On this page, you can also manually check any address or TxID that is not associ
 
 <figure><img src="../../../.gitbook/assets/изображение (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/изображение (48).png" alt=""><figcaption></figcaption></figure>
-
 ## **Manual Request Verification**
 
 In the "**Requests**" section, you can manually check the risk of an address:
@@ -32,11 +30,7 @@ In the "**Requests**" section, you can manually check the risk of an address:
 
 To manually check the risk in a request, click on the "**Check**" link.
 
-<figure><img src="../../../.gitbook/assets/изображение (89).png" alt=""><figcaption></figcaption></figure>
-
 By clicking on the risk assessment (50% in the screenshot), you can see the components of the risk score.
-
-<figure><img src="../../../.gitbook/assets/изображение (94).png" alt=""><figcaption></figcaption></figure>
 
 ## **Setting Up Automatic Mode**
 
@@ -59,8 +53,6 @@ We recommend checking TxID and outgoing addresses for amounts greater than 10 US
 ## **Displaying AML Risk to Users**
 
 If you want to display the AML risk to your users to facilitate communication in case of disputes, we recommend enabling the display of verification results on the request page.
-
-<figure><img src="../../../.gitbook/assets/изображение (98).png" alt=""><figcaption></figcaption></figure>
 
 To do this, in the "**Exchange Directions**" - "**Currency Exchange Templates**" section, add the shortcodes below to the relevant templates for display in the request and save the changes.
 
