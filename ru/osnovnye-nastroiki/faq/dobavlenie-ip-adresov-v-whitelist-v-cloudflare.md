@@ -5,17 +5,17 @@
 
 <figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-3. Перейдите в раздел "**Security"** ➔ **"Security rules"** ➔ кнопка **"Create rule"** ➔ "**IP access rules**".
+3. Перейдите в раздел "**Security"** ➔ **"Security rules"** ➔ кнопка **"Create rule"** ➔ "**Custom rules**".
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение.png" alt=""><figcaption></figcaption></figure>
 
-4. Укажите конкретный IP-адрес/диапазон адресов/страну, к которой относятся IP-адреса или [ASN (**autonomous system number**)](https://blog.browserscan.net/ru/docs/what-is-an-asn) (когда речь идет о конкретной организации) и выберите действие, которое будет применяться к объекту - блокировать/разрешать доступ или создавать капчу, которая будет отображаться при доступе с IP-адреса из диапазона. Далее выберите ваш сайт в поле "**Zone**" и сохраните правило по кнопке "**Create**".
+4. Укажите конкретный IP-адрес/диапазон IP-адресов/страну, к которой относятся IP-адреса или [ASN (autonomous system number)](https://blog.browserscan.net/ru/docs/what-is-an-asn) (когда речь идет о конкретной организации) и выберите действие "**Skip**", а также отметьте галочками пункты согласно скриншоту ниже, чтобы для указанных IP-адресов был доступ к вашему сайту. Нажмите кнопку "**Deploy**".
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (148).png" alt=""><figcaption></figcaption></figure>
 
 Созданное правило будет отображаться в списке всех правил.
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (150).png" alt=""><figcaption></figcaption></figure>
 
 ## Использование ASN
 

@@ -6,7 +6,7 @@
 
 После установки модуля активируйте модуль в разделе "**Модули**", а затем перейдите в раздел "**Модули**" ➔ "**Matchsystems**" в боковой панели.
 
-<figure><img src="../../../.gitbook/assets/изображение.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (2).png" alt=""><figcaption></figcaption></figure>
 
 **Домен** — оставьте поле пустым
 
@@ -18,7 +18,7 @@
 
 На этой же странице вы можете проверить вручную любой адрес или TxID, не связанные с заявками.
 
-<figure><img src="../../../.gitbook/assets/изображение (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/изображение (48).png" alt=""><figcaption></figcaption></figure>
 
