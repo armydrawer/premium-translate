@@ -1,3 +1,9 @@
+---
+hidden: true
+noIndex: true
+noRobotsIndex: true
+---
+
 # Matchsystems
 
 ## **Авторизация**
