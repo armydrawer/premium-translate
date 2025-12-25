@@ -185,7 +185,6 @@
       * [BitOK](basic-settings/aml-verification/setup-for-v.2.6-and-below/bitok.md)
       * [CoinKyt](basic-settings/aml-verification/setup-for-v.2.6-and-below/coinkyt.md)
       * [GetBlock](basic-settings/aml-verification/setup-for-v.2.6-and-below/getblock.md)
-      * [Matchsystems](basic-settings/aml-verification/setup-for-v.2.6-and-below/matchsystems.md)
   * [Settings](basic-settings/settings/README.md)
     * [SEO](basic-settings/settings/seo/README.md)
       * [Google Tag Manager](basic-settings/settings/seo/google-tag-manager.md)
