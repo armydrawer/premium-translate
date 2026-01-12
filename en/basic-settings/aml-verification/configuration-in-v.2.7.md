@@ -14,6 +14,22 @@ Remember to top up your balance with the chosen service to be able to check addr
 
 <figure><img src="../../.gitbook/assets/изображение (59).png" alt=""><figcaption></figcaption></figure>
 
+{% hint style="info" %}
+If the service you want to use is not in the drop-down list, you need to install it manually. To do this, download the [distribution to update](https://premiumexchanger.com/uscripts/) to script version 2.7 (the PHP version does not matter - choose any of the distributions).
+
+![](../../.gitbook/assets/изображение.png)
+
+Unzip the downloaded distribution on your PC and navigate to the folder at `wp-content/plugins/premiumbox/amlcheck`
+
+![](https://premium.gitbook.io/main/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FLiTdcrfvWm9a7f5eACIU%252F%25D0%25B8%25D0%25B7%25D0%25BE%25D0%25B1%25D1%2580%25D0%25B0%25D0%25B6%25D0%25B5%25D0%25BD%25D0%25B8%25D0%25B5.png%3Falt%3Dmedia%26token%3D96d2a239-5d1f-41c1-a560-24f71728916f\&width=300\&dpr=4\&quality=100\&sign=4573808e\&sv=2)
+
+Select the desired module and upload (as <mark style="color:green;">**user for the site**</mark>, not as <mark style="color:red;">**root**</mark>!) the folder with it using the same path on your server.
+
+![](https://premium.gitbook.io/main/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FM76nkfNPKlWOFv0PfzIc%252F%25D0%25B8%25D0%25B7%25D0%25BE%25D0%25B1%25D1%2580%25D0%25B0%25D0%25B6%25D0%25B5%25D0%25BD%25D0%25B8%25D0%25B5.png%3Falt%3Dmedia%26token%3D770b42e2-d5ee-4db5-a9df-d796ed523a1b\&width=300\&dpr=4\&quality=100\&sign=6becfc53\&sv=2)
+
+After that, go to the AML section in the admin panel and create a copy of the AML module that you downloaded.
+{% endhint %}
+
 In the new window, fill in the authorization details in the "**Module Settings**" section:
 
 {% tabs fullWidth="true" %}
@@ -50,7 +66,7 @@ Enter the generated keys in the corresponding fields in the module settings and 
 {% endtab %}
 
 {% tab title="CoinKyt" %}
-<figure><img src="../../.gitbook/assets/изображение (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Connecting to the Service**
 
