@@ -1,18 +1,18 @@
 # Configuration in v.2.7
 
-## etting Up the AML Module
+## Setting Up the AML Module
 
 Make sure the module is activated in the "**Modules**" section, or activate it if it isn't.
 
 <figure><img src="../../.gitbook/assets/изображение (5).png" alt=""><figcaption></figcaption></figure>
 
-Add one of the four supported services in the "**AML**" ➔ "**Add**" section.
+Add one of the 6 supported services in the "**AML**" ➔ "**Add**" section.
 
 {% hint style="warning" %}
 Remember to top up your balance with the chosen service to be able to check addresses and transactions!
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/изображение (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (59).png" alt=""><figcaption></figcaption></figure>
 
 In the new window, fill in the authorization details in the "**Module Settings**" section:
 
