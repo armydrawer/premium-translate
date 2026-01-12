@@ -16,7 +16,7 @@ Remember to top up your balance with the chosen service to be able to check addr
 
 In the new window, fill in the authorization details in the "**Module Settings**" section:
 
-{% tabs %}
+{% tabs fullWidth="true" %}
 {% tab title="AML Bot" %}
 <figure><img src="../../.gitbook/assets/изображение (5) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -61,6 +61,14 @@ Log into your personal account and generate a new key by clicking the "**Generat
 <figure><img src="https://premium.gitbook.io/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FHkttfrUnvNLrOw6Chvhx%252Fimage.png%3Falt%3Dmedia%26token%3D6a543cea-2f74-4014-b383-8c12eebd0132&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=4c5ecb43&#x26;sv=2" alt="" width="563"><figcaption></figcaption></figure>
 
 Enter the key in the corresponding field in the module settings and save the data.
+{% endtab %}
+
+{% tab title="Cryptomus" %}
+<figure><img src="https://premium.gitbook.io/main/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FaDj2PTopxeziZLvAFpEL%252F%25D0%25B8%25D0%25B7%25D0%25BE%25D0%25B1%25D1%2580%25D0%25B0%25D0%25B6%25D0%25B5%25D0%25BD%25D0%25B8%25D0%25B5.png%3Falt%3Dmedia%26token%3Dcd56b0de-e222-443d-af96-c7909680d763&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=132b7eb0&#x26;sv=2" alt=""><figcaption></figcaption></figure>
+
+Copy the UID in the settings of your profile in the Cryptomus personal account, generate an API key, and then specify them in the settings of the AML module itself
+
+<figure><img src="../../.gitbook/assets/изображение (52).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="GetBlock" %}
@@ -137,7 +145,7 @@ Imagine you are sending a letter:
 Thus, TxID and transaction hash are two stages of transaction identification: before and after it is included in the blockchain.
 {% endhint %}
 
-{% tabs %}
+{% tabs fullWidth="true" %}
 {% tab title="AML Bot" %}
 <figure><img src="../../.gitbook/assets/изображение (17).png" alt=""><figcaption></figcaption></figure>
 
@@ -164,6 +172,16 @@ Thus, TxID and transaction hash are two stages of transaction identification: be
 **Address Check** — check the wallet address. Enter the address and select the desired currency.
 
 **Transaction Check** — check the transaction. Enter the wallet address of the <mark style="color:green;">**recipient**</mark>**,** select the desired currency, and enter the TxID.
+{% endtab %}
+
+{% tab title="Cryptomus" %}
+<figure><img src="../../.gitbook/assets/изображение (56).png" alt=""><figcaption></figcaption></figure>
+
+**Check address** — specify the wallet address, as well as select the desired currency and network
+
+**Check transaction** — specify the recipient's wallet address, enter the TxID and select the desired currency and network
+
+**Check hash** — check the transaction hash by ID
 {% endtab %}
 
 {% tab title="GetBlock" %}
@@ -195,7 +213,7 @@ You can use the module for both address and hash verification without interferin
 
 Open the settings for the exchange direction where you want to use the verifications and navigate to the "**AML**" tab. Select the previously configured AML service and set the specified options.
 
-<figure><img src="../../.gitbook/assets/изображение (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (48).png" alt=""><figcaption></figcaption></figure>
 
 **Verification of "Send" and "Receive" Accounts:**
 
