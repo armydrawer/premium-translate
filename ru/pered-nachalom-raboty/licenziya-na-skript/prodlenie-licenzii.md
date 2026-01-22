@@ -39,15 +39,23 @@
 
 ## Загрузка архива license.zip в корневую папку сайта на сервер под управлением ISP Manager
 
+{% hint style="warning" %}
+Обратите внимание, что файлы лицензии всегда должны загружаться на сервер из-под <mark style="color:green;">**пользователя, созданного для сайта**</mark>, не из-под <mark style="color:red;">**root**</mark><mark style="color:green;">**!**</mark>
+{% endhint %}
+
 {% embed url="https://youtu.be/s1j_8mhjmrM" %}
 
-1. Авторизуйтесь на вашем сервере в ISP Manager под <mark style="color:green;">пользователем, созданным для сайта</mark>.\
+1.  Удалите все старые файлы, относящиеся к лицензии.<br>
+
+    <figure><img src="../../.gitbook/assets/изображение.png" alt="" width="521"><figcaption></figcaption></figure>
+2. Авторизуйтесь на вашем сервере в ISP Manager под <mark style="color:green;">**пользователем, созданным для сайта**</mark>.\
    Это можно сделать двумя способами:
 
-* **Вариант 1** — авторизуйтесь под <mark style="color:green;">пользователем, созданным для сайта</mark> напрямую\
-  ![](<../../.gitbook/assets/image (512).png>)
-* **Вариант 2** — авторизуйтесь под пользователем <mark style="color:red;">root</mark>, а затем перейдите в раздел "**Сайты**", выберите необходимый сайт и нажмите кнопку "**Войти как владелец**".\
-  После этих действий вы будете авторизованы как <mark style="color:green;">пользователь, созданный для сайта</mark>.
+*   **Вариант 1** — авторизуйтесь под <mark style="color:green;">**пользователем, созданным для сайта**</mark> напрямую<br>
+
+    <figure><img src="../../.gitbook/assets/image (512).png" alt="" width="482"><figcaption></figcaption></figure>
+* **Вариант 2** — авторизуйтесь под пользователем <mark style="color:red;">**root**</mark>, а затем перейдите в раздел "**Сайты**", выберите необходимый сайт и нажмите кнопку "**Войти как владелец**".\
+  После этих действий вы будете авторизованы как <mark style="color:green;">**пользователь, созданный для сайта**</mark>.
 
 <figure><img src="../../.gitbook/assets/image (838) (1).png" alt=""><figcaption></figcaption></figure>
 
