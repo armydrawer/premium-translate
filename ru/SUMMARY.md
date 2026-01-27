@@ -141,6 +141,7 @@
     * [Crypto-Cash Crypto](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/crypto-cash-crypto.md)
     * [Electrum](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/electrum.md)
     * [Exnode](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/exnode.md)
+    * [Finora](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/finora.md)
     * [Firekassa](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/firekassa.md)
     * [Garantex Crypto](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/garantex-crypto.md)
     * [GoldEx](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/goldex.md)
