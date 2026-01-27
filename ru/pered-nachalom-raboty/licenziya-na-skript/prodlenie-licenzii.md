@@ -55,7 +55,7 @@
 
 2. В корневой папке сайта удалите все файлы, относящиеся к предыдущей лицензии.
 
-<figure><img src="../../.gitbook/assets/изображение (2).png" alt="" width="522"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (2) (1).png" alt="" width="522"><figcaption></figcaption></figure>
 
 3. Загрузите скачанный ранее архив с новой лицензией в эту же папку.
 
