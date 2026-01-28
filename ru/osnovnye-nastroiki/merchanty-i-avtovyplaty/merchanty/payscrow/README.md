@@ -7,7 +7,7 @@
 {% hint style="info" %}
 Для отображения в заявке для клиента ФИО владельца карты, выданной мерчантом, добавьте шорткод \[dest\_tag] в инструкции в настройках мерчанта
 
-![](<../../../../.gitbook/assets/image (1627).png>)
+<img src="../../../../.gitbook/assets/image (1627).png" alt="" data-size="original">
 {% endhint %}
 
 ## Настройки в личном кабинете мерчанта
@@ -23,13 +23,13 @@
 {% hint style="warning" %}
 Для этого мерчанта проверка платежей для смену статуса заявок доступна как по колбэку, так и по заданию cron.
 
-![](<../../../../.gitbook/assets/image (1623).png>)
+<img src="../../../../.gitbook/assets/image (1623).png" alt="" data-size="original">
 
 При использовании cron — создайте задание на сервере по [инструкции](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-sozdat-zadanie-cron-na-servere)
 
 При использовании колбэка — добавьте URL из строки "**STATUS URL**" в поле "**Статус покупки**" в ЛК мерчанта (раздел "**Настройки API"**)
 
-![](<../../../../.gitbook/assets/image (1626).png>)
+<img src="../../../../.gitbook/assets/image (1626).png" alt="" data-size="original">
 {% endhint %}
 
 ## Настройки модуля

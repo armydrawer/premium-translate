@@ -21,7 +21,7 @@
 
 <figure><img src="../../../.gitbook/assets/utopia_6KVpKP7MqV.png" alt="" width="563"><figcaption><p>Заполните указанные поля</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/utopia_1dTGinQV89.png" alt="" width="563"><figcaption><p>Укажите путь до папки, где будет храниться приватный ключ и придумайте пароль для кошелька </p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/utopia_1dTGinQV89.png" alt="" width="563"><figcaption><p>Укажите путь до папки, где будет храниться приватный ключ и придумайте пароль для кошелька</p></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/utopia_HDeIfnYgkC.png" alt="" width="563"><figcaption><p>Генерация приватного ключа</p></figcaption></figure>
 
@@ -50,7 +50,7 @@
 {% hint style="info" %}
 Для корректной выдачи реквизитов код валюты из "Отдаю" должен быть выбран как USD, UUSD или CRP (токен Crypton)
 
-![](<../../../.gitbook/assets/image (199).png>)
+<img src="../../../.gitbook/assets/image (199).png" alt="" data-size="original">
 {% endhint %}
 
 ## Модуль Utopia Voucher

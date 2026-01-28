@@ -1,7 +1,5 @@
 # MoneyGo
 
-
-
 {% hint style="danger" %}
 <mark style="color:red;">Перед настройкой автовыплат обязательно прочитайте</mark> [<mark style="color:blue;">предупреждение о рисках</mark>](https://premium.gitbook.io/main/osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/preduprezhdenie-o-riskakh)<mark style="color:blue;">!</mark>
 {% endhint %}
@@ -45,7 +43,7 @@
 {% hint style="warning" %}
 Для корректной работы модуля для валюты "**Получаю**" из направления обмена, где используется MoneyGo на выплату средств, должно быть активно обязательное к заполнению поле "**На** **счет**", которое будет заполнять клиент в форме создания заявки (указывать свой кошелек в системе MoneyGo)
 
-![](<../../../.gitbook/assets/image (219).png>)
+<img src="../../../.gitbook/assets/image (219).png" alt="" data-size="original">
 {% endhint %}
 
 ## Продолжение настройки

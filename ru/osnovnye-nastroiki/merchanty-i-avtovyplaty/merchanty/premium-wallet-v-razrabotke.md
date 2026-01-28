@@ -5,8 +5,6 @@ noIndex: true
 
 # Premium Wallet (в разработке)
 
-
-
 {% hint style="info" %}
 Если вам необходимо обновить модуль на сервере — воспользуйтесь [инструкцией](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/faq/kak-obnovit-faily-na-servere#moduli-merchantov)
 {% endhint %}
@@ -28,7 +26,7 @@ noIndex: true
 {% hint style="warning" %}
 В поле "**Webhook url**" укажите URL из поля "**Status URL"** из настроек модуля мерчанта
 
-![](<../../../.gitbook/assets/image (2105).png>)
+<img src="../../../.gitbook/assets/image (2105).png" alt="" data-size="original">
 {% endhint %}
 
 ## Настройки модуля

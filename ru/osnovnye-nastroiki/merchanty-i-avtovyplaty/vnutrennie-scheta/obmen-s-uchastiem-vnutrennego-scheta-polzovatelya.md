@@ -16,7 +16,7 @@
 {% hint style="info" %}
 Валюты, отображаемые в блоке и доступные к использованию как внутренние, выбираются в разделе "**Валюты**" -> "**Коды валют**", опция "**Внутренний счёт**".
 
-![](<../../../.gitbook/assets/image (502).png>)
+<img src="../../../.gitbook/assets/image (502).png" alt="" data-size="original">
 {% endhint %}
 
 5. Создайте требуемые направления обменов с участием новой валюты по [инструкции](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/valyuty-i-napravleniya/sozdanie-novogo-napravleniya-obmena).

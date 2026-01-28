@@ -51,11 +51,11 @@
 
 Для этого создайте и добавьте [дополнительное поле](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/valyuty-i-napravleniya/dobavlenie-novoi-valyuty#vkladka-dop.-polya) к соответствующим валютам для приёма средств через Ivanpay. Обязательно укажите в поле "**Уникальный ID**" —**`give_cardholder`**(указывайте название в нижнем регистре) и сделайте поле обязательным к заполнению
 
-![](<../../../.gitbook/assets/image (322).png>)
+<img src="../../../.gitbook/assets/image (322).png" alt="" data-size="original">
 
 После этого поле будет отображаться в форме обмена, а также будет обязательным к заполнению клиентов при создании заявки.
 
-![](<../../../.gitbook/assets/image (1879).png>)
+<img src="../../../.gitbook/assets/image (1879).png" alt="" data-size="original">
 {% endhint %}
 
 ## Продолжение настройки

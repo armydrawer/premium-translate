@@ -1,7 +1,5 @@
 # PandaPay
 
-
-
 {% hint style="info" %}
 Если вам необходимо обновить модуль на сервере — воспользуйтесь [инструкцией](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/obnovlenie-failov-skripta-na-servere/kak-obnovit-faily-na-servere#moduli-merchantov-i-avtovyplat)
 {% endhint %}
@@ -25,7 +23,7 @@
 {% hint style="success" %}
 Для обновления статусов заявок укажите актуальный URL Callback в ЛК мерчанта — URL вы найдете в настройках модуля (строка "**Webhook**")
 
-![](<../../../.gitbook/assets/image (121).png>)
+<img src="../../../.gitbook/assets/image (121).png" alt="" data-size="original">
 {% endhint %}
 
 Создайте новые ключи доступа и скопируйте их в буфер обмена или текстовый файл.

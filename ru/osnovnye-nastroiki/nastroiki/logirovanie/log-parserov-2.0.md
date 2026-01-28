@@ -5,7 +5,7 @@
 {% hint style="info" %}
 Для включение логирования всех событий, а не только ошибок парсинга, в разделе "**Парсеры 2.0**" -> "**Настройки**" установите опцию "**Логирование парсинга**" в "**Да**"
 
-![](<../../../.gitbook/assets/image (885).png>)
+<img src="../../../.gitbook/assets/image (885).png" alt="" data-size="original">
 {% endhint %}
 
 <figure><img src="../../../.gitbook/assets/image (1048).png" alt=""><figcaption></figcaption></figure>

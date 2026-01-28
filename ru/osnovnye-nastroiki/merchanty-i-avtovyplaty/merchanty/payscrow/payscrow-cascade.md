@@ -7,7 +7,7 @@
 {% hint style="info" %}
 Для отображения в заявке для клиента ФИО владельца карты, выданной мерчантом, добавьте шорткод \[dest\_tag] в инструкции в настройках мерчанта
 
-![](<../../../../.gitbook/assets/image (1627).png>)
+<img src="../../../../.gitbook/assets/image (1627).png" alt="" data-size="original">
 {% endhint %}
 
 ## Настройки в личном кабинете мерчанта
@@ -54,7 +54,7 @@
 {% hint style="warning" %}
 Тип мерчанта закрепляется за настраиваемым модулем без возможности его изменения после первой созданной заявки с использованием этого модуля.
 
-![](https://premium.gitbook.io/main/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FzcRcd0cY32xbgh1lhGx6%252Fimage.png%3Falt%3Dmedia%26token%3Df1f65b44-fd81-4597-98d5-b705a410977f\&width=300\&dpr=4\&quality=100\&sign=57a702c3\&sv=2)![](https://premium.gitbook.io/main/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FVQqDVFVlJ7dwBTiSb2Rf%252Fimage.png%3Falt%3Dmedia%26token%3D16a4d0bc-48dc-4280-8e0a-8733cdb18f94\&width=300\&dpr=4\&quality=100\&sign=7c7aa62c\&sv=2)&#x20;
+<img src="https://premium.gitbook.io/main/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FzcRcd0cY32xbgh1lhGx6%252Fimage.png%3Falt%3Dmedia%26token%3Df1f65b44-fd81-4597-98d5-b705a410977f&#x26;width=300&#x26;dpr=4&#x26;quality=100&#x26;sign=57a702c3&#x26;sv=2" alt="" data-size="original"><img src="https://premium.gitbook.io/main/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FVQqDVFVlJ7dwBTiSb2Rf%252Fimage.png%3Falt%3Dmedia%26token%3D16a4d0bc-48dc-4280-8e0a-8733cdb18f94&#x26;width=300&#x26;dpr=4&#x26;quality=100&#x26;sign=7c7aa62c&#x26;sv=2" alt="" data-size="original">
 
 Для того, чтобы использовать другой тип мерчанта, необходимо создать отдельную копию, выбрав другой тип и подключить её в нужном направлении обмена.
 {% endhint %}
