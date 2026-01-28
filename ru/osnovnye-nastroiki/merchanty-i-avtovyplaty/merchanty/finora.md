@@ -30,13 +30,15 @@
 
 ## Особые поля
 
-<figure><img src="../../../.gitbook/assets/изображение (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (192).png" alt=""><figcaption></figcaption></figure>
 
-**Способ оплаты** — выберите подходящий метод из списка или укажите вручную свой вариант в поле "Добавить".
+**Способ оплаты** — выберите подходящий метод из списка или укажите вручную свой вариант в поле "**Добавить**".
 
-<figure><img src="../../../.gitbook/assets/изображение (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (188).png" alt=""><figcaption></figcaption></figure>
 
-**Банк** — выберите подходящий банк из списка
+**Банк** — выберите подходящий банк из списка или укажите вручную свой вариант в поле "**Добавить**".
+
+<figure><img src="../../../.gitbook/assets/изображение (191).png" alt=""><figcaption></figcaption></figure>
 
 ## Продолжение настройки
 
