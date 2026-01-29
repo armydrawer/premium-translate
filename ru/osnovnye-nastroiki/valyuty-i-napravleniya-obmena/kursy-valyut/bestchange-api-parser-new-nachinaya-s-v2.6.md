@@ -50,7 +50,7 @@ Bestchange API парсер будет работать только в акти
 
 **Логирование** — запись логов запросов к сайту Bestchange и ответов от него для проверки корректности парсинга
 
-<figure><img src="../../../.gitbook/assets/изображение (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Позиция:**\
 &#xNAN;**• Rate** — базовое значение курса (формула расчета: rate = from\_amount / to\_amount)\

@@ -26,11 +26,11 @@
 
 Выберите Finora в выпадающем списке в поле "**Модуль**", укажите название для модуля и нажмите "**Сохранить**".
 
-<figure><img src="../../../.gitbook/assets/изображение.png" alt="" width="378"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (2).png" alt="" width="378"><figcaption></figcaption></figure>
 
 Заполните указанные авторизационные поля.
 
-<figure><img src="../../../.gitbook/assets/изображение (2).png" alt="" width="409"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (2) (1).png" alt="" width="409"><figcaption></figcaption></figure>
 
 **Логин (ЛК)** — логин от вашего ЛК в Finora
 
