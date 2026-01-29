@@ -12,7 +12,7 @@ noRobotsIndex: true
 
 После установки модуля активируйте модуль в разделе "**Модули**", а затем перейдите в раздел "**Модули**" ➔ "**Matchsystems**" в боковой панели.
 
-<figure><img src="../../../.gitbook/assets/изображение (2) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Домен** — оставьте поле пустым
 

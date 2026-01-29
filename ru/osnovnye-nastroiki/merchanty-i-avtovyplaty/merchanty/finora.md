@@ -30,7 +30,7 @@
 
 ## Особые поля
 
-<figure><img src="../../../.gitbook/assets/изображение.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (1).png" alt=""><figcaption></figcaption></figure>
 
 **Тип мерчанта** (выбранный пункт закрепляется за модулем, изменить его в дальнейшем не получится):
 
@@ -65,7 +65,7 @@
 
 в ЛК Finora в поле **PayIn Webhook**:
 
-<figure><img src="../../../.gitbook/assets/изображение (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (2).png" alt=""><figcaption></figcaption></figure>
 
 ## Продолжение настройки
 
