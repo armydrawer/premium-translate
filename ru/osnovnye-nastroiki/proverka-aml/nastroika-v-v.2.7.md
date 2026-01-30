@@ -17,15 +17,15 @@
 {% hint style="info" %}
 Если в выпадающем списке нет сервиса, который вы хотите использовать - необходимо установить его вручную. Для этого скачайте [дистрибутив **для обновления**](https://premiumexchanger.com/uscripts/) **под версию скрипта 2.7** (версия PHP не имеет значения — выберите любой из дистрибутивов).
 
-![](<../../.gitbook/assets/изображение (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/изображение (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 Разархивируйте скачанный дистрибутив на вашем ПК и перейдите в папку по пути `wp-content/plugins/premiumbox/amlcheck`
 
-<img src="../../.gitbook/assets/изображение (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/изображение (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" data-size="original">
 
 Выберите нужный модуль и загрузите (из-под <mark style="color:green;">**пользователя для сайта**</mark>, не из-под <mark style="color:red;">**root**</mark>!) папку с ним по тому же пути на вашем сервере.
 
-![](<../../.gitbook/assets/изображение (2) (1) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/изображение (2) (1) (1) (1) (1) (1) (1) (1).png>)
 
 После этого перейдите в раздел AML в админ-панели и создайте копию модуля AML, который вы загрузили.
 {% endhint %}
@@ -80,11 +80,11 @@
 {% endtab %}
 
 {% tab title="Cryptomus" %}
-<figure><img src="../../.gitbook/assets/изображение (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Скопируйте UID в настройках вашего профиля в ЛК Cryptomus, сгенерируйте API-ключ, а затем укажите их в настройках самого модуля AML
 
-<figure><img src="../../.gitbook/assets/изображение (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="GetBlock" %}
@@ -189,7 +189,7 @@ TxID — это уникальный идентификатор транзакц
 {% endtab %}
 
 {% tab title="Cryptomus" %}
-<figure><img src="../../.gitbook/assets/изображение (2) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Проверка адреса** — укажите адрес кошелька, а также выберите нужную валюту и сеть
 
@@ -235,7 +235,7 @@ TxID — это уникальный идентификатор транзакц
 
 Откройте настройки направления обмена, в котором хотите использовать проверки и перейдите на вкладку "**AML**". Выберите настроенный ранее AML-сервис и настройте указанные опции.
 
-<figure><img src="../../.gitbook/assets/изображение (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Проверка счетов "**Отдаю**" и "**Получаю**":
 

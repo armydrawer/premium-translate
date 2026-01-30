@@ -32,39 +32,37 @@
 
 В панели администратора создайте нового мерчанта в разделе "**Мерчанты**" ➔ "**Добавить автовыплату".**
 
-Выберите 1Plat в выпадающем списке в поле "**Модуль**", укажите название для модуля и нажмите "**Сохранить**".
+<figure><img src="../../../.gitbook/assets/изображение.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/изображение (2) (1).png" alt="" width="378"><figcaption></figcaption></figure>
+Выберите 1Plat в выпадающем списке в поле "**Модуль**", укажите название для модуля и нажмите "**Сохранить".**
 
 Заполните указанные авторизационные поля.
 
-<figure><img src="../../../.gitbook/assets/изображение (2) (1) (1).png" alt="" width="409"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (1).png" alt=""><figcaption></figcaption></figure>
 
-**Логин (ЛК)** — логин от вашего ЛК в Finora
+**Домен** — оставьте поле пустым
 
-**OTP ключ (ЛК)** — OTP-ключ, выданный вам менеджером Finora
+**ID магазина** — ID вашего магазина на сервисе 1Plat
 
-**Логин (SSO выплата)** — логин, выданный вам менеджером Finora
+<figure><img src="https://premium.gitbook.io/main/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FoaEmf9GDZTuqqZYhsAXi%252Fimage.png%3Falt%3Dmedia%26token%3D1739707a-d872-4f63-8ce9-a8b6501ea37f&#x26;width=768&#x26;dpr=3&#x26;quality=100&#x26;sign=766ba424&#x26;sv=2" alt=""><figcaption></figcaption></figure>
 
-**OTP ключ (SSO выплата)** — OTP-ключ, выданный вам менеджером Finora
+**Секретный ключ** — ключ, скопированный в разделе "**Магазин - Настройки**" в ЛК 1Plat
 
-**Приватный ключ** — приватный ключ, из вашего ЛК в Finora (выпускается по инструкции ниже)
-
-{% hint style="warning" %}
-Перед началом работы вам нужно сгенерировать публичный ключ (**Public key**), который следует сохранить в ЛК платежной системы (**Security - Your Public Key**), а приватный ключ (**Private key**) в настройках модуля в поле "**Приватный ключ**"
-
-![](<../../../.gitbook/assets/изображение (198).png>)
-
-Для удобства работы пара ключей автоматически генерируется для работы с мерчантом (для корректной работы генератора ключей на сервере должна быть запущена служба/расширение **Sodium**). Скопируйте эти ключи из настроек модуля автовыплаты и вставьте их в соответствующие поля согласно инструкции выше.
-
-![](<../../../.gitbook/assets/изображение (194).png>)
-{% endhint %}
+<figure><img src="https://premium.gitbook.io/main/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252F6hB0yytf4B1hUvSkA3Nf%252Fimage.png%3Falt%3Dmedia%26token%3D532a4bc3-73b8-4d4d-a213-c848cdc35c15&#x26;width=768&#x26;dpr=3&#x26;quality=100&#x26;sign=120443ba&#x26;sv=2" alt=""><figcaption></figcaption></figure>
 
 ## Особые поля
 
+<figure><img src="../../../.gitbook/assets/изображение (4).png" alt=""><figcaption></figcaption></figure>
+
+**Способ оплаты** — выберите подходящий метод из списка или укажите вручную свой вариант в поле "**Добавить**" (допустимые варианты уточняйте у менеджера 1Plat).
+
+{% hint style="danger" %}
+При выборе пункта "**Sbp**" обязательно выбирайте банк в следующем поле!
+{% endhint %}
+
 <figure><img src="../../../.gitbook/assets/изображение (3).png" alt=""><figcaption></figcaption></figure>
 
-**Способ оплаты** — выберите подходящий метод из списка
+**Банк** — выберите подходящий банк из списка или укажите вручную свой вариант в поле "**Банк**" (допустимые варианты уточняйте у менеджера 1Plat).
 
 {% hint style="info" %}
 ## Дополнительные поля для заявки
@@ -107,13 +105,13 @@
   2. **Автоматическое значение:** Телефон пользователя из заявки (`user_phone`), либо из поля `account_get` (если указан телефон как реквизит)
 {% endhint %}
 
-Для работы модуля автовыплаты без использования [задания cron](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-sozdat-zadanie-cron-na-servere), укажите ссылку из настроек модуля
+Для работы модуля на прием средств без использования [задания cron](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-sozdat-zadanie-cron-na-servere), укажите ссылку из настроек модуля
 
-<figure><img src="../../../.gitbook/assets/изображение (197).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (5).png" alt=""><figcaption></figcaption></figure>
 
-&#x20;в ЛК Finora в поле **PayOut Webhook**:
+в ЛК 1Plat в разделе "**Магазин - Настройки - Коллбек о выводах**":
 
-<figure><img src="../../../.gitbook/assets/изображение (196).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (6).png" alt=""><figcaption></figcaption></figure>
 
 ## Продолжение настройки <a href="#prodolzhenie-nastroiki" id="prodolzhenie-nastroiki"></a>
 

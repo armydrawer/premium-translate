@@ -7,7 +7,7 @@
 
 3. Перейдите в раздел "**Security"** ➔ **"Security rules"** ➔ кнопка **"Create rule"** ➔ "**Custom rules**".
 
-<figure><img src="../../.gitbook/assets/изображение (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 4. Укажите конкретный IP-адрес/диапазон IP-адресов/страну, к которой относятся IP-адреса или [ASN (autonomous system number)](https://blog.browserscan.net/ru/docs/what-is-an-asn) (когда речь идет о конкретной организации) и выберите действие "**Skip**", а также отметьте галочками пункты согласно скриншоту ниже, чтобы для указанных IP-адресов был доступ к вашему сайту. Нажмите кнопку "**Deploy**".
 
