@@ -48,7 +48,7 @@
 
 Под пользователем root зайдите во вкладку "Sites" и выберите в меню "Configuration files"
 
-<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 В файле конфигурации найдите блок location, который расположен в блоке server ssl (в конце файла), вставьте следующие строки:
 

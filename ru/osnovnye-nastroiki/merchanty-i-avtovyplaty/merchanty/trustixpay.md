@@ -16,9 +16,9 @@
 
 Авторизуйтесь в личном кабинете, перейдите в раздел" **Документация API**" ➔ "**Настройки Callback**". Укажите в поле "**URL для Callback**" **Webhook URL** из настроек модуля мерчанта и сохраните настройки.
 
-<figure><img src="../../../.gitbook/assets/image (5) (1) (1).png" alt="" width="468"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1).png" alt="" width="468"><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Настройки модуля
 

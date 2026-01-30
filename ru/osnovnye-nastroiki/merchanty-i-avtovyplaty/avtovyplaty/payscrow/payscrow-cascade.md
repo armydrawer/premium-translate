@@ -18,11 +18,11 @@
 
 Зарегистрируйтесь и авторизуйтесь в ЛК мерчанта. В разделе "Терминалы" ➔ "**Настройки API**" скопируйте API-ключ для авторизации в модуле автовыплаты.
 
-<figure><img src="../../../../.gitbook/assets/image (11).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (11) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 В поле "**Статус заказа продать**" укажите URL из настроек модуля автовыплаты (Callback URL)
 
-<figure><img src="../../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Настройки модуля <a href="#nastroiki-modulya" id="nastroiki-modulya"></a>
 
@@ -30,17 +30,17 @@
 
 Выберите Payscrow Cascade в выпадающем списке в поле "**Модуль**", укажите название для модуля и нажмите "**Сохранить**".
 
-<figure><img src="../../../../.gitbook/assets/image (8).png" alt="" width="492"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (8) (1).png" alt="" width="492"><figcaption></figcaption></figure>
 
 Заполните указанные авторизационные поля.
 
-<figure><img src="../../../../.gitbook/assets/image (9).png" alt="" width="464"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (9) (1).png" alt="" width="464"><figcaption></figcaption></figure>
 
 **API ключ** — API ключ, скопированный в ЛК мерчанта
 
 ## Особые поля
 
-<figure><img src="../../../../.gitbook/assets/image (10).png" alt="" width="422"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (10) (1).png" alt="" width="422"><figcaption></figcaption></figure>
 
 **Способ оплаты** — выберите необходимый способ для выплаты средств
 

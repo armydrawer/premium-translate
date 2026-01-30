@@ -14,11 +14,11 @@
 
 [Зарегистрируйтесь](https://quixfer.cc/#contacts) на сервисе Quixfer, авторизуйтесь в личном кабинете и перейдите в раздел "**Settings**" ➔ "**Security**".
 
-<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Сгенерируйте API-ключи и сохраните их в текстовый файл.
 
-<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ## Настройки модуля
 
@@ -26,7 +26,7 @@
 
 Выберите Quixfer в выпадающем списке в поле "**Модуль**", укажите название для модуля и нажмите "**Сохранить**".
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="486"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="486"><figcaption></figcaption></figure>
 
 Заполните указанные авторизационные поля.
 
@@ -40,7 +40,7 @@
 
 ## Особые поля
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 **Способ оплаты** — выберите необходимый способ оплаты для приема средств или пункт "**Автоматически**" — в этом случае реквизиты будут запрашиваться согласно xml-коду валюты из направления обмена, где подключен модуль (список методов будет отображаться только после указания корректных API-ключей для авторизации в модуле).
 
@@ -48,7 +48,7 @@
 
 Для корректного получения реквизитов для валюты на прием, где используется Quixfer, необходимо добавить в форму обмена <mark style="color:red;">**обязательные**</mark> доп. поля. Под полем "**Способ оплаты**" отображается подсказка по необходимым полям для каждого метода оплаты.
 
-<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Создайте и добавьте [дополнительное поле](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya-obmena/dopolnitelnye-polya) к соответствующим валютам для приёма средств через Quixfer. Обязательно укажите значение в поле "**Уникальный ID**" согласно таблице выше (указывайте название в нижнем регистре) и сделайте поле обязательным к заполнению.
 

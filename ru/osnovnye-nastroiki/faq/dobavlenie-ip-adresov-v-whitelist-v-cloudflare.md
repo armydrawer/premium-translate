@@ -3,7 +3,7 @@
 1. Зайдите в личный кабинет [Cloudflare](https://dash.cloudflare.com/).
 2. В разделе "**Account Home**" кликните по названию домена, для которого хотите создать белый список (whitelist) IP-адресов.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 3. Перейдите в раздел "**Security"** ➔ **"Security rules"** ➔ кнопка **"Create rule"** ➔ "**Custom rules**".
 
@@ -21,11 +21,11 @@
 
 При добавлении по **ASN** вместо диапазона IP-адресов (в примере ниже это Telegram) используйте поиск по IP-адресу, относящемуся к искомой ASN. Для этого нужно найти ASN (их может быть несколько) по IP-адресам (к примеру, по 91.108.6.73) через [сервис Radar от Cloudflare](https://radar.cloudflare.com/ip).
 
-<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **ASN** для Telegra&#x6D;**: AS44907, AS59930,** **AS62014, AS62041, AS211157** — их нужно добавить отдельными правилами в разделе "**Security"** ➔ **"Security rules":**
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 Созданные правила будут отображаться в разделе.
 

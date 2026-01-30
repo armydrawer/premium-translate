@@ -25,7 +25,7 @@
 
 Выберите Paycore в выпадающем списке в поле "**Модуль**", укажите название для модуля и нажмите "**Сохранить**".
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 Заполните указанные авторизационные поля.
 
@@ -49,7 +49,7 @@
 
 В инструкции в модуле автовыплаты обязательно добавьте шорткод "**Ссылка на оплату**" — это необходимо для отображения ссылки в заявке, по которой будет переходить клиент для выбора метода получения им средств и банка на платежной странице сервиса.
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 После этого вставьте следующий блок текста в поле:
 
@@ -83,7 +83,7 @@
 
 Также обязательно отметьте статус "**Ожидание подтверждения от модуля автовыплат**" в разделе "**Настройки обменника**" ➔ "**Настройки статуса**" — это необходимо для корректной работы модуля автовыплаты (если раздел не отображается в боковой панели — активируйте модуль "**Профессиональная настройка статусов**" в разделе "**Модули**", а затем проведите указанную настройку).
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Порядок создания и проведения платежа <a href="#poryadok-sozdaniya-i-provedeniya-platezha" id="poryadok-sozdaniya-i-provedeniya-platezha"></a>
 

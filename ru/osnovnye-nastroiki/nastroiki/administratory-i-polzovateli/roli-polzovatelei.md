@@ -41,7 +41,7 @@ layout:
 
 ## Полный список возможностей для ролей
 
-<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Роли могут иметь следующие права (можно активировать или отключить при редактировании):
 

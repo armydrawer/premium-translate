@@ -16,7 +16,7 @@
 
 Зайдите в [личный кабинет](https://goatx.me/) и перейдите в раздел "**Контракты мерчантов**" и скопируйте указанный ID в буфер обмена или текстовый файл.
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Настройки модуля
 
@@ -40,7 +40,7 @@
 
 ## Особые поля
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Способ оплаты** — выберите необходимый способ для приема средств от клиента:
 

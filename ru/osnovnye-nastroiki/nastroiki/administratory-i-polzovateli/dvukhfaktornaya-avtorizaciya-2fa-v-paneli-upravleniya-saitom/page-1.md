@@ -6,9 +6,9 @@ hidden: true
 
 ## 2FA с использованием приложения
 
-В личном кабинете на сайте в разделе "**Настройки безопасности**" активируйте опцию 2FA и отсканируйте QR-код [подходящим приложением](https://trashexpert.ru/mobile/apps/best-two-factor-authentication-apps).&#x20;
+В личном кабинете на сайте в разделе "**Настройки безопасности**" активируйте опцию 2FA и отсканируйте QR-код [подходящим приложением](https://trashexpert.ru/mobile/apps/best-two-factor-authentication-apps).
 
-<figure><img src="../../../../.gitbook/assets/image (6) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (6) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 В поле "**2FA-код**" введите указанный в приложение код и нажмите кнопку "**Сохранить**".
 
@@ -16,8 +16,8 @@ hidden: true
 
 Если вы получили ошибку, а при повторном входе (с указанием кода) авторизовались — опция настроена корректно.
 
-<div><figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Вход в админ-панель</p></figcaption></figure> <figure><img src="../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption><p>Вход в личный кабинет на сайте обменника</p></figcaption></figure></div>
+<div><figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Вход в админ-панель</p></figcaption></figure> <figure><img src="../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption><p>Вход в личный кабинет на сайте обменника</p></figcaption></figure></div>
 
 При необходимости вы можете отключить 2FA для любого пользователя в настройках его профиля (раздел "**Пользователи**").
 
-<div><figure><img src="../../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Выключение 2FA в админ-панели</p></figcaption></figure> <figure><img src="../../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption><p>Выключение 2FA в личном кабинете</p></figcaption></figure></div>
+<div><figure><img src="../../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Выключение 2FA в админ-панели</p></figcaption></figure> <figure><img src="../../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption><p>Выключение 2FA в личном кабинете</p></figcaption></figure></div>

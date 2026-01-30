@@ -780,7 +780,7 @@ define('WP_MEMORY_LIMIT', '512M');define('WP_MAX_MEMORY_LIMIT', '1024M');
 
 В разделе "**GEO IP**" ➔ "**Настройки определения IP**" смените источник на **sypexgeo.net**, установите таймаут в 7 секунд и сохраните изменения.
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Другие действия в админ-панели и на сервере
 
