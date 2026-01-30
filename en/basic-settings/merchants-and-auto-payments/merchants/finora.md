@@ -1,7 +1,7 @@
 # Finora
 
 {% hint style="info" %}
-If you need to update the module on the server, please refer to the [instructions](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/faq/kak-obnovit-faily-na-servere#moduli-merchantov).
+If you need to update the module on the server, please refer to the [instructions](https://premium.gitbook.io/main/en/basic-settings/faq/updating-script-files-on-the-server/how-to-update-files-on-the-server#merchant-and-auto-payout-modules).
 {% endhint %}
 
 {% hint style="warning" %}
@@ -59,7 +59,7 @@ Please note that if you select a specific bank in the module settings, your clie
 Please be aware that a separate copy of the merchant module must be created for each payment method.
 {% endhint %}
 
-To operate the module for receiving funds without using a [cron job](../../../), enter the link from the module settings
+To operate the module for receiving funds without using a [cron job](https://premium.gitbook.io/main/en/basic-settings/faq/how-to-create-a-cron-job-on-a-server), enter the link from the module settings
 
 <figure><img src="https://premium.gitbook.io/main/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252F6nSFLEEezB9OcBzt8DhE%252F%25D0%25B8%25D0%25B7%25D0%25BE%25D0%25B1%25D1%2580%25D0%25B0%25D0%25B6%25D0%25B5%25D0%25BD%25D0%25B8%25D0%25B5.png%3Falt%3Dmedia%26token%3D0c2df531-cd7a-4ff8-9fdc-dcf940e9eb68&#x26;width=768&#x26;dpr=3&#x26;quality=100&#x26;sign=d422910b&#x26;sv=2" alt=""><figcaption></figcaption></figure>
 
@@ -69,4 +69,4 @@ in the Finora personal account in the **PayIn Webhook** field:
 
 ## Continuing the Setup
 
-Next, configure the merchant by following the [general setup instructions](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/merchants/general-merchant-settings).<br>
+Next, configure the merchant by following the [general setup instructions](../../../).<br>
