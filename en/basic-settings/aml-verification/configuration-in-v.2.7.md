@@ -17,7 +17,7 @@ Remember to top up your balance with the chosen service to be able to check addr
 {% hint style="info" %}
 If the service you want to use is not in the drop-down list, you need to install it manually. To do this, download the [distribution to update](https://premiumexchanger.com/uscripts/) to script version 2.7 (the PHP version does not matter - choose any of the distributions).
 
-![](../../.gitbook/assets/изображение.png)
+![](<../../.gitbook/assets/изображение (4).png>)
 
 Unzip the downloaded distribution on your PC and navigate to the folder at `wp-content/plugins/premiumbox/amlcheck`
 
@@ -46,7 +46,7 @@ Enter the generated keys in the corresponding fields in the module settings and 
 {% endtab %}
 
 {% tab title="BitOk" %}
-<figure><img src="../../.gitbook/assets/изображение (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Connecting to the Service**
 
@@ -66,7 +66,7 @@ Enter the generated keys in the corresponding fields in the module settings and 
 {% endtab %}
 
 {% tab title="CoinKyt" %}
-<figure><img src="../../.gitbook/assets/изображение (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Connecting to the Service**
 
@@ -88,7 +88,7 @@ Copy the UID in the settings of your profile in the Cryptomus personal account, 
 {% endtab %}
 
 {% tab title="GetBlock" %}
-<figure><img src="../../.gitbook/assets/изображение (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Connecting to the Service**
 
@@ -96,7 +96,7 @@ To obtain an API key, send an email to [info@getblock.net](mailto:info@getblock.
 {% endtab %}
 
 {% tab title="Matchsystems" %}
-<figure><img src="../../.gitbook/assets/изображение (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Connecting to the Service**
 

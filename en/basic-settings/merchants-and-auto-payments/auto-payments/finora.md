@@ -1,11 +1,11 @@
 # Finora
 
 {% hint style="danger" %}
-Before setting up automatic payouts, please read the [risk warning!](https://premium.gitbook.io/main/osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/preduprezhdenie-o-riskakh)
+Before setting up automatic payouts, please read the [risk warning!](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/auto-payments/risk-warning)
 {% endhint %}
 
 {% hint style="info" %}
-If you need to update the module on the server, please refer to the [instructions](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/obnovlenie-failov-skripta-na-servere/kak-obnovit-faily-na-servere#moduli-merchantov-i-avtovyplat).
+If you need to update the module on the server, please refer to the [instructions](https://premium.gitbook.io/main/en/basic-settings/faq/updating-script-files-on-the-server/how-to-update-files-on-the-server#merchant-and-auto-payout-modules).
 {% endhint %}
 
 {% hint style="warning" %}
@@ -110,7 +110,7 @@ In the module settings, you can choose how the payout details will be determined
 * **Phone:** Forcefully use the value from the phone number fields (`get_phone/phone` or "To Account") for the payout.
 {% endhint %}
 
-To operate the automatic payout module without using a [cron job](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-sozdat-zadanie-cron-na-servere), specify the link from the module settings
+To operate the automatic payout module without using a [cron job](https://premium.gitbook.io/main/en/basic-settings/faq/how-to-create-a-cron-job-on-a-server), specify the link from the module settings
 
 <figure><img src="../../../.gitbook/assets/изображение (163).png" alt=""><figcaption></figcaption></figure>
 
@@ -120,4 +120,4 @@ in the Finora personal account in the **PayOut Webhook** field:
 
 ## Continuing the Setup <a href="#prodolzhenie-nastroiki" id="prodolzhenie-nastroiki"></a>
 
-Next, configure the merchant by following the [general setup instructions](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/obshie-nastroiki-merchantov-avtovyplat).
+Next, configure the merchant by following the [general setup instructions](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/auto-payments/general-auto-payment-settings).
