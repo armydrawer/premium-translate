@@ -24,11 +24,11 @@ In the admin panel, create a new merchant in the "**Merchants**" ➔ "**Add Auto
 
 Select Finora from the dropdown list in the "**Module**" field, provide a name for the module, and click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/изображение (2) (1).png" alt="" width="378"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (67).png" alt=""><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../.gitbook/assets/изображение (2) (1) (1).png" alt="" width="409"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (71).png" alt=""><figcaption></figcaption></figure>
 
 **Login (Personal Account)** — your login for the Finora personal account
 
@@ -43,21 +43,21 @@ Fill in the required authorization fields.
 {% hint style="warning" %}
 Before you start working, you need to generate a public key (**Public Key**), which should be saved in the payment system's personal account (**Security - Your Public Key**), and the private key (**Private Key**) should be entered in the module settings in the "**Private Key**" field.
 
-![](<../../../.gitbook/assets/изображение (198).png>)
+![](<../../../.gitbook/assets/изображение (89).png>)
 
 For convenience, a pair of keys is automatically generated for working with the merchant (the **Sodium** service/extension must be running on the server for the key generator to work correctly). Copy these keys from the automatic payout module settings and paste them into the corresponding fields as per the instructions above.
 
-![](<../../../.gitbook/assets/изображение (194).png>)
+<img src="../../../.gitbook/assets/изображение (94).png" alt="" data-size="original">
 {% endhint %}
 
 ## Special Fields
 
-<figure><img src="../../../.gitbook/assets/изображение (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (98).png" alt=""><figcaption></figcaption></figure>
 
 **Payment Method** — select the appropriate method from the list.
 
 {% hint style="info" %}
-## Additional Fields for the Application
+### Additional Fields for the Application
 
 To correctly transmit recipient data to the payment system, you need to add additional fields in the exchange directions.
 
@@ -65,10 +65,9 @@ To do this, create and add additional fields for the corresponding currencies fo
 
 **1. Additional Field for Recipient's Full Name**
 
-* **Unique ID:** `get_cardholder/cardholder`
+*   **Unique ID:** `get_cardholder/cardholder`&#x20;
 
-<img src="../../../.gitbook/assets/изображение.png" alt="" data-size="original">
-
+    <figure><img src="../../../.gitbook/assets/изображение (191).png" alt="" width="498"><figcaption></figcaption></figure>
 * **Purpose:** Full name of the payment recipient (Full Name)
 * **Processing Priority:**
   * `get_cardholder` or `cardholder` (priority field)
@@ -113,11 +112,11 @@ In the module settings, you can choose how the payout details will be determined
 
 To operate the automatic payout module without using a [cron job](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-sozdat-zadanie-cron-na-servere), specify the link from the module settings
 
-<figure><img src="../../../.gitbook/assets/изображение (197).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (163).png" alt=""><figcaption></figcaption></figure>
 
 in the Finora personal account in the **PayOut Webhook** field:
 
-<figure><img src="../../../.gitbook/assets/изображение (196).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (152).png" alt=""><figcaption></figcaption></figure>
 
 ## Continuing the Setup <a href="#prodolzhenie-nastroiki" id="prodolzhenie-nastroiki"></a>
 

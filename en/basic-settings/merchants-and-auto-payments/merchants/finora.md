@@ -37,8 +37,6 @@ Fill in the required authorization fields.
 * **Payment Link** — returns a link for payment via QR code in the request; this option works in conjunction with the selected payment method.
 * **Requisites** — returns a card or phone number for transferring funds directly in the request using the shortcode \[to\_account].
 
-<figure><img src="../../../.gitbook/assets/изображение (192).png" alt=""><figcaption></figcaption></figure>
-
 **Payment Method** — select the appropriate method from the list or manually enter your option in the "**Add**" field (please confirm acceptable options with your Finora manager).
 
 <figure><img src="../../../.gitbook/assets/изображение (188).png" alt=""><figcaption></figcaption></figure>
@@ -48,8 +46,6 @@ Fill in the required authorization fields.
 {% hint style="danger" %}
 Choose a specific bank only if you previously selected the **Payment Link** format; if you are using the **Requisites** format, leave the default option (no bank selected).
 {% endhint %}
-
-<figure><img src="../../../.gitbook/assets/изображение (191).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="danger" %}
 Please note that if you select a specific bank in the module settings, your client will need to make payments using a card from that bank (payments made with cards from other banks may not be credited, including through appeals).
