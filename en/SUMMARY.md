@@ -132,6 +132,7 @@
       * [Electrum](basic-settings/merchants-and-auto-payments/auto-payments/electrum.md)
       * [Exnode](basic-settings/merchants-and-auto-payments/auto-payments/exnode.md)
       * [Firekassa](basic-settings/merchants-and-auto-payments/auto-payments/firekassa.md)
+      * [Finora](basic-settings/merchants-and-auto-payments/auto-payments/finora.md)
       * [GoldEx](basic-settings/merchants-and-auto-payments/auto-payments/goldex.md)
       * [Heleket](basic-settings/merchants-and-auto-payments/auto-payments/heleket.md)
       * [Ivanpay](basic-settings/merchants-and-auto-payments/auto-payments/ivanpay.md)
