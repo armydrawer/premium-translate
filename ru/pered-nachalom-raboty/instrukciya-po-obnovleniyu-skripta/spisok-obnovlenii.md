@@ -137,11 +137,8 @@
     <figure><img src="../../.gitbook/assets/image (271).png" alt="" width="314"><figcaption></figcaption></figure>
 
     то заявка сменит статус на "**Ожидание**" и вернется в предыдущий статус (при успешной проверке реквизитов клиента) или в "**AML проверка не пройдена**" (при превышении риска) после получения ответа от AML-сервиса. Для работы опции необходимо добавить [задание cron](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-sozdat-zadanie-cron-na-servere) на сервере (ссылка для задания находится в разделе "AML").
-*
 
-```
-<figure><img src="../../.gitbook/assets/image (273).png" alt="" width="528"><figcaption></figcaption></figure>
-```
+<figure><img src="../../.gitbook/assets/изображение (199).png" alt="" width="281"><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 Вышеуказанная опция распространяется только на уже созданные заявки (если проверка в этом направлении обмена включена как "**При оплате**" или "**Перед автовыплатой**")
