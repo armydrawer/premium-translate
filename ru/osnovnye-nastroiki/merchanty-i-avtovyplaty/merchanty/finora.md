@@ -2,6 +2,8 @@
 
 {% hint style="info" %}
 Если вам необходимо обновить модуль на сервере — воспользуйтесь [инструкцией](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/faq/kak-obnovit-faily-na-servere#moduli-merchantov)
+
+<mark style="color:red;">Обратите внимание, что при обновлении модуля необходимо настроить его повторно по инструкции ниже, так как после обновления файлов все поля и настройки модуля будут сброшены к состоянию по умолчанию.</mark>
 {% endhint %}
 
 {% hint style="warning" %}
