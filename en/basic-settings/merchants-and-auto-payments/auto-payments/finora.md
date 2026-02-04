@@ -6,6 +6,8 @@ Before setting up automatic payouts, please read the [risk warning!](https://pre
 
 {% hint style="info" %}
 If you need to update the module on the server, please refer to the [instructions](https://premium.gitbook.io/main/en/basic-settings/faq/updating-script-files-on-the-server/how-to-update-files-on-the-server#merchant-and-auto-payout-modules).
+
+<mark style="color:red;">Please note that when updating the module, you need to reconfigure it according to the instructions below, because after updating the files, all fields and settings of the module will be reset to the default state.</mark>
 {% endhint %}
 
 {% hint style="warning" %}
