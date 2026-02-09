@@ -1,3 +1,9 @@
+---
+hidden: true
+noIndex: true
+noRobotsIndex: true
+---
+
 # XPay
 
 {% hint style="info" %}
@@ -14,7 +20,7 @@
 
 <figure><img src="../../../.gitbook/assets/image (1826).png" alt=""><figcaption></figcaption></figure>
 
-&#x20;Сохраните сгенерированный ключ в текстовый файл и нажмите кнопку "**Готово**".
+Сохраните сгенерированный ключ в текстовый файл и нажмите кнопку "**Готово**".
 
 ## Настройки модуля
 
