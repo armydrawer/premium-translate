@@ -30,13 +30,13 @@ Fill in the required information in the new window and save it.
 
 In the admin panel, create a new merchant in the "**Merchants**" ➔ "**Add Automatic Payout**" section.
 
-<figure><img src="../../../.gitbook/assets/изображение (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (206).png" alt="" width="339"><figcaption></figcaption></figure>
 
 Select 1Plat from the dropdown menu in the "**Module**" field, enter a name for the module, and click "**Save**."
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../.gitbook/assets/изображение (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (207).png" alt="" width="407"><figcaption></figcaption></figure>
 
 **Domain** — leave this field empty.
 
@@ -50,7 +50,7 @@ Fill in the required authorization fields.
 
 ## Special Fields
 
-<figure><img src="../../../.gitbook/assets/изображение (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (208).png" alt="" width="520"><figcaption></figcaption></figure>
 
 **Payment Method** — select an appropriate method from the list or manually enter your option in the "**Add**" field (for acceptable options, please check with your 1Plat manager).
 
@@ -58,7 +58,7 @@ Fill in the required authorization fields.
 When selecting "**Sbp**," be sure to choose a bank in the next field!
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/изображение (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (209).png" alt="" width="563"><figcaption></figcaption></figure>
 
 **Bank** — select an appropriate bank from the list or manually enter your option in the "**Bank**" field (for acceptable options, please check with your 1Plat manager).
 
@@ -75,7 +75,7 @@ Make sure to specify a variable in the "**Unique ID**" field (use lowercase lett
 
 * **Unique ID**: `get_cardholder`/`cardholder`
 
-
+![](<../../../.gitbook/assets/изображение (210).png>)
 
 * **Purpose**: Full name of the card/account holder
 * **Processing Priority (any option can be selected)**:
@@ -102,11 +102,11 @@ Make sure to specify a variable in the "**Unique ID**" field (use lowercase lett
 
 To operate the module for receiving funds without using a [cron job](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-sozdat-zadanie-cron-na-servere), specify the link from the module settings.
 
-<figure><img src="../../../.gitbook/assets/изображение (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (211).png" alt=""><figcaption></figcaption></figure>
 
-In your 1Plat personal account, go to "**Store - Settings - Callback for Withdrawals**":
+In your 1Plat personal account, go to "**Store** ➔ **Settings** ➔ **Callback for Withdrawals**":
 
-<figure><img src="../../../.gitbook/assets/изображение (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (212).png" alt=""><figcaption></figcaption></figure>
 
 ## Continue Configuration <a href="#prodolzhenie-nastroiki" id="prodolzhenie-nastroiki"></a>
 
