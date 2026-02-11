@@ -22,24 +22,24 @@ In the admin panel, create a new merchant in the "**Merchants**" section ➔ "**
 
 Select Finora from the dropdown list in the "**Module**" field, provide a name for the module, and click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/изображение.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (3).png" alt=""><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../.gitbook/assets/изображение (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **API Key** — This is the key provided to you by your Finora manager for a specific payment method (please confirm this information with your manager).
 
 ## Special Fields
 
-<figure><img src="../../../.gitbook/assets/изображение (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Merchant Type** (the selected option is fixed to the module and cannot be changed later):
 
 * **Payment Link** — returns a link for payment via QR code in the request; this option works with the selected payment method.
 * **Requisites** — returns a card or phone number for transferring funds directly in the request using the shortcode \[to\_account].
 
-<figure><img src="../../../.gitbook/assets/изображение (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Payment Method** — select the appropriate method from the list or manually enter your option in the "**Add**" field (please confirm acceptable options with your Finora manager).
 

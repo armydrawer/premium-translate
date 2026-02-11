@@ -46,7 +46,7 @@ Enter the generated keys in the corresponding fields in the module settings and 
 {% endtab %}
 
 {% tab title="BitOk" %}
-<figure><img src="../../.gitbook/assets/изображение (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Connecting to the Service**
 
@@ -66,7 +66,7 @@ Enter the generated keys in the corresponding fields in the module settings and 
 {% endtab %}
 
 {% tab title="CoinKyt" %}
-<figure><img src="../../.gitbook/assets/изображение (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Connecting to the Service**
 
@@ -88,7 +88,7 @@ Copy the UID in the settings of your profile in the Cryptomus personal account, 
 {% endtab %}
 
 {% tab title="GetBlock" %}
-<figure><img src="../../.gitbook/assets/изображение (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Connecting to the Service**
 

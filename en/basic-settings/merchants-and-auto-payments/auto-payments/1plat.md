@@ -30,13 +30,13 @@ Fill in the required information in the new window and save it.
 
 In the admin panel, create a new merchant in the "**Merchants**" ➔ "**Add Automatic Payout**" section.
 
-<figure><img src="../../../.gitbook/assets/изображение.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (3).png" alt=""><figcaption></figcaption></figure>
 
 Select 1Plat from the dropdown menu in the "**Module**" field, enter a name for the module, and click "**Save**."
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../.gitbook/assets/изображение (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Domain** — leave this field empty.
 
@@ -58,12 +58,12 @@ Fill in the required authorization fields.
 When selecting "**Sbp**," be sure to choose a bank in the next field!
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/изображение (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Bank** — select an appropriate bank from the list or manually enter your option in the "**Bank**" field (for acceptable options, please check with your 1Plat manager).
 
 {% hint style="info" %}
-## Additional Fields for the Application
+### Additional Fields for the Application
 
 When processing payouts using the 1Plat automatic payout feature, **additional fields** must be added to the exchange form for the client to fill out when creating an application.
 
@@ -75,16 +75,13 @@ Make sure to specify a variable in the "**Unique ID**" field (use lowercase lett
 
 * **Unique ID**: `get_cardholder`/`cardholder`
 
-<img src="../../../.gitbook/assets/image (2235).png" alt="" data-size="original">
+
 
 * **Purpose**: Full name of the card/account holder
 * **Processing Priority (any option can be selected)**:
-
-    1. `get_cardholder` or `cardholder` (priority field)
-    2. Automatically generated from the client's full name (`last_name + first_name + second_name`) — standard fields "**Last Name**," "**First Name**," "**Middle Name**" for the exchange direction (not currency!)
-    3. After this, the field will appear in the exchange form and will be mandatory for the client to fill out when creating an application.
-
-    <figure><img src="../../../.gitbook/assets/image (2236).png" alt="" width="434"><figcaption></figcaption></figure>
+  1. `get_cardholder` or `cardholder` (priority field)
+  2. Automatically generated from the client's full name (`last_name + first_name + second_name`) — standard fields "**Last Name**," "**First Name**," "**Middle Name**" for the exchange direction (not currency!)
+  3. After this, the field will appear in the exchange form and will be mandatory for the client to fill out when creating an application.
 
 **2. Field for Phone Number (when using the "Phone" method)**
 
