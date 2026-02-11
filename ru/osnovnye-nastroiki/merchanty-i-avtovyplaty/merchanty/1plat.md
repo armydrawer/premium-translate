@@ -67,9 +67,9 @@
 
 **card** — выдача номер карты любого банка
 
-**mobile** — выдача номера телефона д
+**mobile** — выдача номера телефона для оплаты
 
-**sbp** — выдача номер телефона для оплаты по СБG
+**sbp** — выдача номер телефона для оплаты по СБП
 
 {% hint style="info" %}
 ![](https://premium.gitbook.io/main/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252Fgit-blob-9c7c3991793897a1f0aa1328c54be13c30991283%252Fimage.png%3Falt%3Dmedia\&width=300\&dpr=3\&quality=100\&sign=5caf9bc3\&sv=2)
