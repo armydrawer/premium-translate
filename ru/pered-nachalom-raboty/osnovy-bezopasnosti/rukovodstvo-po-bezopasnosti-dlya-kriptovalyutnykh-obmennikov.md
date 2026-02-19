@@ -1,24 +1,7 @@
----
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # Руководство по безопасности для криптовалютных обменников
 
 {% hint style="warning" %}
-#### ⚠️ ВАЖНО: Безопасность - приоритет №1
+**⚠️ ВАЖНО: Безопасность - приоритет №1**
 
 **Главное правило**: Сначала настраивается вся безопасность, проверяются все системы, и только после этого начинается работа обменного пункта. **Безопасность важнее удобства.**
 
