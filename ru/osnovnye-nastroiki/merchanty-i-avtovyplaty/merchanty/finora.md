@@ -32,7 +32,7 @@
 
 ## Особые поля
 
-<figure><img src="../../../.gitbook/assets/изображение (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Тип мерчанта** (выбранный пункт закрепляется за модулем, изменить его в дальнейшем не получится):
 

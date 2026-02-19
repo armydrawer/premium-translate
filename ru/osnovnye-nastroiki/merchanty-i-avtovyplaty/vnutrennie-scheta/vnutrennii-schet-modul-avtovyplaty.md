@@ -6,7 +6,7 @@
 
 В разделе "**Мерчанты"** -> "**Автовыплаты**" нажмите кнопку "**Добавить**" и в новом окне в выпадающем списке выберите модуль "**Внутренний счет**".
 
-<figure><img src="../../../.gitbook/assets/изображение (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Выполните настройку модуля согласно [общим настройкам модулей мерчантов автовыплаты](https://premium.gitbook.io/main/osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/obshie-nastroiki-avtovyplat):
 

@@ -71,7 +71,7 @@ API — \[user\_api]
 Примеры форматирования текста на странице:
 
 {% hint style="info" %}
-![](../../.gitbook/assets/изображение.png)
+![](<../../.gitbook/assets/изображение (1).png>)
 
 Когда вы копируете текст, помимо него еще копируются стили текстового редактора (Word, Google Docs и пр) — цвет текста, отступы, межстрочный интервал и т.п.
 
@@ -98,7 +98,7 @@ API — \[user\_api]
 
 {% tabs %}
 {% tab title="режим "Визуально": " %}
-<figure><img src="../../.gitbook/assets/изображение (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (846).png" alt=""><figcaption></figcaption></figure>
 

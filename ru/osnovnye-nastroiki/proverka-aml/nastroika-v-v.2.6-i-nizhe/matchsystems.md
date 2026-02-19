@@ -24,7 +24,7 @@ noRobotsIndex: true
 
 На этой же странице вы можете проверить вручную любой адрес или TxID, не связанные с заявками.
 
-<figure><img src="../../../.gitbook/assets/изображение (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/изображение (48).png" alt=""><figcaption></figcaption></figure>
 
