@@ -2,15 +2,15 @@
 
 В панели управления обменным пунктом в разделе "**Модули" → "Модули"** → активируйте модуль "**Внутренний счет**".
 
-<figure><img src="../../../.gitbook/assets/изображение.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (3).png" alt=""><figcaption></figcaption></figure>
 
 В разделе "**Мерчанты"** -> "**Автовыплаты**" нажмите кнопку "**Добавить**" и в новом окне в выпадающем списке выберите модуль "**Внутренний счет**".
 
-<figure><img src="../../../.gitbook/assets/изображение (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Выполните настройку модуля согласно [общим настройкам модулей мерчантов автовыплаты](https://premium.gitbook.io/main/osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/obshie-nastroiki-avtovyplat):
 
-<figure><img src="../../../.gitbook/assets/изображение (2).png" alt="" width="529"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (2) (1).png" alt="" width="529"><figcaption></figcaption></figure>
 
 В панели управления в разделе "**Направления обменов**" создайте новое направление или отредактируйте существующее, где используется валюта для внутреннего счета. Перейдите на вкладку "**Мерчанты и выплаты**" и для параметра "**Автовыплата**" выберите созданный модуль для выплаты с внутреннего счета.
 
