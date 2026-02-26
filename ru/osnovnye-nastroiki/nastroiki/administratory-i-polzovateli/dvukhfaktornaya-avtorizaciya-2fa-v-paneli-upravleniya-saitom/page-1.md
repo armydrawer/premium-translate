@@ -1,5 +1,7 @@
 ---
 hidden: true
+noIndex: true
+noRobotsIndex: true
 ---
 
 # 2FA с использованием приложения (скоро)
