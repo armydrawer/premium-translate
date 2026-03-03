@@ -106,6 +106,7 @@
       * [PayKassa](basic-settings/merchants-and-auto-payments/merchants/paykassa.md)
       * [Payscrow](basic-settings/merchants-and-auto-payments/merchants/payscrow/README.md)
         * [Payscrow Cascade](basic-settings/merchants-and-auto-payments/merchants/payscrow/payscrow-cascade.md)
+      * [PaySync](basic-settings/merchants-and-auto-payments/merchants/paysync.md)
       * [PSPWare](basic-settings/merchants-and-auto-payments/merchants/pspware.md)
       * [Quickex](basic-settings/merchants-and-auto-payments/merchants/quickex.md)
       * [Quixfer](basic-settings/merchants-and-auto-payments/merchants/quixfer.md)
