@@ -1,24 +1,7 @@
----
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # Security Guide for Cryptocurrency Exchanges
 
 {% hint style="warning" %}
-#### ⚠️ IMPORTANT: Security is Priority #1
+**⚠️ IMPORTANT: Security is Priority #1**
 
 **The main rule**: Set up all security measures first, check all systems, and only then start operating the exchange. **Security is more important than convenience.**
 
