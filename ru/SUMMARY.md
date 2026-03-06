@@ -107,6 +107,7 @@
     * [PayCrown](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/paycrown.md)
     * [Paycore](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/paycore.md)
     * [PaySync](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/paysync.md)
+    * [PayPlay](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/payplay.md)
     * [Payeer](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/payeer.md)
     * [Payin-Payout (неактивно)](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/payin-payout-neaktivno.md)
     * [PayKassa](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/paykassa.md)
