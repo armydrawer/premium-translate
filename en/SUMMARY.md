@@ -104,6 +104,7 @@
       * [PayCrown](basic-settings/merchants-and-auto-payments/merchants/paycrown.md)
       * [Payeer](basic-settings/merchants-and-auto-payments/merchants/payeer.md)
       * [PayKassa](basic-settings/merchants-and-auto-payments/merchants/paykassa.md)
+      * [PayPlay](basic-settings/merchants-and-auto-payments/merchants/payplay.md)
       * [Payscrow](basic-settings/merchants-and-auto-payments/merchants/payscrow/README.md)
         * [Payscrow Cascade](basic-settings/merchants-and-auto-payments/merchants/payscrow/payscrow-cascade.md)
       * [PaySync](basic-settings/merchants-and-auto-payments/merchants/paysync.md)
