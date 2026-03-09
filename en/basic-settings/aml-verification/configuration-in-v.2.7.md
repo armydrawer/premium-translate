@@ -4,7 +4,7 @@
 
 Make sure the module is activated in the "**Modules**" section, or activate it if it isn't.
 
-<figure><img src="../../.gitbook/assets/изображение (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 Add one of the 6 supported services in the "**AML**" ➔ "**Add**" section.
 
@@ -17,7 +17,7 @@ Remember to top up your balance with the chosen service to be able to check addr
 {% hint style="info" %}
 If the service you want to use is not in the drop-down list, you need to install it manually. To do this, download the [distribution to update](https://premiumexchanger.com/uscripts/) to script version 2.7 (the PHP version does not matter - choose any of the distributions).
 
-![](<../../.gitbook/assets/изображение (4).png>)
+![](<../../.gitbook/assets/изображение (4) (1).png>)
 
 Unzip the downloaded distribution on your PC and navigate to the folder at `wp-content/plugins/premiumbox/amlcheck`
 
@@ -34,7 +34,7 @@ In the new window, fill in the authorization details in the "**Module Settings**
 
 {% tabs fullWidth="true" %}
 {% tab title="AML Bot" %}
-<figure><img src="../../.gitbook/assets/изображение (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Connecting to the Service**
 
@@ -46,7 +46,7 @@ Enter the generated keys in the corresponding fields in the module settings and 
 {% endtab %}
 
 {% tab title="BitOk" %}
-<figure><img src="../../.gitbook/assets/изображение (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Connecting to the Service**
 
@@ -66,7 +66,7 @@ Enter the generated keys in the corresponding fields in the module settings and 
 {% endtab %}
 
 {% tab title="CoinKyt" %}
-<figure><img src="../../.gitbook/assets/изображение (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Connecting to the Service**
 
@@ -88,7 +88,7 @@ Copy the UID in the settings of your profile in the Cryptomus personal account, 
 {% endtab %}
 
 {% tab title="GetBlock" %}
-<figure><img src="../../.gitbook/assets/изображение (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Connecting to the Service**
 
@@ -96,7 +96,7 @@ To obtain an API key, send an email to [info@getblock.net](mailto:info@getblock.
 {% endtab %}
 
 {% tab title="Matchsystems" %}
-<figure><img src="../../.gitbook/assets/изображение (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Connecting to the Service**
 
@@ -108,11 +108,11 @@ Enter the key received from the service representative in the corresponding fiel
 
 ## General Settings
 
-<figure><img src="../../.gitbook/assets/изображение (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Risk if API doesn't work** — the desired risk value (from 0 to 100) that will be assigned to the verification result if no response is received from the API service. The value <mark style="color:red;">**must be**</mark> higher than the value set in the "**Critical Risk Level for Address/TxID**" fields.
 
-<figure><img src="../../.gitbook/assets/изображение (9).png" alt="" width="302"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (9) (1).png" alt="" width="302"><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/изображение (10).png" alt="" width="294"><figcaption></figcaption></figure>
 
