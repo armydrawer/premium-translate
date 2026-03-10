@@ -20,11 +20,11 @@
 
 Выберите PayPlay в выпадающем списке в поле "**Модуль**", укажите название для модуля и нажмите "**Сохранить**".
 
-<figure><img src="../../../.gitbook/assets/изображение.png" alt="" width="376"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (3).png" alt="" width="376"><figcaption></figcaption></figure>
 
 Заполните указанные авторизационные поля.
 
-<figure><img src="../../../.gitbook/assets/изображение (1).png" alt="" width="401"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (1) (1).png" alt="" width="401"><figcaption></figcaption></figure>
 
 **Домен** — оставьте поле пустым
 
@@ -48,14 +48,14 @@
 
 ## Особые поля
 
-<figure><img src="../../../.gitbook/assets/изображение (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Тип мерчанта** (выбранный пункт закрепляется за копией модуля, изменить его в дальнейшем для этой копии не получится):
 
 * **Payment Link** — возвращает в заявке ссылку для оплаты, опция работает совместно с выбранным ниже способом оплаты
 * **Requisites** — возвращает номер карты или телефона для перевода средств в самой заявке через шорткод `[to_account]`
 
-<figure><img src="../../../.gitbook/assets/изображение (2).png" alt="" width="497"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (2) (1).png" alt="" width="497"><figcaption></figcaption></figure>
 
 **Способ оплаты** — выберите необходимый способ для приема средств от клиента:
 

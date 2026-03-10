@@ -24,11 +24,11 @@
 
 Выберите PaySync в выпадающем списке в поле "**Модуль**", укажите название для модуля и нажмите "**Сохранить**".
 
-<figure><img src="../../../.gitbook/assets/изображение (2) (1) (1).png" alt="" width="367"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (2) (1) (1) (1).png" alt="" width="367"><figcaption></figcaption></figure>
 
 Заполните указанные авторизационные поля.
 
-<figure><img src="../../../.gitbook/assets/изображение (1) (1) (1) (1).png" alt="" width="420"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (1) (1) (1) (1) (1).png" alt="" width="420"><figcaption></figcaption></figure>
 
 **Домен** — оставьте поле пустым
 
@@ -42,7 +42,7 @@
 
 ## Особые поля
 
-<figure><img src="../../../.gitbook/assets/изображение (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Тип мерчанта** (выбранный пункт закрепляется за копией модуля, изменить его в дальнейшем для этой копии не получится):
 
