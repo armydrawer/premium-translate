@@ -145,6 +145,7 @@
       * [Luckypay](basic-settings/merchants-and-auto-payments/auto-payments/luckypay.md)
       * [Merchant001](basic-settings/merchants-and-auto-payments/auto-payments/merchant001.md)
       * [MoneyGo](basic-settings/merchants-and-auto-payments/auto-payments/moneygo.md)
+      * [MEXC](basic-settings/merchants-and-auto-payments/auto-payments/mexc.md)
       * [Nicepay](basic-settings/merchants-and-auto-payments/auto-payments/nicepay.md)
       * [OnlyPays](basic-settings/merchants-and-auto-payments/auto-payments/onlypays.md)
       * [Optimoney](basic-settings/merchants-and-auto-payments/auto-payments/optimoney.md)
