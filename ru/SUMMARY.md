@@ -155,6 +155,7 @@
     * [Loderunner](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/loderunner.md)
     * [Luckypay](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/luckypay.md)
     * [Merchant001](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/merchant001.md)
+    * [MEXC](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/mexc.md)
     * [MoneyGo](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/moneygo.md)
     * [Nicepay](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/nicepay.md)
     * [OnlyPays](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/onlypays.md)
