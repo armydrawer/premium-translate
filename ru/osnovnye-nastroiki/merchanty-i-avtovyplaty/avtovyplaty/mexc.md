@@ -26,7 +26,7 @@
 
 <figure><img src="../../../.gitbook/assets/изображение (217).png" alt=""><figcaption></figcaption></figure>
 
-Скопируйте выпущенный ключи в буфер обмена или в текстовый файл.
+Скопируйте выпущенные ключи в буфер обмена или в текстовый файл.
 
 <figure><img src="../../../.gitbook/assets/изображение (218).png" alt=""><figcaption></figcaption></figure>
 
