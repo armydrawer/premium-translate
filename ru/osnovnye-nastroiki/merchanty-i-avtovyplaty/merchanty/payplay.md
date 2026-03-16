@@ -56,7 +56,7 @@
 
 <figure><img src="../../../.gitbook/assets/изображение (2) (1) (1).png" alt="" width="497"><figcaption></figcaption></figure>
 
-* **Requisites** — возвращает номер карты или телефона для перевода средств в самой заявке через шорткод `[to_account]` (**только криптовалюты**)
+* **Requisites** — возвращает номер кошелька для перевода средств в самой заявке через шорткод `[to_account]` (**только криптовалюты**)
 
 <figure><img src="../../../.gitbook/assets/изображение (221).png" alt="" width="476"><figcaption></figcaption></figure>
 
