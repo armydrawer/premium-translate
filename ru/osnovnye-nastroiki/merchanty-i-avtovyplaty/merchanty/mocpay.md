@@ -28,7 +28,9 @@
 
 **Домен** — оставьте поле пустым
 
-**API ключ** — API ключ, отображаемый в настройках ЛК PayPlay
+**API ключ** — API ключ, отображаемый в настройках ЛК Mocpay
+
+<figure><img src="../../../.gitbook/assets/изображение (225).png" alt="" width="527"><figcaption></figcaption></figure>
 
 ## Особые поля
 
