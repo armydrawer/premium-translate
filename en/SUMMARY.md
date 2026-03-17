@@ -67,6 +67,7 @@
       * [Internal Account (Auto-Payment Module)](basic-settings/merchants-and-auto-payments/internal-accounts/internal-account-auto-payment-module.md)
       * [Exchange Involving the User's Internal Account](basic-settings/merchants-and-auto-payments/internal-accounts/exchange-involving-the-users-internal-account.md)
     * [Merchants](basic-settings/merchants-and-auto-payments/merchants/README.md)
+      * [Mocpay](basic-settings/merchants-and-auto-payments/merchants/mocpay.md)
       * [Merchant Diagnostics](basic-settings/merchants-and-auto-payments/merchants/merchant-diagnostics.md)
       * [Adding or Creating a Merchant Copy](basic-settings/merchants-and-auto-payments/merchants/adding-or-creating-a-merchant-copy.md)
       * [General Merchant Settings](basic-settings/merchants-and-auto-payments/merchants/general-merchant-settings.md)
