@@ -67,4 +67,4 @@
 
 5. Выберите архив `license.zip` и обязательно распакуйте его в этой же папке, кликнув по иконке "**Извлечь**".
 
-<figure><img src="../../.gitbook/assets/изображение (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>

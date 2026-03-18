@@ -14,7 +14,7 @@
 
 [Зарегистрируйтесь на сервисе Crypto-Cash](https://account.crypto-cash.world/registration), авторизуйтесь в личном кабинете и перейдите в [раздел настроек мерчанта](https://account.crypto-cash.world/overview). Выпустите API-ключи по кнопке "**Сгенерировать API ключ**".
 
-<figure><img src="../../../.gitbook/assets/изображение (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 &#x20;Установите ограничения доступа (при использовании мерчанта на прием отметьте "**Пополнение**" и "**История транзакций**"). Укажите в поле "**URL вебхука**" ссылку из настроек модуля на прием средств.
 

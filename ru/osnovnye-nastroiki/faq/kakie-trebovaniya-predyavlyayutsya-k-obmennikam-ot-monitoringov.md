@@ -234,7 +234,7 @@
 
 В форме обмена появится поле, один из пунктов которого каждый пользователь будет обязан выбирать при создании заявки.
 
-<figure><img src="../../.gitbook/assets/изображение (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Требование мониторинга выполнено.
 

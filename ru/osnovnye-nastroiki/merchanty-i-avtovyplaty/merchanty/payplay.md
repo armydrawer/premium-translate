@@ -24,7 +24,7 @@
 
 Заполните указанные авторизационные поля.
 
-<figure><img src="../../../.gitbook/assets/изображение (1) (1) (1).png" alt="" width="401"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (1) (1) (1) (1).png" alt="" width="401"><figcaption></figcaption></figure>
 
 **Домен** — оставьте поле пустым
 
@@ -36,15 +36,21 @@
 
 <figure><img src="../../../.gitbook/assets/изображение (212).png" alt="" width="563"><figcaption></figcaption></figure>
 
-**WT Token** — токен, отображаемый в ЛК PayPlay после указания ссылки для вебхука из настроек модуля мерчанта
+**WT Token** — токен, отображаемый в ЛК PayPlay после указания ссылки для вебхука из настроек модуля мерчанта (раздел "**Платежные страницы**")
 
 {% hint style="warning" %}
 Обратите внимание, что для мерчанта с методом работы "**Payment Link**" нужно обязательно указывать ссылку для вебхука для корректной проверки платежа по заявке
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/изображение (210).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (210).png" alt=""><figcaption><p>Настройки модуля в админке Premium Exchanger</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/изображение (209).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (226).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/изображение (227).png" alt=""><figcaption></figcaption></figure>
+
+После сохранения вебхука обязательно выберите методы для работы с ним и сохраните изменения.
+
+<figure><img src="../../../.gitbook/assets/изображение (228).png" alt=""><figcaption></figcaption></figure>
 
 ## Особые поля
 
