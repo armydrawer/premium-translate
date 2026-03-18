@@ -36,15 +36,21 @@ Fill in the required authorization fields.
 
 <figure><img src="../../../.gitbook/assets/изображение (3).png" alt="" width="500"><figcaption></figcaption></figure>
 
-**WT Token** — the token displayed in your PayPlay account after specifying the webhook URL in the merchant module settings.
+**WT Token** — token displayed in the PayPlay personal account after specifying the webhook link from the merchant module settings ("**Payment pages**" section).
 
 {% hint style="warning" %}
 Please note that for merchants using the "**Payment Link**" method, it is essential to specify the webhook URL for proper payment verification.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/изображение (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (5).png" alt=""><figcaption><p>Module settings in the Premium Exchanger admin panel</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/изображение (6).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (236).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/изображение (237).png" alt=""><figcaption></figcaption></figure>
+
+After saving the webhook, be sure to select the methods to work with it and save the changes.
+
+<figure><img src="../../../.gitbook/assets/изображение (234).png" alt=""><figcaption></figcaption></figure>
 
 ## Special Fields
 
