@@ -81,4 +81,4 @@ Array ( [error] => 0 [error_text] => [data] => Array ( [ip] => 000.000.000.0000 
 {% endhint %}
 
 7. По желанию выполните дополнительные [настройки бота](nastroiki-bota.md).
-8. Если вы используете CloudFlare или подобный сервис для своего сайта — добавьте [IP-адреса Telegram](https://core.telegram.org/resources/cidr.txt) в Whitelist в вашем сервисе. Инструкция по добавлению в Whitelist CloudFlare доступна [по ссылке](/broken/pages/cvvxCMiuXwZrdEboJ1w0).
+8. Если вы используете CloudFlare или подобный сервис для своего сайта — добавьте [IP-адреса Telegram](https://core.telegram.org/resources/cidr.txt) в Whitelist в вашем сервисе. Инструкция по добавлению в Whitelist CloudFlare доступна по [ссылке](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/dobavlenie-ip-adresov-v-whitelist-v-cloudflare).
