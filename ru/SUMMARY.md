@@ -89,6 +89,7 @@
     * [Electrum](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/electrum.md)
     * [Evo Pay](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/evo-pay.md)
     * [Exnode](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/exnode.md)
+    * [FeeCutEx](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/feecutex.md)
     * [FireKassa Card/Link](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/firekassa.md)
     * [Finora](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/finora.md)
     * [Garantex Crypto](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/garantex-crypto.md)
