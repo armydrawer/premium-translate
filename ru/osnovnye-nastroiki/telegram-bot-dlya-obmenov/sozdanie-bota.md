@@ -80,5 +80,5 @@ Array ( [error] => 0 [error_text] => [data] => Array ( [ip] => 000.000.000.0000 
 <img src="../../.gitbook/assets/image (1249).png" alt="" data-size="original">
 {% endhint %}
 
-7. По желанию выполните дополнительные [настройки бота](nastroiki-bota.md).
+7. По желанию выполните дополнительные [настройки бота](https://premium.gitbook.io/main/osnovnye-nastroiki/telegram-bot-dlya-obmenov/nastroiki-bota).
 8. Если вы используете CloudFlare или подобный сервис для своего сайта — добавьте [IP-адреса Telegram](https://core.telegram.org/resources/cidr.txt) в Whitelist в вашем сервисе. Инструкция по добавлению в Whitelist CloudFlare доступна по [ссылке](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/dobavlenie-ip-adresov-v-whitelist-v-cloudflare).
