@@ -6,13 +6,13 @@
 
 <figure><img src="../../.gitbook/assets/image (2047).png" alt="" width="563"><figcaption></figcaption></figure>
 
-Добавьте один из 6 поддерживаемых сервисов в разделе "**AML**" ➔ "**Добавить**".
+Добавьте один из 7 поддерживаемых сервисов в разделе "**AML**" ➔ "**Добавить**".
 
 {% hint style="warning" %}
 Не забывайте пополнять баланс на стороне выбранного сервиса, чтобы иметь возможность проверять адреса и транзакции!
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/изображение (163).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (231).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Если в выпадающем списке нет сервиса, который вы хотите использовать - необходимо установить его вручную. Для этого скачайте [дистрибутив **для обновления**](https://premiumexchanger.com/uscripts/) **под версию скрипта 2.7** (версия PHP не имеет значения — выберите любой из дистрибутивов).
@@ -47,6 +47,28 @@
 
 {% tab title="BitOk" %}
 <figure><img src="../../.gitbook/assets/image (189).png" alt="" width="461"><figcaption></figcaption></figure>
+
+**Подключение к сервису**
+
+Для подключения к сервису напишите [менеджеру](https://t.me/premiumexchanger_business) — он создаст чат с вами и представителями AML сервиса для обсуждения условий подключения, тарифов и других вопросов
+
+После получения доступа к сервису пополните счет для выполнения проверок реквизитов клиентов на вашем обменнике.
+
+Зайдите в личный кабинет, раздел "[**Ключи API**](https://kyt.bitok.org/api-keys)". Выпустите новый ключ по кнопке "**Создать ключ**", в открывшемся окне укажите желаемое название для ключа и IP-адрес вашего сервера (необязательно).
+
+<figure><img src="https://premium.gitbook.io/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FgIzth95zoCr0EOsUo9oj%252Fimage.png%3Falt%3Dmedia%26token%3D32a05d2f-48ec-47cf-aa8d-70cc487756e1&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=87b578bc&#x26;sv=2" alt="" width="563"><figcaption></figcaption></figure>
+
+Нажмите "**Создать**" и скопируйте в текстовый файл сгенерированные ключи.
+
+<figure><img src="https://premium.gitbook.io/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FYOk96z3uNPDpR60IPc69%252Fimage.png%3Falt%3Dmedia%26token%3D3ab0171e-90d8-4ca9-ae24-abf3eeaa3421&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=348e2df1&#x26;sv=2" alt="" width="563"><figcaption></figcaption></figure>
+
+Укажите данные ключи в соответствующих полях в настройках модуля и сохраните данные.
+{% endtab %}
+
+{% tab title="BitOk Transfers" %}
+Модуль BitOk Transfers использует систему проверок, рекомендованую самим сервисом, а также в нем используется улучшенный маппинг валют в сравнении с базовым модулем BitOk. При подключении сервиса BitOk для своего обменника рекомендуем использовать именно этот AML модуль.&#x20;
+
+<figure><img src="../../.gitbook/assets/изображение (232).png" alt=""><figcaption></figcaption></figure>
 
 **Подключение к сервису**
 
