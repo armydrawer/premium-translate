@@ -20,7 +20,7 @@
 
 Выпустите API-ключи с правами доступа, отмеченными на скриншоте.
 
-<figure><img src="../../../.gitbook/assets/изображение (216).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/1000088955.jpg" alt=""><figcaption></figcaption></figure>
 
 Пройдите проверку безопасности при выпуске ключей.
 
