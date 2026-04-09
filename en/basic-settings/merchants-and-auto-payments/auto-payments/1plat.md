@@ -15,7 +15,7 @@ For discussions regarding terms and connection, please contact a service represe
 {% endhint %}
 
 {% hint style="warning" %}
-Please note that when using the Finora automatic payout module, the actual payout amount is always rounded to two decimal places on the service side.
+Please note that when using the 1Plat automatic payout module, the actual payout amount is always rounded to two decimal places on the service side.
 {% endhint %}
 
 Register on the [1Plat](https://1plat.money/user/reg) service and log into your personal account. Create a new store.

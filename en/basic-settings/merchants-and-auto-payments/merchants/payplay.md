@@ -20,21 +20,21 @@ In the admin panel, create a new merchant in the "**Merchants**" section by sele
 
 Choose PayPlay from the dropdown menu in the "**Module**" field, enter a name for the module, and click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/изображение.png" alt="" width="359"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (4).png" alt="" width="359"><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../.gitbook/assets/изображение (1).png" alt="" width="415"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (1) (1).png" alt="" width="415"><figcaption></figcaption></figure>
 
 **Domain** — leave this field empty.
 
 **API Key** — the API key displayed in your PayPlay account settings.
 
-<figure><img src="../../../.gitbook/assets/изображение (2).png" alt="" width="560"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (2) (1).png" alt="" width="560"><figcaption></figcaption></figure>
 
 **Slug** — the ID of the payment page, displayed in your PayPlay account.
 
-<figure><img src="../../../.gitbook/assets/изображение (3).png" alt="" width="500"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (3) (1).png" alt="" width="500"><figcaption></figcaption></figure>
 
 **WT Token** — token displayed in the PayPlay personal account after specifying the webhook link from the merchant module settings ("**Payment pages**" section).
 

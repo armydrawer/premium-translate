@@ -132,6 +132,7 @@
       * [ABCEx](basic-settings/merchants-and-auto-payments/auto-payments/abcex.md)
       * [AI-pay](basic-settings/merchants-and-auto-payments/auto-payments/ai-pay.md)
       * [Alfabit Crypto](basic-settings/merchants-and-auto-payments/auto-payments/alfabit-crypto.md)
+      * [APX](basic-settings/merchants-and-auto-payments/auto-payments/apx.md)
       * [Bankoro](basic-settings/merchants-and-auto-payments/auto-payments/bankoro.md)
       * [Binance](basic-settings/merchants-and-auto-payments/auto-payments/binance.md)
       * [Crypto-Cash Crypto](basic-settings/merchants-and-auto-payments/auto-payments/crypto-cash-crypto.md)
