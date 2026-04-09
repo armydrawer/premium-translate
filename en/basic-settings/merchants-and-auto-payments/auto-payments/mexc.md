@@ -18,9 +18,7 @@ If you need to update the module on the server, please refer to the [instruction
 
 <figure><img src="../../../.gitbook/assets/изображение (226).png" alt=""><figcaption></figcaption></figure>
 
-Generate API keys with the permissions indicated in the screenshot.
-
-<figure><img src="../../../.gitbook/assets/изображение (227).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/1000088958.jpg" alt=""><figcaption></figcaption></figure>
 
 Complete the security verification when generating the keys.
 
