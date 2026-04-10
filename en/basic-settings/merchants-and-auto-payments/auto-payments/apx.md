@@ -9,7 +9,7 @@ If you need to update the module on the server, please refer to the [instruction
 {% endhint %}
 
 {% hint style="warning" %}
-For discussions regarding terms and connection, please contact a service representative.
+For discussions regarding terms and connection, please contact a [service representative](https://t.me/apxarchi).
 
 **Disclaimer**: When connecting your website to any service, please assess the potential risks of collaboration on your own.
 {% endhint %}
