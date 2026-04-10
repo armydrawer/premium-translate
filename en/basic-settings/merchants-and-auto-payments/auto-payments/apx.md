@@ -16,11 +16,11 @@ For discussions regarding terms and connections, please contact a [service repre
 
 Register on the [APX service](https://www.apx.archi/auth/signup) and log in to your personal account. Create a new API key.
 
-<figure><img src="../../../.gitbook/assets/изображение (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (4).png" alt=""><figcaption></figcaption></figure>
 
 Copy the generated key to your clipboard or a text file.
 
-<figure><img src="../../../.gitbook/assets/изображение (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Module Settings
 
