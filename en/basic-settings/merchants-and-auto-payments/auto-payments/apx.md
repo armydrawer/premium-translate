@@ -91,6 +91,59 @@ Make sure to specify a variable in the "**Unique ID**" field (use lowercase lett
 After this, the fields will be displayed in the exchange form and will be mandatory for the client to fill out when creating an application.
 {% endhint %}
 
-## Continuing the Setup <a href="#prodolzhenie-nastroiki" id="prodolzhenie-nastroiki"></a>
+## Special fields
+
+{% hint style="info" %}
+### Дополнительные поля для заявки <a href="#dopolnitelnye-polya-dlya-zayavki" id="dopolnitelnye-polya-dlya-zayavki"></a>
+
+When paying out funds using APX autopayout, you **need** to add additional fields to the exchange form for the client to fill it out when creating an application.
+
+To do this, create and add additional fields **to the corresponding currencies** on the '**Receiving**' side for payouts via APX.
+
+Be sure to specify the variable in the '**Unique ID**' field (specify the name in lowercase) and make the field mandatory.
+
+1. **Bank name field&#x20;**<mark style="color:red;">**(required)**</mark>
+
+* **Unique ID:** `get_bankname`
+
+<p align="center"><img src="../../../.gitbook/assets/изображение (243).png" alt="" data-size="original"></p>
+
+* **Processing priority (you can choose any option):**
+
+1. Add. Currency field with ID `get_bankname`
+2. Auto value: currency code '**Receiving**' (must contain '**RUB**' in the name)
+
+<img src="../../../.gitbook/assets/изображение (244).png" alt="" data-size="original">
+
+2. **Card number field&#x20;**<mark style="color:red;">**(required)**</mark>
+
+* Unique ID: `get_account`
+* Processing priority (you can choose any option):
+
+1. Add. Currency field with ID `get_account`
+2. Automatic value: standard '**To account**' field of the currency '**Receiving**'
+
+<img src="../../../.gitbook/assets/изображение (245).png" alt="" data-size="original">
+
+3. **Поле для имени держателя карты&#x20;**<mark style="color:yellow;">**(опционально)**</mark>
+
+* **Уникальный ID**: `get_cardholder`/`cardholder`
+* **Приоритет обработки (можно выбрать любой вариант)**:
+  1. Доп. поле валюты с ID `get_cardholder`&#x20;
+  2. Автоматическое формирование из ФИО клиента (`last_name + first_name + second_name`) — стандартные поля "**Фамилия**", "**Имя**", "**Отчество**" для **направления обмена (не валюты!)**
+
+4. **Поле для номера телефона&#x20;**<mark style="color:yellow;">**(опционально)**</mark>
+
+* **Уникальный ID**: `get_phone`
+* **Приоритет обработки (можно выбрать любой вариант)**:
+  1. Доп. поле валюты с ID `get_phone`&#x20;
+  2.  Стандартное доп. поле "**Телефон**" **для направления обмена (не валюты!)** с + как первым символом в форме для заполнения<br>
+
+      <figure><img src="../../../.gitbook/assets/изображение (246).png" alt=""><figcaption></figcaption></figure>
+
+После этого поля будут отображаться в форме обмена, а также будет обязательным к заполнению клиентом при создании заявки.
+{% endhint %}
+
+## Continue Configuration <a href="#prodolzhenie-nastroiki" id="prodolzhenie-nastroiki"></a>
 
 Next, proceed to configure the merchant by following the [general setup instructions](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/obshie-nastroiki-merchantov-avtovyplat).
