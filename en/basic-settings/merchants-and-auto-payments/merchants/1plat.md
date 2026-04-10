@@ -16,7 +16,7 @@ Please note that when using the 1Plat payment module, the actual payment amount 
 
 Register on the [1Plat](https://1plat.money/user/reg) service and log in to your personal account. Create a new store.
 
-<figure><img src="../../../.gitbook/assets/изображение (2) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (2) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Fill in the details in the new window and save them.
 
