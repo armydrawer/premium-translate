@@ -1,7 +1,13 @@
 # PaySync
 
-{% hint style="info" %}
-Если вам необходимо обновить модуль на сервере — воспользуйтесь [инструкцией](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/obnovlenie-failov-skripta-na-servere/kak-obnovit-faily-na-servere#moduli-merchantov-i-avtovyplat)
+{% hint style="warning" %}
+Если вам необходимо обновить модуль на сервере — воспользуйтесь [инструкцией](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/obnovlenie-failov-skripta-na-servere/kak-obnovit-faily-na-servere#moduli-merchantov-i-avtovyplat).
+
+Обратите внимание, что при первой загрузке модуля Paysync на сервер также необходимо обновить системные файлы скрипта по [инструкции](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/obnovlenie-failov-skripta-na-servere) (весь дистрибутив) или отдельные файлы по указанным ниже путям:\
+`wp-content/plugins/premiumbox/premium/includes/class-form.php`\
+`wp-content/plugins/premiumbox/includes/hashed_functions.php`&#x20;
+
+После обновления системных файлов модуль Paysync будет работать корректно.
 {% endhint %}
 
 ## Настройки в личном кабинете мерчанта
