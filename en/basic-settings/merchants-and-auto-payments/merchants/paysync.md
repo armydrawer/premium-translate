@@ -1,7 +1,12 @@
 # PaySync
 
-{% hint style="info" %}
+{% hint style="warning" %}
 If you need to update the module on the server, please refer to the [instructions](https://premium.gitbook.io/main/en/basic-settings/faq/updating-script-files-on-the-server/how-to-update-files-on-the-server#merchant-and-auto-payout-modules).
+
+Please note that when you first download the Paysync module to the server, you also need to update the script system files according to the [instructions](https://premium.gitbook.io/main/en/basic-settings/faq/updating-script-files-on-the-server) (the entire distribution) or individual files using the following paths:\
+`wp-content/plugins/premiumbox/premium/includes/class-form.php`\
+`wp-content/plugins/premiumbox/includes/hashed_functions.php`\
+After updating the system files, the Paysync module will work correctly.
 {% endhint %}
 
 ## Merchant Account Settings
