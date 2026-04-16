@@ -94,6 +94,7 @@
       * [Ivanpay](basic-settings/merchants-and-auto-payments/merchants/ivanpay.md)
       * [Koshelek](basic-settings/merchants-and-auto-payments/merchants/koshelek.md)
       * [LazyTrade](basic-settings/merchants-and-auto-payments/merchants/lazytrade.md)
+      * [Loderunner](basic-settings/merchants-and-auto-payments/merchants/loderunner.md)
       * [Luckypay](basic-settings/merchants-and-auto-payments/merchants/luckypay.md)
       * [Merchant001](basic-settings/merchants-and-auto-payments/merchants/merchant001.md)
       * [Mocpay](basic-settings/merchants-and-auto-payments/merchants/mocpay.md)
