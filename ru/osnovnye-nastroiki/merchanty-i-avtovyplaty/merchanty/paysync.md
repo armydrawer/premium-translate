@@ -30,11 +30,11 @@
 
 Выберите PaySync в выпадающем списке в поле "**Модуль**", укажите название для модуля и нажмите "**Сохранить**".
 
-<figure><img src="../../../.gitbook/assets/изображение (2) (1) (1) (1) (1) (1).png" alt="" width="367"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (2) (1) (1) (1) (1) (1) (1).png" alt="" width="367"><figcaption></figcaption></figure>
 
 Заполните указанные авторизационные поля.
 
-<figure><img src="../../../.gitbook/assets/изображение (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="420"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="420"><figcaption></figcaption></figure>
 
 **Домен** — оставьте поле пустым
 
@@ -48,14 +48,14 @@
 
 ## Особые поля
 
-<figure><img src="../../../.gitbook/assets/изображение (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Тип мерчанта** (выбранный пункт закрепляется за копией модуля, изменить его в дальнейшем для этой копии не получится):
 
 * **Payment Link** — возвращает в заявке ссылку для оплаты по QR-коду, опция работает совместно с выбранным способом оплаты
 * **Requisites** — возвращает карту или телефон для перевода средств в самой заявке через шорткод \[to\_account]
 
-<figure><img src="../../../.gitbook/assets/изображение (5).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (5) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 **Способ оплаты** — выберите необходимый способ для приема средств от клиента:
 
