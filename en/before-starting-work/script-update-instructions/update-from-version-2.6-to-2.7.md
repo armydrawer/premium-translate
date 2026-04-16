@@ -37,7 +37,7 @@ The simplest way to [**back up your site**](https://premium.gitbook.io/main/en/b
 
 1.  In the exchange panel, go to the "**Console**" section and enable technical mode to prevent users from making requests on the site during the script update.
 
-    <figure><img src="../../.gitbook/assets/image (879) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (879).png" alt=""><figcaption></figcaption></figure>
 2. In the "**Plugins**" section, deactivate the "**Premium Exchanger**" and "**Premium Exchanger hooks**" plugins.\\
 3. Using an FTP client or file manager, delete the contents of the **`/wp-content/plugins/premiumbox/`** folder on the server, <mark style="color:green;">**except for**</mark> the following files and folders inside it:
 

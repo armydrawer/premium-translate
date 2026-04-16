@@ -2,7 +2,7 @@
 
 The script includes the option to change the appearance of the exchange table through the **"Type of Currency Exchange Direction Table"** setting, which can be found in the **"Exchange Settings" -> "General Settings."**
 
-<figure><img src="../../.gitbook/assets/image (155) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (155).png" alt=""><figcaption></figcaption></figure>
 
 ## Table 2
 
@@ -14,8 +14,6 @@ Shows the default exchange direction.
 
 {% hint style="info" %}
 You can set a default direction for any type of table in the settings under **"Exchange Settings" -> "General Settings."**
-
-
 {% endhint %}
 
 ## Table 4

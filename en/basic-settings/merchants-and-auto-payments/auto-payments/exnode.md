@@ -52,7 +52,7 @@ Next, configure the merchant by following the [general setup instructions](https
 
 ## Special Fields
 
-<figure><img src="../../../.gitbook/assets/image (1378)_eng (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1378)_eng.png" alt=""><figcaption></figcaption></figure>
 
 **Currency Code** — select the currency you will be paying out from the dropdown list.
 

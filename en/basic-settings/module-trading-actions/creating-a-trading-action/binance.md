@@ -2,7 +2,7 @@
 
 ## Authorization in the Module
 
-<figure><img src="../../../.gitbook/assets/image (692) (1).png" alt="" width="453"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (692).png" alt="" width="453"><figcaption></figcaption></figure>
 
 **API Key** — a key generated in your Binance personal account.
 
@@ -12,17 +12,17 @@ For trading actions, it is recommended to generate a separate key with the neces
 
 The permissions required to work with all module functions are highlighted below.
 
-<figure><img src="../../../.gitbook/assets/image (693) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (693).png" alt=""><figcaption></figcaption></figure>
 
 ## General Parameters:
 
-<figure><img src="../../../.gitbook/assets/image (700) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (700).png" alt="" width="563"><figcaption></figcaption></figure>
 
 **Execution Order** — the order in which actions are performed (if multiple trading actions are involved for the same exchange directions). Specify values from [1 to 10](#user-content-fn-1)[^1] for each trading action involved. Leave the field empty if you are using only one action.
 
-<figure><img src="../../../.gitbook/assets/image (614) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (614).png" alt="" width="563"><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (615) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (615).png" alt="" width="563"><figcaption></figcaption></figure>
 
 **Assign Actions** — select the status of the request upon reaching which the action will be executed. Only one option should be selected.
 
@@ -34,11 +34,11 @@ We recommend using the "After status **Paid Request**" option for the "**Buy**" 
 
 **Error Margin (%)** — specify the error margin percentage (numbers only) for the amount in the request that the action will be based on. Typically, values range from 0.1 to 0.5 (the optimal value is 0.15).
 
-<figure><img src="../../../.gitbook/assets/image (616) (1).png" alt="" width="307"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (616).png" alt="" width="307"><figcaption></figcaption></figure>
 
 ## Step "Borrow Funds"
 
-<figure><img src="../../../.gitbook/assets/image (696) (1).png" alt="" width="515"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (696).png" alt="" width="515"><figcaption></figcaption></figure>
 
 **Enabled:**\
 • **Yes**\
@@ -51,7 +51,7 @@ We recommend using the "After status **Paid Request**" option for the "**Buy**" 
 **Trading Currency Code** — specify the currency code you need to lend to the exchange as a deposit for borrowing the selected currency (from the "**Currency Code**" field).
 
 **Amount** — select the type of amount from the request that will be passed to this step.\
-![](<../../../.gitbook/assets/image (702) (1).png>)
+![](<../../../.gitbook/assets/image (702).png>)
 
 {% hint style="warning" %}
 Choose the amount from the "**Give**" or "**Receive**" side depending on the currency you plan to work with (the currency pair side must match the currency specified in the "**Currency Code**" field).
@@ -85,7 +85,7 @@ enter the correct amount in the relevant field, save the changes, and manually t
 
 ## Step "Repay Debt"
 
-<figure><img src="../../../.gitbook/assets/image (697) (1).png" alt="" width="506"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (697).png" alt="" width="506"><figcaption></figcaption></figure>
 
 **Enabled:**\
 • **Yes**\
@@ -109,7 +109,7 @@ The currency code must match:
 {% endhint %}
 
 **Amount** — select the type of amount from the request that will be passed to this step.\
-![](<../../../.gitbook/assets/image (702) (1).png>)
+![](<../../../.gitbook/assets/image (702).png>)
 
 {% hint style="warning" %}
 Choose the amount from the "**Give**" or "**Receive**" side depending on the currency you plan to work with (the currency pair side must match the currency specified in the "**Currency Code**" field).
@@ -121,7 +121,7 @@ Choose the amount from the "**Give**" or "**Receive**" side depending on the cur
 
 ## Step "Sell"
 
-<figure><img src="../../../.gitbook/assets/image (695) (1).png" alt="" width="518"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (695).png" alt="" width="518"><figcaption></figcaption></figure>
 
 **Enabled:**\
 • **Yes**\
@@ -158,7 +158,7 @@ The currency code must match:
 **Trading Currency Code** — specify the currency code to <mark style="color:green;">**buy**</mark> in this step (usually USDT).
 
 **Amount** — select the type of amount from the request that will be passed to this action (when selling the incoming currency from the client, choose one of the "**Give/Giving Amount**" options or the "**Payment Amount**" option).\
-![](<../../../.gitbook/assets/image (702) (1).png>)
+![](<../../../.gitbook/assets/image (702).png>)
 
 {% hint style="warning" %}
 Choose the amount from the "**Give**" or "**Receive**" side depending on the currency you plan to work with (the currency pair side must match the currency specified in the "**Currency Code**" field).
@@ -186,7 +186,7 @@ For the **Sell** action, select **No**:\
 
 ## Step: "Buy"
 
-<figure><img src="../../../.gitbook/assets/image (698) (1).png" alt="" width="504"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (698).png" alt="" width="504"><figcaption></figcaption></figure>
 
 ### Enabled:
 
@@ -247,7 +247,7 @@ Specify the code of the currency you want to <mark style="color:red;">**sell**</
 ### Amount
 
 Select the type of amount from the request to be passed to this step:\
-![](<../../../.gitbook/assets/image (702) (1).png>)
+![](<../../../.gitbook/assets/image (702).png>)
 
 {% hint style="warning" %}
 Choose the amount from the "**Giving**" or "**Receiving**" side, depending on the currency you plan to work with. The currency side in the pair must match the currency specified in the "**Currency Code**" field.
@@ -276,7 +276,7 @@ Select **Yes**:\
 
 ## Step: "Transfer to Account"
 
-<figure><img src="../../../.gitbook/assets/image (699) (1).png" alt="" width="509"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (699).png" alt="" width="509"><figcaption></figcaption></figure>
 
 ### Enabled:
 
@@ -303,7 +303,7 @@ Specify the code of the currency to be transferred in the opposite direction.
 ### Amount
 
 Select the type of amount from the request to be passed to this step:\
-![](<../../../.gitbook/assets/image (702) (1).png>)
+![](<../../../.gitbook/assets/image (702).png>)
 
 ### Add Withdrawal Fee
 

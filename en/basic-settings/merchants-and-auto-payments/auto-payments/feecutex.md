@@ -18,7 +18,7 @@ Select FeeCutEx from the dropdown menu in the "**Module**" field, enter a name f
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../.gitbook/assets/изображение (241).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (240).png" alt=""><figcaption></figcaption></figure>
 
 **Domain** — leave this field empty.
 

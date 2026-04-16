@@ -40,7 +40,7 @@
 
     ![Selecting an entity for editing](<../../.gitbook/assets/image (1966)_eng.png>)
 
-    ![Editing payment system commissions](<../../.gitbook/assets/image (1967)_eng.png>) ![Editing exchange amounts](<../../.gitbook/assets/image (1969)_eng (1).png>)
+    ![Editing payment system commissions](<../../.gitbook/assets/image (1967)_eng.png>) ![Editing exchange amounts](<../../.gitbook/assets/image (1969)_eng.png>)
 * **Option to Completely Disable Merchant Logs and Auto-Payments**
 * **Prohibition on Creating Requests with the Same Amount for Exchange Direction**
 * **Direction and Currency Sorting Module — Only Active Currencies Will Be Displayed**

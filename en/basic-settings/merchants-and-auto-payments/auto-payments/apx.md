@@ -20,7 +20,7 @@ Register on the [APX service](https://www.apx.archi/auth/signup) and log in to y
 
 Copy the generated key to your clipboard or a text file.
 
-<figure><img src="../../../.gitbook/assets/изображение (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (242).png" alt=""><figcaption></figcaption></figure>
 
 ## Module Settings
 
@@ -41,7 +41,7 @@ Fill in the required authorization fields.
 ## Special Fields
 
 {% hint style="info" %}
-#### Additional Fields for the Application <a href="#dopolnitelnye-polya-dlya-zayavki" id="dopolnitelnye-polya-dlya-zayavki"></a>
+**Additional Fields for the Application**
 
 When processing payouts using APX auto payouts, it is **necessary** to add additional fields to the exchange form for the client to fill out when creating an application.
 

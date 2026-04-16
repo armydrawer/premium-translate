@@ -44,7 +44,7 @@ If the installation and configuration of the Electrum module were performed by t
 
 ### 4. A folder containing your wallet files will open. Locate the wallet file with the name you assigned during setup.
 
-<figure><img src="../../.gitbook/assets/image (1357)_eng (1).png" alt="" width="482"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1357)_eng.png" alt="" width="482"><figcaption></figcaption></figure>
 
 **Note:** You may have multiple wallets in this folder. Select the correct wallet file, as you’ll need it for uploading to the server in the next step.
 

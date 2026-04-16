@@ -28,7 +28,7 @@ Select Paycore from the dropdown menu in the "**Module**" field, enter a name fo
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../.gitbook/assets/image (212).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (118).png" alt=""><figcaption></figcaption></figure>
 
 **Domain** — leave this field empty.
 
@@ -38,7 +38,7 @@ Fill in the required authorization fields.
 
 In the automatic payout module instructions, be sure to add the shortcode "**Link for payment** " — this is necessary for displaying the link in the request, which the client will use to choose their method of receiving funds and the bank on the service's payment page.
 
-<figure><img src="../../../.gitbook/assets/image (281).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (257).png" alt=""><figcaption></figcaption></figure>
 
 Next, insert the following block of text into the field:
 
@@ -66,7 +66,7 @@ Then adjust the text using the first shortcode so that the final format looks li
 [/if_url_xxxxxxxxxxxxxxxxxxxxxxxxxxxxx]
 ```
 
-<figure><img src="../../../.gitbook/assets/image (250).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (246).png" alt=""><figcaption></figcaption></figure>
 
 Also, make sure to check the status "**Waiting for automatic payment module confirmation**" in the "**Exchange office settings**" ➔ "**Status Settings**" section — this is necessary for the proper functioning of the automatic payout module (if this section does not appear in the sidebar, activate the "**Professional Status Settings**" module in the "**Modules**" section, and then perform the specified configuration).
 

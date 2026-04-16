@@ -45,7 +45,7 @@ Fill in the required authorization fields.
 {% hint style="warning" %}
 Before you start working, you need to generate a public key (**Public Key**), which should be saved in the payment system's personal account (**Security - Your Public Key**), and the private key (**Private Key**) should be entered in the module settings in the "**Private Key**" field.
 
-![](<../../../.gitbook/assets/изображение (89).png>)
+<img src="../../../.gitbook/assets/изображение (89).png" alt="" data-size="original">
 
 For convenience, a pair of keys is automatically generated for working with the merchant (the **Sodium** service/extension must be running on the server for the key generator to work correctly). Copy these keys from the automatic payout module settings and paste them into the corresponding fields as per the instructions above.
 
@@ -59,7 +59,7 @@ For convenience, a pair of keys is automatically generated for working with the 
 **Payment Method** — select the appropriate method from the list.
 
 {% hint style="info" %}
-### Additional Fields for the Application
+#### Additional Fields for the Application
 
 To correctly transmit recipient data to the payment system, you need to add additional fields in the exchange directions.
 
@@ -67,9 +67,9 @@ To do this, create and add additional fields for the corresponding currencies fo
 
 **1. Additional Field for Recipient's Full Name**
 
-*   **Unique ID:** `get_cardholder/cardholder`&#x20;
+*   **Unique ID:** `get_cardholder/cardholder`
 
-    <figure><img src="../../../.gitbook/assets/изображение (191).png" alt="" width="498"><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/изображение (166).png" alt="" width="498"><figcaption></figcaption></figure>
 * **Purpose:** Full name of the payment recipient (Full Name)
 * **Processing Priority:**
   * `get_cardholder` or `cardholder` (priority field)

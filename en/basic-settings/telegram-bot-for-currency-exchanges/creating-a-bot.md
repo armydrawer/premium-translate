@@ -6,7 +6,7 @@
 
 In Telegram, send a message **/newbot** to [@BotFather](https://t.me/BotFather) and follow the instructions to create your bot. Once the bot is successfully created, a token will be displayed—copy it to your clipboard, as you will need it for further setup. You do not need to change any other bot settings.
 
-<figure><img src="../../.gitbook/assets/BotFather @ Premium Exchanger (38886)_230731152938 (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/BotFather @ Premium Exchanger (38886)_230731152938.png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Adding a New Bot in the Admin Panel
 
@@ -34,8 +34,6 @@ Instructions on how to create an "**API login**" and "**API key**" can be found 
 
 {% hint style="warning" %}
 Please note that you **must** enable methods in the "**API**" ➔ "**Settings**" section,
-
-
 
 in addition to the methods in the settings of the specific API key for the bot.
 

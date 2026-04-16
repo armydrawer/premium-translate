@@ -11,11 +11,9 @@ Due to technical reasons, it is not possible to transfer settings from the Bestc
 {% hint style="danger" %}
 To automatically update exchange rates, **it is essential** to create a [Cron job](https://premium.gitbook.io/main/en/basic-settings/faq/kak-sozdat-zadanie-cron-na-servere) on your server using the link from the "**BestChange API Parser**" -> "**Settings**" section.
 
-
-
 The hash for the Cron job link is specified in the **`wp-content/plugins/premiumbox/userdata.php`** file.
 
-<img src="../../../.gitbook/assets/image (577) (1).png" alt="" data-size="original">
+<img src="../../../.gitbook/assets/image (577).png" alt="" data-size="original">
 {% endhint %}
 
 {% hint style="warning" %}
@@ -31,12 +29,12 @@ You can also further configure the minimum and maximum rates according to this g
 {% hint style="danger" %}
 The Bestchange API parser will only work in an active exchange direction—make sure to set the direction to active before starting the configuration of the parser.
 
-<img src="../../../.gitbook/assets/image (733) (1).png" alt="" data-size="original">
+<img src="../../../.gitbook/assets/image (733).png" alt="" data-size="original">
 {% endhint %}
 
 ## General Module Settings
 
-<figure><img src="../../../.gitbook/assets/image (2148) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2148).png" alt=""><figcaption></figcaption></figure>
 
 **Domain** — Enter one of the domains from the list below the field. If the field is empty (when the parser uses the main BC domain), the parser will not work (currencies and cities will not be displayed in the list below on this page).
 
@@ -58,7 +56,7 @@ The Bestchange API parser will only work in an active exchange direction—make 
 
 Click on the image below to see how to find the exchanger ID on the Bestchange website.
 
-<img src="../../../.gitbook/assets/Clip2net_230726151417 (1).png" alt="" data-size="original">
+<img src="../../../.gitbook/assets/Clip2net_230726151417.png" alt="" data-size="original">
 
 </details>
 
@@ -79,8 +77,6 @@ To prevent abnormal fluctuations, we use data obtained from five exchangers (hig
 
 **Key terms:**
 
-
-
 In the screenshot, you can see the email sent to the administrator if protection is enabled and the email template "**Bestchange Security Error**" is activated.
 
 • **First rate** — the rate of the first position among the five sources.
@@ -88,8 +84,6 @@ In the screenshot, you can see the email sent to the administrator if protection
 • **Your rate** — your current rate.
 
 • **Min security rate** — the minimum rate considered safe according to our calculations.
-
-
 
 **Reasons for implementing protection**
 

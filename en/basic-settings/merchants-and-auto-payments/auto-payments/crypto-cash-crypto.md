@@ -40,7 +40,7 @@ Fill in the required authorization fields.
 
 ## Special Fields
 
-<figure><img src="../../../.gitbook/assets/image (2217) (1).png" alt="" width="437"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2217).png" alt="" width="437"><figcaption></figcaption></figure>
 
 **Currency** — select the currency for auto payouts (if you choose "**Automatically**," the currency code "**Receiving**" will be used).
 

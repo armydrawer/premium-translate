@@ -4,7 +4,7 @@
 
 The discount coupon editing module allows administrators to manage promotional campaigns and discount programs. This functionality provides flexible options for configuring and controlling coupon campaigns to encourage customer engagement.
 
-<figure><img src="../../.gitbook/assets/image (2211) (1).png" alt="" width="388"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2211).png" alt="" width="388"><figcaption></figcaption></figure>
 
 ### Key Coupon Parameters
 
@@ -35,7 +35,7 @@ Publication Status:
 
 After creating the coupons, activate their use in the settings of each exchange direction where the coupons will be applied.
 
-<figure><img src="../../.gitbook/assets/image (2208) (1).png" alt="" width="551"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2208).png" alt="" width="551"><figcaption></figcaption></figure>
 
 After this, an optional field will appear in the exchange form, where customers with a coupon can activate it and receive the corresponding discount.
 

@@ -37,7 +37,7 @@ After entering the correct code and clicking the "**Register**" button again, th
 
 To use this option, activate the new module in the "**Modules**" section.
 
-<figure><img src="../../.gitbook/assets/image (1869)_eng (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1869)_eng.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 To ensure the module works, you also need to enable the "**Email Verification**" option in the settings of the selected exchange directions under the "**Verification**" tab.

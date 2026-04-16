@@ -22,7 +22,7 @@ In the admin panel, create a new merchant in the "**Merchants**" section by clic
 
 Select Ivanpay from the dropdown menu in the "**Module**" field, enter a name for the module, and click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/Arc_mcpyS7Mdvy (1).png" alt="" width="417"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Arc_mcpyS7Mdvy.png" alt="" width="417"><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
@@ -44,8 +44,6 @@ Please note the unique feature of the Ivanpay service — a card from the bank y
 When receiving funds using the Ivanpay merchant, it is **necessary** to add an additional field to the exchange form for the client to fill out when creating a request.
 
 To do this, create and add an [additional field](https://premium.gitbook.io/main/en/basic-settings/valyuty-i-napravleniya/dobavlenie-novoi-valyuty#vkladka-dop.-polya) to the relevant currencies for receiving funds through Ivanpay. Be sure to specify in the "**Unique ID**" field — **`give_cardholder`** (use lowercase) and make the field mandatory.
-
-
 
 After this, the field will appear in the exchange form and will be required for clients to fill out when creating a request.
 

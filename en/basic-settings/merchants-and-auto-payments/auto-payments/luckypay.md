@@ -24,7 +24,7 @@ Make sure to specify the URL from the automatic payout module settings (Callback
 
 <figure><img src="../../../.gitbook/assets/image (1986)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (18) (2).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (18).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Module Settings <a href="#nastroiki-modulya" id="nastroiki-modulya"></a>
 

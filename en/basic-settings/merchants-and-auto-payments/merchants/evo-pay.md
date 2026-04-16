@@ -22,7 +22,7 @@ To enable the webhook for status changes of requests, specify the URL from the m
 
 To update request statuses without using a Cron job, add the webhook in your EVO account, select the "**Order**" method, and paste the previously copied webhook URL. Save the changes.
 
-<figure><img src="../../../.gitbook/assets/image (703) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (703).png" alt=""><figcaption></figcaption></figure>
 
 ## Module Settings
 
@@ -58,8 +58,6 @@ Thus, if the client sees an amount of 5000 rubles, the merchant may not automati
 This new option integrates with the request recalculation module. If the necessary conditions are met and discrepancies in amounts are detected, the recalculation process will be automatically initiated.
 
 The new amount and recalculation are based on the selected value in the "**Expected Amount to be Credited**" parameter.
-
-
 
 If the recalculation function is enabled in the merchant settings, the system will automatically handle discrepancies without additional intervention.
 

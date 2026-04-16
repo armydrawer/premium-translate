@@ -12,14 +12,14 @@ If the section is not visible in the sidebar, please enable the module in the "M
 
 You can view the changes made to a request by the administrator/operator. To do this, go to the "**Requests**" section in the admin panel, select the desired request, and click the "**Edit**" button.
 
-<figure><img src="../../../.gitbook/assets/image (976) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (976).png" alt=""><figcaption></figcaption></figure>
 
 In the window that opens, under the "**Edit**" button, all changes made to the request will be displayed, if any (old data will be shown in red, and new data in black). Additionally, the following information will be displayed:
 
 * Date and time of the changes
 * User who made the changes
 
-<figure><img src="../../../.gitbook/assets/image (1245)_eng (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1245)_eng.png" alt=""><figcaption></figcaption></figure>
 
 ## Version 2.7 and Above
 

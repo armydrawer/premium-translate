@@ -15,8 +15,6 @@ To discuss terms and connection, please contact a [service representative](https
 {% hint style="success" %}
 You can use the exchange rates from Nicepay for currency conversion. To do this, go to the "**Parsers 2.0**" ➔ "**Settings**" section and select the source (check the box next to it).
 
-
-
 Then, create the necessary exchange rates by following the [instructions](https://premium.gitbook.io/main/en/basic-settings/valyuty-i-napravleniya-obmena/kursy-valyut/parser-kursov-valyut-parsery-2.0).
 
 Available currency exchange rates:
@@ -29,8 +27,6 @@ Available currency exchange rates:
 * USDT ➔ TJS
 
 Select the desired exchange rate in the "**Auto-Adjust Rate**" tab.
-
-
 {% endhint %}
 
 Register on the Nicepay service with the help of a [service representative](https://t.me/nice_sup) and log in to your [personal account](https://nicepay.io/ru/app).
@@ -59,7 +55,7 @@ Fill in the required authorization fields.
 
 **Merchant Type** — choose the merchant format.
 
-<figure><img src="../../../.gitbook/assets/image (2130) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2130).png" alt=""><figcaption></figcaption></figure>
 
 * **Payment Link** — the details will be displayed on a separate payment page.
 * **Requisites** — the details will be displayed in the application itself via the shortcode \[to\_account].

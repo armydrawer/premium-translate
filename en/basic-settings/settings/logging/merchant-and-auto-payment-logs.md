@@ -10,7 +10,7 @@ If the section does not appear in the sidebar, please enable the modules in the 
 
 <figure><img src="../../../.gitbook/assets/image (1143)_eng.png" alt=""><figcaption><p>Merchant Logs</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (1170)_eng (1).png" alt=""><figcaption><p>Auto-Payment Logs</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1170)_eng.png" alt=""><figcaption><p>Auto-Payment Logs</p></figcaption></figure>
 
 Logs received from merchants and auto-payments can vary significantly in content due to differences in the development of each service. However, the log structure remains consistent and includes the following parameters:
 
@@ -31,7 +31,7 @@ Logs received from merchants and auto-payments can vary significantly in content
 
 For easier searching of specific data, you can use filters based on four criteria:
 
-<figure><img src="../../../.gitbook/assets/image (889) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (889).png" alt=""><figcaption></figcaption></figure>
 
 * **Merchant** — display only logs from the specified merchant
 * **IP Address** — display only logs that came from the specified IP address

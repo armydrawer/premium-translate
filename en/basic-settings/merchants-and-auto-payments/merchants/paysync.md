@@ -47,14 +47,14 @@ Fill in the required authorization fields.
 
 ## Special Fields
 
-<figure><img src="../../../.gitbook/assets/изображение (217).png" alt="" width="289"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (216).png" alt="" width="289"><figcaption></figcaption></figure>
 
 **Merchant Type** (the selected option is fixed for this module copy and cannot be changed later):
 
 * **Payment Link** — returns a link for payment via QR code in the request; this option works with the selected payment method.
 * **Requisites** — returns a card or phone number for transferring funds in the request using the shortcode \[to\_account].
 
-<figure><img src="../../../.gitbook/assets/изображение (220).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (219).png" alt="" width="563"><figcaption></figcaption></figure>
 
 **Payment Method** — select the appropriate method for receiving funds from the client:
 
@@ -72,7 +72,7 @@ To update the statuses of requests based on payments made through the merchant, 
 
 <figure><img src="../../../.gitbook/assets/изображение (222).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/изображение (221).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (214).png" alt=""><figcaption></figcaption></figure>
 
 ## Continuing the Setup
 
