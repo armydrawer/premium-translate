@@ -1,7 +1,5 @@
 # Loderunner
 
-
-
 {% hint style="danger" %}
 Перед настройкой автовыплат обязательно прочитайте [предупреждение о рисках!](https://premium.gitbook.io/main/osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/preduprezhdenie-o-riskakh)
 {% endhint %}
@@ -11,7 +9,7 @@
 {% endhint %}
 
 {% hint style="warning" %}
-Для обсуждения условий и подключения свяжитесь с представителем сервиса.
+Для обсуждения условий и подключения свяжитесь с [представителем сервиса](https://t.me/roinotgoall).
 
 **Дисклеймер**: при подключении вашего сайта к тому или иному сервису, пожалуйста, самостоятельно оценивайте возможные риски сотрудничества.
 {% endhint %}
@@ -26,13 +24,13 @@
 
 В панели администратора создайте нового мерчанта в разделе "**Мерчанты**" ➔ "**Добавить автовыплату".**
 
-<figure><img src="../../../.gitbook/assets/изображение (3) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (241).png" alt=""><figcaption></figcaption></figure>
 
 Выберите Loderunner в выпадающем списке в поле "**Модуль**", укажите название для модуля и нажмите "**Сохранить".**
 
 Заполните указанные авторизационные поля.
 
-<figure><img src="../../../.gitbook/assets/изображение (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (242).png" alt=""><figcaption></figcaption></figure>
 
 **Домен** — оставьте поле пустым
 
