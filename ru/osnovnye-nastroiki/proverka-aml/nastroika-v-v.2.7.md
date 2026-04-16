@@ -136,7 +136,7 @@ API-ключ будет выдан менеджером Matchsystems после 
 
 Укажите выпущенный ключ в соответствующем поле в настройках модуля и сохраните данные.
 
-<figure><img src="../../.gitbook/assets/изображение (246).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (247).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
