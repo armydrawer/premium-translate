@@ -230,11 +230,11 @@
 ![](<../../.gitbook/assets/изображение (208).png>)\
 заполните его следуя скриншоту ниже и подключите поле в подходящие направления обмена с криптовалютами:
 
-<figure><img src="../../.gitbook/assets/изображение (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 В форме обмена появится поле, один из пунктов которого каждый пользователь будет обязан выбирать при создании заявки.
 
-<figure><img src="../../.gitbook/assets/изображение (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Требование мониторинга выполнено.
 

@@ -10,7 +10,7 @@
 
 Обратите внимание, что содержимое базовых страниц сайта не редактируется через панель администратора, текст для таких страниц подгружается из исходного кода только через указанный шорткод в поле "**Текст**" — для таких страниц вы можете только добавить дополнительный текст на страницу через это же поле или отредактировать текст напрямую в коде:
 
-<figure><img src="../../.gitbook/assets/изображение (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <details>
 
@@ -71,7 +71,7 @@ API — \[user\_api]
 Примеры форматирования текста на странице:
 
 {% hint style="info" %}
-![](<../../.gitbook/assets/изображение (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/изображение (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 Когда вы копируете текст, помимо него еще копируются стили текстового редактора (Word, Google Docs и пр) — цвет текста, отступы, межстрочный интервал и т.п.
 
@@ -98,7 +98,7 @@ API — \[user\_api]
 
 {% tabs %}
 {% tab title="режим "Визуально": " %}
-<figure><img src="../../.gitbook/assets/изображение (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (846).png" alt=""><figcaption></figcaption></figure>
 
@@ -125,7 +125,7 @@ API — \[user\_api]
 {% endtab %}
 
 {% tab title="режим "Код": " %}
-<figure><img src="../../.gitbook/assets/изображение (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (564).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
