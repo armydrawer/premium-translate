@@ -16,23 +16,23 @@ For discussions regarding terms and connections, please contact a [service repre
 
 Register on the [APX service](https://www.apx.archi/auth/signup) and log in to your personal account. Create a new API key.
 
-<figure><img src="../../../.gitbook/assets/изображение (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 Copy the generated key to your clipboard or a text file.
 
-<figure><img src="../../../.gitbook/assets/изображение (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Module Settings
 
 In the admin panel, create a new merchant in the "**Merchants**" ➔ "**Add Auto Payout**" section.
 
-<figure><img src="../../../.gitbook/assets/изображение (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Select APX from the dropdown menu in the "**Module**" field, enter a name for the module, and click "**Save**."
 
 Fill in the required authorization fields.
 
-<figure><img src="../../../.gitbook/assets/изображение (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Domain** — leave this field empty.
 
@@ -53,14 +53,14 @@ Make sure to specify a variable in the "**Unique ID**" field (use lowercase lett
 
 * **Unique ID**: `get_bankname`
 
-<img src="../../../.gitbook/assets/изображение (1).png" alt="" data-size="original">
+<img src="../../../.gitbook/assets/изображение (1) (1).png" alt="" data-size="original">
 
 *   **Processing Priority (any option can be selected)**:
 
     1. Additional field for currency with ID `get_bankname`
     2. Automatic value: currency code for "**Receiving**" (must contain "**RUB**" in the name)
 
-    <figure><img src="../../../.gitbook/assets/изображение (2).png" alt="" width="563"><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/изображение (2) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 2. **Field for Card Number** <mark style="color:red;">**(required)**</mark>
 
@@ -70,7 +70,7 @@ Make sure to specify a variable in the "**Unique ID**" field (use lowercase lett
     1. Additional field for currency with ID `get_account`
     2. Automatic value: standard field "**To Account**" for currency "**Receiving**"
 
-    <figure><img src="../../../.gitbook/assets/изображение (3).png" alt="" width="563"><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/изображение (3) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 3. **Field for Cardholder Name** <mark style="color:yellow;">**(optional)**</mark>
 
@@ -87,7 +87,7 @@ Make sure to specify a variable in the "**Unique ID**" field (use lowercase lett
     1. Additional field for currency with ID `get_phone`
     2. Standard additional field "**Phone**" **for exchange direction (not currency!)** with + as the first character in the input form
 
-    <figure><img src="../../../.gitbook/assets/изображение.png" alt="" width="371"><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/изображение (4).png" alt="" width="371"><figcaption></figcaption></figure>
 
 After this, the fields will be displayed in the exchange form and will be mandatory for the client to fill out when creating an application.
 {% endhint %}
