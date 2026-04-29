@@ -11,7 +11,7 @@
 ## Настройки в личном кабинете мерчанта
 
 {% hint style="warning" %}
-Для обсуждения условий и подключения, свяжитесь с [представителем сервиса](https://t.me/only7pay).
+Для обсуждения условий и подключения, свяжитесь с [представителем сервиса](https://t.me/am_payplay).
 
 **Дисклеймер**: при подключении вашего сайта к тому или иному сервису, пожалуйста, самостоятельно оценивайте возможные риски сотрудничества.
 {% endhint %}
@@ -56,7 +56,7 @@
 
 <figure><img src="../../../.gitbook/assets/изображение (1) (1).png" alt="" width="476"><figcaption></figcaption></figure>
 
-**Способ оплаты** — выберите необходимый способ для выплаты средств клиенту
+**Код валюты** — выберите необходимый способ для выплаты средств клиенту
 
 * **Доп. поля** — использование кода валюты, указанного в [доп.поле](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya-obmena/dopolnitelnye-polya#dopolnitelnye-polya-dlya-valyuty) для валюты "**Получаю**" или в направлении обмена или [доп.поля для направления обмена](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya-obmena/dopolnitelnye-polya#dopolnitelnye-polya-dlya-napravleniya-obmena)
 * **Коды валют** — выбор кода валюты вручную (в этом случае модуль будет работать только с указанной валютой)
