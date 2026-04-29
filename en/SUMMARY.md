@@ -158,6 +158,7 @@
       * [Paycore](basic-settings/merchants-and-auto-payments/auto-payments/paycore.md)
       * [Payeer](basic-settings/merchants-and-auto-payments/auto-payments/payeer.md)
       * [PayKassa](basic-settings/merchants-and-auto-payments/auto-payments/paykassa.md)
+      * [Payplay](basic-settings/merchants-and-auto-payments/auto-payments/payplay.md)
       * [Payscrow](basic-settings/merchants-and-auto-payments/auto-payments/payscrow/README.md)
         * [Payscrow Cascade](basic-settings/merchants-and-auto-payments/auto-payments/payscrow/payscrow-cascade.md)
       * [Quickex](basic-settings/merchants-and-auto-payments/auto-payments/quickex.md)
