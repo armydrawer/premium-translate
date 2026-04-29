@@ -24,11 +24,11 @@
 
 Выберите PayPlay в выпадающем списке в поле "**Модуль**", укажите название для модуля и нажмите "**Сохранить**".
 
-<figure><img src="../../../.gitbook/assets/изображение (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 Заполните указанные авторизационные поля.
 
-<figure><img src="../../../.gitbook/assets/изображение (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Домен** — оставьте поле пустым
 
@@ -40,16 +40,28 @@
 
 <figure><img src="https://premium.gitbook.io/main/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FPIVatFPaHcf3qvT9Dr3z%252F%25D0%25B8%25D0%25B7%25D0%25BE%25D0%25B1%25D1%2580%25D0%25B0%25D0%25B6%25D0%25B5%25D0%25BD%25D0%25B8%25D0%25B5.png%3Falt%3Dmedia%26token%3D19a11c12-1a38-4ecb-aca4-5b62992e41fe&#x26;width=768&#x26;dpr=3&#x26;quality=100&#x26;sign=13a2a2f8&#x26;sv=2" alt="" width="563"><figcaption></figcaption></figure>
 
+Обратите внимание, что для модуля автовыплаты необходимо указывать ссылку для вебхука для корректной проверки выплаты по заявке. Скопируйте ссылку в настройках модуля автовыплаты
+
+<figure><img src="../../../.gitbook/assets/изображение.png" alt=""><figcaption></figcaption></figure>
+
+и вставьте её в указанное на скриншоте ниже поле в настройках ЛК PayPlay
+
+<figure><img src="../../../.gitbook/assets/изображение (5).png" alt="" width="563"><figcaption></figcaption></figure>
+
+После сохранения вебхука обязательно выберите методы для работы с ним и сохраните изменения.
+
+<figure><img src="../../../.gitbook/assets/изображение (4).png" alt="" width="540"><figcaption></figcaption></figure>
+
 ## Особые поля
 
-<figure><img src="../../../.gitbook/assets/изображение (1).png" alt="" width="476"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (1) (1).png" alt="" width="476"><figcaption></figcaption></figure>
 
 **Способ оплаты** — выберите необходимый способ для выплаты средств клиенту
 
 * **Доп. поля** — использование кода валюты, указанного в [доп.поле](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya-obmena/dopolnitelnye-polya#dopolnitelnye-polya-dlya-valyuty) для валюты "**Получаю**" или в направлении обмена или [доп.поля для направления обмена](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya-obmena/dopolnitelnye-polya#dopolnitelnye-polya-dlya-napravleniya-obmena)
 * **Коды валют** — выбор кода валюты вручную (в этом случае модуль будет работать только с указанной валютой)
 
-<figure><img src="../../../.gitbook/assets/изображение.png" alt="" width="459"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (3).png" alt="" width="462"><figcaption></figcaption></figure>
 
 **Сеть** — выберите подходящую сеть для валюты выплаты
 
