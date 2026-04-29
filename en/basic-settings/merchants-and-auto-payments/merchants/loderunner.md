@@ -15,7 +15,7 @@ Please note that when using the Loderunner module for receiving payments, the ac
 
 Account details may not be provided immediately, so it is recommended to select the "**Waiting for details status**" option in the module settings.
 
-![](<../../../.gitbook/assets/изображение (202).png>)
+<img src="../../../.gitbook/assets/изображение (202).png" alt="" data-size="original">
 {% endhint %}
 
 Register on the Loderunner service with the help of a [service representative](https://t.me/roinotgoall). Obtain an API key from the representative to work with Premium Exchanger.
@@ -30,7 +30,7 @@ Select Loderunner from the dropdown menu in the "**Module**" field, enter a name
 
 Fill in the specified authorization fields.
 
-<figure><img src="../../../.gitbook/assets/изображение (217).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (198).png" alt=""><figcaption></figcaption></figure>
 
 **Domain** — leave this field empty.
 
@@ -48,9 +48,6 @@ Make sure to specify a variable in the "**Unique ID**" field (use lowercase lett
 **1. Additional field for** <mark style="color:$warning;">currency</mark> **for cardholder name (optional)**
 
 * **Unique ID**: `give_cardholder`
-
-
-
 * **Processing priority (any option can be selected)**:
   1. `give_cardholder` (priority field)
   2. Automatic generation from the client's full name (`last_name + first_name + second_name`) — standard fields "**Last Name**", "**First Name**", "**Middle Name**" for the exchange direction (not currency!)
@@ -62,8 +59,6 @@ Make sure to specify a variable in the "**Unique ID**" field (use lowercase lett
 * **Processing priority (any option can be selected)**:
   1. `give_account` (priority field)
   2. The "**From Account**" field from the currency settings "**I Give**"
-
-
 
 **3. Additional field for** <mark style="color:$warning;">exchange direction</mark> **for phone number (optional)**
 
