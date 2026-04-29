@@ -11,7 +11,7 @@ If you need to update the module on the server, please refer to the [instruction
 ## Merchant Account Settings
 
 {% hint style="warning" %}
-To discuss terms and setup, please contact a [service representative](https://t.me/only7pay).
+To discuss terms and setup, please contact a [service representative](https://t.me/am_payplay).
 
 **Disclaimer**: When connecting your website to any service, please assess the potential risks of collaboration on your own.
 {% endhint %}
