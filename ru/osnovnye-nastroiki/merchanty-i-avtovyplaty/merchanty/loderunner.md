@@ -15,7 +15,7 @@
 
 Реквизиты могут быть выданы не сразу, поэтому [опция "**Ожидание реквизитов от мерчанта**"](https://premium.gitbook.io/main/osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/obshie-nastroiki-merchantov#podklyuchenie-neskolkikh-merchantov) рекомендуется к выбору в настройках модуля.
 
-![](<../../../.gitbook/assets/изображение (1).png>)
+![](<../../../.gitbook/assets/изображение (1) (1).png>)
 {% endhint %}
 
 Пройдите регистрацию на сервисе Loderunner с помощью [представителя сервиса](https://t.me/roinotgoall). Получите от представителя API-ключ для работы с Premium Exchanger.
@@ -66,7 +66,7 @@
   1. `give_account` (приоритетное поле)
   2. Поле "**Со счета"** из настроек валюты "**Отдаю**"
 
-![](<../../../.gitbook/assets/изображение (2).png>)
+![](<../../../.gitbook/assets/изображение (2) (1).png>)
 
 **3. Дополнительное поле для** <mark style="color:$warning;">направления обмена</mark> **для номера телефона (опционально)**
 

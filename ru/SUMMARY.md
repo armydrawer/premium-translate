@@ -172,6 +172,7 @@
     * [Payeer](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/payeer.md)
     * [Payin-Payout (неактивно)](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/payin-payout-neaktivno.md)
     * [PayKassa](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/paykassa.md)
+    * [PayPlay](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/payplay.md)
     * [PerfectMoney](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/perfectmoney.md)
     * [Premium Wallet (в разработке)](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/premium-wallet-v-razrabotke.md)
     * [Quickex](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/quickex.md)
