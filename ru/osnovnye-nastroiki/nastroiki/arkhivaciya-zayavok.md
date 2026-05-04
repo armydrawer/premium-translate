@@ -17,6 +17,7 @@
 <figure><img src="../../.gitbook/assets/image (1298).png" alt=""><figcaption></figcaption></figure>
 
 В экспортированном csv-файле будут отображаться следующие столбцы:
+
 * **ID** — ID заявки
 * **Дата** — дата создания заявки
 * **Курс** — курс на момент создания заявки
@@ -25,3 +26,10 @@
 * **Статус** — статус заявки (**выгружаются только выполненные заявки**)
 
 <figure><img src="../../.gitbook/assets/image (1299).png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+Вы можете разрешить скачивание архивных заявок личном кабинете пользователя, включив соотвествующую опцию в разделе "**Модули**" ➔ "**Настройки архивирования**".\
+<img src="../../.gitbook/assets/изображение.png" alt="" data-size="original">
+
+<img src="../../.gitbook/assets/изображение (1).png" alt="" data-size="original">
+{% endhint %}

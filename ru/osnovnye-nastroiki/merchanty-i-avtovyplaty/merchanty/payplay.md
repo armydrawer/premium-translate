@@ -24,7 +24,7 @@
 
 Заполните указанные авторизационные поля.
 
-<figure><img src="../../../.gitbook/assets/изображение (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="401"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="401"><figcaption></figcaption></figure>
 
 **Домен** — оставьте поле пустым
 
@@ -60,7 +60,7 @@
 
 * **Payment Link** — возвращает в заявке ссылку для оплаты, опция работает совместно с выбранным ниже способом оплаты (**только фиатные валюты + USDT/USDC**)
 
-<figure><img src="../../../.gitbook/assets/изображение (2) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="497"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="497"><figcaption></figcaption></figure>
 
 * **Requisites** — возвращает номер кошелька для перевода средств в самой заявке через шорткод `[to_account]` (**только криптовалюты**)
 

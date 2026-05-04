@@ -28,7 +28,7 @@
 
 Заполните указанные авторизационные поля.
 
-<figure><img src="../../../.gitbook/assets/изображение (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Домен** — оставьте поле пустым
 
@@ -42,7 +42,7 @@
 
 Обратите внимание, что для модуля автовыплаты необходимо указывать ссылку для вебхука для корректной проверки выплаты по заявке. Скопируйте ссылку в настройках модуля автовыплаты
 
-<figure><img src="../../../.gitbook/assets/изображение.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (2).png" alt=""><figcaption></figcaption></figure>
 
 и вставьте её в указанное на скриншоте ниже поле в настройках ЛК PayPlay
 
@@ -54,7 +54,7 @@
 
 ## Особые поля
 
-<figure><img src="../../../.gitbook/assets/изображение (1) (1).png" alt="" width="476"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (1) (1) (1).png" alt="" width="476"><figcaption></figcaption></figure>
 
 **Код валюты** — выберите необходимый способ для выплаты средств клиенту
 
