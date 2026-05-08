@@ -28,11 +28,11 @@
 
 Выберите 1Plat в выпадающем списке в поле "**Модуль**", укажите название для модуля и нажмите "**Сохранить**".
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 Заполните указанные авторизационные поля.
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Домен** — оставьте поле пустым
 
@@ -53,7 +53,7 @@
 * **Payment Link** — возвращает в заявке ссылку для оплаты, опция работает совместно с выбранным способом оплаты
 * **Requisites** — возвращает реквизиты для перевода средств в самой заявке через шорткод \[to\_account]
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Способ оплаты** — выберите подходящий метод из списка или укажите вручную свой вариант в поле "**Добавить**" (допустимые варианты уточняйте у менеджера 1Plat).
 
