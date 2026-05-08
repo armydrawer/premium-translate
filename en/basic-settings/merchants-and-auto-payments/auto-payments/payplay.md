@@ -1,11 +1,11 @@
 # Payplay
 
 {% hint style="danger" %}
-<mark style="color:red;">Before setting up auto payouts, please read the</mark> [<mark style="color:blue;">risk warning</mark>](https://premium.gitbook.io/main/osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/preduprezhdenie-o-riskakh)<mark style="color:blue;">!</mark>
+<mark style="color:red;">Before setting up auto payouts, please read the</mark> [<mark style="color:blue;">risk warning</mark>](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/auto-payments/risk-warning)<mark style="color:blue;">!</mark>
 {% endhint %}
 
 {% hint style="info" %}
-If you need to update the module on the server, please refer to the [instructions](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/obnovlenie-failov-skripta-na-servere/kak-obnovit-faily-na-servere#moduli-merchantov-i-avtovyplat).
+If you need to update the module on the server, please refer to the [instructions](https://premium.gitbook.io/main/en/en/basic-settings/faq/updating-script-files-on-the-server/how-to-update-files-on-the-server#merchant-and-auto-payout-modules).
 {% endhint %}
 
 ## Merchant Account Settings
@@ -60,14 +60,14 @@ After saving the webhook, be sure to select the methods for working with it and 
 
 **Currency code** — select the appropriate method for disbursing funds to the client.
 
-* **Additional Fields** — use the currency code specified in the [additional field](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya-obmena/dopolnitelnye-polya#dopolnitelnye-polya-dlya-valyuty) for the currency "**Receiving**" or in the exchange direction, or [additional fields for the exchange direction](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya-obmena/dopolnitelnye-polya#dopolnitelnye-polya-dlya-napravleniya-obmena).
+* **Additional Fields** — use the currency code specified in the [additional field](https://premium.gitbook.io/main/en/basic-settings/currencies-and-exchange-directions/additional-fields#additional-fields-for-currency) for the currency "**Receiving**" or in the exchange direction, or [additional fields for the exchange direction](https://premium.gitbook.io/main/en/basic-settings/currencies-and-exchange-directions/additional-fields#additional-fields-for-exchange-direction).
 * **Currency Codes** — manually select the currency code (in this case, the module will only work with the specified currency).
 
 <figure><img src="../../../.gitbook/assets/изображение (252).png" alt="" width="461"><figcaption></figcaption></figure>
 
 **Network** — select the appropriate network for the payout currency.
 
-* **Additional Fields** — use the currency code specified in the [additional field](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya-obmena/dopolnitelnye-polya#dopolnitelnye-polya-dlya-valyuty) for the currency "**Receiving**" or in the exchange direction, or [additional fields for the exchange direction](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya-obmena/dopolnitelnye-polya#dopolnitelnye-polya-dlya-napravleniya-obmena).
+* **Additional Fields** — use the currency code specified in the [additional field](https://premium.gitbook.io/main/en/basic-settings/currencies-and-exchange-directions/additional-fields#additional-fields-for-currency) for the currency "**Receiving**" or in the exchange direction, or [additional fields for the exchange direction](https://premium.gitbook.io/main/en/basic-settings/currencies-and-exchange-directions/additional-fields#additional-fields-for-exchange-direction).
 * **Currency Codes** — manually select the currency code (in this case, the module will only work with the specified currency).
 
 ## Continuing the Setup

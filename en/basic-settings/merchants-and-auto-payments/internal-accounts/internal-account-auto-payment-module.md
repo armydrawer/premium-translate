@@ -6,7 +6,7 @@ In the exchange point control panel, go to the "**Modules" → "Modules"** secti
 
 In the "**Merchants"** → "**Auto-Payments**" section, click the "**Add**" button. In the new window, select the "**Internal Account**" module from the dropdown list.
 
-Configure the module according to the [general settings for merchant auto-payment modules](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/auto-payments/obshie-nastroiki-avtovyplat):
+Configure the module according to the [general settings for merchant auto-payment modules](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/auto-payments/general-auto-payment-settings):
 
 <figure><img src="../../../.gitbook/assets/image (1)_eng.png" alt=""><figcaption></figcaption></figure>
 

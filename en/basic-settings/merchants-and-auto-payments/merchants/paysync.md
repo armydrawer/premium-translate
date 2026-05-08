@@ -64,7 +64,7 @@ All methods can be used for obtaining requisites and for links, except SBPQR, wh
 
 Order — use the currency code from the exchange direction to select requisites (choose **\[Send] Currency code**).
 
-**Custom Fields** — use the [additional currency field](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya-obmena/dopolnitelnye-polya#dopolnitelnye-polya-dlya-valyuty) "**Send**" to select requisites.
+**Custom Fields** — use the [additional currency field](https://premium.gitbook.io/main/en/basic-settings/currencies-and-exchange-directions/additional-fields#additional-fields-for-currency) "**Send**" to select requisites.
 
 **Payment Method** — manually select the currency for requisites selection.
 
@@ -76,4 +76,4 @@ To update the statuses of requests based on payments made through the merchant, 
 
 ## Continuing the Setup
 
-Next, configure the merchant by following the [general setup instructions](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/obshie-nastroiki-merchantov).
+Next, configure the merchant by following the [general setup instructions](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/merchants/general-merchant-settings).

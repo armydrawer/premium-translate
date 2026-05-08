@@ -11,7 +11,7 @@ Please note that in order for the merchant to accept Quickex payments, you must 
 
 It is **always necessary** to use the Quickex receiving module in conjunction with the [auto-payment module](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/auto-payments/quickex) (if another auto-payment module is connected in the exchange direction, **double payments will occur**).
 
-Additionally, keep in mind that payments are **always** made at the service's exchange rate, so it is highly recommended to use the [Quickex parser](https://premium.gitbook.io/main/en/basic-settings/valyuty-i-napravleniya-obmena/kursy-valyut/parser-kursov-valyut-parsery-2.0) for the exchange rate in the direction where Quickex is connected, and to enable [request recalculation based on the exchange rate](https://premium.gitbook.io/main/en/basic-settings/valyuty-i-napravleniya-obmena/sozdanie-novogo-napravleniya#pereschet-po-kursu-obmena) to ensure that the actual payout amount matches the amount in the request.
+Additionally, keep in mind that payments are **always** made at the service's exchange rate, so it is highly recommended to use the [Quickex parser](https://premium.gitbook.io/main/en/basic-settings/currencies-and-exchange-directions/currency-exchange-rates/currency-rate-parser-parsers-2.0) for the exchange rate in the direction where Quickex is connected, and to enable [request recalculation based on the exchange rate](https://premium.gitbook.io/main/en/basic-settings/valyuty-i-napravleniya-obmena/sozdanie-novogo-napravleniya#pereschet-po-kursu-obmena) to ensure that the actual payout amount matches the amount in the request.
 {% endhint %}
 
 ## Merchant Account Settings

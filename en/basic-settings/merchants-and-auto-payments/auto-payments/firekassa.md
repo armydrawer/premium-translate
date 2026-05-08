@@ -68,4 +68,4 @@ The list of banks and payment systems for this option is loaded via API from the
 
 ## Continuing the Setup
 
-Next, configure the automatic payout by following the [general setup instructions](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/auto-payments/obshie-nastroiki-merchantov-avtovyplat).
+Next, configure the automatic payout by following the [general setup instructions](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/auto-payments/general-auto-payment-settings).

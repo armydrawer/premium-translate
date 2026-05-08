@@ -15,7 +15,7 @@ Please note that the auto payout module is technical and **does not process** th
 
 It is **always necessary** to use the Quickex auto payout module in conjunction with the [receiving module](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/merchants/quickex).
 
-Additionally, keep in mind that payouts are **always** made at the service's exchange rate. Therefore, it is highly recommended to use the [parser](https://premium.gitbook.io/main/en/basic-settings/valyuty-i-napravleniya-obmena/kursy-valyut/parser-kursov-valyut-parsery-2.0) for Quickex's exchange rate in the direction where Quickex is used, and to enable [application recalculation based on the exchange rate](https://premium.gitbook.io/main/en/basic-settings/valyuty-i-napravleniya-obmena/sozdanie-novogo-napravleniya#pereschet-po-kursu-obmena) to ensure that the actual payout amount matches the amount in the application.
+Additionally, keep in mind that payouts are **always** made at the service's exchange rate. Therefore, it is highly recommended to use the [parser](https://premium.gitbook.io/main/en/basic-settings/currencies-and-exchange-directions/currency-exchange-rates/currency-rate-parser-parsers-2.0) for Quickex's exchange rate in the direction where Quickex is used, and to enable [application recalculation based on the exchange rate](https://premium.gitbook.io/main/en/basic-settings/valyuty-i-napravleniya-obmena/sozdanie-novogo-napravleniya#pereschet-po-kursu-obmena) to ensure that the actual payout amount matches the amount in the application.
 {% endhint %}
 
 ## Module Settings <a href="#nastroiki-modulya" id="nastroiki-modulya"></a>
@@ -32,4 +32,4 @@ You do not need to fill in the authorization fields.
 
 ## Continuing the Setup
 
-Next, proceed to configure the merchant by following the [general setup instructions](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/auto-payments/obshie-nastroiki-merchantov-avtovyplat).
+Next, proceed to configure the merchant by following the [general setup instructions](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/auto-payments/general-auto-payment-settings).

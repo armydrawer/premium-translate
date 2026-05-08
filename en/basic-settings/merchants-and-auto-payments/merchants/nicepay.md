@@ -15,7 +15,7 @@ To discuss terms and connection, please contact a [service representative](https
 {% hint style="success" %}
 You can use the exchange rates from Nicepay for currency conversion. To do this, go to the "**Parsers 2.0**" ➔ "**Settings**" section and select the source (check the box next to it).
 
-Then, create the necessary exchange rates by following the [instructions](https://premium.gitbook.io/main/en/basic-settings/valyuty-i-napravleniya-obmena/kursy-valyut/parser-kursov-valyut-parsery-2.0).
+Then, create the necessary exchange rates by following the [instructions](https://premium.gitbook.io/main/en/basic-settings/currencies-and-exchange-directions/currency-exchange-rates/currency-rate-parser-parsers-2.0).
 
 Available currency exchange rates:
 

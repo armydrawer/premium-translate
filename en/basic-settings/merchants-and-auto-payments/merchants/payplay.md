@@ -65,7 +65,7 @@ After saving the webhook, be sure to select the methods to work with it and save
 
 **Payment Method** — select the appropriate method for receiving funds from the client.
 
-**Custom Fields** — use the [custom currency field](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya-obmena/dopolnitelnye-polya#dopolnitelnye-polya-dlya-valyuty) from the currency "**I Give**" in the exchange direction to select requisites.
+**Custom Fields** — use the [custom currency field](https://premium.gitbook.io/main/en/basic-settings/currencies-and-exchange-directions/additional-fields#additional-fields-for-currency) from the currency "**I Give**" in the exchange direction to select requisites.
 
 **Payment Method** — manually select the currency for requisites selection.
 

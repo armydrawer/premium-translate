@@ -61,6 +61,6 @@ Fill in the required authorization fields.
 
 ## Continue Configuration
 
-Next, configure the merchant by following the [general setup instructions](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/auto-payments/obshie-nastroiki-merchantov-avtovyplat).
+Next, configure the merchant by following the [general setup instructions](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/auto-payments/general-auto-payment-settings).
 
 [^1]: The average transaction time is between twenty minutes to an hour, but during network congestion, transaction times can increase significantly.

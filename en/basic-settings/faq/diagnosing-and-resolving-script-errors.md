@@ -413,7 +413,7 @@ Go to the "**Settings → Permalinks**" section and click the "**Save Changes**"
 
 ![](<../../.gitbook/assets/image (606).png>)
 
-After this, check the display of exchange directions. If the changes are not immediately visible, [clear the cache in Cloudflare](https://premium.gitbook.io/main/en/basic-settings/faq/kak-sbrosit-kesh-v-cloudflare) (if you are using it).
+After this, check the display of exchange directions. If the changes are not immediately visible, [clear the cache in Cloudflare](https://premium.gitbook.io/main/en/basic-settings/faq/how-to-clear-cache-in-cloudflare) (if you are using it).
 
 </details>
 
