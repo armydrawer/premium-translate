@@ -76,6 +76,7 @@
     * [Общие настройки мерчантов](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/obshie-nastroiki-merchantov.md)
     * [Использование своих карт/кошельков/счетов](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/ispolzovanie-svoikh-kart-koshelkov-schetov.md)
     * [1Plat](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/1plat.md)
+    * [2328](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/2328.md)
     * [ABCEx](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/abcex.md)
     * [AI-pay](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/aipay.md)
     * [Alfabit Crypto](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/alfabit-crypto.md)
