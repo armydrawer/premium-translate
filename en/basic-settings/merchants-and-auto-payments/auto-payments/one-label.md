@@ -14,7 +14,7 @@ In the admin panel, create a new merchant in the "**Merchants**" section ➔ "**
 
 Select One Label from the dropdown menu in the "**Module**" field, enter a name for the module, and click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/изображение (238).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (250).png" alt=""><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 

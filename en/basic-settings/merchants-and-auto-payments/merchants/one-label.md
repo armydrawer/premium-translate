@@ -20,7 +20,7 @@ In the admin panel, create a new merchant in the "**Merchants**" ➔ "**Add Merc
 
 Select One Label from the dropdown menu in the "**Module**" field, enter a name for the module, and click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/изображение (239).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (368).png" alt=""><figcaption></figcaption></figure>
 
 Fill in the required authorization fields.
 
