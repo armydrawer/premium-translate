@@ -1,4 +1,4 @@
-# FeeCutEx
+# One Label
 
 {% hint style="danger" %}
 <mark style="color:red;">Before setting up automatic payouts, please read the</mark> [<mark style="color:blue;">risk warning</mark>](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/auto-payments/risk-warning)<mark style="color:blue;">!</mark>
@@ -12,7 +12,7 @@ If you need to update the module on the server, please refer to the [instruction
 
 In the admin panel, create a new merchant in the "**Merchants**" section ➔ "**Add Automatic Payout**."
 
-Select FeeCutEx from the dropdown menu in the "**Module**" field, enter a name for the module, and click "**Save**."
+Select One Label from the dropdown menu in the "**Module**" field, enter a name for the module, and click "**Save**."
 
 <figure><img src="../../../.gitbook/assets/изображение (238).png" alt=""><figcaption></figcaption></figure>
 
@@ -22,9 +22,9 @@ Fill in the required authorization fields.
 
 **Domain** — leave this field empty.
 
-**Secret Key** — the API key provided to you earlier by a FeeCutEx representative.
+**Secret Key** — the API key provided to you earlier by a One Label representative.
 
-**User UUID** — the ID provided to you earlier by a FeeCutEx representative.
+**User UUID** — the ID provided to you earlier by a One Label representative.
 
 ## Continuing the Setup
 

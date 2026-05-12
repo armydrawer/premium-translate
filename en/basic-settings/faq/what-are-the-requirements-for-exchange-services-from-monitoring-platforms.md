@@ -1,4 +1,4 @@
-# What are the requirements for exchangers from monitoring services?
+# What are the requirements for exchange services from monitoring platforms?
 
 If you are the owner of an exchanger listed on Bestchange or another monitoring service, you may receive emails from them regarding compliance requirements for placement on their platform.
 
@@ -28,11 +28,11 @@ In the file, within the **parther\_item** class, delete only the word **nofollow
 
 You can set up the sending of payment details in the E-mail template ("**Messages**" section) by adding the shortcode **\[to\_account]** (or via the "**Merchant account**" shortcode button) to the required line. Set up email sending according to the [instructions](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/uvedomleniya/opovesheniya-po-e-mail).
 
-<mark style="background-color:red;">**For version 2.5:**\ choose when to request details from the merchant in the "**Exchanger Settings**" -> "**General Settings**" section. Select the option "**Upon order creation**"
+<mark style="background-color:red;">**For version 2.5:**</mark><mark style="background-color:red;">\ choose when to request details from the merchant in the "</mark><mark style="background-color:red;">**Exchanger Settings**</mark><mark style="background-color:red;">" -> "</mark><mark style="background-color:red;">**General Settings**</mark><mark style="background-color:red;">" section. Select the option "</mark><mark style="background-color:red;">**Upon order creation**</mark><mark style="background-color:red;">"</mark>
 
 ![](<../../.gitbook/assets/image (1124).png>)
 
-\ <mark style="background-color:red;">**For version 2.4:**\ The user will be sent 2 emails - an order creation email and an email with payment details (both templates must be configured)
+\ <mark style="background-color:red;">**For version 2.4:**</mark><mark style="background-color:red;">\ The user will be sent 2 emails - an order creation email and an email with payment details (both templates must be configured)</mark>
 
 ![](<../../.gitbook/assets/image (1305).png>) ![](<../../.gitbook/assets/image (1306).png>)
 
@@ -52,7 +52,7 @@ Create a mode in the "**Maintenance Mode**" section and configure the XML file d
 
 <summary>Enabling REST API for monitoring</summary>
 
-#### Previous API version
+**Previous API version**
 
 Activate the "**Affiliate Program API**" module in the "**Modules**" section.
 
@@ -60,7 +60,7 @@ Activate the "**Affiliate Program API**" module in the "**Modules**" section.
 
 \ Enable the "**Work with REST API (ppapi)**" option in the user profile settings.\ ![](<../../.gitbook/assets/image (1243).png>)
 
-#### Current API version
+**Current API version**
 
 [**API Documentation**](https://premium.gitbook.io/main/api-premium-exchanger/api-v1)
 
@@ -146,7 +146,7 @@ If the file is unavailable, add the BestChange IP address in the CloudFlare cont
 
 <figure><img src="../../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
 
-2. In the "**Security**" ➔ "**WAF**" ➔ "**Tools**" section, create a rule with the IP address <mark style="color:red;">**`162.19.29.225`** and select the "**Allow**" action. Save the rule.
+2. In the "**Security**" ➔ "**WAF**" ➔ "**Tools**" section, create a rule with the IP address <mark style="color:red;">**`162.19.29.225`**</mark> <mark style="color:red;"></mark><mark style="color:red;">and select the "</mark><mark style="color:red;">**Allow**</mark><mark style="color:red;">" action. Save the rule.</mark>
 
 <figure><img src="../../.gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>
 
@@ -168,7 +168,7 @@ If the file is unavailable, add the BestChange IP address in the CloudFlare cont
 
 <figure><img src="../../.gitbook/assets/image (65).png" alt=""><figcaption></figcaption></figure>
 
-4. Specify the IP address <mark style="color:red;">**`162.19.29.225`** in the rule being created and select the "**Allow**" action. Save the rule.
+4. Specify the IP address <mark style="color:red;">**`162.19.29.225`**</mark> <mark style="color:red;"></mark><mark style="color:red;">in the rule being created and select the "</mark><mark style="color:red;">**Allow**</mark><mark style="color:red;">" action. Save the rule.</mark>
 
 <figure><img src="../../.gitbook/assets/image (66).png" alt=""><figcaption></figcaption></figure>
 
@@ -218,8 +218,6 @@ To comply with this requirement, create a new additional field for the exchange 
 
 A field will appear in the exchange form, one of the items of which every user will be required to select when creating an order.
 
-<figure><img src="../../.gitbook/assets/изображение (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
 Monitoring requirement fulfilled.
 
 </details>
@@ -255,7 +253,7 @@ You need to update the module on the server for the BestChange service to work c
 <figure><img src="../../.gitbook/assets/image (2159).png" alt=""><figcaption></figcaption></figure>
 
 4. Unzip the previously downloaded archive with the script update. Upload the **`direction_xml`** folder, replacing existing files on the server.\
-   Path to the folder: <mark style="color:orange;">**`wp-content/plugins/premiumbox/moduls/`**
+   Path to the folder: <mark style="color:orange;">**`wp-content/plugins/premiumbox/moduls/`**</mark>
 
 <figure><img src="../../.gitbook/assets/image (2160).png" alt=""><figcaption></figcaption></figure>
 
@@ -269,7 +267,7 @@ You need to update the module on the server for the BestChange service to work c
 
 In the "**Partners**" section in the admin panel, you can activate a banner.\ ![](<../../.gitbook/assets/image (1126).png>)
 
-If the required banner is not in the list, then in the "**Partners**" section, click "**Add**".​\ ![](<../../.gitbook/assets/изображение (59) (1).png>)
+If the required banner is not in the list, then in the "**Partners**" section, click "**Add**".​\\&#x20;
 
 Specify the name and add a link to the partner, and also upload their banner/image.\ ![](<../../.gitbook/assets/изображение (82).png>)
 
