@@ -1,4 +1,4 @@
-# FeeCutEx
+# One label
 
 {% hint style="danger" %}
 <mark style="color:red;">Перед настройкой автовыплат обязательно прочитайте</mark> [<mark style="color:blue;">предупреждение о рисках</mark>](https://premium.gitbook.io/main/osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/preduprezhdenie-o-riskakh)<mark style="color:blue;">!</mark>
@@ -12,7 +12,7 @@
 
 В панели администратора создайте нового мерчанта в разделе "**Мерчанты**" ➔ "**Добавить автовыплату".**
 
-Выберите FeeCutEx в выпадающем списке в поле "**Модуль**", укажите название для модуля и нажмите "**Сохранить**".
+Выберите One label в выпадающем списке в поле "**Модуль**", укажите название для модуля и нажмите "**Сохранить**".
 
 <figure><img src="../../../.gitbook/assets/изображение (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -22,9 +22,9 @@
 
 **Домен** — оставьте поле пустым
 
-**Секретный ключ** — API ключ, переданный вам ранее представителем FeeCutEx
+**Секретный ключ** — API ключ, переданный вам ранее представителем One label
 
-**User UUID** — ID, переданный вам ранее представителем FeeCutEx
+**User UUID** — ID, переданный вам ранее представителем One label
 
 ## Продолжение настройки
 
