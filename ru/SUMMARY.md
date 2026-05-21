@@ -109,6 +109,7 @@
     * [PandaPay](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/pandapay.md)
     * [PayCrown](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/paycrown.md)
     * [Paycore](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/paycore.md)
+    * [Paylonium](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/paylonium.md)
     * [PaySync](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/paysync.md)
     * [PayPlay](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/payplay.md)
     * [Mocpay](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/mocpay.md)
