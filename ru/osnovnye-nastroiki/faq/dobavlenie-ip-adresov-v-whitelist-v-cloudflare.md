@@ -3,7 +3,7 @@
 1. Зайдите в личный кабинет [Cloudflare](https://dash.cloudflare.com/).
 2. В разделе "**Account Home**" кликните по названию домена, для которого хотите создать белый список (whitelist) IP-адресов.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 3. Перейдите в раздел "**Security"** ➔ **"Security rules"** ➔ кнопка **"Create rule"** ➔ "**Custom rules**".
 
