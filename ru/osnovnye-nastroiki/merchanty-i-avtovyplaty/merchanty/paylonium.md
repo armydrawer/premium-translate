@@ -36,24 +36,36 @@
 
 ## Особые поля
 
+**Тип мерчанта:**
+
 <figure><img src="../../../.gitbook/assets/image (365).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (371).png" alt=""><figcaption></figcaption></figure>
+{% hint style="warning" %}
+Тип мерчанта закрепляется за настраиваемым модулем без возможности его изменения после первой созданной заявки с использованием этого модуля.
 
-<figure><img src="../../../.gitbook/assets/image (370).png" alt=""><figcaption></figcaption></figure>
+&#x20;Для того, чтобы использовать другой тип мерчанта, необходимо создать отдельную копию, выбрав другой тип и подключить её в нужном направлении обмена.
+{% endhint %}
 
-**Код валюты** (для подбора реквизитов)**:**
+* **Requisites** — реквизиты от мерчанта будут отображаться в заявке
 
-* **Доп. поля (Заявка)** — использование кода валюты из заявки (выберите **\[Отдаете] Код валюты**)
-* **Доп. поля (Валюты)** — использование [доп.поля валюты](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya-obmena/dopolnitelnye-polya#dopolnitelnye-polya-dlya-valyuty) "**Отдаю**"
-* **Доп. поля (Направления)** — использование [доп.поля направления обмена](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya-obmena/dopolnitelnye-polya#dopolnitelnye-polya-dlya-napravleniya-obmena)
-* **Код валюты** — ручной выбор валюты
+<figure><img src="../../../.gitbook/assets/image (382).png" alt=""><figcaption></figcaption></figure>
 
-**Сеть** (для криптовалют)**:**
+{% hint style="warning" %}
+При выборе этого типа выдачи реквизитов время создания заявок может увеличиться до 20 секунд из-за подбора реквизитов на стороне мерчанта
+{% endhint %}
 
-* **Доп. поля (Валюты)** — использование [доп.поля валюты](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya-obmena/dopolnitelnye-polya#dopolnitelnye-polya-dlya-valyuty) "**Отдаю**"
-* **Доп. поля (Направления)** — использование [доп.поля направления обмена](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya-obmena/dopolnitelnye-polya#dopolnitelnye-polya-dlya-napravleniya-obmena)
-* **Сеть** — ручной выбор сети
+* **Payment link** — в заявке будет отображаться кнопка "**Перейти к оплате**", при нажатии на которую клиент попадет на платежную страницу мерчанта, где будут отображаться реквизиты или выполняться подбор реквизитов
+
+**Способ оплаты:**
+
+<figure><img src="../../../.gitbook/assets/image (371).png" alt=""><figcaption><p>При выборе пункта "Requisites"</p></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/image (370).png" alt=""><figcaption><p>При выборе пункта "Payment link"</p></figcaption></figure>
+
+* **Any** —&#x20;
+* **Card** —&#x20;
+* **SBP** —&#x20;
+* **TPay** —&#x20;
 
 ## Продолжение настройки
 
