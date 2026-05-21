@@ -141,6 +141,7 @@
     * [Общие настройки автовыплат](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/obshie-nastroiki-avtovyplat.md)
     * [1Plat](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/1plat.md)
     * [2328](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/2328.md)
+    * [Paylonium](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/paylonium.md)
     * [APX](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/apx.md)
     * [ABCEx](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/abcex.md)
     * [AI-pay](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/aipay.md)
