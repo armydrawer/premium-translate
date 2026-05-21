@@ -62,10 +62,10 @@
 
 <figure><img src="../../../.gitbook/assets/image (370).png" alt=""><figcaption><p>При выборе пункта "Payment link"</p></figcaption></figure>
 
-* **Any** —&#x20;
-* **Card** —&#x20;
-* **SBP** —&#x20;
-* **TPay** —&#x20;
+* **Any** — будут выдаваться реквизиты любого типа
+* **Card** — номер банковской карты
+* **SBP** — номер номера телефона, привязанного к СБП
+* **TPay** — реквизиты для оплаты через T-Pay ([https://www.tbank.ru/t-pay/online/](https://www.tbank.ru/t-pay/online/))
 
 ## Продолжение настройки
 
