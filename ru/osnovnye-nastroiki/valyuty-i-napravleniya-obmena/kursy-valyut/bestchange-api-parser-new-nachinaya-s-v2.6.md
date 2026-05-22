@@ -43,11 +43,11 @@ Bestchange API парсер будет работать только в акти
 **Ключ API** — API ключ из ЛК на сайте Bestchange
 
 {% hint style="warning" %}
-Для получения API-ключа зарегистрируйтесь на сайте Bestchange ([bestchange.ru/partner/register.html](https://www.bestchange.ru/partner/register.html))
+Для получения API-ключа зарегистрируйтесь на [сайте Bestchange](https://www.bestchange.ru/partner/register.html)
 
 ![](<../../../.gitbook/assets/image (435).png>)
 
-и выпустите ключ в личном кабинете ([bestchange.ru/partner/profile.html](https://www.bestchange.ru/partner/profile.html))
+и выпустите ключ в [личном кабинете](https://www.bestchange.ru/partner/profile.html).
 
 ![](<../../../.gitbook/assets/image (442).png>)
 {% endhint %}
