@@ -40,9 +40,17 @@ Bestchange API парсер будет работать только в акти
 
 **Домен** — укажите в поле один из доменов из списка под самим полем, если при пустом поле (когда парсер использует основной домен BC) парсер не работает (не отображаются валюты и города в списке ниже на этой же странице).
 
-**Ключ API** — API ключ из [ЛК на сайте Bestchange](https://www.bestchange.ru/partner/profile.html)
+**Ключ API** — API ключ из ЛК на сайте Bestchange
 
-<figure><img src="../../../.gitbook/assets/image (419).png" alt="" width="563"><figcaption></figcaption></figure>
+{% hint style="warning" %}
+Для получения API-ключа зарегистрируйтесь на сайте Bestchange ([bestchange.ru/partner/register.html](https://www.bestchange.ru/partner/register.html))
+
+![](<../../../.gitbook/assets/image (435).png>)
+
+и выпустите ключ в личном кабинете ([bestchange.ru/partner/profile.html](https://www.bestchange.ru/partner/profile.html))
+
+![](<../../../.gitbook/assets/image (442).png>)
+{% endhint %}
 
 **Таймаут (сек.)** — время ожидания ответа от Bestchange (рекомендуемое значение — 20 секунд. Если указан 0, то также применяется значение в 20 секунд)
 
