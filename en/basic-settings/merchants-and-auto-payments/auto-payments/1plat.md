@@ -63,7 +63,7 @@ When selecting "**Sbp**," be sure to choose a bank in the next field!
 **Bank** — select an appropriate bank from the list or manually enter your option in the "**Bank**" field (for acceptable options, please check with your 1Plat manager).
 
 {% hint style="info" %}
-#### Additional Fields for the Application
+**Additional Fields for the Application**
 
 When processing payouts using the 1Plat automatic payout feature, **additional fields** must be added to the exchange form for the client to fill out when creating an application.
 

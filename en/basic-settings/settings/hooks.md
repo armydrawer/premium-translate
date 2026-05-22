@@ -349,7 +349,7 @@ function del_iam_pay_merchant_pay_button($link) {
 
 <summary>Proxy for Bestchange Parser</summary>
 
-#### Bestchange Parser (Deprecated)
+**Bestchange Parser (Deprecated)**
 
 <mark style="color:red;">**Before installing hooks, make sure to update the script itself according to**</mark> [<mark style="color:red;">**the instructions**</mark>](https://premium.gitbook.io/main/en/basic-settings/faq/diagnostika-i-reshenie-oshibok-pri-rabote-so-skriptom#obnovlenie-failov-skripta-na-servere)<mark style="color:red;">**!**</mark>
 
@@ -379,7 +379,7 @@ function curl_bestchange_proxy($ch) {
 }
 ```
 
-#### Bestchange API Parser
+**Bestchange API Parser**
 
 The hook works on module version 2.6.2/2.7.2 and above (**using your own proxy**):
 

@@ -59,7 +59,7 @@ For convenience, a pair of keys is automatically generated for working with the 
 **Payment Method** — select the appropriate method from the list.
 
 {% hint style="info" %}
-#### Additional Fields for the Application
+**Additional Fields for the Application**
 
 To correctly transmit recipient data to the payment system, you need to add additional fields in the exchange directions.
 

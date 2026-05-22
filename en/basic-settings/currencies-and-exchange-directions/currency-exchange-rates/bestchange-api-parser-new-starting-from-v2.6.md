@@ -38,7 +38,17 @@ The Bestchange API parser will only work in an active exchange direction—make 
 
 **Domain** — Enter one of the domains from the list below the field. If the field is empty (when the parser uses the main BC domain), the parser will not work (currencies and cities will not be displayed in the list below on this page).
 
-**API Key** — The API key from your [personal account on the Bestchange website](https://www.bestchange.ru/partner/profile.html).
+**API Key** — The API key from your personal account on the Bestchange website.
+
+{% hint style="info" %}
+To get an API key, register on the Bestchange website (bestchange.ru/partner/register.html)
+
+![](<../../../.gitbook/assets/image (371).png>)
+
+and release the key in your personal account (bestchange.ru/partner/profile.html)
+
+![](<../../../.gitbook/assets/image (383).png>)
+{% endhint %}
 
 **Timeout (sec.)** — The time to wait for a response from Bestchange (recommended value is 20 seconds. If set to 0, it will also default to 20 seconds).
 
