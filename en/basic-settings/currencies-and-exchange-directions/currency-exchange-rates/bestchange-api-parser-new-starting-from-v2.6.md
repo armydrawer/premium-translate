@@ -41,11 +41,11 @@ The Bestchange API parser will only work in an active exchange direction—make 
 **API Key** — The API key from your personal account on the Bestchange website.
 
 {% hint style="info" %}
-To get an API key, register on the Bestchange website (bestchange.ru/partner/register.html)
+To get an API key, register on the [Bestchange website](https://bestchange.com/partner/register.html)
 
 ![](<../../../.gitbook/assets/image (371).png>)
 
-and release the key in your personal account (bestchange.ru/partner/profile.html)
+and release the key in your [personal account](https://bestchange.com/partner/profile.html)
 
 ![](<../../../.gitbook/assets/image (383).png>)
 {% endhint %}
