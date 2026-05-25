@@ -22,7 +22,7 @@
 
 Выберите подходящие методы для приема средств и скопируйте секретный и публичный ключи в буфер обмена или текстовый файл.
 
-<figure><img src="../../../.gitbook/assets/image (480).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (480).png" alt="" width="461"><figcaption></figcaption></figure>
 
 Установите ограничения доступа (при использовании мерчанта на прием отметьте "**Пополнение**" и "**История транзакций**"). Укажите в поле "**URL вебхука**" ссылку из настроек модуля на прием средств.
 
@@ -62,7 +62,7 @@
 {% endtab %}
 
 {% tab title="Crypto-Cash Crypto (криптовалюты)" %}
-<figure><img src="../../../.gitbook/assets/image (447).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (447).png" alt="" width="482"><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
