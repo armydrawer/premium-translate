@@ -150,7 +150,7 @@
     * [Bankoro](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/bankoro.md)
     * [Binance](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/binance.md)
     * [Bitconce](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/bitconce.md)
-    * [Crypto-Cash Crypto](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/crypto-cash-crypto.md)
+    * [Crypto-Cash](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/crypto-cash.md)
     * [Electrum](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/electrum.md)
     * [Exnode](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/exnode.md)
     * [Finora](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/finora.md)
