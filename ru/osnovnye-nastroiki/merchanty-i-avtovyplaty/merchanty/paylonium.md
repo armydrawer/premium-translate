@@ -56,11 +56,11 @@
 
 * **Payment link** — в заявке будет отображаться кнопка "**Перейти к оплате**", при нажатии на которую клиент попадет на платежную страницу мерчанта, где будут отображаться реквизиты или выполняться подбор реквизитов:
 
-<div><figure><img src="../../../.gitbook/assets/image.png" alt="" width="467"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (428).png" alt="" width="562"><figcaption></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/image (1).png" alt="" width="467"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (428).png" alt="" width="562"><figcaption></figcaption></figure></div>
 
 **При оплате этим методом клиенту будет необходимо прикрепить чек после оплаты заявки:**
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt="" width="436"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt="" width="436"><figcaption></figcaption></figure>
 
 **После загрузки чека клиент должен дождаться его обработки:**
 
