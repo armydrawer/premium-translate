@@ -4,6 +4,16 @@
 Если вам необходимо обновить модуль на сервере — воспользуйтесь [инструкцией](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/obnovlenie-failov-skripta-na-servere/kak-obnovit-faily-na-servere#moduli-merchantov-i-avtovyplat)
 {% endhint %}
 
+{% hint style="warning" %}
+**Модуль Crypto-Cash (фиат) необходимо использовать только в направлениях фиат — криптовалюта.**
+
+Обращаем ваше внимание, что для работы мерчанта на приём Crypto-Cash необходимо также установить модуль автовыплаты [Crypto-Cash Crypto](https://premium.gitbook.io/main/osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/crypto-cash#crypto-cash-crypto-kriptovalyuty) в этом же направлении обмена. Модуль на приём производит выплату средств по заявке сразу же после поступления средств от клиента, а модуль автовыплаты подтверждает выплату средств для изменения статуса заявки на "**Выполненная заявка**".
+
+Использовать модуль на приём Crypto-Cash **всегда необходимо** в паре с [модулем автовыплаты](https://premium.gitbook.io/main/osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/crypto-cash#crypto-cash-crypto-kriptovalyuty) (при подключении другого модуля автовыплаты в направлении обмена **произойдет двойная выплата**).
+
+Также необходимо учитывать, что выплата средств **всегда** производится по курсу самого сервиса, поэтому крайне желательно использовать [парсер](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya-obmena/kursy-valyut/parser-kursov-valyut-parsery-2.0) Crypto-Cash для курса в направлении обмена, где подключен Crypto-Cash, а также включить [пересчет заявок по курсу обмена](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya-obmena/sozdanie-novogo-napravleniya#pereschet-po-kursu-obmena) для совпадения фактически выплачиваемой суммы с суммой из заявки.
+{% endhint %}
+
 ## Настройки в личном кабинете мерчанта
 
 {% hint style="warning" %}
@@ -86,9 +96,9 @@
 
 <figure><img src="../../../.gitbook/assets/image (574).png" alt=""><figcaption></figcaption></figure>
 
-**Валюта** — выбор валюты для выдачи адреса кошелька (при выборе пункта "**Автоматически**" будет использоваться код валюты "**Отдаю**")
+**Валюта "Получаете"** — выбор валюты для **выплаты средств клиенту** (валюта должна совпадать с валютой, указанной в направлении обмена на стороне "**Получаю**", где используется модуль на прием средств. При выборе пункта "**Автоматически**" будет использоваться код валюты "**Получаю**" из этого направления обмена)
 
-* **добавить** — добавление своего кода валюты
+* **Добавить** — добавление своего кода валюты
 {% endtab %}
 
 {% tab title="Crypto-Cash Crypto (криптовалюты)" %}
@@ -106,4 +116,4 @@
 
 ## Продолжение настройки
 
-Далее произведите настройку мерчанта следуя [общей инструкции по настройке](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/obshie-nastroiki-merchantov).<br>
+Далее произведите настройку мерчанта следуя [общей инструкции по настройке](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/obshie-nastroiki-merchantov).
