@@ -7,7 +7,7 @@
 {% hint style="warning" %}
 **Модуль Crypto-Cash (фиат) необходимо использовать только в направлениях фиат — криптовалюта.**
 
-Обращаем ваше внимание, что для работы мерчанта на приём Crypto-Cash необходимо также установить модуль автовыплаты [Crypto-Cash Crypto](https://premium.gitbook.io/main/osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/crypto-cash#crypto-cash-crypto-kriptovalyuty) в этом же направлении обмена. Модуль на приём производит выплату средств по заявке сразу же после поступления средств от клиента, а модуль автовыплаты подтверждает выплату средств для изменения статуса заявки на "**Выполненная заявка**".
+Обращаем ваше внимание, что для работы мерчанта на приём Crypto-Cash необходимо также установить модуль автовыплаты [Crypto-Cash (фиат)](https://premium.gitbook.io/main/osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/crypto-cash#crypto-cash-crypto-kriptovalyuty) в этом же направлении обмена. Модуль на приём производит выплату средств по заявке сразу же после поступления средств от клиента, а модуль автовыплаты подтверждает выплату средств для изменения статуса заявки на "**Выполненная заявка**".
 
 Использовать модуль на приём Crypto-Cash **всегда необходимо** в паре с [модулем автовыплаты](https://premium.gitbook.io/main/osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/crypto-cash#crypto-cash-crypto-kriptovalyuty) (при подключении другого модуля автовыплаты в направлении обмена **произойдет двойная выплата**).
 

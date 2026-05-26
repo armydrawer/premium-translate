@@ -9,9 +9,9 @@
 {% endhint %}
 
 {% hint style="warning" %}
-Обращаем ваше внимание, что модуль автовыплаты технический и **не производит** саму выплату — [модуль на приём Crypto-Cash](https://premium.gitbook.io/main/osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/crypto-cash#crypto-cash-fiatnye-valyuty) производит выплату криптовалюты сразу же после поступления средств от клиента, а модуль автовыплаты только подтверждает выплату средств для изменения статуса заявки на "**Выполненная**".
+Обращаем ваше внимание, что модуль автовыплаты технический и **не производит** саму выплату — [модуль на приём Crypto-Cash (фиат)](https://premium.gitbook.io/main/osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/crypto-cash#crypto-cash-fiatnye-valyuty) производит выплату криптовалюты сразу же после поступления средств от клиента, а модуль автовыплаты только подтверждает выплату средств для изменения статуса заявки на "**Выполненная**".
 
-Использовать модуль автовыплаты Crypto-Cash Crypto **всегда необходимо** в паре с [фиатным модулем на приём средств](https://premium.gitbook.io/main/osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/quickex).
+Использовать модуль автовыплаты Crypto-Cash (фиат) **всегда необходимо** в паре с [фиатным модулем на приём средств](https://premium.gitbook.io/main/osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/quickex).
 
 Также необходимо учитывать, что выплата средств **всегда** производится по курсу самого сервиса, поэтому крайне желательно использовать [парсер](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya-obmena/kursy-valyut/parser-kursov-valyut-parsery-2.0) Crypto-Cash для курса в направлении обмена, где используется Crypto-Cash, а также включить [пересчет заявок по курсу обмена](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya-obmena/sozdanie-novogo-napravleniya#pereschet-po-kursu-obmena) для совпадения фактически выплачиваемой суммы с суммой из заявки.
 {% endhint %}
