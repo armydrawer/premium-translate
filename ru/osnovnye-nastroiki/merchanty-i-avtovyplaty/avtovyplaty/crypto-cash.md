@@ -24,13 +24,9 @@
 
 <figure><img src="../../../.gitbook/assets/image (592).png" alt=""><figcaption></figcaption></figure>
 
-Выберите подходящие методы для приема средств и скопируйте секретный и публичный ключи в буфер обмена или текстовый файл.
+Выберите подходящие методы для выплаты средств и скопируйте секретный и публичный ключи в буфер обмена или текстовый файл.
 
-<img src="https://premium.gitbook.io/main/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FACrqAXHMDfHtVPFkAXAv%252Fimage.png%3Falt%3Dmedia%26token%3D67b04ba7-301f-40b0-9671-2dd522a83c0f&#x26;width=768&#x26;dpr=3&#x26;quality=100&#x26;sign=813371be&#x26;sv=2" alt="" width="563">
-
-Установите ограничения доступа (при использовании мерчанта на прием отметьте "**Пополнение**" и "**История транзакций**"). Укажите в поле "**URL вебхука**" ссылку из настроек модуля на прием средств.
-
-<img src="https://premium.gitbook.io/main/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FG5aXunuI6xLEOS5mJNNl%252Fimage.png%3Falt%3Dmedia%26token%3Dba0ca55c-7ee2-483d-8095-07cf45722669&#x26;width=768&#x26;dpr=3&#x26;quality=100&#x26;sign=230705b4&#x26;sv=2" alt="" height="92" width="721">
+<figure><img src="../../../.gitbook/assets/image (810).png" alt="" width="425"><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Crypto-Cash Crypto (криптовалюты)" %}
@@ -49,7 +45,7 @@
 {% endtabs %}
 
 {% hint style="warning" %}
-При выпуске API-ключей запомните или запишите тип ключа, который вы выбрали (можно выбрать любой вариант) — вам потребуется выбрать тот же тип ключей в модуле на прием средств при настройке модуля.
+При выпуске API-ключей запомните или запишите тип ключа, который вы выбрали (можно выбрать любой вариант) — вам потребуется выбрать тот же тип ключей в модуле на прием средств при настройке модуля автовыплаты.
 
 ![](<../../../.gitbook/assets/image (584).png>)![](<../../../.gitbook/assets/image (585).png>)
 {% endhint %}
@@ -70,9 +66,9 @@
 
 **Домен** — оставьте поле пустым
 
-**Публичный ключ** — публичный ключ, скопированный ранее в ЛК
+**Публичный ключ** — публичный ключ, скопированный ранее в ЛК Crypto-Cash
 
-**Секретный ключ** — секретный ключ, скопированный ранее в ЛК
+**Секретный ключ** — секретный ключ, скопированный ранее в ЛК Crypto-Cash
 {% endtab %}
 
 {% tab title="Crypto-Cash Crypto (криптовалюты)" %}
@@ -84,9 +80,9 @@
 
 **Домен** — оставьте поле пустым
 
-**Публичный ключ** — публичный ключ, скопированный ранее в ЛК
+**Публичный ключ** — публичный ключ, скопированный ранее в ЛК Crypto-Cash
 
-**Секретный ключ** — секретный ключ, скопированный ранее в ЛК
+**Секретный ключ** — секретный ключ, скопированный ранее в ЛК Crypto-Cash
 {% endtab %}
 {% endtabs %}
 
@@ -96,7 +92,7 @@
 {% tab title="Crypto-Cash (фиатные валюты)" %}
 <img src="https://premium.gitbook.io/main/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FOuxo4YJ8qDici97y8NpD%252Fimage.png%3Falt%3Dmedia%26token%3Db5944848-fd29-4600-8f8b-c7855fe2a32f&#x26;width=768&#x26;dpr=3&#x26;quality=100&#x26;sign=967ec67d&#x26;sv=2" alt="" height="99" width="388">
 
-**API key type** — выберите тип ключей согласно ранее выбранному в ЛК Crypto-Cash при создании ключей
+**API key type** — выберите тип ключей согласно ранее выбранному типу при создании ключей в ЛК Crypto-Cash
 {% endtab %}
 
 {% tab title="Crypto-Cash Crypto (криптовалюты)" %}
@@ -104,7 +100,7 @@
 
 <img src="https://premium.gitbook.io/main/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FOuxo4YJ8qDici97y8NpD%252Fimage.png%3Falt%3Dmedia%26token%3Db5944848-fd29-4600-8f8b-c7855fe2a32f&#x26;width=768&#x26;dpr=3&#x26;quality=100&#x26;sign=967ec67d&#x26;sv=2" alt="" height="99" width="388">
 
-**API key type** — выберите тип ключей согласно ранее выбранному в ЛК Crypto-Cash при создании ключей
+**API key type** — выберите тип ключей согласно ранее выбранному типу при создании ключей в ЛК Crypto-Cash
 
 <figure><img src="../../../.gitbook/assets/image (2217).png" alt="" width="437"><figcaption></figcaption></figure>
 
