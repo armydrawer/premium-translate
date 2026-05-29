@@ -28,9 +28,11 @@ In the admin panel, create a new merchant in the "**Merchants**" ➔ "**Add Auto
 
 Select Unite from the drop-down list in the "**Module**" field, provide a name for the module, and click "**Save**."
 
+<figure><img src="../../../.gitbook/assets/image (441).png" alt=""><figcaption></figcaption></figure>
+
 Fill in the specified authorization fields.
 
-<figure><img src="../../../.gitbook/assets/image (384).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (442).png" alt=""><figcaption></figcaption></figure>
 
 **Domain** — leave this field empty.
 
@@ -42,7 +44,7 @@ Fill in the specified authorization fields.
 
 ## Special Fields
 
-<figure><img src="../../../.gitbook/assets/image (385).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (444).png" alt=""><figcaption></figcaption></figure>
 
 **Payment Method:**
 
@@ -53,11 +55,11 @@ Fill in the specified authorization fields.
 
 **Bank Code (SBP only):**
 
-* **Additional Fields (Currencies)** — use the [additional currency field](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya-obmena/dopolnitelnye-polya#dopolnitelnye-polya-dlya-valyuty) "**Receiving**"
+* **Additional Fields (Currencies)** — use the [additional currency field for currency "**Receiving**"](https://premium.gitbook.io/main/en/basic-settings/currencies-and-exchange-directions/additional-fields#additional-fields-for-currency)
 * **Additional Fields (Direction)** — use the [additional exchange direction field](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya-obmena/dopolnitelnye-polya#dopolnitelnye-polya-dlya-napravleniya-obmena)
 * **Bank Code (SBP only)** — manually select the bank for SBP payouts
 
-<div><figure><img src="../../../.gitbook/assets/image (403).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (410).png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/image (445).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (447).png" alt=""><figcaption></figcaption></figure></div>
 
 ## Continuing the Setup
 
