@@ -56,11 +56,11 @@ Fill in the specified authorization fields.
 **Bank Code (SBP only):**
 
 * **Additional Fields (Currencies)** — use the [additional currency field for currency "**Receiving**"](https://premium.gitbook.io/main/en/basic-settings/currencies-and-exchange-directions/additional-fields#additional-fields-for-currency)
-* **Additional Fields (Direction)** — use the [additional exchange direction field](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya-obmena/dopolnitelnye-polya#dopolnitelnye-polya-dlya-napravleniya-obmena)
+* **Additional Fields (Direction)** — use the [additional exchange direction field](https://premium.gitbook.io/main/en/basic-settings/currencies-and-exchange-directions/additional-fields#additional-fields-for-exchange-direction)
 * **Bank Code (SBP only)** — manually select the bank for SBP payouts
 
 <div><figure><img src="../../../.gitbook/assets/image (445).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (447).png" alt=""><figcaption></figcaption></figure></div>
 
 ## Continuing the Setup
 
-Next, configure the merchant by following the [general setup instructions](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/obshie-nastroiki-merchantov).<br>
+Next, configure the merchant by following the [general setup instructions](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/auto-payments/general-auto-payment-settings).
