@@ -28,8 +28,6 @@ In the admin panel, create a new merchant in the "**Merchants**" ➔ "**Add Auto
 
 Select Unite from the drop-down list in the "**Module**" field, provide a name for the module, and click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/image (735).png" alt=""><figcaption></figcaption></figure>
-
 Fill in the specified authorization fields.
 
 <figure><img src="../../../.gitbook/assets/image (384).png" alt=""><figcaption></figcaption></figure>
