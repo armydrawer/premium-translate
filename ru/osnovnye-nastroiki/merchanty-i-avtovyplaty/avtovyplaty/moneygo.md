@@ -8,6 +8,10 @@
 Если вам необходимо обновить модуль на сервере — воспользуйтесь [инструкцией](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/obnovlenie-failov-skripta-na-servere/kak-obnovit-faily-na-servere#moduli-merchantov-i-avtovyplat)
 {% endhint %}
 
+{% hint style="warning" %}
+Обращаем ваше внимание, что если вы получаете ошибку **`422 server_errors.amount_not_correct`** при выплате через модуль MoneyGo, то она означает, что недостаточно средств на кошельке отправителя платежа — пополните кошелек и проведите выплату повторно.
+{% endhint %}
+
 ## Настройки в личном кабинете мерчанта <a href="#nastroiki-v-lichnom-kabinete-merchanta" id="nastroiki-v-lichnom-kabinete-merchanta"></a>
 
 Пройдите регистрацию на сервисе [MoneyGo](https://money-go.com/ru/register). После регистрации запросите доступ к API у вашего MoneyGo менеджера или оставьте заявку на получения доступа к API для работы с модулем через [форму обратной связи](https://money-go.com/ru/helpdesk) (раздел "**Контакты**" на сайте), выбрав пункт "**Сотрудничество**" и заполнив обязательные поля.
