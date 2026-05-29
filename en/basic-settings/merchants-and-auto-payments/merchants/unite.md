@@ -1,13 +1,13 @@
 # Unite
 
 {% hint style="info" %}
-If you need to update a module on the server, please refer to the [instructions](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/obnovlenie-failov-skripta-na-servere/kak-obnovit-faily-na-servere#moduli-merchantov-i-avtovyplat).
+If you need to update a module on the server, please refer to the [instructions](https://premium.gitbook.io/main/en/basic-settings/faq/updating-script-files-on-the-server/how-to-update-files-on-the-server#merchant-and-auto-payout-modules).
 {% endhint %}
 
 ## Merchant Account Settings
 
 {% hint style="warning" %}
-To discuss working conditions, please contact a [service representative](https://t.me/Paylonium_TeamLead).
+To discuss working conditions, please contact a [service representative](https://t.me/Unite_Plat).
 
 **Disclaimer**: When connecting your website to any service, please assess the potential risks of collaboration on your own.
 {% endhint %}
@@ -88,4 +88,4 @@ After uploading the receipt, the client must wait for it to be processed:
 
 ## Continuing the Setup
 
-Next, configure the merchant by following the [general setup instructions](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/obshie-nastroiki-merchantov).
+Next, configure the merchant by following the [general setup instructions](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/merchants/general-merchant-settings).
