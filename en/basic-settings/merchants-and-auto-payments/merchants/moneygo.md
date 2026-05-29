@@ -4,6 +4,10 @@
 If you need to update the module on the server, please refer to the [instructions](https://premium.gitbook.io/main/en/en/basic-settings/faq/updating-script-files-on-the-server/how-to-update-files-on-the-server#merchant-and-auto-payout-modules).
 {% endhint %}
 
+{% hint style="warning" %}
+Please note that if you have changed the error **`422 server_errors.amount_not_correct`** when accepting payments through the MoneyGo module, this means that there are not enough funds in the payment sender’s wallet — the sender must replenish his wallet and then make a payment using the issued details.
+{% endhint %}
+
 ## Merchant Account Settings
 
 Register for the [MoneyGo](https://money-go.com/ru/register) service. After registering, request API access from your MoneyGo manager or submit a request for API access to work with the module via the [feedback form](https://money-go.com/ru/helpdesk) (under the "**Contacts**" section on the website), selecting "**Collaboration**" and filling out the required fields.
