@@ -71,6 +71,7 @@
     * [Внутренний счет (модуль автовыплаты)](osnovnye-nastroiki/merchanty-i-avtovyplaty/vnutrennie-scheta/vnutrennii-schet-modul-avtovyplaty.md)
     * [Обмен с участием внутреннего счета пользователя](osnovnye-nastroiki/merchanty-i-avtovyplaty/vnutrennie-scheta/obmen-s-uchastiem-vnutrennego-scheta-polzovatelya.md)
   * [Мерчанты](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/README.md)
+    * [001k.bot](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/001k.bot.md)
     * [Диагностика мерчанта](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/diagnostika-merchanta.md)
     * [Добавление или создание копии мерчанта](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/dobavlenie-ili-sozdanie-kopii-merchanta.md)
     * [Общие настройки мерчантов](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/obshie-nastroiki-merchantov.md)
