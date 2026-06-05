@@ -137,6 +137,7 @@
     * [WestWallet](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/westwallet.md)
     * [Yobit](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/yobit.md)
   * [Автовыплаты](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/README.md)
+    * [2328 1](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/2328-1.md)
     * [Предупреждение о рисках!](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/preduprezhdenie-o-riskakh.md)
     * [Добавление или создание копии автовыплаты](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/dobavlenie-ili-sozdanie-kopii-avtovyplaty.md)
     * [Общие настройки автовыплат](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/obshie-nastroiki-avtovyplat.md)
