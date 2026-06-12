@@ -142,6 +142,7 @@
     * [Общие настройки автовыплат](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/obshie-nastroiki-avtovyplat.md)
     * [001k.bot](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/001k.bot.md)
     * [1Plat](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/1plat.md)
+    * [Ecpay.System](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/1plat-1.md)
     * [2328](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/2328.md)
     * [APX](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/apx.md)
     * [ABCEx](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/abcex.md)
