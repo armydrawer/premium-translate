@@ -142,6 +142,7 @@
       * [Bankoro](basic-settings/merchants-and-auto-payments/auto-payments/bankoro.md)
       * [Binance](basic-settings/merchants-and-auto-payments/auto-payments/binance.md)
       * [Crypto-Cash Crypto](basic-settings/merchants-and-auto-payments/auto-payments/crypto-cash-crypto.md)
+      * [Ecpay.System](basic-settings/merchants-and-auto-payments/auto-payments/ecpay.system.md)
       * [Electrum](basic-settings/merchants-and-auto-payments/auto-payments/electrum.md)
       * [Exnode](basic-settings/merchants-and-auto-payments/auto-payments/exnode.md)
       * [Firekassa](basic-settings/merchants-and-auto-payments/auto-payments/firekassa.md)
