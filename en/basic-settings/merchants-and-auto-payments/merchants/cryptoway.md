@@ -1,68 +1,69 @@
 # CryptoWay
 
+
+
 {% hint style="info" %}
-Если вам необходимо обновить модуль на сервере — воспользуйтесь [инструкцией](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/obnovlenie-failov-skripta-na-servere/kak-obnovit-faily-na-servere#moduli-merchantov-i-avtovyplat)
+If you need to update the module on the server, please refer to the [instructions](https://premium.gitbook.io/main/en/en/basic-settings/faq/updating-script-files-on-the-server/how-to-update-files-on-the-server#merchant-and-auto-payout-modules).
 {% endhint %}
 
-## Настройки в личном кабинете мерчанта
+## Merchant Account Settings
 
 {% hint style="warning" %}
-**Дисклеймер**: при подключении вашего сайта к тому или иному сервису, пожалуйста, самостоятельно оценивайте возможные риски сотрудничества.
+**Disclaimer**: When connecting your website to any service, please assess the potential risks of collaboration on your own.
 {% endhint %}
 
-Зарегистрируйтесь на [сервисе CryptoWay](https://cryptoway.com/ru) и авторизуйтесь в личном кабинете.
+Register on the [CryptoWay service](https://cryptoway.com/en) and log into your account.
 
-Перейдите в раздел с API ключами. Выпустите набор ключей по кнопке "Create API Key".
+Go to the API keys section. Generate a set of keys by clicking "Create API Key".
 
 <figure><img src="../../../.gitbook/assets/image_2026-06-24_181010889.png" alt=""><figcaption></figcaption></figure>
 
-Укажите произвольное имя для набора таких ключей и IP вашего сервера (опционально) в соответствующих полях.
+Enter an arbitrary name for this set of keys and your server IP (optional) in the corresponding fields.
 
-#### Установите галочки прав для создаваемой пары ключей:
+#### Check the permission boxes for the key pair being created:
 
-**Withdrawal —** для модуля автовыплаты. Права на вывод средств.
+**Deposits —** for the merchant module. Permission to accept funds.
 
-**Deposits —** для модуля мерчанта. Права на приём средств.
+**Withdrawal —** for the auto payout module. Permission to withdraw funds.
 
 <figure><img src="../../../.gitbook/assets/image_2026-06-24_181519654.png" alt=""><figcaption></figcaption></figure>
 
-Подтвержите создание ключей указан код отправленный на почту регистрации.
+Confirm the key creation by entering the code sent to your registration email.
 
-Скопируйте полученные **Key ID** и **Key Secret** в буфер обмена или текстовый файл.
+Copy the obtained Key ID and Key Secret to your clipboard or a text file.
 
 <figure><img src="../../../.gitbook/assets/image_2026-06-24_181856923.png" alt=""><figcaption></figcaption></figure>
 
-Ключит доступны для просмотра только при создании, повторно скопировать или просмотреть их не получится. Нужно будет создавать новую пару ключей.
+The keys are only available for viewing at the time of creation — they cannot be copied or viewed again. You will need to create a new key pair.
 
-## Настройки модуля
+## Module settings
 
-В панели администратора создайте нового мерчанта в разделе "**Мерчанты**" ➔ "**Добавить автовыплату".**
+In the admin panel, create a new merchant in the “**Merchants**” ➔ “**Add Merchant**” section.
 
-Выберите модуль **CryptoWay** в выпадающем списке в поле "**Модуль**", укажите название для модуля и нажмите "**Сохранить**".
+Select **CryptoWay** from the dropdown menu in the "**Module**" field, enter a name for the module, and click "**Save**."
 
-<figure><img src="../../../.gitbook/assets/image_2026-06-24_183836373.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image_2026-06-24_191421420.png" alt=""><figcaption></figcaption></figure>
 
-Заполните указанные авторизационные поля.
+Fill in the required authorization fields.
 
-<figure><img src="../../../.gitbook/assets/image_2026-06-24_182259285.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image_2026-06-24_185242157.png" alt=""><figcaption></figcaption></figure>
 
-**Домен** — не заполняйте поле, оставьте его пустым.
+**Domain —** do not fill in this field, leave it empty.
 
-**API ключ** — Key ID, скопированный ранее в ЛК CryptoWay.
+**API key —** Key ID copied earlier from your CryptoWay account.
 
-**Секретный ключ** — Key Secret,скопированный ранее в ЛК CryptoWay.
+**Secret key —** Key Secret copied earlier from your CryptoWay account.
 
-## Особые поля
+## Special Fields
 
-Способ оплаты — выбор валюты для выдачи адреса кошелька (при выборе пункта "**Автоматически**" будет использоваться XML код валюты "**Отдаю**")
+**Payment method** — select the currency for issuing the wallet address (selecting "**Automatically**" will use the XML currency code of the "**Send**" currency).
 
-* **добавить** — добавление своего кода валюты
+* **Add** **new** — to add your own currency code.
 
-<figure><img src="../../../.gitbook/assets/image_2026-06-24_182727846.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image_2026-06-24_185443299.png" alt=""><figcaption></figcaption></figure>
 
-**Cron-файл -** [создайте задание](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-sozdat-zadanie-cron-na-servere) с такой ссылкой на сервер&#x435;**.**
+**Cron file —** [create a task](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-sozdat-zadanie-cron-na-servere) with this link on the server.
 
-## Продолжение настройки
+## Continuing the Setup
 
-Дополнительные настройки модуля выполняются согласно [общей инструкции по настройке](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/obshie-nastroiki-merchantov).
-
+Additional module settings are performed according to the[ general setup instructions](https://premium.gitbook.io/main/en/basic-settings/merchants-and-auto-payments/merchants/general-merchant-settings).
