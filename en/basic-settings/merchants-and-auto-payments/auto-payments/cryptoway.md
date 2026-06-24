@@ -60,7 +60,7 @@ Fill in the required authorization fields.
 
 ## Special Fields
 
-**Payment method** — select the currency for issuing the wallet address (selecting "**Automatically**" will use the XML currency code of the "**Receiving**" currency).
+**Payment method** — select from the dropdown list the currency you will be paying out (selecting "**Automatically**" will use the XML currency code of the "**Receive**" currency).
 
 * **Add** **new** — to add your own currency code.
 
