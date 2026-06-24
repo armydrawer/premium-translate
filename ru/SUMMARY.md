@@ -153,6 +153,7 @@
     * [Binance](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/binance.md)
     * [Bitconce](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/bitconce.md)
     * [Crypto-Cash](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/crypto-cash.md)
+    * [CryptoWay](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/cryptoway.md)
     * [Ecpay.System](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/ecpay.system.md)
     * [Electrum](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/electrum.md)
     * [Exnode](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/exnode.md)
