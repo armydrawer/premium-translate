@@ -62,7 +62,7 @@ Fill in the required authorization fields.
 
 <figure><img src="../../../.gitbook/assets/image_2026-06-24_185443299.png" alt=""><figcaption></figcaption></figure>
 
-**Cron file —** [create a task](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-sozdat-zadanie-cron-na-servere) with this link on the server.
+**Cron file —** [create a task](https://premium.gitbook.io/main/en/basic-settings/faq/how-to-create-a-cron-job-on-a-server) with this link on the server.
 
 ## Continuing the Setup
 
