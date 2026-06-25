@@ -27,19 +27,28 @@ Installing an incompatible module will result in an error (the website will not 
 
 1. Download the **update archive** for your script version from the [**"Your Scripts"**](https://premiumexchanger.com/uscripts/) page. Choose the appropriate PHP version and your script version, then extract the archive on your computer.
 
-<figure><img src="../../../.gitbook/assets/image (2019)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image_2026-06-25_150206504.png" alt=""><figcaption></figcaption></figure>
 
 2. **Make sure** to deactivate the modules you plan to update in the "**Modules**" section.
 
-<figure><img src="../../../.gitbook/assets/image (2020)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image_2026-06-25_150254701.png" alt="" width="557"><figcaption></figcaption></figure>
 
 3. Navigate to the directory path shown in the screenshot: `/wp-content/plugins/premiumbox/moduls/`
 
-<figure><img src="../../../.gitbook/assets/image (657).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image_2026-06-25_150318726.png" alt=""><figcaption></figcaption></figure>
 
 4. Select **one or more required modules** and drag them into the ISP Manager window, placing them in the corresponding directory on the server.
+
+<figure><img src="../../../.gitbook/assets/image_2026-06-25_150354608.png" alt="" width="563"><figcaption></figcaption></figure>
+
 5. At the bottom of the page, a window will appear showing the destination folder (the "**moduls**" folder).
+
+<figure><img src="../../../.gitbook/assets/image_2026-06-25_150647162.png" alt=""><figcaption></figcaption></figure>
+
 6. If a file conflict window appears, overwrite the files by clicking "**Replace**."
+
+<figure><img src="../../../.gitbook/assets/image_2026-06-25_150744318.png" alt=""><figcaption></figcaption></figure>
+
 7. Reactivate the updated modules in the "**Modules**" section.
 
 After completing these steps, the modules will be updated, and no further actions are required.
@@ -58,7 +67,7 @@ Ensure that you download the module specifically for the script version installe
 {% tab title="For Version 2.7" %}
 In your account, go to the **"Your Scripts"** section and download the merchant module for the required payment system from the "**Additional Modules**" block.
 
-<figure><img src="../../../.gitbook/assets/image (2022)_eng.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image_2026-06-25_151035477.png" alt=""><figcaption></figcaption></figure>
 
 Upload the contents of the module archive to the server in the `/wp-content/plugins/premiumbox/merchants` directory (for payment acceptance) or `/wp-content/plugins/premiumbox/paymerchants` directory (for auto-payouts), and extract the files. If a file conflict window appears, overwrite the files.
 {% endtab %}
@@ -66,15 +75,15 @@ Upload the contents of the module archive to the server in the `/wp-content/plug
 {% tab title="For Version 2.6 and Below" %}
 Download the updated module distribution (any archive compatible with **your script version**) from the ["**Your Scripts**"](https://premiumexchanger.com/uscripts/) section in your account.
 
-<figure><img src="../../../.gitbook/assets/image (2025)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image_2026-06-25_151158355.png" alt=""><figcaption></figcaption></figure>
 
 Extract the downloaded archive on your computer and locate the folder containing the required merchant module:
 
-<figure><img src="../../../.gitbook/assets/image (674).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image_2026-06-25_151222817.png" alt=""><figcaption></figcaption></figure>
 
 or auto-payout module:
 
-<figure><img src="../../../.gitbook/assets/image (695).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image_2026-06-25_151243558.png" alt=""><figcaption></figcaption></figure>
 
 Upload the contents of the module archive to the server in the `/wp-content/plugins/premiumbox/merchants` directory (for payment acceptance) or `/wp-content/plugins/premiumbox/paymerchants` directory (for auto-payouts). If a file conflict window appears, overwrite the files.
 {% endtab %}
@@ -86,16 +95,22 @@ Upload the contents of the module archive to the server in the `/wp-content/plug
 
 1. Download the **update archive** for your script version from the [**"Your Scripts"**](https://premiumexchanger.com/uscripts/) page. Choose the appropriate PHP version and your script version, then extract the archive on your computer.
 
-<figure><img src="../../../.gitbook/assets/image (2032)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image_2026-06-25_150206504.png" alt=""><figcaption></figcaption></figure>
 
 2. Navigate to the directory path shown in the screenshot: `/wp-content/themes/`
 
-<figure><img src="../../../.gitbook/assets/image (677).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image_2026-06-25_151324554.png" alt=""><figcaption></figcaption></figure>
 
-4. Select the required design folder (`newexchanger2.0` — the new standard design for 2024) and drag it into the ISP Manager window, placing it in the corresponding directory.
-5. If a file conflict window appears, overwrite the files by clicking "**Replace**."
-6. Activate the uploaded design in the website control panel under "**Appearance -> Themes**."
-7. Additional appearance settings may be required if you activate a new design on the site. The main design settings can be found in the "**Appearance**" section.
+3. Select the required design folder (`newexchanger2.0` — the new standard design for 2024) and drag it into the ISP Manager window, placing it in the corresponding directory.
+
+<figure><img src="../../../.gitbook/assets/image_2026-06-25_151351067.png" alt=""><figcaption></figcaption></figure>
+
+4. If a file conflict window appears, overwrite the files by clicking "**Replace**."
+
+<figure><img src="../../../.gitbook/assets/image_2026-06-25_150744318.png" alt=""><figcaption></figcaption></figure>
+
+5. Activate the uploaded design in the website control panel under "**Appearance -> Themes**."
+6. Additional appearance settings may be required if you activate a new design on the site. The main design settings can be found in the "**Appearance**" section.
 
 ***
 
@@ -103,11 +118,16 @@ Upload the contents of the module archive to the server in the `/wp-content/plug
 
 1. Download the **update archive** for your script version from the [**"Your Scripts"**](https://premiumexchanger.com/uscripts/) page. Choose the appropriate PHP version and your script version, then extract the archive on your computer.
 
-<figure><img src="../../../.gitbook/assets/image (2019)_eng.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image_2026-06-25_150206504.png" alt=""><figcaption></figcaption></figure>
 
 2. Navigate to the directory path shown in the screenshot: `/wp-content/plugins/premiumbox/`
 
-<figure><img src="../../../.gitbook/assets/image (676).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image_2026-06-25_151541276.png" alt=""><figcaption></figcaption></figure>
 
 3. Select **one or more required directories** and drag them into the ISP Manager window, placing them in the corresponding directory.
+
+<figure><img src="../../../.gitbook/assets/image_2026-06-25_151602014.png" alt=""><figcaption></figcaption></figure>
+
 4. If a file conflict window appears, overwrite the files by clicking "**Replace**."
+
+<figure><img src="../../../.gitbook/assets/image_2026-06-25_150744318.png" alt=""><figcaption></figcaption></figure>
