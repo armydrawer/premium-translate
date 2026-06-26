@@ -20,6 +20,36 @@
 
 <figure><img src="../../../.gitbook/assets/image_2026-06-26_220914374.png" alt=""><figcaption></figcaption></figure>
 
+<details>
+
+<summary>Выполняемый код</summary>
+
+```go
+package main
+
+import (
+    "crypto/ed25519"
+    "encoding/base64"
+    "fmt"
+)
+
+func main() {
+    pub, priv, err := ed25519.GenerateKey(nil)
+    if err != nil {
+        panic(err)
+    }
+
+    pubBase64 := base64.StdEncoding.EncodeToString([]byte(pub))
+    privBase64 := base64.StdEncoding.EncodeToString([]byte(priv))
+
+    fmt.Printf("Public key base64:  %s\nPrivate key base64: %s", pubBase64, privBase64)
+}
+```
+
+<br>
+
+</details>
+
 2. В выдаче вы получите [публичный ](#user-content-fn-1)[^1]и [приватный ](#user-content-fn-2)[^2]ключи. Такие ключи будут уникальными при каждой генерации.
 3. Скопируйте полученные ключи и сохраните их в отдельном текстовом файле.
 4. Свяжитесь с [представителем сервиса](https://t.me/Unite_Plat) для регистрации личного кабинета.
