@@ -135,3 +135,34 @@
 4. При появлении окна о совпадении файлов — перезапишите файлы (кнопка "**Заменить**").
 
 <figure><img src="../../../.gitbook/assets/изображение (66).png" alt=""><figcaption></figcaption></figure>
+
+## Обновление всех файлов скрипта
+
+{% hint style="danger" %}
+Перед любыми манипуляциями с файлами на сервере — рекомендуем [делать бэкап](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-sdelat-bekap-saita) корневой папки на компьютер:
+
+<img src="../../../.gitbook/assets/image (1269).png" alt="" data-size="original">
+
+\
+Все манипуляции с файлами производятся через панель ISP Manager из-под <mark style="color:green;">**пользователя, созданного для сайта**</mark> (**не&#x20;**<mark style="color:red;">**root**</mark>).
+{% endhint %}
+
+1. Скачайте архив скрипта **для обновления** со [страницы **"Ваши скрипты"**](https://premiumexchanger.com/uscripts/) под <mark style="color:red;">**вашу версию скрипта и версию PHP используюемую на вашем сайте.**</mark> \
+   Распакуйте архив на компьютере.
+
+<figure><img src="../../../.gitbook/assets/image (2019) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+
+
+
+2. Перейдите к указанному на скриншоте пути к директории с плагинами: `/wp-content/plugins`
+
+<figure><img src="../../../.gitbook/assets/image_2026-06-26_145504995.png" alt=""><figcaption></figcaption></figure>
+
+3. Выберите **директорю premiumbox** и перетащите её в окно ISP Manager в аналогичную директорию:
+
+<figure><img src="../../../.gitbook/assets/image_2026-06-26_150101769.png" alt=""><figcaption></figcaption></figure>
+
+4. Вы получите предупреждение о том, что на сервере уже есть файлы с такими же именами. Это ожидаемое поведение.\
+   Отметьте галочку "**Применить ко всем**" и замените файлы по кнопке "**Заменить**".
+
+<figure><img src="../../../.gitbook/assets/image_2026-06-26_150509749.png" alt=""><figcaption></figcaption></figure>
