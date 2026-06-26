@@ -147,7 +147,7 @@
 Все манипуляции с файлами производятся через панель ISP Manager из-под <mark style="color:green;">**пользователя, созданного для сайта**</mark> (**не&#x20;**<mark style="color:red;">**root**</mark>).
 {% endhint %}
 
-1. Скачайте архив скрипта **для обновления** со [страницы **"Ваши скрипты"**](https://premiumexchanger.com/uscripts/) под <mark style="color:red;">**вашу версию скрипта и версию PHP используюемую на вашем сайте.**</mark> \
+1. Скачайте архив скрипта **для обновления** со [страницы **"Ваши скрипты"**](https://premiumexchanger.com/uscripts/) под <mark style="color:red;">**вашу версию скрипта и**</mark> [<mark style="color:red;">**версию PHP используюемую на вашем сайте**</mark>](#user-content-fn-1)[^1]<mark style="color:red;">**.**</mark> \
    Распакуйте архив на компьютере.
 
 <figure><img src="../../../.gitbook/assets/image (2019) (1).png" alt="" width="563"><figcaption></figcaption></figure>
@@ -166,3 +166,5 @@
    Отметьте галочку "**Применить ко всем**" и замените файлы по кнопке "**Заменить**".
 
 <figure><img src="../../../.gitbook/assets/image_2026-06-26_150509749.png" alt=""><figcaption></figcaption></figure>
+
+[^1]: Можно узнать версию PHP в разделе "Сайты" вашего ISPmanager. Поле "Обработчик".
