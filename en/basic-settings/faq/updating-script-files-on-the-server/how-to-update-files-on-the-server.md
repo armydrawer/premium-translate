@@ -3,7 +3,7 @@
 From time to time, it’s necessary to replace module files on the server due to the release of a new module version, bug fixes in the current module, or other reasons.
 
 {% hint style="danger" %}
-Before making any changes to the files on the server, we strongly recommend creating a backup of the root folder on your computer:
+Before making any changes to the files on the server, we strongly recommend [creating a backup ](../how-to-back-up-a-website.md)of the root folder on your computer:
 
 <img src="../../../.gitbook/assets/image (1269)_eng.png" alt="" data-size="original">
 
@@ -115,6 +115,15 @@ Upload the contents of the module archive to the server in the `/wp-content/plug
 ***
 
 ## Script Files
+
+{% hint style="danger" %}
+Before making any changes to the files on the server, we strongly recommend [creating a backup ](../how-to-back-up-a-website.md)of the root folder on your computer:
+
+<img src="../../../.gitbook/assets/image (1269)_eng.png" alt="" data-size="original">
+
+\
+All file operations should be performed via the ISP Manager panel under the <mark style="color:green;">**user account created for the website**</mark> (**not** <mark style="color:red;">**root**</mark>).
+{% endhint %}
 
 1. Download the **update archive** for your script version from the [**"Your Scripts"**](https://premiumexchanger.com/uscripts/) page. Choose the appropriate PHP version and your script version, then extract the archive on your computer.
 
