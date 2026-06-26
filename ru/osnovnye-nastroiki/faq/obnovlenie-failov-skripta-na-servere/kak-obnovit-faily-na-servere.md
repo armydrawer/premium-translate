@@ -3,7 +3,7 @@
 Периодически необходимо заменять файлы модулей на сервере в связи с выходом новой версии модуля, устранением багов в действующем модуле и другими причинами.
 
 {% hint style="danger" %}
-Перед любыми манипуляциями с файлами на сервере — рекомендуем делать бэкап корневой папки на компьютер:
+Перед любыми манипуляциями с файлами на сервере — рекомендуем [делать бэкап](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-sdelat-bekap-saita) корневой папки на компьютер:
 
 <img src="../../../.gitbook/assets/image (1269).png" alt="" data-size="original">
 
@@ -111,6 +111,15 @@
 
 ## Файлы скрипта
 
+{% hint style="danger" %}
+Перед любыми манипуляциями с файлами на сервере — рекомендуем [делать бэкап](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-sdelat-bekap-saita) корневой папки на компьютер:
+
+<img src="../../../.gitbook/assets/image (1269).png" alt="" data-size="original">
+
+\
+Все манипуляции с файлами производятся через панель ISP Manager из-под <mark style="color:green;">**пользователя, созданного для сайта**</mark> (**не&#x20;**<mark style="color:red;">**root**</mark>).
+{% endhint %}
+
 1. Скачайте архив скрипта **для обновления** со [страницы **"Ваши скрипты"**](https://premiumexchanger.com/uscripts/) под <mark style="color:red;">**вашу версию скрипта**</mark> (любая версия PHP) и распакуйте архив на компьютере.
 
 <figure><img src="../../../.gitbook/assets/image (2019) (1).png" alt="" width="563"><figcaption></figcaption></figure>
@@ -119,7 +128,7 @@
 
 <figure><img src="../../../.gitbook/assets/image (2030).png" alt="" width="563"><figcaption></figcaption></figure>
 
-3. Выберите **одну или несколько необходимых директорий** и перетащите их в окно ISP Manager в аналогичную директорию:
+3. Выберите **одну, несколько необходимых директорий или все файлы сразу** и перетащите их в окно ISP Manager в аналогичную директорию:
 
 <figure><img src="../../../.gitbook/assets/premiumbox_240501155622.png" alt=""><figcaption></figcaption></figure>
 
