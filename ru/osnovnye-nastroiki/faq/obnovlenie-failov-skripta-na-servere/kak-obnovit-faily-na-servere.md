@@ -27,7 +27,7 @@
 
 <figure><img src="../../../.gitbook/assets/image (2019).png" alt="" width="563"><figcaption></figcaption></figure>
 
-2. **Обязательно** деактивируйте модули, которые вы планируете обновить, в разделе "**Модули**".
+2. По возможности деактивируйте модули, которые вы планируете обновить, в разделе "**Модули**".
 
 <figure><img src="../../../.gitbook/assets/image (2020).png" alt="" width="563"><figcaption></figcaption></figure>
 
