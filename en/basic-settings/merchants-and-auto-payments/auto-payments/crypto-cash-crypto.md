@@ -11,7 +11,7 @@ If you need to update the module on the server, please refer to the [instruction
 ## Merchant Account Settings
 
 {% hint style="warning" %}
-To discuss the terms of service, please contact a [service representative](https://t.me/CCW_Admin).
+To discuss the terms of service, please contact a [service representative](https://t.me/CEO_CryptoCash).
 
 **Disclaimer**: When connecting your website to any service, please assess the potential risks of collaboration on your own.
 {% endhint %}
