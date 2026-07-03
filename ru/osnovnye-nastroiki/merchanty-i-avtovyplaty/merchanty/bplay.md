@@ -9,14 +9,14 @@ hidden: true
 {% endhint %}
 
 {% hint style="warning" %}
+Для обсуждения условий и подключения, свяжитесь с [представителем сервиса.](https://t.me/bpay_processing)
+
 **Дисклеймер**: при подключении вашего сайта к тому или иному сервису, самостоятельно пожалуйста оценивайте возможные риски сотрудничества.
 {% endhint %}
 
-***
-
 ## Настройки в личном кабинете мерчанта
 
-Пройдите регистрацию и авторизацию в системе [Bplay](https://bpay-processing.com/).
+После получения реквизитов для входа от [представителя сервиса](https://t.me/bpay_processing), авторизуйтесь в личном кабинете на [сайте Bpay](https://bpay-processing.com/).
 
 <figure><img src="../../../.gitbook/assets/image_2026-07-02_155047161.png" alt=""><figcaption></figcaption></figure>
 
@@ -25,8 +25,6 @@ hidden: true
 <figure><img src="../../../.gitbook/assets/image_2026-07-02_155215203.png" alt=""><figcaption></figcaption></figure>
 
 Сохраните полученные данные в текстовый файл.
-
-***
 
 ## Настройки модуля
 
