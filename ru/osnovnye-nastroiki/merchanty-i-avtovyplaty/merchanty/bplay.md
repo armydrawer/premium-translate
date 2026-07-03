@@ -50,8 +50,6 @@ hidden: true
 
 **Cron-файл -** [создайте задание](../../faq/kak-sozdat-zadanie-cron-na-servere.md) с такой ссылкой на сервер&#x435;**.**
 
-***
-
 ## Продолжение настройки
 
 Дополнительные настройки модуля выполняются согласно [общей инструкции по настройке](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/obshie-nastroiki-merchantov).
