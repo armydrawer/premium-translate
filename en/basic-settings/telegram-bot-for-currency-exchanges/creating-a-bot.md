@@ -71,5 +71,5 @@ You may need to reactivate the **Premium Exchanger** plugin in the "**Plugins**"
 <img src="../../.gitbook/assets/image (1249)_eng.png" alt="" data-size="original">
 {% endhint %}
 
-8. Optionally, perform additional [bot settings](nastroiki-bota.md).
-9. If you are using CloudFlare or a similar service for your website, add the [IP addresses of Telegram](https://core.telegram.org/resources/cidr.txt) to the Whitelist in your service. Instructions for adding to the CloudFlare Whitelist can be found [here](broken-reference/).
+8. Optionally, perform additional [bot settings](https://github.com/armydrawer/premium-translate/blob/main/en/basic-settings/telegram-bot-for-currency-exchanges/nastroiki-bota.md).
+9. If you are using CloudFlare or a similar service for your website, add the [IP addresses of Telegram](https://core.telegram.org/resources/cidr.txt) to the Whitelist in your service. Instructions for adding to the CloudFlare Whitelist can be found [here](https://github.com/armydrawer/premium-translate/blob/main/en/basic-settings/telegram-bot-for-currency-exchanges/broken-reference/README.md).

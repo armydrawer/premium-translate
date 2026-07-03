@@ -717,10 +717,10 @@ If you need to troubleshoot email-related issues, refer to this [DNS configurati
 
 ### **Additional Resources**
 
-* **QR Generator Module**: [Download here](../../.gitbook/assets/qr_adress.zip)
+* **QR Generator Module**: [Download here](https://github.com/armydrawer/premium-translate/blob/main/en/.gitbook/assets/qr_adress.zip)
 * **class-form.php for Script Versions**:
-  * Version 2.6: [Download here](../../.gitbook/assets/class-form.php)
-  * Version 2.5: [Download here](../../.gitbook/assets/class-form%20\(1\).php)
+  * Version 2.6: [Download here](https://github.com/armydrawer/premium-translate/blob/main/en/.gitbook/assets/class-form.php)
+  * Version 2.5: [Download here](https://github.com/armydrawer/premium-translate/blob/main/en/.gitbook/assets/class-form%20\(1\).php)
 
 [^1]: phpMyAdmin in ISP Manager can be installed via **Settings -> Software Configuration**. Check the "Web Interface for MySQL Administration" option and click **Install**.
 

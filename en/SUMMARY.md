@@ -81,6 +81,7 @@
       * [BimBo (Issuing Your Payment Details)](basic-settings/merchants-and-auto-payments/merchants/bimbo-issuing-your-payment-details.md)
       * [Bitbanker](basic-settings/merchants-and-auto-payments/merchants/bitbanker.md)
       * [Bitconce Card/Link](basic-settings/merchants-and-auto-payments/merchants/bitconce-card-link.md)
+      * [Bplay](basic-settings/merchants-and-auto-payments/merchants/bplay.md)
       * [Crypto-Cash Crypto](basic-settings/merchants-and-auto-payments/merchants/crypto-cash-crypto.md)
       * [CryptoWay](basic-settings/merchants-and-auto-payments/merchants/cryptoway.md)
       * [test](basic-settings/merchants-and-auto-payments/merchants/cryptoway-1.md)

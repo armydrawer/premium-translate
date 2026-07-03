@@ -54,7 +54,7 @@ If multiple trading actions are used simultaneously, all active steps in the hig
 * **Error Margin (%)** — This setting is relevant **only** for Binance and applies to **buying** operations. The recommended value is 0.15%.
 
 5. Next, go to the settings of the corresponding exchange and complete the necessary configurations. Below are instructions for setting up some popular exchanges:
-   * [Garantex](broken-reference/)
+   * [Garantex](https://github.com/armydrawer/premium-translate/blob/main/en/basic-settings/module-trading-actions/creating-a-trading-action/broken-reference/README.md)
    * [Binance](binance.md)
 6. To create another trading action, repeat the process starting with selecting the exchange where you want to perform operations. Then, fill in the required settings according to the chosen exchange’s requirements. Be sure to double-check all fields before saving the settings.
 7. After saving the settings, **it is recommended** to conduct test exchanges to ensure the trading actions are functioning correctly.
