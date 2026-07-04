@@ -84,7 +84,7 @@
     * [Bankoro](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/bankoro.md)
     * [BimBo (выдача своих реквизитов)](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/bimbo-vydacha-svoikh-rekvizitov.md)
     * [Bitbanker](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/bitbanker.md)
-    * [Bplay](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/bplay.md)
+    * [Bpay](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/bpay.md)
     * [Bitconce Card/Link](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/bitconce-card-link.md)
     * [Crypto-Cash](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/crypto-cash.md)
     * [CryptoWay](osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/cryptoway.md)
