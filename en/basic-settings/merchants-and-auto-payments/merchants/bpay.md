@@ -2,7 +2,7 @@
 hidden: true
 ---
 
-# Bplay
+# Bpay
 
 {% hint style="info" %}
 If you need to update the module on the server — [use the instruction.](https://premium.gitbook.io/main/en/basic-settings/faq/updating-script-files-on-the-server/how-to-update-files-on-the-server#merchant-and-auto-payout-modules)
@@ -32,11 +32,11 @@ In the admin panel, create a new merchant in the "**Merchants**" section -> "**A
 
 Select Bpay from the dropdown list in the "**Module**" field, enter a name for the module and click "**Save**".
 
-<figure><img src="../../../.gitbook/assets/image_2026-07-02_155406885.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image_2026-07-04_162120227.png" alt=""><figcaption></figcaption></figure>
 
 Fill in the specified authorization fields.
 
-<figure><img src="../../../.gitbook/assets/image_2026-07-02_155458288.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image_2026-07-04_162142007.png" alt=""><figcaption></figcaption></figure>
 
 **Domain** — do not fill in this field, leave it empty.
 
@@ -44,7 +44,7 @@ Fill in the specified authorization fields.
 
 ## Special fields
 
-<figure><img src="../../../.gitbook/assets/image_2026-07-02_155716229.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image_2026-07-04_162225192.png" alt=""><figcaption></figcaption></figure>
 
 **Currency code** — Select the currency for acceptance in the module or the field for the currency designation in the system.
 
