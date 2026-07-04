@@ -1,7 +1,3 @@
----
-hidden: true
----
-
 # Bplay
 
 {% hint style="info" %}
