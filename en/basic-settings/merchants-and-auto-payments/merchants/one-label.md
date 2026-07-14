@@ -12,7 +12,7 @@ To discuss the terms of service, please contact a [service representative](https
 **Disclaimer**: When connecting your website to any service, please assess the potential risks of collaboration on your own.
 {% endhint %}
 
-Register for the One Label service via the [Telegram bot](https://t.me/feecutex_bot) and provide the service representative with your username to receive your API keys.
+Contact the [service representative](https://telegram.me/OneLabel_manager) to receive your API keys.
 
 ## Module Settings
 
