@@ -23,7 +23,7 @@
 
 ## Модули скрипта
 
-1. Скачайте архив скрипта **для обновления** со [страницы **"Ваши скрипты"**](https://premiumexchanger.com/uscripts/) под любую версию PHP и **вашу версию скрипта,** и распакуйте архив на компьютере.
+1. Скачайте архив скрипта **для обновления** со [страницы **"Ваши скрипты"**](https://old.premiumexchanger.com/uscripts/) под любую версию PHP и **вашу версию скрипта,** и распакуйте архив на компьютере.
 
 <figure><img src="../../../.gitbook/assets/image (2019).png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -61,7 +61,7 @@
 
 {% tabs %}
 {% tab title="Для версии 2.7" %}
-В личном кабинете в разделе **"**[**Ваши скрипты**](https://premiumexchanger.com/uscripts/)**"** в блоке "**Дополнительные модули**" скачайте мерчант для требуемой платежной системы.
+В личном кабинете в разделе **"**[**Ваши скрипты**](https://old.premiumexchanger.com/uscripts/)**"** в блоке "**Дополнительные модули**" скачайте мерчант для требуемой платежной системы.
 
 <figure><img src="../../../.gitbook/assets/image (2022).png" alt=""><figcaption></figcaption></figure>
 
@@ -69,7 +69,7 @@
 {% endtab %}
 
 {% tab title="Для версии 2.6 и ниже" %}
-Скачайте дистрибутив с обновленным модулем (подходит любой архив под **вашу версию скрипта**) в личном кабинете в разделе ["**Ваши скрипты**"](https://premiumexchanger.com/uscripts/)
+Скачайте дистрибутив с обновленным модулем (подходит любой архив под **вашу версию скрипта**) в личном кабинете в разделе ["**Ваши скрипты**"](https://old.premiumexchanger.com/uscripts/)
 
 <figure><img src="../../../.gitbook/assets/image (2025).png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -87,7 +87,7 @@
 
 ## Файлы стандартного дизайна скрипта
 
-1. Скачайте архив скрипта **для обновления** со [страницы **"Ваши скрипты"**](https://premiumexchanger.com/uscripts/) под <mark style="color:red;">**вашу версию скрипта**</mark> (любая версия PHP) и распакуйте архив на компьютере.
+1. Скачайте архив скрипта **для обновления** со [страницы **"Ваши скрипты"**](https://old.premiumexchanger.com/uscripts/) под <mark style="color:red;">**вашу версию скрипта**</mark> (любая версия PHP) и распакуйте архив на компьютере.
 
 <figure><img src="../../../.gitbook/assets/image (2032).png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -120,7 +120,7 @@
 Все манипуляции с файлами производятся через панель ISP Manager из-под <mark style="color:green;">**пользователя, созданного для сайта**</mark> (**не&#x20;**<mark style="color:red;">**root**</mark>).
 {% endhint %}
 
-1. Скачайте архив скрипта **для обновления** со [страницы **"Ваши скрипты"**](https://premiumexchanger.com/uscripts/) под <mark style="color:red;">**вашу версию скрипта**</mark> (любая версия PHP) и распакуйте архив на компьютере.
+1. Скачайте архив скрипта **для обновления** со [страницы **"Ваши скрипты"**](https://old.premiumexchanger.com/uscripts/) под <mark style="color:red;">**вашу версию скрипта**</mark> (любая версия PHP) и распакуйте архив на компьютере.
 
 <figure><img src="../../../.gitbook/assets/image (2019) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -147,7 +147,7 @@
 Все манипуляции с файлами производятся через панель ISP Manager из-под <mark style="color:green;">**пользователя, созданного для сайта**</mark> (**не&#x20;**<mark style="color:red;">**root**</mark>).
 {% endhint %}
 
-1. Скачайте архив скрипта **для обновления** со [страницы **"Ваши скрипты"**](https://premiumexchanger.com/uscripts/) под <mark style="color:red;">**вашу версию скрипта и**</mark> [<mark style="color:red;">**версию PHP используюемую на вашем сайте**</mark>](#user-content-fn-1)[^1]<mark style="color:red;">**.**</mark> \
+1. Скачайте архив скрипта **для обновления** со [страницы **"Ваши скрипты"**](https://old.premiumexchanger.com/uscripts/) под <mark style="color:red;">**вашу версию скрипта и**</mark> [<mark style="color:red;">**версию PHP используюемую на вашем сайте**</mark>](#user-content-fn-1)[^1]<mark style="color:red;">**.**</mark> \
    Распакуйте архив на компьютере.
 
 <figure><img src="../../../.gitbook/assets/image (2019) (1).png" alt="" width="563"><figcaption></figcaption></figure>
