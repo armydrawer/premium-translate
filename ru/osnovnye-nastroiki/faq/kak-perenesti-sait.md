@@ -10,7 +10,7 @@
 
 В лицензии на скрипт Premium Exchanger заложена возможность создания тестовой версии сайта на вашем поддомене для последующего переноса на основной домен.
 
-Для этого укажите ваш поддомен на [странице "**Ваши лицензии**"](https://premiumexchanger.com/ulicense/):
+Для этого укажите ваш поддомен на [странице "**Ваши лицензии**"](https://old.premiumexchanger.com/ulicense/):
 
 <figure><img src="../../.gitbook/assets/изображение (142).png" alt="" width="547"><figcaption></figcaption></figure>
 

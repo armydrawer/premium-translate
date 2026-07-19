@@ -16,7 +16,7 @@
 Вам необходимо:
 
 * Сделать [бэкап всех файлов сайта на сервере](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-sdelat-bekap-saita)
-* Скачать [дистрибутив **для обновления**](https://premiumexchanger.com/uscripts/) **под вашу версию скрипта** (версия PHP не имеет значения — выберите любой из дистрибутивов)
+* Скачать [дистрибутив **для обновления**](https://old.premiumexchanger.com/uscripts/) **под вашу версию скрипта** (версия PHP не имеет значения — выберите любой из дистрибутивов)
 
 <figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="523"><figcaption></figcaption></figure>
 

@@ -9,7 +9,7 @@
 Вам необходимо:
 
 * <mark style="color:red;">**Обязательно**</mark> сделать [бэкап всех файлов сайта на сервере](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-sdelat-bekap-saita)
-* Скачать [дистрибутив **для обновления**](https://premiumexchanger.com/uscripts/) **под вашу версию скрипта** (версия PHP не имеет значения — выберите любой из дистрибутивов)
+* Скачать [дистрибутив **для обновления**](https://old.premiumexchanger.com/uscripts/) **под вашу версию скрипта** (версия PHP не имеет значения — выберите любой из дистрибутивов)
 
 <figure><img src="../../../.gitbook/assets/image (2) (1) (2).png" alt="" width="395"><figcaption></figcaption></figure>
 

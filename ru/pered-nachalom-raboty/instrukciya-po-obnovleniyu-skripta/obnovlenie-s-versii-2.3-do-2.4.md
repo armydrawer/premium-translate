@@ -45,7 +45,7 @@
 
 <figure><img src="https://premium.gitbook.io/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FZnqfDaglTQ0LigKamF9G%252Fimage.png%3Falt%3Dmedia%26token%3D1bd35a48-772d-4170-a33e-9a3eadb3a014&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=41f54ff04d225224f01677ab6ed6cb37b5453bb1b682544b766d2ce8b248a73f" alt=""><figcaption></figcaption></figure>
 
-4. Перейдите в раздел "[**Ваши лицензии**](https://premiumexchanger.com/ulicense/)" и скачайте архив с файлами лицензии `license.zip`. Для этого нажмите на ссылку "**Скачать для версии 2.4**".
+4. Перейдите в раздел "[**Ваши лицензии**](https://old.premiumexchanger.com/ulicense/)" и скачайте архив с файлами лицензии `license.zip`. Для этого нажмите на ссылку "**Скачать для версии 2.4**".
 
 <figure><img src="../../.gitbook/assets/image (1726).png" alt="" width="491"><figcaption></figcaption></figure>
 
@@ -55,7 +55,7 @@
 **Выполните шаг 4 в обязательном порядке, даже если файлы лицензии были ранее загружены на сервер — в противном случае сайт не будет работать!**
 {% endhint %}
 
-5. Перейдите в раздел "[**Ваши скрипты**](https://premiumexchanger.com/uscripts/)" и на странице скачайте архив с **файлами для обновления версии 2.4** под вашу версию PHP.
+5. Перейдите в раздел "[**Ваши скрипты**](https://old.premiumexchanger.com/uscripts/)" и на странице скачайте архив с **файлами для обновления версии 2.4** под вашу версию PHP.
 
 {% hint style="warning" %}
 Необходимо точно знать версию PHP, установленную на вашем сервере, для выбора подходящего архива.
