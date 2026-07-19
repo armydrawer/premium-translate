@@ -6,7 +6,7 @@
 
 ## Покупка лицензии
 
-1. Перейдите в раздел "[**Ваши лицензии**](https://premiumexchanger.com/ulicense/)" на нашем сайте.
+1. Перейдите в раздел "[**Ваши лицензии**](https://old.premiumexchanger.com/ulicense/)" на нашем сайте.
 2. В поле "**Имя домена**" укажите ваше имя вашего домена для установки скрипта без www и https:// и нажмите кнопку "**Сохранить**"
 
 <figure><img src="../../.gitbook/assets/PremiumExchanger.com — Ваши лицензии - Google Chrome_2023-03-29_16_45_52.png" alt=""><figcaption></figcaption></figure>
