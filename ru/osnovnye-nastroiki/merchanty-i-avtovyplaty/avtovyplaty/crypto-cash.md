@@ -24,7 +24,14 @@
 
 <figure><img src="../../../.gitbook/assets/image (610).png" alt=""><figcaption></figcaption></figure>
 
-Скопируйте секретный и публичный ключи в буфер обмена или текстовый файл.
+{% hint style="warning" %}
+При генерации API ключей выбирайте метод **ED25519**. \
+Legacy ключи сейчас также будут работать, но перестанут поддерживаться в будущем.
+
+<p align="center"><img src="../../../.gitbook/assets/bj9Gte0IOW.png" alt="" data-size="original"></p>
+{% endhint %}
+
+Скопируйте **секретный** и **публичный** ключи в буфер обмена или текстовый файл.
 
 <figure><img src="../../../.gitbook/assets/image (655).png" alt="" width="455"><figcaption></figcaption></figure>
 
@@ -38,17 +45,20 @@
 
 <figure><img src="../../../.gitbook/assets/image (592).png" alt=""><figcaption></figcaption></figure>
 
-Выберите подходящие методы для выплаты средств и скопируйте секретный и публичный ключи в буфер обмена или текстовый файл.
+{% hint style="warning" %}
+При генерации API ключей выбирайте метод **ED25519**. \
+Legacy ключи сейчас также будут работать, но перестанут поддерживаться в будущем.
 
-<figure><img src="../../../.gitbook/assets/image (810).png" alt="" width="425"><figcaption></figcaption></figure>
+<p align="center"><img src="../../../.gitbook/assets/bj9Gte0IOW.png" alt="" data-size="original"></p>
+{% endhint %}
+
+Выберите метод "**Снятие фиатных денег**" и скопируйте секретный и публичный ключи в буфер обмена или текстовый файл.
+
+<figure><img src="../../../.gitbook/assets/01zQIc8rxm.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/brave_3YcJWc1By1.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
-
-{% hint style="warning" %}
-При выпуске API-ключей запомните или запишите тип ключа, который вы выбрали (выбирайте **ED25519**, так как Legacy-вариант будет отключен в скором времени) — вам потребуется выбрать тот же тип ключей в модуле на прием средств при настройке модуля автовыплаты.
-
-![](<../../../.gitbook/assets/image (584).png>)![](<../../../.gitbook/assets/image (585).png>)
-{% endhint %}
 
 ## Настройки модуля
 
