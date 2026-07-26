@@ -74,7 +74,7 @@
 {% tab title="Crypto-Cash (фиатные валюты)" %}
 <figure><img src="../../../.gitbook/assets/Screenshot 2026-07-26 160405.png" alt=""><figcaption></figcaption></figure>
 
-Заполните указанные авторизационные поля.
+Заполните указанные поля данными для авторизации.
 
 <figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="437"><figcaption></figcaption></figure>
 
@@ -104,12 +104,20 @@
 {% endtab %}
 
 {% tab title="Crypto-Cash (фиатные валюты)" %}
-<img src="https://premium.gitbook.io/main/~gitbook/image?url=https%3A%2F%2F2574066779-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fm9kqZXsNykrN6VyxxXBO%252Fuploads%252FOuxo4YJ8qDici97y8NpD%252Fimage.png%3Falt%3Dmedia%26token%3Db5944848-fd29-4600-8f8b-c7855fe2a32f&#x26;width=768&#x26;dpr=3&#x26;quality=100&#x26;sign=967ec67d&#x26;sv=2" alt="" height="99" width="388">
+![](../../../.gitbook/assets/jEbHgVVUcm.png)
 
-**API key type** — выберите тип ключей согласно ранее выбранному типу при создании ключей в ЛК Crypto-Cash
+**Способ оплаты —** выберите валюту и метод выплаты.
+
+* **Добавить** — добавление своего кода валюты.
+
+<figure><img src="../../../.gitbook/assets/REaDVO2K9v.png" alt=""><figcaption></figcaption></figure>
+
+Для выбранного метода оплаты потребуется сопоставить несколько дополнительных параметров. Укажите в соответствущих селекторах дополнительные поля для запроса необходимой информации.
 {% endtab %}
 {% endtabs %}
 
 ## Продолжение настройки
 
-Далее произведите настройку мерчанта следуя [общей инструкции по настройке](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/obshie-nastroiki-merchantov).<br>
+**Cron-файл -** [создайте задание](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-sozdat-zadanie-cron-na-servere) с такой ссылкой на сервер&#x435;**.**
+
+Дополнительные настройки модуля выполняются согласно [общей инструкции по настройке](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/obshie-nastroiki-merchantov).<br>
