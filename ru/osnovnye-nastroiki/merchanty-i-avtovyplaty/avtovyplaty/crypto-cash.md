@@ -1,4 +1,4 @@
-# Crypto-Cash
+# Crypto-Cash Crypto/Fiat
 
 {% hint style="danger" %}
 <mark style="color:red;">Перед настройкой автовыплат обязательно прочитайте</mark> [<mark style="color:blue;">предупреждение о рисках!</mark>](https://premium.gitbook.io/main/osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/preduprezhdenie-o-riskakh)
@@ -40,7 +40,7 @@ Legacy ключи сейчас также будут работать, но пе
 <figure><img src="../../../.gitbook/assets/image (658).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
-{% tab title="Crypto-Cash (фиатные валюты)" %}
+{% tab title="Crypto-Cash Fiat (фиатные валюты)" %}
 Перейдите в [раздел с настройками мерчанта](https://account.crypto-cash.world/overview). Выпустите API-ключи по кнопке "**Сгенерировать API ключ**".
 
 <figure><img src="../../../.gitbook/assets/image (592).png" alt=""><figcaption></figcaption></figure>
@@ -81,7 +81,7 @@ Legacy ключи сейчас также будут работать, но пе
 **Секретный ключ** — секретный ключ, скопированный ранее в ЛК Crypto-Cash
 {% endtab %}
 
-{% tab title="Crypto-Cash (фиатные валюты)" %}
+{% tab title="Crypto-Cash Fiat (фиатные валюты)" %}
 <figure><img src="../../../.gitbook/assets/Screenshot 2026-07-26 160405.png" alt=""><figcaption></figcaption></figure>
 
 Заполните указанные поля данными для авторизации.
@@ -113,7 +113,7 @@ Legacy ключи сейчас также будут работать, но пе
 * **Добавить** — добавление своего кода валюты
 {% endtab %}
 
-{% tab title="Crypto-Cash (фиатные валюты)" %}
+{% tab title="Crypto-Cash Fiat (фиатные валюты)" %}
 ![](../../../.gitbook/assets/jEbHgVVUcm.png)
 
 **Способ оплаты —** выберите валюту и метод выплаты.
