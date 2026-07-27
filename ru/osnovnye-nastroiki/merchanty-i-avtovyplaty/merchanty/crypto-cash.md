@@ -5,9 +5,9 @@
 {% endhint %}
 
 {% hint style="warning" %}
-**Модуль Crypto-Cash (фиат) необходимо использовать только в направлениях фиат — криптовалюта.**
+**Модуль Crypto-Cash необходимо использовать только в паре с**[ **модулем выплаты.**](https://premium.gitbook.io/main/osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/crypto-cash-quazi)
 
-Обращаем ваше внимание, что для работы мерчанта на приём Crypto-Cash необходимо также установить модуль автовыплаты [Crypto-Cash (фиат)](https://premium.gitbook.io/main/osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/crypto-cash#crypto-cash-crypto-kriptovalyuty) в этом же направлении обмена. Модуль на приём производит выплату средств по заявке сразу же после поступления средств от клиента, а модуль автовыплаты подтверждает выплату средств для изменения статуса заявки на "**Выполненная заявка**".
+Обращаем ваше внимание, что для работы мерчанта на приём Crypto-Cash необходимо также установить модуль автовыплаты[ Crypto-Cash](https://premium.gitbook.io/main/osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/crypto-cash-quazi) в этом же направлении обмена. Модуль на приём производит выплату средств по заявке сразу же после поступления средств от клиента, а модуль автовыплаты подтверждает выплату средств для изменения статуса заявки на "**Выполненная заявка**".
 
 Использовать модуль на приём Crypto-Cash **всегда необходимо** в паре с [модулем автовыплаты](https://premium.gitbook.io/main/osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/crypto-cash#crypto-cash-crypto-kriptovalyuty) (при подключении другого модуля автовыплаты в направлении обмена **произойдет двойная выплата**).
 
@@ -25,20 +25,6 @@
 [Зарегистрируйтесь на сервисе Crypto-Cash](https://account.crypto-cash.world/registration) и авторизуйтесь в личном кабинете.
 
 {% tabs %}
-{% tab title="Crypto-Cash (фиатные валюты)" %}
-Перейдите в [раздел с настройками мерчанта](https://account.crypto-cash.world/overview). Выпустите API-ключи по кнопке "**Сгенерировать API ключ**".
-
-<figure><img src="../../../.gitbook/assets/image (450).png" alt=""><figcaption></figcaption></figure>
-
-Выберите подходящие методы для приема средств и скопируйте секретный и публичный ключи в буфер обмена или текстовый файл.
-
-<figure><img src="../../../.gitbook/assets/image (480).png" alt="" width="461"><figcaption></figcaption></figure>
-
-Установите ограничения доступа (при использовании мерчанта на прием отметьте "**Пополнение**" и "**История транзакций**"). Укажите в поле "**URL вебхука**" ссылку из настроек модуля на прием средств.
-
-<figure><img src="../../../.gitbook/assets/image (458).png" alt=""><figcaption></figcaption></figure>
-{% endtab %}
-
 {% tab title="Crypto-Cash Crypto (криптовалюты)" %}
 Перейдите в [раздел с настройками мерчанта](https://account.crypto-cash.world/overview). Выпустите API-ключи по кнопке "**Сгенерировать API ключ**".
 
@@ -51,6 +37,24 @@
 Установите ограничения доступа (при использовании мерчанта на прием отметьте "**Пополнение**" и "**История транзакций**"). Укажите в поле "**URL вебхука**" ссылку из настроек модуля на прием средств.
 
 <figure><img src="../../../.gitbook/assets/image (444).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+
+{% tab title="Crypto-Cash (фиатные валюты)" %}
+Перейдите в [раздел с настройками мерчанта](https://account.crypto-cash.world/overview). Выпустите API-ключи по кнопке "**Сгенерировать API ключ**".
+
+Для работы с фиатными валютами нужно получить доступ к разделу "Модуль FIAT" на стороне мерчанта.&#x20;
+
+Для получения доступа к такому разделу - [обратитесь к представителю сервиса.](https://t.me/CEO_CryptoCash)
+
+<figure><img src="../../../.gitbook/assets/image (450).png" alt=""><figcaption></figcaption></figure>
+
+Выберите подходящие методы для приема средств и скопируйте секретный и публичный ключи в буфер обмена или текстовый файл.
+
+<figure><img src="../../../.gitbook/assets/image (480).png" alt="" width="461"><figcaption></figcaption></figure>
+
+Установите ограничения доступа (при использовании мерчанта на прием отметьте "**Пополнение**" и "**История транзакций**"). Укажите в поле "**URL вебхука**" ссылку из настроек модуля на прием средств.
+
+<figure><img src="../../../.gitbook/assets/image (458).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -67,12 +71,12 @@
 Выберите подходящий модуль в выпадающем списке в поле "**Модуль**", укажите название для модуля и нажмите "**Сохранить**".
 
 {% tabs %}
-{% tab title="Crypto-Cash (фиатные валюты)" %}
-<figure><img src="../../../.gitbook/assets/image (445).png" alt=""><figcaption></figcaption></figure>
+{% tab title="Crypto-Cash (криптовалюты)" %}
+<figure><img src="../../../.gitbook/assets/Screenshot 2026-07-27 105453.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
-{% tab title="Crypto-Cash Crypto (криптовалюты)" %}
-<figure><img src="../../../.gitbook/assets/image (447).png" alt="" width="482"><figcaption></figcaption></figure>
+{% tab title="Crypto-Cash (фиатные валюты)" %}
+<figure><img src="../../../.gitbook/assets/image (445).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -89,6 +93,18 @@
 ## Особые поля
 
 {% tabs %}
+{% tab title="Crypto-Cash (криптовалюты)" %}
+<figure><img src="../../../.gitbook/assets/image (449).png" alt=""><figcaption></figcaption></figure>
+
+**API key type** — выберите тип ключей согласно ранее выбранному в ЛК Crypto-Cash при создании ключей
+
+<figure><img src="../../../.gitbook/assets/image (518).png" alt=""><figcaption></figcaption></figure>
+
+**Валюта** — выбор валюты для выдачи адреса кошелька (при выборе пункта "**Автоматически**" будет использоваться код валюты "**Отдаю**")
+
+* **добавить** — добавление своего кода валюты
+{% endtab %}
+
 {% tab title="Crypto-Cash (фиатные валюты)" %}
 <figure><img src="../../../.gitbook/assets/image (449).png" alt=""><figcaption></figcaption></figure>
 
@@ -100,20 +116,14 @@
 
 * **Добавить** — добавление своего кода валюты
 {% endtab %}
-
-{% tab title="Crypto-Cash Crypto (криптовалюты)" %}
-<figure><img src="../../../.gitbook/assets/image (449).png" alt=""><figcaption></figcaption></figure>
-
-**API key type** — выберите тип ключей согласно ранее выбранному в ЛК Crypto-Cash при создании ключей
-
-<figure><img src="../../../.gitbook/assets/image (518).png" alt=""><figcaption></figcaption></figure>
-
-**Валюта** — выбор валюты для выдачи адреса кошелька (при выборе пункта "**Автоматически**" будет использоваться код валюты "**Отдаю**")
-
-* **добавить** — добавление своего кода валюты
-{% endtab %}
 {% endtabs %}
 
 ## Продолжение настройки
+
+{% hint style="warning" %}
+**Для корректной работы обязательно настройте в таком направлении**
+
+&#x20;[**модуль выплаты Crypto-Cash**](https://premium.gitbook.io/main/osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/crypto-cash-quazi).
+{% endhint %}
 
 Далее произведите настройку мерчанта следуя [общей инструкции по настройке](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/obshie-nastroiki-merchantov).
