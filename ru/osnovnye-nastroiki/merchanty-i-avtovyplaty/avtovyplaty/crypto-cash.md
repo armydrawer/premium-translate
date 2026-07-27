@@ -43,7 +43,7 @@ Legacy ключи сейчас также будут работать, но пе
 {% tab title="Crypto-Cash Fiat (фиатные валюты)" %}
 Перейдите в [раздел с настройками мерчанта](https://account.crypto-cash.world/overview). Выпустите API-ключи по кнопке "**Сгенерировать API ключ**".
 
-<figure><img src="../../../.gitbook/assets/image (592).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (610).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 При генерации API ключей выбирайте метод **ED25519**. \
