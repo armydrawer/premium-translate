@@ -68,6 +68,10 @@
 * **Доп. поля** — использование кода валюты, указанного в [доп.поле](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya-obmena/dopolnitelnye-polya#dopolnitelnye-polya-dlya-valyuty) для валюты "**Получаю**" или в направлении обмена или [доп.поля для направления обмена](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya-obmena/dopolnitelnye-polya#dopolnitelnye-polya-dlya-napravleniya-obmena)
 * **Коды валют** — выбор кода валюты вручную (в этом случае модуль будет работать только с указанной валютой)
 
+<figure><img src="../../../.gitbook/assets/image (1009).png" alt=""><figcaption></figcaption></figure>
+
+**Конвертация из другой валюты (укажите код)** — выберите "**Нет**" (если не планируете использовать опцию) или валюту, из которой будет производиться конвертация (по курсу мерчанта) в валюту для выплаты непосредственно перед самой выплатой по заявке.
+
 ## Продолжение настройки
 
 Далее произведите настройку мерчанта следуя [общей инструкции по настройке](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/obshie-nastroiki-merchantov-avtovyplat).<br>
