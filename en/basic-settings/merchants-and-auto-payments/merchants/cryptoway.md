@@ -1,4 +1,4 @@
-# CryptoWay
+# Cryptoway
 
 
 
@@ -12,7 +12,7 @@ If you need to update the module on the server, please refer to the [instruction
 **Disclaimer**: When connecting your website to any service, please assess the potential risks of collaboration on your own.
 {% endhint %}
 
-Register on the [CryptoWay service](https://cryptoway.com/en) and log into your account.
+Register on the [Cryptoway service](https://cryptoway.com/en) and log into your account.
 
 Go to the API keys section. Generate a set of keys by clicking "Create API Key".
 
@@ -40,7 +40,7 @@ The keys are only available for viewing at the time of creation — they cannot 
 
 In the admin panel, create a new merchant in the “**Merchants**” ➔ “**Add Merchant**” section.
 
-Select **CryptoWay** from the dropdown menu in the "**Module**" field, enter a name for the module, and click "**Save**."
+Select **Cryptoway** from the dropdown menu in the "**Module**" field, enter a name for the module, and click "**Save**."
 
 <figure><img src="../../../.gitbook/assets/image_2026-06-24_191421420.png" alt=""><figcaption></figcaption></figure>
 
@@ -50,9 +50,9 @@ Fill in the required authorization fields.
 
 **Domain —** do not fill in this field, leave it empty.
 
-**API key —** Key ID copied earlier from your CryptoWay account.
+**API key —** Key ID copied earlier from your Cryptoway account.
 
-**Secret key —** Key Secret copied earlier from your CryptoWay account.
+**Secret key —** Key Secret copied earlier from your Cryptoway account.
 
 ## Special Fields
 
