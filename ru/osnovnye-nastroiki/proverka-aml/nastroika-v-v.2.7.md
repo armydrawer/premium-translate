@@ -34,7 +34,7 @@
 
 {% tabs fullWidth="true" %}
 {% tab title="AML Bot" %}
-<figure><img src="../../.gitbook/assets/image (188).png" alt="" width="462"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/brave_UAOHcY0eN9.png" alt=""><figcaption></figcaption></figure>
 
 **Подключение к сервису**
 
