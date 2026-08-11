@@ -40,7 +40,7 @@
 
 Пройдите регистрацию на сервисе [AMLBot](https://web.amlbot.com/signup?), авторизуйтесь в личном кабинете и выпустите ID и ключ для авторизации в модуле.
 
-<figure><img src="../../.gitbook/assets/image (192).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/brave_HLTeYg8VOz.png" alt=""><figcaption></figcaption></figure>
 
 Укажите данные ключи в соответствующих полях в настройках модуля и сохраните данные.
 {% endtab %}
