@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Alfabit Fiat
 
 {% hint style="danger" %}
