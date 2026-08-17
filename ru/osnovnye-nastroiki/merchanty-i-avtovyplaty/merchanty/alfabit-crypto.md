@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Alfabit Crypto
 
 {% hint style="info" %}
