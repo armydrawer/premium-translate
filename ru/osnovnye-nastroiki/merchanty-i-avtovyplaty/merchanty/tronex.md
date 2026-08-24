@@ -1,0 +1,122 @@
+---
+description: В процессе редактирования
+hidden: true
+---
+
+# TronEx
+
+{% hint style="info" %}
+Если вам необходимо обновить модуль на сервере — воспользуйтесь [инструкцией](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/obnovlenie-failov-skripta-na-servere/kak-obnovit-faily-na-servere#moduli-merchantov-i-avtovyplat)
+{% endhint %}
+
+## Настройки в личном кабинете мерчанта
+
+{% hint style="warning" %}
+Для обсуждения условий работы свяжитесь с [представителем сервиса](https://t.me/Partners2328).
+
+**Дисклеймер**: при подключении вашего сайта к тому или иному сервису, пожалуйста, самостоятельно оценивайте возможные риски сотрудничества.
+{% endhint %}
+
+Зарегистрируйтесь на [сервисе 2328.io](https://my.2328.io/ru/register) и авторизуйтесь в личном кабинете мерчанта. Создайте новый проект в разделе "**Проекты**". Заполните в открывшемся окне требуемые поля, отправьте заявку на рассмотрение и ожидайте смены статуса с "**На модерации**" на "**Активен**".
+
+<figure><img src="../../../.gitbook/assets/image (284).png" alt=""><figcaption></figcaption></figure>
+
+После активации проекта перейдите в его настройки и скопируйте выделенные ключи.
+
+<figure><img src="../../../.gitbook/assets/image (305).png" alt="" width="563"><figcaption></figcaption></figure>
+
+## Настройки модуля
+
+В панели администратора создайте нового мерчанта в разделе "**Мерчанты**" ➔ "**Добавить мерчант".**
+
+Выберите 2328 в выпадающем списке в поле "**Модуль**", укажите название для модуля и нажмите "**Сохранить**".
+
+<figure><img src="../../../.gitbook/assets/image (7).png" alt="" width="339"><figcaption></figcaption></figure>
+
+Заполните указанные авторизационные поля.
+
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt="" width="370"><figcaption></figcaption></figure>
+
+**Домен** — оставьте поле пустым
+
+**Project ID** — ID, скопированный ранее в ЛК 2328
+
+**Payment API Key** — ключ, скопированный ранее в ЛК 2328
+
+## Тип мерчанта
+
+<figure><img src="../../../.gitbook/assets/brave_lsVqh7v9Bj.png" alt=""><figcaption></figcaption></figure>
+
+В настройках модуля доступно три варианта работы:
+
+**Payment link** **—** в заявке будет выводиться кнопка для перехода на страницу оплаты мерчанта.
+
+**Requisites —** в заявку будут передаваться реквизиты на оплату, например номер кошелька.
+
+**Payment link (SBP RUB) —** кнопка в заявке для перехода на страницу оплаты с QR-кодом, приём RUB по СБП.&#x20;
+
+Выбранный тип мерчанта сохраняется **для этой копии модуля**, изменить его не получится.\
+Для выбора другого типа мерчанта нужно создать отдельную копию модуля мерчанта.
+
+## Особые поля
+
+{% tabs %}
+{% tab title="CRYPTO" %}
+<div><figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (246).png" alt=""><figcaption></figcaption></figure></div>
+
+**Код валюты** (для подбора реквизитов)**:**
+
+* **Доп. поля (Заявка)** — использование кода валюты из заявки (выберите **\[Отдаете] Код валюты**)
+* **Доп. поля (Валюты)** — использование [доп.поля валюты](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya-obmena/dopolnitelnye-polya#dopolnitelnye-polya-dlya-valyuty) "**Отдаю**"
+* **Доп. поля (Направления)** — использование [доп.поля направления обмена](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya-obmena/dopolnitelnye-polya#dopolnitelnye-polya-dlya-napravleniya-obmena)
+* **Код валюты** — ручной выбор валюты
+
+<div><figure><img src="../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (257).png" alt=""><figcaption></figcaption></figure></div>
+
+**Сеть** (для криптовалют)**:**
+
+* **Доп. поля (Валюты)** — использование [доп.поля валюты](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya-obmena/dopolnitelnye-polya#dopolnitelnye-polya-dlya-valyuty) "**Отдаю**"
+* **Доп. поля (Направления)** — использование [доп.поля направления обмена](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya-obmena/dopolnitelnye-polya#dopolnitelnye-polya-dlya-napravleniya-obmena)
+* **Сеть** — ручной выбор сети
+{% endtab %}
+
+{% tab title="SBP RUB" %}
+<figure><img src="../../../.gitbook/assets/brave_Us4zYHRx0O.png" alt=""><figcaption></figcaption></figure>
+
+Для формирования реквизитов к оплате обязательно нужно передавать три значения, для каждого из них в настройках модуля выбирается конкретное поле заявки.
+
+Можно запрашивать такие значения как [дополнительные поля валюты](../../valyuty-i-napravleniya-obmena/dopolnitelnye-polya.md#dopolnitelnye-polya-dlya-valyuty) или [дополнительные поля направления обмена](../../valyuty-i-napravleniya-obmena/dopolnitelnye-polya.md#dopolnitelnye-polya-dlya-napravleniya-obmena).
+
+**Имя —** запрос имени клиента, обязательно кирилицей.
+
+**Фамилия —** запрос фамилии клиента, обязательно кирилицей.
+
+**Телефон —** номер телефона клиента. Приводится к формату +7XXXXXXXXXX
+
+**Процент —** ваш заработок с платежа: курс для клиента ухудшается на этот процент, разница зачисляется на ваш баланс. Сумма оплаты для клиента в RUB не меняется, влияет на значение USDT по заявке. Значение не может быть отрицательным. Максимальное значение - 10. 0 — без наценки.&#x20;
+
+При оплате всегда выполняется конвертация в USDT в вашем аккаунте на стороне мерчанта, потому логично использовать курс от источника 2328 в ["Парсеры 2.0"](../../valyuty-i-napravleniya-obmena/kursy-valyut/parser-kursov-valyut-parsery-2.0.md).
+{% endtab %}
+{% endtabs %}
+
+## Конвертация и хранение в USDT
+
+На стороне мерчанта можно активировать автоматическую конвертацию принимаемых средств в USDT.
+
+Для включения автоматической конвертации необходимо перейти в [настройки вашего проекта в личном кабинете 2328.io](https://my.2328.io/merchant/projects)
+
+<details>
+
+<summary>Пример настройки на стороне мерчанта</summary>
+
+<figure><img src="../../../.gitbook/assets/image (958).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/image (970).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/image (973).png" alt=""><figcaption></figcaption></figure>
+
+</details>
+
+## Продолжение настройки
+
+Далее произведите настройку мерчанта следуя [общей инструкции по настройке](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/obshie-nastroiki-merchantov).

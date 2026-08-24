@@ -1,0 +1,80 @@
+---
+hidden: true
+---
+
+# Casha.pro
+
+{% hint style="danger" %}
+Перед настройкой автовыплат обязательно прочитайте [предупреждение о рисках!](https://premium.gitbook.io/main/osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/preduprezhdenie-o-riskakh)
+{% endhint %}
+
+{% hint style="info" %}
+Если вам необходимо обновить модуль на сервере — воспользуйтесь [инструкцией](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/obnovlenie-failov-skripta-na-servere/kak-obnovit-faily-na-servere#moduli-merchantov-i-avtovyplat)
+{% endhint %}
+
+## Настройки в личном кабинете мерчанта
+
+{% hint style="warning" %}
+Для обсуждения условий и подключения, свяжитесь с [представителем сервиса](https://t.me/Partners2328).
+
+**Дисклеймер**: при подключении вашего сайта к тому или иному сервису, пожалуйста, самостоятельно оценивайте возможные риски сотрудничества.
+{% endhint %}
+
+Зарегистрируйтесь на [сервисе 2328.io](https://my.2328.io/ru/register) и авторизуйтесь в личном кабинете мерчанта.
+
+Создайте новый проект в разделе "**Проекты**". Заполните в открывшемся окне требуемые поля, отправьте заявку на рассмотрение и ожидайте смены статуса с "**На модерации**" на "**Активен**".
+
+<figure><img src="../../../.gitbook/assets/image (306).png" alt=""><figcaption></figcaption></figure>
+
+После активации проекта перейдите в его настройки и скопируйте выделенные ключи.
+
+<figure><img src="../../../.gitbook/assets/image (307).png" alt="" width="563"><figcaption></figcaption></figure>
+
+## Настройки модуля
+
+В панели администратора создайте нового мерчанта в разделе "**Мерчанты**" ➔ "**Добавить автовыплату".**
+
+Выберите 2328 в выпадающем списке в поле "**Модуль**", укажите название для модуля и нажмите "**Сохранить**".
+
+<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt="" width="357"><figcaption></figcaption></figure>
+
+Заполните указанные авторизационные поля.
+
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="376"><figcaption></figcaption></figure>
+
+**Домен** — оставьте поле пустым
+
+**Project ID** — ID, скопированный ранее в ЛК 2328
+
+**Payment API Key** — Payment key, скопированный ранее в ЛК 2328
+
+**Payout API ключ** — Payout key, скопированный ранее в ЛК 2328
+
+## Особые поля
+
+<div><figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure></div>
+
+**Код валюты** (для выплаты)**:**
+
+* **Доп. поля (Заявка)** — использование кода валюты из заявки (выберите **\[Получаете] Код валюты**)
+* **Доп. поля (Валюты)** — использование [доп.поля валюты](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya-obmena/dopolnitelnye-polya#dopolnitelnye-polya-dlya-valyuty) "**Получаю**"
+* **Доп. поля (Направления)** — использование [доп.поля направления обмена](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya-obmena/dopolnitelnye-polya#dopolnitelnye-polya-dlya-napravleniya-obmena)
+* **Код валюты** — ручной выбор валюты выплаты
+
+<div><figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure></div>
+
+**Сеть** (для криптовалют)**:**
+
+* **Доп. поля (Валюты)** — использование [доп.поля валюты](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya-obmena/dopolnitelnye-polya#dopolnitelnye-polya-dlya-valyuty) "**Получаю**"
+* **Доп. поля (Направления)** — использование [доп.поля направления обмена](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya-obmena/dopolnitelnye-polya#dopolnitelnye-polya-dlya-napravleniya-obmena)
+* **Сеть** — ручной выбор сети
+
+<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+
+**Конвертация из другой валюты (укажите код)** — поле используется для включения автоматической конвертации из выбранной валюты в валюту выплаты перед самой выплатой по заявке.&#x20;
+
+На момент составления инструкции на стороне 2328.io поддерживает только автоконвертацию из USDT.
+
+## Продолжение настройки
+
+Далее произведите настройку мерчанта следуя [общей инструкции по настройке](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/obshie-nastroiki-merchantov).<br>
