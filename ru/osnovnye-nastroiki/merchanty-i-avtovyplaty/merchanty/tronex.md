@@ -1,5 +1,4 @@
 ---
-description: В процессе редактирования
 hidden: true
 ---
 
@@ -12,111 +11,140 @@ hidden: true
 ## Настройки в личном кабинете мерчанта
 
 {% hint style="warning" %}
-Для обсуждения условий работы свяжитесь с [представителем сервиса](https://t.me/Partners2328).
+Для обсуждения условий работы свяжитесь с [представителем сервиса](https://t.me/tronexpr).
 
 **Дисклеймер**: при подключении вашего сайта к тому или иному сервису, пожалуйста, самостоятельно оценивайте возможные риски сотрудничества.
 {% endhint %}
 
-Зарегистрируйтесь на [сервисе 2328.io](https://my.2328.io/ru/register) и авторизуйтесь в личном кабинете мерчанта. Создайте новый проект в разделе "**Проекты**". Заполните в открывшемся окне требуемые поля, отправьте заявку на рассмотрение и ожидайте смены статуса с "**На модерации**" на "**Активен**".
+Свяжитесь с [представителем сервиса](https://t.me/tronexpr) для обсуждения условий работы и получения данных для входа.
 
-<figure><img src="../../../.gitbook/assets/image (284).png" alt=""><figcaption></figcaption></figure>
+{% hint style="warning" %}
+На стороне мерчанта работа с разными методами и тарифами реализована отдельными аккаунтами в системе. Под каждый метод - отдельный аккаунт.
+{% endhint %}
 
-После активации проекта перейдите в его настройки и скопируйте выделенные ключи.
+Вместе с доступами к таким аккаунтам представитель сервиса передает \
+API Key и Sign Key.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (305).png" alt="" width="563"><figcaption></figcaption></figure>
+Сохраните полученные данные, они используются для работы модуля мерчанта в системе.
+
+При помощи полученных от представителя мервиса данных вы можете [авторизоваться на сервисе](https://tronex.world/).
 
 ## Настройки модуля
 
 В панели администратора создайте нового мерчанта в разделе "**Мерчанты**" ➔ "**Добавить мерчант".**
 
-Выберите 2328 в выпадающем списке в поле "**Модуль**", укажите название для модуля и нажмите "**Сохранить**".
+Выберите модуль **TronEx** в выпадающем списке в поле "**Модуль**", укажите название для модуля и нажмите "**Сохранить**".
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt="" width="339"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2026-08-24 135011.png" alt=""><figcaption></figcaption></figure>
 
 Заполните указанные авторизационные поля.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt="" width="370"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2026-08-24 135112.png" alt=""><figcaption></figcaption></figure>
 
 **Домен** — оставьте поле пустым
 
-**Project ID** — ID, скопированный ранее в ЛК 2328
+**API ключ —** API Key полученный от представителя сервиса.
 
-**Payment API Key** — ключ, скопированный ранее в ЛК 2328
+**Ключ подписи** — Sign Key полученный от представителя сервиса.
 
-## Тип мерчанта
+{% hint style="info" %}
+Убедитесь, что оба ключа относятся к одному аккаунту на стороне TronEx.
+{% endhint %}
 
-<figure><img src="../../../.gitbook/assets/brave_lsVqh7v9Bj.png" alt=""><figcaption></figcaption></figure>
+## Типы мерчанта
 
-В настройках модуля доступно три варианта работы:
-
-**Payment link** **—** в заявке будет выводиться кнопка для перехода на страницу оплаты мерчанта.
-
-**Requisites —** в заявку будут передаваться реквизиты на оплату, например номер кошелька.
-
-**Payment link (SBP RUB) —** кнопка в заявке для перехода на страницу оплаты с QR-кодом, приём RUB по СБП.&#x20;
-
-Выбранный тип мерчанта сохраняется **для этой копии модуля**, изменить его не получится.\
-Для выбора другого типа мерчанта нужно создать отдельную копию модуля мерчанта.
-
-## Особые поля
+Каждый из доступных методов работы будет зависеть от указанный в настройках модуля ключей и имеет рекомендованные настройки:
 
 {% tabs %}
-{% tab title="CRYPTO" %}
-<div><figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (246).png" alt=""><figcaption></figcaption></figure></div>
+{% tab title="VIETQR" %}
+<figure><img src="../../../.gitbook/assets/image (1032).png" alt=""><figcaption></figcaption></figure>
 
-**Код валюты** (для подбора реквизитов)**:**
+Тип мерчанта — **Payment Link** - Выдача реквизитов на странице оплаты мерчанта.
 
-* **Доп. поля (Заявка)** — использование кода валюты из заявки (выберите **\[Отдаете] Код валюты**)
-* **Доп. поля (Валюты)** — использование [доп.поля валюты](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya-obmena/dopolnitelnye-polya#dopolnitelnye-polya-dlya-valyuty) "**Отдаю**"
-* **Доп. поля (Направления)** — использование [доп.поля направления обмена](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya-obmena/dopolnitelnye-polya#dopolnitelnye-polya-dlya-napravleniya-obmena)
-* **Код валюты** — ручной выбор валюты
+<figure><img src="../../../.gitbook/assets/image (1036).png" alt="" width="550"><figcaption></figcaption></figure>
 
-<div><figure><img src="../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (257).png" alt=""><figcaption></figcaption></figure></div>
-
-**Сеть** (для криптовалют)**:**
-
-* **Доп. поля (Валюты)** — использование [доп.поля валюты](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya-obmena/dopolnitelnye-polya#dopolnitelnye-polya-dlya-valyuty) "**Отдаю**"
-* **Доп. поля (Направления)** — использование [доп.поля направления обмена](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya-obmena/dopolnitelnye-polya#dopolnitelnye-polya-dlya-napravleniya-obmena)
-* **Сеть** — ручной выбор сети
+Способ оплаты — **VietQR** - указать явно.
 {% endtab %}
 
-{% tab title="SBP RUB" %}
-<figure><img src="../../../.gitbook/assets/brave_Us4zYHRx0O.png" alt=""><figcaption></figcaption></figure>
+{% tab title="PDF" %}
+<figure><img src="../../../.gitbook/assets/image (1046).png" alt=""><figcaption></figcaption></figure>
 
-Для формирования реквизитов к оплате обязательно нужно передавать три значения, для каждого из них в настройках модуля выбирается конкретное поле заявки.
+Тип мерчанта — **Requisites** - Реквизиты выводятся по шорткодам \[to\_account], \[dest\_tag].
 
-Можно запрашивать такие значения как [дополнительные поля валюты](../../valyuty-i-napravleniya-obmena/dopolnitelnye-polya.md#dopolnitelnye-polya-dlya-valyuty) или [дополнительные поля направления обмена](../../valyuty-i-napravleniya-obmena/dopolnitelnye-polya.md#dopolnitelnye-polya-dlya-napravleniya-obmena).
+<figure><img src="../../../.gitbook/assets/image (1055).png" alt=""><figcaption></figcaption></figure>
 
-**Имя —** запрос имени клиента, обязательно кирилицей.
+Способ оплаты:
 
-**Фамилия —** запрос фамилии клиента, обязательно кирилицей.
+* Автоматический — выбираемый метод зависит от XML обозначения валюты "Отдаю".
+* Card2Card — выдается номер карты для оплаты переводом на карту.
+* СБП — выдается номер телефона и банк для оплаты по СБП.
 
-**Телефон —** номер телефона клиента. Приводится к формату +7XXXXXXXXXX
+{% hint style="info" %}
+Перечень соответствия XML кодов валют способам оплаты открывается по плашке "Автоматически".
+{% endhint %}
+{% endtab %}
 
-**Процент —** ваш заработок с платежа: курс для клиента ухудшается на этот процент, разница зачисляется на ваш баланс. Сумма оплаты для клиента в RUB не меняется, влияет на значение USDT по заявке. Значение не может быть отрицательным. Максимальное значение - 10. 0 — без наценки.&#x20;
+{% tab title="MOBCOM" %}
+<figure><img src="../../../.gitbook/assets/image (1046).png" alt=""><figcaption></figcaption></figure>
 
-При оплате всегда выполняется конвертация в USDT в вашем аккаунте на стороне мерчанта, потому логично использовать курс от источника 2328 в ["Парсеры 2.0"](../../valyuty-i-napravleniya-obmena/kursy-valyut/parser-kursov-valyut-parsery-2.0.md).
+Тип мерчанта — **Requisites** - Реквизиты выводятся по шорткодам \[to\_account], \[dest\_tag].
+
+<figure><img src="../../../.gitbook/assets/image (1071).png" alt=""><figcaption></figcaption></figure>
+
+Способ оплаты — **Мобильная комерция** - указать явно.
+{% endtab %}
+
+{% tab title="BT" %}
+<figure><img src="../../../.gitbook/assets/image (1046).png" alt=""><figcaption></figcaption></figure>
+
+Тип мерчанта — **Requisites** - Реквизиты выводятся по шорткодам \[to\_account], \[dest\_tag].
+
+<figure><img src="../../../.gitbook/assets/image (1055).png" alt=""><figcaption></figcaption></figure>
+
+Способ оплаты:
+
+* Автоматический — выбираемый метод зависит от XML обозначения валюты "Отдаю".
+* Card2Card — выдается номер карты для оплаты переводом на карту.
+* СБП — выдается номер телефона и банк для оплаты по СБП.
+
+{% hint style="info" %}
+Перечень соответствия XML кодов валют способам оплаты открывается по плашке "Автоматически".
+{% endhint %}
 {% endtab %}
 {% endtabs %}
 
-## Конвертация и хранение в USDT
+## Особые поля
 
-На стороне мерчанта можно активировать автоматическую конвертацию принимаемых средств в USDT.
+<figure><img src="../../../.gitbook/assets/image (1078).png" alt=""><figcaption></figcaption></figure>
 
-Для включения автоматической конвертации необходимо перейти в [настройки вашего проекта в личном кабинете 2328.io](https://my.2328.io/merchant/projects)
+Банк — передача информации о банке с которого клиент будет проводить оплата.&#x20;
+
+Можно выбрать банк явно или выбрать дополнительное поле давая клиенту самостоятельный выбор.
 
 <details>
 
-<summary>Пример настройки на стороне мерчанта</summary>
+<summary>Пример создания такого дополнительного поля.</summary>
 
-<figure><img src="../../../.gitbook/assets/image (958).png" alt=""><figcaption></figcaption></figure>
+Такое поле должно быть создано как [дополнительное поле валюты](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya-obmena/dopolnitelnye-polya#dopolnitelnye-polya-dlya-valyuty) с типом "Выбор".&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (970).png" alt=""><figcaption></figcaption></figure>
+Важно указывать значения соответствующие предлагаемым в модуле, например в скобках. Вместе с тем, можно указать любые названия банков на русском.
 
-<figure><img src="../../../.gitbook/assets/image (973).png" alt=""><figcaption></figcaption></figure>
+Не забудьте указать для такого поля уникальный ID, любой. Это нужно для отображения такого поля в селекторе в настройках модуля мерчанта.
+
+<figure><img src="../../../.gitbook/assets/image (1085).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
+<figure><img src="../../../.gitbook/assets/image (1075).png" alt=""><figcaption></figcaption></figure>
+
+Индивидуальное время удаления неоплаченных заявок — количество минут, через которое неоплаченная заявка будет отменена на стороне мерчанта.&#x20;
+
+{% hint style="info" %}
+Проверьте, чтобы такое время не было меньше вашего стандартного времени удаления неоплаченной заявки.
+{% endhint %}
+
+**Cron-файл -** [создайте задание](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-sozdat-zadanie-cron-na-servere) с такой ссылкой на сервер&#x435;**.**
+
 ## Продолжение настройки
 
-Далее произведите настройку мерчанта следуя [общей инструкции по настройке](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/obshie-nastroiki-merchantov).
+Дополнительные настройки модуля выполняются согласно [общей инструкции по настройке](https://premium.gitbook.io/rukovodstvo-polzovatelya/osnovnye-nastroiki/merchanty-i-avtovyplaty/merchanty/obshie-nastroiki-merchantov).
