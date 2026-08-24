@@ -121,6 +121,7 @@
       * [Quixfer](basic-settings/merchants-and-auto-payments/merchants/quixfer.md)
       * [Rapira](basic-settings/merchants-and-auto-payments/merchants/rapira.md)
       * [Super Money](basic-settings/merchants-and-auto-payments/merchants/super-money.md)
+      * [TronEx](basic-settings/merchants-and-auto-payments/merchants/tronex.md)
       * [TrustixPay](basic-settings/merchants-and-auto-payments/merchants/trustixpay.md)
       * [Unite](basic-settings/merchants-and-auto-payments/merchants/unite.md)
       * [Utopia](basic-settings/merchants-and-auto-payments/merchants/utopia.md)
