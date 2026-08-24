@@ -1,7 +1,5 @@
 # TronEx
 
-## TronEx
-
 {% hint style="info" %}
 If you need to update the module on the server — use the [instructions](https://premium.gitbook.io/main/en/basic-settings/faq/updating-script-files-on-the-server/how-to-update-files-on-the-server#merchant-and-auto-payout-modules)
 {% endhint %}
