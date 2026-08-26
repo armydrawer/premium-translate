@@ -49,10 +49,12 @@ API Key и Sign Key.&#x20;
 
 ## Типы мерчанта
 
-Каждый из доступных методов работы будет зависеть от указанный в настройках модуля ключей и имеет рекомендованные настройки:
+Каждый из доступных методов работы будет зависеть от указанный в настройках модуля ключей и имеет рекомендованные настройки.
+
+Выберите настраиваемый вариант в строке ниже:
 
 {% tabs %}
-{% tab title="   VIETQR   " %}
+{% tab title="VIETQR" icon="right-long" %}
 <figure><img src="../../../.gitbook/assets/image (1032).png" alt=""><figcaption></figcaption></figure>
 
 Тип мерчанта — **Payment Link** - Выдача реквизитов на странице оплаты мерчанта.
@@ -62,7 +64,7 @@ API Key и Sign Key.&#x20;
 Способ оплаты — **VietQR** - указать явно.
 {% endtab %}
 
-{% tab title="    PDF    " %}
+{% tab title="    PDF    " icon="right-long" %}
 <figure><img src="../../../.gitbook/assets/image (1046).png" alt=""><figcaption></figcaption></figure>
 
 Тип мерчанта — **Requisites** - Реквизиты выводятся по шорткодам \[to\_account], \[dest\_tag].
@@ -80,7 +82,7 @@ API Key и Sign Key.&#x20;
 {% endhint %}
 {% endtab %}
 
-{% tab title="   MOBCOM  " %}
+{% tab title="   MOBCOM  " icon="right-long" %}
 <figure><img src="../../../.gitbook/assets/image (1046).png" alt=""><figcaption></figcaption></figure>
 
 Тип мерчанта — **Requisites** - Реквизиты выводятся по шорткодам \[to\_account], \[dest\_tag].
@@ -90,7 +92,7 @@ API Key и Sign Key.&#x20;
 Способ оплаты — **Мобильная комерция** - указать явно.
 {% endtab %}
 
-{% tab title="      BT     " %}
+{% tab title="      BT     " icon="right-long" %}
 <figure><img src="../../../.gitbook/assets/image (1046).png" alt=""><figcaption></figcaption></figure>
 
 Тип мерчанта — **Requisites** - Реквизиты выводятся по шорткодам \[to\_account], \[dest\_tag].
