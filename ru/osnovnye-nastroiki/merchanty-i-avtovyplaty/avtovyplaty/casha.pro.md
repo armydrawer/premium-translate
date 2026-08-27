@@ -15,65 +15,65 @@ hidden: true
 ## Настройки в личном кабинете мерчанта
 
 {% hint style="warning" %}
-Для обсуждения условий и подключения, свяжитесь с [представителем сервиса](https://t.me/Partners2328).
+Для обсуждения условий и подключения, свяжитесь с представителем сервиса.
 
 **Дисклеймер**: при подключении вашего сайта к тому или иному сервису, пожалуйста, самостоятельно оценивайте возможные риски сотрудничества.
 {% endhint %}
 
-Зарегистрируйтесь на [сервисе 2328.io](https://my.2328.io/ru/register) и авторизуйтесь в личном кабинете мерчанта.
+Свяжитесь с представителем сервиса для подключения и получения данных от аккаунта.
 
-Создайте новый проект в разделе "**Проекты**". Заполните в открывшемся окне требуемые поля, отправьте заявку на рассмотрение и ожидайте смены статуса с "**На модерации**" на "**Активен**".
+С полученными данными [войдите в личный кабинет на стороне сервиса](https://casha.pro/).
 
-<figure><img src="../../../.gitbook/assets/image (306).png" alt=""><figcaption></figcaption></figure>
+В разделе "API ключи" создайте создайте ключи для подключения модуля.
 
-После активации проекта перейдите в его настройки и скопируйте выделенные ключи.
+<figure><img src="../../../.gitbook/assets/image (1096).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (307).png" alt="" width="563"><figcaption></figcaption></figure>
+Вы получите API ключ и секретный ключ. Сохраните их в отдельном текстовом файле.
+
+{% hint style="warning" %}
+Мерчант использует для выплат общий баланс в USDT и конвертирует сумму выплаты по внутреннему курсу.&#x20;
+
+Уточните у представителя сервиса включена ли для вашего аккаунта возможность такой автоматической конвертации.
+{% endhint %}
 
 ## Настройки модуля
 
 В панели администратора создайте нового мерчанта в разделе "**Мерчанты**" ➔ "**Добавить автовыплату".**
 
-Выберите 2328 в выпадающем списке в поле "**Модуль**", укажите название для модуля и нажмите "**Сохранить**".
+Выберите **Casha** в выпадающем списке в поле "**Модуль**", укажите название для модуля и нажмите "**Сохранить**".
 
-<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt="" width="357"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1105).png" alt=""><figcaption></figcaption></figure>
 
-Заполните указанные авторизационные поля.
+Заполните указанные поля авторизации в настройках модуля.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="376"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1111).png" alt=""><figcaption></figcaption></figure>
 
-**Домен** — оставьте поле пустым
+**Домен** — не заполняйте поле, оставьте его пустым.
 
-**Project ID** — ID, скопированный ранее в ЛК 2328
+**API ключ** —  API ключ, сгенерированный на стороне Casha.
 
-**Payment API Key** — Payment key, скопированный ранее в ЛК 2328
-
-**Payout API ключ** — Payout key, скопированный ранее в ЛК 2328
+**Секретный ключ** — Секретный ключ, сгенерированный на стороне Casha.
 
 ## Особые поля
 
-<div><figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure></div>
+<figure><img src="../../../.gitbook/assets/image (1117).png" alt=""><figcaption></figcaption></figure>
 
 **Код валюты** (для выплаты)**:**
 
 * **Доп. поля (Заявка)** — использование кода валюты из заявки (выберите **\[Получаете] Код валюты**)
 * **Доп. поля (Валюты)** — использование [доп.поля валюты](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya-obmena/dopolnitelnye-polya#dopolnitelnye-polya-dlya-valyuty) "**Получаю**"
 * **Доп. поля (Направления)** — использование [доп.поля направления обмена](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya-obmena/dopolnitelnye-polya#dopolnitelnye-polya-dlya-napravleniya-obmena)
-* **Код валюты** — ручной выбор валюты выплаты
+* **Код валюты** — ручной явный выбор валюты выплаты.
 
-<div><figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure></div>
+<figure><img src="../../../.gitbook/assets/image (1120).png" alt=""><figcaption></figcaption></figure>
 
-**Сеть** (для криптовалют)**:**
+Счет — Выберите поле в котором клиент указывает счет для выплаты.
 
-* **Доп. поля (Валюты)** — использование [доп.поля валюты](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya-obmena/dopolnitelnye-polya#dopolnitelnye-polya-dlya-valyuty) "**Получаю**"
-* **Доп. поля (Направления)** — использование [доп.поля направления обмена](https://premium.gitbook.io/main/osnovnye-nastroiki/valyuty-i-napravleniya-obmena/dopolnitelnye-polya#dopolnitelnye-polya-dlya-napravleniya-obmena)
-* **Сеть** — ручной выбор сети
+Для использования стандартного поля системы указывайте значение **\[Получаете] Счет**.
 
-<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
-**Конвертация из другой валюты (укажите код)** — поле используется для включения автоматической конвертации из выбранной валюты в валюту выплаты перед самой выплатой по заявке.&#x20;
 
-На момент составления инструкции на стороне 2328.io поддерживает только автоконвертацию из USDT.
+**Cron-файл -** [создайте задание](https://premium.gitbook.io/main/osnovnye-nastroiki/faq/kak-sozdat-zadanie-cron-na-servere) с такой ссылкой на сервер&#x435;**.**
 
 ## Продолжение настройки
 
