@@ -145,6 +145,7 @@
       * [APX](basic-settings/merchants-and-auto-payments/auto-payments/apx.md)
       * [Bankoro](basic-settings/merchants-and-auto-payments/auto-payments/bankoro.md)
       * [Binance](basic-settings/merchants-and-auto-payments/auto-payments/binance.md)
+      * [Casha.pro](basic-settings/merchants-and-auto-payments/auto-payments/001k.bot-1.md)
       * [Crypto-Cash Crypto](basic-settings/merchants-and-auto-payments/auto-payments/crypto-cash-crypto.md)
       * [Cryptoway](basic-settings/merchants-and-auto-payments/auto-payments/cryptoway.md)
       * [Ecpay.System](basic-settings/merchants-and-auto-payments/auto-payments/ecpay.system.md)
