@@ -199,6 +199,7 @@
     * [WestWallet](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/westwallet.md)
     * [Yobit](osnovnye-nastroiki/merchanty-i-avtovyplaty/avtovyplaty/yobit.md)
   * [Скидочные купоны](osnovnye-nastroiki/merchanty-i-avtovyplaty/skidochnye-kupony.md)
+  * [Модуль OnlyUSDT](osnovnye-nastroiki/merchanty-i-avtovyplaty/modul-onlyusdt.md)
 * [Модуль "Торговые действия"](osnovnye-nastroiki/modul-torgovye-deistviya/README.md)
   * [Установка модуля "Торговые действия"](osnovnye-nastroiki/modul-torgovye-deistviya/ustanovka-modulya-torgovye-deistviya/README.md)
     * [Общие настройки модуля](osnovnye-nastroiki/modul-torgovye-deistviya/ustanovka-modulya-torgovye-deistviya/obshie-nastroiki-modulya.md)
