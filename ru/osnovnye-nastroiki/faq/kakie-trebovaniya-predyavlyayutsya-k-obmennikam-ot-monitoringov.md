@@ -6,6 +6,56 @@
 
 <details>
 
+<summary>Включите пользователькое API для получения данных</summary>
+
+#### Предыдущая версия API
+
+Активируйте модуль "**Партнерская программа API**" в разделе "**Модули**"
+
+<img src="../../.gitbook/assets/image (1069).png" alt="" data-size="original">
+
+\
+Включите опцию "**Работать с REST API (ppapi)**" в настройках профиля пользователя\
+![](<../../.gitbook/assets/image (1243).png>)
+
+#### Актуальная версия API
+
+[**Документация по API**](https://premium.gitbook.io/main/api-premium-exchanger/api-v1)
+
+Активируйте модуль "**API**" в разделе "**Модули**"
+
+![](<../../.gitbook/assets/image (602).png>)
+
+В разделе "**API - Настройки**" установите опции согласно скриншоту ниже
+
+![](<../../.gitbook/assets/image (603).png>)
+
+Включите опцию "**Работать с REST API**" в настройках профиля пользователя, для которого будут выданы ключи
+
+![](<../../.gitbook/assets/image (601).png>)
+
+После этого пользователь сможет [самостоятельно выпустить ключи](https://premium.gitbook.io/main/api-premium-exchanger/api-v1#poluchenie-api-klyuchei-cherez-lichnyi-kabinet-polzovatelya) для доступа к API обменника.
+
+{% hint style="warning" %}
+ClickID система не передает, это требование опциональное.
+{% endhint %}
+
+</details>
+
+<details>
+
+<summary>Установите партнерское вознаграждение</summary>
+
+Найдите аккаунт мониторинга в разделе "Пользователи" по его ID или почте.
+
+При редактировании профиля найдите и заполните нужным значением поле "Персональный партнерский процент".
+
+<figure><img src="../../.gitbook/assets/image (1188).png" alt=""><figcaption></figcaption></figure>
+
+</details>
+
+<details>
+
 <summary>Атрибут "nofollow"</summary>
 
 Если вы получили письмо от мониторинга со следующим содержанием:
@@ -50,40 +100,6 @@
 Создайте режим в разделе "**Режим тех.обслуживания**" и в настройках режима настройте отображение XML-файла
 
 ![](<../../.gitbook/assets/image (961).png>)
-
-</details>
-
-<details>
-
-<summary>Включение REST API для мониторинга</summary>
-
-#### Предыдущая версия API
-
-Активируйте модуль "**Партнерская программа API**" в разделе "**Модули**"
-
-<img src="../../.gitbook/assets/image (1069).png" alt="" data-size="original">
-
-\
-Включите опцию "**Работать с REST API (ppapi)**" в настройках профиля пользователя\
-![](<../../.gitbook/assets/image (1243).png>)
-
-#### Актуальная версия API
-
-[**Документация по API**](https://premium.gitbook.io/main/api-premium-exchanger/api-v1)
-
-Активируйте модуль "**API**" в разделе "**Модули**"
-
-![](<../../.gitbook/assets/image (602).png>)
-
-В разделе "**API - Настройки**" установите опции согласно скриншоту ниже
-
-![](<../../.gitbook/assets/image (603).png>)
-
-Включите опцию "**Работать с REST API**" в настройках профиля пользователя, для которого будут выданы ключи
-
-![](<../../.gitbook/assets/image (601).png>)
-
-После этого пользователь сможет [самостоятельно выпустить ключи](https://premium.gitbook.io/main/api-premium-exchanger/api-v1#poluchenie-api-klyuchei-cherez-lichnyi-kabinet-polzovatelya) для доступа к API обменника.
 
 </details>
 
@@ -249,33 +265,6 @@
 • включен модуль "**Редирект на направление обмена**"\
 • параметры для вашего обменника передаются от Bestchange (если это не так - обратитесь в техническую поддержку мониторинга и попросите их включить передачу данных)\
 ![](<../../.gitbook/assets/image (1494).png>)
-
-</details>
-
-<details>
-
-<summary>"Просим Вас в ближайшее время установить последнее обновление модуля Premium Exchanger direction_xml"</summary>
-
-Вам необходимо обновить модуль на сервере для корректной работы сервиса BestChange с вашим экспортным xml-файлом.
-
-1. [Скачайте](https://premiumexchanger.com/uscripts/) дистрибутив с обновлением скрипта под вашу версию скрипта (версия PHP не имеет значения — скачайте любой архив вашей версии).
-
-<figure><img src="../../.gitbook/assets/image (2161).png" alt=""><figcaption></figcaption></figure>
-
-2. Деактивируйте модуль "**Настройка вывода направлений обмена в XML/TXT файле**" в разделе "**Модули**".
-
-<figure><img src="../../.gitbook/assets/image (2162).png" alt=""><figcaption></figcaption></figure>
-
-3. Зайдите в панель ISP Manager под пользователем, созданным для сайта, перейдите в раздел "**Сайты**", выберите нужный сайт и перейдите в раздел "**Файлы сайта**".
-
-<figure><img src="../../.gitbook/assets/image (2159).png" alt=""><figcaption></figcaption></figure>
-
-4. Разархивируйте скачанный ранее архив с обновлением скрипта. Загрузите папку **`direction_xml`** с заменой существующих файлов на сервер.\
-   Путь к папке: <mark style="color:orange;">**`wp-content/plugins/premiumbox/moduls/`**</mark>
-
-<figure><img src="../../.gitbook/assets/image (2160).png" alt=""><figcaption></figcaption></figure>
-
-5. Активируйте модуль "**Настройка вывода направлений обмена в XML/TXT файле**" в разделе "**Модули**".
 
 </details>
 
