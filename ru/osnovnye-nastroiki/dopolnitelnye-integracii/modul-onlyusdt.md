@@ -1,7 +1,3 @@
----
-hidden: true
----
-
 # Модуль OnlyUSDT
 
 {% hint style="info" %}
