@@ -210,6 +210,8 @@
       * [BitOK](basic-settings/aml-verification/setup-for-v.2.6-and-below/bitok.md)
       * [CoinKyt](basic-settings/aml-verification/setup-for-v.2.6-and-below/coinkyt.md)
       * [GetBlock](basic-settings/aml-verification/setup-for-v.2.6-and-below/getblock.md)
+  * [External integrations](basic-settings/external-integrations/README.md)
+    * [OnlyUSDT - TRON Energy](basic-settings/external-integrations/onlyusdt-tron-energy.md)
   * [Settings](basic-settings/settings/README.md)
     * [SEO](basic-settings/settings/seo/README.md)
       * [Google Tag Manager](basic-settings/settings/seo/google-tag-manager.md)
