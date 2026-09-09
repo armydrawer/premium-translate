@@ -15,6 +15,14 @@
 
 <figure><img src="../../../.gitbook/assets/изображение (108).png" alt=""><figcaption><p>define('DISALLOW_FILE_MODS', false);</p></figcaption></figure>
 
+{% hint style="info" %}
+Ошибка "Editing is disabled" указывает на то, что пользователь под которым вы проводите редактирование не обладает на него правами.
+{% endhint %}
+
+{% hint style="success" %}
+Проводите редактирование файла под пользователем которому правами разрешено такое редактирование, например под root пользователем.
+{% endhint %}
+
 4. В панели управления сайтом перейти в раздел "**Консоль" → "Обновления"** и нажать кнопку "**Обновить до версии х.х.х**".
 
 <figure><img src="../../../.gitbook/assets/изображение (153).png" alt=""><figcaption></figcaption></figure>
