@@ -290,6 +290,7 @@
         * [How to Check the PHP Version Used by Your Website](basic-settings/faq/updating-script-files-on-the-server/how-to-update-php/how-to-check-the-php-version-used-by-your-website.md)
     * [Request for the client to write a review of a successful exchange](basic-settings/faq/request-for-the-client-to-write-a-review-of-a-successful-exchange.md)
     * [What is a Non-Standard Fee in Exchange Direction Settings and How Does It Work?](basic-settings/faq/what-is-a-non-standard-fee-in-exchange-direction-settings-and-how-does-it-work.md)
+  * [Page 1](basic-settings/page-1.md)
 * [API Premium Exchanger](api-premium-exchanger/README.md)
   * [Affiliate Program API (Old Version)](api-premium-exchanger/affiliate-program-api-old-version.md)
   * [API v1](api-premium-exchanger/api-v1.md)
