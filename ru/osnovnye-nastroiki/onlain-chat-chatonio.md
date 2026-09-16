@@ -32,9 +32,9 @@
 
 ### 3. Получение Chatonio Channel ID
 
-Откройте настройки созданного веб-чата в личном кабинете Chatonio и полностью скопируйте “Код для встраивания” из раздела “Виджет веб-чата”.<br>
+Откройте настройки созданного веб-чата в личном кабинете Chatonio, в разделе "Виджет веб-чата" выберите вкладку "Только ID" и полностью скопируйте содержимое поля “ID канала”.<br>
 
-<img src="../.gitbook/assets/unknown (8).png" alt="" height="187" width="602">
+<figure><img src="../.gitbook/assets/image (1189).png" alt=""><figcaption></figcaption></figure>
 
 ### 4. Подключение Chatonio в Premium Exchanger
 
@@ -42,7 +42,7 @@
 
 Настройки → Основные настройки
 
-Найдите поле Chatonio Channel ID и вставьте в него скопированный ранее код
+Найдите поле Chatonio Channel ID и вставьте в него скопированный ранее ID канала.&#x20;
 
 <img src="../.gitbook/assets/unknown (3).png" alt="" height="285" width="602">
 
