@@ -1,4 +1,4 @@
-# Page 1
+# Chatonio online-chat
 
 [Chatonio](https://chatonio.com/) is a customer support service with a web chat and the ability to use AI to handle customer inquiries. Premium Exchanger provides a dedicated module for connecting the Chatonio widget to the website.
 
@@ -35,9 +35,9 @@ If you do not see the Chatonio module in the list of available modules, you will
 
 ### 3. Getting the Chatonio Channel ID <a href="#id-96p8yjbz5i1" id="id-96p8yjbz5i1"></a>
 
-Open the settings of the created web chat in your Chatonio account and copy the entire “Embed code” from the “Web Chat Widget” section.
+Open the settings of the created web chat in your Chatonio account. In the **“Web Chat Widget”** section, select the **“ID Only”** tab and copy the entire contents of the **“Channel ID”** field.
 
-<figure><img src="../.gitbook/assets/image (925).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (951).png" alt=""><figcaption></figcaption></figure>
 
 ### 4. Connecting Chatonio in Premium Exchanger <a href="#uktah7upxqxg" id="uktah7upxqxg"></a>
 
@@ -45,7 +45,7 @@ After activating the module, go to the exchange website admin panel:
 
 Settings → General Settings
 
-Find the Chatonio Channel ID field and paste the code you copied earlier into it.
+Find the Chatonio Channel ID field and paste the ID you copied earlier into it.
 
 <figure><img src="../.gitbook/assets/image (936).png" alt=""><figcaption></figcaption></figure>
 
