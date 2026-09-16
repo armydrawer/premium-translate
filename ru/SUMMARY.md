@@ -281,6 +281,7 @@
   * [Уведомления по e-mail](osnovnye-nastroiki/uvedomleniya-administratoram-i-klientam/uvedomleniya-po-e-mail.md)
   * [Уведомления по SMS](osnovnye-nastroiki/uvedomleniya-administratoram-i-klientam/uvedomleniya-po-sms.md)
 * [Финансовая статистика](osnovnye-nastroiki/finansovaya-statistika.md)
+* [Онлайн-чат Chatonio](osnovnye-nastroiki/onlain-chat-chatonio.md)
 * [FAQ](osnovnye-nastroiki/faq/README.md)
   * [Диагностика и решение ошибок при работе со скриптом](osnovnye-nastroiki/faq/diagnostika-i-reshenie-oshibok-pri-rabote-so-skriptom.md)
   * [Добавление IP-адресов в whitelist в Cloudflare](osnovnye-nastroiki/faq/dobavlenie-ip-adresov-v-whitelist-v-cloudflare.md)
