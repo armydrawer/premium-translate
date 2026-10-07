@@ -158,7 +158,7 @@
 
 <figure><img src="../../../.gitbook/assets/image_2026-06-26_145504995.png" alt=""><figcaption></figcaption></figure>
 
-3. Выберите **директорю premiumbox** и перетащите её в окно ISP Manager в аналогичную директорию:
+3. Выберите **директорию premiumbox** и перетащите её в окно ISP Manager в аналогичную директорию:
 
 <figure><img src="../../../.gitbook/assets/image_2026-06-26_150101769.png" alt=""><figcaption></figcaption></figure>
 
