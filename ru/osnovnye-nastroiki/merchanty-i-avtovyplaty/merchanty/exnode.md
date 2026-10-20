@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Exnode
 
 {% hint style="info" %}
