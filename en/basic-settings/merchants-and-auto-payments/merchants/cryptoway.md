@@ -20,7 +20,7 @@ Go to your project ➔ “API Keys”&#x20;
 
 <figure><img src="../../../.gitbook/assets/image (975).png" alt=""><figcaption></figcaption></figure>
 
-Copy the callback key and secret key to the clipboard or into notepad.&#x20;
+Copy the Project ID and secret key to the clipboard or into notepad.&#x20;
 
 <figure><img src="../../../.gitbook/assets/image (984).png" alt=""><figcaption></figcaption></figure>
 
@@ -38,7 +38,7 @@ Fill in the required authorization fields.
 
 **Domain —** do not fill in this field, leave it empty.
 
-**API key —** The callback key copied earlier in the Cryptoway user account.
+**API key —** Project ID copied earlier in the Cryptoway user account.
 
 **Secret key —** Key Secret that was previously copied to the Cryptoway account dashboard.
 
