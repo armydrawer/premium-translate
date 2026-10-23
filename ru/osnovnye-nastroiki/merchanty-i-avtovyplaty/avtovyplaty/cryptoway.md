@@ -16,27 +16,17 @@
 
 Зарегистрируйтесь на [сервисе Cryptoway](https://cryptoway.com/ru) и авторизуйтесь в личном кабинете.
 
-Перейдите в раздел с API ключами. Выпустите набор ключей по кнопке "Create API Key".
+Создайте проект в разделе сервиса ["Проекты"](https://account.cryptoway.com/ru/projects).
 
-<figure><img src="../../../.gitbook/assets/image_2026-06-24_181010889.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1214).png" alt=""><figcaption></figcaption></figure>
 
-Укажите произвольное имя для набора таких ключей и IP вашего сервера (опционально) в соответствующих полях.
+Перейдите в ваш проект ➔ "API ключи"&#x20;
 
-#### Установите галочки прав для создаваемой пары ключей:
+<figure><img src="../../../.gitbook/assets/image (1216).png" alt=""><figcaption></figcaption></figure>
 
-**Withdrawal —** для модуля автовыплаты. Права на вывод средств.
+Скопируйте Callback-ключ и секретный ключ в буфер обмена или блокнот.&#x20;
 
-**Deposits —** для модуля мерчанта. Права на приём средств.
-
-<figure><img src="../../../.gitbook/assets/image_2026-06-24_181519654.png" alt=""><figcaption></figcaption></figure>
-
-Подтвержите создание ключей указан код отправленный на почту регистрации.
-
-Скопируйте полученные **Key ID** и **Key Secret** в буфер обмена или текстовый файл.
-
-<figure><img src="../../../.gitbook/assets/image_2026-06-24_181856923.png" alt=""><figcaption></figcaption></figure>
-
-Ключит доступны для просмотра только при создании, повторно скопировать или просмотреть их не получится. Нужно будет создавать новую пару ключей.
+<figure><img src="../../../.gitbook/assets/image (1220).png" alt=""><figcaption></figcaption></figure>
 
 ## Настройки модуля
 
@@ -52,9 +42,9 @@
 
 **Домен** — не заполняйте поле, оставьте его пустым.
 
-**API ключ** — Key ID, скопированный ранее в ЛК Cryptoway.
+**API ключ** — Callback-ключ, скопированный ранее в ЛК Cryptoway.
 
-**Секретный ключ** — Key Secret,скопированный ранее в ЛК Cryptoway.
+**Секретный ключ** — секретный ключ,скопированный ранее в ЛК Cryptoway.
 
 ## Особые поля
 
