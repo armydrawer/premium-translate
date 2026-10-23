@@ -20,7 +20,7 @@
 
 <figure><img src="../../../.gitbook/assets/image (1216).png" alt=""><figcaption></figcaption></figure>
 
-Скопируйте Callback-ключ и секретный ключ в буфер обмена или блокнот.&#x20;
+Скопируйте ID проекта и секретный ключ в буфер обмена или блокнот.&#x20;
 
 <figure><img src="../../../.gitbook/assets/image (1220).png" alt=""><figcaption></figcaption></figure>
 
@@ -38,7 +38,7 @@
 
 **Домен** — не заполняйте поле, оставьте его пустым.
 
-**API ключ** — Callback-ключ, скопированный ранее в ЛК Cryptoway.
+**API ключ** — ID проекта, скопированный ранее в ЛК Cryptoway.
 
 **Секретный ключ** — секретный ключ,скопированный ранее в ЛК Cryptoway.
 
