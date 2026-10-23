@@ -18,27 +18,17 @@ If you need to update the module on the server, please refer to the [instruction
 
 Register on the [Cryptoway service](https://cryptoway.com/en) and log into your account.
 
-Go to the API keys section. Generate a set of keys by clicking "Create API Key".
+Create a project in the [“Projects”](https://account.cryptoway.com/projects) section of the service.
 
-<figure><img src="../../../.gitbook/assets/image_2026-06-24_181010889.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (973).png" alt=""><figcaption></figcaption></figure>
 
-Enter an arbitrary name for this set of keys and your server IP (optional) in the corresponding fields.
+Go to your project ➔ “API Keys”&#x20;
 
-#### Check the permission boxes for the key pair being created:
+<figure><img src="../../../.gitbook/assets/image (975).png" alt=""><figcaption></figcaption></figure>
 
-**Withdrawal —** for the auto payout module. Permission to withdraw funds.
+Copy the callback key and secret key to the clipboard or into notepad.&#x20;
 
-**Deposits —** for the merchant module. Permission to accept funds.
-
-<figure><img src="../../../.gitbook/assets/image_2026-06-24_181519654.png" alt=""><figcaption></figcaption></figure>
-
-Confirm the key creation by entering the code sent to your registration email.
-
-Copy the obtained Key ID and Key Secret to your clipboard or a text file.
-
-<figure><img src="../../../.gitbook/assets/image_2026-06-24_181856923.png" alt=""><figcaption></figcaption></figure>
-
-The keys are only available for viewing at the time of creation — they cannot be copied or viewed again. You will need to create a new key pair.
+<figure><img src="../../../.gitbook/assets/image (984).png" alt=""><figcaption></figcaption></figure>
 
 ## Module settings
 
@@ -54,9 +44,9 @@ Fill in the required authorization fields.
 
 **Domain —** do not fill in this field, leave it empty.
 
-**API key —** Key ID copied earlier from your Cryptoway account.
+**API key —** The callback key copied earlier in the Cryptoway user account.
 
-**Secret key —** Key Secret copied earlier from your Cryptoway account.
+**Secret key —** Key Secret that was previously copied to the Cryptoway account dashboard.
 
 ## Special Fields
 
